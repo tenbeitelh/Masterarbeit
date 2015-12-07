@@ -23,7 +23,7 @@ public class StemmingUDF extends EvalFunc<String> {
 			return null;
 		}
 
-		return (String) text;
+		return stem((String) text);
 	}
 
 	public String stem(String text) throws IOException {

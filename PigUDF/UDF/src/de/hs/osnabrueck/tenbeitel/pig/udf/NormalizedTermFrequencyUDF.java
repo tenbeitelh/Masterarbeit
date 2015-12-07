@@ -26,8 +26,8 @@ public class NormalizedTermFrequencyUDF extends EvalFunc<Map<String, Float>> {
 		if (text == null) {
 			return null;
 		}
-		calculateNormalizedTermFrequency((String) text);
-		return null;
+		
+		return calculateNormalizedTermFrequency((String) text);
 	}
 
 	private Map<String, Float> calculateNormalizedTermFrequency(String text) {

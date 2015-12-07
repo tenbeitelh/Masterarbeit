@@ -26,8 +26,8 @@ public class TermFrequencyUDF extends EvalFunc<Map<String, Integer>> {
 		if (text == null) {
 			return null;
 		}
-		calculateTermFrequency((String) text);
-		return null;
+		
+		return calculateTermFrequency((String) text);
 	}
 
 	private Map<String, Integer> calculateTermFrequency(String text) {

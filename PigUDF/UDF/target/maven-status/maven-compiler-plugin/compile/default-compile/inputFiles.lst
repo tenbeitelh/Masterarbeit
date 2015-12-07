@@ -1,7 +1,8 @@
 C:\development\git_projects\Masterarbeit\PigUDF\UDF\src\de\hs\osnabrueck\tenbeitel\pig\udf\TokenizationUDF.java
+C:\development\git_projects\Masterarbeit\PigUDF\UDF\src\de\hs\osnabrueck\tenbeitel\pig\udf\DocumentTermOccurenceUDF.java
 C:\development\git_projects\Masterarbeit\PigUDF\UDF\src\de\hs\osnabrueck\tenbeitel\pig\udf\StopWordUDF.java
 C:\development\git_projects\Masterarbeit\PigUDF\UDF\src\de\hs\osnabrueck\tenbeitel\pig\udf\TermFrequencyUDF.java
 C:\development\git_projects\Masterarbeit\PigUDF\UDF\src\de\hs\osnabrueck\tenbeitel\pig\udf\NormalizedTermFrequencyUDF.java
-C:\development\git_projects\Masterarbeit\PigUDF\UDF\src\de\hs\osnabrueck\tenbeitel\pig\udf\InverserDocumentFrequencyUDF.java
+C:\development\git_projects\Masterarbeit\PigUDF\UDF\src\de\hs\osnabrueck\tenbeitel\pig\udf\InverseDocumentFrequencyUDF.java
 C:\development\git_projects\Masterarbeit\PigUDF\UDF\src\de\hs\osnabrueck\tenbeitel\pig\udf\StemmingUDF.java
 C:\development\git_projects\Masterarbeit\PigUDF\UDF\src\de\hs\osnabrueck\tenbeitel\pig\udf\utils\PigConstants.java
