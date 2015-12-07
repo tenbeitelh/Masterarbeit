@@ -33,6 +33,11 @@
 			<version>${lucence.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>LucenceLib</groupId>
+			<artifactId>LucenceLib</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>

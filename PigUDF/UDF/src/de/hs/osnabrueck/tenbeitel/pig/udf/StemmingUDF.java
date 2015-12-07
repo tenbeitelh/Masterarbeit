@@ -1,14 +1,15 @@
-package de.hs.osnabrueck.htenbeitel.pig.udf;
+package de.hs.osnabrueck.tenbeitel.pig.udf;
 
 import java.io.IOException;
 
-import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.de.GermanAnalyzer;
-import org.apache.lucene.analysis.de.GermanStemFilter;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.pig.EvalFunc;
 import org.apache.pig.data.Tuple;
+
+import de.hs.osnabrueck.tenbeitel.pig.udf.utils.PigConstants;
+import de.hs.osnabrueck.tenbeitel.tokenizer.CustomGermanAnalyzer;
+import de.hs.osnabrueck.tenbeitel.tokenizer.enumeration.StemmingType;
 
 public class StemmingUDF extends EvalFunc<String> {
 
@@ -27,16 +28,19 @@ public class StemmingUDF extends EvalFunc<String> {
 
 	public String stem(String text) throws IOException {
 		StringBuilder stemWords;
-		try (Analyzer analyzer = new GermanAnalyzer()) {
+		try (CustomGermanAnalyzer analyzer = new CustomGermanAnalyzer()) {
 			TokenStream tStream = analyzer.tokenStream(null, text);
 			CharTermAttribute term = tStream.addAttribute(CharTermAttribute.class);
-			GermanStemFilter stemFilter = new GermanStemFilter(tStream);
+			tStream = analyzer.tokenStreamToLowerCase(tStream);
+			tStream = analyzer.stemTokenStream(tStream, StemmingType.GermanStemFilter);
+			tStream.reset();
 			stemWords = new StringBuilder();
-			while (stemFilter.incrementToken()) {
+			while (tStream.incrementToken()) {
 				stemWords.append(term.toString());
-				stemWords.append(" ");
+				stemWords.append(PigConstants.TOKEN_SEPERATOR);
 			}
-			stemFilter.close();
+			tStream.end();
+			tStream.close();
 		}
 		return stemWords.toString();
 	}

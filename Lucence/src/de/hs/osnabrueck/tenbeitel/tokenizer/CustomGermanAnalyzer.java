@@ -15,12 +15,10 @@ import org.apache.lucene.analysis.miscellaneous.SetKeywordMarkerFilter;
 import org.apache.lucene.analysis.snowball.SnowballFilter;
 import org.apache.lucene.analysis.standard.StandardFilter;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
-import org.apache.lucene.analysis.standard.std40.StandardTokenizer40;
 import org.apache.lucene.analysis.util.CharArraySet;
 import org.apache.lucene.analysis.util.StopwordAnalyzerBase;
 import org.apache.lucene.analysis.util.WordlistLoader;
 import org.apache.lucene.util.IOUtils;
-import org.apache.lucene.util.Version;
 
 import de.hs.osnabrueck.tenbeitel.tokenizer.enumeration.StemmingType;
 
@@ -35,13 +33,6 @@ public final class CustomGermanAnalyzer extends StopwordAnalyzerBase {
 
 	/** File containing default German stopwords. */
 	public final static String DEFAULT_STOPWORD_FILE = "german_stop.txt";
-
-	private boolean lowerCase = false;
-	private boolean stemming = false;
-	private boolean normalization = false;
-	private boolean keyword = false;
-	private boolean stopWord = false;
-	private StemmingType stemmingType = StemmingType.GermanLightStemFilter;
 
 	/**
 	 * Returns a set of default German-stopwords
@@ -120,102 +111,50 @@ public final class CustomGermanAnalyzer extends StopwordAnalyzerBase {
 	 */
 	@Override
 	protected TokenStreamComponents createComponents(String fieldName) {
-		final Tokenizer source;
-		if (getVersion().onOrAfter(Version.LUCENE_4_7_0)) {
-			source = new StandardTokenizer();
-		} else {
-			source = new StandardTokenizer40();
-		}
+		final Tokenizer source = new StandardTokenizer();;
+		// ==> deprecated
+		// if (getVersion().onOrAfter(Version.LUCENE_4_7_0)) {
+		// source = new StandardTokenizer();
+		// } else {
+		// source = new StandardTokenizer40();
+		// }
 		TokenStream result = new StandardFilter(source);
-		if (lowerCase) {
-			result = new LowerCaseFilter(result);
-		}
-		if (stopWord) {
-			result = new StopFilter(result, stopwords);
-		}
-		if (keyword) {
-			result = new SetKeywordMarkerFilter(result, exclusionSet);
-		}
-		if (stemming) {
-			switch (stemmingType) {
-			case GermanLightStemFilter:
-				result = new GermanNormalizationFilter(result);
-				break;
-			case GermanMinimalStemFilter:
-				result = new GermanStemFilter(result);
-				break;
-			case GermanStemFilter:
-				result = new GermanLightStemFilter(result);
-				break;
-			default:
-				result = new GermanLightStemFilter(result);
-				break;
-			}
-		}
 
 		return new TokenStreamComponents(source, result);
 	}
 
-	public boolean isLowerCase() {
-		return lowerCase;
+	public TokenStream labelKeywordsInStream(TokenStream stream) {
+		stream = new SetKeywordMarkerFilter(stream, exclusionSet);
+		return stream;
 	}
 
-	public boolean isStemming() {
-		return stemming;
+	public TokenStream tokenStreamToLowerCase(TokenStream stream) {
+		stream = new LowerCaseFilter(stream);
+		return stream;
 	}
 
-	public boolean isNormalization() {
-		return normalization;
+	public TokenStream removeStopWordsFromTokenStream(TokenStream stream) {
+		stream = new StopFilter(stream, stopwords);
+		return stream;
 	}
 
-	public boolean isKeyword() {
-		return keyword;
-	}
-	
-	public boolean isStopWord(){
-		return stopWord;
-	}
-
-	public void enableLowerCase() {
-		lowerCase = true;
-	}
-
-	public void disableLowerCase() {
-		lowerCase = false;
-	}
-
-	public void enableStemming(StemmingType type) {
-		stemming = true;
-		stemmingType = type;
+	public TokenStream stemTokenStream(TokenStream stream, StemmingType type) {
+		switch (type) {
+		case GermanLightStemFilter:
+			stream = new GermanNormalizationFilter(stream);
+			break;
+		case GermanMinimalStemFilter:
+			stream = new GermanStemFilter(stream);
+			break;
+		case GermanStemFilter:
+			stream = new GermanLightStemFilter(stream);
+			break;
+		default:
+			stream = new GermanLightStemFilter(stream);
+			break;
+		}
+		return stream;
 	}
 
-	public void diableStemming() {
-		stemming = false;
-		stemmingType = StemmingType.GermanLightStemFilter;
-	}
-
-	public void enableNormalization() {
-		normalization = true;
-	}
-
-	public void disableNormalization() {
-		normalization = false;
-	}
-
-	public void enableKeyword() {
-		keyword = true;
-	}
-
-	public void diableKeyword() {
-		keyword = false;
-	}
-
-	public void enableStopWords() {
-		stopWord = true;
-	}
-
-	public void disableStopWords() {
-		stopWord = false;
-	}
 
 }
