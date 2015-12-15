@@ -21,7 +21,7 @@ import de.hs.osnabrueck.tenbeitel.pig.udf.utils.PigConstants;
  *
  */
 public class InverseDocumentFrequencyUDF extends EvalFunc<Map<String, Double>> {
-
+   
 	@Override
 	public Map<String, Double> exec(Tuple input) throws IOException {
 
