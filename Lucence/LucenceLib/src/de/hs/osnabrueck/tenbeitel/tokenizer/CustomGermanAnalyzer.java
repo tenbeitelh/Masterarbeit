@@ -31,7 +31,7 @@ import de.hs.osnabrueck.tenbeitel.tokenizer.enumeration.StemmingType;
  */
 public final class CustomGermanAnalyzer extends StopwordAnalyzerBase {
 
-	/** File containing default German stopwords. */
+	/** File containing default German stopwords. Provided by lucence lib*/
 	public final static String DEFAULT_STOPWORD_FILE = "german_stop.txt";
 
 	/**
