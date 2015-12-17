@@ -11,6 +11,9 @@ non_empty_tweets2 = FILTER non_empty_tweets BY SIZE((chararray)json#'text')>0;
 
 de_tweets = FILTER non_empty_tweets2 BY (json#'lang' == '$lang');
 
+-- entfernen von URLS und HASHTAGS
+-- eventuelle Auslagerung in seperate Variable
+
 distinct_de_tweets = DISTINCT de_tweets;
 
 STORE distinct_de_tweets INTO '/project/preprocessing/$output_folder_name' USING com.twitter.elephantbird.pig.store.LzoJsonStorage();
