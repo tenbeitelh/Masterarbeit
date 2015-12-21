@@ -11,6 +11,7 @@ import java.util.Set;
 import org.apache.commons.collections.Bag;
 import org.apache.commons.collections.bag.HashBag;
 import org.apache.pig.EvalFunc;
+import org.apache.pig.backend.executionengine.ExecException;
 import org.apache.pig.data.BagFactory;
 import org.apache.pig.data.DataBag;
 import org.apache.pig.data.Tuple;
@@ -35,7 +36,7 @@ public class NormalizedTermFrequencyUDF extends EvalFunc<DataBag> {
 		return calculateNormalizedTermFrequency((String) text);
 	}
 
-	private DataBag calculateNormalizedTermFrequency(String text) {
+	private DataBag calculateNormalizedTermFrequency(String text) throws ExecException {
 		DataBag resultBag = bagFactory.newDefaultBag();
 		String[] termArray = text.split(PigConstants.TOKEN_SEPERATOR);
 
@@ -48,10 +49,10 @@ public class NormalizedTermFrequencyUDF extends EvalFunc<DataBag> {
 		for (String term : distinctTerms) {
 			float objectCount = bag.getCount(term);
 			float frequency = objectCount / bagSize;
-			
-			Tuple tuple = tupleFactory.newTuple();
-			tuple.append(term);
-			tuple.append(frequency);
+
+			Tuple tuple = tupleFactory.newTuple(2);
+			tuple.set(0, term);
+			tuple.set(1, frequency);
 			resultBag.add(tuple);
 		}
 
