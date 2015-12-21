@@ -39,9 +39,7 @@ public class TermFrequencyUDF extends EvalFunc<Map<String, Integer>> {
 		Set<String> distinctTerms = new HashSet<String>(termList);
 		for (String term : distinctTerms) {
 			int objectCount = bag.getCount(term);
-
 			resultMap.put(term, objectCount);
-
 		}
 
 		return resultMap;

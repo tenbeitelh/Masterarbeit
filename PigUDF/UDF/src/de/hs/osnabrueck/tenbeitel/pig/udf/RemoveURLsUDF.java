@@ -6,7 +6,7 @@ import org.apache.pig.EvalFunc;
 import org.apache.pig.data.Tuple;
 
 public class RemoveURLsUDF extends EvalFunc<String> {
-	private static final String URL_REGEX = "^(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
+	private static final String URL_REGEX = "(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
 	
 	@Override
 	public String exec(Tuple input) throws IOException {
@@ -19,13 +19,11 @@ public class RemoveURLsUDF extends EvalFunc<String> {
 		}
 		return removeURLs((String) text);
 	}
+	
 
 	private String removeURLs(String text) {
 		String textWithoutUrls = text.replaceAll(URL_REGEX, "");
 		return textWithoutUrls;
 	}
 	
-	
-	
-
 }

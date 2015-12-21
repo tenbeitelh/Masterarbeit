@@ -11,14 +11,19 @@ import java.util.Set;
 import org.apache.commons.collections.Bag;
 import org.apache.commons.collections.bag.HashBag;
 import org.apache.pig.EvalFunc;
+import org.apache.pig.data.BagFactory;
+import org.apache.pig.data.DataBag;
 import org.apache.pig.data.Tuple;
+import org.apache.pig.data.TupleFactory;
 
 import de.hs.osnabrueck.tenbeitel.pig.udf.utils.PigConstants;
 
-public class NormalizedTermFrequencyUDF extends EvalFunc<Map<String, Float>> {
+public class NormalizedTermFrequencyUDF extends EvalFunc<DataBag> {
+	private static BagFactory bagFactory = BagFactory.getInstance();
+	private static TupleFactory tupleFactory = TupleFactory.getInstance();
 
 	@Override
-	public Map<String, Float> exec(Tuple input) throws IOException {
+	public DataBag exec(Tuple input) throws IOException {
 		if (input == null || input.size() == 0) {
 			return null;
 		}
@@ -26,27 +31,31 @@ public class NormalizedTermFrequencyUDF extends EvalFunc<Map<String, Float>> {
 		if (text == null) {
 			return null;
 		}
-		
+
 		return calculateNormalizedTermFrequency((String) text);
 	}
 
-	private Map<String, Float> calculateNormalizedTermFrequency(String text) {
-		Map<String, Float> resultMap = new HashMap<String, Float>();
+	private DataBag calculateNormalizedTermFrequency(String text) {
+		DataBag resultBag = bagFactory.newDefaultBag();
 		String[] termArray = text.split(PigConstants.TOKEN_SEPERATOR);
+
 		int bagSize = termArray.length;
 		List<String> termList = Arrays.asList(termArray);
+
 		Bag bag = new HashBag(termList);
 
 		Set<String> distinctTerms = new HashSet<String>(termList);
 		for (String term : distinctTerms) {
-			int objectCount = bag.getCount(term);
-
+			float objectCount = bag.getCount(term);
 			float frequency = objectCount / bagSize;
-			resultMap.put(term, frequency);
-
+			
+			Tuple tuple = tupleFactory.newTuple();
+			tuple.append(term);
+			tuple.append(frequency);
+			resultBag.add(tuple);
 		}
 
-		return resultMap;
+		return resultBag;
 
 	}
 

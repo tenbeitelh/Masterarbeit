@@ -11,6 +11,7 @@ import org.apache.lucene.analysis.core.StopFilter;
 import org.apache.lucene.analysis.de.GermanLightStemFilter;
 import org.apache.lucene.analysis.de.GermanNormalizationFilter;
 import org.apache.lucene.analysis.de.GermanStemFilter;
+import org.apache.lucene.analysis.miscellaneous.LengthFilter;
 import org.apache.lucene.analysis.miscellaneous.SetKeywordMarkerFilter;
 import org.apache.lucene.analysis.snowball.SnowballFilter;
 import org.apache.lucene.analysis.standard.StandardFilter;
@@ -121,6 +122,11 @@ public final class CustomGermanAnalyzer extends StopwordAnalyzerBase {
 		TokenStream result = new StandardFilter(source);
 
 		return new TokenStreamComponents(source, result);
+	}
+	
+	public TokenStream limitTokenLength(TokenStream stream, int minValue, int maxValue){
+		TokenStream result = new LengthFilter(stream, minValue, maxValue);
+		return result;
 	}
 
 	public TokenStream labelKeywordsInStream(TokenStream stream) {
