@@ -11,6 +11,8 @@ preprocessed_twitter_files = LOAD '/project/preprocessing/$input_folder' USING c
 -- Feature selection: only get the necessary features for the classification and clustering algorithms,
 features_selected = FOREACH preprocessed_twitter_files GENERATE json#'id', json#'id_str', json#'in_reply_to_screen_name', json#'in_preply_to_status_id_str', json#'in_reply_to_status_id', json#'in_reply_to_user_id_str', json#'in_reply_to_user_id', json#'created_at', json#'lang', json#'text', json#'entities', json#'user';
 
-class_clust_features = FOREACH preprocessed_twitter_files GENERATE json#'id', json#'text';
+clustering_features = FOREACH preprocessed_twitter_files GENERATE json#'id', json#'text';
 
-STORE features_selected INTO '/project/transformation/complete/$output_folder_name' USING MultiStorage('/project/transformation/complete/$output_folder_name','0', 'none', '\\t');
+STORE features_selected INTO '/project/transformation/complete/$output_folder_name' USING org.apache.pig.piggybank.storage.MultiStorage('/project/transformation/complete/$output_folder_name','0', 'none', '\\t');
+
+STORE clustering_features INTO '/project/transformation/clustering' USING org.apache.pig.piggybank.storage.MultiStorage('/project/transformation/clustering/$output_folder_name','0', 'none', '\\t');
