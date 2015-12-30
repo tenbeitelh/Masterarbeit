@@ -23,6 +23,7 @@ public class RemoveURLsUDF extends EvalFunc<String> {
 
 	private String removeURLs(String text) {
 		String textWithoutUrls = text.replaceAll(URL_REGEX, "");
+		textWithoutUrls = textWithoutUrls.replaceAll("\\s+", " ");
 		return textWithoutUrls;
 	}
 	

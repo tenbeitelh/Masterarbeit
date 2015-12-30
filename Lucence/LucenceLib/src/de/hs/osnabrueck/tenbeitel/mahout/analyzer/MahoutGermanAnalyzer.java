@@ -8,10 +8,9 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.core.LowerCaseFilter;
 import org.apache.lucene.analysis.core.StopFilter;
+import org.apache.lucene.analysis.core.WhitespaceTokenizer;
 import org.apache.lucene.analysis.de.GermanLightStemFilter;
 import org.apache.lucene.analysis.de.GermanNormalizationFilter;
-import org.apache.lucene.analysis.de.GermanStemFilter;
-import org.apache.lucene.analysis.miscellaneous.LengthFilter;
 import org.apache.lucene.analysis.miscellaneous.SetKeywordMarkerFilter;
 import org.apache.lucene.analysis.snowball.SnowballFilter;
 import org.apache.lucene.analysis.standard.StandardFilter;
@@ -21,8 +20,6 @@ import org.apache.lucene.analysis.util.StopwordAnalyzerBase;
 import org.apache.lucene.analysis.util.WordlistLoader;
 import org.apache.lucene.util.IOUtils;
 
-import de.hs.osnabrueck.tenbeitel.tokenizer.enumeration.StemmingType;
-
 /**
  * Custom Implemenation of the GermanAnalyzer of Lucence v5. It is necessary to
  * get controll of the stemming and tokenization process
@@ -30,9 +27,8 @@ import de.hs.osnabrueck.tenbeitel.tokenizer.enumeration.StemmingType;
  * @author H. Tenbeitel
  *
  */
-public final class GermanAnalyzer extends StopwordAnalyzerBase {
-
-	/** File containing default German stopwords. Provided by lucence lib*/
+public class MahoutGermanAnalyzer extends StopwordAnalyzerBase {
+	/** File containing default German stopwords. */
 	public final static String DEFAULT_STOPWORD_FILE = "german_stop.txt";
 
 	/**
@@ -72,7 +68,7 @@ public final class GermanAnalyzer extends StopwordAnalyzerBase {
 	 * Builds an analyzer with the default stop words:
 	 * {@link #getDefaultStopSet()}.
 	 */
-	public GermanAnalyzer() {
+	public MahoutGermanAnalyzer() {
 		this(DefaultSetHolder.DEFAULT_SET);
 	}
 
@@ -82,7 +78,7 @@ public final class GermanAnalyzer extends StopwordAnalyzerBase {
 	 * @param stopwords
 	 *            a stopword set
 	 */
-	public GermanAnalyzer(CharArraySet stopwords) {
+	public MahoutGermanAnalyzer(CharArraySet stopwords) {
 		this(stopwords, CharArraySet.EMPTY_SET);
 	}
 
@@ -94,7 +90,7 @@ public final class GermanAnalyzer extends StopwordAnalyzerBase {
 	 * @param stemExclusionSet
 	 *            a stemming exclusion set
 	 */
-	public GermanAnalyzer(CharArraySet stopwords, CharArraySet stemExclusionSet) {
+	public MahoutGermanAnalyzer(CharArraySet stopwords, CharArraySet stemExclusionSet) {
 		super(stopwords);
 		exclusionSet = CharArraySet.unmodifiableSet(CharArraySet.copy(stemExclusionSet));
 	}
@@ -112,55 +108,14 @@ public final class GermanAnalyzer extends StopwordAnalyzerBase {
 	 */
 	@Override
 	protected TokenStreamComponents createComponents(String fieldName) {
-		final Tokenizer source = new StandardTokenizer();;
-		// ==> deprecated
-		// if (getVersion().onOrAfter(Version.LUCENE_4_7_0)) {
+		final Tokenizer source;
 		// source = new StandardTokenizer();
-		// } else {
-		// source = new StandardTokenizer40();
-		// }
-		TokenStream result = new StandardFilter(source);
+		source = new WhitespaceTokenizer();
 
+		TokenStream result = new StandardFilter(source);
+		result = new LowerCaseFilter(result);
+		result = new StopFilter(result, stopwords);
+		result = new GermanNormalizationFilter(result);
 		return new TokenStreamComponents(source, result);
 	}
-	
-	public TokenStream limitTokenLength(TokenStream stream, int minValue, int maxValue){
-		TokenStream result = new LengthFilter(stream, minValue, maxValue);
-		return result;
-	}
-
-	public TokenStream labelKeywordsInStream(TokenStream stream) {
-		stream = new SetKeywordMarkerFilter(stream, exclusionSet);
-		return stream;
-	}
-
-	public TokenStream tokenStreamToLowerCase(TokenStream stream) {
-		stream = new LowerCaseFilter(stream);
-		return stream;
-	}
-
-	public TokenStream removeStopWordsFromTokenStream(TokenStream stream) {
-		stream = new StopFilter(stream, stopwords);
-		return stream;
-	}
-
-	public TokenStream stemTokenStream(TokenStream stream, StemmingType type) {
-		switch (type) {
-		case GermanLightStemFilter:
-			stream = new GermanNormalizationFilter(stream);
-			break;
-		case GermanMinimalStemFilter:
-			stream = new GermanStemFilter(stream);
-			break;
-		case GermanStemFilter:
-			stream = new GermanLightStemFilter(stream);
-			break;
-		default:
-			stream = new GermanLightStemFilter(stream);
-			break;
-		}
-		return stream;
-	}
-
-
 }
