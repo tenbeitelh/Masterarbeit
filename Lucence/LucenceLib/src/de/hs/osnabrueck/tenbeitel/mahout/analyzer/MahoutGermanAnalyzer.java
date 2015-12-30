@@ -109,8 +109,7 @@ public class MahoutGermanAnalyzer extends StopwordAnalyzerBase {
 	@Override
 	protected TokenStreamComponents createComponents(String fieldName) {
 		final Tokenizer source;
-		// source = new StandardTokenizer();
-		source = new WhitespaceTokenizer();
+		source = new StandardTokenizer();
 
 		TokenStream result = new StandardFilter(source);
 		result = new LowerCaseFilter(result);

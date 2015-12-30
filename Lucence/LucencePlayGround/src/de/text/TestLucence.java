@@ -23,7 +23,7 @@ public class TestLucence {
 
 		try {
 
-			System.out.println(test.standard("He lives at 14411 W. Randolpf."));
+			System.out.println(test.test("He lives, at 14411 W. Randolpf."));
 			// System.out.println("STEMING:");
 			// System.out.println(test.stemText(TEXT));
 			// // System.out.println(test.stemTextLight(TEXT));
@@ -39,6 +39,24 @@ public class TestLucence {
 
 		// test.stem2(TEXT);
 
+	}
+	
+	public String test(String text) throws IOException{
+		try(GermanAnalyzer analyzer = new GermanAnalyzer()){
+			TokenStream s = analyzer.tokenStream(null, text);
+			CharTermAttribute term = s.addAttribute(CharTermAttribute.class);
+
+			s.reset();
+			StringBuilder sb = new StringBuilder();
+			while (s.incrementToken()) {
+				sb.append("[");
+				sb.append(term.toString());
+				sb.append("] ");
+			}
+
+			return sb.toString();
+
+		}
 	}
 
 	public String standard(String text) throws IOException {
