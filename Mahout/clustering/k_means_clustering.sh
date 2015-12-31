@@ -16,7 +16,7 @@ initial_centroids="$outputDir\initial_centroids"
 
 mahout kmeans \
 --input $inputDir \
---output cluster_output \
+--output $cluster_output \
 --clusters $initial_centroids \
 --numClusters 3 \
 --distanceMeasure org.apache.mahout.common.distance.CosineDistanceMeasure \
