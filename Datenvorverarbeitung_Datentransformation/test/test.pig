@@ -16,13 +16,14 @@ de_tweets = FILTER non_empty_tweets2 BY (json#'lang' == '$lang');
 distinct_de_tweets = DISTINCT de_tweets;
 
 --Store cleared files for further processing tasks. 
-STORE distinct_de_tweets INTO '/project/preprocessing/2015_12_31/preprocess_files' USING com.twitter.elephantbird.pig.store.LzoJsonStorage();
 
-features_selected = FOREACH preprocessed_twitter_files GENERATE json#'id', json#'id_str', json#'in_reply_to_screen_name', json#'in_preply_to_status_id_str', json#'in_reply_to_status_id', json#'in_reply_to_user_id_str', json#'in_reply_to_user_id', json#'created_at', json#'lang', json#'text', json#'entities', json#'user';
-DESCRIBE features_selected;
+mkdir /project/2015_12_31
 
+STORE distinct_de_tweets INTO '/project/2015_12_31/preprocessed_files' USING com.twitter.elephantbird.pig.store.LzoJsonStorage();
+
+features_selected = FOREACH distinct_de_tweets GENERATE json#'id', json#'id_str', json#'in_reply_to_screen_name', json#'in_preply_to_status_id_str', json#'in_reply_to_status_id', json#'in_reply_to_user_id_str', json#'in_reply_to_user_id', json#'created_at', json#'lang', json#'text', json#'entities', json#'user';
 
 -- select only the tweet id, the create date and the text(w/o urls) as features for the clustering process
 clustering_features = FOREACH  features_selected GENERATE $0, $7, de.hs.osnabrueck.tenbeitel.pig.udf.RemoveURLsUDF($9); 
 
-STORE clustering_features INTO '/project/preprocessing/2015_12_31/cluster_raw' USING PigStorage(';');
+STORE clustering_features INTO '/project/2015_12_31/cluster_raw/' USING PigStorage(';');
