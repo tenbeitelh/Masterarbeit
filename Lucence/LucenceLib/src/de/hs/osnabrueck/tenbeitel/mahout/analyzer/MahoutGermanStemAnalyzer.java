@@ -8,17 +8,19 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.core.LowerCaseFilter;
 import org.apache.lucene.analysis.core.StopFilter;
+import org.apache.lucene.analysis.de.GermanAnalyzer;
 import org.apache.lucene.analysis.de.GermanLightStemFilter;
 import org.apache.lucene.analysis.de.GermanNormalizationFilter;
 import org.apache.lucene.analysis.miscellaneous.SetKeywordMarkerFilter;
 import org.apache.lucene.analysis.snowball.SnowballFilter;
 import org.apache.lucene.analysis.standard.StandardFilter;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
+import org.apache.lucene.analysis.standard.std40.StandardTokenizer40;
 import org.apache.lucene.analysis.util.CharArraySet;
 import org.apache.lucene.analysis.util.StopwordAnalyzerBase;
 import org.apache.lucene.analysis.util.WordlistLoader;
 import org.apache.lucene.util.IOUtils;
-
+import org.apache.lucene.util.Version;
 
 public class MahoutGermanStemAnalyzer extends StopwordAnalyzerBase {
 	/** File containing default German stopwords. */
@@ -58,35 +60,35 @@ public class MahoutGermanStemAnalyzer extends StopwordAnalyzerBase {
 	private final CharArraySet exclusionSet;
 
 	/**
-	   * Builds an analyzer with the default stop words:
-	   * {@link #getDefaultStopSet()}.
-	   */
-	  public MahoutGermanStemAnalyzer() {
-	    this(DefaultSetHolder.DEFAULT_SET);
-	  }
+	 * Builds an analyzer with the default stop words:
+	 * {@link #getDefaultStopSet()}.
+	 */
+	public MahoutGermanStemAnalyzer() {
+		this(DefaultSetHolder.DEFAULT_SET);
+	}
 
 	/**
-	   * Builds an analyzer with the given stop words 
-	   * 
-	   * @param stopwords
-	   *          a stopword set
-	   */
-	  public MahoutGermanStemAnalyzer(CharArraySet stopwords) {
-	    this(stopwords, CharArraySet.EMPTY_SET);
-	  }
+	 * Builds an analyzer with the given stop words
+	 * 
+	 * @param stopwords
+	 *            a stopword set
+	 */
+	public MahoutGermanStemAnalyzer(CharArraySet stopwords) {
+		this(stopwords, CharArraySet.EMPTY_SET);
+	}
 
 	/**
-	   * Builds an analyzer with the given stop words
-	   * 
-	   * @param stopwords
-	   *          a stopword set
-	   * @param stemExclusionSet
-	   *          a stemming exclusion set
-	   */
-	  public MahoutGermanStemAnalyzer(CharArraySet stopwords, CharArraySet stemExclusionSet) {
-	    super(stopwords);
-	    exclusionSet = CharArraySet.unmodifiableSet(CharArraySet.copy(stemExclusionSet));
-	  }
+	 * Builds an analyzer with the given stop words
+	 * 
+	 * @param stopwords
+	 *            a stopword set
+	 * @param stemExclusionSet
+	 *            a stemming exclusion set
+	 */
+	public MahoutGermanStemAnalyzer(CharArraySet stopwords, CharArraySet stemExclusionSet) {
+		super(stopwords);
+		exclusionSet = CharArraySet.unmodifiableSet(CharArraySet.copy(stemExclusionSet));
+	}
 
 	/**
 	 * Creates {@link org.apache.lucene.analysis.Analyzer.TokenStreamComponents}
@@ -102,13 +104,18 @@ public class MahoutGermanStemAnalyzer extends StopwordAnalyzerBase {
 	@Override
 	protected TokenStreamComponents createComponents(String fieldName) {
 		final Tokenizer source;
-		source = new StandardTokenizer();
-		
+		if (getVersion().onOrAfter(Version.LUCENE_4_7_0)) {
+			source = new StandardTokenizer();
+		} else {
+			source = new StandardTokenizer40();
+		}
+
 		TokenStream result = new StandardFilter(source);
 		result = new LowerCaseFilter(result);
 		result = new StopFilter(result, stopwords);
 		result = new GermanNormalizationFilter(result);
+		result = new GermanLightStemFilter(result);
 		return new TokenStreamComponents(source, result);
 	}
+	
 }
-

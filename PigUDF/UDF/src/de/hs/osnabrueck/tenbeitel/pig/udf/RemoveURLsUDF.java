@@ -2,6 +2,7 @@ package de.hs.osnabrueck.tenbeitel.pig.udf;
 
 import java.io.IOException;
 
+import org.apache.lucene.analysis.de.GermanAnalyzer;
 import org.apache.pig.EvalFunc;
 import org.apache.pig.data.Tuple;
 
@@ -25,6 +26,7 @@ public class RemoveURLsUDF extends EvalFunc<String> {
 		String textWithoutUrls = text.replaceAll(URL_REGEX, "");
 		textWithoutUrls = textWithoutUrls.replaceAll("\\s+", " ");
 		return textWithoutUrls;
+		CosineS
 	}
 	
 }
