@@ -4,7 +4,7 @@ REGISTER hdfs:///lib/elephantbird/elephant-bird-hadoop-compat-4.10.jar;
 REGISTER hdfs:///lib/elephantbird/google-collections-1.0.jar;
 REGISTER hdfs:///lib/elephantbird/json-simple-1.1.jar;
 
-REGISTER hdfs:///lib/tenbeitel/...;
+REGISTER hdfs:///lib/tenbeitel/CustomPigUDFs-0.0.1-SNAPSHOT.jar;
 
 twitter_files_of_month = LOAD '/user/flume/keyword/tweets/2015/12/31' USING com.twitter.elephantbird.pig.load.JsonLoader('-nestedLoad') AS (json:map[]);
 
