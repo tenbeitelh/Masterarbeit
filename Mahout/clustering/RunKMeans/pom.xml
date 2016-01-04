@@ -6,27 +6,43 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<mahout.version>0.9</mahout.version>
-		<hadoop.version>2.6.0</hadoop.version>
+		<mahout.version>0.10.2</mahout.version>
+		<hadoop.version>2.4.1</hadoop.version>
 	</properties>
+	<repositories>
+		<repository>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+				<checksumPolicy>warn</checksumPolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+				<updatePolicy>never</updatePolicy>
+				<checksumPolicy>fail</checksumPolicy>
+			</snapshots>
+			<id>HDPReleases</id>
+			<name>HDP Releases</name>
+			<url>http://repo.hortonworks.com/content/repositories/releases/</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
 	<dependencies>
-		<dependency>
-			<groupId>org.apache.mahout</groupId>
-			<artifactId>mahout-core</artifactId>
-			<version>${mahout.version}</version>
-			<scope>provided</scope>
-		</dependency>
+
 		<dependency>
 			<groupId>org.apache.mahout</groupId>
 			<artifactId>mahout-math</artifactId>
 			<version>${mahout.version}</version>
-			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.mahout</groupId>
+			<artifactId>mahout-mr</artifactId>
+			<version>${mahout.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.mahout</groupId>
 			<artifactId>mahout-examples</artifactId>
 			<version>${mahout.version}</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>MahoutLucenceLib</groupId>

@@ -1,0 +1,5 @@
+mahout seq2sparse -i hdfs://master.hs.osnabrueck.de:8020/output/seq_files -o hdfs://master.hs.osnabrueck.de:8020/output/seq_files-veq -a org.apache.lucene.analysis.de.GermanAnalyzer
+
+mahout kmeans -k 20 -i hdfs://master.hs.osnabrueck.de:8020/output/seq_files-veq/tfidf-vectors/ -c hdfs://master.hs.osnabrueck.de:8020/output/initial-clusters_s -o hdfs://master.hs.osnabrueck.de:8020/output/clusters_s3 -x 20 -cl -dm org.apache.mahout.common.distance.CosineDistanceMeasure -cd 0.1
+
+mahout clusterdump -dt sequencefile -d hdfs://master.hs.osnabrueck.de:8020/output/seq_files-veq/dictionary.file-* -i hdfs://master.hs.osnabrueck.de:8020/output/clusters_s3/clusters-2-final -o /home/ambari/Data_Mining/cdump.txt -dm org.apache.mahout.common.distance.CosineDistanceMeasure
