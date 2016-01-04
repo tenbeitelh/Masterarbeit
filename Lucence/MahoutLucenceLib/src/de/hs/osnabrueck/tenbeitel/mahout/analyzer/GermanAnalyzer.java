@@ -126,14 +126,14 @@ public class GermanAnalyzer extends StopwordAnalyzerBase {
 		result = new LowerCaseFilter(matchVersion, result);
 		result = new StopFilter(matchVersion, result, stopwords);
 		// result = new SetKeywordMarkerFilter(result, exclusionSet);
-//		if (matchVersion.onOrAfter(Version.LUCENE_36)) {
-//			result = new GermanNormalizationFilter(result);
-//			result = new GermanLightStemFilter(result);
-//		} else if (matchVersion.onOrAfter(Version.LUCENE_31)) {
-//			result = new SnowballFilter(result, new German2Stemmer());
-//		} else {
-//			result = new GermanStemFilter(result);
-//		}
+		// if (matchVersion.onOrAfter(Version.LUCENE_36)) {
+		// result = new GermanNormalizationFilter(result);
+		// result = new GermanLightStemFilter(result);
+		// } else if (matchVersion.onOrAfter(Version.LUCENE_31)) {
+		// result = new SnowballFilter(result, new German2Stemmer());
+		// } else {
+		// result = new GermanStemFilter(result);
+		// }
 		return new TokenStreamComponents(source, result);
 	}
 }
