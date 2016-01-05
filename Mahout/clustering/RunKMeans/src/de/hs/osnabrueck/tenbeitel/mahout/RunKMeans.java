@@ -1,20 +1,13 @@
 package de.hs.osnabrueck.tenbeitel.mahout;
 
-import java.io.IOException;
 import java.util.List;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.SequenceFile;
-import org.apache.hadoop.io.SequenceFile.Reader.Option;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.lucene.util.Version;
-import org.apache.mahout.clustering.Cluster;
-import org.apache.mahout.clustering.classify.WeightedVectorWritable;
 import org.apache.mahout.clustering.kmeans.KMeansDriver;
 import org.apache.mahout.clustering.kmeans.RandomSeedGenerator;
 import org.apache.mahout.common.HadoopUtil;
@@ -22,7 +15,6 @@ import org.apache.mahout.common.Pair;
 import org.apache.mahout.common.distance.CosineDistanceMeasure;
 import org.apache.mahout.vectorizer.DictionaryVectorizer;
 import org.apache.mahout.vectorizer.DocumentProcessor;
-import org.apache.mahout.vectorizer.VectorizerConfig;
 import org.apache.mahout.vectorizer.tfidf.TFIDFConverter;
 
 import de.hs.osnabrueck.tenbeitel.mahout.analyzer.GermanAnalyzer;
@@ -48,7 +40,6 @@ public class RunKMeans extends Configured implements Tool {
 		String inputDir = args[0];
 
 		Configuration conf = this.getConf();
-		FileSystem fs = FileSystem.get(conf);
 
 		String outputDir = args[1];
 		Path outputDirPath = new Path(outputDir);
@@ -90,16 +81,20 @@ public class RunKMeans extends Configured implements Tool {
 
 		analyzer.close();
 
-		Option filePath = SequenceFile.Reader.file(new Path(clusterOutput + "/clusteredPoints" + "/part-00000"));
-		try (SequenceFile.Reader reader = new SequenceFile.Reader(conf, filePath)) {
-
-			IntWritable key = new IntWritable();
-			WeightedVectorWritable value = new WeightedVectorWritable();
-
-			while (reader.next(key, value)) {
-				System.out.println(key.toString() + " belongs to cluster " + value.toString());
-			}
-		}
-		return 1;
+		// Option filePath = SequenceFile.Reader.file(new Path(clusterOutput +
+		// "/clusteredPoints" + "/part-m-00000"));
+		// try (SequenceFile.Reader reader = new SequenceFile.Reader(conf,
+		// filePath)) {
+		//
+		// IntWritable key = new IntWritable();
+		// WeightedPropertyVectorWritable value = new
+		// WeightedPropertyVectorWritable();
+		//
+		// while (reader.next(key, value)) {
+		// System.out.println(key.toString() + " belongs to cluster " +
+		// value.toString());
+		// }
+		// }
+		return 0;
 	}
 }
