@@ -15,13 +15,10 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 public class SequenceFileReader extends Configured implements Tool {
-	static List<String> result = new ArrayList<String>();
+	
 	public static void main(String[] args) throws Exception {
 		if (args.length > 0) {
 			int res = ToolRunner.run(new Configuration(), new SequenceFileReader(), args);
-			for(String r : result){
-				System.out.println(r);
-			}
 			System.exit(res);
 		} else {
 			System.out.println("No input path given. Cluster output folder is needed");
@@ -45,9 +42,7 @@ public class SequenceFileReader extends Configured implements Tool {
 			System.out.println(reader.getValueClassName());
 
 			while (reader.next(key, value)) {
-				// System.out.println(key.toString() + " belongs to cluster " +
-				// value.toString());
-				SequenceFileReader.result.add(key.toString() + " belongs to cluster " + value.toString());
+				System.out.println(key.toString() + " belongs to cluster " + value.toString());
 			}
 		}
 

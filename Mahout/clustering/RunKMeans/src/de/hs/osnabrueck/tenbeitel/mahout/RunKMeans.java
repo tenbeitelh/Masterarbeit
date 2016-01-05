@@ -77,7 +77,7 @@ public class RunKMeans extends Configured implements Tool {
 
 		RandomSeedGenerator.buildRandom(conf, vectorsFolder, centroids, 20, new CosineDistanceMeasure());
 
-		KMeansDriver.run(conf, vectorsFolder, centroids, clusterOutput, 0.01, 20, true, 1, false);
+		KMeansDriver.run(conf, vectorsFolder, centroids, clusterOutput, 0.01, 20, true, 0, false);
 
 		analyzer.close();
 
