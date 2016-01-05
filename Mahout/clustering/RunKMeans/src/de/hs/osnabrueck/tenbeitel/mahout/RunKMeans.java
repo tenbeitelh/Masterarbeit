@@ -56,7 +56,7 @@ public class RunKMeans extends Configured implements Tool {
 
 		GermanAnalyzer analyzer = new GermanAnalyzer(Version.LUCENE_46);
 
-		CustomDocumentProcessor.tokenizeDocuments(new Path(inputDir), analyzer.getClass().asSubclass(GermanAnalyzer.class),
+		DocumentProcessor.tokenizeDocuments(new Path(inputDir), analyzer.getClass().asSubclass(GermanAnalyzer.class),
 				tokenizedPath, conf);
 
 		String tfDirName = "tf-vectors";
