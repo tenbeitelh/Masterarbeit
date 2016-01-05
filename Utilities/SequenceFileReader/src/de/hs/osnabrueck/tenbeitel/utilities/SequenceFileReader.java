@@ -1,5 +1,9 @@
 package de.hs.osnabrueck.tenbeitel.utilities;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
@@ -11,10 +15,13 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 public class SequenceFileReader extends Configured implements Tool {
-
+	static List<String> result = new ArrayList<String>();
 	public static void main(String[] args) throws Exception {
 		if (args.length > 0) {
 			int res = ToolRunner.run(new Configuration(), new SequenceFileReader(), args);
+			for(String r : result){
+				System.out.println(r);
+			}
 			System.exit(res);
 		} else {
 			System.out.println("No input path given. Cluster output folder is needed");
@@ -23,7 +30,7 @@ public class SequenceFileReader extends Configured implements Tool {
 	}
 
 	@Override
-	public int run(String[] args) {
+	public int run(String[] args) throws IOException {
 		Configuration conf = this.getConf();
 
 		String clusterOutput = args[0];
@@ -38,13 +45,13 @@ public class SequenceFileReader extends Configured implements Tool {
 			System.out.println(reader.getValueClassName());
 
 			while (reader.next(key, value)) {
-				System.out.println(key.toString() + " belongs to cluster " + value.toString());
+				// System.out.println(key.toString() + " belongs to cluster " +
+				// value.toString());
+				SequenceFileReader.result.add(key.toString() + " belongs to cluster " + value.toString());
 			}
-		} catch (Exception e) {
-			e.printStackTrace();
 		}
 
-		return 0;
+		return 1;
 	}
 
 }
