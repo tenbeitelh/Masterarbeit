@@ -46,10 +46,10 @@ public class RunKMeans extends Configured implements Tool {
 		HadoopUtil.delete(conf, outputDirPath);
 
 		boolean namedVectors = false;
+		System.out.println(args.length);
 		if (args.length > 2) {
-			if (args[2] == "true") {
-				namedVectors = true;
-			}
+			System.out.println(args[2]);
+			namedVectors = Boolean.valueOf(args[2]);
 		}
 		System.out.println(namedVectors);
 
