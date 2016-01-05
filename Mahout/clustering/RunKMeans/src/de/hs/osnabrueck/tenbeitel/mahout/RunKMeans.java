@@ -51,6 +51,7 @@ public class RunKMeans extends Configured implements Tool {
 				namedVectors = true;
 			}
 		}
+		System.out.println(namedVectors);
 
 		Path tokenizedPath = new Path(outputDir, DocumentProcessor.TOKENIZED_DOCUMENT_OUTPUT_FOLDER);
 
