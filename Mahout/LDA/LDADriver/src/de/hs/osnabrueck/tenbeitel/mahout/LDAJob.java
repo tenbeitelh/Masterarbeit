@@ -4,7 +4,6 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import org.apache.mahout.clustering.lda.cvb.CVB0Driver;
 
 public class LDAJob extends Configured implements Tool{
 	
@@ -19,7 +18,7 @@ public class LDAJob extends Configured implements Tool{
 		
 		String inputPath = args[0];
 		
-		CVB0Driver driver = new CVB0Driver();
+		
 		return 0;
 	}
 
