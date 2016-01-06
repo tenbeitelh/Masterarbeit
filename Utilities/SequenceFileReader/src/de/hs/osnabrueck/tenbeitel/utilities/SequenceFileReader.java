@@ -13,6 +13,7 @@ import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.util.ReflectionUtils;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
+import org.apache.mahout.clustering.classify.WeightedPropertyVectorWritable;
 import org.apache.mahout.math.NamedVector;
 
 public class SequenceFileReader extends Configured implements Tool {
@@ -43,8 +44,8 @@ public class SequenceFileReader extends Configured implements Tool {
 			System.out.println(reader.getValueClassName());
 
 			while (reader.next(key, value)) {
-				NamedVector nVector = (NamedVector) value;
-				System.out.println(nVector.toString() + " belongs to cluster " + key.toString());
+				NamedVector nVector = (NamedVector) ((WeightedPropertyVectorWritable) value).getVector();
+				System.out.println(nVector.getName() + " belongs to cluster " + key.toString());
 				
 			}
 		}
