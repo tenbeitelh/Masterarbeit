@@ -10,6 +10,9 @@ import org.apache.mahout.clustering.kmeans.RandomSeedGenerator;
 import org.apache.mahout.common.distance.CosineDistanceMeasure;
 
 public class KMeansJob extends Configured implements Tool {
+	private static int k = 20;
+	private static int maxIterations = 20;
+	private static double convergenceDelta = 0.01;
 
 	public static void main(String[] args) throws Exception {
 		int res = ToolRunner.run(new Configuration(), new KMeansJob(), args);
@@ -20,15 +23,27 @@ public class KMeansJob extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
 		String outputDir = args[0];
 
+		// Get value of k by commandline argument;
+		if (args.length > 1) {
+			try {
+				k = Integer.parseInt(args[1]);
+			} catch (NumberFormatException ex) {
+				System.out.println("Could not parse integer from commandline: " + args[1]);
+				k = 20;
+				System.out.println("Setting k to default: " + k);
+			}
+		}
+
 		Configuration conf = this.getConf();
 
 		Path vectorsFolder = new Path(outputDir, "tfidf-vectors");
 		Path centroids = new Path(outputDir, "centroids");
 		Path clusterOutput = new Path(outputDir, "clusters");
 
-		RandomSeedGenerator.buildRandom(conf, vectorsFolder, centroids, 20, new CosineDistanceMeasure());
+		RandomSeedGenerator.buildRandom(conf, vectorsFolder, centroids, k, new CosineDistanceMeasure());
 
-		KMeansDriver.run(conf, vectorsFolder, centroids, clusterOutput, 0.01, 20, true, 0, false);
+		KMeansDriver.run(conf, vectorsFolder, centroids, clusterOutput, convergenceDelta, maxIterations, true, 0,
+				false);
 
 		return 0;
 	}
