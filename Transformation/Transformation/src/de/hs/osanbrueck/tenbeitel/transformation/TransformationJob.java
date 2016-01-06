@@ -1,4 +1,4 @@
-package de.hs.osnabrueck.tenbeitel.mahout;
+package de.hs.osanbrueck.tenbeitel.transformation;
 
 import java.util.List;
 
@@ -8,20 +8,18 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.lucene.util.Version;
-import org.apache.mahout.clustering.kmeans.KMeansDriver;
-import org.apache.mahout.clustering.kmeans.RandomSeedGenerator;
 import org.apache.mahout.common.HadoopUtil;
 import org.apache.mahout.common.Pair;
-import org.apache.mahout.common.distance.CosineDistanceMeasure;
 import org.apache.mahout.vectorizer.DictionaryVectorizer;
 import org.apache.mahout.vectorizer.DocumentProcessor;
 import org.apache.mahout.vectorizer.tfidf.TFIDFConverter;
 
 import de.hs.osnabrueck.tenbeitel.mahout.analyzer.GermanAnalyzer;
 
-public class RunKMeans extends Configured implements Tool {
+public class TransformationJob extends Configured implements Tool {
+
 	public static void main(String[] args) throws Exception {
-		int res = ToolRunner.run(new Configuration(), new RunKMeans(), args);
+		int res = ToolRunner.run(new Configuration(), new TransformationJob(), args);
 		System.exit(res);
 	}
 
@@ -71,30 +69,9 @@ public class RunKMeans extends Configured implements Tool {
 				outputDirPath, conf, docFrequenciesFeatures, minDf, maxDFPercent, norm, true, sequentialAccessOutput,
 				namedVectors, reduceTasks);
 
-		Path vectorsFolder = new Path(outputDir, "tfidf-vectors");
-		Path centroids = new Path(outputDir, "centroids");
-		Path clusterOutput = new Path(outputDir, "clusters");
-
-		RandomSeedGenerator.buildRandom(conf, vectorsFolder, centroids, 20, new CosineDistanceMeasure());
-
-		KMeansDriver.run(conf, vectorsFolder, centroids, clusterOutput, 0.01, 20, true, 0, false);
-
 		analyzer.close();
 
-		// Option filePath = SequenceFile.Reader.file(new Path(clusterOutput +
-		// "/clusteredPoints" + "/part-m-00000"));
-		// try (SequenceFile.Reader reader = new SequenceFile.Reader(conf,
-		// filePath)) {
-		//
-		// IntWritable key = new IntWritable();
-		// WeightedPropertyVectorWritable value = new
-		// WeightedPropertyVectorWritable();
-		//
-		// while (reader.next(key, value)) {
-		// System.out.println(key.toString() + " belongs to cluster " +
-		// value.toString());
-		// }
-		// }
 		return 0;
 	}
+
 }
