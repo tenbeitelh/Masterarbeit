@@ -7,6 +7,7 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.mahout.clustering.kmeans.KMeansDriver;
 import org.apache.mahout.clustering.kmeans.RandomSeedGenerator;
+import org.apache.mahout.common.HadoopUtil;
 import org.apache.mahout.common.distance.CosineDistanceMeasure;
 
 public class KMeansJob extends Configured implements Tool {
@@ -21,22 +22,24 @@ public class KMeansJob extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
-		String outputDir = args[0];
+		String inputDir = args[0];
+		String outputDir = args[1];
 
 		// Get value of k by commandline argument;
-		if (args.length > 1) {
+		if (args.length > 2) {
 			try {
-				k = Integer.parseInt(args[1]);
+				k = Integer.parseInt(args[2]);
 			} catch (NumberFormatException ex) {
-				System.out.println("Could not parse integer from commandline: " + args[1]);
+				System.out.println("Could not parse integer from commandline: " + args[2]);
 				k = 20;
 				System.out.println("Setting k to default: " + k);
 			}
 		}
 
 		Configuration conf = this.getConf();
-
-		Path vectorsFolder = new Path(outputDir, "tfidf-vectors");
+		
+		HadoopUtil.delete(conf, new Path(inputDir));
+		Path vectorsFolder = new Path(inputDir, "tfidf-vectors");
 		Path centroids = new Path(outputDir, "centroids");
 		Path clusterOutput = new Path(outputDir, "clusters");
 
