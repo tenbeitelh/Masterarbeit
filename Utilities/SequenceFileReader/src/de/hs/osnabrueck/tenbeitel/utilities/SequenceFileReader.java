@@ -17,7 +17,8 @@ import org.apache.mahout.clustering.classify.WeightedPropertyVectorWritable;
 import org.apache.mahout.math.NamedVector;
 
 public class SequenceFileReader extends Configured implements Tool {
-	
+	private static final String LINE_DELIMITER = "\t";
+
 	public static void main(String[] args) throws Exception {
 		if (args.length > 0) {
 			int res = ToolRunner.run(new Configuration(), new SequenceFileReader(), args);
@@ -40,13 +41,15 @@ public class SequenceFileReader extends Configured implements Tool {
 			Writable key = (Writable) ReflectionUtils.newInstance(reader.getKeyClass(), conf);
 			Writable value = (Writable) ReflectionUtils.newInstance(reader.getValueClass(), conf);
 
-			System.out.println(reader.getKeyClassName());
-			System.out.println(reader.getValueClassName());
+			// System.out.println(reader.getKeyClassName());
+			// System.out.println(reader.getValueClassName());
 
+			System.out.println("twitter_id" + LINE_DELIMITER + "cluster_id");
 			while (reader.next(key, value)) {
 				NamedVector nVector = (NamedVector) ((WeightedPropertyVectorWritable) value).getVector();
-				System.out.println(nVector.getName() + " belongs to cluster " + key.toString());
-				
+				// System.out.println(nVector.getName() + " belongs to cluster "
+				// + key.toString());
+				System.out.println(nVector.getName() + LINE_DELIMITER + key.toString());
 			}
 		}
 
