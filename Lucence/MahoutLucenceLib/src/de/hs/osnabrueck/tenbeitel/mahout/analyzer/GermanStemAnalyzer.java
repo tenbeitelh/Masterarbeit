@@ -9,6 +9,7 @@ import org.apache.lucene.analysis.core.StopFilter;
 import org.apache.lucene.analysis.de.GermanLightStemFilter;
 import org.apache.lucene.analysis.de.GermanNormalizationFilter;
 import org.apache.lucene.analysis.de.GermanStemFilter;
+import org.apache.lucene.analysis.miscellaneous.LengthFilter;
 import org.apache.lucene.analysis.miscellaneous.SetKeywordMarkerFilter;
 import org.apache.lucene.analysis.snowball.SnowballFilter;
 import org.apache.lucene.analysis.standard.StandardFilter;
@@ -18,22 +19,20 @@ import org.apache.lucene.util.Version;
 import org.tartarus.snowball.ext.German2Stemmer;
 
 public class GermanStemAnalyzer extends CustomAnalyzer {
-	
+
 	public GermanStemAnalyzer(Version matchVersion) {
 		super(matchVersion);
 	}
 
-	
 	public GermanStemAnalyzer(Version matchVersion, CharArraySet stopwords) {
 		super(matchVersion, stopwords, CharArraySet.EMPTY_SET);
 	}
 
 	public GermanStemAnalyzer(Version matchVersion, CharArraySet stopwords, CharArraySet stemExclusionSet) {
 		super(matchVersion, stopwords, stemExclusionSet);
-		
+
 	}
 
-	
 	@Override
 	protected TokenStreamComponents createComponents(String fieldName, Reader reader) {
 		final Tokenizer source = new StandardTokenizer(matchVersion, reader);
@@ -49,6 +48,7 @@ public class GermanStemAnalyzer extends CustomAnalyzer {
 		} else {
 			result = new GermanStemFilter(result);
 		}
+		result = new LengthFilter(matchVersion, result, 3, Integer.MAX_VALUE);
 		return new TokenStreamComponents(source, result);
 	}
 }

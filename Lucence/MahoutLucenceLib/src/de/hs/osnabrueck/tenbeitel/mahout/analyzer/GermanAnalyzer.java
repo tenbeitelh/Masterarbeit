@@ -6,6 +6,7 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.core.LowerCaseFilter;
 import org.apache.lucene.analysis.core.StopFilter;
+import org.apache.lucene.analysis.miscellaneous.LengthFilter;
 import org.apache.lucene.analysis.standard.StandardFilter;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
 import org.apache.lucene.analysis.util.CharArraySet;
@@ -33,6 +34,7 @@ public class GermanAnalyzer extends CustomAnalyzer {
 		TokenStream result = new StandardFilter(matchVersion, source);
 		result = new LowerCaseFilter(matchVersion, result);
 		result = new StopFilter(matchVersion, result, stopwords);
+		result = new LengthFilter(matchVersion, result, 3, Integer.MAX_VALUE);
 		return new TokenStreamComponents(source, result);
 	}
 }
