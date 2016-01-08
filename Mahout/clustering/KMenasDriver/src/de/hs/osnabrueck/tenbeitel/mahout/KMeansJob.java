@@ -38,7 +38,7 @@ public class KMeansJob extends Configured implements Tool {
 
 		Configuration conf = this.getConf();
 		
-		HadoopUtil.delete(conf, new Path(inputDir));
+		HadoopUtil.delete(conf, new Path(outputDir));
 		Path vectorsFolder = new Path(inputDir, "tfidf-vectors");
 		Path centroids = new Path(outputDir, "centroids");
 		Path clusterOutput = new Path(outputDir, "clusters");
