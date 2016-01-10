@@ -6,6 +6,8 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
@@ -32,8 +34,12 @@ public class CreateInitialInformationFlowJob extends Configured implements Tool 
 		informationflowJob.setOutputKeyClass(Object.class);
 		informationflowJob.setOutputValueClass(Object.class);
 
+		FileInputFormat.setInputDirRecursive(informationflowJob, true);
 		FileInputFormat.addInputPath(informationflowJob, new Path(args[0]));
 		informationflowJob.setInputFormatClass(TextInputFormat.class);
+
+		FileOutputFormat.setOutputPath(informationflowJob, new Path(args[1]));
+		informationflowJob.setOutputFormatClass(TextOutputFormat.class);
 
 		return informationflowJob.waitForCompletion(true) ? 0 : 1;
 	}
