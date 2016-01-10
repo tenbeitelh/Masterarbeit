@@ -3,6 +3,8 @@ package de.hs.osnabrueck.tenbeitel.mr.informationflow;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
@@ -31,8 +33,8 @@ public class CreateInitialInformationFlowJob extends Configured implements Tool 
 		informationflowJob.setMapperClass(InformationflowMapper.class);
 		informationflowJob.setReducerClass(InformationflowReducer.class);
 
-		informationflowJob.setOutputKeyClass(Object.class);
-		informationflowJob.setOutputValueClass(Object.class);
+		informationflowJob.setOutputKeyClass(Text.class);
+		informationflowJob.setOutputValueClass(Text.class);
 
 		FileInputFormat.setInputDirRecursive(informationflowJob, true);
 		FileInputFormat.addInputPath(informationflowJob, new Path(args[0]));
