@@ -14,7 +14,7 @@ public class InformationflowReducer extends Reducer<Text, Text, Text, Text> {
 			vals.append(val);
 			vals.append(" ");
 		}
-		System.out.println(key.toString() + " -> { " + values.toString() + "}");
+		System.out.println(key.toString() + " -> { " + vals.toString() + "}");
 
 	}
 
