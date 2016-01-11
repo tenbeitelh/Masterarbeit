@@ -4,15 +4,15 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
+import org.apache.hadoop.io.BytesWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
-import org.jgrapht.Graph;
 import org.jgrapht.graph.DefaultDirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
 
 import com.google.gson.Gson;
 
-public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
+public class InformationflowCombiner extends Reducer<Text, Text, Text, BytesWritable> {
 	private static final Gson GSON = new Gson();
 
 	// private static Set<String> processedIds;
@@ -48,7 +48,8 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 			ObjectOutputStream so = new ObjectOutputStream(bo);
 			so.writeObject(InformationflowCombiner.graph);
 			so.flush();
-			context.write(context.getCurrentKey(), new Text(bo.toString()));
+			System.out.println(InformationflowCombiner.graph.toString());
+			context.write(context.getCurrentKey(), new BytesWritable(bo.toByteArray()));
 		} catch (Exception e) {
 			System.out.println(e);
 		}
