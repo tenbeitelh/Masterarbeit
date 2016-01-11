@@ -31,6 +31,7 @@ public class CreateInitialInformationFlowJob extends Configured implements Tool 
 		informationflowJob.setJarByClass(CreateInitialInformationFlowJob.class);
 
 		informationflowJob.setMapperClass(InformationflowMapper.class);
+		informationflowJob.setCombinerClass(InformationflowCombiner.class);
 		informationflowJob.setReducerClass(InformationflowReducer.class);
 
 		informationflowJob.setOutputKeyClass(Text.class);
