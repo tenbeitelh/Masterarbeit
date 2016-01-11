@@ -2,6 +2,7 @@ package de.hs.osnabrueck.tenbeitel.mr.informationflow;
 
 import java.io.IOException;
 
+import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.jgrapht.Graphs;
@@ -10,7 +11,7 @@ import org.jgrapht.graph.DefaultEdge;
 
 import de.hs.osnabrueck.tenbeitel.mr.graph.utils.GraphUtils;
 
-public class InformationflowReducer extends Reducer<Text, Text, Text, Text> {
+public class InformationflowReducer extends Reducer<Text, Text, NullWritable, Text> {
 
 	private static DefaultDirectedGraph<String, DefaultEdge> graph = new CustomDefaultDirectedGraph<String, DefaultEdge>(
 			DefaultEdge.class);
@@ -29,7 +30,8 @@ public class InformationflowReducer extends Reducer<Text, Text, Text, Text> {
 		String graphAsString = GraphUtils.getStringRepresantationFromGraph(graph);
 		System.out.println(graphAsString);
 
-		context.write(context.getCurrentKey(), new Text(graphAsString));
+		context.write(NullWritable.get(), new Text(graphAsString));
+		
 	}
 
 }

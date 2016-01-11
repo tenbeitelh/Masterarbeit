@@ -2,7 +2,9 @@ package de.hs.osnabrueck.tenbeitel.mr.informationflow;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.mapreduce.Job;
@@ -34,16 +36,22 @@ public class CreateInitialInformationFlowJob extends Configured implements Tool 
 		informationflowJob.setCombinerClass(InformationflowCombiner.class);
 		informationflowJob.setReducerClass(InformationflowReducer.class);
 
-		informationflowJob.setOutputKeyClass(Text.class);
+		informationflowJob.setMapOutputKeyClass(Text.class);
+		informationflowJob.setMapOutputValueClass(Text.class);
+
+		informationflowJob.setOutputKeyClass(NullWritable.class);
 		informationflowJob.setOutputValueClass(Text.class);
 
 		FileInputFormat.setInputDirRecursive(informationflowJob, true);
 		FileInputFormat.addInputPath(informationflowJob, new Path(args[0]));
 		informationflowJob.setInputFormatClass(TextInputFormat.class);
-		
-		//TODO Delete Output folder first
-		
-		FileOutputFormat.setOutputPath(informationflowJob, new Path(args[1]));
+
+		Path outputDir = new Path(args[1]);
+
+		FileSystem fs = FileSystem.get(conf);
+		fs.delete(outputDir, true);
+
+		FileOutputFormat.setOutputPath(informationflowJob, outputDir);
 		informationflowJob.setOutputFormatClass(TextOutputFormat.class);
 
 		return informationflowJob.waitForCompletion(true) ? 0 : 1;
