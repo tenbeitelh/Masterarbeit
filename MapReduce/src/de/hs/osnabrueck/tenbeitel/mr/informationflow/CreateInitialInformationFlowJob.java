@@ -40,7 +40,9 @@ public class CreateInitialInformationFlowJob extends Configured implements Tool 
 		FileInputFormat.setInputDirRecursive(informationflowJob, true);
 		FileInputFormat.addInputPath(informationflowJob, new Path(args[0]));
 		informationflowJob.setInputFormatClass(TextInputFormat.class);
-
+		
+		//TODO Delete Output folder first
+		
 		FileOutputFormat.setOutputPath(informationflowJob, new Path(args[1]));
 		informationflowJob.setOutputFormatClass(TextOutputFormat.class);
 

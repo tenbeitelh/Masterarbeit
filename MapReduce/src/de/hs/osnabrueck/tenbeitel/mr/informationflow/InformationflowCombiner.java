@@ -26,6 +26,7 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 		// InformationflowCombiner.replyMap = new HashMap<String, String[]>();
 
 		InformationflowCombiner.graph = new CustomDefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
+		
 	}
 
 	@Override
