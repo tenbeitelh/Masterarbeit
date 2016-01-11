@@ -39,7 +39,11 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 
 		for (String key : InformationflowCombiner.replyMap.keySet()) {
 			for (String linkedTo : InformationflowCombiner.replyMap.get(key)) {
+				if (!InformationflowCombiner.graph.containsVertex(linkedTo)) {
+					InformationflowCombiner.graph.addVertex(linkedTo);
+				}
 				InformationflowCombiner.graph.addEdge(linkedTo, key);
+
 			}
 		}
 		String json = InformationflowCombiner.GSON.toJson(InformationflowCombiner.graph);
@@ -56,9 +60,9 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 			idArray[i] = tempArray[i].toString();
 		}
 
-		InformationflowCombiner.replyMap.put(key.toString(), idArray);
-
-		InformationflowCombiner.graph.addVertex(key.toString());
+		String keyString = key.toString();
+		InformationflowCombiner.replyMap.put(keyString, idArray);
+		InformationflowCombiner.graph.addVertex(keyString);
 
 	}
 
