@@ -9,6 +9,7 @@ import org.apache.mahout.clustering.kmeans.KMeansDriver;
 import org.apache.mahout.clustering.kmeans.RandomSeedGenerator;
 import org.apache.mahout.common.HadoopUtil;
 import org.apache.mahout.common.distance.CosineDistanceMeasure;
+import org.codehaus.jackson.map.JsonSerializer;
 
 public class KMeansJob extends Configured implements Tool {
 	private static int k = 20;
@@ -24,7 +25,7 @@ public class KMeansJob extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
 		String inputDir = args[0];
 		String outputDir = args[1];
-
+		
 		// Get value of k by commandline argument;
 		if (args.length > 2) {
 			try {
