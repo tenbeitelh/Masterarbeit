@@ -15,11 +15,6 @@
 			<version>0.9.1</version>
 		</dependency>
 		<dependency>
-			<groupId>com.mxgraph</groupId>
-			<artifactId>jgraphx</artifactId>
-			<version>3.4.1.2</version>
-		</dependency>
-		<dependency>
 			<groupId>GraphUtils</groupId>
 			<artifactId>GraphUtils</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
