@@ -4,13 +4,26 @@
 	<groupId>GraphVisualization</groupId>
 	<artifactId>GraphVisualization</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<hadoop.version>2.4.1</hadoop.version>
+	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.github.monkeysintown</groupId>
-			<artifactId>jgraphx</artifactId>
-			<version>3.3.1.1</version>
+			<groupId>org.jgrapht</groupId>
+			<artifactId>jgrapht-core</artifactId>
+			<version>0.9.1</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.mxgraph</groupId>
+			<artifactId>jgraphx</artifactId>
+			<version>3.4.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>GraphUtils</groupId>
+			<artifactId>GraphUtils</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -20,7 +33,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>de.hs.osnabrueck.tenbeitel.mr.informationflow.CreateInitialInformationFlowJob</mainClass>
+							<mainClass>de.hs.osnabrueck.tenbeitel.graph.printer.GraphPrinter</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -76,3 +89,4 @@
 		</pluginManagement>
 	</build>
 </project>
+	
