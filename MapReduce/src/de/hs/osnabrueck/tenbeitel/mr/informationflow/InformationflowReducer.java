@@ -14,13 +14,15 @@ import com.google.gson.Gson;
 public class InformationflowReducer extends Reducer<Text, Text, Text, Text> {
 	private static final Gson GSON = new Gson();
 
-	private static Graph<String, DefaultEdge> graph = new CustomDefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
+	private static DefaultDirectedGraph<String, DefaultEdge> graph = new CustomDefaultDirectedGraph<String, DefaultEdge>(
+			DefaultEdge.class);
 
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
 		for (Text graphString : values) {
 			@SuppressWarnings("unchecked")
-			Graph<String, DefaultEdge> actualGraph = GSON.fromJson(graphString.toString(), CustomDefaultDirectedGraph.class);
+			DefaultDirectedGraph<String, DefaultEdge> actualGraph = GSON.fromJson(graphString.toString(),
+					DefaultDirectedGraph.class);
 
 			Graphs.addGraph(InformationflowReducer.graph, actualGraph);
 		}

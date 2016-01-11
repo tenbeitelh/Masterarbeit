@@ -1,8 +1,8 @@
 package de.hs.osnabrueck.tenbeitel.mr.informationflow;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
+import java.io.ObjectOutputStream;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
@@ -17,7 +17,7 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 
 	// private static Set<String> processedIds;
 	// private static Map<String, String[]> replyMap;
-	private static Graph<String, DefaultEdge> graph;
+	private static DefaultDirectedGraph<String, DefaultEdge> graph;
 
 	@Override
 	protected void setup(Context context) throws IOException, InterruptedException {
@@ -25,8 +25,8 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 		// InformationflowCombiner.processedIds = new HashSet<String>();
 		// InformationflowCombiner.replyMap = new HashMap<String, String[]>();
 
-		InformationflowCombiner.graph = new CustomDefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
-		
+		InformationflowCombiner.graph = new DefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
+
 	}
 
 	@Override
@@ -42,6 +42,17 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 		//
 		// }
 		// }
+
+		// try {
+		// ByteArrayOutputStream bo = new ByteArrayOutputStream();
+		// ObjectOutputStream so = new ObjectOutputStream(bo);
+		// so.writeObject(InformationflowCombiner.graph);
+		// so.flush();
+		// context.write(context.getCurrentKey(), new Text(bo.toString();));
+		// } catch (Exception e) {
+		// System.out.println(e);
+		// }
+
 		String json = InformationflowCombiner.GSON.toJson(InformationflowCombiner.graph);
 		context.write(context.getCurrentKey(), new Text(json));
 
