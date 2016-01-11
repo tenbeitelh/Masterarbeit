@@ -16,16 +16,16 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 	private static final Gson GSON = new Gson();
 
 	// private static Set<String> processedIds;
-	private static Map<String, String[]> replyMap;
+	// private static Map<String, String[]> replyMap;
 	private static Graph<String, DefaultEdge> graph;
 
 	@Override
 	protected void setup(Context context) throws IOException, InterruptedException {
 		super.setup(context);
 		// InformationflowCombiner.processedIds = new HashSet<String>();
-		InformationflowCombiner.replyMap = new HashMap<String, String[]>();
+		// InformationflowCombiner.replyMap = new HashMap<String, String[]>();
 
-		InformationflowCombiner.graph = new DefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
+		InformationflowCombiner.graph = new CustomDefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
 	}
 
 	@Override
