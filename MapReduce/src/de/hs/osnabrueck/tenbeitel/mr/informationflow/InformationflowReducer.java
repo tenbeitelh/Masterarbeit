@@ -9,12 +9,12 @@ public class InformationflowReducer extends Reducer<Text, Text, Text, Text> {
 
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
-		StringBuilder vals = new StringBuilder();
+
+		System.out.println(key.toString() + "{");
 		for (Text val : values) {
-			vals.append(val);
-			vals.append(" ");
+			System.out.println(val.toString());
 		}
-		System.out.println(key.toString() + " -> { " + vals.toString() + "}");
+		System.out.println("}");
 
 	}
 
