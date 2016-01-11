@@ -43,18 +43,20 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 		// }
 		// }
 
-		// try {
-		// ByteArrayOutputStream bo = new ByteArrayOutputStream();
-		// ObjectOutputStream so = new ObjectOutputStream(bo);
-		// so.writeObject(InformationflowCombiner.graph);
-		// so.flush();
-		// context.write(context.getCurrentKey(), new Text(bo.toString();));
-		// } catch (Exception e) {
-		// System.out.println(e);
-		// }
+		try {
+			ByteArrayOutputStream bo = new ByteArrayOutputStream();
+			ObjectOutputStream so = new ObjectOutputStream(bo);
+			so.writeObject(InformationflowCombiner.graph);
+			so.flush();
+			context.write(context.getCurrentKey(), new Text(bo.toString()));
+		} catch (Exception e) {
+			System.out.println(e);
+		}
 
-		String json = InformationflowCombiner.GSON.toJson(InformationflowCombiner.graph);
-		context.write(context.getCurrentKey(), new Text(json));
+		// String json =
+		// InformationflowCombiner.GSON.toJson(InformationflowCombiner.graph);
+		// System.out.println(json);
+		// context.write(context.getCurrentKey(), new Text(json));
 
 	}
 

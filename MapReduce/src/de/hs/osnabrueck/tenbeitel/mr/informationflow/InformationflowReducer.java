@@ -26,8 +26,10 @@ public class InformationflowReducer extends Reducer<Text, Text, Text, Text> {
 				byte b[] = graphString.getBytes();
 				ByteArrayInputStream bi = new ByteArrayInputStream(b);
 				ObjectInputStream si = new ObjectInputStream(bi);
-				Graphs.addGraph(InformationflowReducer.graph,
-						(DefaultDirectedGraph<String, DefaultEdge>) si.readObject());
+				DefaultDirectedGraph<String, DefaultEdge> actualGraph = (DefaultDirectedGraph<String, DefaultEdge>) si
+						.readObject();
+				System.out.println(GSON.toJson(actualGraph));
+				Graphs.addGraph(InformationflowReducer.graph, actualGraph);
 			} catch (Exception e) {
 				System.out.println(e);
 			}
