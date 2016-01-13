@@ -25,8 +25,7 @@ do
 						days="$days$day,"
 					fi
 				done
-				awk '{print substr($days, 1, length($days)-1)}'
-				days=$?
+				days=${days::-1}
 				days="{$days}"
 				paths="$paths/user/flume/keyword/tweets/$year/$month/$days,"
 			fi
@@ -36,4 +35,4 @@ done
 
 rm -f paths.txt
 touch paths.txt
-awk '{print substr($paths, 1, length($paths)-1)}' paths.txt
+echo ${paths::-1} > paths.txt
