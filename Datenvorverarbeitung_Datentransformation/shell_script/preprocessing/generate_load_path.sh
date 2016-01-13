@@ -33,6 +33,6 @@ do
 	fi
 done
 
-rm -f paths.txt
-touch paths.txt
-echo ${paths::-1} > paths.txt
+rm -f paths_glob.txt
+touch paths_glob.txt
+echo ${paths::-1} > paths_glob.txt
