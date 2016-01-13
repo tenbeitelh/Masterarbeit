@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -16,35 +14,42 @@ import org.jgrapht.ext.JGraphXAdapter;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DirectedSubgraph;
 import org.jgrapht.graph.ListenableDirectedGraph;
+import org.jgrapht.traverse.DepthFirstIterator;
 
 import com.mxgraph.layout.mxCircleLayout;
-import com.mxgraph.layout.mxCompactTreeLayout;
 import com.mxgraph.layout.mxFastOrganicLayout;
-import com.mxgraph.layout.mxIGraphLayout;
-import com.mxgraph.layout.mxParallelEdgeLayout;
+import com.mxgraph.layout.hierarchical.mxHierarchicalLayout;
 import com.mxgraph.swing.mxGraphComponent;
-import com.mxgraph.swing.util.mxMorphing;
-import com.mxgraph.util.mxEvent;
-import com.mxgraph.util.mxEventObject;
-import com.mxgraph.util.mxEventSource.mxIEventListener;
-import com.mxgraph.view.mxGraph;
+import com.mxgraph.util.mxConstants;
 
 import de.hs.osnabrueck.tenbeitel.mr.graph.utils.GraphUtils;
 
 public class GraphPrinter extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7296374538320083805L;
+
 	private static JGraphXAdapter<String, DefaultEdge> jgxAdapter;
 
 	public static void main(String[] args) {
 
-		JFrame f = new JFrame();
-		f.setSize(800, 800);
-		f.setLocation(300, 200);
-		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JFrame frame = new JFrame();
+		frame.setSize(1000, 1000);
+		frame.setLocation(300, 200);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JFrame frame2 = new JFrame();
+		frame2.setSize(1000, 1000);
+		frame2.setLocation(300, 200);
+		frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		ListenableDirectedGraph<String, DefaultEdge> graph = null;
+		ListenableDirectedGraph<String, DefaultEdge> lSubGraph = null;
 		try {
-			String graphString = readFile("C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\Graph");
+			String graphString = readFile(
+					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data_20160113");
 			graph = new ListenableDirectedGraph<String, DefaultEdge>(GraphUtils.getGraphFromString(graphString));
 
 			ConnectivityInspector<String, DefaultEdge> inspector = new ConnectivityInspector<String, DefaultEdge>(
@@ -63,15 +68,20 @@ public class GraphPrinter extends JFrame {
 			}
 			System.out.println("Max: " + max + " found on position " + pos);
 
-			DirectedSubgraph<String, DefaultEdge> subGraph = new DirectedSubgraph<>(graph,
-					inspector.connectedSets().get(pos), null);
+			// DirectedSubgraph<String, DefaultEdge> subGraph = new
+			// DirectedSubgraph<>(graph,
+			// inspector.connectedSetOf("681806320769601536"), null);
 
-			graph = new ListenableDirectedGraph<String, DefaultEdge>(subGraph);
-			
-			System.out.println(graph.vertexSet());
-			System.out.println(graph.edgeSet());
+			// DirectedSubgraph<String, DefaultEdge> subGraph = new
+			// DirectedSubgraph<>(graph,
+			// cSet.get(pos), null);
+
+			DepthFirstIterator<String, DefaultEdge> iterator = new DepthFirstIterator<String, DefaultEdge>(graph);
+			DirectedSubgraph<String, DefaultEdge> subGraph = new DirectedSubgraph<>(graph,
+					inspector.connectedSetOf(iterator.next()), null);
+			lSubGraph = new ListenableDirectedGraph<String, DefaultEdge>(subGraph);
+
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -80,19 +90,34 @@ public class GraphPrinter extends JFrame {
 			System.exit(ERROR);
 		}
 
-		jgxAdapter = new JGraphXAdapter<String, DefaultEdge>(graph);
+		jgxAdapter = new JGraphXAdapter<String, DefaultEdge>(lSubGraph);
+		jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL, "1");
 
 		mxGraphComponent graphComponent = new mxGraphComponent(jgxAdapter);
 		graphComponent.setConnectable(false);
 		graphComponent.setEnabled(false);
 
-		mxCircleLayout layout = new mxCircleLayout(jgxAdapter);
+		mxHierarchicalLayout layout = new mxHierarchicalLayout(jgxAdapter);
+		layout.setDisableEdgeStyle(true);
 		layout.execute(jgxAdapter.getDefaultParent());
 
-		f.getContentPane().add(graphComponent);
+		frame.getContentPane().add(graphComponent);
 
-		f.pack();
-		f.setVisible(true);
+		jgxAdapter = new JGraphXAdapter<String, DefaultEdge>(graph);
+		jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL, "1");
+
+		mxGraphComponent graphComponent2 = new mxGraphComponent(jgxAdapter);
+		graphComponent2.setConnectable(false);
+		graphComponent2.setEnabled(false);
+		graphComponent2.setDragEnabled(true);
+
+		new mxHierarchicalLayout(jgxAdapter).execute(jgxAdapter.getDefaultParent());
+		frame2.getContentPane().add(graphComponent2);
+
+		frame.pack();
+		frame.setVisible(true);
+		frame2.pack();
+		frame2.setVisible(true);
 
 	}
 
