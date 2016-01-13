@@ -64,7 +64,11 @@ public class GraphPrinter extends JFrame {
 				if (cSet.get(i).size() > max) {
 					max = cSet.get(i).size();
 					pos = i;
+					if(max > 9 ) {
+						break;
+					}
 				}
+				
 			}
 			System.out.println("Max: " + max + " found on position " + pos);
 
@@ -72,13 +76,13 @@ public class GraphPrinter extends JFrame {
 			// DirectedSubgraph<>(graph,
 			// inspector.connectedSetOf("681806320769601536"), null);
 
+			DirectedSubgraph<String, DefaultEdge> subGraph = new DirectedSubgraph<>(graph, cSet.get(pos), null);
+
+			// DepthFirstIterator<String, DefaultEdge> iterator = new
+			// DepthFirstIterator<String, DefaultEdge>(graph);
 			// DirectedSubgraph<String, DefaultEdge> subGraph = new
 			// DirectedSubgraph<>(graph,
-			// cSet.get(pos), null);
-
-			DepthFirstIterator<String, DefaultEdge> iterator = new DepthFirstIterator<String, DefaultEdge>(graph);
-			DirectedSubgraph<String, DefaultEdge> subGraph = new DirectedSubgraph<>(graph,
-					inspector.connectedSetOf(iterator.next()), null);
+			// inspector.connectedSetOf(iterator.next()), null);
 			lSubGraph = new ListenableDirectedGraph<String, DefaultEdge>(subGraph);
 
 		} catch (IOException e) {

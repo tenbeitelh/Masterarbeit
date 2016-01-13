@@ -9,7 +9,6 @@ import org.apache.mahout.clustering.kmeans.KMeansDriver;
 import org.apache.mahout.clustering.kmeans.RandomSeedGenerator;
 import org.apache.mahout.common.HadoopUtil;
 import org.apache.mahout.common.distance.CosineDistanceMeasure;
-import org.codehaus.jackson.map.JsonSerializer;
 
 public class KMeansJob extends Configured implements Tool {
 	private static int k = 20;
