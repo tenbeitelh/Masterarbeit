@@ -32,7 +32,6 @@ public class KMeansJob extends Configured implements Tool {
 				k = Integer.parseInt(args[2]);
 			} catch (NumberFormatException ex) {
 				System.out.println("Could not parse integer from commandline: " + args[2]);
-				k = 20;
 				System.out.println("Setting k to default: " + k);
 			}
 		}
