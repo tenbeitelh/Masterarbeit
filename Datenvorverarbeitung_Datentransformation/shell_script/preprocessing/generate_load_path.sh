@@ -25,7 +25,7 @@ do
 						days="$days$day,"
 					fi
 				done
-				days=$days | sed 's/\(.*\),/\1 /'
+				days=awk '{print substr($days, 1, length($days)-1)}'
 				days="{$days}"
 				paths="$paths/user/flume/keyword/tweets/$year/$month/$days,"
 			fi
@@ -33,5 +33,4 @@ do
 	fi
 done
 
-paths=$paths | sed 's/\(.*\),/\1 /'
-echo $paths > 'paths.txt'
+awk '{print substr($paths, 1, length($paths)-1)}' paths.txt
