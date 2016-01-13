@@ -23,7 +23,7 @@ do
 				done	
 			fi
 			$days=$days | sed 's/\(.*\),/\1 /'
-			$days="{$days}"
+			$days='{$days}'
 			paths="$paths/user/flume/keyword/tweets/$year/$month/$days,"
 		done
 	fi
