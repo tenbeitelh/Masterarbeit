@@ -67,6 +67,9 @@ public class GraphPrinter extends JFrame {
 					inspector.connectedSets().get(pos), null);
 
 			graph = new ListenableDirectedGraph<String, DefaultEdge>(subGraph);
+			
+			System.out.println(graph.vertexSet());
+			System.out.println(graph.edgeSet());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
