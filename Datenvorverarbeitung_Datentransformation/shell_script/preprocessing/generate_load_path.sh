@@ -4,7 +4,7 @@ paths=""
 days=""
 for year in 2015 2016
 do  
-	hadoop fs -test -e /user/flume/keyword/tweets/$year/$month
+	hadoop fs -test -e /user/flume/keyword/tweets/$year/
 	year_exists=$?
 	if [[ $year_exists == 0 ]]; then
 		for month in 01 02 03 04 05 06 07 08 09 10 11 12
@@ -23,7 +23,7 @@ do
 				done	
 			fi
 			$days=$days | sed 's/\(.*\),/\1 /'
-			$days='{$days}'
+			$days="{$days}"
 			paths="$paths/user/flume/keyword/tweets/$year/$month/$days,"
 		done
 	fi
