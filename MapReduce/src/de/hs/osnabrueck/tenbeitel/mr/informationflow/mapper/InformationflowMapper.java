@@ -1,4 +1,4 @@
-package de.hs.osnabrueck.tenbeitel.mr.informationflow;
+package de.hs.osnabrueck.tenbeitel.mr.informationflow.mapper;
 
 import java.io.IOException;
 

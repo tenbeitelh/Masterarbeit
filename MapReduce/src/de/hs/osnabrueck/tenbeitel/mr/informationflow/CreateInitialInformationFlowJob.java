@@ -15,6 +15,10 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
+import de.hs.osnabrueck.tenbeitel.mr.informationflow.mapper.InformationflowMapper;
+import de.hs.osnabrueck.tenbeitel.mr.informationflow.reducer.InformationflowCombiner;
+import de.hs.osnabrueck.tenbeitel.mr.informationflow.reducer.InformationflowReducer;
+
 public class CreateInitialInformationFlowJob extends Configured implements Tool {
 	private final static String JOB_NAME = CreateInitialInformationFlowJob.class.getName();
 
