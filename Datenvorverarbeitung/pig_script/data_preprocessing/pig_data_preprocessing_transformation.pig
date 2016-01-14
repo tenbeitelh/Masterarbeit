@@ -25,7 +25,7 @@ replace_urls = FOREACH  features_selected GENERATE $0, REPLACE($9, '(https?|ftp|
 replace_retweet = FOREACH  replace_urls GENERATE $0, REPLACE($1, 'RT', ''); 
 clustering_features = FOREACH  replace_retweet GENERATE $0, REPLACE($1, '\n', ' '); 
 
-visualize_features = FOREACH features_selected GENERATE $0, $7, $9;
+visualize_features = FOREACH features_selected GENERATE $0, $7, REPLACE($9, '\n', ' '); ;
 
 STORE initial_informationflow_filtered INTO '$output/initial_informationflow' USING PigStorage('\t');
 STORE clustering_features INTO '$output/sequence_files' USING com.twitter.elephantbird.pig.store.SequenceFileStorage('-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter');
