@@ -19,7 +19,7 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 		ClusterDateVectorWritable result;
 		System.out.println(key.toString());
 		Iterator<ClusterDateVectorWritable> it = value.iterator();
-		ClusterDateVectorWritable vectorData = it.next();
+		ClusterDateVectorWritable vectorData = new ClusterDateVectorWritable(it.next());
 		System.out.println(key.toString());
 		System.out.println(vectorData);
 		while (it.hasNext()) {

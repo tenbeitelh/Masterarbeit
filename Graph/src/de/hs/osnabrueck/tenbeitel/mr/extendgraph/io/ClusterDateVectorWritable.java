@@ -20,6 +20,11 @@ public class ClusterDateVectorWritable extends DateVectorWritable {
 		this.clusterId = clusterId;
 	}
 
+	public ClusterDateVectorWritable(ClusterDateVectorWritable next) {
+		super(next.getDate(), next.getNamedVector());
+		this.clusterId = next.getClusterId();
+	}
+
 	public Text getClusterId() {
 		return clusterId;
 	}
