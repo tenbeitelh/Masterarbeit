@@ -21,13 +21,13 @@ public class DateVectorReducer extends Reducer<TextPair, DateVectorWritable, Int
 
 		Iterator<DateVectorWritable> it = value.iterator();
 		DateVectorWritable vectorData = it.next();
-		if (it.hasNext()) {
+		while (it.hasNext()) {
 			DateVectorWritable dateData = it.next();
 			result = mergeVectors(vectorData, dateData);
 			context.write(new IntWritable(clusterId), result);
-		} else {
-			System.out.println("Received only one vector ==> could not merge");
 		}
+		System.out.println(key.toString());
+		// System.out.println("Received only one vector ==> could not merge");
 	}
 
 	private DateVectorWritable mergeVectors(DateVectorWritable vectorData, DateVectorWritable dateData) {

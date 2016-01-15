@@ -73,8 +73,9 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		buildDateVector.setMapOutputKeyClass(TextPair.class);
 		buildDateVector.setMapOutputValueClass(DateVectorWritable.class);
 
-		buildDateVector.setGroupingComparatorClass(TextPair.FirstComparator.class);
 		buildDateVector.setPartitionerClass(TextPair.KeyPartitioner.class);
+		buildDateVector.setGroupingComparatorClass(TextPair.FirstComparator.class);
+		
 
 		buildDateVector.setReducerClass(DateVectorReducer.class);
 		buildDateVector.setOutputKeyClass(IntWritable.class);
