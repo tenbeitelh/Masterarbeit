@@ -26,9 +26,9 @@ import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.DateVectorReducer;
 public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 	private static final String INITIAL_GRAPH_PATH = "";
-	private static final String TWITTER_ID_DATE_FOLDER = "";
-	private static final String CLUSTERED_POINTS_DIR = "";
-	private static final String TEMP_DATE_VECTOR_DIR = "";
+	private static final String TWITTER_ID_DATE_FOLDER = "twitter_id_date";
+	private static final String CLUSTERED_POINTS_DIR = "kmeans/clusters/clusteredPoints";
+	private static final String TEMP_DATE_VECTOR_DIR = "date_vectors";
 
 	public static void main(String[] args) throws Exception {
 		int res = ToolRunner.run(new Configuration(), new ExtendInformationflowGraphJob(), args);
@@ -43,13 +43,14 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 		runBuildDateVectorJob(conf, inputFolder);
 
-		Job calculateDistanceJob = Job.getInstance(conf);
-		calculateDistanceJob.setJarByClass(ExtendInformationflowGraphJob.class);
-
-		Job extendInformationflowGrahp = Job.getInstance(conf);
-		extendInformationflowGrahp.setJarByClass(ExtendInformationflowGraphJob.class);
-		extendInformationflowGrahp.addCacheFile(new Path(inputFolder + "/" + INITIAL_GRAPH_PATH).toUri());
-		extendInformationflowGrahp.setMapperClass(Mapper.class);
+		// Job calculateDistanceJob = Job.getInstance(conf);
+		// calculateDistanceJob.setJarByClass(ExtendInformationflowGraphJob.class);
+		//
+		// Job extendInformationflowGrahp = Job.getInstance(conf);
+		// extendInformationflowGrahp.setJarByClass(ExtendInformationflowGraphJob.class);
+		// extendInformationflowGrahp.addCacheFile(new Path(inputFolder + "/" +
+		// INITIAL_GRAPH_PATH).toUri());
+		// extendInformationflowGrahp.setMapperClass(Mapper.class);
 
 		return 0;
 	}
