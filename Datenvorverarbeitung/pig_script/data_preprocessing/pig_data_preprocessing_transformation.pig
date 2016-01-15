@@ -29,4 +29,4 @@ visualize_features = FOREACH features_selected GENERATE $0, $7, REPLACE(REPLACE(
 
 STORE initial_informationflow_filtered INTO '$output/initial_informationflow' USING PigStorage('\t');
 STORE clustering_features INTO '$output/sequence_files' USING com.twitter.elephantbird.pig.store.SequenceFileStorage('-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter');
-STORE visualize_features INTO '$output/tweet_detailed' USING com.twitter.elephantbird.pig.store.SequenceFileStorage('-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter');
+STORE visualize_features INTO '$output/tweet_detailed' USING PigStorage('\t');
