@@ -43,9 +43,12 @@ public class TextPair implements WritableComparable<TextPair> {
 	}
 
 	@Override
-	public int compareTo(TextPair o) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int compareTo(TextPair tp) {
+		int cmp = first.compareTo(tp.first);
+	    if (cmp != 0) {
+	      return cmp;
+	    }
+	    return second.compareTo(tp.second);
 	}
 
 	@Override
