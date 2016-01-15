@@ -38,16 +38,17 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 
 		ClusterDateVectorWritable result = new ClusterDateVectorWritable();
 
-		if (vectorData.getDate().equals(new Text("empty")) && dateData.getClusterId().equals(new Text("N/A"))) {
+		String date = vectorData.getDate().toString();
+		String clusterId = dateData.getClusterId().toString();
+
+		if (date.equals("empty") && clusterId.equals("N/A")) {
 			result.setDate(dateData.getDate());
 			result.setNamedVector(vectorData.getNamedVector());
 			result.setClusterId(vectorData.getClusterId());
-		} else if (dateData.getDate().equals(new Text("empty")) && vectorData.getClusterId().equals(new Text("N/A"))) {
+		} else {
 			result.setDate(vectorData.getDate());
 			result.setNamedVector(dateData.getNamedVector());
 			result.setClusterId(dateData.getClusterId());
-		} else {
-			System.out.println("Merge not possible");
 		}
 		return result;
 	}
