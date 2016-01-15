@@ -50,6 +50,7 @@ public class SequenceFileReader extends Configured implements Tool {
 				NamedVector nVector = (NamedVector) ((WeightedPropertyVectorWritable) value).getVector();
 				// System.out.println(nVector.getName() + " belongs to cluster "
 				// + key.toString());
+				System.out.println(nVector.getDelegate().getClass());
 				System.out.println(nVector.getName() + LINE_DELIMITER + key.toString());
 			}
 		}
