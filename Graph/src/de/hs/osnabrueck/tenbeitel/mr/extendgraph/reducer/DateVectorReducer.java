@@ -25,10 +25,15 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 		while (it.hasNext()) {
 			ClusterDateVectorWritable dateData = it.next();
 			result = mergeVectors(vectorData, dateData);
-			int clusterId = Integer.valueOf(result.getClusterId().toString());
-			context.write(new IntWritable(clusterId), result.toDateVectorWritable());
 			System.out.println(dateData.toString());
-			System.out.println(clusterId + " - " + result.toString());
+			if (result == null)
+				continue;
+			// int clusterId =
+			// Integer.valueOf(result.getClusterId().toString());
+			// context.write(new IntWritable(clusterId),
+			// result.toDateVectorWritable());
+
+			System.out.println(result.toString());
 		}
 
 	}
@@ -38,17 +43,17 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 
 		ClusterDateVectorWritable result = new ClusterDateVectorWritable();
 
-		String date = vectorData.getDate().toString();
-		String clusterId = dateData.getClusterId().toString();
-
-		if (date.equals("empty") && clusterId.equals("N/A")) {
+		if (vectorData.getDate().equals(new Text("empty")) && dateData.getClusterId().equals(new Text("N/A"))) {
 			result.setDate(dateData.getDate());
 			result.setNamedVector(vectorData.getNamedVector());
 			result.setClusterId(vectorData.getClusterId());
-		} else {
+		} else if (dateData.getDate().equals(new Text("empty")) && vectorData.getClusterId().equals(new Text("N/A"))) {
 			result.setDate(vectorData.getDate());
 			result.setNamedVector(dateData.getNamedVector());
 			result.setClusterId(dateData.getClusterId());
+		} else {
+			result = null;
+			System.out.println("Merge not possible");
 		}
 		return result;
 	}
