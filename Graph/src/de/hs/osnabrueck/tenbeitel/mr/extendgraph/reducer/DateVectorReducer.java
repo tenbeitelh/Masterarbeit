@@ -17,21 +17,19 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 			throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		ClusterDateVectorWritable result;
-		System.out.println(key.toString());
+
 		Iterator<ClusterDateVectorWritable> it = value.iterator();
-		ClusterDateVectorWritable vectorData = new ClusterDateVectorWritable(it.next());
-		System.out.println(key.toString());
-		System.out.println(vectorData);
+		final ClusterDateVectorWritable vectorData = new ClusterDateVectorWritable(it.next());
+		// System.out.println(key.toString());
+		// System.out.println(vectorData.toString());
 		while (it.hasNext()) {
-			ClusterDateVectorWritable dateData = it.next();
+			final ClusterDateVectorWritable dateData = new ClusterDateVectorWritable(it.next());
 			result = mergeVectors(vectorData, dateData);
+			System.out.println(vectorData.toString());
 			System.out.println(dateData.toString());
-			if (result == null)
-				continue;
-			// int clusterId =
-			// Integer.valueOf(result.getClusterId().toString());
-			// context.write(new IntWritable(clusterId),
-			// result.toDateVectorWritable());
+
+			int clusterId = Integer.valueOf(result.getClusterId().toString());
+			context.write(new IntWritable(clusterId), result.toDateVectorWritable());
 
 			System.out.println(result.toString());
 		}
@@ -43,6 +41,10 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 
 		ClusterDateVectorWritable result = new ClusterDateVectorWritable();
 
+		// System.out.println(vectorData.getClusterId() + " " +
+		// dateData.getClusterId());
+		// System.out.println(vectorData.getDate() + " " + dateData.getDate());
+
 		if (vectorData.getDate().equals(new Text("empty")) && dateData.getClusterId().equals(new Text("N/A"))) {
 			result.setDate(dateData.getDate());
 			result.setNamedVector(vectorData.getNamedVector());
@@ -52,7 +54,7 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 			result.setNamedVector(dateData.getNamedVector());
 			result.setClusterId(dateData.getClusterId());
 		} else {
-			result = null;
+			// result = null;
 			System.out.println("Merge not possible");
 		}
 		return result;
