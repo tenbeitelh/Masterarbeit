@@ -7,43 +7,45 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.ClusterDateVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
-import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.TextPair;
 
-public class DateVectorReducer extends Reducer<TextPair, DateVectorWritable, IntWritable, DateVectorWritable> {
+public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, IntWritable, DateVectorWritable> {
 
 	@Override
-	protected void reduce(TextPair key, Iterable<DateVectorWritable> value, Context context)
+	protected void reduce(Text key, Iterable<ClusterDateVectorWritable> value, Context context)
 			throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
-		int clusterId = Integer.valueOf(key.getSecond().toString());
-		DateVectorWritable result;
-		
+		ClusterDateVectorWritable result;
+
 		System.out.println(key.toString());
-		
-		Iterator<DateVectorWritable> it = value.iterator();
-		DateVectorWritable vectorData = it.next();
+
+		Iterator<ClusterDateVectorWritable> it = value.iterator();
+		ClusterDateVectorWritable vectorData = it.next();
 		System.out.println(vectorData.toString());
 		while (it.hasNext()) {
-			DateVectorWritable dateData = it.next();
+			ClusterDateVectorWritable dateData = it.next();
 			System.out.println(dateData.toString());
 			result = mergeVectors(vectorData, dateData);
-			context.write(new IntWritable(clusterId), result);
+			int clusterId = Integer.valueOf(result.getClusterId().toString());
+			context.write(new IntWritable(clusterId), (DateVectorWritable) result);
 		}
-		
-		// System.out.println("Received only one vector ==> could not merge");
+
 	}
 
-	private DateVectorWritable mergeVectors(DateVectorWritable vectorData, DateVectorWritable dateData) {
+	private ClusterDateVectorWritable mergeVectors(ClusterDateVectorWritable vectorData,
+			ClusterDateVectorWritable dateData) {
 
-		DateVectorWritable result = new DateVectorWritable();
+		ClusterDateVectorWritable result = new ClusterDateVectorWritable();
 
 		if (vectorData.getDate().equals(new Text())) {
 			result.setDate(dateData.getDate());
 			result.setNamedVector(vectorData.getNamedVector());
+			result.setClusterId(vectorData.getClusterId());
 		} else {
 			result.setDate(vectorData.getDate());
 			result.setNamedVector(dateData.getNamedVector());
+			result.setClusterId(dateData.getClusterId());
 		}
 		return result;
 	}

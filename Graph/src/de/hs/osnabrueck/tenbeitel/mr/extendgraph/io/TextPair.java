@@ -8,7 +8,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 import org.apache.hadoop.io.WritableUtils;
-import org.apache.hadoop.mapreduce.Partitioner;
 
 public class TextPair implements WritableComparable<TextPair> {
 
@@ -45,10 +44,12 @@ public class TextPair implements WritableComparable<TextPair> {
 	@Override
 	public int compareTo(TextPair tp) {
 		int cmp = first.compareTo(tp.first);
-	    if (cmp != 0) {
-	      return cmp;
-	    }
-	    return second.compareTo(tp.second);
+		if (cmp != 0) {
+
+			return cmp;
+		}
+		return second.compareTo(tp.second);
+
 	}
 
 	@Override
@@ -84,15 +85,11 @@ public class TextPair implements WritableComparable<TextPair> {
 	public void setSecond(Text second) {
 		this.second = second;
 	}
-	
-	
 
 	@Override
 	public String toString() {
 		return "TextPair [first=" + first.toString() + ", second=" + second.toString() + "]";
 	}
-
-
 
 	public static class Comparator extends WritableComparator {
 		private static final Text.Comparator TEXT_COMPARATOR = new Text.Comparator();

@@ -10,23 +10,22 @@ import org.apache.mahout.clustering.classify.WeightedPropertyVectorWritable;
 import org.apache.mahout.math.NamedVector;
 import org.apache.mahout.math.SequentialAccessSparseVector;
 
-import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
-import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.TextPair;
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.ClusterDateVectorWritable;
 
-public class TwitterDateMapper extends Mapper<Text, Text, TextPair, DateVectorWritable> {
-	private TextPair keyPair;
-	private DateVectorWritable dateVector;
+public class TwitterDateMapper extends Mapper<Text, Text, Text, ClusterDateVectorWritable> {
+	
+	private ClusterDateVectorWritable dateVector;
 
 	@Override
 	protected void map(Text key, Text value, Context context) throws IOException, InterruptedException {
-		keyPair = new TextPair(key, new Text(String.valueOf(Integer.MAX_VALUE)));
+		
 
 		NamedVector vector = new NamedVector(new SequentialAccessSparseVector(0), "N/A");
 		Map<Text, Text> properties = new HashMap<Text, Text>();
 		WeightedPropertyVectorWritable writableVector = new WeightedPropertyVectorWritable(0, vector, properties);
-		dateVector = new DateVectorWritable(value, writableVector);
+		dateVector = new ClusterDateVectorWritable(new Text("N/A"), value, writableVector);
 
-		context.write(keyPair, dateVector);
+		context.write(key, dateVector);
 	}
 
 }
