@@ -16,6 +16,7 @@ import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
+import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.io.part.KeyPartitioner;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.TwitterDateMapper;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.VectorMapper;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.utils.HadoopPathUtils;
@@ -67,15 +68,14 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 				TwitterDateMapper.class);
 		MultipleInputs.addInputPath(buildDateVector, clusteredPoints, SequenceFileInputFormat.class,
 				VectorMapper.class);
-		
+
 		FileInputFormat.setInputDirRecursive(buildDateVector, true);
 
 		buildDateVector.setMapOutputKeyClass(TextPair.class);
 		buildDateVector.setMapOutputValueClass(DateVectorWritable.class);
 
-		buildDateVector.setPartitionerClass(TextPair.KeyPartitioner.class);
+		buildDateVector.setPartitionerClass(KeyPartitioner.class);
 		buildDateVector.setGroupingComparatorClass(TextPair.FirstComparator.class);
-		
 
 		buildDateVector.setReducerClass(DateVectorReducer.class);
 		buildDateVector.setOutputKeyClass(IntWritable.class);

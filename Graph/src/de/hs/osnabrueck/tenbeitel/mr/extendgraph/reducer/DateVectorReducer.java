@@ -18,15 +18,19 @@ public class DateVectorReducer extends Reducer<TextPair, DateVectorWritable, Int
 		// TODO Auto-generated method stub
 		int clusterId = Integer.valueOf(key.getSecond().toString());
 		DateVectorWritable result;
-
+		
+		System.out.println(key.toString());
+		
 		Iterator<DateVectorWritable> it = value.iterator();
 		DateVectorWritable vectorData = it.next();
+		System.out.println(vectorData.toString());
 		while (it.hasNext()) {
 			DateVectorWritable dateData = it.next();
+			System.out.println(dateData.toString());
 			result = mergeVectors(vectorData, dateData);
 			context.write(new IntWritable(clusterId), result);
 		}
-		System.out.println(key.toString());
+		
 		// System.out.println("Received only one vector ==> could not merge");
 	}
 
