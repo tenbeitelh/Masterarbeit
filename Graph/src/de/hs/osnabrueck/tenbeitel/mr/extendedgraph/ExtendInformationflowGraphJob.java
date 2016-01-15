@@ -42,6 +42,10 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 		Configuration conf = this.getConf();
 
+		if (args.length > 1) {
+			conf.set("reducer.treshold", args[1]);
+		}
+
 		runBuildDateVectorJob(conf, inputFolder);
 
 		// Job calculateDistanceJob = Job.getInstance(conf);
@@ -99,14 +103,13 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		calculateDisanceJob.setInputFormatClass(SequenceFileInputFormat.class);
 		FileInputFormat.setInputDirRecursive(calculateDisanceJob, true);
 		FileInputFormat.addInputPath(calculateDisanceJob, dateVectorPath);
-		
+
 		calculateDisanceJob.setMapperClass(Mapper.class);
 		calculateDisanceJob.setMapOutputKeyClass(IntWritable.class);
 		calculateDisanceJob.setMapOutputValueClass(DateVectorWritable.class);
-		
+
 		calculateDisanceJob.setOutputKeyClass(Text.class);
 		calculateDisanceJob.setOutputValueClass(Text.class);
-		
 
 		return 0;
 	}

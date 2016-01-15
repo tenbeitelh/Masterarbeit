@@ -1,21 +1,60 @@
 package de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer;
 
 import java.io.IOException;
-import java.util.Iterator;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.mahout.common.distance.CosineDistanceMeasure;
+import org.apache.mahout.math.NamedVector;
 
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
 
 public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWritable, Text, Text> {
 
+	private static final CosineDistanceMeasure MEASURE = new CosineDistanceMeasure();
+	
+	private static final String PRE_POSTFIX = "_pre";
+	private static final String POST_POSTFIX = "_post";
+	
+	private static Double similarityTreshold = 0.9;
+
+	private Text keyId;
+	private Text valueId;
+
+	@Override
+	protected void setup(Context context) throws IOException, InterruptedException {
+		super.setup(context);
+		String tresholdString = context.getConfiguration().get("reducer.treshold", "0.9");
+		try {
+			similarityTreshold = Double.valueOf(tresholdString);
+		} catch (NumberFormatException ex) {
+			System.out.println("Could not parse command line paramter reducer.treshold=[" + tresholdString
+					+ "] into double. Using default treshold of 0.9");
+		}
+	}
+
 	@Override
 	protected void reduce(IntWritable key, Iterable<DateVectorWritable> values, Context context)
 			throws IOException, InterruptedException {
-		Iterator it = values.iterator();
-		
+		keyId = new Text();
+		valueId = new Text();
+		for (DateVectorWritable currentVector : values) {
+			for (DateVectorWritable calcVector : values) {
+				NamedVector currentNamedVector = (NamedVector) currentVector.getNamedVector().getVector();
+				NamedVector calcNamedVector = (NamedVector) calcVector.getNamedVector().getVector();
+				if (currentNamedVector.getName().equals(calcNamedVector.getName())) {
+					Double similarity = MEASURE.distance(currentNamedVector, calcNamedVector);
+					if (similarity >= similarityTreshold) {
+						// TODO Date check
+						keyId.set(currentNamedVector.getName());
+						valueId.set(calcNamedVector.getName());
+						context.write(keyId, valueId);
+					}
+				}
+			}
+		}
+
 	}
 
 }

@@ -7,6 +7,7 @@ import java.io.IOException;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 import org.apache.mahout.clustering.classify.WeightedPropertyVectorWritable;
+import org.apache.mahout.math.NamedVector;
 
 public class DateVectorWritable implements Writable {
 
@@ -57,9 +58,32 @@ public class DateVectorWritable implements Writable {
 	public void setNamedVector(WeightedPropertyVectorWritable namedVector) {
 		this.namedVector = namedVector;
 	}
-	
-	
-	
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((date == null) ? 0 : date.hashCode());
+		result = prime * result + ((namedVector == null) ? 0 : namedVector.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		DateVectorWritable other = (DateVectorWritable) obj;
+		NamedVector otherNVector = (NamedVector) other.getNamedVector().getVector();
+		if (!((NamedVector) namedVector.getVector()).getName().equals(otherNVector.getName())) {
+			return false;
+		}
+		return true;
+	}
+
 	@Override
 	public String toString() {
 		return "DateVectorWritable [date=" + date.toString() + ", namedVector=" + namedVector.toString() + "]";
