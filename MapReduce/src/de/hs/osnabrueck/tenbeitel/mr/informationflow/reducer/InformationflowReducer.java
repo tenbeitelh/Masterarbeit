@@ -1,4 +1,4 @@
-package de.hs.osnabrueck.tenbeitel.mr.informationflow;
+package de.hs.osnabrueck.tenbeitel.mr.informationflow.reducer;
 
 import java.io.IOException;
 
@@ -13,7 +13,7 @@ import de.hs.osnabrueck.tenbeitel.mr.graph.utils.GraphUtils;
 
 public class InformationflowReducer extends Reducer<Text, Text, NullWritable, Text> {
 
-	private static DefaultDirectedGraph<String, DefaultEdge> graph = new CustomDefaultDirectedGraph<String, DefaultEdge>(
+	private static DefaultDirectedGraph<String, DefaultEdge> graph = new DefaultDirectedGraph<String, DefaultEdge>(
 			DefaultEdge.class);
 
 	@Override

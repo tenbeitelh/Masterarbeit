@@ -20,11 +20,12 @@ features_selected = FOREACH distinct_de_tweets GENERATE json#'id', json#'id_str'
 initial_informationflow = FOREACH features_selected GENERATE $0, $4;
 initial_informationflow_filtered = FILTER initial_informationflow BY ($1 IS NOT NULL);
 
-replace_linebreaks = FOREACH  replace_retweet GENERATE $0, $7,REPLACE($9, '\n', ' ');
+
 replace_urls = FOREACH  replace_linebreaks GENERATE $0, REPLACE($1, '(https?|ftp|file):/{0,2}[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]', ''); 
 replace_retweet = FOREACH  replace_urls GENERATE $0, REPLACE($1, 'RT', ''); 
-
+clustering_features = FOREACH  replace_retweet GENERATE $0, REPLACE(REPLACE($1, '\n', ' '), '\r', ''); 
+visualize_features = FOREACH features_selected GENERATE $0, $7, REPLACE(REPLACE($9, '\n', ' '), '\r', '') ;
 
 STORE initial_informationflow_filtered INTO '$output/initial_informationflow' USING PigStorage('\t');
-STORE replace_retweet INTO '$output/sequence_files' USING com.twitter.elephantbird.pig.store.SequenceFileStorage('-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter');
-STORE replace_linebreaks INTO '$output/tweet_detailed' USING PigStorage('\t');
+STORE clustering_features INTO '$output/sequence_files' USING com.twitter.elephantbird.pig.store.SequenceFileStorage('-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter');
+STORE visualize_features INTO '$output/tweet_detailed' USING PigStorage('\t');

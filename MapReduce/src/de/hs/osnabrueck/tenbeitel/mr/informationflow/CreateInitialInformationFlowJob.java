@@ -6,14 +6,16 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
+
+import de.hs.osnabrueck.tenbeitel.mr.informationflow.mapper.InformationflowMapper;
+import de.hs.osnabrueck.tenbeitel.mr.informationflow.reducer.InformationflowCombiner;
+import de.hs.osnabrueck.tenbeitel.mr.informationflow.reducer.InformationflowReducer;
 
 public class CreateInitialInformationFlowJob extends Configured implements Tool {
 	private final static String JOB_NAME = CreateInitialInformationFlowJob.class.getName();
@@ -42,9 +44,9 @@ public class CreateInitialInformationFlowJob extends Configured implements Tool 
 		informationflowJob.setOutputKeyClass(NullWritable.class);
 		informationflowJob.setOutputValueClass(Text.class);
 
-		FileInputFormat.setInputDirRecursive(informationflowJob, true);
-		FileInputFormat.addInputPath(informationflowJob, new Path(args[0]));
-		informationflowJob.setInputFormatClass(TextInputFormat.class);
+		SequenceFileInputFormat.setInputDirRecursive(informationflowJob, true);
+		SequenceFileInputFormat.addInputPath(informationflowJob, new Path(args[0]));
+		informationflowJob.setInputFormatClass(SequenceFileInputFormat.class);
 
 		Path outputDir = new Path(args[1]);
 
