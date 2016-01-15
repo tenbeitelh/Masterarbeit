@@ -6,6 +6,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
@@ -20,6 +21,7 @@ import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.io.part.KeyPartitioner;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.TwitterDateMapper;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.VectorMapper;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.utils.HadoopPathUtils;
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.ClusterDateVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.TextPair;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.DateVectorReducer;
@@ -71,11 +73,8 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 		FileInputFormat.setInputDirRecursive(buildDateVector, true);
 
-		buildDateVector.setMapOutputKeyClass(TextPair.class);
-		buildDateVector.setMapOutputValueClass(DateVectorWritable.class);
-
-		buildDateVector.setPartitionerClass(KeyPartitioner.class);
-		buildDateVector.setGroupingComparatorClass(TextPair.FirstComparator.class);
+		buildDateVector.setMapOutputKeyClass(Text.class);
+		buildDateVector.setMapOutputValueClass(ClusterDateVectorWritable.class);
 
 		buildDateVector.setReducerClass(DateVectorReducer.class);
 		buildDateVector.setOutputKeyClass(IntWritable.class);
