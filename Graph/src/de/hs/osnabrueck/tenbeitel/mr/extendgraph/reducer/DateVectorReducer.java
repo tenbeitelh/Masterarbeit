@@ -36,7 +36,7 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 
 		ClusterDateVectorWritable result = new ClusterDateVectorWritable();
 
-		if (vectorData.getDate().equals(new Text())) {
+		if (vectorData.getDate().equals(new Text("empty"))) {
 			result.setDate(dateData.getDate());
 			result.setNamedVector(vectorData.getNamedVector());
 			result.setClusterId(vectorData.getClusterId());

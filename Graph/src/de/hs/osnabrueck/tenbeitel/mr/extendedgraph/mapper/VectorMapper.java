@@ -19,7 +19,7 @@ public class VectorMapper extends Mapper<IntWritable, WeightedPropertyVectorWrit
 			throws IOException, InterruptedException {
 		NamedVector nVector = (NamedVector) ((WeightedPropertyVectorWritable) value).getVector();
 		keyText = new Text(nVector.getName());
-		dateVector = new ClusterDateVectorWritable(new Text(key.toString()), new Text(), value);
+		dateVector = new ClusterDateVectorWritable(new Text(key.toString()), new Text("empty"), value);
 
 		context.write(keyText, dateVector);
 
