@@ -84,6 +84,15 @@ public class TextPair implements WritableComparable<TextPair> {
 	public void setSecond(Text second) {
 		this.second = second;
 	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "TextPair [first=" + first.toString() + ", second=" + second.toString() + "]";
+	}
+
+
 
 	public static class Comparator extends WritableComparator {
 		private static final Text.Comparator TEXT_COMPARATOR = new Text.Comparator();
