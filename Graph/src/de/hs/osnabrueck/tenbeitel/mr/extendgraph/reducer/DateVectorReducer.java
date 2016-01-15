@@ -17,19 +17,17 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 			throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		ClusterDateVectorWritable result;
-
 		System.out.println(key.toString());
-
 		Iterator<ClusterDateVectorWritable> it = value.iterator();
 		ClusterDateVectorWritable vectorData = it.next();
-		System.out.println(vectorData.toString());
 		while (it.hasNext()) {
 			ClusterDateVectorWritable dateData = it.next();
-			System.out.println(dateData.toString());
 			result = mergeVectors(vectorData, dateData);
 			int clusterId = Integer.valueOf(result.getClusterId().toString());
 			context.write(new IntWritable(clusterId), (DateVectorWritable) result);
+			System.out.println(clusterId + " - " + result.toString());
 		}
+		
 
 	}
 
