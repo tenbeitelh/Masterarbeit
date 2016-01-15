@@ -1,6 +1,8 @@
 package de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer;
 
 import java.io.IOException;
+import java.text.ParseException;
+import java.util.Date;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -8,15 +10,16 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.mahout.common.distance.CosineDistanceMeasure;
 import org.apache.mahout.math.NamedVector;
 
+import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.utils.DateUtils;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
 
 public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWritable, Text, Text> {
 
 	private static final CosineDistanceMeasure MEASURE = new CosineDistanceMeasure();
-	
+
 	private static final String PRE_POSTFIX = "_pre";
 	private static final String POST_POSTFIX = "_post";
-	
+
 	private static Double similarityTreshold = 0.9;
 
 	private Text keyId;
@@ -47,9 +50,26 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 					Double similarity = MEASURE.distance(currentNamedVector, calcNamedVector);
 					if (similarity >= similarityTreshold) {
 						// TODO Date check
-						keyId.set(currentNamedVector.getName());
-						valueId.set(calcNamedVector.getName());
-						context.write(keyId, valueId);
+						try {
+							Date currentVectorDate = DateUtils
+									.convertTwitterDateStringToDate(currentVector.getDate().toString());
+							Date calcVectorDate = DateUtils
+									.convertTwitterDateStringToDate(currentVector.getDate().toString());
+							if (calcVectorDate.before(currentVectorDate)) {
+								keyId.set(currentNamedVector.getName() + PRE_POSTFIX);
+								valueId.set(calcNamedVector.getName() + PRE_POSTFIX);
+								context.write(keyId, valueId);
+							}
+							if (calcVectorDate.after(currentVectorDate)) {
+								keyId.set(currentNamedVector.getName() + POST_POSTFIX);
+								valueId.set(calcNamedVector.getName() + POST_POSTFIX);
+								context.write(keyId, valueId);
+							}
+
+						} catch (ParseException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
 					}
 				}
 			}
