@@ -21,7 +21,6 @@ public class ClusterDateVectorWritable extends DateVectorWritable {
 	}
 
 	public ClusterDateVectorWritable(ClusterDateVectorWritable next) {
-
 		super(new Text(next.getDate()), new WeightedPropertyVectorWritable(next.getNamedVector().getWeight(),
 				next.getNamedVector().getVector(), next.getNamedVector().getProperties()));
 		this.clusterId = new Text(next.getClusterId());

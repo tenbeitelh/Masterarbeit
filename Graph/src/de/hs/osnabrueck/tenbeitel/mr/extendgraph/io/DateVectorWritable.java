@@ -23,6 +23,13 @@ public class DateVectorWritable implements Writable {
 		this.namedVector = namedVector;
 	}
 
+	public DateVectorWritable(DateVectorWritable delegate) {
+		this.date = new Text(delegate.getDate());
+		WeightedPropertyVectorWritable delegateVector = delegate.getNamedVector();
+		this.namedVector = new WeightedPropertyVectorWritable(delegateVector.getWeight(), delegateVector.getVector(),
+				delegateVector.getProperties());
+	}
+
 	@Override
 	public void write(DataOutput out) throws IOException {
 		date.write(out);
@@ -50,7 +57,9 @@ public class DateVectorWritable implements Writable {
 	public void setNamedVector(WeightedPropertyVectorWritable namedVector) {
 		this.namedVector = namedVector;
 	}
-
+	
+	
+	
 	@Override
 	public String toString() {
 		return "DateVectorWritable [date=" + date.toString() + ", namedVector=" + namedVector.toString() + "]";
