@@ -44,7 +44,7 @@ public class ClusterDateVectorWritable extends DateVectorWritable {
 
 	@Override
 	public String toString() {
-		return "ClusterDateVectorWritable [clusterId=" + clusterId + "date=" + getDate().toString() + ", namedVector="
+		return "ClusterDateVectorWritable [clusterId=" + clusterId + ", date=" + getDate().toString() + ", namedVector="
 				+ getNamedVector().toString() + "]";
 	}
 	
