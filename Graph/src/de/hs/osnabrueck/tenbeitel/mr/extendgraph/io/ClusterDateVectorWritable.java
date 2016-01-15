@@ -47,5 +47,9 @@ public class ClusterDateVectorWritable extends DateVectorWritable {
 		return "ClusterDateVectorWritable [clusterId=" + clusterId + "date=" + getDate().toString() + ", namedVector="
 				+ getNamedVector().toString() + "]";
 	}
+	
+	public DateVectorWritable toDateVectorWritable(){
+		return new DateVectorWritable(this.getDate(), this.getNamedVector());
+	}
 
 }

@@ -24,7 +24,7 @@ public class DateVectorReducer extends Reducer<Text, ClusterDateVectorWritable, 
 			ClusterDateVectorWritable dateData = it.next();
 			result = mergeVectors(vectorData, dateData);
 			int clusterId = Integer.valueOf(result.getClusterId().toString());
-			context.write(new IntWritable(clusterId), (DateVectorWritable) result);
+			context.write(new IntWritable(clusterId), result.toDateVectorWritable());
 			System.out.println(clusterId + " - " + result.toString());
 		}
 		
