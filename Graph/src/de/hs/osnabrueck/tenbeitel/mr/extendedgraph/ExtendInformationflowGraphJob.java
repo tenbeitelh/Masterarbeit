@@ -63,10 +63,10 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 			}
 		}
 		int res = 0;
-		res += runBuildDateVectorJob(conf, inputFolder);
-		
+		// res += runBuildDateVectorJob(conf, inputFolder);
+
 		res += runCalculateDistanceJob(conf, inputFolder);
-		
+
 		// Job calculateDistanceJob = Job.getInstance(conf);
 		// calculateDistanceJob.setJarByClass(ExtendInformationflowGraphJob.class);
 		//
