@@ -47,7 +47,7 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 			for (DateVectorWritable calcVector : values) {
 				NamedVector currentNamedVector = (NamedVector) cVector.getNamedVector().getVector();
 				NamedVector calcNamedVector = (NamedVector) calcVector.getNamedVector().getVector();
-				if (currentNamedVector.getName().equals(calcNamedVector.getName())) {
+				if (!currentNamedVector.getName().equals(calcNamedVector.getName())) {
 					Double similarity = MEASURE.distance(currentNamedVector, calcNamedVector);
 					System.out.println(
 							currentNamedVector.getName() + " <-> " + calcNamedVector.getName() + " = " + similarity);
