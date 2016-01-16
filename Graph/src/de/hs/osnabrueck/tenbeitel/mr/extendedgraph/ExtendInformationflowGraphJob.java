@@ -22,6 +22,7 @@ import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.VectorMapper;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.utils.HadoopPathUtils;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.ClusterDateVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.CalculateDistanceReducer;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.DateVectorReducer;
 
 public class ExtendInformationflowGraphJob extends Configured implements Tool {
@@ -30,6 +31,9 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 	private static final String TWITTER_ID_DATE_FOLDER = "twitter_id_date";
 	private static final String CLUSTERED_POINTS_DIR = "kmeans/clusters/clusteredPoints";
 	private static final String TEMP_DATE_VECTOR_DIR = "date_vectors";
+	private static final String SIMILAR_TWITTER_FOLDER = "similar_twitter_id";
+
+	private static Integer numberOfClusters = null;
 
 	public static void main(String[] args) throws Exception {
 		int res = ToolRunner.run(new Configuration(), new ExtendInformationflowGraphJob(), args);
@@ -43,11 +47,26 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		Configuration conf = this.getConf();
 
 		if (args.length > 1) {
-			conf.set("reducer.treshold", args[1]);
+			try {
+				conf.setDouble("reducer.treshold", Double.valueOf(args[1]));
+			} catch (NumberFormatException ex) {
+				System.out.println("treshold value is not a Double value " + args[1]);
+				return 1;
+			}
 		}
 
-		runBuildDateVectorJob(conf, inputFolder);
-
+		if (args.length > 2) {
+			try {
+				numberOfClusters = Integer.valueOf(args[2]);
+			} catch (NumberFormatException ex) {
+				System.out.println("Number of clusters couldn't be passed: " + args[2]);
+			}
+		}
+		int res = 0;
+		res += runBuildDateVectorJob(conf, inputFolder);
+		
+		res += runCalculateDistanceJob(conf, inputFolder);
+		
 		// Job calculateDistanceJob = Job.getInstance(conf);
 		// calculateDistanceJob.setJarByClass(ExtendInformationflowGraphJob.class);
 		//
@@ -56,7 +75,10 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		// extendInformationflowGrahp.addCacheFile(new Path(inputFolder + "/" +
 		// INITIAL_GRAPH_PATH).toUri());
 		// extendInformationflowGrahp.setMapperClass(Mapper.class);
-
+		if (res > 0) {
+			System.out.println(res + " Jobs failed");
+			return 1;
+		}
 		return 0;
 	}
 
@@ -93,25 +115,37 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 	}
 
-	private int runCalculateDistanceJob(Configuration conf, String inputFolder) throws IOException {
-		Job calculateDisanceJob = Job.getInstance(conf);
-		calculateDisanceJob.setJobName(this.getClass().getName() + " - CalculateDistanceJob");
-		calculateDisanceJob.setJarByClass(ExtendInformationflowGraphJob.class);
+	private int runCalculateDistanceJob(Configuration conf, String inputFolder)
+			throws IOException, ClassNotFoundException, InterruptedException {
+		Job calculateDistanceJob = Job.getInstance(conf);
+		calculateDistanceJob.setJobName(this.getClass().getName() + " - CalculateDistanceJob");
+		calculateDistanceJob.setJarByClass(ExtendInformationflowGraphJob.class);
 
 		Path dateVectorPath = new Path(inputFolder, TEMP_DATE_VECTOR_DIR);
 
-		calculateDisanceJob.setInputFormatClass(SequenceFileInputFormat.class);
-		FileInputFormat.setInputDirRecursive(calculateDisanceJob, true);
-		FileInputFormat.addInputPath(calculateDisanceJob, dateVectorPath);
+		calculateDistanceJob.setInputFormatClass(SequenceFileInputFormat.class);
+		FileInputFormat.setInputDirRecursive(calculateDistanceJob, true);
+		FileInputFormat.addInputPath(calculateDistanceJob, dateVectorPath);
 
-		calculateDisanceJob.setMapperClass(Mapper.class);
-		calculateDisanceJob.setMapOutputKeyClass(IntWritable.class);
-		calculateDisanceJob.setMapOutputValueClass(DateVectorWritable.class);
+		calculateDistanceJob.setMapperClass(Mapper.class);
+		calculateDistanceJob.setMapOutputKeyClass(IntWritable.class);
+		calculateDistanceJob.setMapOutputValueClass(DateVectorWritable.class);
 
-		calculateDisanceJob.setOutputKeyClass(Text.class);
-		calculateDisanceJob.setOutputValueClass(Text.class);
+		calculateDistanceJob.setOutputKeyClass(Text.class);
+		calculateDistanceJob.setOutputValueClass(Text.class);
 
-		return 0;
+		calculateDistanceJob.setReducerClass(CalculateDistanceReducer.class);
+
+		if (numberOfClusters != null) {
+			calculateDistanceJob.setNumReduceTasks(numberOfClusters);
+		}
+		Path simiilarItemsOutputPath = new Path(inputFolder, SIMILAR_TWITTER_FOLDER);
+		HadoopPathUtils.deletePathIfExists(conf, simiilarItemsOutputPath);
+
+		calculateDistanceJob.setOutputFormatClass(SequenceFileOutputFormat.class);
+		FileOutputFormat.setOutputPath(calculateDistanceJob, simiilarItemsOutputPath);
+
+		return (calculateDistanceJob.waitForCompletion(true) ? 0 : 1);
 	}
 
 }
