@@ -54,7 +54,7 @@ public class SequenceFileReader extends Configured implements Tool {
 					System.out.println(key.toString() + "\t" + value.toString());
 
 				}
-				System.out.println("Founrd " + recodCounter + "similar twitter messages");
+				System.out.println("Founrd " + recodCounter + "records in file");
 			}
 		}
 
