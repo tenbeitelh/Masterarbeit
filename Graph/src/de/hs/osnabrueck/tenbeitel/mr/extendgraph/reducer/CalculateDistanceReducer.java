@@ -67,7 +67,6 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 							}
 
 						} catch (ParseException e) {
-							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
 					}
