@@ -46,18 +46,14 @@ public class SequenceFileReader extends Configured implements Tool {
 					System.out.println(nVector.getName() + " belongs to cluster " + key.toString());
 				}
 			} else {
-
 				int recodCounter = 0;
 				while (reader.next(key, value)) {
-
 					recodCounter++;
 					System.out.println(key.toString() + "\t" + value.toString());
-
 				}
 				System.out.println("Founrd " + recodCounter + "records in file");
 			}
 		}
-
 		return 1;
 	}
 
