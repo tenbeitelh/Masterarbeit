@@ -43,26 +43,32 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 		keyId = new Text();
 		valueId = new Text();
 		for (DateVectorWritable currentVector : values) {
+			DateVectorWritable cVector = new DateVectorWritable(currentVector);
 			for (DateVectorWritable calcVector : values) {
-				NamedVector currentNamedVector = (NamedVector) currentVector.getNamedVector().getVector();
+				NamedVector currentNamedVector = (NamedVector) cVector.getNamedVector().getVector();
 				NamedVector calcNamedVector = (NamedVector) calcVector.getNamedVector().getVector();
 				if (currentNamedVector.getName().equals(calcNamedVector.getName())) {
 					Double similarity = MEASURE.distance(currentNamedVector, calcNamedVector);
+					System.out.println(
+							currentNamedVector.getName() + " <-> " + calcNamedVector.getName() + " = " + similarity);
 					if (similarity >= similarityTreshold) {
 						// TODO Date check
 						try {
 							Date currentVectorDate = DateUtils
-									.convertTwitterDateStringToDate(currentVector.getDate().toString());
+									.convertTwitterDateStringToDate(cVector.getDate().toString());
 							Date calcVectorDate = DateUtils
 									.convertTwitterDateStringToDate(currentVector.getDate().toString());
+
+							System.out.println(currentVectorDate + " - " + calcVectorDate);
+
 							if (calcVectorDate.before(currentVectorDate)) {
 								keyId.set(currentNamedVector.getName() + PRE_POSTFIX);
-								valueId.set(calcNamedVector.getName() + PRE_POSTFIX);
+								valueId.set(calcNamedVector.getName());
 								context.write(keyId, valueId);
 							}
 							if (calcVectorDate.after(currentVectorDate)) {
 								keyId.set(currentNamedVector.getName() + POST_POSTFIX);
-								valueId.set(calcNamedVector.getName() + POST_POSTFIX);
+								valueId.set(calcNamedVector.getName());
 								context.write(keyId, valueId);
 							}
 
