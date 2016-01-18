@@ -41,7 +41,7 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 		for (Text repliedBy : values) {
 			String repliedByString = repliedBy.toString();
 			InformationflowCombiner.graph.addVertex(repliedByString);
-			InformationflowCombiner.graph.addEdge(repliedByString, statusIdString);
+			InformationflowCombiner.graph.addEdge(statusIdString, repliedByString);
 		}
 
 	}
