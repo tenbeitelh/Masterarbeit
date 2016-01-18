@@ -28,13 +28,8 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 	@Override
 	protected void setup(Context context) throws IOException, InterruptedException {
 		super.setup(context);
-		String tresholdString = context.getConfiguration().get("reducer.treshold", "0.9");
-		try {
-			similarityTreshold = Double.valueOf(tresholdString);
-		} catch (NumberFormatException ex) {
-			System.out.println("Could not parse command line paramter reducer.treshold=[" + tresholdString
-					+ "] into double. Using default treshold of 0.05");
-		}
+		similarityTreshold = context.getConfiguration().getDouble("reducer.treshold", similarityTreshold);
+		
 	}
 
 	@Override
