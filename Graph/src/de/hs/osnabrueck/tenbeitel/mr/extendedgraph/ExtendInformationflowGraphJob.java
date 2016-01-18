@@ -32,7 +32,6 @@ import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.ExtendGraphReducer;
 
 public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
-	private static final String INITIAL_GRAPH_PATH = "";
 	private static final String TWITTER_ID_DATE_FOLDER = "twitter_id_date";
 	private static final String CLUSTERED_POINTS_DIR = "kmeans/clusters/clusteredPoints";
 	private static final String TEMP_DATE_VECTOR_DIR = "date_vectors";
@@ -160,7 +159,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		FileInputFormat.setInputDirRecursive(extendInitialGraphJob, true);
 		FileInputFormat.addInputPath(extendInitialGraphJob, similarTweetsFolder);
 
-		Path initialGraphPath = new Path(inputFolder, INITIAL_GRAPH_PATH);
+		Path initialGraphPath = new Path(inputFolder, EXTENDED_GRAPH_PATH);
 		extendInitialGraphJob.setCacheFiles(new URI[] { initialGraphPath.toUri() });
 
 		extendInitialGraphJob.setMapOutputValueClass(Text.class);
