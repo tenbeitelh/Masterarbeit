@@ -49,7 +49,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
-		Path inputFolder = new Path(args[0]);
+		Path inputFolder = new Path(args[0]); 
 
 		Configuration conf = this.getConf();
 
