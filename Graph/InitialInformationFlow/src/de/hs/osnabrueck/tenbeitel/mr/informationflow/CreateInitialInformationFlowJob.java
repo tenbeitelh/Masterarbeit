@@ -8,6 +8,7 @@ import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
@@ -50,7 +51,7 @@ public class CreateInitialInformationFlowJob extends Configured implements Tool 
 		
 		FileInputFormat.setInputDirRecursive(informationflowJob, true);
 		FileInputFormat.addInputPath(informationflowJob, new Path(args[0]));
-		informationflowJob.setInputFormatClass(FileInputFormat.class);
+		informationflowJob.setInputFormatClass(TextInputFormat.class);
 		
 		informationflowJob.setNumReduceTasks(1);
 
