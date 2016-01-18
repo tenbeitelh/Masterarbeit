@@ -14,6 +14,12 @@ public class TwitterDataJoinMapper extends Mapper<LongWritable, Text, Text, Twit
 	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, TwitterWritable>.Context context)
 			throws IOException, InterruptedException {
 		String[] textParts = value.toString().split("\t");
+		if(textParts.length == 4){
+			
+		}
+		else{
+			System.out.println("Not a valid row: " + value.toString());
+		}
 	}
 	
 	
