@@ -7,6 +7,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
@@ -15,9 +16,11 @@ import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
+import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.ExtendGraphMapper;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.TwitterDateMapper;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.VectorMapper;
 import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.utils.HadoopPathUtils;
@@ -25,6 +28,7 @@ import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.ClusterDateVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.CalculateDistanceReducer;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.DateVectorReducer;
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.ExtendGraphReducer;
 
 public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
@@ -33,6 +37,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 	private static final String CLUSTERED_POINTS_DIR = "kmeans/clusters/clusteredPoints";
 	private static final String TEMP_DATE_VECTOR_DIR = "date_vectors";
 	private static final String SIMILAR_TWITTER_FOLDER = "similar_twitter_id";
+	private static final String EXTENDED_GRAPH_PATH = "extended_graph";
 
 	private static Integer numberOfClusters = null;
 
@@ -64,18 +69,12 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 			}
 		}
 		int res = 0;
-		// res += runBuildDateVectorJob(conf, inputFolder);
+		res += runBuildDateVectorJob(conf, inputFolder);
 
 		res += runCalculateDistanceJob(conf, inputFolder);
 
-		// Job calculateDistanceJob = Job.getInstance(conf);
-		// calculateDistanceJob.setJarByClass(ExtendInformationflowGraphJob.class);
-		//
-		// Job extendInformationflowGrahp = Job.getInstance(conf);
-		// extendInformationflowGrahp.setJarByClass(ExtendInformationflowGraphJob.class);
-		// extendInformationflowGrahp.addCacheFile(new Path(inputFolder + "/" +
-		// INITIAL_GRAPH_PATH).toUri());
-		// extendInformationflowGrahp.setMapperClass(Mapper.class);
+		res += runExtendInitialGraphJob(conf, inputFolder);
+
 		if (res > 0) {
 			System.out.println(res + " Jobs failed");
 			return 1;
@@ -149,7 +148,8 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		return (calculateDistanceJob.waitForCompletion(true) ? 0 : 1);
 	}
 
-	public int runExtendInitialGraphJob(Configuration conf, Path inputFolder) throws IOException {
+	private int runExtendInitialGraphJob(Configuration conf, Path inputFolder)
+			throws IOException, ClassNotFoundException, InterruptedException {
 		Job extendInitialGraphJob = Job.getInstance(conf);
 		extendInitialGraphJob.setJobName(this.getClass().getName() + " - ExtendInitialGraphJob");
 		extendInitialGraphJob.setJarByClass(ExtendInformationflowGraphJob.class);
@@ -163,7 +163,22 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		Path initialGraphPath = new Path(inputFolder, INITIAL_GRAPH_PATH);
 		extendInitialGraphJob.setCacheFiles(new URI[] { initialGraphPath.toUri() });
 
-		return 0;
+		extendInitialGraphJob.setMapOutputValueClass(Text.class);
+		extendInitialGraphJob.setMapOutputKeyClass(Text.class);
+
+		extendInitialGraphJob.setMapperClass(ExtendGraphMapper.class);
+
+		Path extendedGraphPath = new Path(inputFolder, EXTENDED_GRAPH_PATH);
+
+		extendInitialGraphJob.setOutputFormatClass(TextOutputFormat.class);
+		FileOutputFormat.setOutputPath(extendInitialGraphJob, extendedGraphPath);
+
+		extendInitialGraphJob.setOutputKeyClass(NullWritable.class);
+		extendInitialGraphJob.setOutputValueClass(Text.class);
+
+		extendInitialGraphJob.setReducerClass(ExtendGraphReducer.class);
+
+		return (extendInitialGraphJob.waitForCompletion(true) ? 0 : 1);
 	}
 
 }
