@@ -51,7 +51,7 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 					Double similarity = MEASURE.distance(currentNamedVector, calcNamedVector);
 					System.out.println(
 							currentNamedVector.getName() + " <-> " + calcNamedVector.getName() + " = " + similarity);
-					if (similarity >= similarityTreshold) {
+					if (similarity >= similarityTreshold && similarity < 1.0) {
 						// TODO Date check
 						try {
 							Date currentVectorDate = DateUtils

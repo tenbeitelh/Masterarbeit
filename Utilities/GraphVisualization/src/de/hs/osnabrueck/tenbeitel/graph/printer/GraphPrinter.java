@@ -48,42 +48,47 @@ public class GraphPrinter extends JFrame {
 		ListenableDirectedGraph<String, DefaultEdge> graph = null;
 		ListenableDirectedGraph<String, DefaultEdge> lSubGraph = null;
 		try {
+			// String graphString = readFile(
+			// "C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data_20160113");
 			String graphString = readFile(
-					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data_20160113");
+					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data_extended_20160118");
 			graph = new ListenableDirectedGraph<String, DefaultEdge>(GraphUtils.getGraphFromString(graphString));
 
-			ConnectivityInspector<String, DefaultEdge> inspector = new ConnectivityInspector<String, DefaultEdge>(
-					graph);
-
-			List<Set<String>> cSet = inspector.connectedSets();
-
-			int max = 0;
-			int pos = 0;
-
-			for (int i = 0; i < cSet.size(); i++) {
-				if (cSet.get(i).size() > max) {
-					max = cSet.get(i).size();
-					pos = i;
-					if(max > 9 ) {
-						break;
-					}
-				}
-				
-			}
-			System.out.println("Max: " + max + " found on position " + pos);
-
+			// ConnectivityInspector<String, DefaultEdge> inspector = new
+			// ConnectivityInspector<String, DefaultEdge>(
+			// graph);
+			//
+			// List<Set<String>> cSet = inspector.connectedSets();
+			//
+			// int max = 0;
+			// int pos = 0;
+			//
+			// for (int i = 0; i < cSet.size(); i++) {
+			// if (cSet.get(i).size() > max) {
+			// max = cSet.get(i).size();
+			// pos = i;
+			// if (max > 9) {
+			// break;
+			// }
+			// }
+			//
+			// }
+			// System.out.println("Max: " + max + " found on position " + pos);
+			//
+			// // DirectedSubgraph<String, DefaultEdge> subGraph = new
+			// // DirectedSubgraph<>(graph,
+			// // inspector.connectedSetOf("681806320769601536"), null);
+			//
 			// DirectedSubgraph<String, DefaultEdge> subGraph = new
-			// DirectedSubgraph<>(graph,
-			// inspector.connectedSetOf("681806320769601536"), null);
-
-			DirectedSubgraph<String, DefaultEdge> subGraph = new DirectedSubgraph<>(graph, cSet.get(pos), null);
-
-			// DepthFirstIterator<String, DefaultEdge> iterator = new
-			// DepthFirstIterator<String, DefaultEdge>(graph);
-			// DirectedSubgraph<String, DefaultEdge> subGraph = new
-			// DirectedSubgraph<>(graph,
-			// inspector.connectedSetOf(iterator.next()), null);
-			lSubGraph = new ListenableDirectedGraph<String, DefaultEdge>(subGraph);
+			// DirectedSubgraph<>(graph, cSet.get(pos), null);
+			//
+			// // DepthFirstIterator<String, DefaultEdge> iterator = new
+			// // DepthFirstIterator<String, DefaultEdge>(graph);
+			// // DirectedSubgraph<String, DefaultEdge> subGraph = new
+			// // DirectedSubgraph<>(graph,
+			// // inspector.connectedSetOf(iterator.next()), null);
+			// lSubGraph = new ListenableDirectedGraph<String,
+			// DefaultEdge>(subGraph);
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -94,18 +99,19 @@ public class GraphPrinter extends JFrame {
 			System.exit(ERROR);
 		}
 
-		jgxAdapter = new JGraphXAdapter<String, DefaultEdge>(lSubGraph);
-		jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL, "1");
+		// jgxAdapter = new JGraphXAdapter<String, DefaultEdge>(lSubGraph);
+		// jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL,
+		// "1");
 
-		mxGraphComponent graphComponent = new mxGraphComponent(jgxAdapter);
-		graphComponent.setConnectable(false);
-		graphComponent.setEnabled(false);
-
-		mxHierarchicalLayout layout = new mxHierarchicalLayout(jgxAdapter);
-		layout.setDisableEdgeStyle(true);
-		layout.execute(jgxAdapter.getDefaultParent());
-
-		frame.getContentPane().add(graphComponent);
+		// mxGraphComponent graphComponent = new mxGraphComponent(jgxAdapter);
+		// graphComponent.setConnectable(false);
+		// graphComponent.setEnabled(false);
+		//
+		// mxHierarchicalLayout layout = new mxHierarchicalLayout(jgxAdapter);
+		// layout.setDisableEdgeStyle(true);
+		// layout.execute(jgxAdapter.getDefaultParent());
+		//
+		// frame.getContentPane().add(graphComponent);
 
 		jgxAdapter = new JGraphXAdapter<String, DefaultEdge>(graph);
 		jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL, "1");
@@ -118,8 +124,8 @@ public class GraphPrinter extends JFrame {
 		new mxHierarchicalLayout(jgxAdapter).execute(jgxAdapter.getDefaultParent());
 		frame2.getContentPane().add(graphComponent2);
 
-		frame.pack();
-		frame.setVisible(true);
+		// frame.pack();
+		// frame.setVisible(true);
 		frame2.pack();
 		frame2.setVisible(true);
 

@@ -20,6 +20,8 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
+import com.sun.tools.javac.util.Log;
+
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.ClusterDateVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.mapper.ExtendGraphMapper;
