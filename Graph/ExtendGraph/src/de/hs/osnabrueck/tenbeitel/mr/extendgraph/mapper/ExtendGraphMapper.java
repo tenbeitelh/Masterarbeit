@@ -1,4 +1,4 @@
-package de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper;
+package de.hs.osnabrueck.tenbeitel.mr.extendgraph.mapper;
 
 import java.io.File;
 import java.io.IOException;

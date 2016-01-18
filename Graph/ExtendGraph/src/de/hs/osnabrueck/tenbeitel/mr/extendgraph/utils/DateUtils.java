@@ -1,4 +1,4 @@
-package de.hs.osnabrueck.tenbeitel.mr.extendedgraph.utils;
+package de.hs.osnabrueck.tenbeitel.mr.extendgraph.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

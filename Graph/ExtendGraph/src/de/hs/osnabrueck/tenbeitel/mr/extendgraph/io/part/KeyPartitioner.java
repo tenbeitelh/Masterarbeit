@@ -1,4 +1,4 @@
-package de.hs.osnabrueck.tenbeitel.mr.extendedgraph.io.part;
+package de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.part;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;

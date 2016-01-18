@@ -1,4 +1,4 @@
-package de.hs.osnabrueck.tenbeitel.mr.extendedgraph;
+package de.hs.osnabrueck.tenbeitel.mr.extendgraph;
 
 import java.io.IOException;
 import java.net.URI;
@@ -20,15 +20,15 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.ExtendGraphMapper;
-import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.TwitterDateMapper;
-import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.mapper.VectorMapper;
-import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.utils.HadoopPathUtils;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.ClusterDateVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.mapper.ExtendGraphMapper;
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.mapper.TwitterDateMapper;
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.mapper.VectorMapper;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.CalculateDistanceReducer;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.DateVectorReducer;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.reducer.ExtendGraphReducer;
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.utils.HadoopPathUtils;
 
 public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
