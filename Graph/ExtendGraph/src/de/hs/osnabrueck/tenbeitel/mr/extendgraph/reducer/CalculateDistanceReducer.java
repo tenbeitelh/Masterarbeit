@@ -20,7 +20,7 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 	private static final String PRE_POSTFIX = "_pre";
 	private static final String POST_POSTFIX = "_post";
 
-	private static Double similarityTreshold = 0.05;
+	private static Double similarityTreshold = 0.005;
 
 	private Text keyId;
 	private Text valueId;
