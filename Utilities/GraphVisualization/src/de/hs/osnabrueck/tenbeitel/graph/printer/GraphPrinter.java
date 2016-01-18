@@ -7,7 +7,9 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import javax.swing.JFrame;
@@ -17,7 +19,6 @@ import javax.xml.transform.TransformerConfigurationException;
 import org.jgrapht.DirectedGraph;
 import org.jgrapht.alg.ConnectivityInspector;
 import org.jgrapht.alg.CycleDetector;
-import org.jgrapht.alg.EdmondsKarpMaximumFlow;
 import org.jgrapht.alg.StrongConnectivityInspector;
 import org.jgrapht.ext.DOTExporter;
 import org.jgrapht.ext.GraphMLExporter;
@@ -43,26 +44,27 @@ public class GraphPrinter extends JFrame {
 
 	private static JGraphXAdapter<String, DefaultEdge> jgxAdapter;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws TransformerConfigurationException, SAXException {
 
 		JFrame frame2 = new JFrame();
 		frame2.setSize(1000, 1000);
 		frame2.setLocation(300, 200);
 		frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		ListenableDirectedGraph<String, DefaultEdge> graph = null;
+		DirectedGraph<String, DefaultEdge> graph = null;
 
 		try {
 			String graphString = readFile(
-					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\grah_data");
+					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data2");
 			// String graphString = readFile(
 			// "C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data_extended_20160118");
-			graph = new ListenableDirectedGraph<String, DefaultEdge>(GraphUtils.getGraphFromString(graphString));
+			graph = GraphUtils.getGraphFromString(graphString);
 			// drawGraph(graph);
 			// exportDOT(graph);
 			// exportGraphML(graph);
 			// exportGraphVisio(graph);
 			// graphWithCycles(graph);
+			exportGraphML(new ListenableDirectedGraph<>(graph));
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -86,22 +88,49 @@ public class GraphPrinter extends JFrame {
 
 		ConnectivityInspector<String, DefaultEdge> inspector = new ConnectivityInspector<String, DefaultEdge>(graph);
 
-		List<Set<String>> cSet = inspector.connectedSets();
+		final List<Set<String>> cSet = inspector.connectedSets();
 
 		System.out.println("# Subgrahps: " + cSet.size());
-
+		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int i = 0; i < cSet.size(); i++) {
-			System.out.println("Pos: " + i + " #Vertexes:" + cSet.get(i).size());
+			map.put(cSet.get(i).size(), i);
 		}
-		
-		
-		
-		DirectedSubgraph<String, DefaultEdge> subGraph = new DirectedSubgraph<>(graph, cSet.get(0), null);
-		final ListenableDirectedGraph<String, DefaultEdge> lSubGraph = new ListenableDirectedGraph<String, DefaultEdge>(
-				subGraph);
-		
-		graph(graph);
-		
+
+		for (Integer key : map.keySet()) {
+			System.out.println(key + " in " + map.get(key));
+		}
+
+		final ListenableDirectedGraph<String, DefaultEdge> fGraph = new ListenableDirectedGraph<>(graph);
+
+		// SwingUtilities.invokeLater(new Runnable() {
+		//
+		// @Override
+		// public void run() {
+		// drawGraph(new ListenableDirectedGraph<String, DefaultEdge>(
+		// new DirectedSubgraph<>(fGraph, cSet.get(212), null)));
+		// }
+		// });
+		//
+		// SwingUtilities.invokeLater(new Runnable() {
+		//
+		// @Override
+		// public void run() {
+		// drawGraph(new ListenableDirectedGraph<String, DefaultEdge>(
+		// new DirectedSubgraph<>(fGraph, cSet.get(109), null)));
+		// }
+		// });
+
+		//
+		//
+		//
+		// DirectedSubgraph<String, DefaultEdge> subGraph = new
+		// DirectedSubgraph<>(graph, cSet.get(0), null);
+		// final ListenableDirectedGraph<String, DefaultEdge> lSubGraph = new
+		// ListenableDirectedGraph<String, DefaultEdge>(
+		// subGraph);
+		//
+		// graph(graph);
+
 		// SwingUtilities.invokeLater(new Runnable() {
 		//
 		// @Override
@@ -168,19 +197,18 @@ public class GraphPrinter extends JFrame {
 		drawGraph(lSubGraph);
 
 	}
-	
-	private static void graph(ListenableDirectedGraph<String, DefaultEdge> graph){
+
+	private static void graph(ListenableDirectedGraph<String, DefaultEdge> graph) {
 		StrongConnectivityInspector<String, DefaultEdge> subGraph = new StrongConnectivityInspector<>(graph);
 		List<DirectedSubgraph<String, DefaultEdge>> graphs = subGraph.stronglyConnectedSubgraphs();
-		
-		for(int i = 0; i < graphs.size(); i++){
+
+		for (int i = 0; i < graphs.size(); i++) {
 			System.out.println(i + " - " + graphs.get(i).vertexSet().size());
 		}
-		
-		
+
 	}
-	
-	private static void max(ListenableDirectedGraph<String, DefaultEdge> graph){
-		
+
+	private static void max(ListenableDirectedGraph<String, DefaultEdge> graph) {
+
 	}
 }
