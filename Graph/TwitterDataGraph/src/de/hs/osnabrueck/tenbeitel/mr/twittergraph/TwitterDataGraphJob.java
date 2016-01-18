@@ -12,10 +12,13 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
+import org.apache.mahout.common.HadoopUtil;
 
+import de.hs.osnabrueck.hadoop.util.HadoopPathUtils;
 import de.hs.osnabrueck.tenbeitel.mr.twittergraph.io.TwitterWritable;
 import de.hs.osnabrueck.tenbeitel.mr.twittergraph.mapper.ClusterDataJoinMapper;
 import de.hs.osnabrueck.tenbeitel.mr.twittergraph.mapper.TwitterDataJoinMapper;
@@ -25,6 +28,7 @@ public class TwitterDataGraphJob extends Configured implements Tool {
 
 	private static final String TWITTER_DETAILED_FOLDER = "tweet_detailed";
 	private static final String CLUSTER_FOLDER_PATH = "kmeans/clusters/clusteredPoints";
+	private static final String GRAPH_PATH = "twitter_graph";
 
 	public static void main(String[] args) throws Exception {
 		int res = ToolRunner.run(new Configuration(), new TwitterDataGraphJob(), args);
@@ -45,7 +49,7 @@ public class TwitterDataGraphJob extends Configured implements Tool {
 		return res;
 	}
 
-	private int runJoinTwitterAndClusterDataJob(Configuration conf, Path inputFolder) throws IOException {
+	private int runJoinTwitterAndClusterDataJob(Configuration conf, Path inputFolder) throws IOException, ClassNotFoundException, InterruptedException {
 		// TODO Auto-generated method stub
 		
 		Job joinTwitterAndClusterData = Job.getInstance(conf);
@@ -70,8 +74,12 @@ public class TwitterDataGraphJob extends Configured implements Tool {
 		
 		joinTwitterAndClusterData.setOutputFormatClass(TextOutputFormat.class);
 		
+		Path twitterGraphPath = new Path(inputFolder, GRAPH_PATH);
 		
-		return 0;
+		HadoopPathUtils.deletePathIfExists(conf, twitterGraphPath);
+		FileOutputFormat.setOutputPath(joinTwitterAndClusterData, twitterGraphPath);
+		
+		return (joinTwitterAndClusterData.waitForCompletion(true) ? 0 : 1);
 	}
 
 }
