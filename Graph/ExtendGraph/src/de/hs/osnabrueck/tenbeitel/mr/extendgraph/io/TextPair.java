@@ -141,7 +141,7 @@ public class TextPair implements WritableComparable<TextPair> {
 				return TEXT_COMPARATOR.compare(b1, s1, firstL1, b2, s2, firstL2);
 			} catch (IOException e) {
 				throw new IllegalArgumentException(e);
-			}
+			} 
 		}
 
 		@SuppressWarnings("rawtypes")
