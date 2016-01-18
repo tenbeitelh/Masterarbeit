@@ -155,7 +155,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		extendInitialGraphJob.setJobName(this.getClass().getName() + " - ExtendInitialGraphJob");
 		extendInitialGraphJob.setJarByClass(ExtendInformationflowGraphJob.class);
 
-		Path similarTweetsFolder = new Path(SIMILAR_TWITTER_FOLDER);
+		Path similarTweetsFolder = new Path(inputFolder, SIMILAR_TWITTER_FOLDER);
 
 		extendInitialGraphJob.setInputFormatClass(SequenceFileInputFormat.class);
 		FileInputFormat.setInputDirRecursive(extendInitialGraphJob, true);
