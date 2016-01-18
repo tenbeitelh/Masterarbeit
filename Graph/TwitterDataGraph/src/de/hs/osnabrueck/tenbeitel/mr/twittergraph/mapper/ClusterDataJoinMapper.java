@@ -8,5 +8,5 @@ import org.apache.mahout.clustering.classify.WeightedPropertyVectorWritable;
 import de.hs.osnabrueck.tenbeitel.mr.twittergraph.io.TwitterWritable;
 
 public class ClusterDataJoinMapper extends Mapper<IntWritable, WeightedPropertyVectorWritable, Text, TwitterWritable>{
-
+	
 }
