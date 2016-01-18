@@ -14,8 +14,11 @@ import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 import javax.xml.transform.TransformerConfigurationException;
 
+import org.jgrapht.DirectedGraph;
 import org.jgrapht.alg.ConnectivityInspector;
 import org.jgrapht.alg.CycleDetector;
+import org.jgrapht.alg.EdmondsKarpMaximumFlow;
+import org.jgrapht.alg.StrongConnectivityInspector;
 import org.jgrapht.ext.DOTExporter;
 import org.jgrapht.ext.GraphMLExporter;
 import org.jgrapht.ext.JGraphXAdapter;
@@ -51,11 +54,11 @@ public class GraphPrinter extends JFrame {
 
 		try {
 			String graphString = readFile(
-					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data_20160113");
+					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\grah_data");
 			// String graphString = readFile(
 			// "C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data_extended_20160118");
 			graph = new ListenableDirectedGraph<String, DefaultEdge>(GraphUtils.getGraphFromString(graphString));
-			drawGraph(graph);
+			// drawGraph(graph);
 			// exportDOT(graph);
 			// exportGraphML(graph);
 			// exportGraphVisio(graph);
@@ -90,10 +93,15 @@ public class GraphPrinter extends JFrame {
 		for (int i = 0; i < cSet.size(); i++) {
 			System.out.println("Pos: " + i + " #Vertexes:" + cSet.get(i).size());
 		}
-
+		
+		
+		
 		DirectedSubgraph<String, DefaultEdge> subGraph = new DirectedSubgraph<>(graph, cSet.get(0), null);
 		final ListenableDirectedGraph<String, DefaultEdge> lSubGraph = new ListenableDirectedGraph<String, DefaultEdge>(
 				subGraph);
+		
+		graph(graph);
+		
 		// SwingUtilities.invokeLater(new Runnable() {
 		//
 		// @Override
@@ -159,5 +167,20 @@ public class GraphPrinter extends JFrame {
 		ListenableDirectedGraph<String, DefaultEdge> lSubGraph = new ListenableDirectedGraph<>(subGraph);
 		drawGraph(lSubGraph);
 
+	}
+	
+	private static void graph(ListenableDirectedGraph<String, DefaultEdge> graph){
+		StrongConnectivityInspector<String, DefaultEdge> subGraph = new StrongConnectivityInspector<>(graph);
+		List<DirectedSubgraph<String, DefaultEdge>> graphs = subGraph.stronglyConnectedSubgraphs();
+		
+		for(int i = 0; i < graphs.size(); i++){
+			System.out.println(i + " - " + graphs.get(i).vertexSet().size());
+		}
+		
+		
+	}
+	
+	private static void max(ListenableDirectedGraph<String, DefaultEdge> graph){
+		
 	}
 }
