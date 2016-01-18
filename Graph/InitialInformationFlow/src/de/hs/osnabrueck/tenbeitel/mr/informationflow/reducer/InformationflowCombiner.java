@@ -38,10 +38,10 @@ public class InformationflowCombiner extends Reducer<Text, Text, Text, Text> {
 		String statusIdString = key.toString();
 		InformationflowCombiner.graph.addVertex(statusIdString);
 
-		for (Text linkedTo : values) {
-			String linkedToString = linkedTo.toString();
-			InformationflowCombiner.graph.addVertex(linkedToString);
-			InformationflowCombiner.graph.addEdge(linkedToString, statusIdString);
+		for (Text repliedBy : values) {
+			String repliedByString = repliedBy.toString();
+			InformationflowCombiner.graph.addVertex(repliedByString);
+			InformationflowCombiner.graph.addEdge(repliedByString, statusIdString);
 		}
 
 	}
