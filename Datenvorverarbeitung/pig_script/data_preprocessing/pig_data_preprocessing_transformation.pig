@@ -8,10 +8,10 @@ REGISTER hdfs:///lib/elephantbird/json-simple-1.1.jar;
 
 twitter_files_of_month = LOAD '$input' USING com.twitter.elephantbird.pig.load.JsonLoader('-nestedLoad') AS (json:map[]);
 
-non_empty_tweets = FILTER twitter_files_of_month BY (json#'text' IS NOT NULL);
+non_empty_tweets = FILTER twitter_files_of_month BY (((chararray)json#'text') IS NOT NULL);
 non_empty_tweets2 = FILTER non_empty_tweets BY SIZE((chararray)json#'text')>0;
 
-de_tweets = FILTER non_empty_tweets2 BY (json#'lang' == 'de');
+de_tweets = FILTER non_empty_tweets2 BY (((chararray)json#'lang') == 'de');
 
 distinct_de_tweets = DISTINCT de_tweets;
 
@@ -21,13 +21,13 @@ features_selected = FOREACH distinct_de_tweets GENERATE json#'id', json#'id_str'
 initial_informationflow = FOREACH features_selected GENERATE $0, $4;
 initial_informationflow_filtered = FILTER initial_informationflow BY ($1 IS NOT NULL);
 
-replace_linebreaks = FOREACH features_selected GENERATE $0, REPLACE(REPLACE($9, '\n', ' '), '\r', '');
+replace_linebreaks = FOREACH features_selected GENERATE $0, REPLACE(((chararray)$9), '\\r?\\n', ' ');
 
-replace_urls = FOREACH  replace_linebreaks GENERATE $0, REPLACE($1, '(https?|ftp|file):/{0,2}[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]', ''); 
-replace_retweet = FOREACH  replace_urls GENERATE $0, REPLACE($1, 'RT', ''); 
+replace_urls = FOREACH  replace_linebreaks GENERATE $0, REPLACE(((chararray)$1), '(https?|ftp|file):/{0,2}[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]', ''); 
+replace_retweet = FOREACH  replace_urls GENERATE $0, REPLACE(((chararray)$1), 'RT', ''); 
 clustering_features = FOREACH  replace_retweet GENERATE  $0, $1;
 
-visualize_features = FOREACH features_selected GENERATE $0, $7, $11, REPLACE(REPLACE($9, '\n', ' '), '\r', '') ;
+visualize_features = FOREACH features_selected GENERATE $0, $7, $11, REPLACE(((chararray)$9), '\\r?\\n', ' ');
 
 twitter_id_to_date = FOREACH features_selected GENERATE $0, $7;
 

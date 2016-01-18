@@ -102,14 +102,14 @@ public class GraphPrinter extends JFrame {
 
 		final ListenableDirectedGraph<String, DefaultEdge> fGraph = new ListenableDirectedGraph<>(graph);
 
-		 SwingUtilities.invokeLater(new Runnable() {
-		
-		 @Override
-		 public void run() {
-		 drawGraph(new ListenableDirectedGraph<String, DefaultEdge>(
-		 new DirectedSubgraph<>(fGraph, cSet.get(319), null)));
-		 }
-		 });
+		SwingUtilities.invokeLater(new Runnable() {
+
+			@Override
+			public void run() {
+				drawGraph(new ListenableDirectedGraph<String, DefaultEdge>(
+						new DirectedSubgraph<>(fGraph, cSet.get(1008), null)));
+			}
+		});
 		//
 		// SwingUtilities.invokeLater(new Runnable() {
 		//
