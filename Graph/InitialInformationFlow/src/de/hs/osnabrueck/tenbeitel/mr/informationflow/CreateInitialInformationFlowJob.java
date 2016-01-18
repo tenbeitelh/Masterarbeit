@@ -51,6 +51,8 @@ public class CreateInitialInformationFlowJob extends Configured implements Tool 
 		FileInputFormat.setInputDirRecursive(informationflowJob, true);
 		FileInputFormat.addInputPath(informationflowJob, new Path(args[0]));
 		informationflowJob.setInputFormatClass(FileInputFormat.class);
+		
+		informationflowJob.setNumReduceTasks(1);
 
 		Path outputDir = new Path(args[1]);
 

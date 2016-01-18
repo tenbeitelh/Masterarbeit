@@ -33,7 +33,7 @@ import de.hs.osnabrueck.tenbeitel.mr.extendgraph.utils.HadoopPathUtils;
 public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 	
-	private static final String INITIAL_GRAPH_PATH = "initial_informationflow";
+	private static final String INITIAL_GRAPH_PATH = "graph_data";
 	private static final String TWITTER_ID_DATE_FOLDER = "twitter_id_date";
 	private static final String CLUSTERED_POINTS_DIR = "kmeans/clusters/clusteredPoints";
 	private static final String TEMP_DATE_VECTOR_DIR = "date_vectors";
