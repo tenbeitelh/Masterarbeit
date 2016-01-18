@@ -20,7 +20,7 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 	private static final String PRE_POSTFIX = "_pre";
 	private static final String POST_POSTFIX = "_post";
 
-	private static Double similarityTreshold = 0.1;
+	private static Double similarityTreshold = 0.05;
 
 	private Text keyId;
 	private Text valueId;
@@ -33,7 +33,7 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 			similarityTreshold = Double.valueOf(tresholdString);
 		} catch (NumberFormatException ex) {
 			System.out.println("Could not parse command line paramter reducer.treshold=[" + tresholdString
-					+ "] into double. Using default treshold of 0.9");
+					+ "] into double. Using default treshold of 0.05");
 		}
 	}
 
@@ -49,12 +49,10 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 				NamedVector calcNamedVector = (NamedVector) calcVector.getNamedVector().getVector();
 				if (!currentNamedVector.getName().equals(calcNamedVector.getName())) {
 					Double similarity = MEASURE.distance(currentNamedVector, calcNamedVector);
-					System.out.println(
-							currentNamedVector.getName() + " <-> " + calcNamedVector.getName() + " = " + similarity);
+					// System.out.println(
+					// currentNamedVector.getName() + " <-> " +
+					// calcNamedVector.getName() + " = " + similarity);
 					if (similarity <= similarityTreshold) {
-						System.out.println(currentNamedVector.asFormatString());
-						System.out.println(calcNamedVector.asFormatString());
-						// TODO Date check
 						try {
 							Date currentVectorDate = DateUtils
 									.convertTwitterDateStringToDate(cVector.getDate().toString());
@@ -62,7 +60,6 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 									.convertTwitterDateStringToDate(currentVector.getDate().toString());
 
 							System.out.println(currentVectorDate + " - " + calcVectorDate);
-
 							
 							if (calcVectorDate.before(currentVectorDate)) {
 								keyId.set(currentNamedVector.getName() + PRE_POSTFIX);
