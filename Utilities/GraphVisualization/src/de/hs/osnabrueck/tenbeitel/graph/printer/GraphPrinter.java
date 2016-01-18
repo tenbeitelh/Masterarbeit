@@ -107,7 +107,7 @@ public class GraphPrinter extends JFrame {
 		 @Override
 		 public void run() {
 		 drawGraph(new ListenableDirectedGraph<String, DefaultEdge>(
-		 new DirectedSubgraph<>(fGraph, cSet.get(149), null)));
+		 new DirectedSubgraph<>(fGraph, cSet.get(319), null)));
 		 }
 		 });
 		//
