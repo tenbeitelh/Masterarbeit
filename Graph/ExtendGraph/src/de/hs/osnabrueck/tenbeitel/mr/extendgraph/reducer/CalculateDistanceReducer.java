@@ -61,9 +61,11 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 
 							System.out.println(currentVectorDate + " - " + calcVectorDate);
 
+							
 							if (calcVectorDate.before(currentVectorDate)) {
 								keyId.set(currentNamedVector.getName() + PRE_POSTFIX);
 								valueId.set(calcNamedVector.getName());
+								System.out.println(keyId.toString() + " < --- > " + valueId.toString());
 								context.write(keyId, valueId);
 							}
 							if (calcVectorDate.after(currentVectorDate)) {
