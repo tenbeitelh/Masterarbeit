@@ -33,7 +33,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>de.hs.osnabrueck.tenbeitel.mr.extendedgraph.ExtendInformationflowGraphJob</mainClass>
+              <mainClass>de.hs.osnabrueck.tenbeitel.mr.extendgraph.ExtendInformationflowGraphJob</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
