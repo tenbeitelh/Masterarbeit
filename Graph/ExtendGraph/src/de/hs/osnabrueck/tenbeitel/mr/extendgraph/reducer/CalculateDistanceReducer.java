@@ -52,7 +52,7 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 					// System.out.println(
 					// currentNamedVector.getName() + " <-> " +
 					// calcNamedVector.getName() + " = " + similarity);
-					if (similarity <= similarityTreshold) {
+					if (similarity <= similarityTreshold && similarity > 0.0) {
 						try {
 							Date currentVectorDate = DateUtils
 									.convertTwitterDateStringToDate(cVector.getDate().toString());
