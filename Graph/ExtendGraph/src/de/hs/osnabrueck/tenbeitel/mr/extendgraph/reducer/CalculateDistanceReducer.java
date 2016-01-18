@@ -10,8 +10,8 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.mahout.common.distance.CosineDistanceMeasure;
 import org.apache.mahout.math.NamedVector;
 
-import de.hs.osnabrueck.tenbeitel.mr.extendedgraph.utils.DateUtils;
 import de.hs.osnabrueck.tenbeitel.mr.extendgraph.io.DateVectorWritable;
+import de.hs.osnabrueck.tenbeitel.mr.extendgraph.utils.DateUtils;
 
 public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWritable, Text, Text> {
 
