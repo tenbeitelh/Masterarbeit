@@ -1,6 +1,7 @@
 package de.hs.osnabrueck.tenbeitel.mr.extendedgraph;
 
 import java.io.IOException;
+import java.net.URI;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
@@ -42,7 +43,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
-		String inputFolder = args[0];
+		Path inputFolder = new Path(args[0]);
 
 		Configuration conf = this.getConf();
 
@@ -82,7 +83,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		return 0;
 	}
 
-	private int runBuildDateVectorJob(Configuration conf, String inputFolder)
+	private int runBuildDateVectorJob(Configuration conf, Path inputFolder)
 			throws IOException, ClassNotFoundException, InterruptedException {
 		Job buildDateVector = Job.getInstance(conf);
 		buildDateVector.setJobName(this.getClass().getName() + " - BuildDateVectorJob");
@@ -115,7 +116,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 	}
 
-	private int runCalculateDistanceJob(Configuration conf, String inputFolder)
+	private int runCalculateDistanceJob(Configuration conf, Path inputFolder)
 			throws IOException, ClassNotFoundException, InterruptedException {
 		Job calculateDistanceJob = Job.getInstance(conf);
 		calculateDistanceJob.setJobName(this.getClass().getName() + " - CalculateDistanceJob");
@@ -146,6 +147,23 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		FileOutputFormat.setOutputPath(calculateDistanceJob, simiilarItemsOutputPath);
 
 		return (calculateDistanceJob.waitForCompletion(true) ? 0 : 1);
+	}
+
+	public int runExtendInitialGraphJob(Configuration conf, Path inputFolder) throws IOException {
+		Job extendInitialGraphJob = Job.getInstance(conf);
+		extendInitialGraphJob.setJobName(this.getClass().getName() + " - ExtendInitialGraphJob");
+		extendInitialGraphJob.setJarByClass(ExtendInformationflowGraphJob.class);
+
+		Path similarTweetsFolder = new Path(SIMILAR_TWITTER_FOLDER);
+
+		extendInitialGraphJob.setInputFormatClass(SequenceFileInputFormat.class);
+		FileInputFormat.setInputDirRecursive(extendInitialGraphJob, true);
+		FileInputFormat.addInputPath(extendInitialGraphJob, similarTweetsFolder);
+
+		Path initialGraphPath = new Path(inputFolder, INITIAL_GRAPH_PATH);
+		extendInitialGraphJob.setCacheFiles(new URI[] { initialGraphPath.toUri() });
+
+		return 0;
 	}
 
 }
