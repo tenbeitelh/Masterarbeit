@@ -20,7 +20,7 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 	private static final String PRE_POSTFIX = "_pre";
 	private static final String POST_POSTFIX = "_post";
 
-	private static Double similarityTreshold = 0.9;
+	private static Double similarityTreshold = 0.1;
 
 	private Text keyId;
 	private Text valueId;
@@ -51,7 +51,9 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 					Double similarity = MEASURE.distance(currentNamedVector, calcNamedVector);
 					System.out.println(
 							currentNamedVector.getName() + " <-> " + calcNamedVector.getName() + " = " + similarity);
-					if (similarity >= similarityTreshold && similarity < 1.0) {
+					if (similarity <= similarityTreshold) {
+						System.out.println(currentNamedVector.asFormatString());
+						System.out.println(calcNamedVector.asFormatString());
 						// TODO Date check
 						try {
 							Date currentVectorDate = DateUtils
