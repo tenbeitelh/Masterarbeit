@@ -25,7 +25,12 @@ public class ExtendGraphReducer extends Reducer<Text, Text, NullWritable, Text> 
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
 		for (Text graph : values) {
 			DefaultDirectedGraph<String, DefaultEdge> actualGraph = GraphUtils.getGraphFromString(graph.toString());
+			System.out.println(extendedGraph.vertexSet().toString());
+			System.out.println();
 			Graphs.addGraph(extendedGraph, actualGraph);
+			System.out.println(actualGraph.vertexSet().toString());
+			System.out.println(extendedGraph.vertexSet().toString());
+			System.out.println();
 		}
 	}
 
