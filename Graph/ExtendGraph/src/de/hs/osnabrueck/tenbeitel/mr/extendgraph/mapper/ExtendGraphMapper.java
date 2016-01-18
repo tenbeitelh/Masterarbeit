@@ -1,10 +1,14 @@
 package de.hs.osnabrueck.tenbeitel.mr.extendgraph.mapper;
 
-import java.io.File;
 import java.io.IOException;
+import java.io.StringWriter;
 import java.net.URI;
+import java.nio.charset.Charset;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
+import org.apache.hadoop.fs.FSDataInputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.jgrapht.graph.DefaultDirectedGraph;
@@ -48,10 +52,17 @@ public class ExtendGraphMapper extends Mapper<Text, Text, Text, Text> {
 	}
 
 	private void readGraphFromCachedFile(Context context) throws IOException {
+		FileSystem fs = FileSystem.get(context.getConfiguration());
+
 		URI[] cachedFiles = context.getCacheFiles();
 		if (cachedFiles != null && cachedFiles.length > 0) {
-			File graphFile = new File(cachedFiles[0]);
-			String graphString = FileUtils.readFileToString(graphFile);
+			FSDataInputStream inputStream = fs.open(new Path(cachedFiles[0]));
+
+			StringWriter writer = new StringWriter();
+			IOUtils.copy(inputStream, writer, Charset.forName("UTF-8"));
+			String graphString = writer.toString();
+			// String graphString = FileUtils.readFileToString(graphFile);
+
 			graph = GraphUtils.getGraphFromString(graphString);
 		}
 	}
