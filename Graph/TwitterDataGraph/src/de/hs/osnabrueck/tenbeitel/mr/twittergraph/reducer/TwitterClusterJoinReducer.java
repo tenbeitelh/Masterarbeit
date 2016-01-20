@@ -5,7 +5,9 @@ import java.io.StringWriter;
 import java.net.URI;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 
 import org.apache.commons.io.IOUtils;
@@ -18,8 +20,6 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.jgrapht.graph.DefaultDirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
 
-import com.sun.tools.javac.util.List;
-
 import de.hs.osnabrueck.tenbeitel.mr.graph.utils.GraphUtils;
 import de.hs.osnabrueck.tenbeitel.mr.twittergraph.constants.TwitterWritableConstants;
 import de.hs.osnabrueck.tenbeitel.mr.twittergraph.io.TwitterWritable;
@@ -29,6 +29,8 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 
 	DefaultDirectedGraph<String, DefaultEdge> idGraph;
 	DefaultDirectedGraph<TwitterVertex, DefaultEdge> twitterGraph;
+
+	Map<String, TwitterVertex> vertexMap = new HashMap<String, TwitterVertex>();
 
 	@Override
 	protected void setup(Reducer<Text, TwitterWritable, NullWritable, Text>.Context context)
@@ -49,6 +51,7 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 				if (!first.equals(second)) {
 					TwitterVertex mergeResult = mergeTwitterWritablesToVertex(first, second);
 					twitterGraph.addVertex(mergeResult);
+					vertexMap.put(mergeResult.getTwitterId(), mergeResult);
 				}
 			}
 		}
@@ -60,13 +63,11 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 		// TODO Auto-generated method stub
 		super.cleanup(context);
 		Set<DefaultEdge> edgeSet = idGraph.edgeSet();
-		ArrayList<TwitterVertex> vertexList = new ArrayList<TwitterVertex>(twitterGraph.vertexSet());
 		for (DefaultEdge edge : edgeSet) {
 			String sourceId = this.idGraph.getEdgeSource(edge);
 			String targetId = this.idGraph.getEdgeTarget(edge);
-			TwitterVertex tempSource = new TwitterVertex();
-			tempSource.setTwitterId(sourceId);
-			TwitterVertex tempTarget = new TwitterVertex();
+			TwitterVertex tempSource = vertexMap.get(sourceId);
+			TwitterVertex tempTarget = vertexMap.get(targetId);
 			tempTarget.setTwitterId(targetId);
 			if (this.twitterGraph.containsVertex(tempSource)) {
 				this.twitterGraph.addVertex(tempSource);
