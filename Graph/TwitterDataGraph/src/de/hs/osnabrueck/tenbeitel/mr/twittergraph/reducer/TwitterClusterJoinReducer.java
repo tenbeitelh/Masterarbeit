@@ -37,12 +37,14 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 			throws IOException, InterruptedException {
 		super.setup(context);
 		this.idGraph = readGraphFromCachedFile(context);
+		System.out.println(idGraph.vertexSet());
 		twitterGraph = new DefaultDirectedGraph<TwitterVertex, DefaultEdge>(DefaultEdge.class);
 	}
 
 	@Override
 	protected void reduce(Text key, Iterable<TwitterWritable> values, Context context)
 			throws IOException, InterruptedException {
+		System.out.println(key + " - " + values.toString());
 		if (idGraph.containsVertex(key.toString())) {
 			Iterator<TwitterWritable> it = values.iterator();
 			TwitterWritable first = new TwitterWritable(it.next());
@@ -50,6 +52,7 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 			while (it.hasNext()) {
 				TwitterWritable second = new TwitterWritable(it.next());
 				System.out.println(second);
+				System.out.println();
 				if (first.getTwitterId().toString().equalsIgnoreCase(second.getTwitterId().toString())) {
 					TwitterVertex mergeResult = mergeTwitterWritablesToVertex(first, second);
 
