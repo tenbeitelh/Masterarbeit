@@ -30,7 +30,8 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 	DefaultDirectedGraph<String, DefaultEdge> idGraph;
 	DefaultDirectedGraph<TwitterVertex, DefaultEdge> twitterGraph;
 
-	Map<String, TwitterVertex> vertexMap = new HashMap<String, TwitterVertex>();
+	// Map<String, TwitterVertex> vertexMap = new HashMap<String,
+	// TwitterVertex>();
 
 	@Override
 	protected void setup(Reducer<Text, TwitterWritable, NullWritable, Text>.Context context)
@@ -51,7 +52,7 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 				if (!first.equals(second)) {
 					TwitterVertex mergeResult = mergeTwitterWritablesToVertex(first, second);
 					twitterGraph.addVertex(mergeResult);
-					vertexMap.put(mergeResult.getTwitterId(), mergeResult);
+					// vertexMap.put(mergeResult.getTwitterId(), mergeResult);
 				}
 			}
 		}
@@ -63,11 +64,17 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 		// TODO Auto-generated method stub
 		super.cleanup(context);
 		Set<DefaultEdge> edgeSet = idGraph.edgeSet();
+		ArrayList<TwitterVertex> vertexList = new ArrayList<TwitterVertex>(twitterGraph.vertexSet());
 		for (DefaultEdge edge : edgeSet) {
 			String sourceId = this.idGraph.getEdgeSource(edge);
 			String targetId = this.idGraph.getEdgeTarget(edge);
-			TwitterVertex tempSource = vertexMap.get(sourceId);
-			TwitterVertex tempTarget = vertexMap.get(targetId);
+
+			// TwitterVertex tempSource = vertexMap.get(sourceId);
+			// TwitterVertex tempTarget = vertexMap.get(targetId);
+
+			TwitterVertex tempSource = new TwitterVertex();
+			tempSource.setTwitterId(sourceId);
+			TwitterVertex tempTarget = new TwitterVertex();
 			tempTarget.setTwitterId(targetId);
 			if (this.twitterGraph.containsVertex(tempSource)) {
 				this.twitterGraph.addVertex(tempSource);

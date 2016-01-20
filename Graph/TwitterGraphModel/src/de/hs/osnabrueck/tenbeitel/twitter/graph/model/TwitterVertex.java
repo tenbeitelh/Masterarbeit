@@ -76,12 +76,7 @@ public class TwitterVertex {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((clusterId == null) ? 0 : clusterId.hashCode());
-		result = prime * result + ((createdDate == null) ? 0 : createdDate.hashCode());
-		result = prime * result + ((tweetMessage == null) ? 0 : tweetMessage.hashCode());
 		result = prime * result + ((twitterId == null) ? 0 : twitterId.hashCode());
-		result = prime * result + ((userId == null) ? 0 : userId.hashCode());
-		result = prime * result + ((userScreenName == null) ? 0 : userScreenName.hashCode());
 		return result;
 	}
 
