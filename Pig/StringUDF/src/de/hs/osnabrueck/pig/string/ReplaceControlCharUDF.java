@@ -22,8 +22,8 @@ public class ReplaceControlCharUDF extends EvalFunc<String> {
 	}
 
 	private String replaceControlCharacters(String text) {
-		// String replaced = text.replaceAll("[\u0000-\u001f]", " ");
-		String replaced = CharMatcher.JAVA_ISO_CONTROL.replaceFrom(text, " ");
+		String replaced = text.replaceAll("[\u0000-\u001f]", " ");
+		replaced = CharMatcher.JAVA_ISO_CONTROL.replaceFrom(replaced, " ");
 		return replaced.replaceAll("^ +| +$|( )+", " ");
 	}
 
