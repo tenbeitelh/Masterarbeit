@@ -49,7 +49,7 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 			TwitterWritable first = new TwitterWritable(it.next());
 			while (it.hasNext()) {
 				TwitterWritable second = new TwitterWritable(it.next());
-				if (!first.equals(second)) {
+				if (first.getTwitterId().toString().equalsIgnoreCase(second.getTwitterId().toString())) {
 					TwitterVertex mergeResult = mergeTwitterWritablesToVertex(first, second);
 					twitterGraph.addVertex(mergeResult);
 					// vertexMap.put(mergeResult.getTwitterId(), mergeResult);
@@ -64,7 +64,7 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 		// TODO Auto-generated method stub
 		super.cleanup(context);
 		Set<DefaultEdge> edgeSet = idGraph.edgeSet();
-		ArrayList<TwitterVertex> vertexList = new ArrayList<TwitterVertex>(twitterGraph.vertexSet());
+
 		for (DefaultEdge edge : edgeSet) {
 			String sourceId = this.idGraph.getEdgeSource(edge);
 			String targetId = this.idGraph.getEdgeTarget(edge);
