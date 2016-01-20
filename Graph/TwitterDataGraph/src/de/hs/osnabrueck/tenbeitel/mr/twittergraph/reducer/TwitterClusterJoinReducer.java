@@ -69,7 +69,12 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 		// TODO Auto-generated method stub
 		super.cleanup(context);
 		Set<DefaultEdge> edgeSet = idGraph.edgeSet();
-
+		Set<String> vertexSet = idGraph.vertexSet();
+		for (String id : vertexSet) {
+			if (!vertexMap.containsKey(id)) {
+				vertexMap.put(id, TwitterVertex.createEmptyVertex(id));
+			}
+		}
 		for (DefaultEdge edge : edgeSet) {
 			String sourceId = this.idGraph.getEdgeSource(edge);
 			String targetId = this.idGraph.getEdgeTarget(edge);
@@ -84,7 +89,6 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 			// TwitterVertex.createEmptyVertex(targetId);
 
 			if (!this.twitterGraph.containsVertex(tempSource)) {
-
 				this.twitterGraph.addVertex(tempSource);
 			}
 			if (!this.twitterGraph.containsVertex(tempTarget)) {
