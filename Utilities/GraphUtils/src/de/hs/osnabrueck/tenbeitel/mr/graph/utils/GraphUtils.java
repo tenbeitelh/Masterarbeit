@@ -31,7 +31,7 @@ public class GraphUtils {
 			vertexStringBuilder.append(vertex.toJson());
 			vertexStringBuilder.append(JSON_DELIMITER);
 		}
-		vertexStringBuilder.setLength(vertexStringBuilder.length() - 1);
+		vertexStringBuilder.setLength(vertexStringBuilder.length() - 4);
 
 		StringBuilder edgeStringBuilder = new StringBuilder();
 		for (DefaultEdge edge : graph.edgeSet()) {
@@ -40,7 +40,7 @@ public class GraphUtils {
 			edgeStringBuilder.append(graph.getEdgeTarget(edge).toJson());
 			edgeStringBuilder.append(JSON_DELIMITER);
 		}
-		edgeStringBuilder.setLength(edgeStringBuilder.length() - 1);
+		edgeStringBuilder.setLength(edgeStringBuilder.length() - 4);
 
 		StringBuilder sb = new StringBuilder(vertexStringBuilder.toString());
 		sb.append(COMPONENT_DELIMITER);
