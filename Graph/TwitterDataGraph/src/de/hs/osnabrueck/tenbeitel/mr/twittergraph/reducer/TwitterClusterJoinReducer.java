@@ -74,7 +74,7 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 			// TwitterVertex tempTarget = vertexMap.get(targetId);
 
 			TwitterVertex tempSource = new TwitterVertex();
-			tempSource.setTwitterId(sourceId);
+			
 			TwitterVertex tempTarget = new TwitterVertex();
 			tempTarget.setTwitterId(targetId);
 			if (!this.twitterGraph.containsVertex(tempSource)) {
