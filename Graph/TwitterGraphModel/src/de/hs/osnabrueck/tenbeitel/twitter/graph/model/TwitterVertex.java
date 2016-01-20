@@ -7,17 +7,21 @@ public class TwitterVertex {
 	private String twitterId;
 	private String createdDate;
 	private String tweetMessage;
-	private String user;
+	private String userId;
+	private String userScreenName;
 
 	public TwitterVertex() {
 	}
 
-	public TwitterVertex(String clusterId, String twitterId, String createdDate, String tweetMessage, String user) {
+	public TwitterVertex(String clusterId, String twitterId, String createdDate, String tweetMessage, String userId,
+			String userScreenName) {
+		super();
 		this.clusterId = clusterId;
 		this.twitterId = twitterId;
 		this.createdDate = createdDate;
 		this.tweetMessage = tweetMessage;
-		this.user = user;
+		this.userId = userId;
+		this.userScreenName = userScreenName;
 	}
 
 	public String getClusterId() {
@@ -52,12 +56,20 @@ public class TwitterVertex {
 		this.tweetMessage = tweetMessage;
 	}
 
-	public String getUser() {
-		return user;
+	public String getUserId() {
+		return userId;
 	}
 
-	public void setUser(String user) {
-		this.user = user;
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+
+	public String getUserScreenName() {
+		return userScreenName;
+	}
+
+	public void setUserScreenName(String userScreenName) {
+		this.userScreenName = userScreenName;
 	}
 
 	@Override
@@ -68,7 +80,8 @@ public class TwitterVertex {
 		result = prime * result + ((createdDate == null) ? 0 : createdDate.hashCode());
 		result = prime * result + ((tweetMessage == null) ? 0 : tweetMessage.hashCode());
 		result = prime * result + ((twitterId == null) ? 0 : twitterId.hashCode());
-		result = prime * result + ((user == null) ? 0 : user.hashCode());
+		result = prime * result + ((userId == null) ? 0 : userId.hashCode());
+		result = prime * result + ((userScreenName == null) ? 0 : userScreenName.hashCode());
 		return result;
 	}
 
@@ -81,38 +94,17 @@ public class TwitterVertex {
 		if (getClass() != obj.getClass())
 			return false;
 		TwitterVertex other = (TwitterVertex) obj;
-		if (clusterId == null) {
-			if (other.clusterId != null)
-				return false;
-		} else if (!clusterId.equals(other.clusterId))
-			return false;
-		if (createdDate == null) {
-			if (other.createdDate != null)
-				return false;
-		} else if (!createdDate.equals(other.createdDate))
-			return false;
-		if (tweetMessage == null) {
-			if (other.tweetMessage != null)
-				return false;
-		} else if (!tweetMessage.equals(other.tweetMessage))
-			return false;
-		if (twitterId == null) {
-			if (other.twitterId != null)
-				return false;
-		} else if (!twitterId.equals(other.twitterId))
-			return false;
-		if (user == null) {
-			if (other.user != null)
-				return false;
-		} else if (!user.equals(other.user))
-			return false;
-		return true;
+		if (this.twitterId.equalsIgnoreCase(other.getTwitterId())) {
+			return true;
+		}
+		return false;
 	}
 
 	@Override
 	public String toString() {
-		return "[clusterId=" + clusterId + ",\n" + "twitterId=" + twitterId + ",\n" + " createdDate=" + createdDate
-				+ ",\n" + " tweetMessage=" + tweetMessage + ",\n" + " user=" + user + "]";
+		return "TwitterVertex [clusterId=" + clusterId + ",\n twitterId=" + twitterId + ",\n createdDate=" + createdDate
+				+ ",\n tweetMessage=" + tweetMessage + ",\n userId=" + userId + ",\n userScreenName=" + userScreenName
+				+ "]";
 	}
 
 	public String toJson() {
@@ -120,7 +112,7 @@ public class TwitterVertex {
 		return gson.toJson(this);
 	}
 
-	public TwitterVertex fromJson(String json) {
+	public static TwitterVertex fromJson(String json) {
 		Gson gson = new Gson();
 		return gson.fromJson(json, TwitterVertex.class);
 	}

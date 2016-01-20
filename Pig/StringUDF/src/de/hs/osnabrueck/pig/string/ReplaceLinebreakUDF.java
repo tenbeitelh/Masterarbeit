@@ -7,7 +7,7 @@ import org.apache.pig.data.Tuple;
 
 public class ReplaceLinebreakUDF extends EvalFunc<String> {
 
-	private static final String LINEBREAK_REGEX = "\\r?\\n";
+	private static final String LINEBREAK_REGEX = "\\r+|\\n+";
 
 	@Override
 	public String exec(Tuple input) throws IOException {
