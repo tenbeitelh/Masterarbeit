@@ -8,8 +8,8 @@ import de.hs.osnabrueck.tenbeitel.twitter.graph.model.TwitterVertex;
 public class GraphUtils {
 
 	private static final String COMPONENT_DELIMITER = "\t";
-	private static final String JSON_DELIMITER = "__";
-	private static final String EDGE_DELIMITER = "++";
+	private static final String JSON_DELIMITER = "<__>";
+	private static final String EDGE_DELIMITER = "<++>";
 
 	public static String getStringRepresantationFromGraph(DefaultDirectedGraph<String, DefaultEdge> graph) {
 		String vertexString = graph.vertexSet().toString();
@@ -61,6 +61,7 @@ public class GraphUtils {
 		String[] edgeArray = createJsonEdgeArray(vertexAndEdges[1]);
 
 		for (String vertex : jsonVertex) {
+			System.out.println(vertex);
 			twitterGraph.addVertex(TwitterVertex.fromJson(vertex));
 		}
 
