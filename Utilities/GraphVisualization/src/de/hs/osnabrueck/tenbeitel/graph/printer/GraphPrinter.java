@@ -43,7 +43,7 @@ public class GraphPrinter extends JFrame {
 	 */
 	private static final long serialVersionUID = -7296374538320083805L;
 
-	private static JGraphXAdapter<String, DefaultEdge> jgxAdapter;
+	private static JGraphXAdapter jgxAdapter;
 
 	public static void main(String[] args) throws TransformerConfigurationException, SAXException {
 
@@ -90,11 +90,11 @@ public class GraphPrinter extends JFrame {
 
 	}
 
-	private static void processTwitterGraph(DirectedGraph<TwitterVertex, DefaultEdge> twitterGraph) {
+	private static void processTwitterGraph(final DirectedGraph<TwitterVertex, DefaultEdge> twitterGraph) {
 		ConnectivityInspector<TwitterVertex, DefaultEdge> inspector = new ConnectivityInspector<TwitterVertex, DefaultEdge>(
 				twitterGraph);
 		
-		List<Set<TwitterVertex>> connectedSet = inspector.connectedSets();
+		final List<Set<TwitterVertex>> connectedSet = inspector.connectedSets();
 		System.out.println("#subgraphs: " + connectedSet.size());
 		
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -107,6 +107,37 @@ public class GraphPrinter extends JFrame {
 		}
 
 		final ListenableDirectedGraph<TwitterVertex, DefaultEdge> fGraph = new ListenableDirectedGraph<TwitterVertex, DefaultEdge>(twitterGraph);
+		
+		SwingUtilities.invokeLater(new Runnable() {
+			
+			@Override
+			public void run() {
+				drawTwitterGraph(new ListenableDirectedGraph<>(new DirectedSubgraph<>(fGraph, connectedSet.get(649), null)));
+				
+			}
+		});
+	}
+	
+	protected static void drawTwitterGraph(ListenableDirectedGraph<TwitterVertex, DefaultEdge> graph) {
+		JFrame frame = new JFrame();
+		frame.setSize(1000, 1000);
+		frame.setLocation(300, 200);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		jgxAdapter = new JGraphXAdapter<TwitterVertex, DefaultEdge>(graph);
+		jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL, "1");
+
+		mxGraphComponent graphComponent2 = new mxGraphComponent(jgxAdapter);
+		graphComponent2.setConnectable(false);
+		graphComponent2.setEnabled(false);
+		graphComponent2.setDragEnabled(true);
+
+		new mxHierarchicalLayout(jgxAdapter).execute(jgxAdapter.getDefaultParent());
+		frame.getContentPane().add(graphComponent2);
+
+		frame.pack();
+		frame.setVisible(true);
+
 	}
 
 	protected static void drawGraph(ListenableDirectedGraph<String, DefaultEdge> graph) {

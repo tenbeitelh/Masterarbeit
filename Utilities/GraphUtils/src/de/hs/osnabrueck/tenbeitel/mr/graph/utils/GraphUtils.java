@@ -61,18 +61,26 @@ public class GraphUtils {
 		String[] edgeArray = createJsonEdgeArray(vertexAndEdges[1]);
 
 		for (String vertex : jsonVertex) {
-			System.out.println(vertex);
 			twitterGraph.addVertex(TwitterVertex.fromJson(vertex));
 		}
 
 		for (String edges : edgeArray) {
-			String[] edgeParts = edges.split(String.valueOf(EDGE_DELIMITER));
+			String[] edgeParts = edges.split("<\\+\\+>");
 			TwitterVertex source = TwitterVertex.fromJson(edgeParts[0]);
 			TwitterVertex target = TwitterVertex.fromJson(edgeParts[1]);
 			twitterGraph.addEdge(source, target);
 		}
 
 		return twitterGraph;
+	}
+
+	private static String[] createJsonVertexArray(String vertexString) {
+		return vertexString.split(String.valueOf(JSON_DELIMITER));
+	}
+
+	private static String[] createJsonEdgeArray(String edgeString) {
+		// TODO Auto-generated method stub
+		return edgeString.split(JSON_DELIMITER);
 	}
 
 	public static DefaultDirectedGraph<String, DefaultEdge> getGraphFromString(String graphAsString) {
@@ -112,15 +120,6 @@ public class GraphUtils {
 		tmp = tmp.replaceAll("\\)", "");
 
 		return tmp.split(",");
-	}
-
-	private static String[] createJsonVertexArray(String vertexString) {
-		return vertexString.split(String.valueOf(JSON_DELIMITER));
-	}
-
-	private static String[] createJsonEdgeArray(String edgeString) {
-		// TODO Auto-generated method stub
-		return edgeString.split(COMPONENT_DELIMITER);
 	}
 
 }
