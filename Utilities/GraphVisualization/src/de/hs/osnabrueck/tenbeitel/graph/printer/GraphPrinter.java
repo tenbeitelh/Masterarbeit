@@ -34,6 +34,7 @@ import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.util.mxConstants;
 
 import de.hs.osnabrueck.tenbeitel.mr.graph.utils.GraphUtils;
+import de.hs.osnabrueck.tenbeitel.twitter.graph.model.TwitterVertex;
 
 public class GraphPrinter extends JFrame {
 
@@ -52,93 +53,60 @@ public class GraphPrinter extends JFrame {
 		frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		DirectedGraph<String, DefaultEdge> graph = null;
+		DirectedGraph<TwitterVertex, DefaultEdge> twitterGraph = null;
 
 		try {
-			String graphString = readFile(
-					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data2");
+			// String graphString = readFile(
+			// "C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data2");
 			// String graphString = readFile(
 			// "C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\graph_data_extended_20160118");
-			graph = GraphUtils.getGraphFromString(graphString);
+			// graph = GraphUtils.getGraphFromString(graphString);
 			// drawGraph(graph);
 			// exportDOT(graph);
 			// exportGraphML(graph);
 			// exportGraphVisio(graph);
 			// graphWithCycles(graph);
-			exportGraphML(new ListenableDirectedGraph<>(graph));
+			// exportGraphML(new ListenableDirectedGraph<>(graph));
+
+			String twitterGraphString = readFile(
+					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\twitter_graph");
+			twitterGraph = GraphUtils.createTwitterGraphFromString(twitterGraphString);
 
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
 		if (graph == null) {
-			System.out.println("Graph could not be read");
-			System.exit(ERROR);
+			System.out.println("Graph could not be read String graph");
+		} else {
+			stringGraph(graph);
 		}
 
-		// SwingUtilities.invokeLater(new Runnable() {
-		//
-		// @Override
-		// public void run() {
-		// drawGraph(graph);
-		// }
-		// });
+		if (twitterGraph == null) {
+			System.out.println("No twitter graph");
+		} else {
+			processTwitterGraph(twitterGraph);
+		}
 
-		System.out.println("Number vertex: " + graph.vertexSet().size());
-		System.out.println("Number edges: " + graph.edgeSet().size());
+	}
 
-		ConnectivityInspector<String, DefaultEdge> inspector = new ConnectivityInspector<String, DefaultEdge>(graph);
-
-		final List<Set<String>> cSet = inspector.connectedSets();
-
-		System.out.println("# Subgrahps: " + cSet.size());
+	private static void processTwitterGraph(DirectedGraph<TwitterVertex, DefaultEdge> twitterGraph) {
+		ConnectivityInspector<TwitterVertex, DefaultEdge> inspector = new ConnectivityInspector<TwitterVertex, DefaultEdge>(
+				twitterGraph);
+		
+		List<Set<TwitterVertex>> connectedSet = inspector.connectedSets();
+		System.out.println("#subgraphs: " + connectedSet.size());
+		
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-		for (int i = 0; i < cSet.size(); i++) {
-			map.put(cSet.get(i).size(), i);
+		for (int i = 0; i < connectedSet.size(); i++) {
+			map.put(connectedSet.get(i).size(), i);
 		}
 
 		for (Integer key : map.keySet()) {
 			System.out.println(key + " in " + map.get(key));
 		}
 
-		final ListenableDirectedGraph<String, DefaultEdge> fGraph = new ListenableDirectedGraph<>(graph);
-
-		SwingUtilities.invokeLater(new Runnable() {
-
-			@Override
-			public void run() {
-				drawGraph(new ListenableDirectedGraph<String, DefaultEdge>(
-						new DirectedSubgraph<>(fGraph, cSet.get(1008), null)));
-			}
-		});
-		//
-		// SwingUtilities.invokeLater(new Runnable() {
-		//
-		// @Override
-		// public void run() {
-		// drawGraph(new ListenableDirectedGraph<String, DefaultEdge>(
-		// new DirectedSubgraph<>(fGraph, cSet.get(109), null)));
-		// }
-		// });
-
-		//
-		//
-		//
-		// DirectedSubgraph<String, DefaultEdge> subGraph = new
-		// DirectedSubgraph<>(graph, cSet.get(0), null);
-		// final ListenableDirectedGraph<String, DefaultEdge> lSubGraph = new
-		// ListenableDirectedGraph<String, DefaultEdge>(
-		// subGraph);
-		//
-		// graph(graph);
-
-		// SwingUtilities.invokeLater(new Runnable() {
-		//
-		// @Override
-		// public void run() {
-		// drawGraph(lSubGraph);
-		// }
-		// });
-
+		final ListenableDirectedGraph<TwitterVertex, DefaultEdge> fGraph = new ListenableDirectedGraph<TwitterVertex, DefaultEdge>(twitterGraph);
 	}
 
 	protected static void drawGraph(ListenableDirectedGraph<String, DefaultEdge> graph) {
@@ -210,5 +178,35 @@ public class GraphPrinter extends JFrame {
 
 	private static void max(ListenableDirectedGraph<String, DefaultEdge> graph) {
 
+	}
+
+	private static void stringGraph(DirectedGraph<String, DefaultEdge> graph) {
+		System.out.println("Number vertex: " + graph.vertexSet().size());
+		System.out.println("Number edges: " + graph.edgeSet().size());
+
+		ConnectivityInspector<String, DefaultEdge> inspector = new ConnectivityInspector<String, DefaultEdge>(graph);
+
+		final List<Set<String>> cSet = inspector.connectedSets();
+
+		System.out.println("# Subgrahps: " + cSet.size());
+		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+		for (int i = 0; i < cSet.size(); i++) {
+			map.put(cSet.get(i).size(), i);
+		}
+
+		for (Integer key : map.keySet()) {
+			System.out.println(key + " in " + map.get(key));
+		}
+
+		final ListenableDirectedGraph<String, DefaultEdge> fGraph = new ListenableDirectedGraph<>(graph);
+
+		SwingUtilities.invokeLater(new Runnable() {
+
+			@Override
+			public void run() {
+				drawGraph(new ListenableDirectedGraph<String, DefaultEdge>(
+						new DirectedSubgraph<>(fGraph, cSet.get(1008), null)));
+			}
+		});
 	}
 }

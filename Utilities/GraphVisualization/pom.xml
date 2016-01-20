@@ -25,6 +25,11 @@
 			<artifactId>GraphUtils</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>TwitterGraphModel</groupId>
+			<artifactId>TwitterGraphModel</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
