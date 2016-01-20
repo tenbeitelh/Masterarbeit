@@ -16,6 +16,12 @@ public class TwitterWritable implements Writable {
 	private Text userScreenName;
 
 	public TwitterWritable() {
+		this.clusterId = new Text();
+		this.twitterId = new Text();
+		this.createdDate = new Text();
+		this.tweetMessage = new Text();
+		this.userId = new Text();
+		this.userScreenName = new Text();
 	}
 
 	public TwitterWritable(String clusterId, String twitterId, String createdDate, String tweetMessage, String userId,
