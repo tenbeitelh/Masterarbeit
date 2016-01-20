@@ -57,7 +57,7 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 					TwitterVertex mergeResult = mergeTwitterWritablesToVertex(first, second);
 
 					System.out.println("Added vertex:" + mergeResult);
-					// vertexMap.put(mergeResult.getTwitterId(), mergeResult);
+					vertexMap.put(mergeResult.getTwitterId(), mergeResult);
 				}
 			}
 		}
@@ -74,12 +74,14 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 			String sourceId = this.idGraph.getEdgeSource(edge);
 			String targetId = this.idGraph.getEdgeTarget(edge);
 
-			// TwitterVertex tempSource = vertexMap.get(sourceId);
-			// TwitterVertex tempTarget = vertexMap.get(targetId);
+			TwitterVertex tempSource = vertexMap.get(sourceId);
+			TwitterVertex tempTarget = vertexMap.get(targetId);
 
-			TwitterVertex tempSource = TwitterVertex.createEmptyVertex(sourceId);
+			// TwitterVertex tempSource =
+			// TwitterVertex.createEmptyVertex(sourceId);
 
-			TwitterVertex tempTarget = TwitterVertex.createEmptyVertex(targetId);
+			// TwitterVertex tempTarget =
+			// TwitterVertex.createEmptyVertex(targetId);
 
 			if (!this.twitterGraph.containsVertex(tempSource)) {
 
