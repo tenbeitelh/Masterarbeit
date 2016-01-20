@@ -16,7 +16,7 @@ public class TwitterDataJoinMapper extends Mapper<LongWritable, Text, Text, Twit
 	@Override
 	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, TwitterWritable>.Context context)
 			throws IOException, InterruptedException {
-		String[] textParts = value.toString().split("\\|");
+		String[] textParts = value.toString().split("\\t");
 		if (textParts.length == 5) {
 			twitterIdKey.set(textParts[0]);
 			twitterValue.setTwitterId(textParts[0]);
