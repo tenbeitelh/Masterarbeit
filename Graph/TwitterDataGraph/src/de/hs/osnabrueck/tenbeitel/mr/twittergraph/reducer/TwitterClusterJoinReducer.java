@@ -36,7 +36,7 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 	protected void setup(Reducer<Text, TwitterWritable, NullWritable, Text>.Context context)
 			throws IOException, InterruptedException {
 		super.setup(context);
-		readGraphFromCachedFile(context);
+		this.idGraph = readGraphFromCachedFile(context);
 		twitterGraph = new DefaultDirectedGraph<TwitterVertex, DefaultEdge>(DefaultEdge.class);
 	}
 
@@ -46,8 +46,10 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 		if (idGraph.containsVertex(key.toString())) {
 			Iterator<TwitterWritable> it = values.iterator();
 			TwitterWritable first = new TwitterWritable(it.next());
+			System.out.println(first);
 			while (it.hasNext()) {
 				TwitterWritable second = new TwitterWritable(it.next());
+				System.out.println(second);
 				if (first.getTwitterId().toString().equalsIgnoreCase(second.getTwitterId().toString())) {
 					TwitterVertex mergeResult = mergeTwitterWritablesToVertex(first, second);
 
@@ -72,7 +74,6 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 			// TwitterVertex tempSource = vertexMap.get(sourceId);
 			// TwitterVertex tempTarget = vertexMap.get(targetId);
 
-
 			TwitterVertex tempSource = TwitterVertex.createEmptyVertex(sourceId);
 
 			TwitterVertex tempTarget = TwitterVertex.createEmptyVertex(targetId);
@@ -91,7 +92,7 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 
 	}
 
-	private void readGraphFromCachedFile(Context context) throws IOException {
+	private DefaultDirectedGraph<String, DefaultEdge> readGraphFromCachedFile(Context context) throws IOException {
 		FileSystem fs = FileSystem.get(context.getConfiguration());
 
 		URI[] cachedFiles = context.getCacheFiles();
@@ -103,7 +104,9 @@ public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, Nu
 			String graphString = writer.toString();
 			// String graphString = FileUtils.readFileToString(graphFile);
 
-			idGraph = GraphUtils.getGraphFromString(graphString);
+			return idGraph = GraphUtils.getGraphFromString(graphString);
+		} else {
+			return null;
 		}
 	}
 

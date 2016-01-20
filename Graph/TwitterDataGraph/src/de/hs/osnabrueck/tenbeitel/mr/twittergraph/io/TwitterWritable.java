@@ -149,4 +149,12 @@ public class TwitterWritable implements Writable {
 		this.userScreenName = new Text(userScreenName);
 	}
 
+	@Override
+	public String toString() {
+		return "TwitterWritable [clusterId=" + clusterId + ", twitterId=" + twitterId + ", createdDate=" + createdDate
+				+ ", tweetMessage=" + tweetMessage + ", userId=" + userId + ", userScreenName=" + userScreenName + "]";
+	}
+	
+	
+
 }
