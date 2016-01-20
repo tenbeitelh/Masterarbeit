@@ -3,6 +3,8 @@ package de.hs.osnabrueck.tenbeitel.twitter.graph.model;
 import com.google.gson.Gson;
 
 public class TwitterVertex {
+	private static final String NOT_AVAILABLE = "N/A";
+
 	private String clusterId;
 	private String twitterId;
 	private String createdDate;
@@ -22,6 +24,10 @@ public class TwitterVertex {
 		this.tweetMessage = tweetMessage;
 		this.userId = userId;
 		this.userScreenName = userScreenName;
+	}
+
+	public static TwitterVertex createEmptyVertex(String twitterId) {
+		return new TwitterVertex(NOT_AVAILABLE, twitterId, NOT_AVAILABLE, NOT_AVAILABLE, NOT_AVAILABLE, NOT_AVAILABLE);
 	}
 
 	public String getClusterId() {
