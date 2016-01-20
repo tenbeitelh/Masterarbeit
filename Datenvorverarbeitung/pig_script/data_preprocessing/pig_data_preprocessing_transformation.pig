@@ -4,6 +4,7 @@ REGISTER hdfs:///lib/elephantbird/elephant-bird-pig-4.10.jar;
 REGISTER hdfs:///lib/elephantbird/elephant-bird-hadoop-compat-4.10.jar;
 REGISTER hdfs:///lib/elephantbird/google-collections-1.0.jar;
 REGISTER hdfs:///lib/elephantbird/json-simple-1.1.jar;
+REGISTER hdfs:///lib/tenbeitel/StringUDF-0.0.1-SNAPSHOT.jar
 
 
 twitter_files_of_month = LOAD '$input' USING com.twitter.elephantbird.pig.load.JsonLoader('-nestedLoad') AS (json:map[]);
@@ -21,17 +22,20 @@ features_selected = FOREACH distinct_de_tweets GENERATE json#'id', json#'id_str'
 initial_informationflow = FOREACH features_selected GENERATE $0, $4;
 initial_informationflow_filtered = FILTER initial_informationflow BY ($1 IS NOT NULL);
 
-replace_linebreaks = FOREACH features_selected GENERATE $0, REPLACE(((chararray)$9), '\\r?\\n', ' ');
-
-replace_urls = FOREACH  replace_linebreaks GENERATE $0, REPLACE(((chararray)$1), '(https?|ftp|file):/{0,2}[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]', ''); 
+replace_linebreaks = FOREACH features_selected GENERATE $0, de.hs.osnabrueck.pig.string.ReplaceLinebreakUDF($9);
+--replace_linebreaks = FOREACH features_selected GENERATE $0, REPLACE(((chararray)$9), '\\r?\\n', ' ');
+replace_urls = FOREACH  replace_linebreaks GENERATE $0, de.hs.osnabrueck.pig.string.ReplaceUrlUDF($1); 
+--replace_urls = FOREACH  replace_linebreaks GENERATE $0, REPLACE(((chararray)$1), '(https?|ftp|file):/{0,2}[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]', ''); 
 replace_retweet = FOREACH  replace_urls GENERATE $0, REPLACE(((chararray)$1), 'RT', ''); 
 clustering_features = FOREACH  replace_retweet GENERATE  $0, $1;
 
-visualize_features = FOREACH features_selected GENERATE $0, $7, $11, REPLACE(((chararray)$9), '\\r?\\n', ' ');
+visualize_features = FOREACH features_selected GENERATE $0, $7, $11, de.hs.osnabrueck.pig.string.ReplaceControlCharUDF($9);
+visualize_features = FOREACH visualize_features GENERATE $0, $1, $2#'id_str', $2#'screen_name', $3;
+--visualize_features = FOREACH features_selected GENERATE $0, $7, $11, REPLACE(((chararray)$9), '\\r?\\n', ' ');;
 
 twitter_id_to_date = FOREACH features_selected GENERATE $0, $7;
 
-STORE initial_informationflow_filtered INTO '$output/initial_informationflow' USING PigStorage('\t');
+STORE initial_informationflow_filtered INTO '$output/initial_informationflow' USING PigStorage('|');
 STORE clustering_features INTO '$output/sequence_files' USING com.twitter.elephantbird.pig.store.SequenceFileStorage('-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter');
-STORE visualize_features INTO '$output/tweet_detailed' USING PigStorage('\t');
+STORE visualize_features2 INTO '$output/tweet_detailed' USING PigStorage('\t');
 STORE twitter_id_to_date INTO '$output/twitter_id_date' USING com.twitter.elephantbird.pig.store.SequenceFileStorage('-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter');
