@@ -12,27 +12,42 @@ public class TwitterWritable implements Writable {
 	private Text twitterId;
 	private Text createdDate;
 	private Text tweetMessage;
-	private Text user;
+	private Text userId;
+	private Text userScreenName;
 
 	public TwitterWritable() {
 	}
 
-	public TwitterWritable(String clusterId, String twitterId, String createdDate, String tweetMessage, String user) {
+	public TwitterWritable(String clusterId, String twitterId, String createdDate, String tweetMessage, String userId,
+			String userScreenName) {
 		super();
 		this.clusterId = new Text(clusterId);
 		this.twitterId = new Text(twitterId);
 		this.createdDate = new Text(createdDate);
 		this.tweetMessage = new Text(tweetMessage);
-		this.user = new Text(user);
+		this.userId = new Text(userId);
+		this.userScreenName = new Text(userScreenName);
 	}
 
-	public TwitterWritable(Text clusterId, Text twitterId, Text createdDate, Text tweetMessage, Text user) {
+	public TwitterWritable(Text clusterId, Text twitterId, Text createdDate, Text tweetMessage, Text userId,
+			Text userScreenName) {
 		super();
 		this.clusterId = clusterId;
 		this.twitterId = twitterId;
 		this.createdDate = createdDate;
 		this.tweetMessage = tweetMessage;
-		this.user = user;
+		this.userId = userId;
+		this.userScreenName = userScreenName;
+	}
+
+	public TwitterWritable(TwitterWritable delegate) {
+		super();
+		this.clusterId = new Text(delegate.getClusterId());
+		this.twitterId = new Text(delegate.getTwitterId());
+		this.createdDate = new Text(delegate.getCreatedDate());
+		this.tweetMessage = new Text(delegate.getTweetMessage());
+		this.userId = new Text(delegate.getUserId());
+		this.userScreenName = new Text(delegate.getUserScreenName());
 	}
 
 	@Override
@@ -41,7 +56,8 @@ public class TwitterWritable implements Writable {
 		this.twitterId.write(out);
 		this.createdDate.write(out);
 		this.tweetMessage.write(out);
-		this.user.write(out);
+		this.userId.write(out);
+		this.userScreenName.write(out);
 	}
 
 	@Override
@@ -51,7 +67,8 @@ public class TwitterWritable implements Writable {
 		this.twitterId.readFields(in);
 		this.createdDate.readFields(in);
 		this.tweetMessage.readFields(in);
-		this.user.readFields(in);
+		this.userId.readFields(in);
+		this.userScreenName.readFields(in);
 	}
 
 	public Text getClusterId() {
@@ -102,16 +119,28 @@ public class TwitterWritable implements Writable {
 		this.tweetMessage = new Text(tweetMessage);
 	}
 
-	public Text getUser() {
-		return user;
+	public Text getUserId() {
+		return userId;
 	}
 
-	public void setUser(Text user) {
-		this.user = user;
+	public void setUserId(Text userId) {
+		this.userId = userId;
 	}
 
-	public void setUser(String user) {
-		this.user = new Text(user);
+	public void setUserId(String userId) {
+		this.userId = new Text(userId);
+	}
+
+	public Text getUserScreenName() {
+		return userScreenName;
+	}
+
+	public void setUserScreenName(Text userScreenName) {
+		this.userScreenName = userScreenName;
+	}
+
+	public void setUserScreenName(String userScreenName) {
+		this.userScreenName = new Text(userScreenName);
 	}
 
 }
