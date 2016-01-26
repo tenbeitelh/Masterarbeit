@@ -32,7 +32,7 @@ public class TwitterDataGraphJob extends Configured implements Tool {
 	private static final String INFO_GRAPH_PATH = "ini_twitter_graph";
 	private static final String EXTENDED_GRAPH_PATH = "extended_graph/part-r-00000";;
 	private static final String INITIAL_GRAPH_PATH = "graph_data/part-r-00000";
-	
+
 	public static void main(String[] args) throws Exception {
 		int res = ToolRunner.run(new Configuration(), new TwitterDataGraphJob(), args);
 		System.exit(res);
@@ -76,16 +76,16 @@ public class TwitterDataGraphJob extends Configured implements Tool {
 		joinTwitterAndClusterData.setOutputKeyClass(NullWritable.class);
 		joinTwitterAndClusterData.setOutputValueClass(Text.class);
 
-		//Path initialGraphPath = new Path(inputFolder, EXTENDED_GRAPH_PATH);
-		Path initialGraphPath = new Path(inputFolder, INITIAL_GRAPH_PATH);
+		Path initialGraphPath = new Path(inputFolder, EXTENDED_GRAPH_PATH);
+		// Path initialGraphPath = new Path(inputFolder, INITIAL_GRAPH_PATH);
 		joinTwitterAndClusterData.setCacheFiles(new URI[] { initialGraphPath.toUri() });
 
 		joinTwitterAndClusterData.setReducerClass(TwitterClusterJoinReducer.class);
 
 		joinTwitterAndClusterData.setOutputFormatClass(TextOutputFormat.class);
 
-//		Path twitterGraphPath = new Path(inputFolder, GRAPH_PATH);
-		Path twitterGraphPath = new Path(inputFolder, INFO_GRAPH_PATH);
+		Path twitterGraphPath = new Path(inputFolder, GRAPH_PATH);
+		// Path twitterGraphPath = new Path(inputFolder, INFO_GRAPH_PATH);
 
 		HadoopPathUtils.deletePathIfExists(conf, twitterGraphPath);
 		FileOutputFormat.setOutputPath(joinTwitterAndClusterData, twitterGraphPath);
