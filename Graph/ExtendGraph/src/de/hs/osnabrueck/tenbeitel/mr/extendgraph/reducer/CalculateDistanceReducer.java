@@ -20,7 +20,8 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 	private static final String PRE_POSTFIX = "_pre";
 	private static final String POST_POSTFIX = "_post";
 
-	private static Double similarityTreshold = 0.005;
+	private static Double similarityUpperBound = 0.2;
+	private static Double similarityLowerBound = 0.0;
 
 	private Text keyId;
 	private Text valueId;
@@ -28,8 +29,9 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 	@Override
 	protected void setup(Context context) throws IOException, InterruptedException {
 		super.setup(context);
-		similarityTreshold = context.getConfiguration().getDouble("reducer.treshold", similarityTreshold);
-		
+		similarityUpperBound = context.getConfiguration().getDouble("reducer.upperbound", similarityUpperBound);
+		similarityLowerBound = context.getConfiguration().getDouble("reducer.lowerbound", similarityLowerBound);
+
 	}
 
 	@Override
@@ -47,7 +49,7 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 					// System.out.println(
 					// currentNamedVector.getName() + " <-> " +
 					// calcNamedVector.getName() + " = " + similarity);
-					if (similarity <= similarityTreshold && similarity > 0.0) {
+					if (similarity <= similarityUpperBound && similarity >= similarityLowerBound) {
 						try {
 							Date currentVectorDate = DateUtils
 									.convertTwitterDateStringToDate(cVector.getDate().toString());
@@ -55,7 +57,7 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 									.convertTwitterDateStringToDate(currentVector.getDate().toString());
 
 							System.out.println(currentVectorDate + " - " + calcVectorDate);
-							
+
 							if (calcVectorDate.before(currentVectorDate)) {
 								keyId.set(currentNamedVector.getName() + PRE_POSTFIX);
 								valueId.set(calcNamedVector.getName());

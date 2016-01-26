@@ -34,7 +34,6 @@ import de.hs.osnabrueck.tenbeitel.mr.extendgraph.utils.HadoopPathUtils;
 
 public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
-	
 	private static final String INITIAL_GRAPH_PATH = "graph_data/part-r-00000";
 	private static final String TWITTER_ID_DATE_FOLDER = "twitter_id_date";
 	private static final String CLUSTERED_POINTS_DIR = "kmeans/clusters/clusteredPoints";
@@ -51,13 +50,13 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
-		Path inputFolder = new Path(args[0]); 
+		Path inputFolder = new Path(args[0]);
 
 		Configuration conf = this.getConf();
 
 		if (args.length > 1) {
 			try {
-				conf.setDouble("reducer.treshold", Double.valueOf(args[1]));
+				conf.setDouble("reducer.upperbound", Double.valueOf(args[1]));
 			} catch (NumberFormatException ex) {
 				System.out.println("treshold value is not a Double value " + args[1]);
 				return 1;
@@ -66,9 +65,18 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 
 		if (args.length > 2) {
 			try {
-				numberOfClusters = Integer.valueOf(args[2]);
+				conf.setDouble("reducer.lowerbound", Double.valueOf(args[2]));
 			} catch (NumberFormatException ex) {
-				System.out.println("Number of clusters couldn't be passed: " + args[2]);
+				System.out.println("treshold value is not a Double value " + args[2]);
+				return 1;
+			}
+		}
+
+		if (args.length > 3) {
+			try {
+				numberOfClusters = Integer.valueOf(args[3]);
+			} catch (NumberFormatException ex) {
+				System.out.println("Number of clusters couldn't be passed: " + args[3]);
 			}
 		}
 		int res = 0;
@@ -174,7 +182,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 		Path extendedGraphPath = new Path(inputFolder, EXTENDED_GRAPH_PATH);
 
 		HadoopPathUtils.deletePathIfExists(conf, extendedGraphPath);
-		
+
 		extendInitialGraphJob.setOutputFormatClass(TextOutputFormat.class);
 		FileOutputFormat.setOutputPath(extendInitialGraphJob, extendedGraphPath);
 

@@ -43,8 +43,6 @@ public class GraphPrinter extends JFrame {
 	 */
 	private static final long serialVersionUID = -7296374538320083805L;
 
-	private static JGraphXAdapter jgxAdapter;
-
 	public static void main(String[] args) throws TransformerConfigurationException, SAXException {
 
 		JFrame frame2 = new JFrame();
@@ -54,6 +52,7 @@ public class GraphPrinter extends JFrame {
 
 		DirectedGraph<String, DefaultEdge> graph = null;
 		DirectedGraph<TwitterVertex, DefaultEdge> twitterGraph = null;
+		DirectedGraph<TwitterVertex, DefaultEdge> twitterGraph2 = null;
 
 		try {
 			// String graphString = readFile(
@@ -72,6 +71,10 @@ public class GraphPrinter extends JFrame {
 					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\twitter_graph");
 			twitterGraph = GraphUtils.createTwitterGraphFromString(twitterGraphString);
 
+			twitterGraphString = readFile(
+					"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\init_twitter");
+			twitterGraph2 = GraphUtils.createTwitterGraphFromString(twitterGraphString);
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -86,6 +89,7 @@ public class GraphPrinter extends JFrame {
 			System.out.println("No twitter graph");
 		} else {
 			processTwitterGraph(twitterGraph);
+			// processTwitterGraph(twitterGraph2);
 		}
 
 	}
@@ -93,10 +97,10 @@ public class GraphPrinter extends JFrame {
 	private static void processTwitterGraph(final DirectedGraph<TwitterVertex, DefaultEdge> twitterGraph) {
 		ConnectivityInspector<TwitterVertex, DefaultEdge> inspector = new ConnectivityInspector<TwitterVertex, DefaultEdge>(
 				twitterGraph);
-		
+
 		final List<Set<TwitterVertex>> connectedSet = inspector.connectedSets();
 		System.out.println("#subgraphs: " + connectedSet.size());
-		
+
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int i = 0; i < connectedSet.size(); i++) {
 			map.put(connectedSet.get(i).size(), i);
@@ -106,25 +110,36 @@ public class GraphPrinter extends JFrame {
 			System.out.println(key + " in " + map.get(key));
 		}
 
-		final ListenableDirectedGraph<TwitterVertex, DefaultEdge> fGraph = new ListenableDirectedGraph<TwitterVertex, DefaultEdge>(twitterGraph);
-		
+		final ListenableDirectedGraph<TwitterVertex, DefaultEdge> fGraph = new ListenableDirectedGraph<TwitterVertex, DefaultEdge>(
+				twitterGraph);
+
 		SwingUtilities.invokeLater(new Runnable() {
-			
+
 			@Override
 			public void run() {
-				drawTwitterGraph(new ListenableDirectedGraph<>(new DirectedSubgraph<>(fGraph, connectedSet.get(649), null)));
-				
+				drawTwitterGraph(
+						new ListenableDirectedGraph<>(new DirectedSubgraph<>(fGraph, connectedSet.get(364), null)));
+
+			}
+		});
+		SwingUtilities.invokeLater(new Runnable() {
+
+			@Override
+			public void run() {
+				drawTwitterGraph(
+						new ListenableDirectedGraph<>(new DirectedSubgraph<>(fGraph, connectedSet.get(5287), null)));
+
 			}
 		});
 	}
-	
+
 	protected static void drawTwitterGraph(ListenableDirectedGraph<TwitterVertex, DefaultEdge> graph) {
 		JFrame frame = new JFrame();
 		frame.setSize(1000, 1000);
 		frame.setLocation(300, 200);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		jgxAdapter = new JGraphXAdapter<TwitterVertex, DefaultEdge>(graph);
+		JGraphXAdapter jgxAdapter = new JGraphXAdapter<TwitterVertex, DefaultEdge>(graph);
 		jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL, "1");
 
 		mxGraphComponent graphComponent2 = new mxGraphComponent(jgxAdapter);
@@ -146,7 +161,7 @@ public class GraphPrinter extends JFrame {
 		frame.setLocation(300, 200);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		jgxAdapter = new JGraphXAdapter<String, DefaultEdge>(graph);
+		JGraphXAdapter jgxAdapter = new JGraphXAdapter<String, DefaultEdge>(graph);
 		jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL, "1");
 
 		mxGraphComponent graphComponent2 = new mxGraphComponent(jgxAdapter);

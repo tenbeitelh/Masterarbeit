@@ -22,22 +22,23 @@ public class KMeansJob extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
-		String inputDir = args[0];
-		String outputDir = args[1];
+		String inputPath = args[0];
 		
 		// Get value of k by commandline argument;
-		if (args.length > 2) {
+		if (args.length > 1) {
 			try {
-				k = Integer.parseInt(args[2]);
+				k = Integer.parseInt(args[1]);
 			} catch (NumberFormatException ex) {
-				System.out.println("Could not parse integer from commandline: " + args[2]);
+				System.out.println("Could not parse integer from commandline: " + args[1]);
 				System.out.println("Setting k to default: " + k);
 			}
 		}
 
 		Configuration conf = this.getConf();
 		
-		HadoopUtil.delete(conf, new Path(outputDir));
+		Path inputDir = new Path(inputPath, "transformated_data");
+		Path outputDir = new Path(inputPath, "kmeans");
+		HadoopUtil.delete(conf, outputDir);
 		Path vectorsFolder = new Path(inputDir, "tfidf-vectors");
 		Path centroids = new Path(outputDir, "centroids");
 		Path clusterOutput = new Path(outputDir, "clusters");

@@ -15,6 +15,7 @@ import org.apache.mahout.vectorizer.DocumentProcessor;
 import org.apache.mahout.vectorizer.tfidf.TFIDFConverter;
 
 import de.hs.osnabrueck.tenbeitel.mahout.analyzer.GermanAnalyzer;
+import de.hs.osnabrueck.tenbeitel.mahout.analyzer.GermanStemAnalyzer;
 
 public class TransformationJob extends Configured implements Tool {
 
@@ -39,22 +40,24 @@ public class TransformationJob extends Configured implements Tool {
 
 		Configuration conf = this.getConf();
 
-		String outputDir = args[1];
-		Path outputDirPath = new Path(outputDir);
-		HadoopUtil.delete(conf, outputDirPath);
 
 		boolean namedVectors = false;
 		System.out.println(args.length);
-		if (args.length > 2) {
-			System.out.println(args[2]);
+		if (args.length > 1) {
+			System.out.println(args[1]);
 			namedVectors = Boolean.valueOf(args[2]);
 		}
-
-		Path tokenizedPath = new Path(outputDir, DocumentProcessor.TOKENIZED_DOCUMENT_OUTPUT_FOLDER);
+		
+		Path inputDirPath = new Path(inputDir, "sequence_files");
+		Path outputDirPath = new Path(inputDir, "transformated_data");
+		HadoopUtil.delete(conf, outputDirPath);
+		
+		
+		Path tokenizedPath = new Path(outputDirPath, DocumentProcessor.TOKENIZED_DOCUMENT_OUTPUT_FOLDER);
 
 		GermanAnalyzer analyzer = new GermanAnalyzer(Version.LUCENE_46);
 
-		DocumentProcessor.tokenizeDocuments(new Path(inputDir), analyzer.getClass().asSubclass(GermanAnalyzer.class),
+		DocumentProcessor.tokenizeDocuments(inputDirPath, analyzer.getClass().asSubclass(GermanStemAnalyzer.class),
 				tokenizedPath, conf);
 
 		String tfDirName = "tf-vectors";
@@ -62,10 +65,10 @@ public class TransformationJob extends Configured implements Tool {
 		DictionaryVectorizer.createTermFrequencyVectors(tokenizedPath, outputDirPath, tfDirName, conf, minSupport,
 				maxNGramSize, minLLRValue, norm, true, reduceTasks, chunkSize, sequentialAccessOutput, namedVectors);
 
-		Pair<Long[], List<Path>> docFrequenciesFeatures = TFIDFConverter.calculateDF(new Path(outputDir, tfDirName),
+		Pair<Long[], List<Path>> docFrequenciesFeatures = TFIDFConverter.calculateDF(new Path(outputDirPath, tfDirName),
 				outputDirPath, conf, chunkSize);
 
-		TFIDFConverter.processTfIdf(new Path(outputDir, DictionaryVectorizer.DOCUMENT_VECTOR_OUTPUT_FOLDER),
+		TFIDFConverter.processTfIdf(new Path(outputDirPath, DictionaryVectorizer.DOCUMENT_VECTOR_OUTPUT_FOLDER),
 				outputDirPath, conf, docFrequenciesFeatures, minDf, maxDFPercent, norm, true, sequentialAccessOutput,
 				namedVectors, reduceTasks);
 

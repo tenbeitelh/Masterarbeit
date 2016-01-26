@@ -1,6 +1,7 @@
 package de.text;
 
 import java.io.IOException;
+import java.io.StringReader;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
@@ -9,8 +10,10 @@ import org.apache.lucene.analysis.de.GermanMinimalStemFilter;
 import org.apache.lucene.analysis.de.GermanStemFilter;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
+import org.apache.lucene.util.Version;
 import org.tartarus.snowball.ext.German2Stemmer;
 
+import de.hs.osnabrueck.tenbeitel.mahout.analyzer.GermanStemAnalyzer;
 import de.text.tokenizator.GermanAnalyzer;
 import de.text.tokenizator.StemmingType;
 
@@ -18,31 +21,37 @@ public class TestLucence {
 
 	private static final String TEXT = "Dies ist ein Text der Flüchtlinge und den Flüchtling miteinander in Verbindung setzt.... Bücher und das Buch";
 
-	public static void main(String[] args) {
-		TestLucence test = new TestLucence();
+	public static void main(String[] args) throws IOException {
+		GermanStemAnalyzer analyzer = new GermanStemAnalyzer(Version.LUCENE_5_3_1);
+		TokenStream s = analyzer.tokenStream(null, "Flüchtlinge raus aus Deutschland");
+		CharTermAttribute term = s.addAttribute(CharTermAttribute.class);
 
-		try {
-
-			System.out.println(test.test("He lives, at 14411 W. Randolpf."));
-			// System.out.println("STEMING:");
-			// System.out.println(test.stemText(TEXT));
-			// // System.out.println(test.stemTextLight(TEXT));
-			// // System.out.println(test.stemTextMinimal(TEXT));
-			// //
-			// // System.out.println();
-			// // System.out.println("STOP WORDS:");
-			// // System.out.println(test.stopWord(TEXT));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		s.reset();
+		StringBuilder sb = new StringBuilder();
+		while (s.incrementToken()) {
+			sb.append("[");
+			sb.append(term.toString());
+			sb.append("] ");
 		}
-
-		// test.stem2(TEXT);
-
-	}
+		
+		System.out.println(sb.toString());
 	
-	public String test(String text) throws IOException{
-		try(GermanAnalyzer analyzer = new GermanAnalyzer()){
+		s = analyzer.tokenStream(null, "Flüchtlinge raus aus Deutschland");
+		term = s.addAttribute(CharTermAttribute.class);
+
+		s.reset();
+		sb = new StringBuilder();
+		while (s.incrementToken()) {
+			sb.append("[");
+			sb.append(term.toString());
+			sb.append("] ");
+		}
+		
+		System.out.println(sb.toString());
+	}
+
+	public String test(String text) throws IOException {
+		try (GermanAnalyzer analyzer = new GermanAnalyzer()) {
 			TokenStream s = analyzer.tokenStream(null, text);
 			CharTermAttribute term = s.addAttribute(CharTermAttribute.class);
 
