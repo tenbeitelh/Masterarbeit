@@ -31,6 +31,8 @@ public class CalculateDistanceReducer extends Reducer<IntWritable, DateVectorWri
 		super.setup(context);
 		similarityUpperBound = context.getConfiguration().getDouble("reducer.upperbound", similarityUpperBound);
 		similarityLowerBound = context.getConfiguration().getDouble("reducer.lowerbound", similarityLowerBound);
+		System.out.println(similarityUpperBound);
+		System.out.println(similarityLowerBound);
 
 	}
 
