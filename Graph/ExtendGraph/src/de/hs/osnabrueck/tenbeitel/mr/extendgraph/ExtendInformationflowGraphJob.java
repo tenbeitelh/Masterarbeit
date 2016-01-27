@@ -58,7 +58,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 			try {
 				conf.setDouble("reducer.upperbound", Double.valueOf(args[1]));
 			} catch (NumberFormatException ex) {
-				System.out.println("treshold value is not a Double value " + args[1]);
+				System.out.println("reducer.upperbound value is not a Double value " + args[1]);
 				return 1;
 			}
 		}
@@ -67,7 +67,7 @@ public class ExtendInformationflowGraphJob extends Configured implements Tool {
 			try {
 				conf.setDouble("reducer.lowerbound", Double.valueOf(args[2]));
 			} catch (NumberFormatException ex) {
-				System.out.println("treshold value is not a Double value " + args[2]);
+				System.out.println("reducer.lowerbound value is not a Double value " + args[2]);
 				return 1;
 			}
 		}

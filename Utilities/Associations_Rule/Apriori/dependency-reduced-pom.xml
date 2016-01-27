@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>SequenceFileReader</groupId>
-  <artifactId>SequenceFileReader</artifactId>
+  <groupId>AprioriMapReduce</groupId>
+  <artifactId>AprioriMapReduce</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -33,7 +33,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>de.hs.osnabrueck.tenbeitel.utilities.SequenceFileReader</mainClass>
+              <mainClass>de.hs.osnabrueck.tenbeitel.mr.association.AprioriJob</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
@@ -63,22 +63,6 @@
       </plugin>
     </plugins>
   </build>
-  <repositories>
-    <repository>
-      <releases>
-        <updatePolicy>always</updatePolicy>
-        <checksumPolicy>warn</checksumPolicy>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-        <updatePolicy>never</updatePolicy>
-        <checksumPolicy>fail</checksumPolicy>
-      </snapshots>
-      <id>HDPReleases</id>
-      <name>HDP Releases</name>
-      <url>http://repo.hortonworks.com/content/repositories/releases/</url>
-    </repository>
-  </repositories>
   <dependencies>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
@@ -115,7 +99,15 @@
           <groupId>commons-net</groupId>
         </exclusion>
         <exclusion>
+          <artifactId>commons-collections</artifactId>
+          <groupId>commons-collections</groupId>
+        </exclusion>
+        <exclusion>
           <artifactId>jetty</artifactId>
+          <groupId>org.mortbay.jetty</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>jetty-util</artifactId>
           <groupId>org.mortbay.jetty</groupId>
         </exclusion>
         <exclusion>
@@ -143,6 +135,10 @@
           <groupId>commons-configuration</groupId>
         </exclusion>
         <exclusion>
+          <artifactId>hadoop-auth</artifactId>
+          <groupId>org.apache.hadoop</groupId>
+        </exclusion>
+        <exclusion>
           <artifactId>jsch</artifactId>
           <groupId>com.jcraft</groupId>
         </exclusion>
@@ -164,6 +160,10 @@
         </exclusion>
         <exclusion>
           <artifactId>jetty</artifactId>
+          <groupId>org.mortbay.jetty</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>jetty-util</artifactId>
           <groupId>org.mortbay.jetty</groupId>
         </exclusion>
         <exclusion>

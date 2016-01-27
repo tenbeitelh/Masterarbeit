@@ -13,8 +13,6 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.mahout.clustering.classify.WeightedPropertyVectorWritable;
 import org.apache.mahout.math.NamedVector;
-//import org.apache.mahout.clustering.classify.WeightedPropertyVectorWritable;
-//import org.apache.mahout.math.NamedVector;
 
 public class SequenceFileReader extends Configured implements Tool {
 	private static final String LINE_DELIMITER = "\t";
@@ -32,7 +30,7 @@ public class SequenceFileReader extends Configured implements Tool {
 	@Override
 	public int run(String[] args) throws IOException {
 		Configuration conf = this.getConf();
-
+		
 		Option filePath = SequenceFile.Reader.file(new Path(args[0]));
 		try (SequenceFile.Reader reader = new SequenceFile.Reader(conf, filePath)) {
 

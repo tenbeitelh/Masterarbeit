@@ -23,11 +23,11 @@ public class RecordCounter extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
 		Configuration conf = this.getConf();
 
-		Path inputPath = new Path(args[0], "part-r-[0-9]*");
+		Path inputPath = new Path(args[0], "part-m-[0-9]*");
 
 		FileSystem fs = FileSystem.get(conf);
 
-		FileStatus[] files = fs.listStatus(inputPath);
+		FileStatus[] files = fs.globStatus(inputPath);
 		int recodCounter = 0;
 		for (FileStatus file : files) {
 			Option fileOption = SequenceFile.Reader.file(file.getPath());
