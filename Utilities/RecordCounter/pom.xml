@@ -70,7 +70,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>de.hs.osnabrueck.tenbeitel.utilities.SequenceFileReader</mainClass>
+							<mainClass>de.hs.osnabrueck.tenbeitel.utilities.RecordCounter</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
