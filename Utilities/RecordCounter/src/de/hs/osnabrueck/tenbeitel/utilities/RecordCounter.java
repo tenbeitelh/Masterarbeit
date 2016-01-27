@@ -12,10 +12,10 @@ import org.apache.hadoop.util.ReflectionUtils;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-public class RecodCounter extends Configured implements Tool {
+public class RecordCounter extends Configured implements Tool {
 
 	public static void main(String[] args) throws Exception {
-		int res = ToolRunner.run(new Configuration(), new RecodCounter(), args);
+		int res = ToolRunner.run(new Configuration(), new RecordCounter(), args);
 		System.exit(res);
 	}
 
