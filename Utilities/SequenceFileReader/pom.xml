@@ -48,17 +48,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.mahout</groupId>
-			<artifactId>mahout-math</artifactId>
-			<version>${mahout.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.mahout</groupId>
 			<artifactId>mahout-mr</artifactId>
-			<version>${mahout.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.mahout</groupId>
-			<artifactId>mahout-examples</artifactId>
 			<version>${mahout.version}</version>
 		</dependency>
 	</dependencies>
