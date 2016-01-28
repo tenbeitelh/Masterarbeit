@@ -4,11 +4,12 @@ import java.util.Arrays;
 
 import org.apache.hadoop.io.ArrayWritable;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
-public class ItemSetWritable extends ArrayWritable implements WritableComparable<ItemSetWritable> {
+public class ItemSetWritable extends ArrayWritable implements Comparable<ItemSetWritable> {
 	private String test;
 
 	public ItemSetWritable() {
@@ -26,10 +27,10 @@ public class ItemSetWritable extends ArrayWritable implements WritableComparable
 	}
 
 	public String[] getStringItemSet() {
-		Text[] writableItemSet = (Text[]) get();
+		Writable[] writableItemSet = get();
 		String[] stringItemSet = new String[writableItemSet.length];
 		for (int i = 0; i < writableItemSet.length; i++) {
-			stringItemSet[i] = writableItemSet[i].toString();
+			stringItemSet[i] = ((Text) writableItemSet[i]).toString();
 		}
 		return stringItemSet;
 	}
@@ -60,13 +61,13 @@ public class ItemSetWritable extends ArrayWritable implements WritableComparable
 
 	@Override
 	public int compareTo(ItemSetWritable o) {
-		Text[] thisText = (Text[]) get();
-		Text[] otherText = (Text[]) o.get();
+		Writable[] thisText = this.get();
+		Writable[] otherText = o.get();
 		int thisLength = thisText.length;
 		int otherLength = otherText.length;
 		int min = Math.min(thisLength, otherLength);
 		for (int i = 0; i < min; i++) {
-			int ret = thisText[i].compareTo(otherText[i]);
+			int ret = ((Text) thisText[i]).compareTo((Text) otherText[i]);
 			if (ret != 0) {
 				return ret;
 			}
