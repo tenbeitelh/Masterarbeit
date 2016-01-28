@@ -73,6 +73,7 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 				}
 			}
 		}
+		System.out.println(itemSets.size());
 	}
 
 }
