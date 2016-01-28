@@ -27,7 +27,8 @@ public class AprioriReducer extends Reducer<ItemSetWritable, IntWritable, NullWr
 			sum += value.get();
 		}
 
-		//Write frequent itemsets
+		// Write frequent itemsets
+		System.out.println(key.toString() + " - Sum: " + sum + " MinSupport: " + minSupport);
 		if (sum > minSupport) {
 			context.write(NullWritable.get(), key);
 		}

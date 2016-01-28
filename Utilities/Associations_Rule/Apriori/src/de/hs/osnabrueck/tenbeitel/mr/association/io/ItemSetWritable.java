@@ -10,7 +10,7 @@ import org.apache.hadoop.io.WritableComparable;
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
 public class ItemSetWritable extends ArrayWritable implements WritableComparable<ItemSetWritable> {
-	private String test;
+	
 
 	public ItemSetWritable() {
 		super(Text.class);
@@ -80,5 +80,18 @@ public class ItemSetWritable extends ArrayWritable implements WritableComparable
 			return 0;
 		}
 	}
+
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		for(Writable wa : get()){
+			sb.append(((Text)wa).toString());
+			sb.append(" ");
+		}
+		sb.setLength(sb.length() -1);
+		return sb.toString();
+	}
+	
+	
 
 }
