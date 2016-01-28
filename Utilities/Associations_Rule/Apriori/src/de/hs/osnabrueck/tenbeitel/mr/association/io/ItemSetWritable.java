@@ -10,7 +10,6 @@ import org.apache.hadoop.io.WritableComparable;
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
 public class ItemSetWritable extends ArrayWritable implements WritableComparable<ItemSetWritable> {
-	
 
 	public ItemSetWritable() {
 		super(Text.class);
@@ -37,10 +36,10 @@ public class ItemSetWritable extends ArrayWritable implements WritableComparable
 
 	@Override
 	public int hashCode() {
-		Text[] objects = (Text[]) get();
+		Writable[] objects = get();
 		int hash = 0;
-		for (Text object : objects) {
-			hash += object.hashCode();
+		for (Writable object : objects) {
+			hash += ((Text) object).hashCode();
 		}
 		return hash;
 	}
@@ -84,14 +83,12 @@ public class ItemSetWritable extends ArrayWritable implements WritableComparable
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		for(Writable wa : get()){
-			sb.append(((Text)wa).toString());
+		for (Writable wa : get()) {
+			sb.append(((Text) wa).toString());
 			sb.append(" ");
 		}
-		sb.setLength(sb.length() -1);
+		sb.setLength(sb.length() - 1);
 		return sb.toString();
 	}
-	
-	
 
 }
