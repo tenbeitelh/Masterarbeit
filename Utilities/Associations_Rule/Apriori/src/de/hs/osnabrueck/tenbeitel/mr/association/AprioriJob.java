@@ -107,7 +107,8 @@ public class AprioriJob extends Configured implements Tool {
 		FileOutputFormat.setOutputPath(aprioriFirstStep, new Path(itemSetPath, lengthOfItemSet.toString()));
 
 		int res = aprioriFirstStep.waitForCompletion(true) ? 0 : 1;
-
+		// fs.getContentSummary(new Path("")).get
+		// while (res == 0) {
 		lengthOfItemSet++;
 
 		conf.setInt("apriori.itemset_lenght", lengthOfItemSet);
@@ -135,7 +136,7 @@ public class AprioriJob extends Configured implements Tool {
 		FileOutputFormat.setOutputPath(iterationJob, new Path(itemSetPath, lengthOfItemSet.toString()));
 
 		res += iterationJob.waitForCompletion(true) ? 0 : 1;
-
+		// }
 		if (res > 0) {
 			return 1;
 		}
