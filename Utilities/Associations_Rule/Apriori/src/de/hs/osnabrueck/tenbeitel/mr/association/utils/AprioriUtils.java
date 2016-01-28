@@ -40,7 +40,7 @@ public class AprioriUtils {
 			}
 		} else {
 			for (ItemSetWritable firstItemSet : itemSets) {
-				ItemSetWritable actualItemSet = new ItemSetWritable(firstItemSet.getStringItemSet());
+				ItemSetWritable actualItemSet = new ItemSetWritable(firstItemSet);
 				for (ItemSetWritable itemSet : itemSets) {
 					System.out.println("actual");
 					System.out.println(actualItemSet);

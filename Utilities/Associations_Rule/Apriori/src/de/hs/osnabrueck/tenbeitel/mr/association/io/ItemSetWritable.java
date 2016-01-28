@@ -1,36 +1,77 @@
 package de.hs.osnabrueck.tenbeitel.mr.association.io;
 
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
 import java.util.Arrays;
 
 import org.apache.hadoop.io.ArrayWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
+import org.apache.hadoop.io.WritableFactories;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
-public class ItemSetWritable extends ArrayWritable implements WritableComparable<ItemSetWritable> {
+public class ItemSetWritable implements WritableComparable<ItemSetWritable> {
+
+	private Writable[] values;
+	private Class<? extends Writable> valueClass;
+
+	public ItemSetWritable(Class<? extends Writable> valueClass) {
+		if (valueClass == null) {
+			throw new IllegalArgumentException("null valueClass");
+		}
+		this.valueClass = valueClass;
+	}
 
 	public ItemSetWritable() {
-		super(Text.class);
+		this(Text.class);
 	}
 
 	public ItemSetWritable(String[] itemSet) {
-		super(Text.class);
+		this(Text.class);
 		Arrays.sort(itemSet);
 		Text textItems[] = new Text[itemSet.length];
 		for (int i = 0; i < itemSet.length; i++) {
 			textItems[i] = new Text(itemSet[i]);
 		}
+
 		set(textItems);
 	}
 
 	public ItemSetWritable(ItemSetWritable delegate) {
-		super(Text.class);
+		this(Text.class);
 		Writable[] delegateArray = delegate.get();
-		Text textItems[] = new Text[delegateArray.length];
+		values = new Text[delegateArray.length];
 		for (int i = 0; i < delegateArray.length; i++) {
-			textItems[i] = new Text((Text) delegateArray[i]);
+			values[i] = new Text((Text) delegateArray[i]);
+		}
+	}
+
+	public void set(Writable[] values) {
+		this.values = values;
+	}
+
+	public Writable[] get() {
+		return values;
+	}
+
+	@Override
+	public void readFields(DataInput in) throws IOException {
+		values = new Writable[in.readInt()]; // construct values
+		for (int i = 0; i < values.length; i++) {
+			Writable value = WritableFactories.newInstance(valueClass);
+			value.readFields(in); // read a value
+			values[i] = value; // store it in values
+		}
+	}
+
+	@Override
+	public void write(DataOutput out) throws IOException {
+		out.writeInt(values.length); // write values
+		for (int i = 0; i < values.length; i++) {
+			values[i].write(out);
 		}
 	}
 
