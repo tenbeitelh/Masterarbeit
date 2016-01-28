@@ -29,7 +29,7 @@ public class AprioriJob extends Configured implements Tool {
 	private static final String TEXT_BASED = "textbased";
 	private static final String USER_BASED = "userbased";
 	private static final String NUMBER_TRANSACTIONS = "number_transactions";
-	private static final String ITEMSET_FOLDER = "/itemsets/";
+	private static final String ITEMSET_FOLDER = "itemsets";
 
 	public static void main(String[] args) throws Exception {
 		int res = ToolRunner.run(new Configuration(), new AprioriJob(), args);
