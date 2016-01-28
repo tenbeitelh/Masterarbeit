@@ -33,6 +33,7 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 					throws IOException, InterruptedException {
 		List<String> tokens = value.getEntries();
 		for (ItemSetWritable candidate : candidates) {
+			System.out.println(candidate.toString());
 			if (AprioriUtils.arrayContainsSubset(tokens, candidate.getStringItemSet())) {
 				context.write(candidate, countWritable);
 			}
