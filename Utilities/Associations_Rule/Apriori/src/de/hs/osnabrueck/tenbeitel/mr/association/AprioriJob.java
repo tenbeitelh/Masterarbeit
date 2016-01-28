@@ -18,6 +18,7 @@ import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
+import de.hs.osnabrueck.hadoop.util.HadoopPathUtils;
 import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 import de.hs.osnabrueck.tenbeitel.mr.association.mapper.CreateInitialFrequentItemSetsMapper;
 import de.hs.osnabrueck.tenbeitel.mr.association.mapper.FrequentItemsSetMapper;
@@ -46,6 +47,8 @@ public class AprioriJob extends Configured implements Tool {
 
 		Path inputDir = new Path(args[0]);
 		Path outputDir = new Path(args[1]);
+
+		HadoopPathUtils.deletePathIfExists(conf, outputDir);
 
 		Double minSupport = Double.valueOf(args[2]);
 		Double minConfidence = Double.valueOf(args[3]);

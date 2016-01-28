@@ -61,7 +61,7 @@ public class ItemSetWritable extends ArrayWritable implements WritableComparable
 	@Override
 	public int compareTo(ItemSetWritable o) {
 		Text[] thisText = (Text[]) get();
-		Text[] otherText = (Text[]) get();
+		Text[] otherText = (Text[]) o.get();
 		int thisLength = thisText.length;
 		int otherLength = otherText.length;
 		int min = Math.min(thisLength, otherLength);
