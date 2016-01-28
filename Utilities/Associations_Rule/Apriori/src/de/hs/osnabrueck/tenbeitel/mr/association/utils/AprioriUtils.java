@@ -40,16 +40,11 @@ public class AprioriUtils {
 			}
 		} else {
 			for (ItemSetWritable firstItemSet : itemSets) {
-				ItemSetWritable actualItemSet = new ItemSetWritable(firstItemSet);
+				String[] actualItemSet = firstItemSet.getStringItemSet();
 				for (ItemSetWritable itemSet : itemSets) {
-					System.out.println("actual");
-					System.out.println(actualItemSet);
-					System.out.println("itemSet");
-					System.out.println(itemSet.toString());
-
-					if (!actualItemSet.equals(itemSet)) {
-						itemSetWritable = new ItemSetWritable(
-								new String[] { actualItemSet.getStringItemSet()[0], itemSet.getStringItemSet()[0] });
+					String[] compareItemSet = itemSet.getStringItemSet();
+					if (!Arrays.deepEquals(actualItemSet, compareItemSet)) {
+						itemSetWritable = new ItemSetWritable(new String[] { actualItemSet[0], compareItemSet[0] });
 						System.out.println("New itemset");
 						System.out.println(itemSetWritable.toString());
 						kItemSet.add(itemSetWritable);
