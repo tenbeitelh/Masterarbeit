@@ -22,8 +22,8 @@ import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWritable, IntWritable> {
 	private static Integer actualItemSetLength = 0;
 
-	private Set<ItemSetWritable> itemSets = new HashSet<ItemSetWritable>();
-	private Set<ItemSetWritable> candidates;
+	private static Set<ItemSetWritable> itemSets = new HashSet<ItemSetWritable>();
+	private static Set<ItemSetWritable> candidates;
 
 	private static final IntWritable countWritable = new IntWritable(1);
 
@@ -51,15 +51,15 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 		readPreviousFrequentItemSets(context.getCacheFiles(), conf);
 
 		candidates = AprioriUtils.generateCandidates(itemSets, actualItemSetLength);
-		
-		for(ItemSetWritable candidate : candidates){
+
+		for (ItemSetWritable candidate : candidates) {
 			System.out.println(candidates);
 		}
 
 	}
 
 	private void readPreviousFrequentItemSets(URI[] filePaths, Configuration conf) throws IOException {
-
+		System.out.println("Cached files: " + filePaths.length);
 		for (int i = 0; i < filePaths.length; i++) {
 
 			Option fileOption = SequenceFile.Reader.file(new Path(filePaths[i]));
