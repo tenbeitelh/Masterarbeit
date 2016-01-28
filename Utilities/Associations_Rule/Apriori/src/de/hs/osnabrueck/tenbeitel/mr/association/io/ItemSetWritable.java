@@ -25,6 +25,15 @@ public class ItemSetWritable extends ArrayWritable implements WritableComparable
 		set(textItems);
 	}
 
+	public ItemSetWritable(ItemSetWritable delegate) {
+		super(Text.class);
+		Writable[] delegateArray = delegate.get();
+		Text textItems[] = new Text[delegateArray.length];
+		for (int i = 0; i < delegateArray.length; i++) {
+			textItems[i] = new Text((Text) delegateArray[i]);
+		}
+	}
+
 	public String[] getStringItemSet() {
 		Writable[] writableItemSet = get();
 		String[] stringItemSet = new String[writableItemSet.length];

@@ -14,7 +14,7 @@ public class AprioriUtils {
 		Set<ItemSetWritable> kItemSet = new HashSet<ItemSetWritable>();
 		if (actualItemSetLength > 2) {
 			for (ItemSetWritable firstItemSet : itemSets) {
-				ItemSetWritable actualItemSet = new ItemSetWritable(firstItemSet.getStringItemSet());
+				ItemSetWritable actualItemSet = new ItemSetWritable(firstItemSet);
 				for (ItemSetWritable itemSet : itemSets) {
 					if (!actualItemSet.equals(itemSet)) {
 						String[] firstArray = actualItemSet.getStringItemSet();
@@ -43,7 +43,7 @@ public class AprioriUtils {
 				ItemSetWritable actualItemSet = new ItemSetWritable(firstItemSet.getStringItemSet());
 				for (ItemSetWritable itemSet : itemSets) {
 					System.out.println("actual");
-					System.out.println(actualItemSet.toString());
+					System.out.println(actualItemSet);
 					System.out.println("itemSet");
 					System.out.println(itemSet.toString());
 
