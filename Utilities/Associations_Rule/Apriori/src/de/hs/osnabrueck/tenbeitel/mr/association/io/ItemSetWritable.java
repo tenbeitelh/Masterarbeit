@@ -9,7 +9,7 @@ import org.apache.hadoop.io.WritableComparable;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
-public class ItemSetWritable extends ArrayWritable implements Comparable<ItemSetWritable> {
+public class ItemSetWritable extends ArrayWritable implements WritableComparable<ItemSetWritable> {
 	private String test;
 
 	public ItemSetWritable() {
