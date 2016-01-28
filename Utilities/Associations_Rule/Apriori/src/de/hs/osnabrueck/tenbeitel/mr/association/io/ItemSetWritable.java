@@ -4,10 +4,11 @@ import java.util.Arrays;
 
 import org.apache.hadoop.io.ArrayWritable;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.WritableComparable;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
-public class ItemSetWritable extends ArrayWritable {
+public class ItemSetWritable extends ArrayWritable implements WritableComparable<ItemSetWritable> {
 	private String test;
 
 	public ItemSetWritable() {
@@ -55,6 +56,28 @@ public class ItemSetWritable extends ArrayWritable {
 		String[] thisTextObjects = getStringItemSet();
 		String[] textObjects = other.getStringItemSet();
 		return AprioriUtils.arrayContainsSubset(thisTextObjects, textObjects);
+	}
+
+	@Override
+	public int compareTo(ItemSetWritable o) {
+		Text[] thisText = (Text[]) get();
+		Text[] otherText = (Text[]) get();
+		int thisLength = thisText.length;
+		int otherLength = otherText.length;
+		int min = Math.min(thisLength, otherLength);
+		for (int i = 0; i < min; i++) {
+			int ret = thisText[i].compareTo(otherText[i]);
+			if (ret != 0) {
+				return ret;
+			}
+		}
+		if (thisLength < otherLength) {
+			return -1;
+		} else if (thisLength > otherLength) {
+			return 1;
+		} else {
+			return 0;
+		}
 	}
 
 }
