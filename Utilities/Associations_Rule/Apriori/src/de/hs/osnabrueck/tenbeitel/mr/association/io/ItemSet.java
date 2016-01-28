@@ -2,9 +2,6 @@ package de.hs.osnabrueck.tenbeitel.mr.association.io;
 
 import java.util.Arrays;
 
-import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.Writable;
-
 public class ItemSet {
 
 	private String[] values;

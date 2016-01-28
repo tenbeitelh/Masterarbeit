@@ -41,9 +41,33 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 			}
 		}
 	}
+	
+	
 
 	@Override
-	protected void setup(Context context) throws IOException, InterruptedException {
+	protected void setup(Mapper<Text, StringTuple, ItemSetWritable, IntWritable>.Context context)
+			throws IOException, InterruptedException {
+		super.setup(context);
+		// Configuration conf = context.getConfiguration();
+		//
+		// actualItemSetLength = conf.getInt("apriori.itemset_lenght",
+		// actualItemSetLength);
+		// System.out.println(actualItemSetLength);
+		//
+		// readPreviousFrequentItemSets(context.getCacheFiles(), conf);
+		//
+		// candidates = AprioriUtils.generateCandidates(itemSets,
+		// actualItemSetLength);
+		// System.out.println(candidates.size());
+		// for (ItemSet candidate : candidates) {
+		// System.out.println(candidate);
+		// }
+	}
+
+
+
+	@Override
+	public void run(Context context) throws IOException, InterruptedException {
 		super.setup(context);
 		Configuration conf = context.getConfiguration();
 
@@ -58,6 +82,13 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 			System.out.println(candidate);
 		}
 
+		try {
+			while (context.nextKeyValue()) {
+				map(context.getCurrentKey(), context.getCurrentValue(), context);
+			}
+		} finally {
+			cleanup(context);
+		}
 	}
 
 	private void readPreviousFrequentItemSets(URI[] filePaths, Configuration conf) throws IOException {

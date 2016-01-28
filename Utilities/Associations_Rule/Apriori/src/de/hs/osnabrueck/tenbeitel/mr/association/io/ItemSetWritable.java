@@ -5,20 +5,24 @@ import java.io.DataOutput;
 import java.io.IOException;
 import java.util.Arrays;
 
-import org.apache.hadoop.io.ArrayWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableFactories;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
-
+/**
+ * 
+ * @author HTenbeitel
+ *
+ */
 public class ItemSetWritable implements WritableComparable<ItemSetWritable> {
-
+	
 	private Writable[] values;
 	private Class<? extends Writable> valueClass;
 
 	public ItemSetWritable(Class<? extends Writable> valueClass) {
+		
 		if (valueClass == null) {
 			throw new IllegalArgumentException("null valueClass");
 		}

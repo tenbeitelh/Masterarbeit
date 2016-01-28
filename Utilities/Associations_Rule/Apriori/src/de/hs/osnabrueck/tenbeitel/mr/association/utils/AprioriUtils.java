@@ -5,14 +5,16 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.mahout.common.StringTuple;
+
 import com.google.common.collect.Sets;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSet;
-import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 
 public class AprioriUtils {
 
 	public static Set<ItemSet> generateCandidates(Set<ItemSet> itemSets, int actualItemSetLength) {
+		
 		Set<ItemSet> kItemSet = new HashSet<ItemSet>();
 		if (actualItemSetLength > 2) {
 			for (ItemSet firstItemSet : itemSets) {
