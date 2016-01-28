@@ -10,7 +10,7 @@ import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 public class AprioriUtils {
 	private static ItemSetWritable itemSetWritable = new ItemSetWritable();
 
-	public static Set<ItemSetWritable> generateCandidates(Set<ItemSetWritable> itemSets, int actualItemSetLength) {
+	public static Set<ItemSetWritable> generateCandidates(Iterable<ItemSetWritable> itemSets, int actualItemSetLength) {
 		Set<ItemSetWritable> kItemSet = new HashSet<ItemSetWritable>();
 		if (actualItemSetLength > 2) {
 			for (ItemSetWritable firstItemSet : itemSets) {
@@ -29,10 +29,11 @@ public class AprioriUtils {
 
 							Arrays.sort(candidate);
 
-							if (checkCandidateSubset(itemSets, generateCandidateSubset(candidate))) {
-								itemSetWritable = new ItemSetWritable(candidate);
-								kItemSet.add(itemSetWritable);
-							}
+							// if (checkCandidateSubset(itemSets,
+							// generateCandidateSubset(candidate))) {
+							// itemSetWritable = new ItemSetWritable(candidate);
+							// kItemSet.add(itemSetWritable);
+							// }
 
 						}
 					}
@@ -45,6 +46,8 @@ public class AprioriUtils {
 				for (ItemSetWritable itemSet : itemSets) {
 					String[] compareItemSet = Arrays.copyOf(itemSet.getStringItemSet(),
 							itemSet.getStringItemSet().length);
+					System.out.println(Arrays.toString(actualItemSet));
+					System.out.println(Arrays.toString(compareItemSet));
 					if (!Arrays.deepEquals(actualItemSet, compareItemSet)) {
 						itemSetWritable = new ItemSetWritable(new String[] { actualItemSet[0], compareItemSet[0] });
 						System.out.println("New itemset");
