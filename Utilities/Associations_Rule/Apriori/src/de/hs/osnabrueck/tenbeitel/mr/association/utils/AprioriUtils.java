@@ -5,20 +5,21 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import com.google.common.collect.Sets;
+
+import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSet;
 import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 
 public class AprioriUtils {
-	private static ItemSetWritable itemSetWritable = new ItemSetWritable();
 
-	public static Set<ItemSetWritable> generateCandidates(Iterable<ItemSetWritable> itemSets, int actualItemSetLength) {
-		Set<ItemSetWritable> kItemSet = new HashSet<ItemSetWritable>();
+	public static Set<ItemSet> generateCandidates(Set<ItemSet> itemSets, int actualItemSetLength) {
+		Set<ItemSet> kItemSet = new HashSet<ItemSet>();
 		if (actualItemSetLength > 2) {
-			for (ItemSetWritable firstItemSet : itemSets) {
-				ItemSetWritable actualItemSet = new ItemSetWritable(firstItemSet);
-				for (ItemSetWritable itemSet : itemSets) {
-					if (!actualItemSet.equals(itemSet)) {
-						String[] firstArray = actualItemSet.getStringItemSet();
-						String[] secondArray = itemSet.getStringItemSet();
+			for (ItemSet firstItemSet : itemSets) {
+				for (ItemSet itemSet : itemSets) {
+					if (!firstItemSet.equals(itemSet)) {
+						String[] firstArray = firstItemSet.get();
+						String[] secondArray = itemSet.get();
 
 						String[] subsetFirstArray = Arrays.copyOfRange(firstArray, 0, firstArray.length - 1);
 						String[] subsetSecondArray = Arrays.copyOfRange(secondArray, 0, secondArray.length - 1);
@@ -29,30 +30,25 @@ public class AprioriUtils {
 
 							Arrays.sort(candidate);
 
-							// if (checkCandidateSubset(itemSets,
-							// generateCandidateSubset(candidate))) {
-							// itemSetWritable = new ItemSetWritable(candidate);
-							// kItemSet.add(itemSetWritable);
-							// }
+							if (checkCandidateSubset(itemSets, generateCandidateSubset(candidate))) {
+								itemSet = new ItemSet(candidate);
+								kItemSet.add(itemSet);
+							}
 
 						}
 					}
 				}
 			}
 		} else {
-			for (ItemSetWritable firstItemSet : itemSets) {
-				String[] actualItemSet = Arrays.copyOf(firstItemSet.getStringItemSet(),
-						firstItemSet.getStringItemSet().length);
-				for (ItemSetWritable itemSet : itemSets) {
-					String[] compareItemSet = Arrays.copyOf(itemSet.getStringItemSet(),
-							itemSet.getStringItemSet().length);
-					System.out.println(Arrays.toString(actualItemSet));
-					System.out.println(Arrays.toString(compareItemSet));
-					if (!Arrays.deepEquals(actualItemSet, compareItemSet)) {
-						itemSetWritable = new ItemSetWritable(new String[] { actualItemSet[0], compareItemSet[0] });
+			for (ItemSet firstItemSet : itemSets) {
+				for (ItemSet itemSet : itemSets) {
+					System.out.println(Arrays.toString(firstItemSet.get()));
+					System.out.println(Arrays.toString(itemSet.get()));
+					if (!Arrays.deepEquals(firstItemSet.get(), itemSet.get())) {
+						itemSet = new ItemSet(new String[] { firstItemSet.get()[0], itemSet.get()[0] });
 						System.out.println("New itemset");
-						System.out.println(itemSetWritable.toString());
-						kItemSet.add(itemSetWritable);
+						System.out.println(itemSet.toString());
+						kItemSet.add(itemSet);
 					}
 				}
 			}
@@ -77,10 +73,12 @@ public class AprioriUtils {
 
 	}
 
-	private static boolean checkCandidateSubset(Set<ItemSetWritable> itemSet, String[][] subsets) {
+	private static boolean checkCandidateSubset(Iterable<ItemSet> itemSet, String[][] subsets) {
+		Set<ItemSet> set = Sets.newHashSet(itemSet);
+
 		for (int i = 0; i < subsets.length; i++) {
-			itemSetWritable = new ItemSetWritable(subsets[i]);
-			if (!itemSet.contains(itemSetWritable)) {
+			ItemSet item = new ItemSet(subsets[i]);
+			if (!set.contains(item)) {
 				return false;
 			}
 		}

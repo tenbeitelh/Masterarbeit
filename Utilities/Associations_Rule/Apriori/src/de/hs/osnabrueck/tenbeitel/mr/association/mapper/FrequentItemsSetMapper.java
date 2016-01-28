@@ -16,15 +16,17 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.mahout.common.StringTuple;
 
+import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSet;
 import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
 public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWritable, IntWritable> {
 	private static Integer actualItemSetLength = 0;
 
-	private static Set<ItemSetWritable> itemSets = new HashSet<ItemSetWritable>();
-	private static Set<ItemSetWritable> candidates;
+	private static Set<ItemSet> itemSets = new HashSet<ItemSet>();
+	private static Set<ItemSet> candidates;
 
+	private static ItemSetWritable itemValue = new ItemSetWritable();
 	private static final IntWritable countWritable = new IntWritable(1);
 
 	@Override
@@ -32,10 +34,10 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 			Mapper<Text, StringTuple, ItemSetWritable, IntWritable>.Context context)
 					throws IOException, InterruptedException {
 		List<String> tokens = value.getEntries();
-		for (ItemSetWritable candidate : candidates) {
+		for (ItemSet candidate : candidates) {
 			System.out.println(candidate.toString());
-			if (AprioriUtils.arrayContainsSubset(tokens, candidate.getStringItemSet())) {
-				context.write(candidate, countWritable);
+			if (AprioriUtils.arrayContainsSubset(tokens, candidate.get())) {
+				context.write(new ItemSetWritable(candidate.get()), countWritable);
 			}
 		}
 	}
@@ -52,8 +54,8 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 
 		candidates = AprioriUtils.generateCandidates(itemSets, actualItemSetLength);
 		System.out.println(candidates.size());
-		for (ItemSetWritable candidate : candidates) {
-			System.out.println(candidates);
+		for (ItemSet candidate : candidates) {
+			System.out.println(candidate);
 		}
 
 	}
@@ -69,7 +71,7 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 				ItemSetWritable value = new ItemSetWritable();
 
 				while (frequentItemsReader.next(key, value)) {
-					itemSets.add(value);
+					itemSets.add(new ItemSet(value.getStringItemSet()));
 				}
 			}
 		}

@@ -52,6 +52,8 @@ public class ItemSetWritable implements WritableComparable<ItemSetWritable> {
 	public void set(Writable[] values) {
 		this.values = values;
 	}
+	
+	
 
 	public Writable[] get() {
 		return values;
@@ -140,5 +142,7 @@ public class ItemSetWritable implements WritableComparable<ItemSetWritable> {
 		sb.setLength(sb.length() - 1);
 		return sb.toString();
 	}
+
+	
 
 }
