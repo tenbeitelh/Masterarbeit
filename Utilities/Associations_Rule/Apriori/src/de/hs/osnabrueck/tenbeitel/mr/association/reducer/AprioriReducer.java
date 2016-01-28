@@ -4,12 +4,13 @@ import java.io.IOException;
 
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.mapreduce.Reducer;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 
-public class AprioriReducer extends Reducer<ItemSetWritable, IntWritable, Writable, Writable> {
+public class AprioriReducer extends Reducer<ItemSetWritable, IntWritable, NullWritable, ItemSetWritable> {
 	private static Double minSupport = 1000.0;
 
 	@Override
@@ -25,9 +26,10 @@ public class AprioriReducer extends Reducer<ItemSetWritable, IntWritable, Writab
 		for (IntWritable value : values) {
 			sum += value.get();
 		}
-		
+
+		//Write frequent itemsets
 		if (sum > minSupport) {
-			
+			context.write(NullWritable.get(), key);
 		}
 	}
 

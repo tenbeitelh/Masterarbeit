@@ -19,4 +19,13 @@ public class ItemSetWritable extends ArrayWritable {
 		}
 		set(textItems);
 	}
+
+	public String[] getStringItemSet() {
+		Text[] writableItemSet = (Text[]) get();
+		String[] stringItemSet = new String[writableItemSet.length];
+		for (int i = 0; i < writableItemSet.length; i++) {
+			stringItemSet[i] = writableItemSet[i].toString();
+		}
+		return stringItemSet;
+	}
 }
