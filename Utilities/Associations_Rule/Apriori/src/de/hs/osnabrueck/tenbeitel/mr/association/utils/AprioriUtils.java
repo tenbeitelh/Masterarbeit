@@ -42,6 +42,9 @@ public class AprioriUtils {
 			for (ItemSetWritable firstItemSet : itemSets) {
 				ItemSetWritable actualItemSet = new ItemSetWritable(firstItemSet.getStringItemSet());
 				for (ItemSetWritable itemSet : itemSets) {
+					System.out.println(actualItemSet.toString());
+					System.out.println(itemSet.toString());
+
 					if (!actualItemSet.equals(itemSet)) {
 						itemSetWritable = new ItemSetWritable(
 								new String[] { actualItemSet.getStringItemSet()[0], itemSet.getStringItemSet()[0] });

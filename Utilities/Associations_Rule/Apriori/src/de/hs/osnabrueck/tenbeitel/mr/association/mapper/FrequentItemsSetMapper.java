@@ -51,7 +51,7 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 		readPreviousFrequentItemSets(context.getCacheFiles(), conf);
 
 		candidates = AprioriUtils.generateCandidates(itemSets, actualItemSetLength);
-
+		System.out.println(candidates.size());
 		for (ItemSetWritable candidate : candidates) {
 			System.out.println(candidates);
 		}
