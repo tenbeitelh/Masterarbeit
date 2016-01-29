@@ -3,6 +3,7 @@ package de.hs.osnabrueck.tenbeitel.mr.association.mapper;
 import java.io.IOException;
 import java.net.URI;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -33,6 +34,7 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 	@Override
 	protected void map(Text key, StringTuple value, Context context) throws IOException, InterruptedException {
 		List<String> tokens = value.getEntries();
+		Collections.sort(tokens);
 		for (List<String> candidate : candidates) {
 			System.out.println(candidate.toString());
 			if (tokens.containsAll(candidate)) {
