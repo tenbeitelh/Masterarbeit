@@ -6,8 +6,8 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-import de.hs.osnabrueck.tenbeitel.mr.twittergraph.constants.TwitterWritableConstants;
 import de.hs.osnabrueck.tenbeitel.mr.twittergraph.io.TwitterWritable;
+import de.hs.osnabrueck.tenbeitel.twitter.graph.constants.TwitterWritableConstants;
 
 public class TwitterDataJoinMapper extends Mapper<LongWritable, Text, Text, TwitterWritable> {
 	private Text twitterIdKey = new Text();

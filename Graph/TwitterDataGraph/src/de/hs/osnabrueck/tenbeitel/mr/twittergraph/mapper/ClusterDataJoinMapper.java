@@ -8,8 +8,8 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.mahout.clustering.classify.WeightedPropertyVectorWritable;
 import org.apache.mahout.math.NamedVector;
 
-import de.hs.osnabrueck.tenbeitel.mr.twittergraph.constants.TwitterWritableConstants;
 import de.hs.osnabrueck.tenbeitel.mr.twittergraph.io.TwitterWritable;
+import de.hs.osnabrueck.tenbeitel.twitter.graph.constants.TwitterWritableConstants;
 
 public class ClusterDataJoinMapper extends Mapper<IntWritable, WeightedPropertyVectorWritable, Text, TwitterWritable> {
 

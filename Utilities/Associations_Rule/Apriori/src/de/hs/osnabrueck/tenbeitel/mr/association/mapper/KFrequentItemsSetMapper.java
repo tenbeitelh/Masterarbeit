@@ -21,7 +21,7 @@ import org.apache.mahout.common.StringTuple;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
-public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTuple, IntWritable> {
+public class KFrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTuple, IntWritable> {
 	private static Integer actualItemSetLength = 0;
 
 	private static Set<List<String>> itemSets = new HashSet<List<String>>();

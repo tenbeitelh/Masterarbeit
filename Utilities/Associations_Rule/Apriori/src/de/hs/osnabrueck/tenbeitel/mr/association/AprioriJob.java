@@ -21,7 +21,7 @@ import org.apache.mahout.common.StringTuple;
 
 import de.hs.osnabrueck.hadoop.util.HadoopPathUtils;
 import de.hs.osnabrueck.tenbeitel.mr.association.mapper.CreateInitialFrequentItemSetsMapper;
-import de.hs.osnabrueck.tenbeitel.mr.association.mapper.FrequentItemsSetMapper;
+import de.hs.osnabrueck.tenbeitel.mr.association.mapper.KFrequentItemsSetMapper;
 import de.hs.osnabrueck.tenbeitel.mr.association.reducer.AprioriReducer;
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriFileUtils;
 
@@ -108,7 +108,7 @@ public class AprioriJob extends Configured implements Tool {
 			iterationJob.setMapOutputKeyClass(StringTuple.class);
 			iterationJob.setMapOutputValueClass(IntWritable.class);
 
-			iterationJob.setMapperClass(FrequentItemsSetMapper.class);
+			iterationJob.setMapperClass(KFrequentItemsSetMapper.class);
 
 			iterationJob.setOutputKeyClass(StringTuple.class);
 			iterationJob.setOutputValueClass(IntWritable.class);

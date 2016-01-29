@@ -21,8 +21,8 @@ import org.jgrapht.graph.DefaultDirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
 
 import de.hs.osnabrueck.tenbeitel.mr.graph.utils.GraphUtils;
-import de.hs.osnabrueck.tenbeitel.mr.twittergraph.constants.TwitterWritableConstants;
 import de.hs.osnabrueck.tenbeitel.mr.twittergraph.io.TwitterWritable;
+import de.hs.osnabrueck.tenbeitel.twitter.graph.constants.TwitterWritableConstants;
 import de.hs.osnabrueck.tenbeitel.twitter.graph.model.TwitterVertex;
 
 public class TwitterClusterJoinReducer extends Reducer<Text, TwitterWritable, NullWritable, Text> {
