@@ -66,13 +66,10 @@ public class AprioriJob extends Configured implements Tool {
 
 	private int generateItemSets(Configuration conf, Path inputDir, Path outputDir)
 			throws IOException, ClassNotFoundException, InterruptedException {
-		System.out.println(inputDir.toString());
-		System.out.println(outputDir.toString());
 
 		FileSystem fs = FileSystem.get(conf);
 
 		Path itemSetPath = new Path(outputDir, ITEMSET_FOLDER);
-		System.out.println(itemSetPath.toString());
 
 		Integer lengthOfItemSet = 1;
 		// Creating itemsets of length 1
