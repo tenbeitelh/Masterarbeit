@@ -17,9 +17,9 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
+import org.apache.mahout.common.StringTuple;
 
 import de.hs.osnabrueck.hadoop.util.HadoopPathUtils;
-import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 import de.hs.osnabrueck.tenbeitel.mr.association.mapper.CreateInitialFrequentItemSetsMapper;
 import de.hs.osnabrueck.tenbeitel.mr.association.mapper.FrequentItemsSetMapper;
 import de.hs.osnabrueck.tenbeitel.mr.association.reducer.AprioriReducer;
@@ -93,13 +93,13 @@ public class AprioriJob extends Configured implements Tool {
 		aprioriFirstStep.setInputFormatClass(SequenceFileInputFormat.class);
 		FileInputFormat.addInputPath(aprioriFirstStep, inputDir);
 
-		aprioriFirstStep.setMapOutputKeyClass(ItemSetWritable.class);
+		aprioriFirstStep.setMapOutputKeyClass(StringTuple.class);
 		aprioriFirstStep.setMapOutputValueClass(IntWritable.class);
 
 		aprioriFirstStep.setMapperClass(CreateInitialFrequentItemSetsMapper.class);
 
 		aprioriFirstStep.setOutputKeyClass(NullWritable.class);
-		aprioriFirstStep.setOutputValueClass(ItemSetWritable.class);
+		aprioriFirstStep.setOutputValueClass(StringTuple.class);
 
 		aprioriFirstStep.setReducerClass(AprioriReducer.class);
 
@@ -122,13 +122,13 @@ public class AprioriJob extends Configured implements Tool {
 
 		iterationJob.setCacheFiles(getResultFilesFrom(fs, itemSetPath, lengthOfItemSet - 1));
 
-		iterationJob.setMapOutputKeyClass(ItemSetWritable.class);
+		iterationJob.setMapOutputKeyClass(StringTuple.class);
 		iterationJob.setMapOutputValueClass(IntWritable.class);
 
 		iterationJob.setMapperClass(FrequentItemsSetMapper.class);
 
 		iterationJob.setOutputKeyClass(NullWritable.class);
-		iterationJob.setOutputValueClass(ItemSetWritable.class);
+		iterationJob.setOutputValueClass(StringTuple.class);
 
 		iterationJob.setReducerClass(AprioriReducer.class);
 
