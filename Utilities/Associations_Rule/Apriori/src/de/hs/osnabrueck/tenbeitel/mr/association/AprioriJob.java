@@ -23,6 +23,7 @@ import de.hs.osnabrueck.hadoop.util.HadoopPathUtils;
 import de.hs.osnabrueck.tenbeitel.mr.association.mapper.CreateInitialFrequentItemSetsMapper;
 import de.hs.osnabrueck.tenbeitel.mr.association.mapper.FrequentItemsSetMapper;
 import de.hs.osnabrueck.tenbeitel.mr.association.reducer.AprioriReducer;
+import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriFileUtils;
 
 public class AprioriJob extends Configured implements Tool {
 
@@ -55,21 +56,10 @@ public class AprioriJob extends Configured implements Tool {
 
 		Double numberOfTransactions = Double.valueOf(args[4]);
 
-		// MapReduce Job to determine this value, using RecordCounterInstead
-		// DetermineTransactionNumberJob transNumberJob = new
-		// DetermineTransactionNumberJob();
-		// int res = transNumberJob.run(conf, inputDir, new Path(outputDir,
-		// NUMBER_TRANSACTIONS));
-
 		conf.setDouble("apriori.min_support", minSupport * numberOfTransactions);
 		conf.setDouble("apriori.min_confidence", minConfidence);
 
 		int res = generateItemSets(conf, inputDir, outputDir);
-
-		// while (fs.listStatus(new Path(outputDir, ITEMSET_FOLDER +
-		// lengthOfItemSet.toString())).length > 0) {
-		//
-		// }
 
 		return 0;
 	}
@@ -105,38 +95,40 @@ public class AprioriJob extends Configured implements Tool {
 
 		aprioriFirstStep.setOutputFormatClass(SequenceFileOutputFormat.class);
 		FileOutputFormat.setOutputPath(aprioriFirstStep, new Path(itemSetPath, lengthOfItemSet.toString()));
-
+		System.out.println("Calculating itemsets of length: " + lengthOfItemSet);
 		int res = aprioriFirstStep.waitForCompletion(true) ? 0 : 1;
-		// fs.getContentSummary(new Path("")).get
-		// while (res == 0) {
-		lengthOfItemSet++;
 
-		conf.setInt("apriori.itemset_lenght", lengthOfItemSet);
+		while (AprioriFileUtils.previousItemSetsExists(conf, new Path(itemSetPath, lengthOfItemSet.toString()))) {
+			lengthOfItemSet++;
 
-		Job iterationJob = Job.getInstance(conf);
-		iterationJob.setJobName("Determine frequent itemsets of length = " + lengthOfItemSet.toString());
-		iterationJob.setJarByClass(AprioriJob.class);
+			conf.setInt("apriori.itemset_lenght", lengthOfItemSet);
 
-		iterationJob.setInputFormatClass(SequenceFileInputFormat.class);
-		FileInputFormat.addInputPath(iterationJob, inputDir);
+			Job iterationJob = Job.getInstance(conf);
+			iterationJob.setJobName("Determine frequent itemsets of length = " + lengthOfItemSet.toString());
+			iterationJob.setJarByClass(AprioriJob.class);
 
-		iterationJob.setCacheFiles(getResultFilesFrom(fs, itemSetPath, lengthOfItemSet - 1));
+			iterationJob.setInputFormatClass(SequenceFileInputFormat.class);
+			FileInputFormat.addInputPath(iterationJob, inputDir);
 
-		iterationJob.setMapOutputKeyClass(StringTuple.class);
-		iterationJob.setMapOutputValueClass(IntWritable.class);
+			iterationJob.setCacheFiles(getResultFilesFrom(fs, itemSetPath, lengthOfItemSet - 1));
 
-		iterationJob.setMapperClass(FrequentItemsSetMapper.class);
+			iterationJob.setMapOutputKeyClass(StringTuple.class);
+			iterationJob.setMapOutputValueClass(IntWritable.class);
 
-		iterationJob.setOutputKeyClass(NullWritable.class);
-		iterationJob.setOutputValueClass(StringTuple.class);
+			iterationJob.setMapperClass(FrequentItemsSetMapper.class);
 
-		iterationJob.setReducerClass(AprioriReducer.class);
+			iterationJob.setOutputKeyClass(NullWritable.class);
+			iterationJob.setOutputValueClass(StringTuple.class);
 
-		iterationJob.setOutputFormatClass(SequenceFileOutputFormat.class);
-		FileOutputFormat.setOutputPath(iterationJob, new Path(itemSetPath, lengthOfItemSet.toString()));
+			iterationJob.setReducerClass(AprioriReducer.class);
 
-		res += iterationJob.waitForCompletion(true) ? 0 : 1;
-		// }
+			iterationJob.setOutputFormatClass(SequenceFileOutputFormat.class);
+			FileOutputFormat.setOutputPath(iterationJob, new Path(itemSetPath, lengthOfItemSet.toString()));
+
+			System.out.println("Calculating itemsets of length: " + lengthOfItemSet);
+
+			res += iterationJob.waitForCompletion(true) ? 0 : 1;
+		}
 		if (res > 0) {
 			return 1;
 		}
