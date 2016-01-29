@@ -20,8 +20,8 @@ public class AprioriUtils {
 						ArrayList<String> firstArray = new ArrayList<String>(itemSetsList.get(i));
 						ArrayList<String> secondArray = new ArrayList<String>(itemSetsList.get(j));
 
-						List<String> subsetFirstArray = firstArray.subList(0, actualItemSetLength - 1);
-						List<String> subsetSecondArray = secondArray.subList(0, actualItemSetLength - 1);
+						List<String> subsetFirstArray = firstArray.subList(0, firstArray.size() - 1);
+						List<String> subsetSecondArray = secondArray.subList(0, secondArray.size() - 1);
 
 						if (subsetFirstArray.equals(subsetSecondArray)) {
 							firstArray.add(secondArray.get(secondArray.size() - 1));

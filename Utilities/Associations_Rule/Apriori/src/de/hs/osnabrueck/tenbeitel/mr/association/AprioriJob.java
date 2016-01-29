@@ -96,7 +96,7 @@ public class AprioriJob extends Configured implements Tool {
 
 			conf.setInt("apriori.itemset_lenght", lengthOfItemSet);
 			// TODO test purpose: delete
-			conf.setDouble("apriori.min_support", 5);
+			conf.setDouble("apriori.min_support", 50);
 
 			Job iterationJob = Job.getInstance(conf);
 			iterationJob.setJobName("Determine frequent itemsets of length = " + lengthOfItemSet.toString());
