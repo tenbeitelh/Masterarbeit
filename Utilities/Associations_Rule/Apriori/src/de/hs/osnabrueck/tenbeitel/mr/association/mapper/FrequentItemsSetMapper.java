@@ -34,9 +34,45 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 		List<String> tokens = new ArrayList<String>(value.getEntries());
 		Collections.sort(tokens);
 		for (List<String> candidate : candidates) {
-			System.out.println(candidate.toString());
 			if (tokens.containsAll(candidate)) {
 				context.write(new StringTuple(candidate), countWritable);
+			}
+		}
+	}
+
+	@Override
+	public void run(Context context) throws IOException, InterruptedException {
+		super.setup(context);
+		Configuration conf = context.getConfiguration();
+
+		actualItemSetLength = conf.getInt("apriori.itemset_lenght", actualItemSetLength);
+
+		readPreviousFrequentItemSets(context.getCacheFiles(), conf);
+
+		candidates = AprioriUtils.generateCandidates(itemSets, actualItemSetLength);
+
+		try {
+			while (context.nextKeyValue()) {
+				map(context.getCurrentKey(), context.getCurrentValue(), context);
+			}
+		} finally {
+			cleanup(context);
+		}
+	}
+
+	private void readPreviousFrequentItemSets(URI[] filePaths, Configuration conf) throws IOException {
+
+		for (int i = 0; i < filePaths.length; i++) {
+
+			Option fileOption = SequenceFile.Reader.file(new Path(filePaths[i]));
+			try (SequenceFile.Reader frequentItemsReader = new SequenceFile.Reader(conf, fileOption)) {
+
+				NullWritable key = NullWritable.get();
+				StringTuple value = new StringTuple();
+
+				while (frequentItemsReader.next(key, value)) {
+					itemSets.add(value.getEntries());
+				}
 			}
 		}
 	}
@@ -60,48 +96,5 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 	// System.out.println(candidate);
 	// }
 	// }
-
-	@Override
-	public void run(Context context) throws IOException, InterruptedException {
-		super.setup(context);
-		Configuration conf = context.getConfiguration();
-
-		actualItemSetLength = conf.getInt("apriori.itemset_lenght", actualItemSetLength);
-		System.out.println(actualItemSetLength);
-
-		readPreviousFrequentItemSets(context.getCacheFiles(), conf);
-
-		candidates = AprioriUtils.generateCandidates(itemSets, actualItemSetLength);
-		System.out.println(candidates.size());
-		for (List<String> candidate : candidates) {
-			System.out.println(candidate);
-		}
-
-		try {
-			while (context.nextKeyValue()) {
-				map(context.getCurrentKey(), context.getCurrentValue(), context);
-			}
-		} finally {
-			cleanup(context);
-		}
-	}
-
-	private void readPreviousFrequentItemSets(URI[] filePaths, Configuration conf) throws IOException {
-		System.out.println("Cached files: " + filePaths.length);
-		for (int i = 0; i < filePaths.length; i++) {
-
-			Option fileOption = SequenceFile.Reader.file(new Path(filePaths[i]));
-			try (SequenceFile.Reader frequentItemsReader = new SequenceFile.Reader(conf, fileOption)) {
-
-				NullWritable key = NullWritable.get();
-				StringTuple value = new StringTuple();
-
-				while (frequentItemsReader.next(key, value)) {
-					itemSets.add(value.getEntries());
-				}
-			}
-		}
-		System.out.println(itemSets.size());
-	}
 
 }

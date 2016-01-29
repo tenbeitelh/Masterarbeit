@@ -37,12 +37,8 @@ public class AprioriUtils {
 		} else {
 			for (int i = 0; i < itemSetsList.size(); i++) {
 				for (int j = 0; j < itemSetsList.size(); j++) {
-					System.out.println(itemSetsList.get(i));
-					System.out.println(itemSetsList.get(j));
 					if (!itemSetsList.get(i).equals(itemSetsList.get(j))) {
 						String[] newItemSet = new String[] { itemSetsList.get(i).get(0), itemSetsList.get(j).get(0) };
-						System.out.println("New itemset");
-						System.out.println(Arrays.toString(newItemSet));
 						Arrays.sort(newItemSet);
 						kItemSet.add(Arrays.asList(newItemSet));
 					}
