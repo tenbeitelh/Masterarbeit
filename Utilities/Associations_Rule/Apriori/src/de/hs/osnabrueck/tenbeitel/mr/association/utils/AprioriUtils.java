@@ -6,10 +6,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import com.google.common.collect.Sets;
-
-import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSet;
-
 public class AprioriUtils {
 
 	public static Set<List<String>> generateCandidates(Set<List<String>> itemSets, int actualItemSetLength) {
@@ -20,20 +16,18 @@ public class AprioriUtils {
 				for (int j = 0; j < itemSetsList.size(); j++) {
 
 					if (!itemSetsList.get(i).equals(itemSetsList.get(j))) {
-						String[] firstArray = itemSetsList.get(i).toArray(new String[itemSetsList.get(i).size()]);
-						String[] secondArray = itemSetsList.get(j).toArray(new String[itemSetsList.get(j).size()]);
 
-						String[] subsetFirstArray = Arrays.copyOfRange(firstArray, 0, firstArray.length - 1);
-						String[] subsetSecondArray = Arrays.copyOfRange(secondArray, 0, secondArray.length - 1);
+						ArrayList<String> firstArray = (ArrayList<String>) itemSetsList.get(i);
+						ArrayList<String> secondArray = (ArrayList<String>) itemSetsList.get(j);
 
-						if (Arrays.deepEquals(subsetFirstArray, subsetSecondArray)) {
-							String[] candidate = Arrays.copyOf(firstArray, firstArray.length + 1);
-							candidate[firstArray.length + 1] = secondArray[secondArray.length];
+						List<String> subsetFirstArray = firstArray.subList(0, actualItemSetLength - 1);
+						List<String> subsetSecondArray = secondArray.subList(0, actualItemSetLength - 1);
 
-							Arrays.sort(candidate);
+						if (subsetFirstArray.equals(subsetSecondArray)) {
+							firstArray.add(secondArray.get(secondArray.size() - 1));
 
-							if (checkCandidateSubset(itemSetsList, generateCandidateSubset(candidate))) {
-								kItemSet.add(Arrays.asList(candidate));
+							if (checkCandidateSubset(itemSetsList, generateCandidateSubset(firstArray))) {
+								kItemSet.add(firstArray);
 							}
 
 						}
@@ -58,15 +52,15 @@ public class AprioriUtils {
 		return kItemSet;
 	}
 
-	private static String[][] generateCandidateSubset(String[] candidate) {
-		String[][] comb = new String[candidate.length][candidate.length - 1];
+	private static String[][] generateCandidateSubset(List<String> firstArray) {
+		String[][] comb = new String[firstArray.size()][firstArray.size() - 1];
 
-		for (int i = 0; i < candidate.length; i++) {
-			for (int j = 0; j < candidate.length - 1; j++) {
+		for (int i = 0; i < firstArray.size(); i++) {
+			for (int j = 0; j < firstArray.size() - 1; j++) {
 				if (i != j) {
-					comb[i][j] = candidate[j];
+					comb[i][j] = firstArray.get(j);
 				} else {
-					comb[i][j] = candidate[candidate.length - 1];
+					comb[i][j] = firstArray.get(firstArray.size() - 1);
 				}
 			}
 		}
