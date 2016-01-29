@@ -76,11 +76,11 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 			Option fileOption = SequenceFile.Reader.file(new Path(filePaths[i]));
 			try (SequenceFile.Reader frequentItemsReader = new SequenceFile.Reader(conf, fileOption)) {
 
-				NullWritable key = NullWritable.get();
-				StringTuple value = new StringTuple();
+				StringTuple key = new StringTuple();
+				IntWritable value = new IntWritable();
 
 				while (frequentItemsReader.next(key, value)) {
-					itemSets.add(value.getEntries());
+					itemSets.add(key.getEntries());
 				}
 			}
 		}

@@ -11,8 +11,9 @@ import org.apache.mahout.common.StringTuple;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 
-public class AprioriReducer extends Reducer<StringTuple, IntWritable, NullWritable, StringTuple> {
+public class AprioriReducer extends Reducer<StringTuple, IntWritable, StringTuple, IntWritable> {
 	private static Double minSupport = 1000.0;
+	IntWritable support = new IntWritable();
 
 	@Override
 	protected void setup(Context context) throws IOException, InterruptedException {
@@ -31,7 +32,8 @@ public class AprioriReducer extends Reducer<StringTuple, IntWritable, NullWritab
 		// Write frequent itemsets
 		System.out.println(key.toString() + " - Sum: " + sum + " MinSupport: " + minSupport);
 		if (sum > minSupport) {
-			context.write(NullWritable.get(), key);
+			support.set(sum);
+			context.write(key, support);
 		}
 	}
 

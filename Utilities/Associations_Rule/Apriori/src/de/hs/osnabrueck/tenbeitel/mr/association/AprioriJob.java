@@ -27,10 +27,6 @@ import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriFileUtils;
 
 public class AprioriJob extends Configured implements Tool {
 
-	private static final String APRIORI_PATH = "apriori";
-	private static final String TEXT_BASED = "textbased";
-	private static final String USER_BASED = "userbased";
-	private static final String NUMBER_TRANSACTIONS = "number_transactions";
 	private static final String ITEMSET_FOLDER = "itemsets";
 
 	public static void main(String[] args) throws Exception {
@@ -85,8 +81,8 @@ public class AprioriJob extends Configured implements Tool {
 
 		aprioriFirstStep.setMapperClass(CreateInitialFrequentItemSetsMapper.class);
 
-		aprioriFirstStep.setOutputKeyClass(NullWritable.class);
-		aprioriFirstStep.setOutputValueClass(StringTuple.class);
+		aprioriFirstStep.setOutputKeyClass(StringTuple.class);
+		aprioriFirstStep.setOutputValueClass(IntWritable.class);
 
 		aprioriFirstStep.setReducerClass(AprioriReducer.class);
 
@@ -114,8 +110,8 @@ public class AprioriJob extends Configured implements Tool {
 
 			iterationJob.setMapperClass(FrequentItemsSetMapper.class);
 
-			iterationJob.setOutputKeyClass(NullWritable.class);
-			iterationJob.setOutputValueClass(StringTuple.class);
+			iterationJob.setOutputKeyClass(StringTuple.class);
+			iterationJob.setOutputValueClass(IntWritable.class);
 
 			iterationJob.setReducerClass(AprioriReducer.class);
 
