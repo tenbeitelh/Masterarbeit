@@ -12,16 +12,16 @@ import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSet;
 
 public class AprioriUtils {
 
-	public static Set<String[]> generateCandidates(Set<String[]> itemSets, int actualItemSetLength) {
-		List<String[]> itemSetsList = new ArrayList<String[]>(itemSets);
-		Set<String[]> kItemSet = new HashSet<String[]>();
+	public static Set<List<String>> generateCandidates(Set<List<String>> itemSets, int actualItemSetLength) {
+		List<List<String>> itemSetsList = new ArrayList<List<String>>(itemSets);
+		Set<List<String>> kItemSet = new HashSet<List<String>>();
 		if (actualItemSetLength > 2) {
 			for (int i = 0; i < itemSetsList.size(); i++) {
 				for (int j = 0; j < itemSetsList.size(); j++) {
 
 					if (!itemSetsList.get(i).equals(itemSetsList.get(j))) {
-						String[] firstArray = itemSetsList.get(i);
-						String[] secondArray = itemSetsList.get(j);
+						String[] firstArray = itemSetsList.get(i).toArray(new String[itemSetsList.get(i).size()]);
+						String[] secondArray = itemSetsList.get(j).toArray(new String[itemSetsList.get(j).size()]);
 
 						String[] subsetFirstArray = Arrays.copyOfRange(firstArray, 0, firstArray.length - 1);
 						String[] subsetSecondArray = Arrays.copyOfRange(secondArray, 0, secondArray.length - 1);
@@ -33,7 +33,7 @@ public class AprioriUtils {
 							Arrays.sort(candidate);
 
 							if (checkCandidateSubset(itemSetsList, generateCandidateSubset(candidate))) {
-								kItemSet.add(candidate);
+								kItemSet.add(Arrays.asList(candidate));
 							}
 
 						}
@@ -43,13 +43,14 @@ public class AprioriUtils {
 		} else {
 			for (int i = 0; i < itemSetsList.size(); i++) {
 				for (int j = 0; j < itemSetsList.size(); j++) {
-					System.out.println(Arrays.toString(itemSetsList.get(i)));
-					System.out.println(Arrays.toString(itemSetsList.get(j)));
-					if (!Arrays.deepEquals(itemSetsList.get(i), itemSetsList.get(j))) {
-						String[] newItemSet = new String[] { itemSetsList.get(i)[0], itemSetsList.get(j)[0] };
+					System.out.println(itemSetsList.get(i));
+					System.out.println(itemSetsList.get(j));
+					if (!itemSetsList.get(i).equals(itemSetsList.get(j))) {
+						String[] newItemSet = new String[] { itemSetsList.get(i).get(0), itemSetsList.get(j).get(0) };
 						System.out.println("New itemset");
 						System.out.println(Arrays.toString(newItemSet));
-						kItemSet.add(newItemSet);
+						Arrays.sort(newItemSet);
+						kItemSet.add(Arrays.asList(newItemSet));
 					}
 				}
 			}
@@ -74,10 +75,10 @@ public class AprioriUtils {
 
 	}
 
-	private static boolean checkCandidateSubset(List<String[]> itemSet, String[][] subsets) {
+	private static boolean checkCandidateSubset(List<List<String>> itemSet, String[][] subsets) {
 		for (int i = 0; i < subsets.length; i++) {
 
-			if (!itemSet.contains(subsets[i])) {
+			if (!itemSet.contains(Arrays.asList(subsets[i]))) {
 				return false;
 			}
 		}

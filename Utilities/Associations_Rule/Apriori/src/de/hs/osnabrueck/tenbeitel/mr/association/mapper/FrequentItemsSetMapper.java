@@ -24,8 +24,8 @@ import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTuple, IntWritable> {
 	private static Integer actualItemSetLength = 0;
 
-	private static Set<String[]> itemSets = new HashSet<String[]>();
-	private static Set<String[]> candidates;
+	private static Set<List<String>> itemSets = new HashSet<List<String>>();
+	private static Set<List<String>> candidates;
 
 	private static StringTuple itemValue = new StringTuple();
 	private static final IntWritable countWritable = new IntWritable(1);
@@ -33,9 +33,9 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 	@Override
 	protected void map(Text key, StringTuple value, Context context) throws IOException, InterruptedException {
 		List<String> tokens = value.getEntries();
-		for (String[] candidate : candidates) {
+		for (List<String> candidate : candidates) {
 			System.out.println(candidate.toString());
-			if (AprioriUtils.arrayContainsSubset(tokens, candidate)) {
+			if (tokens.containsAll(candidate)) {
 				context.write(new StringTuple(candidate), countWritable);
 			}
 		}
@@ -53,8 +53,8 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 
 		candidates = AprioriUtils.generateCandidates(itemSets, actualItemSetLength);
 		System.out.println(candidates.size());
-		for (String[] candidate : candidates) {
-			System.out.println(Arrays.toString(candidate));
+		for (List<String> candidate : candidates) {
+			System.out.println(candidate);
 		}
 	}
 
@@ -97,7 +97,7 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 				StringTuple value = new StringTuple();
 
 				while (frequentItemsReader.next(key, value)) {
-					itemSets.add(value.getEntries().toArray(new String[value.getEntries().size()]));
+					itemSets.add(value.getEntries());
 				}
 			}
 		}
