@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -24,7 +25,7 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 	private static Integer actualItemSetLength = 0;
 
 	private static Set<List<String>> itemSets = new HashSet<List<String>>();
-	private static Set<List<String>> candidates;
+	private static List<List<String>> candidates;
 
 	private static StringTuple itemValue = new StringTuple();
 	private static final IntWritable countWritable = new IntWritable(1);
@@ -49,7 +50,15 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 
 		readPreviousFrequentItemSets(context.getCacheFiles(), conf);
 
-		candidates = AprioriUtils.generateCandidates(itemSets, actualItemSetLength);
+		candidates = new ArrayList<List<String>>(AprioriUtils.generateCandidates(itemSets, actualItemSetLength));
+
+		Collections.sort(candidates, new Comparator<List<String>>() {
+
+			@Override
+			public int compare(List<String> o1, List<String> o2) {
+				return o1.get(0).compareTo(o2.get(0));
+			}
+		});
 
 		try {
 			while (context.nextKeyValue()) {
