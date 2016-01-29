@@ -9,7 +9,6 @@ import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
@@ -38,8 +37,9 @@ public class AprioriJob extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
 		Configuration conf = this.getConf();
 
-		if (args.length < 5) {
+		if (args.length < 4) {
 			System.out.println("usage: [inputDir] [outputDir] [minSupport] [minConfidence] [#transactions]");
+			System.out.println("usage: [inputDir] [outputDir] [minSupport*#transactions] [minConfidence]");
 		}
 
 		Path inputDir = new Path(args[0]);
@@ -48,16 +48,20 @@ public class AprioriJob extends Configured implements Tool {
 		HadoopPathUtils.deletePathIfExists(conf, outputDir);
 
 		Double minSupport = Double.valueOf(args[2]);
+
 		Double minConfidence = Double.valueOf(args[3]);
+		if (args.length == 5) {
+			Double numberOfTransactions = Double.valueOf(args[4]);
+			conf.setDouble("apriori.min_support", minSupport * numberOfTransactions);
+		} else {
+			conf.setDouble("apriori.min_support", minSupport);
+		}
 
-		Double numberOfTransactions = Double.valueOf(args[4]);
-
-		conf.setDouble("apriori.min_support", minSupport * numberOfTransactions);
 		conf.setDouble("apriori.min_confidence", minConfidence);
 
 		int res = generateItemSets(conf, inputDir, outputDir);
 
-		return 0;
+		return res;
 	}
 
 	private int generateItemSets(Configuration conf, Path inputDir, Path outputDir)
@@ -95,8 +99,6 @@ public class AprioriJob extends Configured implements Tool {
 			lengthOfItemSet++;
 
 			conf.setInt("apriori.itemset_lenght", lengthOfItemSet);
-			// TODO test purpose: delete
-			// conf.setDouble("apriori.min_support", 50);
 
 			Job iterationJob = Job.getInstance(conf);
 			iterationJob.setJobName("Determine frequent itemsets of length = " + lengthOfItemSet.toString());
@@ -132,8 +134,6 @@ public class AprioriJob extends Configured implements Tool {
 
 	private URI[] getResultFilesFrom(FileSystem fs, Path itemSetPath, Integer previousLengthOfItemSet)
 			throws IOException {
-		// TODO Auto-generated method stub
-
 		Path globPath = new Path(new Path(itemSetPath, previousLengthOfItemSet.toString()), "part-r-[0-9]*");
 
 		FileStatus[] files = fs.globStatus(globPath);
