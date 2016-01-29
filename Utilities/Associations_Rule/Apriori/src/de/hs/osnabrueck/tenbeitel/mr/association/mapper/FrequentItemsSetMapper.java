@@ -2,7 +2,7 @@ package de.hs.osnabrueck.tenbeitel.mr.association.mapper;
 
 import java.io.IOException;
 import java.net.URI;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -18,8 +18,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.mahout.common.StringTuple;
 
-import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSet;
-import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
 public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTuple, IntWritable> {
@@ -33,7 +31,7 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTupl
 
 	@Override
 	protected void map(Text key, StringTuple value, Context context) throws IOException, InterruptedException {
-		List<String> tokens = value.getEntries();
+		List<String> tokens = new ArrayList<String>(value.getEntries());
 		Collections.sort(tokens);
 		for (List<String> candidate : candidates) {
 			System.out.println(candidate.toString());
