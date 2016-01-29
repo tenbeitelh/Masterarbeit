@@ -95,6 +95,7 @@ public class AprioriJob extends Configured implements Tool {
 			lengthOfItemSet++;
 
 			conf.setInt("apriori.itemset_lenght", lengthOfItemSet);
+			// TODO test purpose: delete
 			conf.setDouble("apriori.min_support", 5);
 
 			Job iterationJob = Job.getInstance(conf);
