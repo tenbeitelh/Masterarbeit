@@ -7,10 +7,11 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.mahout.common.StringTuple;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 
-public class AprioriReducer extends Reducer<ItemSetWritable, IntWritable, NullWritable, ItemSetWritable> {
+public class AprioriReducer extends Reducer<StringTuple, IntWritable, NullWritable, StringTuple> {
 	private static Double minSupport = 1000.0;
 
 	@Override
@@ -19,7 +20,7 @@ public class AprioriReducer extends Reducer<ItemSetWritable, IntWritable, NullWr
 	}
 
 	@Override
-	protected void reduce(ItemSetWritable key, Iterable<IntWritable> values, Context context)
+	protected void reduce(StringTuple key, Iterable<IntWritable> values, Context context)
 			throws IOException, InterruptedException {
 
 		int sum = 0;

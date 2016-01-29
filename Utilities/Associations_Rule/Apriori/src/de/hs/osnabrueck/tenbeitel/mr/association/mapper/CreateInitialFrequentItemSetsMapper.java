@@ -11,7 +11,7 @@ import org.apache.mahout.common.StringTuple;
 
 import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 
-public class CreateInitialFrequentItemSetsMapper extends Mapper<Text, StringTuple, ItemSetWritable, IntWritable> {
+public class CreateInitialFrequentItemSetsMapper extends Mapper<Text, StringTuple, StringTuple, IntWritable> {
 	IntWritable frequencyCount = new IntWritable(1);
 
 	Set<String> recognicedTokens;
@@ -23,7 +23,7 @@ public class CreateInitialFrequentItemSetsMapper extends Mapper<Text, StringTupl
 
 		for (String token : value.getEntries()) {
 			if (recognicedTokens.add(token)) {
-				context.write(new ItemSetWritable(new String[] { token }), frequencyCount);
+				context.write(new StringTuple(new String[] { token }), frequencyCount);
 			}
 		}
 	}

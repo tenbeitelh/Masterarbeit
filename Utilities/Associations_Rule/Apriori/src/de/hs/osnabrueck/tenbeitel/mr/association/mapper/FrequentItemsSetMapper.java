@@ -2,6 +2,7 @@ package de.hs.osnabrueck.tenbeitel.mr.association.mapper;
 
 import java.io.IOException;
 import java.net.URI;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -20,33 +21,28 @@ import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSet;
 import de.hs.osnabrueck.tenbeitel.mr.association.io.ItemSetWritable;
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
-public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWritable, IntWritable> {
+public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, StringTuple, IntWritable> {
 	private static Integer actualItemSetLength = 0;
 
-	private static Set<ItemSet> itemSets = new HashSet<ItemSet>();
-	private static Set<ItemSet> candidates;
+	private static Set<String[]> itemSets = new HashSet<String[]>();
+	private static Set<String[]> candidates;
 
-	private static ItemSetWritable itemValue = new ItemSetWritable();
+	private static StringTuple itemValue = new StringTuple();
 	private static final IntWritable countWritable = new IntWritable(1);
 
 	@Override
-	protected void map(Text key, StringTuple value,
-			Mapper<Text, StringTuple, ItemSetWritable, IntWritable>.Context context)
-					throws IOException, InterruptedException {
+	protected void map(Text key, StringTuple value, Context context) throws IOException, InterruptedException {
 		List<String> tokens = value.getEntries();
-		for (ItemSet candidate : candidates) {
+		for (String[] candidate : candidates) {
 			System.out.println(candidate.toString());
-			if (AprioriUtils.arrayContainsSubset(tokens, candidate.get())) {
-				context.write(new ItemSetWritable(candidate.get()), countWritable);
+			if (AprioriUtils.arrayContainsSubset(tokens, candidate)) {
+				context.write(new StringTuple(candidate), countWritable);
 			}
 		}
 	}
-	
-	
 
 	@Override
-	protected void setup(Mapper<Text, StringTuple, ItemSetWritable, IntWritable>.Context context)
-			throws IOException, InterruptedException {
+	protected void setup(Context context) throws IOException, InterruptedException {
 		super.setup(context);
 		// Configuration conf = context.getConfiguration();
 		//
@@ -64,8 +60,6 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 		// }
 	}
 
-
-
 	@Override
 	public void run(Context context) throws IOException, InterruptedException {
 		super.setup(context);
@@ -78,8 +72,8 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 
 		candidates = AprioriUtils.generateCandidates(itemSets, actualItemSetLength);
 		System.out.println(candidates.size());
-		for (ItemSet candidate : candidates) {
-			System.out.println(candidate);
+		for (String[] candidate : candidates) {
+			System.out.println(Arrays.toString(candidate));
 		}
 
 		try {
@@ -99,10 +93,10 @@ public class FrequentItemsSetMapper extends Mapper<Text, StringTuple, ItemSetWri
 			try (SequenceFile.Reader frequentItemsReader = new SequenceFile.Reader(conf, fileOption)) {
 
 				NullWritable key = NullWritable.get();
-				ItemSetWritable value = new ItemSetWritable();
+				StringTuple value = new StringTuple();
 
 				while (frequentItemsReader.next(key, value)) {
-					itemSets.add(new ItemSet(value.getStringItemSet()));
+					itemSets.add(value.getEntries().toArray(new String[value.getEntries().size()]));
 				}
 			}
 		}
