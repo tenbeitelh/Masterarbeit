@@ -55,7 +55,7 @@ public class TransformationJob extends Configured implements Tool {
 		
 		Path tokenizedPath = new Path(outputDirPath, DocumentProcessor.TOKENIZED_DOCUMENT_OUTPUT_FOLDER);
 
-		GermanAnalyzer analyzer = new GermanAnalyzer(Version.LUCENE_46);
+		GermanStemAnalyzer analyzer = new GermanStemAnalyzer(Version.LUCENE_46);
 
 		DocumentProcessor.tokenizeDocuments(inputDirPath, analyzer.getClass().asSubclass(GermanStemAnalyzer.class),
 				tokenizedPath, conf);

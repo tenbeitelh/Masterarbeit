@@ -1,5 +1,7 @@
 package de.hs.osnabrueck.tenbeitel.mr.association.mapper;
 
-public class KRuleMapper {
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class KRuleMapper extends Mapper{
 
 }
