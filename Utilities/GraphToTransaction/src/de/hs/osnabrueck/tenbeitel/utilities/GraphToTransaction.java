@@ -11,6 +11,9 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.SequenceFile;
+import org.apache.hadoop.io.SequenceFile.Writer;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.mahout.common.StringTuple;
@@ -52,19 +55,70 @@ public class GraphToTransaction extends Configured implements Tool {
 
 		List<StringTuple> directedUserTuplesForSubGraphs = generateDirectedUserTuplesForSubGraphs(graph, connectivity);
 
+		List<StringTuple> clusterTuplesForSubgraphs = generateClusterTuplesForSubgraphs(connectivity);
+
+		Path outputDir = new Path(args[0]);
+
+		Path userPath = new Path(outputDir, "user_txn");
+		Path clusterPath = new Path(outputDir, "cluster_txn");
+
+		Path directedUserPath = new Path(outputDir, "directed_user_txn");
+
+		writeTuples(conf, userPath, userTuplesForSubgraphs);
+		writeTuples(conf, clusterPath, clusterTuplesForSubgraphs);
+		writeTuples(conf, directedUserPath, directedUserTuplesForSubGraphs);
+
 		return 0;
+	}
+
+	private void writeTuples(Configuration conf, Path userPath, List<StringTuple> userTuplesForSubgraphs)
+			throws IOException {
+		try (SequenceFile.Writer seqWriter = SequenceFile.createWriter(conf,
+				Writer.file(new Path(userPath, "part-r-00000")), Writer.keyClass(NullWritable.class),
+				Writer.valueClass(StringTuple.class))) {
+			for (StringTuple tuple : userTuplesForSubgraphs) {
+				seqWriter.append(NullWritable.get(), tuple);
+			}
+		}
+
+	}
+
+	private List<StringTuple> generateClusterTuplesForSubgraphs(
+			ConnectivityInspector<TwitterVertex, DefaultEdge> connectivity) {
+		List<StringTuple> clusterTuples = new ArrayList<StringTuple>();
+		for (Set<TwitterVertex> connectedSet : connectivity.connectedSets()) {
+			StringTuple transaction = new StringTuple();
+			for (TwitterVertex vertex : connectedSet) {
+				if (!vertex.getClusterId().equalsIgnoreCase(TwitterWritableConstants.NOT_AVAILABLE)) {
+					transaction.add(vertex.getClusterId());
+				}
+			}
+			clusterTuples.add(transaction);
+		}
+		return clusterTuples;
 	}
 
 	private List<StringTuple> generateDirectedUserTuplesForSubGraphs(
 			DefaultDirectedGraph<TwitterVertex, DefaultEdge> baseGraph,
 			ConnectivityInspector<TwitterVertex, DefaultEdge> connectivity) {
+		List<StringTuple> tupleList = new ArrayList<StringTuple>();
 		for (Set<TwitterVertex> connectedSet : connectivity.connectedSets()) {
 			DirectedSubgraph<TwitterVertex, DefaultEdge> subGraph = new DirectedSubgraph<>(baseGraph, connectedSet,
 					null);
-			
+			StringTuple transaction = new StringTuple();
+			for (DefaultEdge edge : subGraph.edgeSet()) {
+				TwitterVertex source = subGraph.getEdgeSource(edge);
+				TwitterVertex target = subGraph.getEdgeTarget(edge);
+				if (!source.getUserId().equalsIgnoreCase(TwitterWritableConstants.NOT_AVAILABLE)
+						&& !target.getUserId().equalsIgnoreCase(TwitterWritableConstants.NOT_AVAILABLE)) {
+					transaction.add(source.getUserId() + " --> " + target.getUserId());
+				}
+			}
+
+			tupleList.add(transaction);
 		}
 
-		return null;
+		return tupleList;
 	}
 
 	private List<StringTuple> generateUserTuplesForSubgraphs(
