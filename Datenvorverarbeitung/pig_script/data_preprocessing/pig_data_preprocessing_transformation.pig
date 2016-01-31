@@ -30,12 +30,12 @@ replace_retweet = FOREACH  replace_urls GENERATE $0, REPLACE(((chararray)$1), 'R
 clustering_features = FOREACH  replace_retweet GENERATE  $0, $1;
 
 visualize_features = FOREACH features_selected GENERATE $0, $7, $11, de.hs.osnabrueck.pig.string.ReplaceControlCharUDF($9);
-visualize_features = FOREACH visualize_features GENERATE $0, $1, $2#'id_str', $2#'screen_name', $3;
+visualize_features2 = FOREACH visualize_features GENERATE $0, $1, $2#'id_str', $2#'screen_name', $3;
 --visualize_features = FOREACH features_selected GENERATE $0, $7, $11, REPLACE(((chararray)$9), '\\r?\\n', ' ');;
 
 twitter_id_to_date = FOREACH features_selected GENERATE $0, $7;
 
-STORE initial_informationflow_filtered INTO '$output/initial_informationflow' USING PigStorage('|');
+STORE initial_informationflow_filtered INTO '$output/initial_informationflow' USING PigStorage('\t');
 STORE clustering_features INTO '$output/sequence_files' USING com.twitter.elephantbird.pig.store.SequenceFileStorage('-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter');
 STORE visualize_features2 INTO '$output/tweet_detailed' USING PigStorage('\t');
 STORE twitter_id_to_date INTO '$output/twitter_id_date' USING com.twitter.elephantbird.pig.store.SequenceFileStorage('-c com.twitter.elephantbird.pig.util.TextConverter', '-c com.twitter.elephantbird.pig.util.TextConverter');
