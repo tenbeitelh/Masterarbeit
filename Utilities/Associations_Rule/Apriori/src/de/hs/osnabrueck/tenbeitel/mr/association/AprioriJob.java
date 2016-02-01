@@ -179,9 +179,12 @@ public class AprioriJob extends Configured implements Tool {
 			System.out.println("Calculating itemsets of length: " + lengthOfItemSet);
 
 			res += iterationJob.waitForCompletion(true) ? 0 : 1;
+			
 		}
 		// -2 because the last generated itemset is empty
 		lastItemset = lengthOfItemSet - 1;
+		
+		
 		if (res > 0) {
 			return 1;
 		}
