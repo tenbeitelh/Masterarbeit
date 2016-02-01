@@ -1,5 +1,5 @@
 
-hadoop jar Transformation-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/$month/sequence_files
+hadoop jar Transformation-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/$month/
 
 hadoop jar KMeansDriver-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/$month/
 

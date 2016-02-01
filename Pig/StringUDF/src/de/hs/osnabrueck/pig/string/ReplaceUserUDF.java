@@ -20,7 +20,7 @@ public class ReplaceUserUDF extends EvalFunc<String> {
 	}
 
 	private String replaceUsers(String text) {
-		return text.replaceAll("@(\\w)", "");
+		return text.replaceAll("@(\\w+)", "");
 	}
 
 }
