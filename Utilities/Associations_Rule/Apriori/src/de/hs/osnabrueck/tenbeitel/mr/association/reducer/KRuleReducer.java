@@ -92,7 +92,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 				IntWritable value = new IntWritable();
 
 				while (frequentItemsReader.next(key, value)) {
-					itemSetMap.put(key, value);
+					itemSetMap.put(new StringTuple(key.getEntries()), new IntWritable(value.get()));
 				}
 			}
 
