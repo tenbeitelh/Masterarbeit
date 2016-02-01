@@ -3,6 +3,8 @@ package de.hs.osnabrueck.tenbeitel.mr.association.reducer;
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -37,7 +39,9 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 		for (String item : itemSetZ) {
 			List<String> zWithOutItem = new ArrayList<String>(itemSetZ);
 			zWithOutItem.remove(item);
-			Double confidence = minConf * itemSetMap.get(zWithOutItem).get();
+			Collections.sort(zWithOutItem);
+			System.out.println(zWithOutItem);
+			Double confidence = minConf * (itemSetMap.get(zWithOutItem).get());
 			if (supportOfItemSet >= confidence) {
 				List<String> temp = new ArrayList<String>();
 				temp.add(item);
@@ -57,6 +61,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 			for (List<String> tuple : thenParts) {
 				List<String> zWithOutItem = new ArrayList<String>(itemSetZ);
 				zWithOutItem.removeAll(tuple);
+				Collections.sort(zWithOutItem);
 				Double confidence = minConf * itemSetMap.get(zWithOutItem).get();
 				if (supportOfItemSet >= confidence) {
 					associationRule.set(
