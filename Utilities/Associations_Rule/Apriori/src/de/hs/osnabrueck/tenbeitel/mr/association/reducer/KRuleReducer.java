@@ -41,8 +41,10 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 			zWithOutItem.remove(item);
 			Collections.sort(zWithOutItem);
 			System.out.println(zWithOutItem);
-		
+
 			Double confidence = minConf * itemSetMap.get(new StringTuple(zWithOutItem)).get();
+			Double confidencePercent = new Double(itemSetMap.get(new StringTuple(zWithOutItem)).get())
+					/ new Double(supportOfItemSet);
 
 			if (supportOfItemSet >= confidence) {
 				List<String> temp = new ArrayList<String>();
@@ -50,7 +52,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 				thenParts.add(temp);
 				associationRule
 						.set(new StringTuple(zWithOutItem).toString() + " ==> " + new StringTuple(item).toString());
-				confidenceWritable = new DoubleWritable(confidence);
+				confidenceWritable = new DoubleWritable(confidencePercent);
 				context.write(associationRule, confidenceWritable);
 			}
 		}
@@ -65,13 +67,15 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 				zWithOutItem.removeAll(tuple);
 
 				Collections.sort(zWithOutItem);
-				
+
 				Double confidence = minConf * itemSetMap.get(new StringTuple(zWithOutItem)).get();
+				Double confidencePercent = new Double(itemSetMap.get(new StringTuple(zWithOutItem)).get())
+						/ new Double(supportOfItemSet);
 
 				if (supportOfItemSet >= confidence) {
 					associationRule.set(
 							new StringTuple(zWithOutItem).toString() + " ==> " + new StringTuple(tuple).toString());
-					confidenceWritable = new DoubleWritable(confidence);
+					confidenceWritable = new DoubleWritable(confidencePercent);
 					context.write(associationRule, confidenceWritable);
 				} else {
 					thenParts.remove(tuple);
