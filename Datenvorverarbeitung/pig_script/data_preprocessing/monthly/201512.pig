@@ -27,7 +27,8 @@ replace_linebreaks = FOREACH features_selected GENERATE $0, de.hs.osnabrueck.pig
 replace_urls = FOREACH  replace_linebreaks GENERATE $0, de.hs.osnabrueck.pig.string.ReplaceUrlUDF($1); 
 --replace_urls = FOREACH  replace_linebreaks GENERATE $0, REPLACE(((chararray)$1), '(https?|ftp|file):/{0,2}[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]', ''); 
 replace_retweet = FOREACH  replace_urls GENERATE $0, REPLACE(((chararray)$1), 'RT', ''); 
-clustering_features = FOREACH  replace_retweet GENERATE  $0, $1;
+replace_users = FOREACH  replace_retweet GENERATE $0, de.hs.osnabrueck.pig.string.ReplaceUserUDF($1);
+clustering_features = FOREACH  replace_users GENERATE  $0, $1;
 
 visualize_features = FOREACH features_selected GENERATE $0, $7, $11, de.hs.osnabrueck.pig.string.ReplaceControlCharUDF($9);
 visualize_features2 = FOREACH visualize_features GENERATE $0, $1, $2#'id_str', $2#'screen_name', $3;
