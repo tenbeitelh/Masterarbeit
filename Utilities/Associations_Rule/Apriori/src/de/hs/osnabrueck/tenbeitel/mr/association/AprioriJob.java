@@ -193,8 +193,10 @@ public class AprioriJob extends Configured implements Tool {
 	}
 
 	private URI[] getAllItemSetFiles(FileSystem fs, Path itemSetPath, Integer lastItemSetNumber) throws IOException {
+		System.out.println(lastItemSetNumber);
 		List<URI> uriList = new ArrayList<URI>();
 		for (Integer i = 1; i <= lastItemSetNumber; i++) {
+			System.out.println(new Path(new Path(itemSetPath, i.toString()).toString()));
 			Path globPath = new Path(new Path(itemSetPath, i.toString()), "part-r-[0-9]*");
 			FileStatus[] files = fs.globStatus(globPath);
 			for (FileStatus file : files) {
