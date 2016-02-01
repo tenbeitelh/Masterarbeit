@@ -107,15 +107,7 @@ public class AprioriJob extends Configured implements Tool {
 		HadoopPathUtils.deletePathIfExists(conf, outputDir);
 		FileOutputFormat.setOutputPath(aprioriRuleGen, outputDir);
 
-		// Needed because of an error if the file is in the distributed cache
-		List<URI> chachedFiles = Arrays.asList(aprioriRuleGen.getCacheFiles());
-		List<URI> toBeAdded = new ArrayList<URI>();
-		for (URI file : getAllItemSetFiles(fs, inputDir, lastItemset)) {
-			if (!chachedFiles.contains(file)) {
-				toBeAdded.add(file);
-			}
-		}
-		aprioriRuleGen.setCacheFiles(toBeAdded.toArray(new URI[toBeAdded.size()]));
+		aprioriRuleGen.setCacheFiles(getAllItemSetFiles(fs, inputDir, lastItemset));
 
 		return aprioriRuleGen.waitForCompletion(true) ? 0 : 1;
 	}
@@ -179,12 +171,11 @@ public class AprioriJob extends Configured implements Tool {
 			System.out.println("Calculating itemsets of length: " + lengthOfItemSet);
 
 			res += iterationJob.waitForCompletion(true) ? 0 : 1;
-			
+
 		}
 		// -2 because the last generated itemset is empty
 		lastItemset = lengthOfItemSet - 1;
-		
-		
+
 		if (res > 0) {
 			return 1;
 		}

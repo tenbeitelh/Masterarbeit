@@ -10,7 +10,9 @@ public class KRuleMapper extends Mapper<StringTuple, IntWritable, StringTuple, I
 
 	@Override
 	protected void map(StringTuple key, IntWritable value, Context context) throws IOException, InterruptedException {
-		context.write(key, value);
+		if (key.getEntries().size() > 1) {
+			context.write(key, value);
+		}
 	}
 
 }
