@@ -93,7 +93,9 @@ public class GraphToTransaction extends Configured implements Tool {
 					transaction.add(vertex.getClusterId());
 				}
 			}
-			clusterTuples.add(transaction);
+			if (!transaction.getEntries().isEmpty()) {
+				clusterTuples.add(transaction);
+			}
 		}
 		return clusterTuples;
 	}
@@ -114,8 +116,10 @@ public class GraphToTransaction extends Configured implements Tool {
 					transaction.add(source.getUserId() + " --> " + target.getUserId());
 				}
 			}
+			if (!transaction.getEntries().isEmpty()) {
+				tupleList.add(transaction);
+			}
 
-			tupleList.add(transaction);
 		}
 
 		return tupleList;
@@ -131,7 +135,9 @@ public class GraphToTransaction extends Configured implements Tool {
 					tuple.add(vertex.getUserId());
 				}
 			}
-			tempTupleList.add(tuple);
+			if (!tuple.getEntries().isEmpty()) {
+				tempTupleList.add(tuple);
+			}
 		}
 		return tempTupleList;
 	}
