@@ -3,6 +3,7 @@ package de.hs.osnabrueck.tenbeitel.mr.association;
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.apache.hadoop.conf.Configuration;
@@ -71,9 +72,9 @@ public class AprioriJob extends Configured implements Tool {
 		FileSystem fs = FileSystem.get(conf);
 
 		int res = generateItemSets(fs, conf, inputDir, outputDir);
-
-		res = generateRules(fs, conf, new Path(inputDir, ITEMSET_FOLDER), new Path(outputDir, RULE_PATH));
-
+		if (lastItemset > 1) {
+			res = generateRules(fs, conf, new Path(inputDir, ITEMSET_FOLDER), new Path(outputDir, RULE_PATH));
+		}
 		if (res > 0) {
 			return 1;
 		}
@@ -200,8 +201,10 @@ public class AprioriJob extends Configured implements Tool {
 				uriList.add(file.getPath().toUri());
 			}
 		}
-
-		return uriList.toArray(new URI[uriList.size()]);
+		URI[] tempArray = new URI[uriList.size()];
+		tempArray = uriList.toArray(tempArray);
+		System.out.println(Arrays.toString(tempArray));
+		return tempArray;
 
 	}
 }
