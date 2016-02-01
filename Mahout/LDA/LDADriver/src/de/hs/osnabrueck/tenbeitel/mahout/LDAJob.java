@@ -27,7 +27,7 @@ public class LDAJob extends Configured implements Tool {
 		// convergenceDelta, dictionaryPath, docTopicOutputPath,
 		// topicModelStateTempPath, randomSeed, testFraction, numTrainThreads,
 		// numUpdateThreads, maxItersPerDoc, numReduceTasks, backfillPerplexity)
-
+		
 		return 0;
 	}
 

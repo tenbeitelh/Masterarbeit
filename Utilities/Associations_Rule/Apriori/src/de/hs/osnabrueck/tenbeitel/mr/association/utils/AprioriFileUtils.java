@@ -7,11 +7,10 @@ import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.SequenceFile;
 import org.apache.hadoop.io.SequenceFile.Reader.Option;
-import org.apache.mahout.common.StringTuple;
 import org.apache.hadoop.io.Writable;
+import org.apache.mahout.common.StringTuple;
 
 public class AprioriFileUtils {
 	public static boolean previousItemSetsExists(Configuration conf, Path previousItemSetsFolder) throws IOException {

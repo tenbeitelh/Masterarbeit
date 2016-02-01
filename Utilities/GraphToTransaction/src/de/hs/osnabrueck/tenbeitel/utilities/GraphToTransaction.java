@@ -57,7 +57,7 @@ public class GraphToTransaction extends Configured implements Tool {
 
 		List<StringTuple> clusterTuplesForSubgraphs = generateClusterTuplesForSubgraphs(connectivity);
 
-		Path outputDir = new Path(args[0]);
+		Path outputDir = new Path(args[1]);
 
 		Path userPath = new Path(outputDir, "user_txn");
 		Path clusterPath = new Path(outputDir, "cluster_txn");

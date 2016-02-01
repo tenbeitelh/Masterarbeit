@@ -2,18 +2,23 @@ package de.hs.osnabrueck.tenbeitel.mr.association;
 
 import java.io.IOException;
 import java.net.URI;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.mahout.common.StringTuple;
@@ -21,12 +26,16 @@ import org.apache.mahout.common.StringTuple;
 import de.hs.osnabrueck.hadoop.util.HadoopPathUtils;
 import de.hs.osnabrueck.tenbeitel.mr.association.mapper.CreateInitialFrequentItemSetsMapper;
 import de.hs.osnabrueck.tenbeitel.mr.association.mapper.KFrequentItemsSetMapper;
+import de.hs.osnabrueck.tenbeitel.mr.association.mapper.KRuleMapper;
 import de.hs.osnabrueck.tenbeitel.mr.association.reducer.AprioriReducer;
+import de.hs.osnabrueck.tenbeitel.mr.association.reducer.KRuleReducer;
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriFileUtils;
 
 public class AprioriJob extends Configured implements Tool {
 
 	private static final String ITEMSET_FOLDER = "itemsets";
+	private static final String RULE_PATH = "rules";
+	private static Integer lastItemset = 0;
 
 	public static void main(String[] args) throws Exception {
 		int res = ToolRunner.run(new Configuration(), new AprioriJob(), args);
@@ -59,15 +68,49 @@ public class AprioriJob extends Configured implements Tool {
 
 		conf.setDouble("apriori.min_confidence", minConfidence);
 
-		int res = generateItemSets(conf, inputDir, outputDir);
+		FileSystem fs = FileSystem.get(conf);
 
+		int res = generateItemSets(fs, conf, inputDir, outputDir);
+
+		res = generateRules(fs, conf, new Path(inputDir, ITEMSET_FOLDER), new Path(outputDir, RULE_PATH));
+
+		if (res > 0) {
+			return 1;
+		}
 		return res;
 	}
 
-	private int generateItemSets(Configuration conf, Path inputDir, Path outputDir)
+	private int generateRules(FileSystem fs, Configuration conf, Path inputDir, Path outputDir)
 			throws IOException, ClassNotFoundException, InterruptedException {
 
-		FileSystem fs = FileSystem.get(conf);
+		Job aprioriRuleGen = Job.getInstance(conf);
+		aprioriRuleGen.setJobName("Generate rules from itemsets");
+		aprioriRuleGen.setJarByClass(AprioriJob.class);
+
+		aprioriRuleGen.setInputFormatClass(SequenceFileInputFormat.class);
+		FileInputFormat.addInputPath(aprioriRuleGen, inputDir);
+		FileInputFormat.setInputDirRecursive(aprioriRuleGen, true);
+
+		aprioriRuleGen.setMapOutputKeyClass(StringTuple.class);
+		aprioriRuleGen.setMapOutputValueClass(IntWritable.class);
+
+		aprioriRuleGen.setMapperClass(KRuleMapper.class);
+
+		aprioriRuleGen.setOutputKeyClass(Text.class);
+		aprioriRuleGen.setOutputValueClass(DoubleWritable.class);
+
+		aprioriRuleGen.setReducerClass(KRuleReducer.class);
+
+		aprioriRuleGen.setOutputFormatClass(TextOutputFormat.class);
+		FileOutputFormat.setOutputPath(aprioriRuleGen, outputDir);
+
+		aprioriRuleGen.setCacheFiles(getAllItemSetFiles(fs, inputDir, lastItemset));
+
+		return aprioriRuleGen.waitForCompletion(true) ? 0 : 1;
+	}
+
+	private int generateItemSets(FileSystem fs, Configuration conf, Path inputDir, Path outputDir)
+			throws IOException, ClassNotFoundException, InterruptedException {
 
 		Path itemSetPath = new Path(outputDir, ITEMSET_FOLDER);
 
@@ -126,6 +169,8 @@ public class AprioriJob extends Configured implements Tool {
 
 			res += iterationJob.waitForCompletion(true) ? 0 : 1;
 		}
+		// -2 because the last generated itemset is empty
+		lastItemset = lengthOfItemSet - 2;
 		if (res > 0) {
 			return 1;
 		}
@@ -146,4 +191,17 @@ public class AprioriJob extends Configured implements Tool {
 		return filePathAsURI;
 	}
 
+	private URI[] getAllItemSetFiles(FileSystem fs, Path itemSetPath, Integer lastItemSetNumber) throws IOException {
+		List<URI> uriList = new ArrayList<URI>();
+		for (Integer i = 1; i <= lastItemSetNumber; i++) {
+			Path globPath = new Path(new Path(itemSetPath, i.toString()), "part-r-[0-9]*");
+			FileStatus[] files = fs.globStatus(globPath);
+			for (FileStatus file : files) {
+				uriList.add(file.getPath().toUri());
+			}
+		}
+
+		return uriList.toArray(new URI[uriList.size()]);
+
+	}
 }

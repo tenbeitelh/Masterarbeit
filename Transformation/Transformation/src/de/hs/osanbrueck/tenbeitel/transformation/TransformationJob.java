@@ -40,19 +40,17 @@ public class TransformationJob extends Configured implements Tool {
 
 		Configuration conf = this.getConf();
 
-
 		boolean namedVectors = false;
 		System.out.println(args.length);
 		if (args.length > 1) {
 			System.out.println(args[1]);
 			namedVectors = Boolean.valueOf(args[2]);
 		}
-		
+
 		Path inputDirPath = new Path(inputDir, "sequence_files");
 		Path outputDirPath = new Path(inputDir, "transformated_data");
 		HadoopUtil.delete(conf, outputDirPath);
-		
-		
+
 		Path tokenizedPath = new Path(outputDirPath, DocumentProcessor.TOKENIZED_DOCUMENT_OUTPUT_FOLDER);
 
 		GermanStemAnalyzer analyzer = new GermanStemAnalyzer(Version.LUCENE_46);
