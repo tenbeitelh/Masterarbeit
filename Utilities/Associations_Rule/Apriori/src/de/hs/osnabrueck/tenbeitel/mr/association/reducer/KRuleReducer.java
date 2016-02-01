@@ -77,6 +77,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 
 		minConf = context.getConfiguration().getDouble("apriori.min_confidence", minConf);
 		readFrequentItemSets(context.getCacheFiles(), context.getConfiguration());
+		
 	}
 
 	private void readFrequentItemSets(URI[] filePaths, Configuration conf) throws IOException {

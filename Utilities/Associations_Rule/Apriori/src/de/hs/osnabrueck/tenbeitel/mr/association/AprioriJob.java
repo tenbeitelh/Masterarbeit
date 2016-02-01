@@ -73,7 +73,7 @@ public class AprioriJob extends Configured implements Tool {
 
 		int res = generateItemSets(fs, conf, inputDir, outputDir);
 		if (lastItemset > 1) {
-			res = generateRules(fs, conf, new Path(inputDir, ITEMSET_FOLDER), new Path(outputDir, RULE_PATH));
+			res = generateRules(fs, conf, new Path(outputDir, ITEMSET_FOLDER), new Path(outputDir, RULE_PATH));
 		}
 		if (res > 0) {
 			return 1;
@@ -103,9 +103,20 @@ public class AprioriJob extends Configured implements Tool {
 		aprioriRuleGen.setReducerClass(KRuleReducer.class);
 
 		aprioriRuleGen.setOutputFormatClass(TextOutputFormat.class);
-		FileOutputFormat.setOutputPath(aprioriRuleGen, outputDir);
 
-		aprioriRuleGen.setCacheFiles(getAllItemSetFiles(fs, inputDir, lastItemset));
+		HadoopPathUtils.deletePathIfExists(conf, outputDir);
+		FileOutputFormat.setOutputPath(aprioriRuleGen, outputDir);
+		
+		
+		//Needed because of an error if the file is in the distributed cache
+		List<URI> chachedFiles = Arrays.asList(aprioriRuleGen.getCacheFiles());
+		List<URI> toBeAdded = new ArrayList<URI>();
+		for (URI file : getAllItemSetFiles(fs, inputDir, lastItemset)) {
+			if (!chachedFiles.contains(file)) {
+				toBeAdded.add(file);
+			}
+		}
+		aprioriRuleGen.setCacheFiles(toBeAdded.toArray(new URI[toBeAdded.size()]));
 
 		return aprioriRuleGen.waitForCompletion(true) ? 0 : 1;
 	}
@@ -193,21 +204,16 @@ public class AprioriJob extends Configured implements Tool {
 	}
 
 	private URI[] getAllItemSetFiles(FileSystem fs, Path itemSetPath, Integer lastItemSetNumber) throws IOException {
-		System.out.println(lastItemSetNumber);
 		List<URI> uriList = new ArrayList<URI>();
 		for (Integer i = 1; i <= lastItemSetNumber; i++) {
-			System.out.println(new Path(new Path(itemSetPath, i.toString()).toString()));
 			Path globPath = new Path(new Path(itemSetPath, i.toString()), "part-r-[0-9]*");
-			System.out.println(globPath.toString());
 			FileStatus[] files = fs.globStatus(globPath);
-			System.out.println(Arrays.toString(files));
 			for (FileStatus file : files) {
 				uriList.add(file.getPath().toUri());
 			}
 		}
 		URI[] tempArray = new URI[uriList.size()];
 		tempArray = uriList.toArray(tempArray);
-		System.out.println(Arrays.toString(tempArray));
 		return tempArray;
 
 	}
