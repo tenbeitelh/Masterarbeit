@@ -198,6 +198,7 @@ public class AprioriJob extends Configured implements Tool {
 		for (Integer i = 1; i <= lastItemSetNumber; i++) {
 			System.out.println(new Path(new Path(itemSetPath, i.toString()).toString()));
 			Path globPath = new Path(new Path(itemSetPath, i.toString()), "part-r-[0-9]*");
+			System.out.println(globPath.toString());
 			FileStatus[] files = fs.globStatus(globPath);
 			System.out.println(Arrays.toString(files));
 			for (FileStatus file : files) {
