@@ -43,8 +43,8 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 			System.out.println(zWithOutItem);
 
 			Double confidence = minConf * itemSetMap.get(new StringTuple(zWithOutItem)).get();
-			Double confidencePercent = new Double(itemSetMap.get(new StringTuple(zWithOutItem)).get())
-					/ new Double(supportOfItemSet);
+			Double confidencePercent = new Double(supportOfItemSet)
+					/ new Double(itemSetMap.get(new StringTuple(zWithOutItem)).get());
 
 			if (supportOfItemSet >= confidence) {
 				List<String> temp = new ArrayList<String>();
@@ -69,8 +69,8 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 				Collections.sort(zWithOutItem);
 
 				Double confidence = minConf * itemSetMap.get(new StringTuple(zWithOutItem)).get();
-				Double confidencePercent = new Double(itemSetMap.get(new StringTuple(zWithOutItem)).get())
-						/ new Double(supportOfItemSet);
+				Double confidencePercent = new Double(supportOfItemSet)
+						/ new Double(itemSetMap.get(new StringTuple(zWithOutItem)).get());
 
 				if (supportOfItemSet >= confidence) {
 					associationRule.set(
