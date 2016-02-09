@@ -37,7 +37,7 @@ public class GermanStemAnalyzer extends CustomAnalyzer {
 	protected TokenStreamComponents createComponents(String fieldName, Reader reader) {
 		final Tokenizer source = new StandardTokenizer(matchVersion, reader);
 		TokenStream result = new StandardFilter(matchVersion, source);
-		result = new LowerCaseFilter(matchVersion, result);
+		// result = new LowerCaseFilter(matchVersion, result);
 		result = new StopFilter(matchVersion, result, stopwords);
 		result = new SetKeywordMarkerFilter(result, exclusionSet);
 		if (matchVersion.onOrAfter(Version.LUCENE_36)) {
