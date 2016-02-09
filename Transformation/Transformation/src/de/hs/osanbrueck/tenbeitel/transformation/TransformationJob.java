@@ -18,7 +18,17 @@ import de.hs.osnabrueck.tenbeitel.mahout.analyzer.GermanAnalyzer;
 import de.hs.osnabrueck.tenbeitel.mahout.analyzer.GermanStemAnalyzer;
 
 public class TransformationJob extends Configured implements Tool {
-
+	int minSupport = 5;
+	int minDf = 5;
+	int maxDFPercent = 99;
+	int maxNGramSize = 1;
+	int minLLRValue = 50;
+	int reduceTasks = 1;
+	int chunkSize = 200;
+	int norm = -1;
+	boolean sequentialAccessOutput = true;
+	boolean namedVectors = false;
+	
 	public static void main(String[] args) throws Exception {
 		int res = ToolRunner.run(new Configuration(), new TransformationJob(), args);
 		System.exit(res);
@@ -26,25 +36,15 @@ public class TransformationJob extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
-		int minSupport = 5;
-		int minDf = 5;
-		int maxDFPercent = 99;
-		int maxNGramSize = 1;
-		int minLLRValue = 50;
-		int reduceTasks = 1;
-		int chunkSize = 200;
-		int norm = -1;
-		boolean sequentialAccessOutput = true;
 
 		String inputDir = args[0];
 
 		Configuration conf = this.getConf();
 
-		boolean namedVectors = false;
+		
 		System.out.println(args.length);
 		if (args.length > 1) {
-			System.out.println(args[1]);
-			namedVectors = Boolean.valueOf(args[2]);
+			namedVectors = Boolean.valueOf(args[1]);
 		}
 
 		Path inputDirPath = new Path(inputDir, "sequence_files");
