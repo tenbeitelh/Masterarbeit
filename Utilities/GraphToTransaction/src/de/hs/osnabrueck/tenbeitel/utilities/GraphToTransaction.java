@@ -77,7 +77,7 @@ public class GraphToTransaction extends Configured implements Tool {
 	private void writeTuples(Configuration conf, Path userPath, List<StringTuple> userTuplesForSubgraphs)
 			throws IOException {
 		try (SequenceFile.Writer seqWriter = SequenceFile.createWriter(conf,
-				Writer.file(new Path(userPath, "part-r-00000")), Writer.keyClass(NullWritable.class),
+				Writer.file(new Path(userPath, "part-r-00000")), Writer.keyClass(Text.class),
 				Writer.valueClass(StringTuple.class))) {
 			for (StringTuple tuple : userTuplesForSubgraphs) {
 				seqWriter.append(emptyText, tuple);
