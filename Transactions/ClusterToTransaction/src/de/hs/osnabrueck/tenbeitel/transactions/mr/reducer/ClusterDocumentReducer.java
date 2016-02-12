@@ -9,28 +9,28 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 import org.apache.mahout.common.StringTuple;
 
-public class ClusterDocumentReducer extends Reducer<Text, Writable, Text, StringTuple> {
+import de.hs.osnabrueck.tenbeitel.transactions.mr.io.WritableWrapper;
+
+public class ClusterDocumentReducer extends Reducer<Text, WritableWrapper, Text, StringTuple> {
 	MultipleOutputs<Text, StringTuple> mout;
 
 	@Override
-	protected void setup(Reducer<Text, Writable, Text, StringTuple>.Context context)
-			throws IOException, InterruptedException {
+	protected void setup(Context context) throws IOException, InterruptedException {
 		super.setup(context);
 		mout = new MultipleOutputs<Text, StringTuple>(context);
 	}
 
 	@Override
-	protected void reduce(Text key, Iterable<Writable> values, Context context)
+	protected void reduce(Text key, Iterable<WritableWrapper> values, Context context)
 			throws IOException, InterruptedException {
 
 		IntWritable clusterId = null;
 		StringTuple tokens = null;
-		for (Writable value : values) {
-			if (value instanceof StringTuple) {
-				tokens = new StringTuple(((StringTuple) value).getEntries());
-			}
-			if (value instanceof IntWritable) {
-				clusterId = (IntWritable) value;
+		for (WritableWrapper value : values) {
+			if (value.getTokens().getEntries().size() > 0) {
+				tokens = new StringTuple(value.getTokens().getEntries());
+			} else {
+				clusterId = new IntWritable(value.getClusterId().get());
 			}
 		}
 
@@ -40,8 +40,7 @@ public class ClusterDocumentReducer extends Reducer<Text, Writable, Text, String
 	}
 
 	@Override
-	protected void cleanup(Reducer<Text, Writable, Text, StringTuple>.Context context)
-			throws IOException, InterruptedException {
+	protected void cleanup(Context context) throws IOException, InterruptedException {
 		super.cleanup(context);
 		mout.close();
 	}

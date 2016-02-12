@@ -4,7 +4,6 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
@@ -16,6 +15,7 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 import de.hs.osnabrueck.hadoop.util.HadoopPathUtils;
+import de.hs.osnabrueck.tenbeitel.transactions.mr.io.WritableWrapper;
 import de.hs.osnabrueck.tenbeitel.transactions.mr.mapper.ClusterDataMapper;
 import de.hs.osnabrueck.tenbeitel.transactions.mr.mapper.DocumentMapper;
 import de.hs.osnabrueck.tenbeitel.transactions.mr.reducer.ClusterDocumentReducer;
@@ -54,7 +54,7 @@ public class ClusterToTransactionsJob extends Configured implements Tool {
 		FileInputFormat.setInputDirRecursive(createClusterTransactionDir, true);
 
 		createClusterTransactionDir.setMapOutputKeyClass(Text.class);
-		createClusterTransactionDir.setMapOutputValueClass(Writable.class);
+		createClusterTransactionDir.setMapOutputValueClass(WritableWrapper.class);
 
 		createClusterTransactionDir.setReducerClass(ClusterDocumentReducer.class);
 
