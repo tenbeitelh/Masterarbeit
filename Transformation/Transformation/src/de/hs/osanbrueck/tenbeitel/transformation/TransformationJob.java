@@ -67,7 +67,7 @@ public class TransformationJob extends Configured implements Tool {
 				outputDirPath, conf, chunkSize);
 
 		TFIDFConverter.processTfIdf(new Path(outputDirPath, DictionaryVectorizer.DOCUMENT_VECTOR_OUTPUT_FOLDER),
-				outputDirPath, conf, docFrequenciesFeatures, minDf, maxDFPercent, norm, true, sequentialAccessOutput,
+				outputDirPath, conf, docFrequenciesFeatures, minDf, maxDFPercent, norm, namedVectors, sequentialAccessOutput,
 				namedVectors, reduceTasks);
 
 		analyzer.close();

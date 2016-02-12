@@ -21,44 +21,51 @@ public class GraphOfMonth {
 	public static void main(String[] args) throws IOException {
 		DirectedGraph<TwitterVertex, DefaultEdge> init_graph = DrawGraphUtils.getGraphFromFile(
 				"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\20160125_init_graph");
-
-		ConnectivityInspector<TwitterVertex, DefaultEdge> inspector = new ConnectivityInspector<>(init_graph);
-
-		System.out.println("#Vertex in graph: " + init_graph.vertexSet().size());
-		System.out.println("Connected sets: " + inspector.connectedSets().size());
-
-		int max = 0;
-		int countNotAvailbe = 0;
-
-		Map<Integer, AtomicInteger> countMap = new HashMap<Integer, AtomicInteger>();
-		for (Set<TwitterVertex> set : inspector.connectedSets()) {
-			if (countMap.containsKey(set.size())) {
-				countMap.get(set.size()).getAndIncrement();
-			} else {
-				countMap.put(set.size(), new AtomicInteger(1));
-			}
-			if (set.size() > max) {
-				max = set.size();
-			}
-			for (TwitterVertex vertex : set) {
-				if (vertex.getUserId().equalsIgnoreCase("N/A")) {
-					countNotAvailbe++;
-				}
-			}
-
-			if (set.size() > 10) {
-				System.out.println(inspector.connectedSets().indexOf(set));
-			}
-		}
-
-		System.out.println("Max: " + max);
-		System.out.println("Not available count: " + countNotAvailbe);
-
-		for (Integer key : countMap.keySet()) {
-			System.out.println("#Elements: " + key + " in sets: " + countMap.get(key));
-		}
-
-		DrawGraphUtils.drawGraphsForIds(init_graph, inspector, 375, 594);
+		
+		DrawGraphUtils.saveGraphPNG(init_graph);
+		//
+		// ConnectivityInspector<TwitterVertex, DefaultEdge> inspector = new
+		// ConnectivityInspector<>(init_graph);
+		//
+		// System.out.println("#Vertex in graph: " +
+		// init_graph.vertexSet().size());
+		// System.out.println("Connected sets: " +
+		// inspector.connectedSets().size());
+		//
+		// int max = 0;
+		// int countNotAvailbe = 0;
+		//
+		// Map<Integer, AtomicInteger> countMap = new HashMap<Integer,
+		// AtomicInteger>();
+		// for (Set<TwitterVertex> set : inspector.connectedSets()) {
+		// if (countMap.containsKey(set.size())) {
+		// countMap.get(set.size()).getAndIncrement();
+		// } else {
+		// countMap.put(set.size(), new AtomicInteger(1));
+		// }
+		// if (set.size() > max) {
+		// max = set.size();
+		// }
+		// for (TwitterVertex vertex : set) {
+		// if (vertex.getUserId().equalsIgnoreCase("N/A")) {
+		// countNotAvailbe++;
+		// }
+		// }
+		//
+		// if (set.size() > 10) {
+		// System.out.println(inspector.connectedSets().indexOf(set));
+		// }
+		// }
+		//
+		// System.out.println("Max: " + max);
+		// System.out.println("Not available count: " + countNotAvailbe);
+		//
+		// for (Integer key : countMap.keySet()) {
+		// System.out.println("#Elements: " + key + " in sets: " +
+		// countMap.get(key));
+		// }
+		//
+		// DrawGraphUtils.drawGraphsForIds(init_graph, inspector, 375, 594);
 
 		// DirectedGraph<TwitterVertex, DefaultEdge> extGraph =
 		// DrawGraphUtils.getGraphFromFile(

@@ -40,7 +40,6 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 			List<String> zWithOutItem = new ArrayList<String>(itemSetZ);
 			zWithOutItem.remove(item);
 			Collections.sort(zWithOutItem);
-			System.out.println(zWithOutItem);
 
 			Double confidencePercent = new Double(supportOfItemSet)
 					/ new Double(itemSetMap.get(new StringTuple(zWithOutItem)).get());

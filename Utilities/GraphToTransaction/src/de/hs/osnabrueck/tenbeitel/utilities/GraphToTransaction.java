@@ -14,6 +14,7 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.SequenceFile;
 import org.apache.hadoop.io.SequenceFile.Writer;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.mahout.common.StringTuple;
@@ -27,7 +28,9 @@ import de.hs.osnabrueck.tenbeitel.twitter.graph.constants.TwitterWritableConstan
 import de.hs.osnabrueck.tenbeitel.twitter.graph.model.TwitterVertex;
 
 public class GraphToTransaction extends Configured implements Tool {
-
+	
+	private Text emptyText = new Text("");
+	
 	public static void main(String[] args) throws Exception {
 		if (args.length > 1) {
 			int res = ToolRunner.run(new Configuration(), new GraphToTransaction(), args);
@@ -77,7 +80,7 @@ public class GraphToTransaction extends Configured implements Tool {
 				Writer.file(new Path(userPath, "part-r-00000")), Writer.keyClass(NullWritable.class),
 				Writer.valueClass(StringTuple.class))) {
 			for (StringTuple tuple : userTuplesForSubgraphs) {
-				seqWriter.append(NullWritable.get(), tuple);
+				seqWriter.append(emptyText, tuple);
 			}
 		}
 

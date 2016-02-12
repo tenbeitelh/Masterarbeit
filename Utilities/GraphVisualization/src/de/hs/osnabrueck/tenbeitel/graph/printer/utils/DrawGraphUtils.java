@@ -1,10 +1,16 @@
 package de.hs.osnabrueck.tenbeitel.graph.printer.utils;
 
+import java.awt.Color;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.List;
+import java.util.Set;
 
+import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
 import org.jgrapht.DirectedGraph;
@@ -16,6 +22,7 @@ import org.jgrapht.graph.ListenableDirectedGraph;
 
 import com.mxgraph.layout.hierarchical.mxHierarchicalLayout;
 import com.mxgraph.swing.mxGraphComponent;
+import com.mxgraph.util.mxCellRenderer;
 import com.mxgraph.util.mxConstants;
 
 import de.hs.osnabrueck.tenbeitel.mr.graph.utils.GraphUtils;
@@ -60,5 +67,31 @@ public class DrawGraphUtils {
 			drawTwitterGraph(new ListenableDirectedGraph<>(
 					new DirectedSubgraph<>(graph, inspector.connectedSets().get(id), null)));
 		}
+	}
+
+	public static void saveGraphPNG(DirectedGraph<TwitterVertex, DefaultEdge> graph) throws IOException {
+		int counter = 0;
+		ConnectivityInspector<TwitterVertex, DefaultEdge> inspector = new ConnectivityInspector<>(graph);
+
+		for (Set<TwitterVertex> set : inspector.connectedSets()) {
+			
+			ListenableDirectedGraph<TwitterVertex, DefaultEdge> tree = new ListenableDirectedGraph<>(
+					new DirectedSubgraph<>(graph, set, null));
+			JGraphXAdapter jgxAdapter = new JGraphXAdapter<TwitterVertex, DefaultEdge>(tree);
+			jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL, "1");
+
+			mxGraphComponent graphComponent2 = new mxGraphComponent(jgxAdapter);
+			graphComponent2.setConnectable(false);
+			graphComponent2.setEnabled(false);
+			graphComponent2.setDragEnabled(true);
+
+			new mxHierarchicalLayout(jgxAdapter).execute(jgxAdapter.getDefaultParent());
+			String filename = "C:\\temp\\img\\graph_" + counter++ + ".png";
+			System.out.format("Saving subgraph to file: %s \n", filename);
+			BufferedImage image = mxCellRenderer.createBufferedImage(jgxAdapter, null, 1, Color.WHITE, true, null);
+
+			ImageIO.write(image, "PNG", new File(filename));
+		}
+
 	}
 }
