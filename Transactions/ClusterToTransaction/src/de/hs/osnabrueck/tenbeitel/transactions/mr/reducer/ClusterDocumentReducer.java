@@ -16,7 +16,6 @@ public class ClusterDocumentReducer extends Reducer<Text, WritableWrapper, Text,
 
 	@Override
 	protected void setup(Context context) throws IOException, InterruptedException {
-		super.setup(context);
 		mout = new MultipleOutputs<Text, StringTuple>(context);
 	}
 
@@ -35,13 +34,13 @@ public class ClusterDocumentReducer extends Reducer<Text, WritableWrapper, Text,
 		}
 
 		String dir = clusterId.get() + "/" + clusterId.get();
+		System.out.println(key.toString() + " - " + clusterId.get() + " - " + tokens.toString());
 		mout.write(new Text(key), tokens, dir);
 
 	}
 
 	@Override
 	protected void cleanup(Context context) throws IOException, InterruptedException {
-		super.cleanup(context);
 		mout.close();
 	}
 
