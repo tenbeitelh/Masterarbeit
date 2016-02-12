@@ -1,10 +1,10 @@
 package de.hs.osnabrueck.tenbeitel.transactions.mr.reducer;
 
 import java.io.IOException;
+import java.util.Iterator;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 import org.apache.mahout.common.StringTuple;
@@ -23,19 +23,26 @@ public class ClusterDocumentReducer extends Reducer<Text, WritableWrapper, Text,
 	protected void reduce(Text key, Iterable<WritableWrapper> values, Context context)
 			throws IOException, InterruptedException {
 
-		IntWritable clusterId = null;
+		IntWritable clusterId = new IntWritable();
 		StringTuple tokens = null;
-		for (WritableWrapper value : values) {
-			if (value.getTokens().getEntries().size() > 0) {
-				tokens = new StringTuple(value.getTokens().getEntries());
-			} else {
-				clusterId = new IntWritable(value.getClusterId().get());
-			}
-		}
 
-		String dir = clusterId.get() + "/" + clusterId.get();
-		System.out.println(key.toString() + " - " + clusterId.get() + " - " + tokens.toString());
-		mout.write(new Text(key), tokens, dir);
+		Iterator<WritableWrapper> it = values.iterator();
+		WritableWrapper temp = it.next();
+		WritableWrapper first = new WritableWrapper(temp.getClusterId().get(), temp.getTokens().getEntries());
+		if (it.hasNext()) {
+			temp = it.next();
+			WritableWrapper second = new WritableWrapper(temp.getClusterId().get(), temp.getTokens().getEntries());
+			if (first.getTokens().getEntries().size() > 0) {
+				clusterId.set(second.getClusterId().get());
+				tokens = new StringTuple(first.getTokens().getEntries());
+			} else {
+				clusterId.set(first.getClusterId().get());
+				tokens = new StringTuple(second.getTokens().getEntries());
+			}
+			String dir = clusterId.get() + "/" + clusterId.get();
+			System.out.println(key.toString() + " - " + clusterId.get() + " - " + tokens.toString());
+			mout.write(new Text(key), tokens, dir);
+		}
 
 	}
 
