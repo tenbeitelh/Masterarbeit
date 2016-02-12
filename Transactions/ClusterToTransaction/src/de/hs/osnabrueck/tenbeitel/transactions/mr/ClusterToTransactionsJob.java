@@ -13,6 +13,7 @@ import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
+import org.apache.mahout.common.StringTuple;
 
 import de.hs.osnabrueck.hadoop.util.HadoopPathUtils;
 import de.hs.osnabrueck.tenbeitel.transactions.mr.io.WritableWrapper;
@@ -58,7 +59,10 @@ public class ClusterToTransactionsJob extends Configured implements Tool {
 
 		createClusterTransactionDir.setReducerClass(ClusterDocumentReducer.class);
 
-		createClusterTransactionDir.setOutputFormatClass(TextOutputFormat.class);
+		createClusterTransactionDir.setOutputKeyClass(Text.class);
+		createClusterTransactionDir.setOutputValueClass(StringTuple.class);
+
+		createClusterTransactionDir.setOutputFormatClass(SequenceFileOutputFormat.class);
 
 		Path outputBasePath = new Path(workDir, BASE_PATH);
 
