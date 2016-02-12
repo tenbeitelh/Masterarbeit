@@ -35,7 +35,7 @@ public class ClusterDocumentReducer extends Reducer<Text, WritableWrapper, Text,
 		}
 
 		String dir = clusterId.get() + "/" + clusterId.get();
-		mout.write(key, tokens, dir);
+		mout.write(new Text(key), tokens, dir);
 
 	}
 
