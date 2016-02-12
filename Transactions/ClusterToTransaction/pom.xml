@@ -34,18 +34,8 @@
 			<version>${mahout.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jgrapht</groupId>
-			<artifactId>jgrapht-core</artifactId>
-			<version>0.9.1</version>
-		</dependency>
-		<dependency>
-			<groupId>GraphUtils</groupId>
-			<artifactId>GraphUtils</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>TwitterGraphModel</groupId>
-			<artifactId>TwitterGraphModel</artifactId>
+			<groupId>HadoopUtils</groupId>
+			<artifactId>HadoopUtils</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
