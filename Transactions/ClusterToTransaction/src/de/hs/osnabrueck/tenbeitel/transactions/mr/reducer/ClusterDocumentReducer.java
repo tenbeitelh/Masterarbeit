@@ -32,7 +32,7 @@ public class ClusterDocumentReducer extends Reducer<Text, WritableWrapper, Text,
 		if (it.hasNext()) {
 			temp = it.next();
 			WritableWrapper second = new WritableWrapper(temp.getClusterId().get(), temp.getTokens().getEntries());
-			if (first.getTokens().getEntries().size() > 0 && second.getClusterId().get() != 0) {
+			if (second.getClusterId().get() != 0) {
 				clusterId.set(second.getClusterId().get());
 				tokens = new StringTuple(first.getTokens().getEntries());
 			} else {
