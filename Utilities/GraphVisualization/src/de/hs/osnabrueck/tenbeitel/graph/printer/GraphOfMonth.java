@@ -1,28 +1,32 @@
 package de.hs.osnabrueck.tenbeitel.graph.printer;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import org.jgrapht.DirectedGraph;
-import org.jgrapht.alg.ConnectivityInspector;
 import org.jgrapht.graph.DefaultEdge;
-import org.jgrapht.graph.DirectedSubgraph;
-import org.jgrapht.graph.ListenableDirectedGraph;
 
 import de.hs.osnabrueck.tenbeitel.graph.printer.utils.DrawGraphUtils;
 import de.hs.osnabrueck.tenbeitel.twitter.graph.model.TwitterVertex;
 
 public class GraphOfMonth {
 	public static void main(String[] args) throws IOException {
-		DirectedGraph<TwitterVertex, DefaultEdge> init_graph = DrawGraphUtils.getGraphFromFile(
-				"C:\\development\\git_projects\\Masterarbeit\\Utilities\\GraphAsTest\\20160125_init_graph");
-		
-		DrawGraphUtils.saveGraphPNG(init_graph);
+
+		String[] months = new String[] { "201510", "201511", "201512" };
+		for (String month : months) {
+			DirectedGraph<TwitterVertex, DefaultEdge> init_graph = DrawGraphUtils.getGraphFromFile(
+					"C:\\development\\git_projects\\Masterarbeit\\Results\\Graphs\\twitter_graph_" + month);
+
+			String dir = "C:\\temp\\img\\" + month;
+			File dirFile = new File(dir);
+			if (!dirFile.exists()) {
+				dirFile.mkdirs();
+			}
+			DrawGraphUtils.saveGraphPNG(init_graph, dir);
+		}
+
 		//
 		// ConnectivityInspector<TwitterVertex, DefaultEdge> inspector = new
 		// ConnectivityInspector<>(init_graph);

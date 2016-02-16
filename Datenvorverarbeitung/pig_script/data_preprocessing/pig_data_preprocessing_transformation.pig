@@ -30,7 +30,7 @@ replace_retweet = FOREACH  replace_urls GENERATE $0, REPLACE(((chararray)$1), 'R
 replace_users = FOREACH  replace_retweet GENERATE $0, de.hs.osnabrueck.pig.string.ReplaceUserUDF($1);
 clustering_features = FOREACH  replace_users GENERATE  $0, $1;
 
-visualize_features = FOREACH features_selected GENERATE $0, $7, $11, de.hs.osnabrueck.pig.string.ReplaceControlCharUDF($9);
+visualize_features = FOREACH features_selected D, de.hs.osnabrueck.pig.string.ReplaceControlCharUDF($9);
 visualize_features2 = FOREACH visualize_features GENERATE $0, $1, $2#'id_str', $2#'screen_name', $3;
 --visualize_features = FOREACH features_selected GENERATE $0, $7, $11, REPLACE(((chararray)$9), '\\r?\\n', ' ');;
 

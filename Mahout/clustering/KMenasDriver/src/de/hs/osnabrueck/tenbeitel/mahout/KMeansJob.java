@@ -22,10 +22,13 @@ public class KMeansJob extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
+		if (args.length == 0) {
+			System.out.println("Usage: [inputDir] [k]");
+		}
 		String inputPath = args[0];
-		
+
 		// Get value of k by commandline argument;
-		if (args.length > 1) {
+		if (args.length > 2) {
 			try {
 				k = Integer.parseInt(args[1]);
 			} catch (NumberFormatException ex) {
@@ -35,9 +38,9 @@ public class KMeansJob extends Configured implements Tool {
 		}
 
 		Configuration conf = this.getConf();
-		
+
 		Path inputDir = new Path(inputPath, "transformated_data");
-		Path outputDir = new Path(inputPath, "kmeans");
+		Path outputDir = new Path(inputPath, "kmeans" + k);
 		HadoopUtil.delete(conf, outputDir);
 		Path vectorsFolder = new Path(inputDir, "tfidf-vectors");
 		Path centroids = new Path(outputDir, "centroids");

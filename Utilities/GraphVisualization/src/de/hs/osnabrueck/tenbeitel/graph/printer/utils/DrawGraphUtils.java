@@ -24,6 +24,7 @@ import com.mxgraph.layout.hierarchical.mxHierarchicalLayout;
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.util.mxCellRenderer;
 import com.mxgraph.util.mxConstants;
+import com.mxgraph.util.mxUtils;
 
 import de.hs.osnabrueck.tenbeitel.mr.graph.utils.GraphUtils;
 import de.hs.osnabrueck.tenbeitel.twitter.graph.model.TwitterVertex;
@@ -69,16 +70,21 @@ public class DrawGraphUtils {
 		}
 	}
 
-	public static void saveGraphPNG(DirectedGraph<TwitterVertex, DefaultEdge> graph) throws IOException {
+	public static void saveGraphPNG(DirectedGraph<TwitterVertex, DefaultEdge> graph, String dir) throws IOException {
 		int counter = 0;
 		ConnectivityInspector<TwitterVertex, DefaultEdge> inspector = new ConnectivityInspector<>(graph);
 
 		for (Set<TwitterVertex> set : inspector.connectedSets()) {
-			
+
 			ListenableDirectedGraph<TwitterVertex, DefaultEdge> tree = new ListenableDirectedGraph<>(
 					new DirectedSubgraph<>(graph, set, null));
 			JGraphXAdapter jgxAdapter = new JGraphXAdapter<TwitterVertex, DefaultEdge>(tree);
+			
 			jgxAdapter.getStylesheet().getDefaultEdgeStyle().put(mxConstants.STYLE_NOLABEL, "1");
+			jgxAdapter.getStylesheet().getDefaultVertexStyle().put(mxConstants.STYLE_FILLCOLOR,
+					mxUtils.getHexColorString(Color.WHITE));
+			jgxAdapter.getStylesheet().getDefaultVertexStyle().put(mxConstants.STYLE_FONTCOLOR,
+					mxUtils.getHexColorString(Color.BLACK));
 
 			mxGraphComponent graphComponent2 = new mxGraphComponent(jgxAdapter);
 			graphComponent2.setConnectable(false);
@@ -86,7 +92,7 @@ public class DrawGraphUtils {
 			graphComponent2.setDragEnabled(true);
 
 			new mxHierarchicalLayout(jgxAdapter).execute(jgxAdapter.getDefaultParent());
-			String filename = "C:\\temp\\img\\graph_" + counter++ + ".png";
+			String filename = dir + "\\graph_" + counter++ + ".png";
 			System.out.format("Saving subgraph to file: %s \n", filename);
 			BufferedImage image = mxCellRenderer.createBufferedImage(jgxAdapter, null, 1, Color.WHITE, true, null);
 

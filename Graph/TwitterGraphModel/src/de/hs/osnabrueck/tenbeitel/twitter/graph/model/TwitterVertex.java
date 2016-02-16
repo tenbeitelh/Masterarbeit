@@ -103,9 +103,8 @@ public class TwitterVertex {
 
 	@Override
 	public String toString() {
-		return "TwitterVertex [clusterId=" + clusterId + ",\n twitterId=" + twitterId + ",\n createdDate=" + createdDate
-				+ ",\n tweetMessage=" + tweetMessage + ",\n userId=" + userId + ",\n userScreenName=" + userScreenName
-				+ "]";
+		return "clusterId=" + clusterId + ",\n twitterId=" + twitterId + ",\n createdDate=" + createdDate
+				+ ",\n tweetMessage=" + tweetMessage + ",\n userId=" + userId + ",\n userScreenName=" + userScreenName;
 	}
 
 	public String toJson() {
