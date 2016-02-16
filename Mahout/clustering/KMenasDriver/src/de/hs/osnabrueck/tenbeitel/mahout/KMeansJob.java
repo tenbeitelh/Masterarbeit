@@ -28,7 +28,7 @@ public class KMeansJob extends Configured implements Tool {
 		String inputPath = args[0];
 
 		// Get value of k by commandline argument;
-		if (args.length > 2) {
+		if (args.length > 1) {
 			try {
 				k = Integer.parseInt(args[1]);
 			} catch (NumberFormatException ex) {
