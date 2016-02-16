@@ -23,7 +23,7 @@ public class RecordCounter extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
 		Configuration conf = this.getConf();
 
-		Path inputPath = new Path(args[0], "part-m-[0-9]*");
+		Path inputPath = new Path(args[0], "part-[mr]-[0-9]*");
 
 		FileSystem fs = FileSystem.get(conf);
 
