@@ -28,7 +28,8 @@ public class TransformationJob extends Configured implements Tool {
 	int norm = -1;
 	boolean sequentialAccessOutput = true;
 	boolean namedVectors = false;
-	
+	boolean stemming = true;
+
 	public static void main(String[] args) throws Exception {
 		int res = ToolRunner.run(new Configuration(), new TransformationJob(), args);
 		System.exit(res);
@@ -41,10 +42,13 @@ public class TransformationJob extends Configured implements Tool {
 
 		Configuration conf = this.getConf();
 
-		
 		System.out.println(args.length);
 		if (args.length > 1) {
 			namedVectors = Boolean.valueOf(args[1]);
+		}
+
+		if (args.length > 2) {
+			stemming = Boolean.valueOf(args[2]);
 		}
 
 		Path inputDirPath = new Path(inputDir, "sequence_files");
@@ -53,11 +57,19 @@ public class TransformationJob extends Configured implements Tool {
 
 		Path tokenizedPath = new Path(outputDirPath, DocumentProcessor.TOKENIZED_DOCUMENT_OUTPUT_FOLDER);
 
-		GermanStemAnalyzer analyzer = new GermanStemAnalyzer(Version.LUCENE_46);
+		if (stemming) {
+			GermanStemAnalyzer analyzer = new GermanStemAnalyzer(Version.LUCENE_46);
 
-		DocumentProcessor.tokenizeDocuments(inputDirPath, analyzer.getClass().asSubclass(GermanStemAnalyzer.class),
-				tokenizedPath, conf);
+			DocumentProcessor.tokenizeDocuments(inputDirPath, analyzer.getClass().asSubclass(GermanStemAnalyzer.class),
+					tokenizedPath, conf);
+			analyzer.close();
+		} else {
+			GermanAnalyzer analyzer = new GermanAnalyzer(Version.LUCENE_46);
 
+			DocumentProcessor.tokenizeDocuments(inputDirPath, analyzer.getClass().asSubclass(GermanAnalyzer.class),
+					tokenizedPath, conf);
+			analyzer.close();
+		}
 		String tfDirName = "tf-vectors";
 
 		DictionaryVectorizer.createTermFrequencyVectors(tokenizedPath, outputDirPath, tfDirName, conf, minSupport,
@@ -67,10 +79,8 @@ public class TransformationJob extends Configured implements Tool {
 				outputDirPath, conf, chunkSize);
 
 		TFIDFConverter.processTfIdf(new Path(outputDirPath, DictionaryVectorizer.DOCUMENT_VECTOR_OUTPUT_FOLDER),
-				outputDirPath, conf, docFrequenciesFeatures, minDf, maxDFPercent, norm, namedVectors, sequentialAccessOutput,
-				namedVectors, reduceTasks);
-
-		analyzer.close();
+				outputDirPath, conf, docFrequenciesFeatures, minDf, maxDFPercent, norm, namedVectors,
+				sequentialAccessOutput, namedVectors, reduceTasks);
 
 		return 0;
 	}

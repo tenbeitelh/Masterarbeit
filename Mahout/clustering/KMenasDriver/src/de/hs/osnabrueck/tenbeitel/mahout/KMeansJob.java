@@ -36,6 +36,7 @@ public class KMeansJob extends Configured implements Tool {
 				System.out.println("Setting k to default: " + k);
 			}
 		}
+		
 
 		Configuration conf = this.getConf();
 
