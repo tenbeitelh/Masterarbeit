@@ -34,7 +34,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 	@Override
 	protected void reduce(StringTuple key, Iterable<IntWritable> values, Context context)
 			throws IOException, InterruptedException {
-		List<String> itemSetZ = key.getEntries();
+		List<String> itemSetZ = new ArrayList<String>(key.getEntries());
 		Collections.sort(itemSetZ);
 		Integer supportOfItemSet = values.iterator().next().get();
 
