@@ -29,7 +29,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 	private static HashMap<StringTuple, IntWritable> itemSetMap = new HashMap<StringTuple, IntWritable>();
 
 	private static Text associationRule = new Text();
-	private static DoubleWritable confidenceWritable;
+	private static DoubleWritable confidenceWritable = new DoubleWritable();
 
 	@Override
 	protected void reduce(StringTuple key, Iterable<IntWritable> values, Context context)
@@ -58,8 +58,9 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 				associationRule
 						.set(new StringTuple(zWithOutItem).toString() + " ==> " + new StringTuple(item).toString());
 				System.out.println(associationRule.toString());
-				confidenceWritable = new DoubleWritable(confidencePercent);
+				confidenceWritable.set(confidencePercent);
 				context.write(associationRule, confidenceWritable);
+				confidenceWritable.set(0.0);
 			}
 		}
 
@@ -86,9 +87,10 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 				if (confidencePercent >= minConf) {
 					associationRule.set(
 							new StringTuple(zWithOutItem).toString() + " ==> " + new StringTuple(tuple).toString());
-					confidenceWritable = new DoubleWritable(confidencePercent);
+					confidenceWritable.set(confidencePercent);
 					System.out.println(associationRule.toString());
 					context.write(associationRule, confidenceWritable);
+					confidenceWritable.set(0.0);
 				} else {
 					thenParts.remove(tuple);
 				}
