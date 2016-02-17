@@ -20,6 +20,8 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.mahout.common.StringTuple;
 
+import com.google.common.collect.Lists;
+
 import de.hs.osnabrueck.tenbeitel.mr.association.utils.AprioriUtils;
 
 public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, DoubleWritable> {
@@ -33,6 +35,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 	protected void reduce(StringTuple key, Iterable<IntWritable> values, Context context)
 			throws IOException, InterruptedException {
 		List<String> itemSetZ = key.getEntries();
+		Collections.sort(itemSetZ);
 		Integer supportOfItemSet = values.iterator().next().get();
 
 		Set<List<String>> thenParts = new HashSet<List<String>>();
@@ -54,6 +57,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 				thenParts.add(temp);
 				associationRule
 						.set(new StringTuple(zWithOutItem).toString() + " ==> " + new StringTuple(item).toString());
+				System.out.println(associationRule.toString());
 				confidenceWritable = new DoubleWritable(confidencePercent);
 				context.write(associationRule, confidenceWritable);
 			}
