@@ -1,0 +1,660 @@
+IF;THEN;CONFIDENCE
+[[npd]];[[afd]];0.662843097091356
+[[schaff]];[[merkel]];0.6650591845681718
+[[frau]];[[merkel]];0.6993676949607205
+[[spiel]];[[bildung]];0.7921628889742605
+[[spiel]];[[brief]];0.7921628889742605
+[[spiel]];[[fur]];0.7921628889742605
+[[spiel]];[[schul]];0.7921628889742605
+[[spiel]];[[somm]];0.7921628889742605
+[[spiel]];[[jung]];0.7933154053015751
+[[spiel]];[[madch]];0.7940837495197849
+[[spiel]];[[politik]];0.8006146753745678
+[[jung]];[[bildung]];0.8060915324509648
+[[jung]];[[politik]];0.8170945622707703
+[[brief]];[[bildung]];0.8371904181892001
+[[brief]];[[fur]];0.8371904181892001
+[[brief]];[[madch]];0.8371904181892001
+[[brief]];[[schul]];0.8371904181892001
+[[brief]];[[somm]];0.8371904181892001
+[[brief]];[[spiel]];0.8371904181892001
+[[brief]];[[jung]];0.8392204628501827
+[[schul]];[[brief]];0.8416326530612245
+[[schul]];[[fur]];0.8416326530612245
+[[schul]];[[somm]];0.8416326530612245
+[[schul]];[[spiel]];0.8416326530612245
+[[schul]];[[jung]];0.8424489795918367
+[[schul]];[[madch]];0.8424489795918367
+[[arzt]];[[https]];0.8442424242424242
+[[kanzlerin]];[[merkel]];0.8444070647603028
+[[arzt]];[[pegida]];0.8448484848484848
+[[arzt]];[[weiterstadt]];0.8448484848484848
+[[arzt]];[[vergewaltig]];0.8454545454545455
+[[arzt]];[[migrant]];0.8478787878787879
+[[schul]];[[bildung]];0.8481632653061224
+[[treff]];[[bildung]];0.8514935988620199
+[[treff]];[[jung]];0.8514935988620199
+[[treff]];[[kapitel]];0.8514935988620199
+[[treff]];[[nordamerika]];0.8514935988620199
+[[treff]];[[europa]];0.851778093883357
+[[treff]];[[mensch]];0.8526315789473684
+[[brief]];[[politik]];0.8595209094600081
+[[arzt]];[[fluchtling]];0.8606060606060606
+[[schul]];[[politik]];0.8620408163265306
+[[treff]];[[politik]];0.8665718349928876
+[[arzt]];[[ingenieur]];0.8751515151515151
+[[hock]];[[afd]];0.8835888699602499
+[[madch]];[[bildung]];0.8838405486498071
+[[madch]];[[brief]];0.8838405486498071
+[[madch]];[[fur]];0.8838405486498071
+[[madch]];[[schul]];0.8846978139734247
+[[madch]];[[somm]];0.8859837119588513
+[[madch]];[[spiel]];0.8859837119588513
+[[madch]];[[politik]];0.8889841405915131
+[[madch]];[[jung]];0.8984140591513073
+[[bundeskanzlerin]];[[merkel]];0.9070063694267516
+[[erfurt]];[[afd]];0.9075484764542936
+[[friedensnobelpreis]];[[merkel]];0.9103660622647964
+[[horst]];[[seehof]];0.9182746878547106
+[[fur]];[[bildung]];0.9288288288288288
+[[fur]];[[brief]];0.9288288288288288
+[[fur]];[[jung]];0.9288288288288288
+[[fur]];[[madch]];0.9288288288288288
+[[fur]];[[schul]];0.9288288288288288
+[[fur]];[[somm]];0.9288288288288288
+[[fur]];[[spiel]];0.9288288288288288
+[[fur]];[[politik]];0.9301801801801802
+[[annewill]];[[merkel]];0.9367875647668393
+[[ingenieur]];[[https]];0.9456890699253224
+[[ingenieur]];[[migrant]];0.9463679565512559
+[[ingenieur]];[[weiterstadt]];0.9463679565512559
+[[vergewaltig]];[[migrant]];0.9470108695652174
+[[vergewaltig]];[[weiterstadt]];0.9470108695652174
+[[ingenieur]];[[pegida]];0.9470468431771895
+[[ingenieur]];[[vergewaltig]];0.9470468431771895
+[[vergewaltig]];[[arzt]];0.9476902173913043
+[[vergewaltig]];[[https]];0.9476902173913043
+[[vergewaltig]];[[ingenieur]];0.9476902173913043
+[[vergewaltig]];[[pegida]];0.9483695652173914
+[[bildung]];[[jung]];0.9494740796393689
+[[ingenieur]];[[fluchtling]];0.9504412763068567
+[[vergewaltig]];[[fluchtling]];0.9551630434782609
+[[bildung]];[[politik]];0.9573628850488355
+[[somm]];[[bildung]];0.9791073124406457
+[[somm]];[[brief]];0.9791073124406457
+[[somm]];[[fur]];0.9791073124406457
+[[somm]];[[schul]];0.9791073124406457
+[[somm]];[[spiel]];0.9791073124406457
+[[angela]];[[merkel]];0.9802481640921752
+[[ingenieur]];[[arzt]];0.9803122878479293
+[[somm]];[[politik]];0.9805318138651472
+[[somm]];[[madch]];0.9814814814814815
+[[somm]];[[jung]];0.9829059829059829
+[[kapitel]];[[bildung]];0.991716368455931
+[[kapitel]];[[treff]];0.991716368455931
+[[kapitel]];[[europa]];0.9920477137176938
+[[kapitel]];[[jung]];0.9920477137176938
+[[kapitel]];[[mensch]];0.9920477137176938
+[[kapitel]];[[nordamerika]];0.9920477137176938
+[[kapitel]];[[politik]];0.9920477137176938
+[[weiterstadt]];[[https]];0.9971367215461704
+[[weiterstadt]];[[pegida]];0.9971367215461704
+[[weiterstadt]];[[arzt]];0.9978525411596277
+[[weiterstadt]];[[fluchtling]];0.9978525411596277
+[[weiterstadt]];[[ingenieur]];0.9978525411596277
+[[weiterstadt]];[[migrant]];0.9978525411596277
+[[weiterstadt]];[[vergewaltig]];0.9978525411596277
+[[nordamerika]];[[bildung]];0.9996659986639946
+[[nordamerika]];[[treff]];0.9996659986639946
+[[nordamerika]];[[europa]];1.0
+[[nordamerika]];[[jung]];1.0
+[[nordamerika]];[[kapitel]];1.0
+[[nordamerika]];[[mensch]];1.0
+[[nordamerika]];[[politik]];1.0
+[[csu,  spd]];[[cdu]];0.7222520107238606
+[[fluchtling,  https]];[[arzt]];0.7554229934924078
+[[fluchtling,  https]];[[ingenieur]];0.7554229934924078
+[[fluchtling,  https]];[[weiterstadt]];0.7554229934924078
+[[fluchtling,  https]];[[vergewaltig]];0.7565075921908894
+[[https,  pegida]];[[arzt]];0.7653846153846153
+[[https,  pegida]];[[ingenieur]];0.7653846153846153
+[[https,  pegida]];[[migrant]];0.7653846153846153
+[[https,  pegida]];[[vergewaltig]];0.7653846153846153
+[[https,  pegida]];[[weiterstadt]];0.7653846153846153
+[[fluchtling,  https]];[[migrant]];0.7695227765726681
+[[fluchtling,  https]];[[pegida]];0.779826464208243
+[[https,  pegida]];[[fluchtling]];0.7901098901098901
+[[fluchtling,  migrant]];[[ingenieur]];0.796
+[[fluchtling,  migrant]];[[vergewaltig]];0.796
+[[fluchtling,  migrant]];[[weiterstadt]];0.796
+[[fluchtling,  migrant]];[[arzt]];0.7971428571428572
+[[fluchtling,  migrant]];[[pegida]];0.7971428571428572
+[[fluchtling,  migrant]];[[https]];0.8108571428571428
+[[europa,  politik]];[[bildung]];0.9237654320987654
+[[europa,  politik]];[[treff]];0.9237654320987654
+[[europa,  politik]];[[kapitel]];0.924074074074074
+[[europa,  politik]];[[nordamerika]];0.924074074074074
+[[europa,  politik]];[[jung]];0.9259259259259259
+[[europa,  politik]];[[mensch]];0.9259259259259259
+[[mensch,  politik]];[[treff]];0.9335620711166562
+[[mensch,  politik]];[[bildung]];0.933873986275733
+[[mensch,  politik]];[[kapitel]];0.933873986275733
+[[mensch,  politik]];[[nordamerika]];0.933873986275733
+[[mensch,  politik]];[[europa]];0.9357454772301934
+[[mensch,  politik]];[[jung]];0.9357454772301934
+[[europa,  mensch]];[[bildung]];0.962998712998713
+[[europa,  mensch]];[[treff]];0.962998712998713
+[[europa,  mensch]];[[jung]];0.9633204633204633
+[[europa,  mensch]];[[kapitel]];0.9633204633204633
+[[europa,  mensch]];[[nordamerika]];0.9633204633204633
+[[arzt,  ingenieur]];[[https]];0.9646814404432132
+[[arzt,  ingenieur]];[[pegida]];0.9646814404432132
+[[europa,  mensch]];[[politik]];0.9652509652509652
+[[arzt,  ingenieur]];[[fluchtling]];0.9653739612188366
+[[arzt,  ingenieur]];[[migrant]];0.9653739612188366
+[[arzt,  ingenieur]];[[weiterstadt]];0.9653739612188366
+[[arzt,  ingenieur]];[[vergewaltig]];0.9660664819944599
+[[https,  migrant]];[[arzt]];0.9707317073170731
+[[https,  migrant]];[[ingenieur]];0.9707317073170731
+[[https,  migrant]];[[pegida]];0.9707317073170731
+[[https,  migrant]];[[vergewaltig]];0.9707317073170731
+[[https,  migrant]];[[weiterstadt]];0.9707317073170731
+[[brief,  politik]];[[bildung]];0.9740198393953708
+[[brief,  politik]];[[fur]];0.9740198393953708
+[[brief,  politik]];[[jung]];0.9740198393953708
+[[brief,  politik]];[[madch]];0.9740198393953708
+[[brief,  politik]];[[schul]];0.9740198393953708
+[[brief,  politik]];[[somm]];0.9740198393953708
+[[brief,  politik]];[[spiel]];0.9740198393953708
+[[politik,  schul]];[[brief]];0.9763257575757576
+[[politik,  schul]];[[fur]];0.9763257575757576
+[[politik,  schul]];[[jung]];0.9763257575757576
+[[politik,  schul]];[[madch]];0.9763257575757576
+[[politik,  schul]];[[somm]];0.9763257575757576
+[[politik,  schul]];[[spiel]];0.9763257575757576
+[[politik,  schul]];[[bildung]];0.9791666666666666
+[[arzt,  fluchtling]];[[https]];0.9809859154929578
+[[arzt,  fluchtling]];[[pegida]];0.9809859154929578
+[[arzt,  fluchtling]];[[vergewaltig]];0.9809859154929578
+[[arzt,  fluchtling]];[[weiterstadt]];0.9809859154929578
+[[arzt,  fluchtling]];[[ingenieur]];0.9816901408450704
+[[arzt,  fluchtling]];[[migrant]];0.9823943661971831
+[[politik,  treff]];[[bildung]];0.9826001313197636
+[[politik,  treff]];[[europa]];0.9826001313197636
+[[politik,  treff]];[[jung]];0.9826001313197636
+[[politik,  treff]];[[kapitel]];0.9826001313197636
+[[politik,  treff]];[[mensch]];0.9826001313197636
+[[politik,  treff]];[[nordamerika]];0.9826001313197636
+[[jung,  madch]];[[bildung]];0.9837786259541985
+[[jung,  madch]];[[brief]];0.9837786259541985
+[[jung,  madch]];[[fur]];0.9837786259541985
+[[jung,  madch]];[[politik]];0.9837786259541985
+[[jung,  madch]];[[schul]];0.9837786259541985
+[[jung,  madch]];[[spiel]];0.9837786259541985
+[[migrant,  pegida]];[[arzt]];0.9851485148514851
+[[migrant,  pegida]];[[https]];0.9851485148514851
+[[migrant,  pegida]];[[ingenieur]];0.9851485148514851
+[[migrant,  pegida]];[[vergewaltig]];0.9851485148514851
+[[migrant,  pegida]];[[weiterstadt]];0.9851485148514851
+[[jung,  mensch]];[[bildung]];0.9851876234364714
+[[jung,  mensch]];[[treff]];0.9851876234364714
+[[jung,  madch]];[[somm]];0.9852099236641222
+[[jung,  mensch]];[[europa]];0.9855167873601053
+[[jung,  mensch]];[[kapitel]];0.9855167873601053
+[[jung,  mensch]];[[nordamerika]];0.9855167873601053
+[[jung,  politik]];[[bildung]];0.9865339578454333
+[[migrant,  pegida]];[[fluchtling]];0.9865629420084866
+[[jung,  mensch]];[[politik]];0.9874917709019092
+[[https,  migrant]];[[fluchtling]];0.9888501742160278
+[[politik,  spiel]];[[bildung]];0.989443378119002
+[[politik,  spiel]];[[brief]];0.989443378119002
+[[politik,  spiel]];[[fur]];0.989443378119002
+[[politik,  spiel]];[[madch]];0.989443378119002
+[[politik,  spiel]];[[schul]];0.989443378119002
+[[politik,  spiel]];[[somm]];0.989443378119002
+[[politik,  spiel]];[[jung]];0.9904030710172744
+[[fluchtling,  vergewaltig]];[[arzt]];0.9907539118065434
+[[fluchtling,  vergewaltig]];[[ingenieur]];0.9907539118065434
+[[fluchtling,  vergewaltig]];[[migrant]];0.9907539118065434
+[[fluchtling,  vergewaltig]];[[weiterstadt]];0.9907539118065434
+[[bildung,  politik]];[[jung]];0.9917598587404356
+[[fluchtling,  vergewaltig]];[[https]];0.9921763869132291
+[[fluchtling,  vergewaltig]];[[pegida]];0.9921763869132291
+[[bildung,  schul]];[[brief]];0.9923002887391723
+[[bildung,  schul]];[[fur]];0.9923002887391723
+[[bildung,  schul]];[[jung]];0.9923002887391723
+[[bildung,  schul]];[[madch]];0.9923002887391723
+[[bildung,  schul]];[[somm]];0.9923002887391723
+[[bildung,  schul]];[[spiel]];0.9923002887391723
+[[madch,  politik]];[[bildung]];0.9942140790742526
+[[madch,  politik]];[[brief]];0.9942140790742526
+[[madch,  politik]];[[fur]];0.9942140790742526
+[[madch,  politik]];[[jung]];0.9942140790742526
+[[madch,  politik]];[[schul]];0.9942140790742526
+[[madch,  politik]];[[somm]];0.9942140790742526
+[[madch,  politik]];[[spiel]];0.9942140790742526
+[[europa,  jung]];[[bildung]];0.9943521594684386
+[[europa,  jung]];[[treff]];0.9943521594684386
+[[europa,  jung]];[[kapitel]];0.9946843853820598
+[[europa,  jung]];[[mensch]];0.9946843853820598
+[[europa,  jung]];[[nordamerika]];0.9946843853820598
+[[fluchtling,  ingenieur]];[[https]];0.995
+[[fluchtling,  ingenieur]];[[migrant]];0.995
+[[fluchtling,  ingenieur]];[[pegida]];0.995
+[[fluchtling,  ingenieur]];[[vergewaltig]];0.995
+[[fluchtling,  ingenieur]];[[weiterstadt]];0.995
+[[bildung,  schul]];[[politik]];0.9951876804619827
+[[arzt,  migrant]];[[https]];0.995711222301644
+[[arzt,  migrant]];[[pegida]];0.995711222301644
+[[fluchtling,  ingenieur]];[[arzt]];0.9957142857142857
+[[jung,  somm]];[[bildung]];0.996135265700483
+[[jung,  somm]];[[brief]];0.996135265700483
+[[jung,  somm]];[[fur]];0.996135265700483
+[[jung,  somm]];[[politik]];0.996135265700483
+[[jung,  somm]];[[schul]];0.996135265700483
+[[jung,  somm]];[[spiel]];0.996135265700483
+[[arzt,  migrant]];[[ingenieur]];0.9964260185847034
+[[arzt,  migrant]];[[vergewaltig]];0.9964260185847034
+[[arzt,  migrant]];[[weiterstadt]];0.9964260185847034
+[[europa,  jung]];[[politik]];0.9966777408637874
+[[arzt,  migrant]];[[fluchtling]];0.9971408148677627
+[[brief,  jung]];[[bildung]];0.9975810353168844
+[[madch,  somm]];[[bildung]];0.9975810353168844
+[[madch,  spiel]];[[bildung]];0.9975810353168844
+[[brief,  jung]];[[fur]];0.9975810353168844
+[[brief,  jung]];[[madch]];0.9975810353168844
+[[brief,  jung]];[[politik]];0.9975810353168844
+[[brief,  jung]];[[schul]];0.9975810353168844
+[[brief,  jung]];[[somm]];0.9975810353168844
+[[madch,  somm]];[[brief]];0.9975810353168844
+[[brief,  jung]];[[spiel]];0.9975810353168844
+[[madch,  spiel]];[[brief]];0.9975810353168844
+[[madch,  somm]];[[fur]];0.9975810353168844
+[[madch,  spiel]];[[fur]];0.9975810353168844
+[[madch,  spiel]];[[jung]];0.9975810353168844
+[[madch,  somm]];[[politik]];0.9975810353168844
+[[madch,  somm]];[[schul]];0.9975810353168844
+[[madch,  spiel]];[[politik]];0.9975810353168844
+[[madch,  spiel]];[[schul]];0.9975810353168844
+[[madch,  somm]];[[spiel]];0.9975810353168844
+[[madch,  spiel]];[[somm]];0.9975810353168844
+[[jung,  somm]];[[madch]];0.9975845410628019
+[[pegida,  vergewaltig]];[[arzt]];0.9978510028653295
+[[pegida,  vergewaltig]];[[https]];0.9978510028653295
+[[pegida,  vergewaltig]];[[ingenieur]];0.9978510028653295
+[[pegida,  vergewaltig]];[[migrant]];0.9978510028653295
+[[pegida,  vergewaltig]];[[weiterstadt]];0.9978510028653295
+[[fur,  politik]];[[bildung]];0.998547215496368
+[[politik,  somm]];[[bildung]];0.998547215496368
+[[jung,  spiel]];[[bildung]];0.998547215496368
+[[fur,  politik]];[[brief]];0.998547215496368
+[[politik,  somm]];[[brief]];0.998547215496368
+[[jung,  spiel]];[[brief]];0.998547215496368
+[[fur,  politik]];[[jung]];0.998547215496368
+[[fur,  politik]];[[madch]];0.998547215496368
+[[fur,  politik]];[[schul]];0.998547215496368
+[[politik,  somm]];[[fur]];0.998547215496368
+[[fur,  politik]];[[somm]];0.998547215496368
+[[jung,  spiel]];[[fur]];0.998547215496368
+[[fur,  politik]];[[spiel]];0.998547215496368
+[[politik,  somm]];[[jung]];0.998547215496368
+[[jung,  spiel]];[[madch]];0.998547215496368
+[[jung,  spiel]];[[schul]];0.998547215496368
+[[jung,  spiel]];[[somm]];0.998547215496368
+[[politik,  somm]];[[madch]];0.998547215496368
+[[politik,  somm]];[[schul]];0.998547215496368
+[[politik,  somm]];[[spiel]];0.998547215496368
+[[ingenieur,  pegida]];[[arzt]];0.9985663082437276
+[[arzt,  vergewaltig]];[[fluchtling]];0.9985663082437276
+[[https,  vergewaltig]];[[arzt]];0.9985663082437276
+[[arzt,  vergewaltig]];[[https]];0.9985663082437276
+[[arzt,  vergewaltig]];[[pegida]];0.9985663082437276
+[[ingenieur,  pegida]];[[fluchtling]];0.9985663082437276
+[[ingenieur,  vergewaltig]];[[fluchtling]];0.9985663082437276
+[[ingenieur,  pegida]];[[https]];0.9985663082437276
+[[ingenieur,  vergewaltig]];[[https]];0.9985663082437276
+[[https,  vergewaltig]];[[ingenieur]];0.9985663082437276
+[[https,  vergewaltig]];[[migrant]];0.9985663082437276
+[[https,  vergewaltig]];[[pegida]];0.9985663082437276
+[[https,  vergewaltig]];[[weiterstadt]];0.9985663082437276
+[[ingenieur,  pegida]];[[migrant]];0.9985663082437276
+[[ingenieur,  pegida]];[[vergewaltig]];0.9985663082437276
+[[ingenieur,  vergewaltig]];[[pegida]];0.9985663082437276
+[[ingenieur,  pegida]];[[weiterstadt]];0.9985663082437276
+[[mensch,  treff]];[[bildung]];0.9986653319986654
+[[mensch,  treff]];[[europa]];0.9986653319986654
+[[mensch,  treff]];[[jung]];0.9986653319986654
+[[mensch,  treff]];[[kapitel]];0.9986653319986654
+[[mensch,  treff]];[[nordamerika]];0.9986653319986654
+[[mensch,  treff]];[[politik]];0.9986653319986654
+[[jung,  schul]];[[bildung]];0.999031007751938
+[[madch,  schul]];[[bildung]];0.999031007751938
+[[jung,  schul]];[[brief]];0.999031007751938
+[[madch,  schul]];[[brief]];0.999031007751938
+[[jung,  schul]];[[fur]];0.999031007751938
+[[madch,  schul]];[[fur]];0.999031007751938
+[[madch,  schul]];[[jung]];0.999031007751938
+[[jung,  schul]];[[madch]];0.999031007751938
+[[jung,  schul]];[[politik]];0.999031007751938
+[[jung,  schul]];[[somm]];0.999031007751938
+[[jung,  schul]];[[spiel]];0.999031007751938
+[[madch,  schul]];[[politik]];0.999031007751938
+[[madch,  schul]];[[somm]];0.999031007751938
+[[madch,  schul]];[[spiel]];0.999031007751938
+[[madch,  somm]];[[jung]];0.9990324141267537
+[[arzt,  pegida]];[[fluchtling]];0.9992826398852224
+[[arzt,  pegida]];[[https]];0.9992826398852224
+[[arzt,  pegida]];[[ingenieur]];0.9992826398852224
+[[arzt,  pegida]];[[migrant]];0.9992826398852224
+[[arzt,  pegida]];[[vergewaltig]];0.9992826398852224
+[[fluchtling,  weiterstadt]];[[arzt]];0.9992826398852224
+[[arzt,  weiterstadt]];[[fluchtling]];0.9992826398852224
+[[arzt,  weiterstadt]];[[https]];0.9992826398852224
+[[arzt,  pegida]];[[weiterstadt]];0.9992826398852224
+[[arzt,  weiterstadt]];[[pegida]];0.9992826398852224
+[[ingenieur,  migrant]];[[fluchtling]];0.9992826398852224
+[[migrant,  vergewaltig]];[[fluchtling]];0.9992826398852224
+[[fluchtling,  weiterstadt]];[[https]];0.9992826398852224
+[[ingenieur,  weiterstadt]];[[fluchtling]];0.9992826398852224
+[[fluchtling,  weiterstadt]];[[ingenieur]];0.9992826398852224
+[[migrant,  weiterstadt]];[[fluchtling]];0.9992826398852224
+[[fluchtling,  weiterstadt]];[[migrant]];0.9992826398852224
+[[fluchtling,  weiterstadt]];[[pegida]];0.9992826398852224
+[[vergewaltig,  weiterstadt]];[[fluchtling]];0.9992826398852224
+[[fluchtling,  weiterstadt]];[[vergewaltig]];0.9992826398852224
+[[ingenieur,  migrant]];[[https]];0.9992826398852224
+[[migrant,  vergewaltig]];[[https]];0.9992826398852224
+[[ingenieur,  weiterstadt]];[[https]];0.9992826398852224
+[[migrant,  weiterstadt]];[[https]];0.9992826398852224
+[[vergewaltig,  weiterstadt]];[[https]];0.9992826398852224
+[[ingenieur,  migrant]];[[pegida]];0.9992826398852224
+[[ingenieur,  weiterstadt]];[[pegida]];0.9992826398852224
+[[migrant,  vergewaltig]];[[pegida]];0.9992826398852224
+[[migrant,  weiterstadt]];[[pegida]];0.9992826398852224
+[[vergewaltig,  weiterstadt]];[[pegida]];0.9992826398852224
+[[arzt,  vergewaltig]];[[migrant]];0.9992831541218637
+[[arzt,  vergewaltig]];[[weiterstadt]];0.9992831541218637
+[[ingenieur,  vergewaltig]];[[migrant]];0.9992831541218637
+[[ingenieur,  vergewaltig]];[[weiterstadt]];0.9992831541218637
+[[pegida,  vergewaltig]];[[fluchtling]];0.9992836676217765
+[[bildung,  mensch]];[[europa]];0.9993322203672788
+[[bildung,  mensch]];[[jung]];0.9993322203672788
+[[bildung,  mensch]];[[kapitel]];0.9993322203672788
+[[bildung,  mensch]];[[nordamerika]];0.9993322203672788
+[[bildung,  mensch]];[[treff]];0.9993322203672788
+[[jung,  spiel]];[[politik]];0.9995157384987894
+[[europa,  kapitel]];[[bildung]];0.9996659986639946
+[[jung,  kapitel]];[[bildung]];0.9996659986639946
+[[kapitel,  mensch]];[[bildung]];0.9996659986639946
+[[europa,  nordamerika]];[[bildung]];0.9996659986639946
+[[jung,  nordamerika]];[[bildung]];0.9996659986639946
+[[kapitel,  nordamerika]];[[bildung]];0.9996659986639946
+[[mensch,  nordamerika]];[[bildung]];0.9996659986639946
+[[kapitel,  politik]];[[bildung]];0.9996659986639946
+[[nordamerika,  politik]];[[bildung]];0.9996659986639946
+[[europa,  treff]];[[bildung]];0.9996659986639946
+[[europa,  treff]];[[jung]];0.9996659986639946
+[[europa,  kapitel]];[[treff]];0.9996659986639946
+[[europa,  treff]];[[kapitel]];0.9996659986639946
+[[europa,  treff]];[[mensch]];0.9996659986639946
+[[europa,  nordamerika]];[[treff]];0.9996659986639946
+[[europa,  treff]];[[nordamerika]];0.9996659986639946
+[[europa,  treff]];[[politik]];0.9996659986639946
+[[jung,  kapitel]];[[treff]];0.9996659986639946
+[[jung,  nordamerika]];[[treff]];0.9996659986639946
+[[kapitel,  mensch]];[[treff]];0.9996659986639946
+[[kapitel,  nordamerika]];[[treff]];0.9996659986639946
+[[kapitel,  politik]];[[treff]];0.9996659986639946
+[[mensch,  nordamerika]];[[treff]];0.9996659986639946
+[[nordamerika,  politik]];[[treff]];0.9996659986639946
+[[bildung,  mensch]];[[politik]];0.9996661101836394
+[[arzt,  https]];[[fluchtling]];1.0
+[[https,  ingenieur]];[[arzt]];1.0
+[[arzt,  https]];[[ingenieur]];1.0
+[[arzt,  https]];[[migrant]];1.0
+[[ingenieur,  migrant]];[[arzt]];1.0
+[[arzt,  https]];[[pegida]];1.0
+[[arzt,  https]];[[vergewaltig]];1.0
+[[ingenieur,  vergewaltig]];[[arzt]];1.0
+[[arzt,  vergewaltig]];[[ingenieur]];1.0
+[[migrant,  vergewaltig]];[[arzt]];1.0
+[[https,  weiterstadt]];[[arzt]];1.0
+[[arzt,  https]];[[weiterstadt]];1.0
+[[ingenieur,  weiterstadt]];[[arzt]];1.0
+[[arzt,  weiterstadt]];[[ingenieur]];1.0
+[[migrant,  weiterstadt]];[[arzt]];1.0
+[[arzt,  weiterstadt]];[[migrant]];1.0
+[[pegida,  weiterstadt]];[[arzt]];1.0
+[[vergewaltig,  weiterstadt]];[[arzt]];1.0
+[[arzt,  weiterstadt]];[[vergewaltig]];1.0
+[[brief,  fur]];[[bildung]];1.0
+[[bildung,  brief]];[[fur]];1.0
+[[bildung,  fur]];[[brief]];1.0
+[[bildung,  brief]];[[jung]];1.0
+[[bildung,  europa]];[[jung]];1.0
+[[fur,  jung]];[[bildung]];1.0
+[[bildung,  fur]];[[jung]];1.0
+[[bildung,  europa]];[[kapitel]];1.0
+[[bildung,  kapitel]];[[europa]];1.0
+[[bildung,  kapitel]];[[jung]];1.0
+[[brief,  madch]];[[bildung]];1.0
+[[bildung,  brief]];[[madch]];1.0
+[[bildung,  madch]];[[brief]];1.0
+[[fur,  madch]];[[bildung]];1.0
+[[bildung,  fur]];[[madch]];1.0
+[[bildung,  madch]];[[fur]];1.0
+[[bildung,  madch]];[[jung]];1.0
+[[bildung,  europa]];[[mensch]];1.0
+[[bildung,  kapitel]];[[mensch]];1.0
+[[bildung,  europa]];[[nordamerika]];1.0
+[[bildung,  nordamerika]];[[europa]];1.0
+[[bildung,  nordamerika]];[[jung]];1.0
+[[bildung,  kapitel]];[[nordamerika]];1.0
+[[bildung,  nordamerika]];[[kapitel]];1.0
+[[bildung,  nordamerika]];[[mensch]];1.0
+[[bildung,  brief]];[[politik]];1.0
+[[bildung,  europa]];[[politik]];1.0
+[[bildung,  fur]];[[politik]];1.0
+[[bildung,  jung]];[[politik]];1.0
+[[bildung,  kapitel]];[[politik]];1.0
+[[bildung,  madch]];[[politik]];1.0
+[[bildung,  nordamerika]];[[politik]];1.0
+[[brief,  schul]];[[bildung]];1.0
+[[bildung,  brief]];[[schul]];1.0
+[[fur,  schul]];[[bildung]];1.0
+[[bildung,  fur]];[[schul]];1.0
+[[bildung,  madch]];[[schul]];1.0
+[[brief,  somm]];[[bildung]];1.0
+[[bildung,  brief]];[[somm]];1.0
+[[bildung,  somm]];[[brief]];1.0
+[[fur,  somm]];[[bildung]];1.0
+[[bildung,  fur]];[[somm]];1.0
+[[bildung,  somm]];[[fur]];1.0
+[[bildung,  somm]];[[jung]];1.0
+[[bildung,  madch]];[[somm]];1.0
+[[bildung,  somm]];[[madch]];1.0
+[[bildung,  somm]];[[politik]];1.0
+[[schul,  somm]];[[bildung]];1.0
+[[bildung,  somm]];[[schul]];1.0
+[[brief,  spiel]];[[bildung]];1.0
+[[bildung,  brief]];[[spiel]];1.0
+[[bildung,  spiel]];[[brief]];1.0
+[[fur,  spiel]];[[bildung]];1.0
+[[bildung,  fur]];[[spiel]];1.0
+[[bildung,  spiel]];[[fur]];1.0
+[[bildung,  spiel]];[[jung]];1.0
+[[bildung,  madch]];[[spiel]];1.0
+[[bildung,  spiel]];[[madch]];1.0
+[[bildung,  spiel]];[[politik]];1.0
+[[schul,  spiel]];[[bildung]];1.0
+[[bildung,  spiel]];[[schul]];1.0
+[[somm,  spiel]];[[bildung]];1.0
+[[bildung,  somm]];[[spiel]];1.0
+[[bildung,  spiel]];[[somm]];1.0
+[[bildung,  europa]];[[treff]];1.0
+[[bildung,  treff]];[[europa]];1.0
+[[jung,  treff]];[[bildung]];1.0
+[[bildung,  treff]];[[jung]];1.0
+[[kapitel,  treff]];[[bildung]];1.0
+[[bildung,  kapitel]];[[treff]];1.0
+[[bildung,  treff]];[[kapitel]];1.0
+[[bildung,  treff]];[[mensch]];1.0
+[[nordamerika,  treff]];[[bildung]];1.0
+[[bildung,  nordamerika]];[[treff]];1.0
+[[bildung,  treff]];[[nordamerika]];1.0
+[[bildung,  treff]];[[politik]];1.0
+[[fur,  jung]];[[brief]];1.0
+[[brief,  fur]];[[jung]];1.0
+[[fur,  madch]];[[brief]];1.0
+[[brief,  fur]];[[madch]];1.0
+[[brief,  madch]];[[fur]];1.0
+[[brief,  madch]];[[jung]];1.0
+[[brief,  fur]];[[politik]];1.0
+[[brief,  madch]];[[politik]];1.0
+[[fur,  schul]];[[brief]];1.0
+[[brief,  fur]];[[schul]];1.0
+[[brief,  schul]];[[fur]];1.0
+[[brief,  schul]];[[jung]];1.0
+[[brief,  madch]];[[schul]];1.0
+[[brief,  schul]];[[madch]];1.0
+[[brief,  schul]];[[politik]];1.0
+[[fur,  somm]];[[brief]];1.0
+[[brief,  fur]];[[somm]];1.0
+[[brief,  somm]];[[fur]];1.0
+[[brief,  somm]];[[jung]];1.0
+[[brief,  madch]];[[somm]];1.0
+[[brief,  somm]];[[madch]];1.0
+[[brief,  somm]];[[politik]];1.0
+[[schul,  somm]];[[brief]];1.0
+[[brief,  schul]];[[somm]];1.0
+[[brief,  somm]];[[schul]];1.0
+[[fur,  spiel]];[[brief]];1.0
+[[brief,  fur]];[[spiel]];1.0
+[[brief,  spiel]];[[fur]];1.0
+[[brief,  spiel]];[[jung]];1.0
+[[brief,  madch]];[[spiel]];1.0
+[[brief,  spiel]];[[madch]];1.0
+[[brief,  spiel]];[[politik]];1.0
+[[schul,  spiel]];[[brief]];1.0
+[[brief,  schul]];[[spiel]];1.0
+[[brief,  spiel]];[[schul]];1.0
+[[somm,  spiel]];[[brief]];1.0
+[[brief,  somm]];[[spiel]];1.0
+[[brief,  spiel]];[[somm]];1.0
+[[jung,  kapitel]];[[europa]];1.0
+[[europa,  kapitel]];[[jung]];1.0
+[[kapitel,  mensch]];[[europa]];1.0
+[[europa,  kapitel]];[[mensch]];1.0
+[[jung,  nordamerika]];[[europa]];1.0
+[[europa,  nordamerika]];[[jung]];1.0
+[[kapitel,  nordamerika]];[[europa]];1.0
+[[europa,  kapitel]];[[nordamerika]];1.0
+[[europa,  nordamerika]];[[kapitel]];1.0
+[[mensch,  nordamerika]];[[europa]];1.0
+[[europa,  nordamerika]];[[mensch]];1.0
+[[kapitel,  politik]];[[europa]];1.0
+[[europa,  kapitel]];[[politik]];1.0
+[[nordamerika,  politik]];[[europa]];1.0
+[[europa,  nordamerika]];[[politik]];1.0
+[[jung,  treff]];[[europa]];1.0
+[[kapitel,  treff]];[[europa]];1.0
+[[nordamerika,  treff]];[[europa]];1.0
+[[https,  ingenieur]];[[fluchtling]];1.0
+[[https,  vergewaltig]];[[fluchtling]];1.0
+[[https,  weiterstadt]];[[fluchtling]];1.0
+[[pegida,  weiterstadt]];[[fluchtling]];1.0
+[[fur,  jung]];[[madch]];1.0
+[[fur,  madch]];[[jung]];1.0
+[[fur,  jung]];[[politik]];1.0
+[[fur,  madch]];[[politik]];1.0
+[[fur,  jung]];[[schul]];1.0
+[[fur,  schul]];[[jung]];1.0
+[[fur,  madch]];[[schul]];1.0
+[[fur,  schul]];[[madch]];1.0
+[[fur,  schul]];[[politik]];1.0
+[[fur,  jung]];[[somm]];1.0
+[[fur,  somm]];[[jung]];1.0
+[[fur,  madch]];[[somm]];1.0
+[[fur,  somm]];[[madch]];1.0
+[[fur,  somm]];[[politik]];1.0
+[[schul,  somm]];[[fur]];1.0
+[[fur,  schul]];[[somm]];1.0
+[[fur,  somm]];[[schul]];1.0
+[[fur,  jung]];[[spiel]];1.0
+[[fur,  spiel]];[[jung]];1.0
+[[fur,  madch]];[[spiel]];1.0
+[[fur,  spiel]];[[madch]];1.0
+[[fur,  spiel]];[[politik]];1.0
+[[schul,  spiel]];[[fur]];1.0
+[[fur,  schul]];[[spiel]];1.0
+[[fur,  spiel]];[[schul]];1.0
+[[somm,  spiel]];[[fur]];1.0
+[[fur,  somm]];[[spiel]];1.0
+[[fur,  spiel]];[[somm]];1.0
+[[https,  ingenieur]];[[migrant]];1.0
+[[https,  ingenieur]];[[pegida]];1.0
+[[https,  ingenieur]];[[vergewaltig]];1.0
+[[https,  ingenieur]];[[weiterstadt]];1.0
+[[https,  weiterstadt]];[[ingenieur]];1.0
+[[https,  weiterstadt]];[[migrant]];1.0
+[[pegida,  weiterstadt]];[[https]];1.0
+[[https,  weiterstadt]];[[pegida]];1.0
+[[https,  weiterstadt]];[[vergewaltig]];1.0
+[[migrant,  vergewaltig]];[[ingenieur]];1.0
+[[ingenieur,  migrant]];[[vergewaltig]];1.0
+[[migrant,  weiterstadt]];[[ingenieur]];1.0
+[[ingenieur,  migrant]];[[weiterstadt]];1.0
+[[ingenieur,  weiterstadt]];[[migrant]];1.0
+[[pegida,  weiterstadt]];[[ingenieur]];1.0
+[[vergewaltig,  weiterstadt]];[[ingenieur]];1.0
+[[ingenieur,  weiterstadt]];[[vergewaltig]];1.0
+[[kapitel,  mensch]];[[jung]];1.0
+[[jung,  kapitel]];[[mensch]];1.0
+[[kapitel,  nordamerika]];[[jung]];1.0
+[[jung,  kapitel]];[[nordamerika]];1.0
+[[jung,  nordamerika]];[[kapitel]];1.0
+[[mensch,  nordamerika]];[[jung]];1.0
+[[jung,  nordamerika]];[[mensch]];1.0
+[[kapitel,  politik]];[[jung]];1.0
+[[jung,  kapitel]];[[politik]];1.0
+[[nordamerika,  politik]];[[jung]];1.0
+[[jung,  nordamerika]];[[politik]];1.0
+[[schul,  somm]];[[jung]];1.0
+[[schul,  spiel]];[[jung]];1.0
+[[somm,  spiel]];[[jung]];1.0
+[[kapitel,  treff]];[[jung]];1.0
+[[jung,  treff]];[[kapitel]];1.0
+[[jung,  treff]];[[mensch]];1.0
+[[nordamerika,  treff]];[[jung]];1.0
+[[jung,  treff]];[[nordamerika]];1.0
+[[jung,  treff]];[[politik]];1.0
+[[mensch,  nordamerika]];[[kapitel]];1.0
+[[kapitel,  mensch]];[[nordamerika]];1.0
+[[kapitel,  nordamerika]];[[mensch]];1.0
+[[kapitel,  mensch]];[[politik]];1.0
+[[kapitel,  politik]];[[mensch]];1.0
+[[nordamerika,  politik]];[[kapitel]];1.0
+[[kapitel,  nordamerika]];[[politik]];1.0
+[[kapitel,  politik]];[[nordamerika]];1.0
+[[kapitel,  treff]];[[mensch]];1.0
+[[nordamerika,  treff]];[[kapitel]];1.0
+[[kapitel,  treff]];[[nordamerika]];1.0
+[[kapitel,  treff]];[[politik]];1.0
+[[schul,  somm]];[[madch]];1.0
+[[schul,  spiel]];[[madch]];1.0
+[[somm,  spiel]];[[madch]];1.0
+[[nordamerika,  politik]];[[mensch]];1.0
+[[mensch,  nordamerika]];[[politik]];1.0
+[[nordamerika,  treff]];[[mensch]];1.0
+[[pegida,  weiterstadt]];[[migrant]];1.0
+[[vergewaltig,  weiterstadt]];[[migrant]];1.0
+[[migrant,  vergewaltig]];[[weiterstadt]];1.0
+[[migrant,  weiterstadt]];[[vergewaltig]];1.0
+[[nordamerika,  treff]];[[politik]];1.0
+[[pegida,  weiterstadt]];[[vergewaltig]];1.0
+[[schul,  somm]];[[politik]];1.0
+[[schul,  spiel]];[[politik]];1.0
+[[somm,  spiel]];[[politik]];1.0
+[[somm,  spiel]];[[schul]];1.0
+[[schul,  somm]];[[spiel]];1.0
+[[schul,  spiel]];[[somm]];1.0

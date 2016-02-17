@@ -285,14 +285,6 @@
 [brief, spiel] ==> [somm]	1.0
 [bundeskanzlerin] ==> [merkel]	0.9070063694267516
 [csu, spd] ==> [cdu]	0.7222520107238606
-[sportevent] ==> [deutschland]	1.0
-[sportsevent] ==> [deutschland]	1.0
-[ticket] ==> [deutschland]	0.985977212971078
-[sportevent, ticket] ==> [deutschland]	1.0
-[deutschland, sportevent] ==> [ticket]	1.0
-[deutschland, ticket] ==> [sportevent]	0.6688888888888889
-[sportsevent, ticket] ==> [deutschland]	1.0
-[deutschland, sportsevent] ==> [ticket]	1.0
 [kapitel] ==> [europa]	0.9920477137176938
 [jung, kapitel] ==> [europa]	1.0
 [europa, jung] ==> [kapitel]	0.9946843853820598
@@ -663,8 +655,5 @@
 [schul, spiel] ==> [somm]	1.0
 [spiel] ==> [somm]	0.7921628889742605
 [somm] ==> [spiel]	0.9791073124406457
-[ticket] ==> [sportevent]	0.6595092024539877
-[sportevent] ==> [ticket]	1.0
-[sportsevent] ==> [ticket]	1.0
 [weiterstadt] ==> [vergewaltig]	0.9978525411596277
 [vergewaltig] ==> [weiterstadt]	0.9470108695652174
