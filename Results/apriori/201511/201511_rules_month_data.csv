@@ -1,0 +1,251 @@
+IF;THEN;CONFIDENCE
+[[ticket]];[[deutschland,  sportevent]];0.6567885117493473
+[[ticket]];[[sportevent]];0.6567885117493473
+[[ticket]];[[deutschland,  sportsevent]];0.6650130548302872
+[[ticket]];[[sportsevent]];0.6650130548302872
+[[dresd]];[[pegida]];0.6742558862727677
+[[kanzlerin]];[[merkel]];0.8436382894214219
+[[videos]];[[bord,  exposé]];0.9629829290206648
+[[videos]];[[bord,  immigration]];0.9629829290206648
+[[videos]];[[bord,  patrol]];0.9629829290206648
+[[videos]];[[bord,  refuge]];0.9629829290206648
+[[videos]];[[exposé]];0.9629829290206648
+[[videos]];[[exposé,  immigration]];0.9629829290206648
+[[videos]];[[exposé,  patrol]];0.9629829290206648
+[[videos]];[[exposé,  refuge]];0.9629829290206648
+[[videos]];[[exposé,  shocking]];0.9629829290206648
+[[videos]];[[immigration]];0.9629829290206648
+[[videos]];[[immigration,  patrol]];0.9629829290206648
+[[videos]];[[immigration,  refuge]];0.9629829290206648
+[[videos]];[[immigration,  shocking]];0.9629829290206648
+[[videos]];[[patrol]];0.9629829290206648
+[[videos]];[[patrol,  refuge]];0.9629829290206648
+[[videos]];[[patrol,  shocking]];0.9629829290206648
+[[videos]];[[refuge,  shocking]];0.9629829290206648
+[[videos]];[[bord]];0.9638814016172507
+[[videos]];[[bord,  shocking]];0.9638814016172507
+[[videos]];[[shocking]];0.9638814016172507
+[[videos]];[[refuge]];0.9646001796945193
+[[bord]];[[exposé]];0.9718897352194414
+[[bord]];[[immigration]];0.9718897352194414
+[[bord]];[[exposé,  immigration]];0.9718897352194414
+[[bord]];[[exposé,  patrol]];0.9718897352194414
+[[bord]];[[immigration,  patrol]];0.9718897352194414
+[[bord]];[[exposé,  refuge]];0.9718897352194414
+[[bord]];[[immigration,  refuge]];0.9718897352194414
+[[bord]];[[patrol,  refuge]];0.9718897352194414
+[[bord]];[[exposé,  shocking]];0.9718897352194414
+[[bord]];[[immigration,  shocking]];0.9718897352194414
+[[bord]];[[patrol,  shocking]];0.9718897352194414
+[[bord]];[[refuge,  shocking]];0.9718897352194414
+[[bord]];[[exposé,  videos]];0.9718897352194414
+[[bord]];[[immigration,  videos]];0.9718897352194414
+[[bord]];[[patrol,  videos]];0.9718897352194414
+[[bord]];[[refuge,  videos]];0.9718897352194414
+[[bord]];[[patrol]];0.9720710917664128
+[[immigration]];[[bord]];0.9724187987661042
+[[immigration]];[[bord,  exposé]];0.9724187987661042
+[[immigration]];[[bord,  patrol]];0.9724187987661042
+[[immigration]];[[bord,  refuge]];0.9724187987661042
+[[immigration]];[[bord,  shocking]];0.9724187987661042
+[[immigration]];[[bord,  videos]];0.9724187987661042
+[[immigration]];[[exposé]];0.9724187987661042
+[[immigration]];[[exposé,  patrol]];0.9724187987661042
+[[immigration]];[[exposé,  refuge]];0.9724187987661042
+[[immigration]];[[exposé,  shocking]];0.9724187987661042
+[[immigration]];[[exposé,  videos]];0.9724187987661042
+[[immigration]];[[patrol]];0.9724187987661042
+[[immigration]];[[patrol,  refuge]];0.9724187987661042
+[[immigration]];[[shocking]];0.9724187987661042
+[[immigration]];[[patrol,  shocking]];0.9724187987661042
+[[immigration]];[[refuge,  shocking]];0.9724187987661042
+[[immigration]];[[videos]];0.9724187987661042
+[[immigration]];[[patrol,  videos]];0.9724187987661042
+[[immigration]];[[refuge,  videos]];0.9724187987661042
+[[immigration]];[[shocking,  videos]];0.9724187987661042
+[[immigration]];[[refuge]];0.9726002540373798
+[[bord]];[[shocking]];0.9727965179542981
+[[bord]];[[videos]];0.9727965179542981
+[[bord]];[[shocking,  videos]];0.9727965179542981
+[[bord]];[[refuge]];0.9733405875952121
+[[ticket]];[[deutschland]];0.9934725848563969
+[[shocking]];[[bord,  exposé]];0.9957264957264957
+[[shocking]];[[bord,  immigration]];0.9957264957264957
+[[shocking]];[[bord,  patrol]];0.9957264957264957
+[[shocking]];[[bord,  refuge]];0.9957264957264957
+[[shocking]];[[exposé]];0.9957264957264957
+[[shocking]];[[exposé,  immigration]];0.9957264957264957
+[[shocking]];[[exposé,  patrol]];0.9957264957264957
+[[shocking]];[[exposé,  refuge]];0.9957264957264957
+[[shocking]];[[exposé,  videos]];0.9957264957264957
+[[shocking]];[[immigration]];0.9957264957264957
+[[shocking]];[[immigration,  patrol]];0.9957264957264957
+[[shocking]];[[immigration,  refuge]];0.9957264957264957
+[[shocking]];[[immigration,  videos]];0.9957264957264957
+[[shocking]];[[patrol]];0.9957264957264957
+[[shocking]];[[patrol,  refuge]];0.9957264957264957
+[[shocking]];[[patrol,  videos]];0.9957264957264957
+[[shocking]];[[refuge,  videos]];0.9957264957264957
+[[shocking]];[[refuge]];0.9959123002601263
+[[shocking]];[[bord]];0.9966555183946488
+[[shocking]];[[bord,  videos]];0.9966555183946488
+[[shocking]];[[videos]];0.9966555183946488
+[[sportevent]];[[deutschland,  ticket]];0.9998012718600954
+[[sportevent]];[[ticket]];0.9998012718600954
+[[patrol]];[[bord,  exposé]];0.9998134328358209
+[[patrol]];[[bord,  immigration]];0.9998134328358209
+[[patrol]];[[bord,  refuge]];0.9998134328358209
+[[patrol]];[[bord,  shocking]];0.9998134328358209
+[[patrol]];[[bord,  videos]];0.9998134328358209
+[[patrol]];[[exposé]];0.9998134328358209
+[[patrol]];[[exposé,  immigration]];0.9998134328358209
+[[patrol]];[[exposé,  refuge]];0.9998134328358209
+[[patrol]];[[exposé,  shocking]];0.9998134328358209
+[[patrol]];[[exposé,  videos]];0.9998134328358209
+[[patrol]];[[immigration]];0.9998134328358209
+[[patrol]];[[immigration,  refuge]];0.9998134328358209
+[[patrol]];[[immigration,  shocking]];0.9998134328358209
+[[patrol]];[[immigration,  videos]];0.9998134328358209
+[[patrol]];[[refuge]];0.9998134328358209
+[[patrol]];[[shocking]];0.9998134328358209
+[[patrol]];[[refuge,  shocking]];0.9998134328358209
+[[patrol]];[[videos]];0.9998134328358209
+[[patrol]];[[refuge,  videos]];0.9998134328358209
+[[patrol]];[[shocking,  videos]];0.9998134328358209
+[[exposé]];[[bord]];1.0
+[[exposé]];[[bord,  immigration]];1.0
+[[patrol]];[[bord]];1.0
+[[exposé]];[[bord,  patrol]];1.0
+[[exposé]];[[bord,  refuge]];1.0
+[[exposé]];[[bord,  shocking]];1.0
+[[exposé]];[[bord,  videos]];1.0
+[[sportevent]];[[deutschland]];1.0
+[[sportsevent]];[[deutschland]];1.0
+[[sportsevent]];[[deutschland,  ticket]];1.0
+[[exposé]];[[immigration]];1.0
+[[exposé]];[[patrol]];1.0
+[[exposé]];[[immigration,  patrol]];1.0
+[[exposé]];[[refuge]];1.0
+[[exposé]];[[immigration,  refuge]];1.0
+[[exposé]];[[patrol,  refuge]];1.0
+[[exposé]];[[shocking]];1.0
+[[exposé]];[[immigration,  shocking]];1.0
+[[exposé]];[[patrol,  shocking]];1.0
+[[exposé]];[[refuge,  shocking]];1.0
+[[exposé]];[[videos]];1.0
+[[exposé]];[[immigration,  videos]];1.0
+[[exposé]];[[patrol,  videos]];1.0
+[[exposé]];[[refuge,  videos]];1.0
+[[exposé]];[[shocking,  videos]];1.0
+[[sportsevent]];[[ticket]];1.0
+[[deutschland,  ticket]];[[sportevent]];0.6611038107752957
+[[deutschland,  ticket]];[[sportsevent]];0.6693823915900131
+[[refuge,  videos]];[[bord]];0.9983233979135618
+[[refuge,  videos]];[[exposé]];0.9983233979135618
+[[refuge,  videos]];[[immigration]];0.9983233979135618
+[[refuge,  videos]];[[patrol]];0.9983233979135618
+[[refuge,  videos]];[[shocking]];0.9983233979135618
+[[bord,  refuge]];[[exposé]];0.9985094093534563
+[[bord,  refuge]];[[immigration]];0.9985094093534563
+[[bord,  refuge]];[[patrol]];0.9985094093534563
+[[bord,  refuge]];[[shocking]];0.9985094093534563
+[[bord,  refuge]];[[videos]];0.9985094093534563
+[[bord,  shocking]];[[exposé]];0.9990678598061148
+[[bord,  shocking]];[[immigration]];0.9990678598061148
+[[bord,  shocking]];[[patrol]];0.9990678598061148
+[[bord,  shocking]];[[refuge]];0.9990678598061148
+[[bord,  videos]];[[exposé]];0.9990678598061148
+[[bord,  videos]];[[immigration]];0.9990678598061148
+[[bord,  videos]];[[patrol]];0.9990678598061148
+[[bord,  videos]];[[refuge]];0.9990678598061148
+[[shocking,  videos]];[[exposé]];0.9990678598061148
+[[shocking,  videos]];[[immigration]];0.9990678598061148
+[[shocking,  videos]];[[patrol]];0.9990678598061148
+[[shocking,  videos]];[[refuge]];0.9990678598061148
+[[deutschland,  sportevent]];[[ticket]];0.9998012718600954
+[[bord,  patrol]];[[exposé]];0.9998134328358209
+[[bord,  patrol]];[[immigration]];0.9998134328358209
+[[immigration,  refuge]];[[bord]];0.9998134328358209
+[[bord,  patrol]];[[refuge]];0.9998134328358209
+[[bord,  patrol]];[[shocking]];0.9998134328358209
+[[refuge,  shocking]];[[bord]];0.9998134328358209
+[[bord,  patrol]];[[videos]];0.9998134328358209
+[[immigration,  refuge]];[[exposé]];0.9998134328358209
+[[refuge,  shocking]];[[exposé]];0.9998134328358209
+[[immigration,  refuge]];[[patrol]];0.9998134328358209
+[[refuge,  shocking]];[[immigration]];0.9998134328358209
+[[immigration,  refuge]];[[shocking]];0.9998134328358209
+[[immigration,  refuge]];[[videos]];0.9998134328358209
+[[refuge,  shocking]];[[patrol]];0.9998134328358209
+[[refuge,  shocking]];[[videos]];0.9998134328358209
+[[exposé,  immigration]];[[bord]];1.0
+[[bord,  immigration]];[[exposé]];1.0
+[[bord,  exposé]];[[immigration]];1.0
+[[exposé,  patrol]];[[bord]];1.0
+[[bord,  exposé]];[[patrol]];1.0
+[[immigration,  patrol]];[[bord]];1.0
+[[bord,  immigration]];[[patrol]];1.0
+[[exposé,  refuge]];[[bord]];1.0
+[[bord,  exposé]];[[refuge]];1.0
+[[bord,  immigration]];[[refuge]];1.0
+[[patrol,  refuge]];[[bord]];1.0
+[[exposé,  shocking]];[[bord]];1.0
+[[bord,  exposé]];[[shocking]];1.0
+[[immigration,  shocking]];[[bord]];1.0
+[[bord,  immigration]];[[shocking]];1.0
+[[patrol,  shocking]];[[bord]];1.0
+[[exposé,  videos]];[[bord]];1.0
+[[bord,  exposé]];[[videos]];1.0
+[[immigration,  videos]];[[bord]];1.0
+[[bord,  immigration]];[[videos]];1.0
+[[patrol,  videos]];[[bord]];1.0
+[[shocking,  videos]];[[bord]];1.0
+[[bord,  videos]];[[shocking]];1.0
+[[bord,  shocking]];[[videos]];1.0
+[[sportevent,  ticket]];[[deutschland]];1.0
+[[sportsevent,  ticket]];[[deutschland]];1.0
+[[deutschland,  sportsevent]];[[ticket]];1.0
+[[immigration,  patrol]];[[exposé]];1.0
+[[exposé,  patrol]];[[immigration]];1.0
+[[exposé,  immigration]];[[patrol]];1.0
+[[exposé,  refuge]];[[immigration]];1.0
+[[exposé,  immigration]];[[refuge]];1.0
+[[patrol,  refuge]];[[exposé]];1.0
+[[exposé,  refuge]];[[patrol]];1.0
+[[exposé,  patrol]];[[refuge]];1.0
+[[immigration,  shocking]];[[exposé]];1.0
+[[exposé,  shocking]];[[immigration]];1.0
+[[exposé,  immigration]];[[shocking]];1.0
+[[patrol,  shocking]];[[exposé]];1.0
+[[exposé,  shocking]];[[patrol]];1.0
+[[exposé,  patrol]];[[shocking]];1.0
+[[exposé,  shocking]];[[refuge]];1.0
+[[exposé,  refuge]];[[shocking]];1.0
+[[immigration,  videos]];[[exposé]];1.0
+[[exposé,  videos]];[[immigration]];1.0
+[[exposé,  immigration]];[[videos]];1.0
+[[patrol,  videos]];[[exposé]];1.0
+[[exposé,  videos]];[[patrol]];1.0
+[[exposé,  patrol]];[[videos]];1.0
+[[exposé,  videos]];[[refuge]];1.0
+[[exposé,  refuge]];[[videos]];1.0
+[[exposé,  videos]];[[shocking]];1.0
+[[exposé,  shocking]];[[videos]];1.0
+[[patrol,  refuge]];[[immigration]];1.0
+[[immigration,  patrol]];[[refuge]];1.0
+[[patrol,  shocking]];[[immigration]];1.0
+[[immigration,  shocking]];[[patrol]];1.0
+[[immigration,  patrol]];[[shocking]];1.0
+[[immigration,  shocking]];[[refuge]];1.0
+[[patrol,  videos]];[[immigration]];1.0
+[[immigration,  videos]];[[patrol]];1.0
+[[immigration,  patrol]];[[videos]];1.0
+[[immigration,  videos]];[[refuge]];1.0
+[[immigration,  videos]];[[shocking]];1.0
+[[immigration,  shocking]];[[videos]];1.0
+[[patrol,  shocking]];[[refuge]];1.0
+[[patrol,  refuge]];[[shocking]];1.0
+[[patrol,  videos]];[[refuge]];1.0
+[[patrol,  refuge]];[[videos]];1.0
+[[patrol,  videos]];[[shocking]];1.0
+[[patrol,  shocking]];[[videos]];1.0
