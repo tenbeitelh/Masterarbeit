@@ -70,6 +70,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 			if (thenParts.isEmpty()) {
 				break;
 			}
+			List<List<String>> removeList = new ArrayList<List<String>>();
 			for (List<String> tuple : thenParts) {
 				List<String> zWithOutItem = new ArrayList<String>(itemSetZ);
 				zWithOutItem.removeAll(tuple);
@@ -93,9 +94,10 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 					context.write(associationRule, confidenceWritable);
 					confidenceWritable.set(0.0);
 				} else {
-					thenParts.remove(tuple);
+					removeList.add(tuple);
 				}
 			}
+			thenParts.removeAll(removeList);
 		}
 
 	}
