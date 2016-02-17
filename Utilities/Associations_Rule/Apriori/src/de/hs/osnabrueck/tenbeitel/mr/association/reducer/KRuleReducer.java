@@ -64,7 +64,8 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 			}
 		}
 
-		for (int i = 2; i < itemSetZ.size() - 1; i++) {
+		for (int i = 2; i < itemSetZ.size(); i++) {
+			System.out.println(i);
 			thenParts = AprioriUtils.generateCandidates(thenParts, i);
 			if (thenParts.isEmpty()) {
 				break;
