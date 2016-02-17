@@ -83,6 +83,7 @@ public class KRuleReducer extends Reducer<StringTuple, IntWritable, Text, Double
 					associationRule.set(
 							new StringTuple(zWithOutItem).toString() + " ==> " + new StringTuple(tuple).toString());
 					confidenceWritable = new DoubleWritable(confidencePercent);
+					System.out.println(associationRule.toString());
 					context.write(associationRule, confidenceWritable);
 				} else {
 					thenParts.remove(tuple);
