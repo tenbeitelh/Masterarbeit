@@ -18,7 +18,7 @@ public class StringContainsUDF extends EvalFunc<Boolean> {
 			return null;
 		}
 
-		return ((String) text).contains("bordersexpatrol");
+		return ((String) text).contains("bordersexpatrol") || ((String) text).contains("border sex patrol");
 	}
 
 }
