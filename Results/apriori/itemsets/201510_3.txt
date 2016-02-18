@@ -1,0 +1,61 @@
+Running on hadoop, using /usr/bin/hadoop and HADOOP_CONF_DIR=
+MAHOUT-JOB: /usr/hdp/current/mahout-client/mahout-examples-0.10.2-job.jar
+Input Path: hdfs://master.hs.osnabrueck.de:8020/project/201510/apriori/month_data/itemsets/3/part-r-00000
+Key class: class org.apache.mahout.common.StringTuple Value Class: class org.apache.hadoop.io.IntWritable
+Key: [bildung, jung, europa]: Value: 2993
+Key: [bildung, kapitel, europa]: Value: 2993
+Key: [bildung, kapitel, jung]: Value: 2993
+Key: [bildung, mensch, europa]: Value: 2993
+Key: [bildung, mensch, jung]: Value: 2993
+Key: [bildung, mensch, kapitel]: Value: 2993
+Key: [bildung, nordamerika, europa]: Value: 2993
+Key: [bildung, nordamerika, jung]: Value: 2993
+Key: [bildung, nordamerika, kapitel]: Value: 2993
+Key: [bildung, nordamerika, mensch]: Value: 2993
+Key: [bildung, politik, europa]: Value: 2993
+Key: [bildung, politik, jung]: Value: 5055
+Key: [bildung, politik, kapitel]: Value: 2993
+Key: [bildung, politik, mensch]: Value: 2994
+Key: [bildung, politik, nordamerika]: Value: 2993
+Key: [bildung, treff, europa]: Value: 2993
+Key: [bildung, treff, jung]: Value: 2993
+Key: [bildung, treff, kapitel]: Value: 2993
+Key: [bildung, treff, mensch]: Value: 2993
+Key: [bildung, treff, nordamerika]: Value: 2993
+Key: [bildung, treff, politik]: Value: 2993
+Key: [europa, kapitel, jung]: Value: 2994
+Key: [europa, mensch, jung]: Value: 2994
+Key: [europa, mensch, kapitel]: Value: 2994
+Key: [europa, nordamerika, jung]: Value: 2994
+Key: [europa, nordamerika, kapitel]: Value: 2994
+Key: [europa, nordamerika, mensch]: Value: 2994
+Key: [europa, politik, jung]: Value: 3000
+Key: [europa, politik, kapitel]: Value: 2994
+Key: [europa, politik, mensch]: Value: 3000
+Key: [europa, politik, nordamerika]: Value: 2994
+Key: [europa, treff, jung]: Value: 2993
+Key: [europa, treff, kapitel]: Value: 2993
+Key: [europa, treff, mensch]: Value: 2993
+Key: [europa, treff, nordamerika]: Value: 2993
+Key: [europa, treff, politik]: Value: 2993
+Key: [jung, mensch, kapitel]: Value: 2994
+Key: [jung, nordamerika, kapitel]: Value: 2994
+Key: [jung, nordamerika, mensch]: Value: 2994
+Key: [jung, politik, kapitel]: Value: 2994
+Key: [jung, politik, mensch]: Value: 3000
+Key: [jung, politik, nordamerika]: Value: 2994
+Key: [jung, treff, kapitel]: Value: 2993
+Key: [jung, treff, mensch]: Value: 2993
+Key: [jung, treff, nordamerika]: Value: 2993
+Key: [jung, treff, politik]: Value: 2993
+Key: [kapitel, nordamerika, mensch]: Value: 2994
+Key: [kapitel, politik, mensch]: Value: 2994
+Key: [kapitel, politik, nordamerika]: Value: 2994
+Key: [kapitel, treff, mensch]: Value: 2993
+Key: [kapitel, treff, nordamerika]: Value: 2993
+Key: [kapitel, treff, politik]: Value: 2993
+Key: [mensch, politik, nordamerika]: Value: 2994
+Key: [mensch, treff, nordamerika]: Value: 2993
+Key: [mensch, treff, politik]: Value: 2993
+Key: [nordamerika, treff, politik]: Value: 2993
+Count: 56

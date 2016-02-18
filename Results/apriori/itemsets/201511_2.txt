@@ -1,0 +1,49 @@
+Running on hadoop, using /usr/bin/hadoop and HADOOP_CONF_DIR=
+MAHOUT-JOB: /usr/hdp/current/mahout-client/mahout-examples-0.10.2-job.jar
+Input Path: hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/month_data/itemsets/2/part-r-00000
+Key class: class org.apache.mahout.common.StringTuple Value Class: class org.apache.hadoop.io.IntWritable
+Key: [afd, berlin]: Value: 3661
+Key: [afd, cdu]: Value: 2675
+Key: [afd, demo]: Value: 4209
+Key: [afd, deutschland]: Value: 2821
+Key: [afd, fluchtling]: Value: 2756
+Key: [afd, https]: Value: 3433
+Key: [afd, merkel]: Value: 2627
+Key: [afd, npd]: Value: 2739
+Key: [afd, pegida]: Value: 10373
+Key: [angela, merkel]: Value: 3336
+Key: [anschlag, paris]: Value: 3004
+Key: [asyl, fluchtling]: Value: 3684
+Key: [bay, deutschland]: Value: 3683
+Key: [bay, ticket]: Value: 3263
+Key: [cdu, csu]: Value: 5713
+Key: [cdu, fluchtling]: Value: 2587
+Key: [cdu, merkel]: Value: 5202
+Key: [cdu, spd]: Value: 5655
+Key: [csu, merkel]: Value: 3930
+Key: [csu, seehof]: Value: 2980
+Key: [csu, spd]: Value: 2963
+Key: [dass, merkel]: Value: 3897
+Key: [deutschland, fluchtling]: Value: 3808
+Key: [deutschland, merkel]: Value: 6119
+Key: [deutschland, sportevent]: Value: 5032
+Key: [deutschland, sportsevent]: Value: 5094
+Key: [deutschland, ticket]: Value: 7610
+Key: [dresd, pegida]: Value: 6071
+Key: [fluchtling, merkel]: Value: 7717
+Key: [fluchtling, refuge]: Value: 3027
+Key: [fluchtling, refugeeswelcom]: Value: 4663
+Key: [frau, merkel]: Value: 4365
+Key: [kanzlerin, merkel]: Value: 6372
+Key: [mehr, merkel]: Value: 3217
+Key: [merkel, merkelmussweg]: Value: 4611
+Key: [merkel, paris]: Value: 3364
+Key: [merkel, seehof]: Value: 4874
+Key: [merkel, terror]: Value: 2987
+Key: [nopegida, pegida]: Value: 5799
+Key: [russland, syri]: Value: 2585
+Key: [sportevent, sportsevent]: Value: 2523
+Key: [sportevent, ticket]: Value: 5031
+Key: [sportsevent, ticket]: Value: 5094
+Key: [syri, turkei]: Value: 2789
+Count: 44
