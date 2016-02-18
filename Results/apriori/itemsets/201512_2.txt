@@ -1,7 +1,3 @@
-Running on hadoop, using /usr/bin/hadoop and HADOOP_CONF_DIR=
-MAHOUT-JOB: /usr/hdp/current/mahout-client/mahout-examples-0.10.2-job.jar
-Input Path: hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/month_data/itemsets/2/part-r-00000
-Key class: class org.apache.mahout.common.StringTuple Value Class: class org.apache.hadoop.io.IntWritable
 Key: [afd, hock]: Value: 10367
 Key: [afd, pegida]: Value: 7724
 Key: [berlin, deutschland]: Value: 4355
@@ -36,4 +32,4 @@ Key: [ort, syri]: Value: 7073
 Key: [spend, syri]: Value: 7081
 Key: [sportevent, ticket]: Value: 5141
 Key: [sportsevent, ticket]: Value: 4653
-Count: 34
+

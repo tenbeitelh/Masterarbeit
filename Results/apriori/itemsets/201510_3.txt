@@ -1,7 +1,3 @@
-Running on hadoop, using /usr/bin/hadoop and HADOOP_CONF_DIR=
-MAHOUT-JOB: /usr/hdp/current/mahout-client/mahout-examples-0.10.2-job.jar
-Input Path: hdfs://master.hs.osnabrueck.de:8020/project/201510/apriori/month_data/itemsets/3/part-r-00000
-Key class: class org.apache.mahout.common.StringTuple Value Class: class org.apache.hadoop.io.IntWritable
 Key: [bildung, jung, europa]: Value: 2993
 Key: [bildung, kapitel, europa]: Value: 2993
 Key: [bildung, kapitel, jung]: Value: 2993
@@ -58,4 +54,4 @@ Key: [mensch, politik, nordamerika]: Value: 2994
 Key: [mensch, treff, nordamerika]: Value: 2993
 Key: [mensch, treff, politik]: Value: 2993
 Key: [nordamerika, treff, politik]: Value: 2993
-Count: 56
+
