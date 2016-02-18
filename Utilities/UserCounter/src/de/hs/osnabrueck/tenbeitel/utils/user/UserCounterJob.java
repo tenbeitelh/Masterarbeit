@@ -47,6 +47,9 @@ public class UserCounterJob extends Configured implements Tool {
 
 		FileOutputFormat.setOutputPath(job, outputPath);
 		job.setOutputFormatClass(TextOutputFormat.class);
+		
+		job.setMapperClass(UserCountMapper.class);
+		job.setReducerClass(UserCountReducer.class);
 
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(IntWritable.class);
