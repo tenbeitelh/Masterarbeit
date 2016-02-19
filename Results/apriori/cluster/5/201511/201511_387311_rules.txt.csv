@@ -1,0 +1,291 @@
+IF;THEN;CONFIDENCE
+frei;dass,  terror;0.6529680365296804
+frei;terror,  wiss;0.6535388127853882
+stark;dass,  merkel;0.6543803418803419
+leb;merkel,  stark;0.6597014925373135
+leb;frei,  stark;0.6621890547263681
+stark;dass;0.6645299145299145
+leb;stark;0.6661691542288557
+frei;merkel,  wiss;0.6666666666666666
+frei;dass,  stark;0.66837899543379
+frei;dass,  leb;0.6695205479452054
+frei;dass,  wiss;0.6695205479452054
+frei;stark,  wiss;0.6695205479452054
+frei;leb,  wiss;0.6712328767123288
+frei;wiss;0.6718036529680366
+frei;dass,  merkel;0.6752283105022832
+leb;frei,  terror;0.6781094527363184
+wiss;merkel,  terror;0.6793802145411204
+wiss;dass,  terror;0.6811680572109654
+wiss;stark,  terror;0.6811680572109654
+frei;dass;0.6820776255707762
+wiss;frei,  terror;0.6823599523241954
+wiss;leb,  terror;0.6823599523241954
+wiss;terror;0.6847437425506555
+leb;merkel,  terror;0.6915422885572139
+stark;frei,  terror;0.6949786324786325
+stark;leb,  terror;0.6949786324786325
+wiss;merkel,  stark;0.6954707985697258
+stark;merkel,  terror;0.6960470085470085
+wiss;frei,  merkel;0.6960667461263409
+wiss;leb,  merkel;0.6966626936829559
+leb;terror;0.6975124378109453
+csupt15;seehof;0.6978636826042727
+wiss;dass,  stark;0.698450536352801
+wiss;dass,  frei;0.6990464839094159
+wiss;dass,  leb;0.6990464839094159
+wiss;frei,  stark;0.6990464839094159
+wiss;leb,  stark;0.6990464839094159
+wiss;stark;0.699642431466031
+wiss;frei,  leb;0.700834326579261
+wiss;frei;0.701430274135876
+stark;terror;0.7019230769230769
+csupt15;merkel;0.7026110545947779
+wiss;leb;0.7050059594755661
+stark;frei,  merkel;0.7072649572649573
+wiss;dass,  merkel;0.7079856972586412
+stark;leb,  merkel;0.7083333333333334
+leb;frei,  merkel;0.708457711442786
+stark;frei;0.7110042735042735
+stark;frei,  leb;0.7110042735042735
+stark;leb;0.7152777777777778
+leb;frei;0.7159203980099502
+wiss;dass;0.7258641239570918
+regierung;merkel;0.7312820512820513
+grenz;merkel;0.7350806451612903
+frei;stark,  terror;0.742579908675799
+frei;merkel,  stark;0.7557077625570776
+fluchtlingskris;merkel;0.7570700046360687
+frei;stark;0.759703196347032
+frei;leb,  stark;0.759703196347032
+muss;merkel;0.7620286085825748
+fluchtlingspolitik;merkel;0.7698646262507357
+frei;merkel,  terror;0.7745433789954338
+frei;leb,  terror;0.7779680365296804
+mal;merkel;0.7780115728563913
+off;merkel;0.7787934186471663
+frei;terror;0.7808219178082192
+frau;merkel;0.7821442197634491
+gibt;merkel;0.7831775700934579
+ganz;merkel;0.7880897138437741
+sagt;merkel;0.7904316172646906
+schaff;merkel;0.7915742793791575
+obergrenz;merkel;0.7984293193717278
+geht;merkel;0.8005952380952381
+schaubl;merkel;0.8011152416356877
+amp;merkel;0.8031844316674038
+anschlag;merkel,  paris;0.8063704945515507
+parisattack;merkel;0.8070766638584668
+frei;leb,  merkel;0.8127853881278538
+wer;merkel;0.8132678132678133
+uns;merkel;0.8158174097664543
+red;merkel;0.8179508890770534
+faz;horst,  lieb;0.8194706994328923
+frei;leb;0.8213470319634704
+land;merkel;0.8235985887887103
+faz;horst,  seehof;0.8251417769376181
+fluchtling;merkel;0.8255771787743261
+faz;horst;0.8279773156899811
+anschlag;paris;0.8281642917015927
+faz;lieb,  seehof;0.8308128544423441
+macht;merkel;0.8319006685768864
+gut;merkel;0.8338129496402877
+deutsch;merkel;0.8362427265170407
+dass;merkel;0.8402085222121487
+faz;lieb;0.8402646502835539
+mehr;merkel;0.8404432132963989
+imm;merkel;0.8415915915915916
+halt;merkel;0.8447789275634995
+faz;seehof;0.8449905482041588
+https;merkel;0.8496571988246817
+islam;merkel;0.850597609561753
+heut;merkel;0.8527794746487477
+beim;merkel;0.853852967227635
+tag;merkel;0.8545636910732196
+wiss;merkel;0.8575685339690108
+stark;merkel;0.8589743589743589
+via;merkel;0.860504920838682
+krieg;merkel;0.8675623800383877
+jahr;merkel;0.8698224852071006
+politik;merkel;0.870954526833265
+europa;merkel;0.8717948717948718
+neu;merkel;0.8732824427480916
+asyl;merkel;0.8734419942473634
+dank;merkel;0.8768166089965398
+paris;merkel;0.8834338214183175
+kanzlerin;merkel;0.8854181456765583
+bundeskanzlerin;merkel;0.8896508728179551
+leb;merkel;0.891542288557214
+gross;merkel;0.9030883919062833
+wasnun;merkel;0.9046497939964685
+gabriel;merkel;0.906951871657754
+terror;merkel;0.9184782608695652
+frei;merkel;0.9218036529680366
+turkei;merkel;0.9411764705882353
+anschlag;merkel;0.9488683989941324
+volk;merkel;0.9642470205850487
+horst;seehof;0.9705882352941176
+deutschland;merkel;0.9740371389270976
+angela;merkel;0.9807402949142341
+afd;merkel;0.9879895561357702
+pegida;merkel;0.9949899799599199
+csu;merkel;0.9994931576279777
+cdu;merkel;0.9996326230712711
+leb,  merkel;wiss;0.65234375
+leb,  merkel;dass;0.6545758928571429
+frei,  leb;kanzlerin;0.6858929812369701
+leb,  stark;kanzlerin;0.6930545182972367
+frei,  stark;kanzlerin;0.6972201352366642
+leb,  terror;kanzlerin;0.702567760342368
+stark,  terror;kanzlerin;0.7047184170471842
+frei,  terror;kanzlerin;0.7200292397660819
+frei,  merkel;wiss;0.7232198142414861
+merkel,  stark;wiss;0.7257462686567164
+frei,  merkel;dass;0.7325077399380805
+leb,  merkel;stark;0.7399553571428571
+dass,  wiss;kanzlerin;0.7561576354679803
+merkel,  stark;dass;0.7618159203980099
+dass,  terror;kanzlerin;0.765195670274771
+dass,  stark;kanzlerin;0.7676848874598071
+dass,  leb;kanzlerin;0.7694235588972431
+dass,  frei;kanzlerin;0.7707112970711297
+leb,  merkel;terror;0.7756696428571429
+leb,  wiss;kanzlerin;0.7785291631445478
+frei,  wiss;kanzlerin;0.7824978759558199
+stark,  wiss;kanzlerin;0.7844974446337308
+merkel,  wiss;terror;0.7922168172341905
+leb,  merkel;frei;0.7946428571428571
+terror,  wiss;kanzlerin;0.7998259355961705
+merkel,  stark;terror;0.8103233830845771
+merkel,  wiss;stark;0.8109798471160529
+merkel,  wiss;frei;0.8116747741487144
+merkel,  wiss;leb;0.812369701181376
+frei,  leb;dass;0.8151494093120223
+leb,  terror;dass;0.8152639087018545
+leb,  terror;wiss;0.8166904422253923
+frei,  leb;wiss;0.817234190410007
+lieb,  seehof;faz;0.8176744186046512
+frei,  merkel;stark;0.8198142414860681
+merkel,  stark;frei;0.8233830845771144
+merkel,  stark;leb;0.8246268656716418
+merkel,  wiss;dass;0.8255733148019458
+frei,  terror;dass;0.8362573099415205
+frei,  terror;wiss;0.8369883040935673
+frei,  merkel;terror;0.8402476780185758
+anschlag,  merkel;paris;0.8498233215547704
+dass,  kanzlerin;terror;0.8564771668219944
+dass,  kanzlerin;frei;0.8583410997204101
+dass,  kanzlerin;leb;0.8583410997204101
+dass,  kanzlerin;wiss;0.8583410997204101
+kanzlerin,  terror;dass;0.8629107981220657
+kanzlerin,  terror;wiss;0.8629107981220657
+stark,  terror;dass;0.8691019786910198
+kanzlerin,  terror;stark;0.8694835680751174
+stark,  terror;wiss;0.8698630136986302
+leb,  stark;dass;0.8745332337565347
+leb,  stark;wiss;0.8760268857356236
+lieb,  seehof;horst;0.8762790697674419
+frei,  stark;dass;0.8797896318557475
+frei,  stark;wiss;0.8812922614575507
+frei,  merkel;leb;0.881733746130031
+dass,  kanzlerin;stark;0.8900279589934762
+kanzlerin,  leb;dass;0.8994140625
+kanzlerin,  leb;wiss;0.8994140625
+kanzlerin,  leb;stark;0.90625
+horst,  lieb;faz;0.9155227032734953
+dass,  stark;terror;0.9180064308681672
+frei,  kanzlerin;dass;0.9219219219219219
+frei,  kanzlerin;wiss;0.9219219219219219
+kanzlerin,  terror;frei;0.9248826291079812
+kanzlerin,  terror;leb;0.9248826291079812
+frei,  leb;stark;0.9249478804725504
+leb,  terror;stark;0.927960057061341
+frei,  kanzlerin;stark;0.928928928928929
+dass,  wiss;terror;0.9384236453201971
+dass,  stark;frei;0.9413183279742765
+dass,  stark;leb;0.9413183279742765
+dass,  stark;wiss;0.9421221864951769
+kanzlerin,  stark;wiss;0.9446153846153846
+frei,  leb;terror;0.9471855455177206
+kanzlerin,  stark;terror;0.9497435897435897
+dass,  terror;stark;0.9508742714404663
+frei,  terror;stark;0.9510233918128655
+dass,  terror;leb;0.951706910907577
+dass,  terror;wiss;0.951706910907577
+kanzlerin,  stark;frei;0.9517948717948718
+kanzlerin,  stark;leb;0.9517948717948718
+dass,  terror;frei;0.9525395503746877
+dass,  leb;terror;0.9548872180451128
+dass,  frei;terror;0.9573221757322176
+kanzlerin,  leb;terror;0.9619140625
+dass,  wiss;stark;0.9622331691297209
+dass,  wiss;frei;0.9630541871921182
+dass,  wiss;leb;0.9630541871921182
+kanzlerin,  leb;frei;0.9638671875
+leb,  wiss;terror;0.9678782755705833
+leb,  stark;terror;0.9716206123973115
+leb,  terror;frei;0.9721825962910129
+frei,  wiss;terror;0.9728122344944775
+stark,  wiss;terror;0.9735945485519591
+anschlag,  paris;merkel;0.9736842105263158
+faz,  lieb;horst;0.9752530933633295
+dass,  wiss;merkel;0.9753694581280788
+faz,  seehof;horst;0.9765100671140939
+frei,  stark;terror;0.9774605559729527
+dass,  leb;stark;0.9782790309106099
+kanzlerin,  stark;dass;0.9794871794871794
+dass,  frei;stark;0.9799163179916318
+dass,  leb;frei;0.9799498746867168
+dass,  leb;merkel;0.9799498746867168
+dass,  leb;wiss;0.9799498746867168
+dass,  frei;leb;0.9815899581589959
+dass,  frei;wiss;0.9815899581589959
+faz,  seehof;lieb;0.9832214765100671
+dass,  terror;merkel;0.984179850124896
+dass,  stark;merkel;0.9847266881028939
+dass,  kanzlerin;merkel;0.9850885368126747
+frei,  kanzlerin;terror;0.985985985985986
+frei,  kanzlerin;leb;0.987987987987988
+leb,  wiss;merkel;0.9881656804733728
+faz,  lieb;seehof;0.9887514060742407
+kanzlerin,  wiss;terror;0.9892357373519914
+frei,  leb;merkel;0.9895760945100764
+faz,  horst;lieb;0.9897260273972602
+dass,  frei;merkel;0.9899581589958159
+stark,  terror;frei;0.9901065449010654
+stark,  terror;leb;0.9901065449010654
+leb,  stark;merkel;0.9902912621359223
+kanzlerin,  wiss;dass;0.9913885898815931
+kanzlerin,  wiss;frei;0.9913885898815931
+kanzlerin,  wiss;leb;0.9913885898815931
+kanzlerin,  wiss;stark;0.9913885898815931
+leb,  terror;merkel;0.9914407988587732
+leb,  wiss;dass;0.9915469146238377
+leb,  wiss;stark;0.9915469146238377
+stark,  terror;merkel;0.9916286149162862
+frei,  terror;merkel;0.9919590643274854
+terror,  wiss;merkel;0.9921671018276762
+frei,  wiss;merkel;0.9923534409515717
+leb,  stark;frei;0.9940253920836445
+stark,  wiss;merkel;0.9940374787052811
+leb,  wiss;frei;0.9940828402366864
+horst,  lieb;seehof;0.9947201689545935
+frei,  stark;merkel;0.994740796393689
+terror,  wiss;dass;0.9947780678851175
+terror,  wiss;stark;0.9947780678851175
+kanzlerin,  terror;merkel;0.9953051643192489
+kanzlerin,  stark;merkel;0.9958974358974358
+frei,  terror;leb;0.9963450292397661
+terror,  wiss;frei;0.9965187119234117
+terror,  wiss;leb;0.9965187119234117
+faz,  horst;seehof;0.9965753424657534
+frei,  wiss;dass;0.9966015293118097
+frei,  wiss;stark;0.9966015293118097
+stark,  wiss;dass;0.9982964224872232
+kanzlerin,  wiss;merkel;0.9989235737351991
+stark,  wiss;frei;0.9991482112436116
+stark,  wiss;leb;0.9991482112436116
+frei,  wiss;leb;0.9991503823279524
+frei,  kanzlerin;merkel;1.0
+frei,  stark;leb;1.0
+kanzlerin,  leb;merkel;1.0

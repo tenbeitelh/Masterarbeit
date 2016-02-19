@@ -1,0 +1,1050 @@
+IF;THEN;CONFIDENCE
+morg;edition46;0.6534653465346535
+morg;edition46,  gefuhlt;0.6534653465346535
+morg;edition46,  jahr;0.6534653465346535
+morg;edition46,  kalend;0.6534653465346535
+morg;edition46,  magazin;0.6534653465346535
+morg;edition46,  pegida;0.6534653465346535
+morg;edition46,  rest;0.6534653465346535
+morg;edition46,  wahrheit;0.6534653465346535
+morg;gefuhlt;0.6534653465346535
+morg;gefuhlt,  jahr;0.6534653465346535
+morg;gefuhlt,  kalend;0.6534653465346535
+morg;gefuhlt,  magazin;0.6534653465346535
+morg;gefuhlt,  pegida;0.6534653465346535
+morg;gefuhlt,  rest;0.6534653465346535
+morg;gefuhlt,  wahrheit;0.6534653465346535
+morg;jahr;0.6534653465346535
+morg;jahr,  kalend;0.6534653465346535
+morg;jahr,  magazin;0.6534653465346535
+morg;jahr,  pegida;0.6534653465346535
+morg;jahr,  rest;0.6534653465346535
+morg;jahr,  wahrheit;0.6534653465346535
+morg;kalend;0.6534653465346535
+morg;kalend,  magazin;0.6534653465346535
+morg;kalend,  pegida;0.6534653465346535
+morg;kalend,  rest;0.6534653465346535
+morg;kalend,  wahrheit;0.6534653465346535
+morg;magazin;0.6534653465346535
+morg;magazin,  pegida;0.6534653465346535
+morg;magazin,  rest;0.6534653465346535
+morg;magazin,  wahrheit;0.6534653465346535
+morg;rest;0.6534653465346535
+morg;pegida,  rest;0.6534653465346535
+morg;wahrheit;0.6534653465346535
+morg;pegida,  wahrheit;0.6534653465346535
+morg;rest,  wahrheit;0.6534653465346535
+verfassungsschutz;beobacht,  pegida;0.6537267080745341
+verfassungsschutz;lass;0.6537267080745341
+verfassungsschutz;lass,  pegida;0.6537267080745341
+verfassungsschutz;beobacht;0.65527950310559
+maas;gobbel;0.6555716353111433
+lass;beobacht,  deutsch;0.65625
+nazis;pegida;0.6587677725118484
+muc0911;nopegida;0.6611479028697572
+dd0911;nopegida;0.6684131736526946
+lass;deutsch;0.6726973684210527
+lass;deutsch,  pegida;0.6726973684210527
+lass;beobacht,  verfassungsschutz;0.6875
+maas;bachmann;0.6903039073806078
+lass;verfassungsschutz;0.6924342105263158
+lass;pegida,  verfassungsschutz;0.6924342105263158
+viel;pegida;0.7017543859649122
+schon;pegida;0.702920443101712
+mal;pegida;0.704136690647482
+lutz;bachmann,  pegida;0.7050938337801609
+hetz;pegida;0.70625
+lass;beobacht;0.7072368421052632
+lass;beobacht,  pegida;0.7072368421052632
+gobbel;bachmann;0.7200956937799043
+polizei;pegida;0.7228070175438597
+gibt;pegida;0.7236614853195165
+leut;pegida;0.7289433384379785
+gut;pegida;0.7298507462686568
+mehr;pegida;0.74860853432282
+kaltland;nopegida;0.7522935779816514
+demo;pegida;0.766
+munch;pegida;0.7691956124314442
+muslim;besorgt,  unt;0.7694235588972431
+muslim;bug,  unt;0.7694235588972431
+muslim;islamist,  unt;0.7694235588972431
+muslim;unt;0.7694235588972431
+muslim;nazi,  unt;0.7694235588972431
+muslim;pegida,  unt;0.7694235588972431
+muslim;unt,  unterscheidet;0.7694235588972431
+muslim;unt,  warum;0.7694235588972431
+muslim;besorgt,  bug;0.7706766917293233
+muslim;besorgt,  nazi;0.7706766917293233
+muslim;besorgt,  unterscheidet;0.7706766917293233
+muslim;besorgt,  warum;0.7706766917293233
+muslim;bug;0.7706766917293233
+muslim;bug,  islamist;0.7706766917293233
+muslim;bug,  nazi;0.7706766917293233
+muslim;bug,  pegida;0.7706766917293233
+muslim;bug,  unterscheidet;0.7706766917293233
+muslim;bug,  warum;0.7706766917293233
+muslim;islamist,  nazi;0.7706766917293233
+muslim;nazi;0.7706766917293233
+muslim;nazi,  pegida;0.7706766917293233
+muslim;nazi,  unterscheidet;0.7706766917293233
+muslim;nazi,  warum;0.7706766917293233
+muslim;besorgt;0.7719298245614035
+muslim;besorgt,  islamist;0.7719298245614035
+muslim;besorgt,  pegida;0.7719298245614035
+muslim;islamist,  unterscheidet;0.7719298245614035
+muslim;islamist,  warum;0.7719298245614035
+muslim;unterscheidet;0.7719298245614035
+muslim;pegida,  unterscheidet;0.7719298245614035
+muslim;unterscheidet,  warum;0.7719298245614035
+muslim;islamist,  pegida;0.7756892230576441
+muslim;islamist;0.7769423558897243
+muslim;warum;0.7769423558897243
+muslim;pegida,  warum;0.7769423558897243
+sachs;pegida;0.7773549000951475
+lugenpress;pegida;0.7791718946047679
+seit;pegida;0.78060413354531
+https;pegida;0.7831513260530422
+lutz;bachmann;0.7855227882037533
+festerling;pegida;0.7868852459016393
+herzstatthetz;nopegida;0.789179104477612
+imm;pegida;0.8
+wahrheit;edition46;0.8006932409012132
+wahrheit;edition46,  gefuhlt;0.8006932409012132
+wahrheit;edition46,  jahr;0.8006932409012132
+wahrheit;edition46,  kalend;0.8006932409012132
+wahrheit;edition46,  magazin;0.8006932409012132
+wahrheit;edition46,  morg;0.8006932409012132
+wahrheit;edition46,  pegida;0.8006932409012132
+wahrheit;edition46,  rest;0.8006932409012132
+wahrheit;gefuhlt,  jahr;0.8006932409012132
+wahrheit;gefuhlt,  kalend;0.8006932409012132
+wahrheit;gefuhlt,  magazin;0.8006932409012132
+wahrheit;gefuhlt,  morg;0.8006932409012132
+wahrheit;gefuhlt,  rest;0.8006932409012132
+wahrheit;jahr,  kalend;0.8006932409012132
+wahrheit;jahr,  magazin;0.8006932409012132
+wahrheit;jahr,  morg;0.8006932409012132
+wahrheit;jahr,  rest;0.8006932409012132
+wahrheit;kalend;0.8006932409012132
+wahrheit;kalend,  magazin;0.8006932409012132
+wahrheit;kalend,  morg;0.8006932409012132
+wahrheit;kalend,  pegida;0.8006932409012132
+wahrheit;kalend,  rest;0.8006932409012132
+wahrheit;magazin;0.8006932409012132
+wahrheit;magazin,  morg;0.8006932409012132
+wahrheit;magazin,  pegida;0.8006932409012132
+wahrheit;magazin,  rest;0.8006932409012132
+wahrheit;morg;0.8006932409012132
+wahrheit;morg,  pegida;0.8006932409012132
+wahrheit;morg,  rest;0.8006932409012132
+wahrheit;pegida,  rest;0.8006932409012132
+wahrheit;rest;0.8006932409012132
+wahrheit;gefuhlt,  pegida;0.8024263431542461
+wahrheit;jahr;0.8024263431542461
+wahrheit;jahr,  pegida;0.8024263431542461
+wahrheit;gefuhlt;0.804159445407279
+refugeeswelcom;nopegida;0.8045454545454546
+gegendemonstrant;pegida;0.812015503875969
+dass;pegida;0.818100358422939
+nazi;pegida;0.818613485280152
+wer;pegida;0.8210262828535669
+burg;pegida;0.8211091234347049
+besorgt;pegida;0.8247524752475247
+maas;pegida;0.8321273516642547
+nonazis;nopegida;0.8360450563204005
+neu;pegida;0.8360957642725598
+novemb;pegida;0.8411016949152542
+uns;pegida;0.8460388639760837
+erst;pegida;0.8534351145038168
+bachmann;pegida;0.8560706401766004
+hass;pegida;0.8571428571428571
+islamist;besorgt,  unt;0.8623595505617978
+islamist;bug,  unt;0.8623595505617978
+islamist;unt;0.8623595505617978
+islamist;muslim,  unt;0.8623595505617978
+islamist;nazi,  unt;0.8623595505617978
+islamist;pegida,  unt;0.8623595505617978
+islamist;unt,  unterscheidet;0.8623595505617978
+islamist;unt,  warum;0.8623595505617978
+islamist;besorgt,  bug;0.8637640449438202
+islamist;besorgt,  nazi;0.8637640449438202
+islamist;besorgt,  unterscheidet;0.8637640449438202
+islamist;besorgt,  warum;0.8637640449438202
+islamist;bug;0.8637640449438202
+islamist;bug,  muslim;0.8637640449438202
+islamist;bug,  nazi;0.8637640449438202
+islamist;bug,  pegida;0.8637640449438202
+islamist;bug,  unterscheidet;0.8637640449438202
+islamist;bug,  warum;0.8637640449438202
+islamist;muslim,  nazi;0.8637640449438202
+islamist;nazi,  unterscheidet;0.8637640449438202
+islamist;nazi,  warum;0.8637640449438202
+gepida;nopegida;0.8641063515509602
+lutz;pegida;0.8646112600536193
+islamist;besorgt,  muslim;0.8651685393258427
+islamist;unterscheidet;0.8651685393258427
+islamist;muslim,  unterscheidet;0.8651685393258427
+islamist;pegida,  unterscheidet;0.8651685393258427
+islamist;warum;0.8651685393258427
+islamist;muslim,  warum;0.8651685393258427
+islamist;pegida,  warum;0.8651685393258427
+islamist;unterscheidet,  warum;0.8651685393258427
+islamist;besorgt;0.8665730337078652
+islamist;besorgt,  pegida;0.8665730337078652
+islamist;nazi,  pegida;0.8665730337078652
+islamist;nazi;0.8679775280898876
+weg;pegida;0.8686868686868687
+islamist;muslim,  pegida;0.8693820224719101
+islamist;muslim;0.8707865168539326
+rest;edition46;0.8716981132075472
+rest;edition46,  gefuhlt;0.8716981132075472
+rest;edition46,  jahr;0.8716981132075472
+rest;edition46,  kalend;0.8716981132075472
+rest;edition46,  magazin;0.8716981132075472
+rest;edition46,  morg;0.8716981132075472
+rest;edition46,  pegida;0.8716981132075472
+rest;edition46,  wahrheit;0.8716981132075472
+rest;gefuhlt,  magazin;0.8716981132075472
+rest;gefuhlt,  morg;0.8716981132075472
+rest;gefuhlt,  wahrheit;0.8716981132075472
+rest;jahr,  magazin;0.8716981132075472
+rest;jahr,  morg;0.8716981132075472
+rest;jahr,  wahrheit;0.8716981132075472
+rest;kalend,  magazin;0.8716981132075472
+rest;kalend,  morg;0.8716981132075472
+rest;kalend,  wahrheit;0.8716981132075472
+rest;magazin;0.8716981132075472
+rest;magazin,  morg;0.8716981132075472
+rest;magazin,  pegida;0.8716981132075472
+rest;magazin,  wahrheit;0.8716981132075472
+rest;morg;0.8716981132075472
+rest;morg,  pegida;0.8716981132075472
+rest;morg,  wahrheit;0.8716981132075472
+rest;pegida,  wahrheit;0.8716981132075472
+rest;wahrheit;0.8716981132075472
+beobacht;deutsch,  lass;0.8730853391684902
+nolegida;nopegida;0.8731942215088283
+rest;gefuhlt;0.8735849056603774
+rest;gefuhlt,  jahr;0.8735849056603774
+rest;gefuhlt,  kalend;0.8735849056603774
+rest;gefuhlt,  pegida;0.8735849056603774
+rest;jahr;0.8735849056603774
+rest;jahr,  kalend;0.8735849056603774
+rest;jahr,  pegida;0.8735849056603774
+rest;kalend;0.8735849056603774
+rest;kalend,  pegida;0.8735849056603774
+fluchtling;pegida;0.8747135217723453
+volk;pegida;0.8772189349112426
+beobacht;deutsch;0.8774617067833698
+beobacht;deutsch,  pegida;0.8774617067833698
+morg;pegida;0.8783592644978784
+via;pegida;0.8837656099903939
+gobbel;pegida;0.8947368421052632
+parisattack;pegida;0.9001751313485113
+theaterplatz;pegida;0.9046653144016227
+wenig;pegida;0.9085923217550275
+gewalt;pegida;0.9089147286821705
+paris;pegida;0.9090909090909091
+dresdn;pegida;0.9094736842105263
+http;pegida;0.9107551487414187
+beobacht;lass,  verfassungsschutz;0.9146608315098468
+beobacht;pegida,  verfassungsschutz;0.9212253829321663
+beobacht;verfassungsschutz;0.9234135667396062
+deutsch;pegida;0.9246519246519247
+lang;pegida;0.9287128712871288
+amp;pegida;0.9313824419778002
+islamist;pegida;0.9325842696629213
+htt;pegida;0.9344262295081968
+ruf;pegida;0.9352226720647774
+jahr;pegida;0.9361702127659575
+wahrheit;pegida;0.9376083188908145
+journalist;pegida;0.9388489208633094
+lass;pegida;0.9407894736842105
+beobacht;lass;0.9409190371991247
+beobacht;lass,  pegida;0.9409190371991247
+unt;besorgt;0.9446153846153846
+unt;besorgt,  bug;0.9446153846153846
+unt;besorgt,  islamist;0.9446153846153846
+unt;besorgt,  muslim;0.9446153846153846
+unt;besorgt,  nazi;0.9446153846153846
+unt;besorgt,  pegida;0.9446153846153846
+unt;besorgt,  unterscheidet;0.9446153846153846
+unt;besorgt,  warum;0.9446153846153846
+unt;bug;0.9446153846153846
+unt;bug,  islamist;0.9446153846153846
+unt;bug,  muslim;0.9446153846153846
+unt;bug,  nazi;0.9446153846153846
+unt;bug,  pegida;0.9446153846153846
+unt;bug,  unterscheidet;0.9446153846153846
+unt;bug,  warum;0.9446153846153846
+unt;islamist;0.9446153846153846
+unt;islamist,  muslim;0.9446153846153846
+unt;islamist,  nazi;0.9446153846153846
+unt;islamist,  pegida;0.9446153846153846
+unt;islamist,  unterscheidet;0.9446153846153846
+unt;islamist,  warum;0.9446153846153846
+unt;muslim;0.9446153846153846
+unt;muslim,  nazi;0.9446153846153846
+unt;muslim,  pegida;0.9446153846153846
+unt;muslim,  unterscheidet;0.9446153846153846
+unt;muslim,  warum;0.9446153846153846
+unt;nazi;0.9446153846153846
+unt;nazi,  pegida;0.9446153846153846
+unt;nazi,  unterscheidet;0.9446153846153846
+unt;nazi,  warum;0.9446153846153846
+unt;pegida,  unterscheidet;0.9446153846153846
+unt;pegida,  warum;0.9446153846153846
+unt;unterscheidet;0.9446153846153846
+unt;warum;0.9446153846153846
+unt;unterscheidet,  warum;0.9446153846153846
+rest;pegida;0.9471698113207547
+warum;pegida;0.9486125385405961
+muslim;pegida;0.9486215538847118
+steh;pegida;0.9553990610328639
+teilnehm;pegida;0.9586305278174037
+chef;pegida;0.9657534246575342
+gefuhlt;edition46;0.9726315789473684
+gefuhlt;edition46,  jahr;0.9726315789473684
+gefuhlt;edition46,  kalend;0.9726315789473684
+gefuhlt;edition46,  magazin;0.9726315789473684
+gefuhlt;edition46,  morg;0.9726315789473684
+gefuhlt;edition46,  pegida;0.9726315789473684
+gefuhlt;edition46,  rest;0.9726315789473684
+gefuhlt;edition46,  wahrheit;0.9726315789473684
+gefuhlt;magazin;0.9726315789473684
+gefuhlt;jahr,  magazin;0.9726315789473684
+gefuhlt;kalend,  magazin;0.9726315789473684
+gefuhlt;morg;0.9726315789473684
+gefuhlt;jahr,  morg;0.9726315789473684
+gefuhlt;kalend,  morg;0.9726315789473684
+gefuhlt;magazin,  morg;0.9726315789473684
+gefuhlt;magazin,  pegida;0.9726315789473684
+gefuhlt;morg,  pegida;0.9726315789473684
+gefuhlt;magazin,  rest;0.9726315789473684
+gefuhlt;morg,  rest;0.9726315789473684
+gefuhlt;jahr,  wahrheit;0.9726315789473684
+gefuhlt;kalend,  wahrheit;0.9726315789473684
+gefuhlt;magazin,  wahrheit;0.9726315789473684
+gefuhlt;morg,  wahrheit;0.9726315789473684
+gefuhlt;rest,  wahrheit;0.9726315789473684
+gefuhlt;jahr;0.9747368421052631
+gefuhlt;kalend;0.9747368421052631
+gefuhlt;jahr,  kalend;0.9747368421052631
+gefuhlt;jahr,  pegida;0.9747368421052631
+gefuhlt;kalend,  pegida;0.9747368421052631
+gefuhlt;rest;0.9747368421052631
+gefuhlt;jahr,  rest;0.9747368421052631
+gefuhlt;kalend,  rest;0.9747368421052631
+gefuhlt;pegida,  rest;0.9747368421052631
+gefuhlt;pegida,  wahrheit;0.9747368421052631
+islam;pegida;0.9754500818330606
+beobacht;pegida;0.975929978118162
+verfassungsschutz;pegida;0.9767080745341615
+gefuhlt;wahrheit;0.9768421052631578
+anhang;pegida;0.9772727272727273
+deutschland;pegida;0.9801801801801802
+unt;pegida;0.9846153846153847
+magazin;edition46;0.9871794871794872
+magazin;edition46,  gefuhlt;0.9871794871794872
+magazin;edition46,  jahr;0.9871794871794872
+magazin;edition46,  kalend;0.9871794871794872
+magazin;edition46,  morg;0.9871794871794872
+magazin;edition46,  pegida;0.9871794871794872
+magazin;edition46,  rest;0.9871794871794872
+magazin;edition46,  wahrheit;0.9871794871794872
+magazin;gefuhlt;0.9871794871794872
+magazin;gefuhlt,  jahr;0.9871794871794872
+magazin;gefuhlt,  kalend;0.9871794871794872
+magazin;gefuhlt,  morg;0.9871794871794872
+magazin;gefuhlt,  pegida;0.9871794871794872
+magazin;gefuhlt,  rest;0.9871794871794872
+magazin;gefuhlt,  wahrheit;0.9871794871794872
+magazin;jahr;0.9871794871794872
+magazin;jahr,  kalend;0.9871794871794872
+magazin;jahr,  morg;0.9871794871794872
+magazin;jahr,  pegida;0.9871794871794872
+magazin;jahr,  rest;0.9871794871794872
+magazin;jahr,  wahrheit;0.9871794871794872
+magazin;kalend,  morg;0.9871794871794872
+magazin;kalend,  rest;0.9871794871794872
+magazin;kalend,  wahrheit;0.9871794871794872
+magazin;morg;0.9871794871794872
+magazin;morg,  pegida;0.9871794871794872
+magazin;rest;0.9871794871794872
+magazin;morg,  rest;0.9871794871794872
+magazin;pegida,  rest;0.9871794871794872
+magazin;wahrheit;0.9871794871794872
+magazin;morg,  wahrheit;0.9871794871794872
+magazin;pegida,  wahrheit;0.9871794871794872
+magazin;rest,  wahrheit;0.9871794871794872
+kalend;edition46;0.9892933618843683
+kalend;edition46,  gefuhlt;0.9892933618843683
+kalend;edition46,  jahr;0.9892933618843683
+kalend;edition46,  magazin;0.9892933618843683
+kalend;edition46,  morg;0.9892933618843683
+kalend;edition46,  pegida;0.9892933618843683
+kalend;edition46,  rest;0.9892933618843683
+kalend;edition46,  wahrheit;0.9892933618843683
+kalend;gefuhlt,  magazin;0.9892933618843683
+kalend;gefuhlt,  morg;0.9892933618843683
+kalend;gefuhlt,  wahrheit;0.9892933618843683
+kalend;jahr,  magazin;0.9892933618843683
+kalend;jahr,  morg;0.9892933618843683
+kalend;jahr,  wahrheit;0.9892933618843683
+kalend;morg;0.9892933618843683
+kalend;magazin,  morg;0.9892933618843683
+kalend;morg,  pegida;0.9892933618843683
+kalend;magazin,  rest;0.9892933618843683
+kalend;morg,  rest;0.9892933618843683
+kalend;wahrheit;0.9892933618843683
+kalend;magazin,  wahrheit;0.9892933618843683
+kalend;morg,  wahrheit;0.9892933618843683
+kalend;pegida,  wahrheit;0.9892933618843683
+kalend;rest,  wahrheit;0.9892933618843683
+magazin;kalend;0.9893162393162394
+magazin;kalend,  pegida;0.9893162393162394
+unterscheidet;besorgt,  unt;0.9903225806451613
+unterscheidet;bug,  unt;0.9903225806451613
+unterscheidet;islamist,  unt;0.9903225806451613
+unterscheidet;muslim,  unt;0.9903225806451613
+unterscheidet;nazi,  unt;0.9903225806451613
+unterscheidet;pegida,  unt;0.9903225806451613
+unterscheidet;unt;0.9903225806451613
+unterscheidet;unt,  warum;0.9903225806451613
+kalend;gefuhlt;0.9914346895074947
+kalend;gefuhlt,  jahr;0.9914346895074947
+kalend;gefuhlt,  pegida;0.9914346895074947
+kalend;gefuhlt,  rest;0.9914346895074947
+kalend;jahr,  rest;0.9914346895074947
+kalend;magazin;0.9914346895074947
+kalend;magazin,  pegida;0.9914346895074947
+kalend;rest;0.9914346895074947
+kalend;pegida,  rest;0.9914346895074947
+gefuhlt;pegida;0.991578947368421
+unterscheidet;besorgt;0.9919354838709677
+unterscheidet;besorgt,  bug;0.9919354838709677
+unterscheidet;besorgt,  islamist;0.9919354838709677
+unterscheidet;besorgt,  muslim;0.9919354838709677
+unterscheidet;besorgt,  nazi;0.9919354838709677
+unterscheidet;besorgt,  pegida;0.9919354838709677
+unterscheidet;besorgt,  warum;0.9919354838709677
+unterscheidet;bug;0.9919354838709677
+unterscheidet;bug,  islamist;0.9919354838709677
+unterscheidet;bug,  muslim;0.9919354838709677
+unterscheidet;bug,  nazi;0.9919354838709677
+unterscheidet;bug,  pegida;0.9919354838709677
+unterscheidet;bug,  warum;0.9919354838709677
+unterscheidet;islamist,  nazi;0.9919354838709677
+unterscheidet;muslim,  nazi;0.9919354838709677
+unterscheidet;nazi;0.9919354838709677
+unterscheidet;nazi,  pegida;0.9919354838709677
+unterscheidet;nazi,  warum;0.9919354838709677
+unterscheidet;islamist;0.9935483870967742
+unterscheidet;islamist,  muslim;0.9935483870967742
+unterscheidet;islamist,  pegida;0.9935483870967742
+unterscheidet;islamist,  warum;0.9935483870967742
+unterscheidet;muslim;0.9935483870967742
+unterscheidet;muslim,  pegida;0.9935483870967742
+unterscheidet;muslim,  warum;0.9935483870967742
+unterscheidet;pegida,  warum;0.9935483870967742
+unterscheidet;warum;0.9935483870967742
+kalend;jahr;0.9957173447537473
+kalend;jahr,  pegida;0.9957173447537473
+magazin;pegida;0.9957264957264957
+bug;besorgt,  unt;0.9967532467532467
+bug;unt;0.9967532467532467
+bug;islamist,  unt;0.9967532467532467
+bug;muslim,  unt;0.9967532467532467
+bug;nazi,  unt;0.9967532467532467
+bug;pegida,  unt;0.9967532467532467
+bug;unt,  unterscheidet;0.9967532467532467
+bug;unt,  warum;0.9967532467532467
+unterscheidet;pegida;0.9967741935483871
+kalend;pegida;0.9978586723768736
+bug;besorgt,  islamist;0.9983766233766234
+bug;besorgt,  muslim;0.9983766233766234
+bug;besorgt,  nazi;0.9983766233766234
+bug;besorgt,  pegida;0.9983766233766234
+bug;besorgt,  unterscheidet;0.9983766233766234
+bug;besorgt,  warum;0.9983766233766234
+bug;islamist;0.9983766233766234
+bug;muslim;0.9983766233766234
+bug;islamist,  muslim;0.9983766233766234
+bug;nazi;0.9983766233766234
+bug;islamist,  nazi;0.9983766233766234
+bug;muslim,  nazi;0.9983766233766234
+bug;pegida;0.9983766233766234
+bug;islamist,  pegida;0.9983766233766234
+bug;muslim,  pegida;0.9983766233766234
+bug;nazi,  pegida;0.9983766233766234
+bug;unterscheidet;0.9983766233766234
+bug;islamist,  unterscheidet;0.9983766233766234
+bug;muslim,  unterscheidet;0.9983766233766234
+bug;nazi,  unterscheidet;0.9983766233766234
+bug;pegida,  unterscheidet;0.9983766233766234
+bug;warum;0.9983766233766234
+bug;islamist,  warum;0.9983766233766234
+bug;muslim,  warum;0.9983766233766234
+bug;nazi,  warum;0.9983766233766234
+bug;pegida,  warum;0.9983766233766234
+bug;unterscheidet,  warum;0.9983766233766234
+bug;besorgt;1.0
+edition46;gefuhlt;1.0
+edition46;jahr;1.0
+edition46;gefuhlt,  jahr;1.0
+edition46;kalend;1.0
+edition46;gefuhlt,  kalend;1.0
+edition46;jahr,  kalend;1.0
+edition46;magazin;1.0
+edition46;gefuhlt,  magazin;1.0
+edition46;jahr,  magazin;1.0
+edition46;kalend,  magazin;1.0
+edition46;morg;1.0
+edition46;gefuhlt,  morg;1.0
+edition46;jahr,  morg;1.0
+edition46;kalend,  morg;1.0
+edition46;magazin,  morg;1.0
+edition46;pegida;1.0
+edition46;gefuhlt,  pegida;1.0
+edition46;jahr,  pegida;1.0
+edition46;kalend,  pegida;1.0
+edition46;magazin,  pegida;1.0
+edition46;morg,  pegida;1.0
+edition46;rest;1.0
+edition46;gefuhlt,  rest;1.0
+edition46;jahr,  rest;1.0
+edition46;kalend,  rest;1.0
+edition46;magazin,  rest;1.0
+edition46;morg,  rest;1.0
+edition46;pegida,  rest;1.0
+edition46;wahrheit;1.0
+edition46;gefuhlt,  wahrheit;1.0
+edition46;jahr,  wahrheit;1.0
+edition46;kalend,  wahrheit;1.0
+edition46;magazin,  wahrheit;1.0
+edition46;morg,  wahrheit;1.0
+edition46;pegida,  wahrheit;1.0
+edition46;rest,  wahrheit;1.0
+kulturgeschicht;pegida;1.0
+pegida,  verfassungsschutz;deutsch;0.6550079491255962
+pegida,  warum;unt;0.6652221018418202
+pegida,  warum;bug;0.6663055254604551
+pegida,  warum;besorgt;0.66738894907909
+pegida,  warum;islamist;0.66738894907909
+pegida,  warum;unterscheidet;0.66738894907909
+pegida,  warum;nazi;0.6684723726977249
+pegida,  verfassungsschutz;beobacht;0.6693163751987281
+pegida,  verfassungsschutz;lass;0.6693163751987281
+pegida,  warum;muslim;0.6717226435536294
+nazi,  pegida;unt;0.7122969837587007
+gobbel,  pegida;bachmann;0.7125668449197861
+nazi,  pegida;bug;0.7134570765661253
+nazi,  pegida;muslim;0.7134570765661253
+nazi,  pegida;unterscheidet;0.7134570765661253
+lass,  pegida;deutsch;0.715034965034965
+nazi,  pegida;besorgt;0.7157772621809745
+nazi,  pegida;islamist;0.7157772621809745
+nazi,  pegida;warum;0.7157772621809745
+lass,  pegida;verfassungsschutz;0.736013986013986
+besorgt,  pegida;unt;0.737094837935174
+besorgt,  pegida;bug;0.7382953181272509
+besorgt,  pegida;unterscheidet;0.7382953181272509
+besorgt,  pegida;muslim;0.7394957983193278
+besorgt,  pegida;warum;0.7394957983193278
+besorgt,  pegida;islamist;0.7406962785114045
+besorgt,  pegida;nazi;0.7406962785114045
+morg,  pegida;edition46;0.7439613526570048
+morg,  pegida;gefuhlt;0.7439613526570048
+morg,  pegida;jahr;0.7439613526570048
+morg,  pegida;kalend;0.7439613526570048
+morg,  pegida;magazin;0.7439613526570048
+morg,  pegida;rest;0.7439613526570048
+morg,  pegida;wahrheit;0.7439613526570048
+lass,  pegida;beobacht;0.7517482517482518
+muslim,  pegida;unt;0.8110964332892999
+muslim,  pegida;bug;0.8124174372523117
+muslim,  pegida;nazi;0.8124174372523117
+muslim,  pegida;besorgt;0.8137384412153237
+muslim,  pegida;unterscheidet;0.8137384412153237
+lutz,  pegida;bachmann;0.8155038759689922
+muslim,  pegida;islamist;0.8177014531043593
+muslim,  pegida;warum;0.8190224570673712
+pegida,  wahrheit;edition46;0.8539741219963032
+pegida,  wahrheit;kalend;0.8539741219963032
+pegida,  wahrheit;magazin;0.8539741219963032
+pegida,  wahrheit;morg;0.8539741219963032
+pegida,  wahrheit;rest;0.8539741219963032
+pegida,  wahrheit;gefuhlt;0.8558225508317929
+pegida,  wahrheit;jahr;0.8558225508317929
+bachmann,  gobbel;pegida;0.8853820598006644
+bachmann,  lutz;pegida;0.8976109215017065
+beobacht,  pegida;deutsch;0.899103139013453
+pegida,  rest;edition46;0.9203187250996016
+pegida,  rest;magazin;0.9203187250996016
+pegida,  rest;morg;0.9203187250996016
+pegida,  rest;wahrheit;0.9203187250996016
+pegida,  rest;gefuhlt;0.9223107569721115
+pegida,  rest;jahr;0.9223107569721115
+pegida,  rest;kalend;0.9223107569721115
+islamist,  pegida;unt;0.9246987951807228
+islamist,  pegida;bug;0.9262048192771084
+islamist,  pegida;unterscheidet;0.927710843373494
+islamist,  pegida;warum;0.927710843373494
+beobacht,  lass;deutsch;0.9279069767441861
+islamist,  pegida;besorgt;0.9292168674698795
+islamist,  pegida;nazi;0.9292168674698795
+islamist,  pegida;muslim;0.9322289156626506
+beobacht,  pegida;verfassungsschutz;0.9439461883408071
+pegida,  unt;besorgt;0.959375
+pegida,  unt;bug;0.959375
+pegida,  unt;islamist;0.959375
+pegida,  unt;muslim;0.959375
+pegida,  unt;nazi;0.959375
+pegida,  unt;unterscheidet;0.959375
+pegida,  unt;warum;0.959375
+beobacht,  pegida;lass;0.9641255605381166
+beobacht,  lass;verfassungsschutz;0.9720930232558139
+deutsch,  lass;beobacht;0.9755501222493888
+gefuhlt,  pegida;edition46;0.9808917197452229
+gefuhlt,  pegida;magazin;0.9808917197452229
+gefuhlt,  pegida;morg;0.9808917197452229
+gefuhlt,  pegida;jahr;0.9830148619957537
+gefuhlt,  pegida;kalend;0.9830148619957537
+gefuhlt,  pegida;rest;0.9830148619957537
+gefuhlt,  pegida;wahrheit;0.9830148619957537
+besorgt,  nazi;unt;0.9903225806451613
+islamist,  muslim;unt;0.9903225806451613
+muslim,  warum;unt;0.9903225806451613
+beobacht,  verfassungsschutz;lass;0.990521327014218
+kalend,  pegida;edition46;0.9914163090128756
+magazin,  pegida;edition46;0.9914163090128756
+magazin,  pegida;gefuhlt;0.9914163090128756
+magazin,  pegida;jahr;0.9914163090128756
+kalend,  pegida;morg;0.9914163090128756
+kalend,  pegida;wahrheit;0.9914163090128756
+magazin,  pegida;morg;0.9914163090128756
+magazin,  pegida;rest;0.9914163090128756
+magazin,  pegida;wahrheit;0.9914163090128756
+besorgt,  nazi;bug;0.9919354838709677
+besorgt,  nazi;islamist;0.9919354838709677
+besorgt,  nazi;muslim;0.9919354838709677
+besorgt,  nazi;unterscheidet;0.9919354838709677
+muslim,  warum;besorgt;0.9919354838709677
+besorgt,  nazi;warum;0.9919354838709677
+islamist,  muslim;bug;0.9919354838709677
+muslim,  warum;bug;0.9919354838709677
+islamist,  muslim;nazi;0.9919354838709677
+muslim,  warum;nazi;0.9919354838709677
+lass,  verfassungsschutz;beobacht;0.9928741092636579
+islamist,  nazi;unt;0.9935275080906149
+pegida,  unterscheidet;unt;0.9935275080906149
+islamist,  muslim;besorgt;0.9935483870967742
+jahr,  kalend;edition46;0.9935483870967742
+islamist,  muslim;unterscheidet;0.9935483870967742
+muslim,  warum;islamist;0.9935483870967742
+islamist,  muslim;warum;0.9935483870967742
+jahr,  kalend;magazin;0.9935483870967742
+jahr,  kalend;morg;0.9935483870967742
+jahr,  kalend;wahrheit;0.9935483870967742
+muslim,  warum;unterscheidet;0.9935483870967742
+kalend,  pegida;gefuhlt;0.9935622317596566
+magazin,  pegida;kalend;0.9935622317596566
+kalend,  pegida;magazin;0.9935622317596566
+kalend,  pegida;rest;0.9935622317596566
+beobacht,  deutsch;lass;0.9950124688279302
+besorgt,  islamist;unt;0.9951377633711507
+nazi,  warum;unt;0.9951377633711507
+islamist,  nazi;besorgt;0.9951456310679612
+pegida,  unterscheidet;besorgt;0.9951456310679612
+islamist,  nazi;bug;0.9951456310679612
+pegida,  unterscheidet;bug;0.9951456310679612
+islamist,  nazi;muslim;0.9951456310679612
+islamist,  nazi;unterscheidet;0.9951456310679612
+islamist,  nazi;warum;0.9951456310679612
+pegida,  unterscheidet;nazi;0.9951456310679612
+besorgt,  nazi;pegida;0.9951612903225806
+gefuhlt,  wahrheit;edition46;0.9956896551724138
+gefuhlt,  wahrheit;jahr;0.9956896551724138
+gefuhlt,  wahrheit;kalend;0.9956896551724138
+gefuhlt,  wahrheit;magazin;0.9956896551724138
+gefuhlt,  wahrheit;morg;0.9956896551724138
+gefuhlt,  wahrheit;rest;0.9956896551724138
+jahr,  kalend;gefuhlt;0.9956989247311828
+jahr,  kalend;rest;0.9956989247311828
+besorgt,  bug;unt;0.9967532467532467
+besorgt,  muslim;unt;0.9967532467532467
+besorgt,  warum;unt;0.9967532467532467
+islamist,  unterscheidet;unt;0.9967532467532467
+islamist,  warum;unt;0.9967532467532467
+muslim,  unterscheidet;unt;0.9967532467532467
+unterscheidet,  warum;unt;0.9967532467532467
+besorgt,  islamist;bug;0.9967585089141004
+besorgt,  islamist;nazi;0.9967585089141004
+besorgt,  islamist;unterscheidet;0.9967585089141004
+besorgt,  islamist;warum;0.9967585089141004
+nazi,  warum;besorgt;0.9967585089141004
+nazi,  warum;bug;0.9967585089141004
+nazi,  warum;islamist;0.9967585089141004
+nazi,  warum;muslim;0.9967585089141004
+nazi,  warum;unterscheidet;0.9967585089141004
+pegida,  unterscheidet;islamist;0.9967637540453075
+pegida,  unterscheidet;muslim;0.9967637540453075
+pegida,  unterscheidet;warum;0.9967637540453075
+beobacht,  verfassungsschutz;pegida;0.9976303317535545
+gefuhlt,  jahr;edition46;0.9978401727861771
+gefuhlt,  kalend;edition46;0.9978401727861771
+kalend,  magazin;edition46;0.9978401727861771
+gefuhlt,  rest;edition46;0.9978401727861771
+jahr,  rest;edition46;0.9978401727861771
+kalend,  rest;edition46;0.9978401727861771
+jahr,  wahrheit;edition46;0.9978401727861771
+gefuhlt,  jahr;magazin;0.9978401727861771
+kalend,  magazin;gefuhlt;0.9978401727861771
+gefuhlt,  kalend;magazin;0.9978401727861771
+gefuhlt,  jahr;morg;0.9978401727861771
+gefuhlt,  kalend;morg;0.9978401727861771
+gefuhlt,  rest;magazin;0.9978401727861771
+gefuhlt,  rest;morg;0.9978401727861771
+jahr,  wahrheit;gefuhlt;0.9978401727861771
+gefuhlt,  jahr;wahrheit;0.9978401727861771
+gefuhlt,  kalend;wahrheit;0.9978401727861771
+gefuhlt,  rest;wahrheit;0.9978401727861771
+kalend,  magazin;jahr;0.9978401727861771
+jahr,  rest;magazin;0.9978401727861771
+jahr,  rest;morg;0.9978401727861771
+jahr,  wahrheit;kalend;0.9978401727861771
+jahr,  wahrheit;magazin;0.9978401727861771
+jahr,  wahrheit;morg;0.9978401727861771
+jahr,  wahrheit;rest;0.9978401727861771
+jahr,  rest;wahrheit;0.9978401727861771
+kalend,  magazin;morg;0.9978401727861771
+kalend,  rest;magazin;0.9978401727861771
+kalend,  magazin;rest;0.9978401727861771
+kalend,  rest;morg;0.9978401727861771
+kalend,  magazin;wahrheit;0.9978401727861771
+kalend,  rest;wahrheit;0.9978401727861771
+gefuhlt,  wahrheit;pegida;0.9978448275862069
+kalend,  pegida;jahr;0.9978540772532188
+besorgt,  unterscheidet;unt;0.9983739837398374
+bug,  islamist;unt;0.9983739837398374
+bug,  muslim;unt;0.9983739837398374
+bug,  nazi;unt;0.9983739837398374
+bug,  pegida;unt;0.9983739837398374
+bug,  unterscheidet;unt;0.9983739837398374
+bug,  warum;unt;0.9983739837398374
+muslim,  nazi;unt;0.9983739837398374
+nazi,  unterscheidet;unt;0.9983739837398374
+besorgt,  bug;islamist;0.9983766233766234
+besorgt,  muslim;bug;0.9983766233766234
+besorgt,  bug;muslim;0.9983766233766234
+besorgt,  bug;nazi;0.9983766233766234
+besorgt,  muslim;nazi;0.9983766233766234
+besorgt,  bug;pegida;0.9983766233766234
+besorgt,  bug;unterscheidet;0.9983766233766234
+islamist,  unterscheidet;besorgt;0.9983766233766234
+muslim,  unterscheidet;besorgt;0.9983766233766234
+besorgt,  muslim;unterscheidet;0.9983766233766234
+besorgt,  warum;bug;0.9983766233766234
+besorgt,  bug;warum;0.9983766233766234
+islamist,  warum;besorgt;0.9983766233766234
+besorgt,  warum;islamist;0.9983766233766234
+besorgt,  warum;muslim;0.9983766233766234
+besorgt,  muslim;warum;0.9983766233766234
+besorgt,  warum;nazi;0.9983766233766234
+unterscheidet,  warum;besorgt;0.9983766233766234
+besorgt,  warum;unterscheidet;0.9983766233766234
+islamist,  unterscheidet;bug;0.9983766233766234
+muslim,  unterscheidet;bug;0.9983766233766234
+islamist,  warum;bug;0.9983766233766234
+unterscheidet,  warum;bug;0.9983766233766234
+islamist,  unterscheidet;nazi;0.9983766233766234
+islamist,  warum;nazi;0.9983766233766234
+muslim,  unterscheidet;nazi;0.9983766233766234
+unterscheidet,  warum;nazi;0.9983766233766234
+besorgt,  islamist;muslim;0.9983792544570502
+islamist,  nazi;pegida;0.9983818770226537
+islamist,  muslim;pegida;0.9983870967741936
+beobacht,  deutsch;pegida;1.0
+beobacht,  lass;pegida;1.0
+bug,  islamist;besorgt;1.0
+bug,  muslim;besorgt;1.0
+besorgt,  muslim;islamist;1.0
+bug,  nazi;besorgt;1.0
+muslim,  nazi;besorgt;1.0
+bug,  pegida;besorgt;1.0
+besorgt,  islamist;pegida;1.0
+besorgt,  muslim;pegida;1.0
+bug,  unt;besorgt;1.0
+besorgt,  unt;bug;1.0
+islamist,  unt;besorgt;1.0
+besorgt,  unt;islamist;1.0
+muslim,  unt;besorgt;1.0
+besorgt,  unt;muslim;1.0
+nazi,  unt;besorgt;1.0
+besorgt,  unt;nazi;1.0
+besorgt,  unt;pegida;1.0
+bug,  unterscheidet;besorgt;1.0
+besorgt,  unterscheidet;bug;1.0
+besorgt,  unterscheidet;islamist;1.0
+besorgt,  unterscheidet;muslim;1.0
+nazi,  unterscheidet;besorgt;1.0
+besorgt,  unterscheidet;nazi;1.0
+besorgt,  unterscheidet;pegida;1.0
+unt,  unterscheidet;besorgt;1.0
+besorgt,  unt;unterscheidet;1.0
+bug,  warum;besorgt;1.0
+besorgt,  warum;pegida;1.0
+unt,  warum;besorgt;1.0
+besorgt,  unt;warum;1.0
+besorgt,  unterscheidet;warum;1.0
+bug,  muslim;islamist;1.0
+bug,  islamist;muslim;1.0
+bug,  nazi;islamist;1.0
+bug,  islamist;nazi;1.0
+muslim,  nazi;bug;1.0
+bug,  nazi;muslim;1.0
+bug,  muslim;nazi;1.0
+bug,  pegida;islamist;1.0
+bug,  islamist;pegida;1.0
+bug,  pegida;muslim;1.0
+bug,  muslim;pegida;1.0
+bug,  pegida;nazi;1.0
+bug,  nazi;pegida;1.0
+islamist,  unt;bug;1.0
+bug,  unt;islamist;1.0
+muslim,  unt;bug;1.0
+bug,  unt;muslim;1.0
+nazi,  unt;bug;1.0
+bug,  unt;nazi;1.0
+bug,  unt;pegida;1.0
+bug,  unterscheidet;islamist;1.0
+bug,  islamist;unterscheidet;1.0
+bug,  unterscheidet;muslim;1.0
+bug,  muslim;unterscheidet;1.0
+nazi,  unterscheidet;bug;1.0
+bug,  unterscheidet;nazi;1.0
+bug,  nazi;unterscheidet;1.0
+bug,  unterscheidet;pegida;1.0
+bug,  pegida;unterscheidet;1.0
+unt,  unterscheidet;bug;1.0
+bug,  unt;unterscheidet;1.0
+bug,  warum;islamist;1.0
+bug,  islamist;warum;1.0
+bug,  warum;muslim;1.0
+bug,  muslim;warum;1.0
+bug,  warum;nazi;1.0
+bug,  nazi;warum;1.0
+bug,  warum;pegida;1.0
+bug,  pegida;warum;1.0
+unt,  warum;bug;1.0
+bug,  unt;warum;1.0
+bug,  warum;unterscheidet;1.0
+bug,  unterscheidet;warum;1.0
+deutsch,  lass;pegida;1.0
+deutsch,  verfassungsschutz;pegida;1.0
+edition46,  jahr;gefuhlt;1.0
+edition46,  gefuhlt;jahr;1.0
+edition46,  kalend;gefuhlt;1.0
+edition46,  gefuhlt;kalend;1.0
+edition46,  kalend;jahr;1.0
+edition46,  jahr;kalend;1.0
+gefuhlt,  magazin;edition46;1.0
+edition46,  magazin;gefuhlt;1.0
+edition46,  gefuhlt;magazin;1.0
+jahr,  magazin;edition46;1.0
+edition46,  magazin;jahr;1.0
+edition46,  jahr;magazin;1.0
+edition46,  magazin;kalend;1.0
+edition46,  kalend;magazin;1.0
+gefuhlt,  morg;edition46;1.0
+edition46,  morg;gefuhlt;1.0
+edition46,  gefuhlt;morg;1.0
+jahr,  morg;edition46;1.0
+edition46,  morg;jahr;1.0
+edition46,  jahr;morg;1.0
+kalend,  morg;edition46;1.0
+edition46,  morg;kalend;1.0
+edition46,  kalend;morg;1.0
+magazin,  morg;edition46;1.0
+edition46,  morg;magazin;1.0
+edition46,  magazin;morg;1.0
+edition46,  pegida;gefuhlt;1.0
+edition46,  gefuhlt;pegida;1.0
+edition46,  pegida;jahr;1.0
+edition46,  jahr;pegida;1.0
+edition46,  pegida;kalend;1.0
+edition46,  kalend;pegida;1.0
+edition46,  pegida;magazin;1.0
+edition46,  magazin;pegida;1.0
+edition46,  pegida;morg;1.0
+edition46,  morg;pegida;1.0
+edition46,  rest;gefuhlt;1.0
+edition46,  gefuhlt;rest;1.0
+edition46,  rest;jahr;1.0
+edition46,  jahr;rest;1.0
+edition46,  rest;kalend;1.0
+edition46,  kalend;rest;1.0
+magazin,  rest;edition46;1.0
+edition46,  rest;magazin;1.0
+edition46,  magazin;rest;1.0
+morg,  rest;edition46;1.0
+edition46,  rest;morg;1.0
+edition46,  morg;rest;1.0
+edition46,  rest;pegida;1.0
+edition46,  pegida;rest;1.0
+edition46,  wahrheit;gefuhlt;1.0
+edition46,  gefuhlt;wahrheit;1.0
+edition46,  wahrheit;jahr;1.0
+edition46,  jahr;wahrheit;1.0
+kalend,  wahrheit;edition46;1.0
+edition46,  wahrheit;kalend;1.0
+edition46,  kalend;wahrheit;1.0
+magazin,  wahrheit;edition46;1.0
+edition46,  wahrheit;magazin;1.0
+edition46,  magazin;wahrheit;1.0
+morg,  wahrheit;edition46;1.0
+edition46,  wahrheit;morg;1.0
+edition46,  morg;wahrheit;1.0
+edition46,  wahrheit;pegida;1.0
+edition46,  pegida;wahrheit;1.0
+rest,  wahrheit;edition46;1.0
+edition46,  wahrheit;rest;1.0
+edition46,  rest;wahrheit;1.0
+gefuhlt,  kalend;jahr;1.0
+gefuhlt,  jahr;kalend;1.0
+jahr,  magazin;gefuhlt;1.0
+gefuhlt,  magazin;jahr;1.0
+gefuhlt,  magazin;kalend;1.0
+jahr,  morg;gefuhlt;1.0
+gefuhlt,  morg;jahr;1.0
+kalend,  morg;gefuhlt;1.0
+gefuhlt,  morg;kalend;1.0
+magazin,  morg;gefuhlt;1.0
+gefuhlt,  morg;magazin;1.0
+gefuhlt,  magazin;morg;1.0
+gefuhlt,  jahr;pegida;1.0
+gefuhlt,  kalend;pegida;1.0
+gefuhlt,  magazin;pegida;1.0
+gefuhlt,  morg;pegida;1.0
+jahr,  rest;gefuhlt;1.0
+gefuhlt,  rest;jahr;1.0
+gefuhlt,  jahr;rest;1.0
+kalend,  rest;gefuhlt;1.0
+gefuhlt,  rest;kalend;1.0
+gefuhlt,  kalend;rest;1.0
+magazin,  rest;gefuhlt;1.0
+gefuhlt,  magazin;rest;1.0
+morg,  rest;gefuhlt;1.0
+gefuhlt,  morg;rest;1.0
+gefuhlt,  rest;pegida;1.0
+kalend,  wahrheit;gefuhlt;1.0
+magazin,  wahrheit;gefuhlt;1.0
+gefuhlt,  magazin;wahrheit;1.0
+morg,  wahrheit;gefuhlt;1.0
+gefuhlt,  morg;wahrheit;1.0
+rest,  wahrheit;gefuhlt;1.0
+muslim,  nazi;islamist;1.0
+muslim,  unt;islamist;1.0
+islamist,  unt;muslim;1.0
+nazi,  unt;islamist;1.0
+islamist,  unt;nazi;1.0
+islamist,  unt;pegida;1.0
+muslim,  unterscheidet;islamist;1.0
+islamist,  unterscheidet;muslim;1.0
+nazi,  unterscheidet;islamist;1.0
+islamist,  unterscheidet;pegida;1.0
+unt,  unterscheidet;islamist;1.0
+islamist,  unt;unterscheidet;1.0
+islamist,  warum;muslim;1.0
+islamist,  warum;pegida;1.0
+unt,  warum;islamist;1.0
+islamist,  unt;warum;1.0
+unterscheidet,  warum;islamist;1.0
+islamist,  warum;unterscheidet;1.0
+islamist,  unterscheidet;warum;1.0
+jahr,  magazin;kalend;1.0
+kalend,  morg;jahr;1.0
+jahr,  morg;kalend;1.0
+magazin,  morg;jahr;1.0
+jahr,  morg;magazin;1.0
+jahr,  magazin;morg;1.0
+jahr,  kalend;pegida;1.0
+jahr,  magazin;pegida;1.0
+jahr,  morg;pegida;1.0
+kalend,  rest;jahr;1.0
+jahr,  rest;kalend;1.0
+magazin,  rest;jahr;1.0
+jahr,  magazin;rest;1.0
+morg,  rest;jahr;1.0
+jahr,  morg;rest;1.0
+jahr,  rest;pegida;1.0
+kalend,  wahrheit;jahr;1.0
+magazin,  wahrheit;jahr;1.0
+jahr,  magazin;wahrheit;1.0
+morg,  wahrheit;jahr;1.0
+jahr,  morg;wahrheit;1.0
+jahr,  wahrheit;pegida;1.0
+rest,  wahrheit;jahr;1.0
+magazin,  morg;kalend;1.0
+kalend,  morg;magazin;1.0
+kalend,  magazin;pegida;1.0
+kalend,  morg;pegida;1.0
+magazin,  rest;kalend;1.0
+morg,  rest;kalend;1.0
+kalend,  morg;rest;1.0
+kalend,  rest;pegida;1.0
+magazin,  wahrheit;kalend;1.0
+kalend,  wahrheit;magazin;1.0
+morg,  wahrheit;kalend;1.0
+kalend,  wahrheit;morg;1.0
+kalend,  morg;wahrheit;1.0
+kalend,  wahrheit;pegida;1.0
+rest,  wahrheit;kalend;1.0
+kalend,  wahrheit;rest;1.0
+lass,  verfassungsschutz;pegida;1.0
+magazin,  morg;pegida;1.0
+morg,  rest;magazin;1.0
+magazin,  rest;morg;1.0
+magazin,  morg;rest;1.0
+magazin,  rest;pegida;1.0
+morg,  wahrheit;magazin;1.0
+magazin,  wahrheit;morg;1.0
+magazin,  morg;wahrheit;1.0
+magazin,  wahrheit;pegida;1.0
+rest,  wahrheit;magazin;1.0
+magazin,  wahrheit;rest;1.0
+magazin,  rest;wahrheit;1.0
+morg,  rest;pegida;1.0
+morg,  wahrheit;pegida;1.0
+rest,  wahrheit;morg;1.0
+morg,  wahrheit;rest;1.0
+morg,  rest;wahrheit;1.0
+muslim,  nazi;pegida;1.0
+nazi,  unt;muslim;1.0
+muslim,  unt;nazi;1.0
+muslim,  unt;pegida;1.0
+nazi,  unterscheidet;muslim;1.0
+muslim,  nazi;unterscheidet;1.0
+muslim,  unterscheidet;pegida;1.0
+unt,  unterscheidet;muslim;1.0
+muslim,  unt;unterscheidet;1.0
+muslim,  nazi;warum;1.0
+muslim,  warum;pegida;1.0
+unt,  warum;muslim;1.0
+muslim,  unt;warum;1.0
+unterscheidet,  warum;muslim;1.0
+muslim,  unterscheidet;warum;1.0
+nazi,  unt;pegida;1.0
+nazi,  unterscheidet;pegida;1.0
+unt,  unterscheidet;nazi;1.0
+nazi,  unt;unterscheidet;1.0
+nazi,  warum;pegida;1.0
+unt,  warum;nazi;1.0
+nazi,  unt;warum;1.0
+nazi,  unterscheidet;warum;1.0
+unt,  unterscheidet;pegida;1.0
+rest,  wahrheit;pegida;1.0
+unt,  warum;pegida;1.0
+unterscheidet,  warum;pegida;1.0
+unt,  warum;unterscheidet;1.0
+unt,  unterscheidet;warum;1.0

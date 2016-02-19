@@ -1,0 +1,758 @@
+IF;THEN;CONFIDENCE
+jahr;schon;0.6510067114093959
+tat;akbar,  lang;0.6615384615384615
+tat;akbar,  pegida;0.6615384615384615
+tat;akbar,  ruf;0.6615384615384615
+tat;akbar,  ruft;0.6615384615384615
+tat;akbar,  steh;0.6615384615384615
+tat;akbar,  volk;0.6615384615384615
+tat;allahu,  lang;0.6615384615384615
+tat;allahu,  pegida;0.6615384615384615
+tat;allahu,  ruf;0.6615384615384615
+tat;allahu,  ruft;0.6615384615384615
+tat;allahu,  steh;0.6615384615384615
+tat;allahu,  volk;0.6615384615384615
+tat;islam,  lang;0.6615384615384615
+tat;islam,  ruf;0.6615384615384615
+tat;islam,  ruft;0.6615384615384615
+tat;islam,  steh;0.6615384615384615
+tat;islam,  volk;0.6615384615384615
+tat;lang;0.6615384615384615
+tat;lang,  pegida;0.6615384615384615
+tat;lang,  ruf;0.6615384615384615
+tat;lang,  ruft;0.6615384615384615
+tat;lang,  steh;0.6615384615384615
+tat;lang,  volk;0.6615384615384615
+tat;pegida,  ruf;0.6615384615384615
+tat;pegida,  ruft;0.6615384615384615
+tat;pegida,  steh;0.6615384615384615
+tat;pegida,  volk;0.6615384615384615
+tat;ruf;0.6615384615384615
+tat;ruf,  ruft;0.6615384615384615
+tat;ruf,  steh;0.6615384615384615
+tat;ruf,  volk;0.6615384615384615
+tat;ruft;0.6615384615384615
+tat;ruft,  steh;0.6615384615384615
+tat;ruft,  volk;0.6615384615384615
+tat;steh,  volk;0.6615384615384615
+tat;islam,  pegida;0.6637362637362637
+tat;steh;0.6637362637362637
+dass;schon;0.6646778042959427
+tat;volk;0.6681318681318681
+steh;islam;0.6686991869918699
+tat;akbar;0.6703296703296703
+tat;akbar,  allahu;0.6703296703296703
+tat;akbar,  islam;0.6703296703296703
+tat;allahu;0.6703296703296703
+tat;allahu,  islam;0.6703296703296703
+tat;pegida;0.6725274725274726
+nennt;afd,  fluchtlingshelf;0.6738461538461539
+nennt;afd,  gauland;0.6738461538461539
+nennt;afd,  idiot;0.6738461538461539
+nennt;afd,  nutzlich;0.6738461538461539
+nennt;fluchtlingshelf;0.6738461538461539
+nennt;fluchtlingshelf,  gauland;0.6738461538461539
+nennt;fluchtlingshelf,  idiot;0.6738461538461539
+nennt;fluchtlingshelf,  nutzlich;0.6738461538461539
+pegida;schon;0.6762417713943746
+nennt;gauland;0.676923076923077
+nennt;gauland,  idiot;0.676923076923077
+nennt;gauland,  nutzlich;0.676923076923077
+nennt;idiot;0.676923076923077
+nennt;idiot,  nutzlich;0.676923076923077
+nennt;nutzlich;0.676923076923077
+syri;schon;0.6795454545454546
+nennt;afd;0.68
+mehr;schon;0.6864686468646864
+idiot;afd,  nennt;0.6996805111821086
+idiot;fluchtlingshelf,  nennt;0.6996805111821086
+idiot;afd,  fluchtlingshelf;0.7028753993610224
+idiot;afd,  gauland;0.7028753993610224
+idiot;afd,  nutzlich;0.7028753993610224
+idiot;gauland,  nennt;0.7028753993610224
+idiot;nennt;0.7028753993610224
+idiot;nennt,  nutzlich;0.7028753993610224
+ruft;akbar,  steh;0.7049180327868853
+ruft;akbar,  tat;0.7049180327868853
+ruft;allahu,  steh;0.7049180327868853
+ruft;allahu,  tat;0.7049180327868853
+ruft;islam,  steh;0.7049180327868853
+ruft;islam,  tat;0.7049180327868853
+ruft;lang,  steh;0.7049180327868853
+ruft;lang,  tat;0.7049180327868853
+ruft;pegida,  steh;0.7049180327868853
+ruft;pegida,  tat;0.7049180327868853
+ruft;ruf,  steh;0.7049180327868853
+ruft;ruf,  tat;0.7049180327868853
+ruft;steh;0.7049180327868853
+ruft;tat;0.7049180327868853
+ruft;steh,  tat;0.7049180327868853
+ruft;steh,  volk;0.7049180327868853
+ruft;tat,  volk;0.7049180327868853
+idiot;afd;0.7060702875399361
+idiot;fluchtlingshelf,  gauland;0.7060702875399361
+idiot;fluchtlingshelf,  nutzlich;0.7060702875399361
+ruft;akbar,  islam;0.7096018735362998
+ruft;akbar,  lang;0.7096018735362998
+ruft;akbar,  pegida;0.7096018735362998
+ruft;akbar,  ruf;0.7096018735362998
+ruft;akbar,  volk;0.7096018735362998
+ruft;allahu,  islam;0.7096018735362998
+ruft;allahu,  lang;0.7096018735362998
+ruft;allahu,  pegida;0.7096018735362998
+ruft;allahu,  ruf;0.7096018735362998
+ruft;allahu,  volk;0.7096018735362998
+ruft;islam,  lang;0.7096018735362998
+ruft;islam,  pegida;0.7096018735362998
+ruft;islam,  ruf;0.7096018735362998
+ruft;islam,  volk;0.7096018735362998
+ruft;lang,  pegida;0.7096018735362998
+ruft;lang,  ruf;0.7096018735362998
+ruft;lang,  volk;0.7096018735362998
+ruft;pegida,  ruf;0.7096018735362998
+ruft;pegida,  volk;0.7096018735362998
+ruft;ruf;0.7096018735362998
+ruft;ruf,  volk;0.7096018735362998
+ruft;lang;0.711943793911007
+ruft;pegida;0.711943793911007
+gibt;schon;0.7123287671232876
+ruft;volk;0.7166276346604216
+ruft;akbar;0.7189695550351288
+ruft;akbar,  allahu;0.7189695550351288
+ruft;allahu;0.7189695550351288
+ganz;schon;0.722972972972973
+tat;islam;0.7230769230769231
+heut;schon;0.7279843444227005
+ruft;islam;0.7283372365339579
+idiot;fluchtlingshelf;0.7348242811501597
+idiot;gauland,  nutzlich;0.7380191693290735
+idiot;gauland;0.7412140575079872
+idiot;nutzlich;0.744408945686901
+war;schon;0.7568807339449541
+ruf;akbar,  steh;0.7777777777777778
+ruf;akbar,  tat;0.7777777777777778
+ruf;allahu,  steh;0.7777777777777778
+ruf;allahu,  tat;0.7777777777777778
+ruf;islam,  steh;0.7777777777777778
+ruf;islam,  tat;0.7777777777777778
+ruf;lang,  steh;0.7777777777777778
+ruf;lang,  tat;0.7777777777777778
+ruf;pegida,  steh;0.7777777777777778
+ruf;pegida,  tat;0.7777777777777778
+ruf;ruft,  steh;0.7777777777777778
+ruf;tat;0.7777777777777778
+ruf;ruft,  tat;0.7777777777777778
+ruf;steh,  tat;0.7777777777777778
+ruf;tat,  volk;0.7777777777777778
+ruf;akbar,  lang;0.7829457364341085
+ruf;akbar,  ruft;0.7829457364341085
+ruf;akbar,  volk;0.7829457364341085
+ruf;allahu,  lang;0.7829457364341085
+ruf;allahu,  ruft;0.7829457364341085
+ruf;allahu,  volk;0.7829457364341085
+ruf;islam,  lang;0.7829457364341085
+ruf;islam,  ruft;0.7829457364341085
+ruf;islam,  volk;0.7829457364341085
+ruf;lang,  pegida;0.7829457364341085
+ruf;lang,  ruft;0.7829457364341085
+ruf;lang,  volk;0.7829457364341085
+ruf;pegida,  ruft;0.7829457364341085
+ruf;ruft;0.7829457364341085
+ruf;ruft,  volk;0.7829457364341085
+neu;schon;0.7865168539325843
+ruf;akbar,  pegida;0.7881136950904393
+ruf;allahu,  pegida;0.7881136950904393
+ruf;islam,  pegida;0.7881136950904393
+ruf;lang;0.7881136950904393
+ruf;pegida,  volk;0.7881136950904393
+ruf;steh,  volk;0.7881136950904393
+fluchtling;schon;0.7906976744186046
+ruf;steh;0.7906976744186046
+ruf;akbar,  islam;0.7932816537467701
+ruf;allahu,  islam;0.7932816537467701
+ruf;pegida;0.7958656330749354
+hast;schon;0.8021978021978022
+akbar;steh;0.8048128342245989
+akbar;allahu,  steh;0.8048128342245989
+akbar;islam,  steh;0.8048128342245989
+akbar;lang,  steh;0.8048128342245989
+akbar;pegida,  steh;0.8048128342245989
+akbar;ruf,  steh;0.8048128342245989
+akbar;ruft,  steh;0.8048128342245989
+akbar;lang,  tat;0.8048128342245989
+akbar;pegida,  tat;0.8048128342245989
+akbar;ruf,  tat;0.8048128342245989
+akbar;ruft,  tat;0.8048128342245989
+akbar;steh,  tat;0.8048128342245989
+akbar;steh,  volk;0.8048128342245989
+akbar;tat,  volk;0.8048128342245989
+ruf;islam;0.8087855297157622
+akbar;islam,  lang;0.8101604278074866
+akbar;lang,  pegida;0.8101604278074866
+akbar;lang,  ruf;0.8101604278074866
+akbar;islam,  ruft;0.8101604278074866
+akbar;lang,  ruft;0.8101604278074866
+akbar;pegida,  ruft;0.8101604278074866
+akbar;ruf,  ruft;0.8101604278074866
+akbar;allahu,  volk;0.8101604278074866
+akbar;islam,  volk;0.8101604278074866
+akbar;lang,  volk;0.8101604278074866
+akbar;pegida,  volk;0.8101604278074866
+akbar;ruf,  volk;0.8101604278074866
+akbar;ruft,  volk;0.8101604278074866
+akbar;lang;0.8128342245989305
+akbar;allahu,  lang;0.8128342245989305
+nopegida;schon;0.8134796238244514
+ruf;akbar;0.813953488372093
+ruf;akbar,  allahu;0.813953488372093
+akbar;pegida;0.8155080213903744
+akbar;allahu,  pegida;0.8155080213903744
+akbar;islam,  pegida;0.8155080213903744
+akbar;pegida,  ruf;0.8155080213903744
+akbar;tat;0.8155080213903744
+akbar;allahu,  tat;0.8155080213903744
+akbar;islam,  tat;0.8155080213903744
+akbar;volk;0.8155080213903744
+deutschland;schon;0.8160211267605634
+ruf;allahu;0.8165374677002584
+akbar;islam,  ruf;0.820855614973262
+akbar;ruft;0.820855614973262
+akbar;allahu,  ruft;0.820855614973262
+mensch;schon;0.8209876543209876
+ruf;volk;0.8320413436692506
+gut;schon;0.8321917808219178
+refuge;schon;0.8339350180505415
+akbar;islam;0.8342245989304813
+akbar;allahu,  islam;0.8342245989304813
+afd;schon;0.8397155361050328
+akbar;ruf;0.8422459893048129
+akbar;allahu,  ruf;0.8422459893048129
+fluchtlingshelf;afd,  nennt;0.8488372093023255
+fluchtlingshelf;nennt;0.8488372093023255
+fluchtlingshelf;gauland,  nennt;0.8488372093023255
+fluchtlingshelf;idiot,  nennt;0.8488372093023255
+fluchtlingshelf;nennt,  nutzlich;0.8488372093023255
+fluchtlingshelf;afd;0.8527131782945736
+fluchtlingshelf;afd,  gauland;0.8527131782945736
+fluchtlingshelf;afd,  idiot;0.8527131782945736
+fluchtlingshelf;afd,  nutzlich;0.8527131782945736
+gauland;afd,  nennt;0.85546875
+gauland;fluchtlingshelf,  nennt;0.85546875
+fluchtlingshelf;gauland,  idiot;0.8565891472868217
+fluchtlingshelf;nutzlich;0.8565891472868217
+fluchtlingshelf;gauland,  nutzlich;0.8565891472868217
+fluchtlingshelf;idiot,  nutzlich;0.8565891472868217
+gauland;afd,  fluchtlingshelf;0.859375
+gauland;afd,  idiot;0.859375
+gauland;afd,  nutzlich;0.859375
+gauland;nennt;0.859375
+gauland;idiot,  nennt;0.859375
+gauland;nennt,  nutzlich;0.859375
+allahu;akbar,  steh;0.8624641833810889
+allahu;steh;0.8624641833810889
+allahu;islam,  steh;0.8624641833810889
+allahu;lang,  steh;0.8624641833810889
+allahu;pegida,  steh;0.8624641833810889
+allahu;ruf,  steh;0.8624641833810889
+allahu;ruft,  steh;0.8624641833810889
+allahu;lang,  tat;0.8624641833810889
+allahu;pegida,  tat;0.8624641833810889
+allahu;ruf,  tat;0.8624641833810889
+allahu;ruft,  tat;0.8624641833810889
+allahu;steh,  tat;0.8624641833810889
+allahu;steh,  volk;0.8624641833810889
+allahu;tat,  volk;0.8624641833810889
+gauland;fluchtlingshelf,  idiot;0.86328125
+gauland;fluchtlingshelf,  nutzlich;0.86328125
+fluchtlingshelf;gauland;0.8643410852713178
+allahu;akbar,  volk;0.8681948424068768
+allahu;islam,  lang;0.8681948424068768
+allahu;lang,  pegida;0.8681948424068768
+allahu;lang,  ruf;0.8681948424068768
+allahu;islam,  ruft;0.8681948424068768
+allahu;lang,  ruft;0.8681948424068768
+allahu;pegida,  ruft;0.8681948424068768
+allahu;ruf,  ruft;0.8681948424068768
+allahu;volk;0.8681948424068768
+allahu;islam,  volk;0.8681948424068768
+allahu;lang,  volk;0.8681948424068768
+allahu;pegida,  volk;0.8681948424068768
+allahu;ruf,  volk;0.8681948424068768
+allahu;ruft,  volk;0.8681948424068768
+allahu;akbar,  lang;0.8710601719197708
+allahu;lang;0.8710601719197708
+gauland;fluchtlingshelf;0.87109375
+allahu;akbar,  pegida;0.8739255014326648
+allahu;akbar,  tat;0.8739255014326648
+allahu;pegida;0.8739255014326648
+allahu;islam,  pegida;0.8739255014326648
+allahu;pegida,  ruf;0.8739255014326648
+allahu;tat;0.8739255014326648
+allahu;islam,  tat;0.8739255014326648
+allahu;akbar,  ruft;0.8796561604584527
+allahu;islam,  ruf;0.8796561604584527
+allahu;ruft;0.8796561604584527
+fluchtlingshelf;idiot;0.8914728682170543
+allahu;akbar,  islam;0.8939828080229226
+allahu;islam;0.8939828080229226
+nutzlich;afd,  nennt;0.8975409836065574
+nutzlich;fluchtlingshelf,  nennt;0.8975409836065574
+morg;schon;0.9012345679012346
+nutzlich;afd;0.9016393442622951
+nutzlich;afd,  fluchtlingshelf;0.9016393442622951
+nutzlich;afd,  gauland;0.9016393442622951
+nutzlich;afd,  idiot;0.9016393442622951
+nutzlich;gauland,  nennt;0.9016393442622951
+nutzlich;idiot,  nennt;0.9016393442622951
+nutzlich;nennt;0.9016393442622951
+gauland;idiot,  nutzlich;0.90234375
+allahu;akbar,  ruf;0.9025787965616046
+allahu;ruf;0.9054441260744985
+nutzlich;fluchtlingshelf;0.9057377049180327
+nutzlich;fluchtlingshelf,  gauland;0.9057377049180327
+nutzlich;fluchtlingshelf,  idiot;0.9057377049180327
+gauland;idiot;0.90625
+gauland;nutzlich;0.90625
+fast;schon;0.9149797570850202
+akbar;allahu;0.9278074866310161
+seehof;schon;0.9308855291576674
+gauland;afd;0.9375
+nutzlich;gauland,  idiot;0.9467213114754098
+nutzlich;gauland;0.9508196721311475
+nutzlich;idiot;0.9549180327868853
+sexkontakt;aufschrei,  girl;0.98989898989899
+sexkontakt;girl;0.98989898989899
+girl;aufschrei,  sexkontakt;0.9932432432432432
+girl;sexkontakt;0.9932432432432432
+sexkontakt;aufschrei;0.9932659932659933
+allahu;akbar;0.994269340974212
+girl;aufschrei;0.9966216216216216
+merkel;schon;0.9989017023613399
+cdu;schon;1.0
+csu;schon;1.0
+refugeeswelcom;schon;1.0
+spd;schon;1.0
+lang,  pegida;steh;0.665929203539823
+lang,  pegida;tat;0.665929203539823
+lang,  pegida;akbar;0.6703539823008849
+lang,  pegida;allahu;0.6703539823008849
+lang,  pegida;ruf;0.6703539823008849
+lang,  pegida;ruft;0.6703539823008849
+lang,  pegida;volk;0.6769911504424779
+lang,  pegida;islam;0.6792035398230089
+pegida,  volk;tat;0.7395577395577395
+pegida,  volk;akbar;0.7444717444717445
+pegida,  volk;allahu;0.7444717444717445
+pegida,  volk;ruft;0.7444717444717445
+pegida,  volk;steh;0.7444717444717445
+pegida,  volk;ruf;0.7493857493857494
+pegida,  volk;lang;0.7518427518427518
+pegida,  volk;islam;0.7616707616707616
+islam,  pegida;tat;0.8228882833787466
+islam,  pegida;ruft;0.8256130790190735
+islam,  pegida;steh;0.8256130790190735
+islam,  pegida;akbar;0.8310626702997275
+islam,  pegida;allahu;0.8310626702997275
+islam,  pegida;ruf;0.8310626702997275
+islam,  pegida;lang;0.8365122615803815
+islam,  pegida;volk;0.8446866485013624
+akbar,  allahu;steh;0.8674351585014409
+akbar,  allahu;volk;0.8731988472622478
+akbar,  allahu;lang;0.8760806916426513
+akbar,  allahu;pegida;0.8789625360230547
+akbar,  allahu;tat;0.8789625360230547
+akbar,  allahu;ruft;0.8847262247838616
+akbar,  allahu;islam;0.899135446685879
+akbar,  allahu;ruf;0.9077809798270894
+lang,  volk;steh;0.9121212121212121
+lang,  volk;tat;0.9121212121212121
+afd,  gauland;nennt;0.9125
+islam,  steh;akbar;0.9148936170212766
+islam,  steh;allahu;0.9148936170212766
+islam,  steh;lang;0.9148936170212766
+islam,  steh;ruf;0.9148936170212766
+islam,  steh;ruft;0.9148936170212766
+islam,  tat;lang;0.9148936170212766
+islam,  tat;ruf;0.9148936170212766
+islam,  tat;ruft;0.9148936170212766
+islam,  tat;steh;0.9148936170212766
+islam,  steh;tat;0.9148936170212766
+islam,  tat;volk;0.9148936170212766
+afd,  gauland;fluchtlingshelf;0.9166666666666666
+afd,  gauland;idiot;0.9166666666666666
+afd,  gauland;nutzlich;0.9166666666666666
+islam,  tat;pegida;0.9179331306990881
+lang,  volk;akbar;0.9181818181818182
+lang,  volk;allahu;0.9181818181818182
+lang,  volk;islam;0.9181818181818182
+lang,  volk;ruf;0.9181818181818182
+lang,  volk;ruft;0.9181818181818182
+islam,  steh;pegida;0.9209726443768997
+islam,  steh;volk;0.9209726443768997
+islam,  tat;akbar;0.9270516717325228
+islam,  tat;allahu;0.9270516717325228
+lang,  volk;pegida;0.9272727272727272
+islam,  volk;tat;0.9290123456790124
+ruf,  volk;tat;0.9347826086956522
+islam,  volk;akbar;0.9351851851851852
+islam,  volk;allahu;0.9351851851851852
+islam,  volk;lang;0.9351851851851852
+islam,  volk;ruf;0.9351851851851852
+islam,  volk;ruft;0.9351851851851852
+islam,  volk;steh;0.9351851851851852
+ruf,  volk;akbar;0.9409937888198758
+ruf,  volk;allahu;0.9409937888198758
+ruf,  volk;islam;0.9409937888198758
+ruf,  volk;lang;0.9409937888198758
+ruf,  volk;ruft;0.9409937888198758
+lang,  steh;akbar;0.9435736677115988
+lang,  steh;allahu;0.9435736677115988
+lang,  steh;islam;0.9435736677115988
+lang,  steh;pegida;0.9435736677115988
+lang,  steh;ruf;0.9435736677115988
+lang,  steh;ruft;0.9435736677115988
+lang,  steh;tat;0.9435736677115988
+lang,  steh;volk;0.9435736677115988
+idiot,  nutzlich;afd;0.944206008583691
+idiot,  nutzlich;nennt;0.944206008583691
+ruf,  volk;pegida;0.9472049689440993
+ruf,  volk;steh;0.9472049689440993
+gauland,  idiot;afd;0.9482758620689655
+gauland,  nutzlich;afd;0.9482758620689655
+gauland,  idiot;nennt;0.9482758620689655
+gauland,  nutzlich;nennt;0.9482758620689655
+idiot,  nutzlich;fluchtlingshelf;0.9484978540772532
+fluchtlingshelf,  idiot;nennt;0.9521739130434783
+allahu,  ruf;steh;0.9525316455696202
+allahu,  ruf;tat;0.9525316455696202
+islam,  lang;steh;0.9525316455696202
+islam,  lang;tat;0.9525316455696202
+gauland,  idiot;fluchtlingshelf;0.9525862068965517
+gauland,  nutzlich;fluchtlingshelf;0.9525862068965517
+akbar,  ruf;steh;0.9555555555555556
+akbar,  ruf;tat;0.9555555555555556
+fluchtlingshelf,  idiot;afd;0.9565217391304348
+islam,  volk;pegida;0.9567901234567902
+islam,  lang;akbar;0.9588607594936709
+islam,  lang;allahu;0.9588607594936709
+allahu,  ruf;lang;0.9588607594936709
+allahu,  ruf;ruft;0.9588607594936709
+allahu,  ruf;volk;0.9588607594936709
+islam,  lang;ruf;0.9588607594936709
+islam,  lang;ruft;0.9588607594936709
+islam,  lang;volk;0.9588607594936709
+fluchtlingshelf,  idiot;gauland;0.9608695652173913
+fluchtlingshelf,  idiot;nutzlich;0.9608695652173913
+islam,  ruf;steh;0.9616613418530351
+islam,  ruf;tat;0.9616613418530351
+akbar,  ruf;lang;0.9619047619047619
+akbar,  ruf;ruft;0.9619047619047619
+akbar,  ruf;volk;0.9619047619047619
+akbar,  islam;steh;0.9647435897435898
+allahu,  islam;steh;0.9647435897435898
+allahu,  ruf;pegida;0.9651898734177216
+islam,  ruft;steh;0.9678456591639871
+islam,  ruft;tat;0.9678456591639871
+islam,  ruf;lang;0.9680511182108626
+islam,  ruf;ruft;0.9680511182108626
+islam,  ruf;volk;0.9680511182108626
+akbar,  ruf;pegida;0.9682539682539683
+akbar,  islam;lang;0.9711538461538461
+akbar,  islam;ruft;0.9711538461538461
+akbar,  islam;volk;0.9711538461538461
+allahu,  islam;lang;0.9711538461538461
+allahu,  islam;ruft;0.9711538461538461
+allahu,  islam;volk;0.9711538461538461
+allahu,  ruf;islam;0.9715189873417721
+islam,  lang;pegida;0.9715189873417721
+steh,  volk;akbar;0.9741100323624595
+steh,  volk;allahu;0.9741100323624595
+steh,  volk;lang;0.9741100323624595
+steh,  volk;ruft;0.9741100323624595
+steh,  volk;tat;0.9741100323624595
+islam,  ruft;akbar;0.9742765273311897
+islam,  ruft;allahu;0.9742765273311897
+islam,  ruft;lang;0.9742765273311897
+islam,  ruft;pegida;0.9742765273311897
+islam,  ruft;ruf;0.9742765273311897
+islam,  ruft;volk;0.9742765273311897
+islam,  ruf;pegida;0.9744408945686901
+akbar,  ruf;islam;0.9746031746031746
+pegida,  ruf;steh;0.9772727272727273
+pegida,  ruf;tat;0.9772727272727273
+akbar,  islam;pegida;0.9775641025641025
+akbar,  islam;tat;0.9775641025641025
+allahu,  islam;pegida;0.9775641025641025
+allahu,  islam;tat;0.9775641025641025
+pegida,  steh;akbar;0.9804560260586319
+akbar,  ruft;steh;0.9804560260586319
+akbar,  ruft;tat;0.9804560260586319
+pegida,  steh;allahu;0.9804560260586319
+allahu,  ruft;steh;0.9804560260586319
+allahu,  ruft;tat;0.9804560260586319
+pegida,  steh;lang;0.9804560260586319
+pegida,  steh;ruf;0.9804560260586319
+pegida,  steh;ruft;0.9804560260586319
+pegida,  steh;tat;0.9804560260586319
+steh,  volk;islam;0.9805825242718447
+steh,  volk;pegida;0.9805825242718447
+islam,  ruf;akbar;0.9808306709265175
+islam,  ruf;allahu;0.9808306709265175
+fluchtlingshelf,  gauland;nennt;0.9820627802690582
+ruf,  steh;akbar;0.9836601307189542
+pegida,  tat;akbar;0.9836601307189542
+ruf,  steh;allahu;0.9836601307189542
+pegida,  tat;allahu;0.9836601307189542
+ruf,  steh;islam;0.9836601307189542
+ruf,  steh;lang;0.9836601307189542
+pegida,  tat;lang;0.9836601307189542
+ruf,  steh;pegida;0.9836601307189542
+pegida,  tat;ruf;0.9836601307189542
+pegida,  tat;ruft;0.9836601307189542
+pegida,  tat;steh;0.9836601307189542
+pegida,  tat;volk;0.9836601307189542
+ruf,  steh;ruft;0.9836601307189542
+ruf,  steh;tat;0.9836601307189542
+ruft,  volk;steh;0.9836601307189542
+ruft,  volk;tat;0.9836601307189542
+pegida,  ruf;lang;0.9837662337662337
+pegida,  ruf;ruft;0.9837662337662337
+akbar,  islam;ruf;0.9839743589743589
+allahu,  islam;ruf;0.9839743589743589
+fluchtlingshelf,  gauland;afd;0.9865470852017937
+akbar,  pegida;steh;0.9868852459016394
+akbar,  tat;lang;0.9868852459016394
+akbar,  tat;pegida;0.9868852459016394
+akbar,  pegida;tat;0.9868852459016394
+akbar,  tat;ruf;0.9868852459016394
+akbar,  tat;ruft;0.9868852459016394
+akbar,  tat;steh;0.9868852459016394
+akbar,  volk;steh;0.9868852459016394
+akbar,  volk;tat;0.9868852459016394
+akbar,  tat;volk;0.9868852459016394
+allahu,  pegida;steh;0.9868852459016394
+allahu,  tat;lang;0.9868852459016394
+allahu,  tat;pegida;0.9868852459016394
+allahu,  pegida;tat;0.9868852459016394
+allahu,  tat;ruf;0.9868852459016394
+allahu,  tat;ruft;0.9868852459016394
+allahu,  tat;steh;0.9868852459016394
+allahu,  tat;volk;0.9868852459016394
+lang,  ruf;steh;0.9868852459016394
+lang,  ruf;tat;0.9868852459016394
+pegida,  tat;islam;0.9869281045751634
+akbar,  ruft;islam;0.9869706840390879
+akbar,  ruft;lang;0.9869706840390879
+akbar,  ruft;pegida;0.9869706840390879
+akbar,  ruft;ruf;0.9869706840390879
+akbar,  ruft;volk;0.9869706840390879
+allahu,  ruft;islam;0.9869706840390879
+allahu,  ruft;lang;0.9869706840390879
+allahu,  ruft;pegida;0.9869706840390879
+allahu,  ruft;ruf;0.9869706840390879
+allahu,  ruft;volk;0.9869706840390879
+pegida,  steh;islam;0.9869706840390879
+pegida,  steh;volk;0.9869706840390879
+steh,  volk;ruf;0.9870550161812298
+akbar,  lang;steh;0.9901315789473685
+akbar,  lang;tat;0.9901315789473685
+tat,  volk;akbar;0.9901315789473685
+allahu,  lang;steh;0.9901315789473685
+allahu,  lang;tat;0.9901315789473685
+tat,  volk;allahu;0.9901315789473685
+tat,  volk;islam;0.9901315789473685
+lang,  ruft;steh;0.9901315789473685
+lang,  ruft;tat;0.9901315789473685
+tat,  volk;lang;0.9901315789473685
+pegida,  ruft;steh;0.9901315789473685
+pegida,  ruft;tat;0.9901315789473685
+tat,  volk;pegida;0.9901315789473685
+tat,  volk;ruf;0.9901315789473685
+tat,  volk;ruft;0.9901315789473685
+tat,  volk;steh;0.9901315789473685
+ruft,  volk;akbar;0.9901960784313726
+ruft,  volk;allahu;0.9901960784313726
+ruft,  volk;islam;0.9901960784313726
+ruft,  volk;lang;0.9901960784313726
+ruft,  volk;pegida;0.9901960784313726
+ruft,  volk;ruf;0.9901960784313726
+pegida,  ruf;akbar;0.9902597402597403
+pegida,  ruf;allahu;0.9902597402597403
+pegida,  ruf;islam;0.9902597402597403
+pegida,  ruf;volk;0.9902597402597403
+afd,  nennt;fluchtlingshelf;0.9909502262443439
+afd,  nennt;gauland;0.9909502262443439
+afd,  nennt;idiot;0.9909502262443439
+afd,  idiot;nennt;0.9909502262443439
+afd,  nennt;nutzlich;0.9909502262443439
+fluchtlingshelf,  nutzlich;nennt;0.9909502262443439
+fluchtlingshelf,  gauland;idiot;0.9910313901345291
+fluchtlingshelf,  gauland;nutzlich;0.9910313901345291
+idiot,  nutzlich;gauland;0.9914163090128756
+allahu,  volk;steh;0.9933993399339934
+allahu,  volk;tat;0.9933993399339934
+ruf,  ruft;steh;0.9933993399339934
+ruf,  ruft;tat;0.9933993399339934
+akbar,  pegida;lang;0.9934426229508196
+lang,  ruf;akbar;0.9934426229508196
+akbar,  pegida;ruft;0.9934426229508196
+akbar,  volk;allahu;0.9934426229508196
+akbar,  volk;islam;0.9934426229508196
+akbar,  volk;lang;0.9934426229508196
+akbar,  volk;pegida;0.9934426229508196
+akbar,  pegida;volk;0.9934426229508196
+akbar,  volk;ruf;0.9934426229508196
+akbar,  volk;ruft;0.9934426229508196
+allahu,  pegida;lang;0.9934426229508196
+lang,  ruf;allahu;0.9934426229508196
+allahu,  pegida;ruft;0.9934426229508196
+allahu,  pegida;volk;0.9934426229508196
+lang,  ruf;islam;0.9934426229508196
+lang,  ruf;pegida;0.9934426229508196
+lang,  ruf;ruft;0.9934426229508196
+lang,  ruf;volk;0.9934426229508196
+afd,  fluchtlingshelf;nennt;0.9954545454545455
+gauland,  nennt;afd;0.9954545454545455
+idiot,  nennt;afd;0.9954545454545455
+nennt,  nutzlich;afd;0.9954545454545455
+afd,  nutzlich;nennt;0.9954545454545455
+gauland,  nennt;fluchtlingshelf;0.9954545454545455
+idiot,  nennt;fluchtlingshelf;0.9954545454545455
+nennt,  nutzlich;fluchtlingshelf;0.9954545454545455
+afd,  idiot;fluchtlingshelf;0.995475113122172
+afd,  idiot;gauland;0.995475113122172
+fluchtlingshelf,  nutzlich;afd;0.995475113122172
+afd,  idiot;nutzlich;0.995475113122172
+gauland,  nutzlich;idiot;0.9956896551724138
+gauland,  idiot;nutzlich;0.9956896551724138
+aufschrei,  sexkontakt;girl;0.9966101694915255
+aufschrei,  girl;sexkontakt;0.9966101694915255
+steh,  tat;akbar;0.9966887417218543
+steh,  tat;allahu;0.9966887417218543
+steh,  tat;islam;0.9966887417218543
+steh,  tat;lang;0.9966887417218543
+steh,  tat;pegida;0.9966887417218543
+steh,  tat;ruf;0.9966887417218543
+steh,  tat;ruft;0.9966887417218543
+steh,  tat;volk;0.9966887417218543
+akbar,  lang;islam;0.9967105263157895
+akbar,  lang;pegida;0.9967105263157895
+akbar,  lang;ruf;0.9967105263157895
+lang,  ruft;akbar;0.9967105263157895
+akbar,  lang;ruft;0.9967105263157895
+pegida,  ruft;akbar;0.9967105263157895
+akbar,  lang;volk;0.9967105263157895
+allahu,  lang;islam;0.9967105263157895
+allahu,  lang;pegida;0.9967105263157895
+allahu,  lang;ruf;0.9967105263157895
+lang,  ruft;allahu;0.9967105263157895
+allahu,  lang;ruft;0.9967105263157895
+pegida,  ruft;allahu;0.9967105263157895
+allahu,  lang;volk;0.9967105263157895
+lang,  ruft;islam;0.9967105263157895
+pegida,  ruft;islam;0.9967105263157895
+pegida,  ruft;lang;0.9967105263157895
+lang,  ruft;pegida;0.9967105263157895
+lang,  ruft;ruf;0.9967105263157895
+lang,  ruft;volk;0.9967105263157895
+pegida,  ruft;ruf;0.9967105263157895
+pegida,  ruft;volk;0.9967105263157895
+ruf,  steh;volk;0.9967320261437909
+allahu,  ruf;akbar;0.9968354430379747
+afd,  pegida;schon;0.9969604863221885
+afd,  fluchtlingshelf;gauland;1.0
+afd,  fluchtlingshelf;idiot;1.0
+fluchtlingshelf,  nennt;afd;1.0
+afd,  nutzlich;fluchtlingshelf;1.0
+afd,  fluchtlingshelf;nutzlich;1.0
+afd,  nutzlich;gauland;1.0
+afd,  nutzlich;idiot;1.0
+allahu,  islam;akbar;1.0
+akbar,  islam;allahu;1.0
+allahu,  lang;akbar;1.0
+akbar,  lang;allahu;1.0
+allahu,  pegida;akbar;1.0
+akbar,  pegida;allahu;1.0
+akbar,  pegida;islam;1.0
+akbar,  ruf;allahu;1.0
+akbar,  pegida;ruf;1.0
+allahu,  ruft;akbar;1.0
+akbar,  ruft;allahu;1.0
+ruf,  ruft;akbar;1.0
+allahu,  steh;akbar;1.0
+akbar,  steh;allahu;1.0
+akbar,  steh;islam;1.0
+akbar,  steh;lang;1.0
+akbar,  steh;pegida;1.0
+akbar,  steh;ruf;1.0
+ruft,  steh;akbar;1.0
+akbar,  steh;ruft;1.0
+allahu,  tat;akbar;1.0
+akbar,  tat;allahu;1.0
+akbar,  tat;islam;1.0
+lang,  tat;akbar;1.0
+ruf,  tat;akbar;1.0
+ruft,  tat;akbar;1.0
+akbar,  steh;tat;1.0
+allahu,  volk;akbar;1.0
+akbar,  steh;volk;1.0
+allahu,  pegida;islam;1.0
+allahu,  pegida;ruf;1.0
+ruf,  ruft;allahu;1.0
+allahu,  steh;islam;1.0
+allahu,  steh;lang;1.0
+allahu,  steh;pegida;1.0
+allahu,  steh;ruf;1.0
+ruft,  steh;allahu;1.0
+allahu,  steh;ruft;1.0
+allahu,  tat;islam;1.0
+lang,  tat;allahu;1.0
+ruf,  tat;allahu;1.0
+ruft,  tat;allahu;1.0
+allahu,  steh;tat;1.0
+allahu,  volk;islam;1.0
+allahu,  volk;lang;1.0
+allahu,  volk;pegida;1.0
+allahu,  volk;ruf;1.0
+allahu,  volk;ruft;1.0
+allahu,  steh;volk;1.0
+girl,  sexkontakt;aufschrei;1.0
+fluchtlingshelf,  nennt;gauland;1.0
+fluchtlingshelf,  nennt;idiot;1.0
+fluchtlingshelf,  nutzlich;gauland;1.0
+fluchtlingshelf,  nutzlich;idiot;1.0
+fluchtlingshelf,  nennt;nutzlich;1.0
+idiot,  nennt;gauland;1.0
+gauland,  nennt;idiot;1.0
+nennt,  nutzlich;gauland;1.0
+gauland,  nennt;nutzlich;1.0
+nennt,  nutzlich;idiot;1.0
+idiot,  nennt;nutzlich;1.0
+ruf,  ruft;islam;1.0
+ruft,  steh;islam;1.0
+lang,  tat;islam;1.0
+ruf,  tat;islam;1.0
+ruft,  tat;islam;1.0
+ruf,  ruft;lang;1.0
+ruft,  steh;lang;1.0
+lang,  tat;pegida;1.0
+ruf,  tat;lang;1.0
+lang,  tat;ruf;1.0
+ruft,  tat;lang;1.0
+lang,  tat;ruft;1.0
+lang,  tat;steh;1.0
+lang,  tat;volk;1.0
+ruf,  ruft;pegida;1.0
+ruft,  steh;pegida;1.0
+ruf,  tat;pegida;1.0
+ruft,  tat;pegida;1.0
+ruft,  steh;ruf;1.0
+ruft,  tat;ruf;1.0
+ruf,  tat;ruft;1.0
+ruf,  tat;steh;1.0
+ruf,  ruft;volk;1.0
+ruf,  tat;volk;1.0
+ruft,  tat;steh;1.0
+ruft,  steh;tat;1.0
+ruft,  steh;volk;1.0
+ruft,  tat;volk;1.0

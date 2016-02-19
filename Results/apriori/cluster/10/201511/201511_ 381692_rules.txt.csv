@@ -1,0 +1,1137 @@
+IF;THEN;CONFIDENCE
+asyl;dresd;0.6506447831184057
+stadt;dresd,  pegida;0.6579804560260586
+stadt;pegida;0.6644951140065146
+demo;pegida;0.6655211912943871
+dd0911;dresd,  nopegida;0.6678635547576302
+kaltland;dresd;0.6686567164179105
+mann;dresd,  pegida;0.6715867158671587
+deutschland;dresd;0.6727941176470589
+novemb;dresd,  endet;0.6733067729083665
+novemb;dresd,  furchtbar;0.6733067729083665
+novemb;dresd,  hochburg;0.6733067729083665
+novemb;endet;0.6733067729083665
+novemb;endet,  furchtbar;0.6733067729083665
+novemb;endet,  hochburg;0.6733067729083665
+novemb;endet,  mann;0.6733067729083665
+novemb;endet,  pegida;0.6733067729083665
+novemb;endet,  reinig;0.6733067729083665
+novemb;endet,  stolperstein;0.6733067729083665
+novemb;furchtbar;0.6733067729083665
+novemb;furchtbar,  hochburg;0.6733067729083665
+novemb;furchtbar,  mann;0.6733067729083665
+novemb;furchtbar,  pegida;0.6733067729083665
+novemb;furchtbar,  reinig;0.6733067729083665
+novemb;furchtbar,  stolperstein;0.6733067729083665
+novemb;hochburg;0.6733067729083665
+novemb;hochburg,  mann;0.6733067729083665
+novemb;hochburg,  pegida;0.6733067729083665
+novemb;hochburg,  reinig;0.6733067729083665
+novemb;hochburg,  stolperstein;0.6733067729083665
+mann;pegida;0.6752767527675276
+dresd;pegida;0.6794210053859964
+paris;dresd;0.6798418972332015
+gibt;recht;0.6851851851851852
+dass;recht;0.6852589641434262
+novemb;dresd,  mann;0.6852589641434262
+novemb;dresd,  reinig;0.6852589641434262
+novemb;mann;0.6852589641434262
+novemb;mann,  pegida;0.6852589641434262
+novemb;mann,  reinig;0.6852589641434262
+novemb;mann,  stolperstein;0.6852589641434262
+novemb;reinig;0.6852589641434262
+novemb;pegida,  reinig;0.6852589641434262
+novemb;reinig,  stolperstein;0.6852589641434262
+herzstatthetz;dresd,  nopegida;0.691358024691358
+mehr;dresd;0.6923076923076923
+dd0911;nopegida;0.696588868940754
+strass;dresd;0.7007575757575758
+berlin;pegida;0.7202072538860104
+berlin;dresd,  pegida;0.7202072538860104
+leipzig;dresd;0.7216117216117216
+500;recht;0.7227722772277227
+mensch;dresd;0.728310502283105
+herzstatthetz;nopegida;0.7283950617283951
+heut;dresd;0.7309458218549127
+novemb;dresd,  stolperstein;0.7370517928286853
+novemb;stolperstein;0.7370517928286853
+novemb;pegida,  stolperstein;0.7370517928286853
+mann;dresd;0.7380073800738007
+hetz;recht;0.7478632478632479
+fluchtling;dresd;0.7484536082474227
+ermittelt;dresd,  pegida;0.7521367521367521
+ermittelt;pegida;0.7521367521367521
+mal;dresd;0.7536656891495601
+via;dresd,  pegida;0.757679180887372
+stolperstein;dresd,  endet;0.757847533632287
+stolperstein;dresd,  furchtbar;0.757847533632287
+stolperstein;dresd,  hochburg;0.757847533632287
+stolperstein;endet;0.757847533632287
+stolperstein;endet,  furchtbar;0.757847533632287
+stolperstein;endet,  hochburg;0.757847533632287
+stolperstein;endet,  mann;0.757847533632287
+stolperstein;endet,  novemb;0.757847533632287
+stolperstein;endet,  pegida;0.757847533632287
+stolperstein;endet,  reinig;0.757847533632287
+stolperstein;furchtbar;0.757847533632287
+stolperstein;furchtbar,  hochburg;0.757847533632287
+stolperstein;furchtbar,  mann;0.757847533632287
+stolperstein;furchtbar,  novemb;0.757847533632287
+stolperstein;furchtbar,  pegida;0.757847533632287
+stolperstein;furchtbar,  reinig;0.757847533632287
+stolperstein;hochburg;0.757847533632287
+stolperstein;hochburg,  mann;0.757847533632287
+stolperstein;hochburg,  novemb;0.757847533632287
+stolperstein;hochburg,  pegida;0.757847533632287
+stolperstein;hochburg,  reinig;0.757847533632287
+dd2311;dresd,  pegida;0.759090909090909
+refugeeswelcom;recht;0.7623066104078763
+via;pegida;0.764505119453925
+merkel;dresd,  pegida;0.7652173913043478
+munch;dresd,  pegida;0.7676767676767676
+munch;pegida;0.7676767676767676
+https;dresd;0.7682539682539683
+stolperstein;mann,  novemb;0.7713004484304933
+stolperstein;mann,  reinig;0.7713004484304933
+stolperstein;novemb,  reinig;0.7713004484304933
+seit;pegida;0.7741935483870968
+schon;dresd;0.7743362831858407
+demo;dresd;0.7754868270332188
+stolperstein;mann,  pegida;0.7757847533632287
+stolperstein;pegida,  reinig;0.7757847533632287
+bild;pegida;0.7771739130434783
+bild;dresd,  pegida;0.7771739130434783
+stolperstein;dresd,  mann;0.7802690582959642
+stolperstein;mann;0.7802690582959642
+dd2311;pegida;0.7818181818181819
+merkel;pegida;0.782608695652174
+stolperstein;dresd,  reinig;0.7847533632286996
+stolperstein;reinig;0.7847533632286996
+http;dresd,  pegida;0.7852631578947369
+paris;pegida;0.7984189723320159
+burg;dresd;0.8052631578947368
+nsu;afd;0.8109452736318408
+nsu;afd,  dresd;0.8109452736318408
+nsu;afd,  pegida;0.8109452736318408
+nsu;dresd;0.8159203980099502
+nsu;dresd,  pegida;0.8159203980099502
+http;dresd;0.8210526315789474
+http;pegida;0.8273684210526315
+seit;dresd;0.8279569892473119
+stolperstein;dresd,  novemb;0.8295964125560538
+stolperstein;novemb;0.8295964125560538
+stolperstein;novemb,  pegida;0.8295964125560538
+polizei;dresd;0.8326530612244898
+berlin;dresd;0.8393782383419689
+warum;dresd,  pegida;0.8401826484018264
+9nov;dresd;0.841025641025641
+montag;dresd;0.8444444444444444
+bachmann;pegida;0.8488888888888889
+bachmann;dresd,  pegida;0.8488888888888889
+theaterplatz;dresd,  pegida;0.8494318181818182
+theaterplatz;pegida;0.8551136363636364
+demonstration;dresd;0.8602150537634409
+nolegida;nopegida;0.8670520231213873
+link;recht;0.8693181818181818
+schatzung;dresd,  pegida;0.8738738738738738
+schatzung;pegida;0.8738738738738738
+warum;pegida;0.8767123287671232
+wenig;dresd,  pegida;0.8779527559055118
+herzstatthetz;dresd;0.8818342151675485
+wenig;pegida;0.8818897637795275
+afd;dresd,  pegida;0.8854415274463007
+warum;dresd;0.8858447488584474
+teilnehm;dresd,  pegida;0.8866666666666667
+teilnehm;pegida;0.8866666666666667
+nopegida;dresd;0.888332691567193
+afd;pegida;0.8902147971360382
+novemb;dresd,  pegida;0.9043824701195219
+novemb;pegida;0.9043824701195219
+stadt;dresd;0.9087947882736156
+ermittelt;dresd;0.9145299145299145
+pegida;dresd;0.917841443080188
+via;dresd;0.9180887372013652
+munch;dresd;0.9191919191919192
+teilnehm;dresd;0.9222222222222223
+droht;amp;0.9234234234234234
+droht;amp,  angriff;0.9234234234234234
+droht;amp,  feig;0.9234234234234234
+droht;amp,  gewalt;0.9234234234234234
+droht;amp,  hdp;0.9234234234234234
+droht;amp,  turkei;0.9234234234234234
+droht;amp,  verurteil;0.9234234234234234
+vorsitzend;amp;0.9234234234234234
+vorsitzend;amp,  angriff;0.9234234234234234
+vorsitzend;amp,  droht;0.9234234234234234
+droht;amp,  vorsitzend;0.9234234234234234
+vorsitzend;amp,  feig;0.9234234234234234
+vorsitzend;amp,  gewalt;0.9234234234234234
+vorsitzend;amp,  hdp;0.9234234234234234
+vorsitzend;amp,  turkei;0.9234234234234234
+vorsitzend;amp,  verurteil;0.9234234234234234
+droht;angriff;0.9234234234234234
+droht;angriff,  feig;0.9234234234234234
+droht;angriff,  gewalt;0.9234234234234234
+droht;angriff,  hdp;0.9234234234234234
+droht;angriff,  turkei;0.9234234234234234
+droht;angriff,  verurteil;0.9234234234234234
+vorsitzend;angriff;0.9234234234234234
+droht;angriff,  vorsitzend;0.9234234234234234
+vorsitzend;angriff,  droht;0.9234234234234234
+vorsitzend;angriff,  feig;0.9234234234234234
+vorsitzend;angriff,  gewalt;0.9234234234234234
+vorsitzend;angriff,  hdp;0.9234234234234234
+vorsitzend;angriff,  turkei;0.9234234234234234
+vorsitzend;angriff,  verurteil;0.9234234234234234
+droht;feig;0.9234234234234234
+droht;feig,  gewalt;0.9234234234234234
+droht;hdp;0.9234234234234234
+droht;feig,  hdp;0.9234234234234234
+droht;gewalt,  hdp;0.9234234234234234
+droht;turkei;0.9234234234234234
+droht;feig,  turkei;0.9234234234234234
+droht;gewalt,  turkei;0.9234234234234234
+droht;hdp,  turkei;0.9234234234234234
+droht;verurteil;0.9234234234234234
+droht;feig,  verurteil;0.9234234234234234
+droht;gewalt,  verurteil;0.9234234234234234
+droht;hdp,  verurteil;0.9234234234234234
+droht;turkei,  verurteil;0.9234234234234234
+vorsitzend;droht;0.9234234234234234
+droht;vorsitzend;0.9234234234234234
+droht;feig,  vorsitzend;0.9234234234234234
+vorsitzend;droht,  feig;0.9234234234234234
+vorsitzend;droht,  gewalt;0.9234234234234234
+droht;gewalt,  vorsitzend;0.9234234234234234
+vorsitzend;droht,  hdp;0.9234234234234234
+droht;hdp,  vorsitzend;0.9234234234234234
+vorsitzend;droht,  turkei;0.9234234234234234
+droht;turkei,  vorsitzend;0.9234234234234234
+droht;verurteil,  vorsitzend;0.9234234234234234
+vorsitzend;droht,  verurteil;0.9234234234234234
+vorsitzend;feig;0.9234234234234234
+vorsitzend;feig,  gewalt;0.9234234234234234
+vorsitzend;feig,  hdp;0.9234234234234234
+vorsitzend;feig,  turkei;0.9234234234234234
+vorsitzend;feig,  verurteil;0.9234234234234234
+vorsitzend;gewalt;0.9234234234234234
+vorsitzend;gewalt,  hdp;0.9234234234234234
+vorsitzend;gewalt,  turkei;0.9234234234234234
+vorsitzend;gewalt,  verurteil;0.9234234234234234
+vorsitzend;hdp,  turkei;0.9234234234234234
+vorsitzend;hdp,  verurteil;0.9234234234234234
+vorsitzend;turkei;0.9234234234234234
+vorsitzend;turkei,  verurteil;0.9234234234234234
+vorsitzend;verurteil;0.9234234234234234
+wenig;dresd;0.9251968503937008
+droht;gewalt;0.9279279279279279
+gepida;dresd;0.928030303030303
+dd0911;dresd;0.9299820466786356
+festerling;dresd,  pegida;0.9321533923303835
+festerling;pegida;0.9321533923303835
+schatzung;dresd;0.9459459459459459
+vorsitzend;hdp;0.9459459459459459
+dd2311;dresd;0.9545454545454546
+novemb;dresd;0.9561752988047809
+turkei;amp;0.9624413145539906
+turkei;amp,  angriff;0.9624413145539906
+turkei;amp,  droht;0.9624413145539906
+turkei;amp,  feig;0.9624413145539906
+turkei;amp,  gewalt;0.9624413145539906
+turkei;amp,  hdp;0.9624413145539906
+turkei;amp,  verurteil;0.9624413145539906
+turkei;amp,  vorsitzend;0.9624413145539906
+turkei;angriff;0.9624413145539906
+turkei;angriff,  droht;0.9624413145539906
+turkei;angriff,  feig;0.9624413145539906
+turkei;angriff,  gewalt;0.9624413145539906
+turkei;angriff,  hdp;0.9624413145539906
+turkei;angriff,  verurteil;0.9624413145539906
+turkei;angriff,  vorsitzend;0.9624413145539906
+turkei;droht;0.9624413145539906
+turkei;droht,  feig;0.9624413145539906
+turkei;droht,  gewalt;0.9624413145539906
+turkei;droht,  hdp;0.9624413145539906
+turkei;droht,  verurteil;0.9624413145539906
+turkei;droht,  vorsitzend;0.9624413145539906
+turkei;feig;0.9624413145539906
+turkei;feig,  gewalt;0.9624413145539906
+turkei;feig,  hdp;0.9624413145539906
+turkei;feig,  verurteil;0.9624413145539906
+turkei;feig,  vorsitzend;0.9624413145539906
+turkei;gewalt;0.9624413145539906
+turkei;gewalt,  hdp;0.9624413145539906
+turkei;gewalt,  verurteil;0.9624413145539906
+turkei;gewalt,  vorsitzend;0.9624413145539906
+turkei;hdp,  verurteil;0.9624413145539906
+turkei;hdp,  vorsitzend;0.9624413145539906
+turkei;verurteil;0.9624413145539906
+turkei;vorsitzend;0.9624413145539906
+turkei;verurteil,  vorsitzend;0.9624413145539906
+stolperstein;dresd,  pegida;0.9641255605381166
+stolperstein;pegida;0.9641255605381166
+nsu;pegida;0.9651741293532339
+furchtbar;dresd,  endet;0.9657142857142857
+furchtbar;dresd,  hochburg;0.9657142857142857
+furchtbar;dresd,  mann;0.9657142857142857
+furchtbar;dresd,  novemb;0.9657142857142857
+reinig;dresd,  endet;0.9657142857142857
+reinig;dresd,  furchtbar;0.9657142857142857
+furchtbar;dresd,  reinig;0.9657142857142857
+reinig;dresd,  hochburg;0.9657142857142857
+furchtbar;dresd,  stolperstein;0.9657142857142857
+furchtbar;endet;0.9657142857142857
+furchtbar;endet,  hochburg;0.9657142857142857
+furchtbar;endet,  mann;0.9657142857142857
+furchtbar;endet,  novemb;0.9657142857142857
+furchtbar;endet,  pegida;0.9657142857142857
+reinig;endet;0.9657142857142857
+reinig;endet,  furchtbar;0.9657142857142857
+furchtbar;endet,  reinig;0.9657142857142857
+reinig;endet,  hochburg;0.9657142857142857
+reinig;endet,  mann;0.9657142857142857
+reinig;endet,  novemb;0.9657142857142857
+reinig;endet,  pegida;0.9657142857142857
+furchtbar;endet,  stolperstein;0.9657142857142857
+reinig;endet,  stolperstein;0.9657142857142857
+furchtbar;hochburg;0.9657142857142857
+furchtbar;mann;0.9657142857142857
+furchtbar;hochburg,  mann;0.9657142857142857
+furchtbar;novemb;0.9657142857142857
+furchtbar;hochburg,  novemb;0.9657142857142857
+furchtbar;mann,  novemb;0.9657142857142857
+furchtbar;hochburg,  pegida;0.9657142857142857
+furchtbar;mann,  pegida;0.9657142857142857
+furchtbar;novemb,  pegida;0.9657142857142857
+reinig;furchtbar;0.9657142857142857
+furchtbar;reinig;0.9657142857142857
+furchtbar;hochburg,  reinig;0.9657142857142857
+reinig;furchtbar,  hochburg;0.9657142857142857
+reinig;furchtbar,  mann;0.9657142857142857
+furchtbar;mann,  reinig;0.9657142857142857
+reinig;furchtbar,  novemb;0.9657142857142857
+furchtbar;novemb,  reinig;0.9657142857142857
+furchtbar;pegida,  reinig;0.9657142857142857
+reinig;furchtbar,  pegida;0.9657142857142857
+furchtbar;stolperstein;0.9657142857142857
+furchtbar;hochburg,  stolperstein;0.9657142857142857
+furchtbar;mann,  stolperstein;0.9657142857142857
+furchtbar;novemb,  stolperstein;0.9657142857142857
+furchtbar;pegida,  stolperstein;0.9657142857142857
+reinig;furchtbar,  stolperstein;0.9657142857142857
+furchtbar;reinig,  stolperstein;0.9657142857142857
+reinig;hochburg;0.9657142857142857
+reinig;hochburg,  mann;0.9657142857142857
+reinig;hochburg,  novemb;0.9657142857142857
+reinig;hochburg,  pegida;0.9657142857142857
+reinig;hochburg,  stolperstein;0.9657142857142857
+heutig;dresd;0.967032967032967
+heutig;dresd,  pegida;0.967032967032967
+turkei;hdp;0.9671361502347418
+bild;dresd;0.967391304347826
+furchtbar;dresd,  pegida;0.9714285714285714
+furchtbar;pegida;0.9714285714285714
+feig;amp;0.9715639810426541
+feig;amp,  angriff;0.9715639810426541
+feig;amp,  droht;0.9715639810426541
+feig;amp,  gewalt;0.9715639810426541
+hdp;amp;0.9715639810426541
+hdp;amp,  angriff;0.9715639810426541
+hdp;amp,  droht;0.9715639810426541
+feig;amp,  hdp;0.9715639810426541
+hdp;amp,  feig;0.9715639810426541
+hdp;amp,  gewalt;0.9715639810426541
+feig;amp,  turkei;0.9715639810426541
+hdp;amp,  turkei;0.9715639810426541
+feig;amp,  verurteil;0.9715639810426541
+hdp;amp,  verurteil;0.9715639810426541
+feig;amp,  vorsitzend;0.9715639810426541
+hdp;amp,  vorsitzend;0.9715639810426541
+feig;angriff;0.9715639810426541
+feig;angriff,  droht;0.9715639810426541
+feig;angriff,  gewalt;0.9715639810426541
+hdp;angriff;0.9715639810426541
+hdp;angriff,  droht;0.9715639810426541
+feig;angriff,  hdp;0.9715639810426541
+hdp;angriff,  feig;0.9715639810426541
+hdp;angriff,  gewalt;0.9715639810426541
+feig;angriff,  turkei;0.9715639810426541
+hdp;angriff,  turkei;0.9715639810426541
+feig;angriff,  verurteil;0.9715639810426541
+hdp;angriff,  verurteil;0.9715639810426541
+feig;angriff,  vorsitzend;0.9715639810426541
+hdp;angriff,  vorsitzend;0.9715639810426541
+weg;dresd;0.9715639810426541
+feig;droht;0.9715639810426541
+feig;droht,  gewalt;0.9715639810426541
+hdp;droht;0.9715639810426541
+feig;droht,  hdp;0.9715639810426541
+hdp;droht,  feig;0.9715639810426541
+hdp;droht,  gewalt;0.9715639810426541
+feig;droht,  turkei;0.9715639810426541
+hdp;droht,  turkei;0.9715639810426541
+feig;droht,  verurteil;0.9715639810426541
+hdp;droht,  verurteil;0.9715639810426541
+feig;droht,  vorsitzend;0.9715639810426541
+hdp;droht,  vorsitzend;0.9715639810426541
+feig;gewalt;0.9715639810426541
+hdp;feig;0.9715639810426541
+feig;hdp;0.9715639810426541
+hdp;feig,  gewalt;0.9715639810426541
+feig;gewalt,  hdp;0.9715639810426541
+feig;turkei;0.9715639810426541
+feig;gewalt,  turkei;0.9715639810426541
+feig;hdp,  turkei;0.9715639810426541
+hdp;feig,  turkei;0.9715639810426541
+feig;verurteil;0.9715639810426541
+feig;gewalt,  verurteil;0.9715639810426541
+hdp;feig,  verurteil;0.9715639810426541
+feig;hdp,  verurteil;0.9715639810426541
+feig;turkei,  verurteil;0.9715639810426541
+feig;vorsitzend;0.9715639810426541
+feig;gewalt,  vorsitzend;0.9715639810426541
+hdp;feig,  vorsitzend;0.9715639810426541
+feig;hdp,  vorsitzend;0.9715639810426541
+feig;turkei,  vorsitzend;0.9715639810426541
+feig;verurteil,  vorsitzend;0.9715639810426541
+hdp;gewalt;0.9715639810426541
+hdp;gewalt,  turkei;0.9715639810426541
+hdp;gewalt,  verurteil;0.9715639810426541
+hdp;gewalt,  vorsitzend;0.9715639810426541
+hdp;verurteil;0.9715639810426541
+hdp;turkei,  verurteil;0.9715639810426541
+hdp;turkei,  vorsitzend;0.9715639810426541
+hdp;verurteil,  vorsitzend;0.9715639810426541
+hdp;turkei;0.976303317535545
+kameramann;dresd;0.9764705882352941
+kameramann;dresd,  pegida;0.9764705882352941
+heutig;pegida;0.978021978021978
+zulauf;dresd;0.9819277108433735
+kameramann;pegida;0.9823529411764705
+merkel;dresd;0.9826086956521739
+furchtbar;dresd;0.9828571428571429
+reinig;dresd,  mann;0.9828571428571429
+reinig;dresd,  novemb;0.9828571428571429
+reinig;mann;0.9828571428571429
+reinig;mann,  novemb;0.9828571428571429
+reinig;mann,  pegida;0.9828571428571429
+reinig;mann,  stolperstein;0.9828571428571429
+reinig;novemb;0.9828571428571429
+reinig;novemb,  pegida;0.9828571428571429
+reinig;novemb,  stolperstein;0.9828571428571429
+festerling;dresd;0.9852507374631269
+hochburg;dresd,  endet;0.9883040935672515
+hochburg;dresd,  furchtbar;0.9883040935672515
+hochburg;dresd,  mann;0.9883040935672515
+hochburg;dresd,  novemb;0.9883040935672515
+hochburg;dresd,  reinig;0.9883040935672515
+hochburg;dresd,  stolperstein;0.9883040935672515
+hochburg;endet;0.9883040935672515
+hochburg;endet,  furchtbar;0.9883040935672515
+hochburg;endet,  mann;0.9883040935672515
+hochburg;endet,  novemb;0.9883040935672515
+hochburg;endet,  pegida;0.9883040935672515
+hochburg;endet,  reinig;0.9883040935672515
+hochburg;endet,  stolperstein;0.9883040935672515
+hochburg;furchtbar;0.9883040935672515
+hochburg;furchtbar,  mann;0.9883040935672515
+hochburg;furchtbar,  novemb;0.9883040935672515
+hochburg;furchtbar,  pegida;0.9883040935672515
+hochburg;furchtbar,  reinig;0.9883040935672515
+hochburg;furchtbar,  stolperstein;0.9883040935672515
+hochburg;mann;0.9883040935672515
+hochburg;novemb;0.9883040935672515
+hochburg;mann,  novemb;0.9883040935672515
+hochburg;mann,  pegida;0.9883040935672515
+hochburg;novemb,  pegida;0.9883040935672515
+hochburg;reinig;0.9883040935672515
+hochburg;mann,  reinig;0.9883040935672515
+hochburg;novemb,  reinig;0.9883040935672515
+hochburg;pegida,  reinig;0.9883040935672515
+hochburg;stolperstein;0.9883040935672515
+hochburg;mann,  stolperstein;0.9883040935672515
+hochburg;novemb,  stolperstein;0.9883040935672515
+hochburg;pegida,  stolperstein;0.9883040935672515
+hochburg;reinig,  stolperstein;0.9883040935672515
+reinig;dresd,  pegida;0.9885714285714285
+reinig;pegida;0.9885714285714285
+reinig;pegida,  stolperstein;0.9885714285714285
+theaterplatz;dresd;0.9914772727272727
+endet;dresd;0.9941176470588236
+endet;dresd,  furchtbar;0.9941176470588236
+endet;dresd,  hochburg;0.9941176470588236
+endet;dresd,  mann;0.9941176470588236
+endet;dresd,  novemb;0.9941176470588236
+endet;dresd,  pegida;0.9941176470588236
+endet;dresd,  reinig;0.9941176470588236
+endet;dresd,  stolperstein;0.9941176470588236
+endet;furchtbar;0.9941176470588236
+endet;hochburg;0.9941176470588236
+endet;furchtbar,  hochburg;0.9941176470588236
+endet;mann;0.9941176470588236
+endet;furchtbar,  mann;0.9941176470588236
+endet;hochburg,  mann;0.9941176470588236
+endet;novemb;0.9941176470588236
+endet;furchtbar,  novemb;0.9941176470588236
+endet;hochburg,  novemb;0.9941176470588236
+endet;mann,  novemb;0.9941176470588236
+endet;pegida;0.9941176470588236
+endet;furchtbar,  pegida;0.9941176470588236
+endet;hochburg,  pegida;0.9941176470588236
+endet;mann,  pegida;0.9941176470588236
+endet;novemb,  pegida;0.9941176470588236
+endet;reinig;0.9941176470588236
+endet;furchtbar,  reinig;0.9941176470588236
+endet;hochburg,  reinig;0.9941176470588236
+endet;mann,  reinig;0.9941176470588236
+endet;novemb,  reinig;0.9941176470588236
+endet;pegida,  reinig;0.9941176470588236
+endet;stolperstein;0.9941176470588236
+endet;furchtbar,  stolperstein;0.9941176470588236
+endet;hochburg,  stolperstein;0.9941176470588236
+endet;mann,  stolperstein;0.9941176470588236
+endet;novemb,  stolperstein;0.9941176470588236
+endet;pegida,  stolperstein;0.9941176470588236
+endet;reinig,  stolperstein;0.9941176470588236
+verurteil;amp;0.9951456310679612
+verurteil;amp,  angriff;0.9951456310679612
+verurteil;amp,  droht;0.9951456310679612
+verurteil;amp,  feig;0.9951456310679612
+verurteil;amp,  gewalt;0.9951456310679612
+verurteil;amp,  hdp;0.9951456310679612
+verurteil;amp,  turkei;0.9951456310679612
+verurteil;amp,  vorsitzend;0.9951456310679612
+verurteil;angriff;0.9951456310679612
+verurteil;angriff,  droht;0.9951456310679612
+verurteil;angriff,  feig;0.9951456310679612
+verurteil;angriff,  gewalt;0.9951456310679612
+verurteil;angriff,  hdp;0.9951456310679612
+verurteil;angriff,  turkei;0.9951456310679612
+verurteil;angriff,  vorsitzend;0.9951456310679612
+verurteil;droht;0.9951456310679612
+verurteil;droht,  feig;0.9951456310679612
+verurteil;droht,  gewalt;0.9951456310679612
+verurteil;droht,  hdp;0.9951456310679612
+verurteil;droht,  turkei;0.9951456310679612
+verurteil;droht,  vorsitzend;0.9951456310679612
+verurteil;feig;0.9951456310679612
+verurteil;feig,  gewalt;0.9951456310679612
+verurteil;feig,  hdp;0.9951456310679612
+verurteil;feig,  turkei;0.9951456310679612
+verurteil;feig,  vorsitzend;0.9951456310679612
+verurteil;gewalt;0.9951456310679612
+verurteil;gewalt,  hdp;0.9951456310679612
+verurteil;gewalt,  turkei;0.9951456310679612
+verurteil;gewalt,  vorsitzend;0.9951456310679612
+verurteil;hdp;0.9951456310679612
+verurteil;hdp,  turkei;0.9951456310679612
+verurteil;hdp,  vorsitzend;0.9951456310679612
+verurteil;turkei;0.9951456310679612
+verurteil;turkei,  vorsitzend;0.9951456310679612
+verurteil;vorsitzend;0.9951456310679612
+afd;dresd;0.9952267303102625
+hdp;vorsitzend;0.995260663507109
+bachmann;dresd;1.0
+frontfrau;dresd;1.0
+frontfrau;dresd,  festerling;1.0
+hochburg;dresd;1.0
+frontfrau;dresd,  pegida;1.0
+hochburg;dresd,  pegida;1.0
+reinig;dresd;1.0
+stolperstein;dresd;1.0
+reinig;dresd,  stolperstein;1.0
+frontfrau;festerling;1.0
+frontfrau;festerling,  pegida;1.0
+frontfrau;pegida;1.0
+hochburg;pegida;1.0
+kassmann;recht;1.0
+reinig;stolperstein;1.0
+herzstatthetz,  pegida;nopegida;0.6505576208178439
+dresd,  montag;pegida;0.6535087719298246
+dd0911,  nopegida;herzstatthetz;0.6597938144329897
+dresd,  novemb;endet;0.7041666666666667
+dresd,  novemb;furchtbar;0.7041666666666667
+dresd,  novemb;hochburg;0.7041666666666667
+dresd,  novemb;mann;0.7166666666666667
+dresd,  novemb;reinig;0.7166666666666667
+dd0911,  dresd;nopegida;0.7181467181467182
+dresd,  stadt;pegida;0.7240143369175627
+dresd,  kaltland;nopegida;0.7276785714285714
+dresd,  heut;pegida;0.7437185929648241
+novemb,  pegida;endet;0.7444933920704846
+novemb,  pegida;furchtbar;0.7444933920704846
+novemb,  pegida;hochburg;0.7444933920704846
+paris,  pegida;dresd;0.7475247524752475
+dresd,  mehr;pegida;0.75
+dresd,  mal;pegida;0.754863813229572
+novemb,  pegida;mann;0.7577092511013216
+novemb,  pegida;reinig;0.7577092511013216
+dresd,  stolperstein;endet;0.757847533632287
+dresd,  stolperstein;furchtbar;0.757847533632287
+dresd,  stolperstein;hochburg;0.757847533632287
+dresd,  strass;pegida;0.7675675675675676
+dresd,  novemb;stolperstein;0.7708333333333334
+dresd,  merkel;pegida;0.7787610619469026
+dresd,  stolperstein;mann;0.7802690582959642
+dresd,  herzstatthetz;nopegida;0.784
+dresd,  stolperstein;reinig;0.7847533632286996
+pegida,  stolperstein;endet;0.786046511627907
+pegida,  stolperstein;furchtbar;0.786046511627907
+pegida,  stolperstein;hochburg;0.786046511627907
+dd2311,  dresd;pegida;0.7952380952380952
+bild,  dresd;pegida;0.8033707865168539
+pegida,  stolperstein;mann;0.8046511627906977
+pegida,  stolperstein;reinig;0.8046511627906977
+novemb,  pegida;stolperstein;0.8149779735682819
+dresd,  ermittelt;pegida;0.822429906542056
+dresd,  via;pegida;0.8252788104089219
+demo,  dresd;pegida;0.8286558345642541
+dresd,  stolperstein;novemb;0.8295964125560538
+dresd,  munch;pegida;0.8351648351648352
+nsu,  pegida;afd;0.8402061855670103
+dd0911,  herzstatthetz;nopegida;0.8448844884488449
+dresd,  mann;endet;0.845
+dresd,  mann;furchtbar;0.845
+dresd,  mann;hochburg;0.845
+nsu,  pegida;dresd;0.845360824742268
+heut,  nopegida;dresd;0.8464052287581699
+bachmann,  dresd;pegida;0.8488888888888889
+dresd,  theaterplatz;pegida;0.8567335243553008
+mensch,  pegida;dresd;0.8578431372549019
+berlin,  dresd;pegida;0.8580246913580247
+dresd,  mann;novemb;0.86
+dresd,  mann;reinig;0.86
+pegida,  stolperstein;novemb;0.8604651162790697
+dresd,  mann;stolperstein;0.87
+dresd,  paris;pegida;0.877906976744186
+mal,  pegida;dresd;0.8818181818181818
+angriff,  gewalt;amp;0.8836206896551724
+angriff,  gewalt;droht;0.8836206896551724
+angriff,  gewalt;feig;0.8836206896551724
+angriff,  gewalt;hdp;0.8836206896551724
+angriff,  gewalt;turkei;0.8836206896551724
+angriff,  gewalt;verurteil;0.8836206896551724
+angriff,  gewalt;vorsitzend;0.8836206896551724
+afd,  dresd;pegida;0.8896882494004796
+heut,  schatzung;dresd;0.9032258064516129
+heut,  schatzung;pegida;0.9032258064516129
+kaltland,  nopegida;dresd;0.9055555555555556
+montag,  pegida;dresd;0.9085365853658537
+dresd,  mann;pegida;0.91
+schatzung,  teilnehm;pegida;0.9106145251396648
+novemb,  stolperstein;endet;0.9135135135135135
+novemb,  stolperstein;furchtbar;0.9135135135135135
+novemb,  stolperstein;hochburg;0.9135135135135135
+heut,  teilnehm;dresd;0.9152542372881356
+heut,  teilnehm;pegida;0.9152542372881356
+schatzung,  teilnehm;dresd;0.9162011173184358
+mann,  pegida;endet;0.9234972677595629
+mann,  pegida;furchtbar;0.9234972677595629
+mann,  pegida;hochburg;0.9234972677595629
+dresd,  schatzung;pegida;0.9238095238095239
+gepida,  nopegida;dresd;0.9266862170087976
+novemb,  stolperstein;mann;0.9297297297297298
+novemb,  stolperstein;reinig;0.9297297297297298
+mann,  pegida;novemb;0.9398907103825137
+mann,  pegida;reinig;0.9398907103825137
+mann,  pegida;stolperstein;0.9453551912568307
+asyl,  fluchtling;dresd;0.9455782312925171
+dresd,  novemb;pegida;0.9458333333333333
+dresd,  festerling;pegida;0.9461077844311377
+pegida,  sachs;dresd;0.9484536082474226
+dresd,  warum;pegida;0.9484536082474226
+dresd,  wenig;pegida;0.948936170212766
+dd0911,  pegida;dresd;0.9489795918367347
+http,  pegida;dresd;0.9491094147582697
+herzstatthetz,  nopegida;dresd;0.9491525423728814
+dresd,  http;pegida;0.9564102564102565
+pegida,  warum;dresd;0.9583333333333334
+dd0911,  nopegida;dresd;0.9587628865979382
+dresd,  teilnehm;pegida;0.9614457831325302
+dresd,  stolperstein;pegida;0.9641255605381166
+demo,  pegida;dresd;0.9655765920826161
+dresd,  reinig;endet;0.9657142857142857
+dresd,  reinig;furchtbar;0.9657142857142857
+dresd,  reinig;hochburg;0.9657142857142857
+reinig,  stolperstein;endet;0.9657142857142857
+reinig,  stolperstein;furchtbar;0.9657142857142857
+reinig,  stolperstein;hochburg;0.9657142857142857
+heut,  pegida;dresd;0.9704918032786886
+dd2311,  pegida;dresd;0.9709302325581395
+mann,  stolperstein;endet;0.9712643678160919
+mann,  stolperstein;furchtbar;0.9712643678160919
+mann,  stolperstein;hochburg;0.9712643678160919
+mehr,  pegida;dresd;0.972972972972973
+amp,  gewalt;angriff;0.9761904761904762
+amp,  gewalt;droht;0.9761904761904762
+amp,  gewalt;feig;0.9761904761904762
+amp,  gewalt;hdp;0.9761904761904762
+amp,  gewalt;turkei;0.9761904761904762
+amp,  gewalt;verurteil;0.9761904761904762
+amp,  gewalt;vorsitzend;0.9761904761904762
+hdp,  vorsitzend;amp;0.9761904761904762
+hdp,  vorsitzend;angriff;0.9761904761904762
+hdp,  vorsitzend;droht;0.9761904761904762
+hdp,  vorsitzend;feig;0.9761904761904762
+hdp,  vorsitzend;gewalt;0.9761904761904762
+hdp,  vorsitzend;turkei;0.9761904761904762
+hdp,  vorsitzend;verurteil;0.9761904761904762
+pegida,  reinig;endet;0.976878612716763
+pegida,  reinig;furchtbar;0.976878612716763
+pegida,  reinig;hochburg;0.976878612716763
+merkel,  pegida;dresd;0.9777777777777777
+dresd,  furchtbar;endet;0.9825581395348837
+dresd,  furchtbar;hochburg;0.9825581395348837
+dresd,  furchtbar;mann;0.9825581395348837
+dresd,  furchtbar;novemb;0.9825581395348837
+dresd,  furchtbar;reinig;0.9825581395348837
+dresd,  furchtbar;stolperstein;0.9825581395348837
+mann,  novemb;endet;0.9825581395348837
+mann,  reinig;endet;0.9825581395348837
+novemb,  reinig;endet;0.9825581395348837
+mann,  novemb;furchtbar;0.9825581395348837
+mann,  reinig;furchtbar;0.9825581395348837
+novemb,  reinig;furchtbar;0.9825581395348837
+mann,  novemb;hochburg;0.9825581395348837
+mann,  reinig;hochburg;0.9825581395348837
+novemb,  reinig;hochburg;0.9825581395348837
+dresd,  reinig;mann;0.9828571428571429
+dresd,  reinig;novemb;0.9828571428571429
+reinig,  stolperstein;mann;0.9828571428571429
+reinig,  stolperstein;novemb;0.9828571428571429
+pegida,  strass;dresd;0.9861111111111112
+dresd,  hochburg;endet;0.9883040935672515
+dresd,  hochburg;furchtbar;0.9883040935672515
+dresd,  hochburg;mann;0.9883040935672515
+dresd,  hochburg;novemb;0.9883040935672515
+dresd,  hochburg;reinig;0.9883040935672515
+dresd,  hochburg;stolperstein;0.9883040935672515
+hochburg,  pegida;endet;0.9883040935672515
+hochburg,  pegida;furchtbar;0.9883040935672515
+hochburg,  pegida;mann;0.9883040935672515
+hochburg,  pegida;novemb;0.9883040935672515
+hochburg,  pegida;reinig;0.9883040935672515
+hochburg,  pegida;stolperstein;0.9883040935672515
+dresd,  furchtbar;pegida;0.9883720930232558
+mann,  stolperstein;novemb;0.9885057471264368
+mann,  stolperstein;reinig;0.9885057471264368
+dresd,  reinig;pegida;0.9885714285714285
+reinig,  stolperstein;pegida;0.9885714285714285
+heutig,  pegida;dresd;0.9887640449438202
+pegida,  stadt;dresd;0.9901960784313726
+pegida,  via;dresd;0.9910714285714286
+herzstatthetz,  pegida;dresd;0.9925650557620818
+pegida,  theaterplatz;dresd;0.9933554817275747
+dresd,  nsu;afd;0.9939024390243902
+kameramann,  pegida;dresd;0.9940119760479041
+furchtbar,  pegida;endet;0.9941176470588236
+furchtbar,  pegida;hochburg;0.9941176470588236
+furchtbar,  pegida;mann;0.9941176470588236
+furchtbar,  pegida;novemb;0.9941176470588236
+furchtbar,  pegida;reinig;0.9941176470588236
+furchtbar,  pegida;stolperstein;0.9941176470588236
+pegida,  reinig;mann;0.9942196531791907
+pegida,  reinig;novemb;0.9942196531791907
+mann,  stolperstein;pegida;0.9942528735632183
+mann,  pegida;dresd;0.994535519125683
+afd,  pegida;dresd;0.9946380697050938
+amp,  angriff;droht;0.9951456310679612
+amp,  angriff;feig;0.9951456310679612
+amp,  angriff;gewalt;0.9951456310679612
+droht,  gewalt;amp;0.9951456310679612
+amp,  angriff;hdp;0.9951456310679612
+amp,  angriff;turkei;0.9951456310679612
+hdp,  turkei;amp;0.9951456310679612
+amp,  angriff;verurteil;0.9951456310679612
+amp,  angriff;vorsitzend;0.9951456310679612
+droht,  gewalt;angriff;0.9951456310679612
+hdp,  turkei;angriff;0.9951456310679612
+droht,  gewalt;feig;0.9951456310679612
+droht,  gewalt;hdp;0.9951456310679612
+droht,  gewalt;turkei;0.9951456310679612
+hdp,  turkei;droht;0.9951456310679612
+droht,  gewalt;verurteil;0.9951456310679612
+droht,  gewalt;vorsitzend;0.9951456310679612
+hdp,  turkei;feig;0.9951456310679612
+hdp,  turkei;gewalt;0.9951456310679612
+hdp,  turkei;verurteil;0.9951456310679612
+hdp,  turkei;vorsitzend;0.9951456310679612
+pegida,  wenig;dresd;0.9955357142857143
+afd,  nsu;dresd;1.0
+afd,  nsu;pegida;1.0
+angriff,  droht;amp;1.0
+amp,  droht;angriff;1.0
+angriff,  feig;amp;1.0
+amp,  feig;angriff;1.0
+droht,  feig;amp;1.0
+amp,  feig;droht;1.0
+amp,  droht;feig;1.0
+amp,  droht;gewalt;1.0
+feig,  gewalt;amp;1.0
+amp,  feig;gewalt;1.0
+angriff,  hdp;amp;1.0
+amp,  hdp;angriff;1.0
+droht,  hdp;amp;1.0
+amp,  hdp;droht;1.0
+amp,  droht;hdp;1.0
+feig,  hdp;amp;1.0
+amp,  hdp;feig;1.0
+amp,  feig;hdp;1.0
+gewalt,  hdp;amp;1.0
+amp,  hdp;gewalt;1.0
+angriff,  turkei;amp;1.0
+amp,  turkei;angriff;1.0
+droht,  turkei;amp;1.0
+amp,  turkei;droht;1.0
+amp,  droht;turkei;1.0
+feig,  turkei;amp;1.0
+amp,  turkei;feig;1.0
+amp,  feig;turkei;1.0
+gewalt,  turkei;amp;1.0
+amp,  turkei;gewalt;1.0
+amp,  turkei;hdp;1.0
+amp,  hdp;turkei;1.0
+angriff,  verurteil;amp;1.0
+amp,  verurteil;angriff;1.0
+droht,  verurteil;amp;1.0
+amp,  verurteil;droht;1.0
+amp,  droht;verurteil;1.0
+feig,  verurteil;amp;1.0
+amp,  verurteil;feig;1.0
+amp,  feig;verurteil;1.0
+gewalt,  verurteil;amp;1.0
+amp,  verurteil;gewalt;1.0
+hdp,  verurteil;amp;1.0
+amp,  verurteil;hdp;1.0
+amp,  hdp;verurteil;1.0
+turkei,  verurteil;amp;1.0
+amp,  verurteil;turkei;1.0
+amp,  turkei;verurteil;1.0
+angriff,  vorsitzend;amp;1.0
+amp,  vorsitzend;angriff;1.0
+droht,  vorsitzend;amp;1.0
+amp,  vorsitzend;droht;1.0
+amp,  droht;vorsitzend;1.0
+feig,  vorsitzend;amp;1.0
+amp,  vorsitzend;feig;1.0
+amp,  feig;vorsitzend;1.0
+gewalt,  vorsitzend;amp;1.0
+amp,  vorsitzend;gewalt;1.0
+amp,  vorsitzend;hdp;1.0
+amp,  hdp;vorsitzend;1.0
+turkei,  vorsitzend;amp;1.0
+amp,  vorsitzend;turkei;1.0
+amp,  turkei;vorsitzend;1.0
+verurteil,  vorsitzend;amp;1.0
+amp,  vorsitzend;verurteil;1.0
+amp,  verurteil;vorsitzend;1.0
+droht,  feig;angriff;1.0
+angriff,  feig;droht;1.0
+angriff,  droht;feig;1.0
+angriff,  droht;gewalt;1.0
+feig,  gewalt;angriff;1.0
+angriff,  feig;gewalt;1.0
+droht,  hdp;angriff;1.0
+angriff,  hdp;droht;1.0
+angriff,  droht;hdp;1.0
+feig,  hdp;angriff;1.0
+angriff,  hdp;feig;1.0
+angriff,  feig;hdp;1.0
+gewalt,  hdp;angriff;1.0
+angriff,  hdp;gewalt;1.0
+droht,  turkei;angriff;1.0
+angriff,  turkei;droht;1.0
+angriff,  droht;turkei;1.0
+feig,  turkei;angriff;1.0
+angriff,  turkei;feig;1.0
+angriff,  feig;turkei;1.0
+gewalt,  turkei;angriff;1.0
+angriff,  turkei;gewalt;1.0
+angriff,  turkei;hdp;1.0
+angriff,  hdp;turkei;1.0
+droht,  verurteil;angriff;1.0
+angriff,  verurteil;droht;1.0
+angriff,  droht;verurteil;1.0
+feig,  verurteil;angriff;1.0
+angriff,  verurteil;feig;1.0
+angriff,  feig;verurteil;1.0
+gewalt,  verurteil;angriff;1.0
+angriff,  verurteil;gewalt;1.0
+hdp,  verurteil;angriff;1.0
+angriff,  verurteil;hdp;1.0
+angriff,  hdp;verurteil;1.0
+turkei,  verurteil;angriff;1.0
+angriff,  verurteil;turkei;1.0
+angriff,  turkei;verurteil;1.0
+droht,  vorsitzend;angriff;1.0
+angriff,  vorsitzend;droht;1.0
+angriff,  droht;vorsitzend;1.0
+feig,  vorsitzend;angriff;1.0
+angriff,  vorsitzend;feig;1.0
+angriff,  feig;vorsitzend;1.0
+gewalt,  vorsitzend;angriff;1.0
+angriff,  vorsitzend;gewalt;1.0
+angriff,  vorsitzend;hdp;1.0
+angriff,  hdp;vorsitzend;1.0
+turkei,  vorsitzend;angriff;1.0
+angriff,  vorsitzend;turkei;1.0
+angriff,  turkei;vorsitzend;1.0
+verurteil,  vorsitzend;angriff;1.0
+angriff,  vorsitzend;verurteil;1.0
+angriff,  verurteil;vorsitzend;1.0
+bachmann,  pegida;dresd;1.0
+berlin,  pegida;dresd;1.0
+bild,  pegida;dresd;1.0
+dd0911,  herzstatthetz;dresd;1.0
+demonstration,  nopegida;dresd;1.0
+demonstration,  pegida;dresd;1.0
+festerling,  frontfrau;dresd;1.0
+dresd,  frontfrau;festerling;1.0
+endet,  furchtbar;dresd;1.0
+dresd,  endet;furchtbar;1.0
+endet,  hochburg;dresd;1.0
+dresd,  endet;hochburg;1.0
+furchtbar,  hochburg;dresd;1.0
+endet,  mann;dresd;1.0
+dresd,  endet;mann;1.0
+furchtbar,  mann;dresd;1.0
+hochburg,  mann;dresd;1.0
+endet,  novemb;dresd;1.0
+dresd,  endet;novemb;1.0
+furchtbar,  novemb;dresd;1.0
+hochburg,  novemb;dresd;1.0
+mann,  novemb;dresd;1.0
+endet,  pegida;dresd;1.0
+dresd,  endet;pegida;1.0
+ermittelt,  pegida;dresd;1.0
+festerling,  pegida;dresd;1.0
+frontfrau,  pegida;dresd;1.0
+dresd,  frontfrau;pegida;1.0
+furchtbar,  pegida;dresd;1.0
+gepida,  pegida;dresd;1.0
+dresd,  heutig;pegida;1.0
+hochburg,  pegida;dresd;1.0
+dresd,  hochburg;pegida;1.0
+dresd,  kameramann;pegida;1.0
+munch,  pegida;dresd;1.0
+nopegida,  pegida;dresd;1.0
+novemb,  pegida;dresd;1.0
+dresd,  nsu;pegida;1.0
+endet,  reinig;dresd;1.0
+dresd,  endet;reinig;1.0
+furchtbar,  reinig;dresd;1.0
+hochburg,  reinig;dresd;1.0
+mann,  reinig;dresd;1.0
+novemb,  reinig;dresd;1.0
+pegida,  reinig;dresd;1.0
+pegida,  schatzung;dresd;1.0
+endet,  stolperstein;dresd;1.0
+dresd,  endet;stolperstein;1.0
+furchtbar,  stolperstein;dresd;1.0
+hochburg,  stolperstein;dresd;1.0
+mann,  stolperstein;dresd;1.0
+novemb,  stolperstein;dresd;1.0
+pegida,  stolperstein;dresd;1.0
+reinig,  stolperstein;dresd;1.0
+dresd,  reinig;stolperstein;1.0
+pegida,  teilnehm;dresd;1.0
+nopegida,  theaterplatz;dresd;1.0
+feig,  gewalt;droht;1.0
+droht,  feig;gewalt;1.0
+feig,  hdp;droht;1.0
+droht,  hdp;feig;1.0
+droht,  feig;hdp;1.0
+gewalt,  hdp;droht;1.0
+droht,  hdp;gewalt;1.0
+feig,  turkei;droht;1.0
+droht,  turkei;feig;1.0
+droht,  feig;turkei;1.0
+gewalt,  turkei;droht;1.0
+droht,  turkei;gewalt;1.0
+droht,  turkei;hdp;1.0
+droht,  hdp;turkei;1.0
+feig,  verurteil;droht;1.0
+droht,  verurteil;feig;1.0
+droht,  feig;verurteil;1.0
+gewalt,  verurteil;droht;1.0
+droht,  verurteil;gewalt;1.0
+hdp,  verurteil;droht;1.0
+droht,  verurteil;hdp;1.0
+droht,  hdp;verurteil;1.0
+turkei,  verurteil;droht;1.0
+droht,  verurteil;turkei;1.0
+droht,  turkei;verurteil;1.0
+feig,  vorsitzend;droht;1.0
+droht,  vorsitzend;feig;1.0
+droht,  feig;vorsitzend;1.0
+gewalt,  vorsitzend;droht;1.0
+droht,  vorsitzend;gewalt;1.0
+droht,  vorsitzend;hdp;1.0
+droht,  hdp;vorsitzend;1.0
+turkei,  vorsitzend;droht;1.0
+droht,  vorsitzend;turkei;1.0
+droht,  turkei;vorsitzend;1.0
+verurteil,  vorsitzend;droht;1.0
+droht,  vorsitzend;verurteil;1.0
+droht,  verurteil;vorsitzend;1.0
+furchtbar,  hochburg;endet;1.0
+endet,  hochburg;furchtbar;1.0
+endet,  furchtbar;hochburg;1.0
+furchtbar,  mann;endet;1.0
+endet,  mann;furchtbar;1.0
+endet,  furchtbar;mann;1.0
+hochburg,  mann;endet;1.0
+endet,  mann;hochburg;1.0
+endet,  hochburg;mann;1.0
+furchtbar,  novemb;endet;1.0
+endet,  novemb;furchtbar;1.0
+endet,  furchtbar;novemb;1.0
+hochburg,  novemb;endet;1.0
+endet,  novemb;hochburg;1.0
+endet,  hochburg;novemb;1.0
+endet,  novemb;mann;1.0
+endet,  mann;novemb;1.0
+endet,  pegida;furchtbar;1.0
+endet,  furchtbar;pegida;1.0
+endet,  pegida;hochburg;1.0
+endet,  hochburg;pegida;1.0
+endet,  pegida;mann;1.0
+endet,  mann;pegida;1.0
+endet,  pegida;novemb;1.0
+endet,  novemb;pegida;1.0
+furchtbar,  reinig;endet;1.0
+endet,  reinig;furchtbar;1.0
+endet,  furchtbar;reinig;1.0
+hochburg,  reinig;endet;1.0
+endet,  reinig;hochburg;1.0
+endet,  hochburg;reinig;1.0
+endet,  reinig;mann;1.0
+endet,  mann;reinig;1.0
+endet,  reinig;novemb;1.0
+endet,  novemb;reinig;1.0
+endet,  reinig;pegida;1.0
+endet,  pegida;reinig;1.0
+furchtbar,  stolperstein;endet;1.0
+endet,  stolperstein;furchtbar;1.0
+endet,  furchtbar;stolperstein;1.0
+hochburg,  stolperstein;endet;1.0
+endet,  stolperstein;hochburg;1.0
+endet,  hochburg;stolperstein;1.0
+endet,  stolperstein;mann;1.0
+endet,  mann;stolperstein;1.0
+endet,  stolperstein;novemb;1.0
+endet,  novemb;stolperstein;1.0
+endet,  stolperstein;pegida;1.0
+endet,  pegida;stolperstein;1.0
+endet,  stolperstein;reinig;1.0
+endet,  reinig;stolperstein;1.0
+gewalt,  hdp;feig;1.0
+feig,  hdp;gewalt;1.0
+feig,  gewalt;hdp;1.0
+gewalt,  turkei;feig;1.0
+feig,  turkei;gewalt;1.0
+feig,  gewalt;turkei;1.0
+feig,  turkei;hdp;1.0
+feig,  hdp;turkei;1.0
+gewalt,  verurteil;feig;1.0
+feig,  verurteil;gewalt;1.0
+feig,  gewalt;verurteil;1.0
+hdp,  verurteil;feig;1.0
+feig,  verurteil;hdp;1.0
+feig,  hdp;verurteil;1.0
+turkei,  verurteil;feig;1.0
+feig,  verurteil;turkei;1.0
+feig,  turkei;verurteil;1.0
+gewalt,  vorsitzend;feig;1.0
+feig,  vorsitzend;gewalt;1.0
+feig,  gewalt;vorsitzend;1.0
+feig,  vorsitzend;hdp;1.0
+feig,  hdp;vorsitzend;1.0
+turkei,  vorsitzend;feig;1.0
+feig,  vorsitzend;turkei;1.0
+feig,  turkei;vorsitzend;1.0
+verurteil,  vorsitzend;feig;1.0
+feig,  vorsitzend;verurteil;1.0
+feig,  verurteil;vorsitzend;1.0
+frontfrau,  pegida;festerling;1.0
+festerling,  frontfrau;pegida;1.0
+hochburg,  mann;furchtbar;1.0
+furchtbar,  mann;hochburg;1.0
+furchtbar,  hochburg;mann;1.0
+hochburg,  novemb;furchtbar;1.0
+furchtbar,  novemb;hochburg;1.0
+furchtbar,  hochburg;novemb;1.0
+furchtbar,  novemb;mann;1.0
+furchtbar,  mann;novemb;1.0
+furchtbar,  hochburg;pegida;1.0
+furchtbar,  mann;pegida;1.0
+furchtbar,  novemb;pegida;1.0
+hochburg,  reinig;furchtbar;1.0
+furchtbar,  reinig;hochburg;1.0
+furchtbar,  hochburg;reinig;1.0
+furchtbar,  reinig;mann;1.0
+furchtbar,  mann;reinig;1.0
+furchtbar,  reinig;novemb;1.0
+furchtbar,  novemb;reinig;1.0
+furchtbar,  reinig;pegida;1.0
+hochburg,  stolperstein;furchtbar;1.0
+furchtbar,  stolperstein;hochburg;1.0
+furchtbar,  hochburg;stolperstein;1.0
+furchtbar,  stolperstein;mann;1.0
+furchtbar,  mann;stolperstein;1.0
+furchtbar,  stolperstein;novemb;1.0
+furchtbar,  novemb;stolperstein;1.0
+furchtbar,  stolperstein;pegida;1.0
+furchtbar,  stolperstein;reinig;1.0
+furchtbar,  reinig;stolperstein;1.0
+gewalt,  turkei;hdp;1.0
+gewalt,  hdp;turkei;1.0
+hdp,  verurteil;gewalt;1.0
+gewalt,  verurteil;hdp;1.0
+gewalt,  hdp;verurteil;1.0
+turkei,  verurteil;gewalt;1.0
+gewalt,  verurteil;turkei;1.0
+gewalt,  turkei;verurteil;1.0
+gewalt,  vorsitzend;hdp;1.0
+gewalt,  hdp;vorsitzend;1.0
+turkei,  vorsitzend;gewalt;1.0
+gewalt,  vorsitzend;turkei;1.0
+gewalt,  turkei;vorsitzend;1.0
+verurteil,  vorsitzend;gewalt;1.0
+gewalt,  vorsitzend;verurteil;1.0
+gewalt,  verurteil;vorsitzend;1.0
+turkei,  verurteil;hdp;1.0
+hdp,  verurteil;turkei;1.0
+turkei,  vorsitzend;hdp;1.0
+verurteil,  vorsitzend;hdp;1.0
+hdp,  verurteil;vorsitzend;1.0
+hochburg,  novemb;mann;1.0
+hochburg,  mann;novemb;1.0
+hochburg,  mann;pegida;1.0
+hochburg,  novemb;pegida;1.0
+hochburg,  reinig;mann;1.0
+hochburg,  mann;reinig;1.0
+hochburg,  reinig;novemb;1.0
+hochburg,  novemb;reinig;1.0
+hochburg,  reinig;pegida;1.0
+hochburg,  stolperstein;mann;1.0
+hochburg,  mann;stolperstein;1.0
+hochburg,  stolperstein;novemb;1.0
+hochburg,  novemb;stolperstein;1.0
+hochburg,  stolperstein;pegida;1.0
+hochburg,  stolperstein;reinig;1.0
+hochburg,  reinig;stolperstein;1.0
+mann,  novemb;pegida;1.0
+novemb,  reinig;mann;1.0
+mann,  reinig;novemb;1.0
+mann,  novemb;reinig;1.0
+mann,  reinig;pegida;1.0
+mann,  novemb;stolperstein;1.0
+mann,  reinig;stolperstein;1.0
+novemb,  reinig;pegida;1.0
+novemb,  stolperstein;pegida;1.0
+novemb,  reinig;stolperstein;1.0
+pegida,  reinig;stolperstein;1.0
+verurteil,  vorsitzend;turkei;1.0
+turkei,  vorsitzend;verurteil;1.0
+turkei,  verurteil;vorsitzend;1.0

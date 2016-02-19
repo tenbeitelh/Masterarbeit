@@ -1,0 +1,62 @@
+IF;THEN;CONFIDENCE
+spendet;erlos,  pegida;0.6596273291925466
+dd2112;nopegida;0.6617529880478088
+dresd;pegida;0.6645115952213633
+spendet;erlos;0.6720496894409937
+recht;pegida;0.6808923375363725
+nonazis;nopegida;0.685131195335277
+spendet;fluchtling;0.6869565217391305
+spendet;fluchtling,  pegida;0.6869565217391305
+gepida;nopegida;0.7232346241457859
+seit;pegida;0.7256944444444444
+nolegida;nopegida;0.7532621589561092
+erlos;hymn,  spendet;0.7747603833865815
+spendet;hymn,  pegida;0.7763975155279503
+erlos;fluchtling,  pegida;0.7811501597444089
+erlos;fluchtling;0.7843450479233227
+deutschland;pegida;0.7872628726287263
+spendet;hymn;0.7888198757763976
+dd1412;nopegida;0.7922077922077922
+erlos;hymn,  pegida;0.8210862619808307
+fcknzs;nopegida;0.8293515358361775
+erlos;hymn;0.8354632587859425
+deutsch;pegida;0.8448275862068966
+erlos;pegida,  spendet;0.8482428115015974
+erlos;spendet;0.8642172523961661
+noafd;nopegida;0.8873949579831932
+kommentar;pegida;0.8975332068311196
+bot;islamisierung;0.908675799086758
+fluchtling;pegida;0.9272829763246899
+weihnachtslied;pegida;0.9338582677165355
+amazon;pegida;0.9437299035369775
+spendet;pegida;0.9590062111801242
+hymn;pegida;0.9709677419354839
+erlos;pegida;0.9712460063897763
+anhang;pegida;0.9807383627608347
+afd;pegida;0.9836734693877551
+pegida,  spendet;erlos;0.6878238341968912
+neustadt,  nopegida;dd2112;0.7051851851851851
+pegida,  spendet;fluchtling;0.716321243523316
+dresd,  heut;pegida;0.7164869029275809
+antifa,  nopegida;dd2112;0.7213872832369942
+dd2112,  neustadt;nopegida;0.7519747235387045
+hymn,  spendet;erlos;0.7637795275590551
+hymn,  spendet;fluchtling;0.7968503937007874
+erlos,  pegida;fluchtling;0.8042763157894737
+pegida,  spendet;hymn;0.8095854922279793
+dresd,  kaltland;nopegida;0.8213114754098361
+fluchtling,  hymn;spendet;0.8214285714285714
+antifa,  dd2112;nopegida;0.8286852589641435
+erlos,  pegida;hymn;0.8453947368421053
+erlos,  pegida;spendet;0.8733552631578947
+erlos,  spendet;hymn;0.8964879852125693
+fluchtling,  spendet;hymn;0.9150090415913201
+erlos,  hymn;spendet;0.9273422562141491
+erlos,  spendet;pegida;0.9815157116451017
+erlos,  hymn;pegida;0.982791586998088
+hymn,  spendet;pegida;0.984251968503937
+amazon,  spendet;pegida;0.9957356076759062
+erlos,  fluchtling;pegida;0.9959266802443992
+amazon,  hymn;pegida;0.9965928449744463
+fluchtling,  hymn;pegida;0.9967532467532467
+fluchtling,  spendet;pegida;1.0

@@ -1,0 +1,698 @@
+IF;THEN;CONFIDENCE
+nazis;wer;0.6536585365853659
+nazis;refuge,  wer;0.6536585365853659
+pegida;fluchtling;0.6779661016949152
+pegida;fluchtling,  refuge;0.6779661016949152
+rassismus;barbara,  https;0.6987951807228916
+rassismus;fluchtlingsheim,  https;0.6987951807228916
+rassismus;gruss,  https;0.6987951807228916
+rassismus;https,  nazis;0.6987951807228916
+rassismus;https,  wer;0.6987951807228916
+rassismus;https,  zundet;0.6987951807228916
+kind;refuge;0.7
+rassismus;barbara;0.7048192771084337
+rassismus;barbara,  fluchtlingsheim;0.7048192771084337
+rassismus;barbara,  gruss;0.7048192771084337
+rassismus;barbara,  nazis;0.7048192771084337
+rassismus;barbara,  refuge;0.7048192771084337
+rassismus;barbara,  wer;0.7048192771084337
+rassismus;barbara,  zundet;0.7048192771084337
+rassismus;fluchtlingsheim,  gruss;0.7048192771084337
+rassismus;gruss;0.7048192771084337
+rassismus;gruss,  nazis;0.7048192771084337
+rassismus;gruss,  refuge;0.7048192771084337
+rassismus;gruss,  wer;0.7048192771084337
+rassismus;gruss,  zundet;0.7048192771084337
+rassismus;fluchtlingsheim;0.7108433734939759
+rassismus;fluchtlingsheim,  nazis;0.7108433734939759
+rassismus;fluchtlingsheim,  refuge;0.7108433734939759
+rassismus;fluchtlingsheim,  wer;0.7108433734939759
+rassismus;fluchtlingsheim,  zundet;0.7108433734939759
+rassismus;https;0.7108433734939759
+rassismus;https,  refuge;0.7108433734939759
+rassismus;nazis,  wer;0.7108433734939759
+rassismus;nazis,  zundet;0.7108433734939759
+rassismus;wer;0.7108433734939759
+rassismus;refuge,  wer;0.7108433734939759
+rassismus;zundet;0.7108433734939759
+rassismus;refuge,  zundet;0.7108433734939759
+rassismus;wer,  zundet;0.7108433734939759
+fluchtlingsheim;refuge;0.720164609053498
+europas;aussengrenz,  refuge;0.7210526315789474
+europas;nirgendwo,  refuge;0.7210526315789474
+europas;refuge,  starb;0.7210526315789474
+europas;refuge,  viel;0.7210526315789474
+rassismus;nazis;0.7228915662650602
+rassismus;nazis,  refuge;0.7228915662650602
+thema;refuge;0.7301587301587301
+europas;2015,  aussengrenz;0.7368421052631579
+europas;2015,  nirgendwo;0.7368421052631579
+europas;2015,  starb;0.7368421052631579
+europas;2015,  viel;0.7368421052631579
+europas;aussengrenz,  mensch;0.7368421052631579
+europas;aussengrenz,  nirgendwo;0.7368421052631579
+europas;aussengrenz,  starb;0.7368421052631579
+europas;aussengrenz,  viel;0.7368421052631579
+europas;nirgendwo;0.7368421052631579
+europas;mensch,  nirgendwo;0.7368421052631579
+europas;starb;0.7368421052631579
+europas;mensch,  starb;0.7368421052631579
+europas;nirgendwo,  starb;0.7368421052631579
+europas;viel;0.7368421052631579
+europas;mensch,  viel;0.7368421052631579
+europas;nirgendwo,  viel;0.7368421052631579
+europas;starb,  viel;0.7368421052631579
+europas;aussengrenz;0.7421052631578947
+europas;mensch,  refuge;0.7421052631578947
+europas;2015,  refuge;0.7526315789473684
+unterkunft;refuge;0.7577319587628866
+europas;2015,  mensch;0.7578947368421053
+europas;mensch;0.7578947368421053
+europas;2015;0.7684210526315789
+nirgendwo;2015,  refuge;0.7740112994350282
+nirgendwo;aussengrenz,  refuge;0.7740112994350282
+nirgendwo;europas,  refuge;0.7740112994350282
+nirgendwo;mensch,  refuge;0.7740112994350282
+nirgendwo;refuge,  starb;0.7740112994350282
+europas;refuge;0.7789473684210526
+nirgendwo;2015;0.7909604519774012
+nirgendwo;2015,  aussengrenz;0.7909604519774012
+nirgendwo;2015,  europas;0.7909604519774012
+nirgendwo;2015,  mensch;0.7909604519774012
+nirgendwo;2015,  starb;0.7909604519774012
+nirgendwo;2015,  viel;0.7909604519774012
+nirgendwo;aussengrenz;0.7909604519774012
+nirgendwo;aussengrenz,  europas;0.7909604519774012
+nirgendwo;aussengrenz,  mensch;0.7909604519774012
+nirgendwo;aussengrenz,  starb;0.7909604519774012
+nirgendwo;aussengrenz,  viel;0.7909604519774012
+nirgendwo;europas;0.7909604519774012
+nirgendwo;europas,  mensch;0.7909604519774012
+nirgendwo;europas,  starb;0.7909604519774012
+nirgendwo;europas,  viel;0.7909604519774012
+nirgendwo;mensch;0.7909604519774012
+nirgendwo;mensch,  starb;0.7909604519774012
+nirgendwo;mensch,  viel;0.7909604519774012
+nirgendwo;starb;0.7909604519774012
+nirgendwo;starb,  viel;0.7909604519774012
+viel;refuge;0.8005390835579514
+zundet;barbara,  https;0.8111888111888111
+zundet;fluchtlingsheim,  https;0.8111888111888111
+zundet;gruss,  https;0.8111888111888111
+zundet;https;0.8111888111888111
+zundet;https,  nazis;0.8111888111888111
+zundet;https,  rassismus;0.8111888111888111
+zundet;https,  refuge;0.8111888111888111
+zundet;https,  wer;0.8111888111888111
+zundet;barbara;0.8181818181818182
+zundet;barbara,  fluchtlingsheim;0.8181818181818182
+zundet;barbara,  gruss;0.8181818181818182
+zundet;barbara,  nazis;0.8181818181818182
+zundet;barbara,  rassismus;0.8181818181818182
+zundet;barbara,  refuge;0.8181818181818182
+zundet;barbara,  wer;0.8181818181818182
+zundet;fluchtlingsheim,  gruss;0.8181818181818182
+zundet;gruss;0.8181818181818182
+zundet;gruss,  nazis;0.8181818181818182
+zundet;gruss,  rassismus;0.8181818181818182
+zundet;gruss,  refuge;0.8181818181818182
+zundet;gruss,  wer;0.8181818181818182
+zundet;fluchtlingsheim;0.8251748251748252
+zundet;fluchtlingsheim,  nazis;0.8251748251748252
+zundet;fluchtlingsheim,  rassismus;0.8251748251748252
+zundet;fluchtlingsheim,  refuge;0.8251748251748252
+zundet;fluchtlingsheim,  wer;0.8251748251748252
+zundet;nazis;0.8251748251748252
+zundet;nazis,  rassismus;0.8251748251748252
+zundet;nazis,  refuge;0.8251748251748252
+zundet;nazis,  wer;0.8251748251748252
+zundet;rassismus;0.8251748251748252
+zundet;rassismus,  refuge;0.8251748251748252
+zundet;rassismus,  wer;0.8251748251748252
+zundet;refuge,  wer;0.8251748251748252
+zundet;wer;0.8251748251748252
+feuerwerk;infofly,  refuge;0.8306451612903226
+feuerwerk;infofly,  silv;0.8306451612903226
+feuerwerk;infofly;0.8387096774193549
+zundet;refuge;0.8461538461538461
+lageso;refuge;0.8546099290780141
+gibt;refuge;0.8697916666666666
+gruss;barbara,  https;0.8854961832061069
+gruss;fluchtlingsheim,  https;0.8854961832061069
+gruss;https;0.8854961832061069
+gruss;https,  nazis;0.8854961832061069
+gruss;https,  rassismus;0.8854961832061069
+gruss;https,  refuge;0.8854961832061069
+gruss;https,  wer;0.8854961832061069
+gruss;https,  zundet;0.8854961832061069
+silv;refuge;0.8883495145631068
+europa;refuge;0.8888888888888888
+heut;refuge;0.8922413793103449
+gruss;barbara;0.8931297709923665
+gruss;barbara,  fluchtlingsheim;0.8931297709923665
+gruss;barbara,  nazis;0.8931297709923665
+gruss;barbara,  rassismus;0.8931297709923665
+gruss;barbara,  refuge;0.8931297709923665
+gruss;barbara,  wer;0.8931297709923665
+gruss;barbara,  zundet;0.8931297709923665
+gruss;fluchtlingsheim;0.8931297709923665
+gruss;fluchtlingsheim,  nazis;0.8931297709923665
+gruss;fluchtlingsheim,  rassismus;0.8931297709923665
+gruss;fluchtlingsheim,  refuge;0.8931297709923665
+gruss;fluchtlingsheim,  wer;0.8931297709923665
+gruss;fluchtlingsheim,  zundet;0.8931297709923665
+gruss;nazis;0.8931297709923665
+gruss;rassismus;0.8931297709923665
+gruss;nazis,  rassismus;0.8931297709923665
+gruss;nazis,  refuge;0.8931297709923665
+gruss;rassismus,  refuge;0.8931297709923665
+gruss;wer;0.8931297709923665
+gruss;nazis,  wer;0.8931297709923665
+gruss;rassismus,  wer;0.8931297709923665
+gruss;refuge,  wer;0.8931297709923665
+gruss;zundet;0.8931297709923665
+gruss;nazis,  zundet;0.8931297709923665
+gruss;rassismus,  zundet;0.8931297709923665
+gruss;refuge,  zundet;0.8931297709923665
+gruss;wer,  zundet;0.8931297709923665
+feuerwerk;refuge,  silv;0.9032258064516129
+polizei;refuge;0.9178082191780822
+feuerwerk;silv;0.9193548387096774
+starb;aussengrenz,  refuge;0.9256756756756757
+starb;europas,  refuge;0.9256756756756757
+starb;nirgendwo,  refuge;0.9256756756756757
+starb;refuge,  viel;0.9256756756756757
+muss;refuge;0.9312977099236641
+starb;2015,  refuge;0.9324324324324325
+starb;mensch,  refuge;0.9324324324324325
+2015;refuge;0.9357541899441341
+infofly;feuerwerk,  refuge;0.9363636363636364
+infofly;feuerwerk,  silv;0.9363636363636364
+dass;refuge;0.9370629370629371
+gruss;refuge;0.9389312977099237
+feuerwerk;refuge;0.9435483870967742
+http;refuge;0.9438202247191011
+infofly;feuerwerk;0.9454545454545454
+infofly;refuge;0.9454545454545454
+infofly;refuge,  silv;0.9454545454545454
+gut;refuge;0.9455782312925171
+starb;2015,  aussengrenz;0.9459459459459459
+starb;2015,  europas;0.9459459459459459
+starb;2015,  nirgendwo;0.9459459459459459
+starb;2015,  viel;0.9459459459459459
+starb;aussengrenz;0.9459459459459459
+starb;aussengrenz,  europas;0.9459459459459459
+starb;aussengrenz,  mensch;0.9459459459459459
+starb;aussengrenz,  nirgendwo;0.9459459459459459
+starb;aussengrenz,  viel;0.9459459459459459
+starb;europas;0.9459459459459459
+starb;europas,  mensch;0.9459459459459459
+starb;europas,  nirgendwo;0.9459459459459459
+starb;europas,  viel;0.9459459459459459
+starb;mensch,  nirgendwo;0.9459459459459459
+starb;mensch,  viel;0.9459459459459459
+starb;nirgendwo;0.9459459459459459
+starb;nirgendwo,  viel;0.9459459459459459
+starb;viel;0.9459459459459459
+wer;refuge;0.9469387755102041
+mensch;refuge;0.9473684210526315
+starb;2015,  mensch;0.9527027027027027
+starb;mensch;0.9527027027027027
+infofly;silv;0.9545454545454546
+mehr;refuge;0.9549180327868853
+asyl;refuge;0.9566395663956639
+starb;refuge;0.9594594594594594
+imm;refuge;0.9615384615384616
+mal;refuge;0.9626168224299065
+nirgendwo;refuge;0.9661016949152542
+nirgendwo;refuge,  viel;0.9661016949152542
+starb;2015;0.9662162162162162
+https;refuge;0.9681908548707754
+neu;refuge;0.9712643678160919
+schon;refuge;0.9715447154471545
+dank;refuge;0.9719626168224299
+barbara;https;0.9747899159663865
+barbara;fluchtlingsheim,  https;0.9747899159663865
+barbara;gruss,  https;0.9747899159663865
+barbara;https,  nazis;0.9747899159663865
+barbara;https,  rassismus;0.9747899159663865
+barbara;https,  refuge;0.9747899159663865
+barbara;https,  wer;0.9747899159663865
+barbara;https,  zundet;0.9747899159663865
+nazis;refuge;0.975609756097561
+lesbos;refuge;0.9830508474576272
+nirgendwo;viel;0.9830508474576272
+barbara;fluchtlingsheim;0.9831932773109243
+barbara;gruss;0.9831932773109243
+barbara;fluchtlingsheim,  gruss;0.9831932773109243
+barbara;nazis;0.9831932773109243
+barbara;fluchtlingsheim,  nazis;0.9831932773109243
+barbara;gruss,  nazis;0.9831932773109243
+barbara;rassismus;0.9831932773109243
+barbara;fluchtlingsheim,  rassismus;0.9831932773109243
+barbara;gruss,  rassismus;0.9831932773109243
+barbara;nazis,  rassismus;0.9831932773109243
+barbara;refuge;0.9831932773109243
+barbara;fluchtlingsheim,  refuge;0.9831932773109243
+barbara;gruss,  refuge;0.9831932773109243
+barbara;nazis,  refuge;0.9831932773109243
+barbara;rassismus,  refuge;0.9831932773109243
+barbara;wer;0.9831932773109243
+barbara;fluchtlingsheim,  wer;0.9831932773109243
+barbara;gruss,  wer;0.9831932773109243
+barbara;nazis,  wer;0.9831932773109243
+barbara;rassismus,  wer;0.9831932773109243
+barbara;refuge,  wer;0.9831932773109243
+barbara;zundet;0.9831932773109243
+barbara;fluchtlingsheim,  zundet;0.9831932773109243
+barbara;gruss,  zundet;0.9831932773109243
+barbara;nazis,  zundet;0.9831932773109243
+barbara;rassismus,  zundet;0.9831932773109243
+barbara;refuge,  zundet;0.9831932773109243
+barbara;wer,  zundet;0.9831932773109243
+rassismus;refuge;0.9879518072289156
+htt;refuge;0.9927007299270073
+fluchtling;refuge;0.9994874423372629
+afd;refuge;1.0
+amp;refuge;1.0
+berlin;refuge;1.0
+bitt;refuge;1.0
+cdu;refuge;1.0
+csu;refuge;1.0
+deutsch;refuge;1.0
+deutschland;refuge;1.0
+frau;refuge;1.0
+helf;refuge;1.0
+jahr;refuge;1.0
+kaltland;refuge;1.0
+merkel;refuge;1.0
+merkelmussweg;refuge;1.0
+pegida;refuge;1.0
+refugeeswelcom;refuge;1.0
+spend;refuge;1.0
+syri;refuge;1.0
+turkei;refuge;1.0
+uns;refuge;1.0
+via;refuge;1.0
+fluchtlingsheim,  refuge;barbara;0.6685714285714286
+fluchtlingsheim,  refuge;gruss;0.6685714285714286
+nazis,  refuge;wer;0.67
+fluchtlingsheim,  refuge;rassismus;0.6742857142857143
+fluchtlingsheim,  refuge;wer;0.6742857142857143
+fluchtlingsheim,  refuge;zundet;0.6742857142857143
+pegida,  refuge;fluchtling;0.6779661016949152
+fluchtlingsheim,  refuge;nazis;0.68
+fluchtlingsheim,  refuge;https;0.6914285714285714
+rassismus,  refuge;barbara;0.7134146341463414
+rassismus,  refuge;gruss;0.7134146341463414
+rassismus,  refuge;fluchtlingsheim;0.7195121951219512
+rassismus,  refuge;https;0.7195121951219512
+rassismus,  refuge;wer;0.7195121951219512
+rassismus,  refuge;zundet;0.7195121951219512
+rassismus,  refuge;nazis;0.7317073170731707
+fluchtling,  pegida;afd;0.78125
+nirgendwo,  refuge;2015;0.8011695906432749
+nirgendwo,  refuge;aussengrenz;0.8011695906432749
+nirgendwo,  refuge;europas;0.8011695906432749
+nirgendwo,  refuge;mensch;0.8011695906432749
+nirgendwo,  refuge;starb;0.8011695906432749
+nirgendwo,  viel;2015;0.8045977011494253
+nirgendwo,  viel;aussengrenz;0.8045977011494253
+nirgendwo,  viel;europas;0.8045977011494253
+nirgendwo,  viel;mensch;0.8045977011494253
+nirgendwo,  viel;starb;0.8045977011494253
+afd,  pegida;fluchtling;0.8278145695364238
+nazis,  wer;https;0.8656716417910447
+nazis,  wer;barbara;0.8731343283582089
+nazis,  wer;gruss;0.8731343283582089
+feuerwerk,  refuge;infofly;0.8803418803418803
+nazis,  wer;fluchtlingsheim;0.8805970149253731
+nazis,  wer;rassismus;0.8805970149253731
+nazis,  wer;zundet;0.8805970149253731
+feuerwerk,  silv;infofly;0.9035087719298246
+europas,  refuge;aussengrenz;0.9256756756756757
+europas,  refuge;nirgendwo;0.9256756756756757
+europas,  refuge;starb;0.9256756756756757
+europas,  refuge;viel;0.9256756756756757
+mensch,  viel;2015;0.9271523178807947
+mensch,  viel;europas;0.9271523178807947
+mensch,  viel;nirgendwo;0.9271523178807947
+mensch,  viel;starb;0.9271523178807947
+aussengrenz,  viel;refuge;0.9319727891156463
+afd,  fluchtling;pegida;0.9328358208955224
+aussengrenz,  mensch;refuge;0.9383561643835616
+2015,  mensch;aussengrenz;0.9395973154362416
+2015,  mensch;nirgendwo;0.9395973154362416
+2015,  mensch;viel;0.9395973154362416
+mensch,  viel;refuge;0.9403973509933775
+gruss,  refuge;https;0.943089430894309
+2015,  mensch;starb;0.9463087248322147
+gruss,  refuge;barbara;0.9512195121951219
+gruss,  refuge;fluchtlingsheim;0.9512195121951219
+gruss,  refuge;nazis;0.9512195121951219
+gruss,  refuge;rassismus;0.9512195121951219
+gruss,  refuge;wer;0.9512195121951219
+gruss,  refuge;zundet;0.9512195121951219
+aussengrenz,  viel;2015;0.9523809523809523
+aussengrenz,  viel;europas;0.9523809523809523
+aussengrenz,  viel;nirgendwo;0.9523809523809523
+aussengrenz,  viel;starb;0.9523809523809523
+europas,  refuge;mensch;0.9527027027027027
+feuerwerk,  refuge;silv;0.9572649572649573
+fluchtlingsheim,  https;barbara;0.9586776859504132
+fluchtlingsheim,  https;gruss;0.9586776859504132
+fluchtlingsheim,  https;nazis;0.9586776859504132
+fluchtlingsheim,  https;rassismus;0.9586776859504132
+fluchtlingsheim,  https;wer;0.9586776859504132
+fluchtlingsheim,  https;zundet;0.9586776859504132
+refuge,  zundet;https;0.9586776859504132
+2015,  europas;aussengrenz;0.958904109589041
+aussengrenz,  mensch;2015;0.958904109589041
+2015,  europas;nirgendwo;0.958904109589041
+2015,  europas;starb;0.958904109589041
+2015,  europas;viel;0.958904109589041
+aussengrenz,  mensch;europas;0.958904109589041
+aussengrenz,  mensch;nirgendwo;0.958904109589041
+aussengrenz,  mensch;starb;0.958904109589041
+refuge,  starb;aussengrenz;0.9647887323943662
+refuge,  starb;europas;0.9647887323943662
+refuge,  starb;nirgendwo;0.9647887323943662
+refuge,  starb;viel;0.9647887323943662
+2015,  starb;refuge;0.965034965034965
+europas,  refuge;2015;0.9662162162162162
+2015,  mensch;europas;0.9664429530201343
+nazis,  rassismus;https;0.9666666666666667
+mensch,  viel;aussengrenz;0.9668874172185431
+refuge,  zundet;barbara;0.9669421487603306
+refuge,  zundet;gruss;0.9669421487603306
+2015,  viel;refuge;0.9716312056737588
+aussengrenz,  europas;refuge;0.9716312056737588
+refuge,  starb;2015;0.971830985915493
+refuge,  starb;mensch;0.971830985915493
+europas,  mensch;aussengrenz;0.9722222222222222
+europas,  mensch;nirgendwo;0.9722222222222222
+europas,  mensch;starb;0.9722222222222222
+europas,  mensch;viel;0.9722222222222222
+fluchtlingsheim,  nazis;https;0.9747899159663865
+nazis,  rassismus;barbara;0.975
+nazis,  rassismus;gruss;0.975
+refuge,  zundet;fluchtlingsheim;0.9752066115702479
+refuge,  zundet;nazis;0.9752066115702479
+refuge,  zundet;rassismus;0.9752066115702479
+refuge,  zundet;wer;0.9752066115702479
+aussengrenz,  refuge;2015;0.9785714285714285
+2015,  aussengrenz;refuge;0.9785714285714285
+2015,  nirgendwo;refuge;0.9785714285714285
+aussengrenz,  refuge;europas;0.9785714285714285
+aussengrenz,  refuge;mensch;0.9785714285714285
+aussengrenz,  refuge;nirgendwo;0.9785714285714285
+aussengrenz,  nirgendwo;refuge;0.9785714285714285
+aussengrenz,  starb;refuge;0.9785714285714285
+aussengrenz,  refuge;starb;0.9785714285714285
+aussengrenz,  refuge;viel;0.9785714285714285
+europas,  nirgendwo;refuge;0.9785714285714285
+europas,  starb;refuge;0.9785714285714285
+europas,  viel;refuge;0.9785714285714285
+mensch,  nirgendwo;refuge;0.9785714285714285
+nirgendwo,  starb;refuge;0.9785714285714285
+starb,  viel;refuge;0.9785714285714285
+mensch,  starb;refuge;0.9787234042553191
+2015,  starb;aussengrenz;0.9790209790209791
+2015,  starb;europas;0.9790209790209791
+2015,  starb;nirgendwo;0.9790209790209791
+2015,  starb;viel;0.9790209790209791
+europas,  mensch;refuge;0.9791666666666666
+2015,  europas;refuge;0.9794520547945206
+2015,  mensch;refuge;0.9798657718120806
+infofly,  silv;feuerwerk;0.9809523809523809
+feuerwerk,  silv;refuge;0.9824561403508771
+nirgendwo,  viel;refuge;0.9827586206896551
+https,  rassismus;barbara;0.9830508474576272
+https,  wer;barbara;0.9830508474576272
+https,  rassismus;fluchtlingsheim;0.9830508474576272
+fluchtlingsheim,  rassismus;https;0.9830508474576272
+https,  wer;fluchtlingsheim;0.9830508474576272
+fluchtlingsheim,  wer;https;0.9830508474576272
+fluchtlingsheim,  zundet;https;0.9830508474576272
+https,  rassismus;gruss;0.9830508474576272
+https,  wer;gruss;0.9830508474576272
+https,  rassismus;nazis;0.9830508474576272
+https,  wer;nazis;0.9830508474576272
+rassismus,  wer;https;0.9830508474576272
+https,  wer;rassismus;0.9830508474576272
+https,  rassismus;wer;0.9830508474576272
+nazis,  zundet;https;0.9830508474576272
+rassismus,  zundet;https;0.9830508474576272
+https,  rassismus;zundet;0.9830508474576272
+wer,  zundet;https;0.9830508474576272
+https,  wer;zundet;0.9830508474576272
+fluchtlingsheim,  nazis;barbara;0.9831932773109243
+fluchtlingsheim,  nazis;gruss;0.9831932773109243
+nazis,  rassismus;fluchtlingsheim;0.9833333333333333
+nazis,  rassismus;wer;0.9833333333333333
+nazis,  rassismus;zundet;0.9833333333333333
+2015,  starb;mensch;0.986013986013986
+2015,  europas;mensch;0.9863013698630136
+infofly,  refuge;feuerwerk;0.9903846153846154
+feuerwerk,  infofly;refuge;0.9903846153846154
+feuerwerk,  infofly;silv;0.9903846153846154
+infofly,  silv;refuge;0.9904761904761905
+barbara,  fluchtlingsheim;https;0.9914529914529915
+barbara,  gruss;https;0.9914529914529915
+barbara,  nazis;https;0.9914529914529915
+barbara,  rassismus;https;0.9914529914529915
+barbara,  refuge;https;0.9914529914529915
+barbara,  wer;https;0.9914529914529915
+barbara,  zundet;https;0.9914529914529915
+fluchtlingsheim,  gruss;https;0.9914529914529915
+gruss,  nazis;https;0.9914529914529915
+gruss,  rassismus;https;0.9914529914529915
+gruss,  wer;https;0.9914529914529915
+gruss,  zundet;https;0.9914529914529915
+fluchtlingsheim,  rassismus;barbara;0.9915254237288136
+fluchtlingsheim,  wer;barbara;0.9915254237288136
+rassismus,  wer;barbara;0.9915254237288136
+fluchtlingsheim,  zundet;barbara;0.9915254237288136
+nazis,  zundet;barbara;0.9915254237288136
+rassismus,  zundet;barbara;0.9915254237288136
+wer,  zundet;barbara;0.9915254237288136
+fluchtlingsheim,  rassismus;gruss;0.9915254237288136
+fluchtlingsheim,  wer;gruss;0.9915254237288136
+fluchtlingsheim,  zundet;gruss;0.9915254237288136
+rassismus,  wer;gruss;0.9915254237288136
+nazis,  zundet;gruss;0.9915254237288136
+rassismus,  zundet;gruss;0.9915254237288136
+wer,  zundet;gruss;0.9915254237288136
+fluchtlingsheim,  nazis;rassismus;0.9915966386554622
+fluchtlingsheim,  nazis;wer;0.9915966386554622
+fluchtlingsheim,  nazis;zundet;0.9915966386554622
+aussengrenz,  europas;2015;0.9929078014184397
+2015,  viel;aussengrenz;0.9929078014184397
+2015,  viel;europas;0.9929078014184397
+2015,  viel;mensch;0.9929078014184397
+2015,  viel;nirgendwo;0.9929078014184397
+2015,  viel;starb;0.9929078014184397
+aussengrenz,  europas;mensch;0.9929078014184397
+aussengrenz,  europas;nirgendwo;0.9929078014184397
+aussengrenz,  europas;starb;0.9929078014184397
+mensch,  starb;aussengrenz;0.9929078014184397
+aussengrenz,  europas;viel;0.9929078014184397
+mensch,  starb;europas;0.9929078014184397
+mensch,  starb;nirgendwo;0.9929078014184397
+mensch,  starb;viel;0.9929078014184397
+aussengrenz,  viel;mensch;0.9931972789115646
+2015,  aussengrenz;europas;1.0
+2015,  aussengrenz;mensch;1.0
+europas,  mensch;2015;1.0
+aussengrenz,  nirgendwo;2015;1.0
+2015,  nirgendwo;aussengrenz;1.0
+2015,  aussengrenz;nirgendwo;1.0
+europas,  nirgendwo;2015;1.0
+2015,  nirgendwo;europas;1.0
+mensch,  nirgendwo;2015;1.0
+2015,  nirgendwo;mensch;1.0
+aussengrenz,  starb;2015;1.0
+2015,  aussengrenz;starb;1.0
+europas,  starb;2015;1.0
+mensch,  starb;2015;1.0
+nirgendwo,  starb;2015;1.0
+2015,  nirgendwo;starb;1.0
+2015,  aussengrenz;viel;1.0
+europas,  viel;2015;1.0
+2015,  nirgendwo;viel;1.0
+starb,  viel;2015;1.0
+afd,  fluchtling;refuge;1.0
+afd,  pegida;refuge;1.0
+asyl,  fluchtling;refuge;1.0
+europas,  nirgendwo;aussengrenz;1.0
+aussengrenz,  nirgendwo;europas;1.0
+mensch,  nirgendwo;aussengrenz;1.0
+aussengrenz,  nirgendwo;mensch;1.0
+europas,  starb;aussengrenz;1.0
+aussengrenz,  starb;europas;1.0
+aussengrenz,  starb;mensch;1.0
+nirgendwo,  starb;aussengrenz;1.0
+aussengrenz,  starb;nirgendwo;1.0
+aussengrenz,  nirgendwo;starb;1.0
+europas,  viel;aussengrenz;1.0
+aussengrenz,  mensch;viel;1.0
+aussengrenz,  nirgendwo;viel;1.0
+starb,  viel;aussengrenz;1.0
+aussengrenz,  starb;viel;1.0
+fluchtlingsheim,  gruss;barbara;1.0
+barbara,  gruss;fluchtlingsheim;1.0
+barbara,  fluchtlingsheim;gruss;1.0
+barbara,  https;fluchtlingsheim;1.0
+gruss,  https;barbara;1.0
+barbara,  https;gruss;1.0
+barbara,  nazis;fluchtlingsheim;1.0
+barbara,  fluchtlingsheim;nazis;1.0
+gruss,  nazis;barbara;1.0
+barbara,  nazis;gruss;1.0
+barbara,  gruss;nazis;1.0
+https,  nazis;barbara;1.0
+barbara,  https;nazis;1.0
+barbara,  rassismus;fluchtlingsheim;1.0
+barbara,  fluchtlingsheim;rassismus;1.0
+gruss,  rassismus;barbara;1.0
+barbara,  rassismus;gruss;1.0
+barbara,  gruss;rassismus;1.0
+barbara,  https;rassismus;1.0
+barbara,  rassismus;nazis;1.0
+barbara,  nazis;rassismus;1.0
+barbara,  refuge;fluchtlingsheim;1.0
+barbara,  fluchtlingsheim;refuge;1.0
+barbara,  refuge;gruss;1.0
+barbara,  gruss;refuge;1.0
+barbara,  https;refuge;1.0
+barbara,  refuge;nazis;1.0
+barbara,  nazis;refuge;1.0
+barbara,  refuge;rassismus;1.0
+barbara,  rassismus;refuge;1.0
+barbara,  wer;fluchtlingsheim;1.0
+barbara,  fluchtlingsheim;wer;1.0
+gruss,  wer;barbara;1.0
+barbara,  wer;gruss;1.0
+barbara,  gruss;wer;1.0
+barbara,  https;wer;1.0
+barbara,  wer;nazis;1.0
+barbara,  nazis;wer;1.0
+barbara,  wer;rassismus;1.0
+barbara,  rassismus;wer;1.0
+barbara,  wer;refuge;1.0
+barbara,  refuge;wer;1.0
+barbara,  zundet;fluchtlingsheim;1.0
+barbara,  fluchtlingsheim;zundet;1.0
+gruss,  zundet;barbara;1.0
+barbara,  zundet;gruss;1.0
+barbara,  gruss;zundet;1.0
+https,  zundet;barbara;1.0
+barbara,  https;zundet;1.0
+barbara,  zundet;nazis;1.0
+barbara,  nazis;zundet;1.0
+barbara,  zundet;rassismus;1.0
+barbara,  rassismus;zundet;1.0
+barbara,  zundet;refuge;1.0
+barbara,  refuge;zundet;1.0
+barbara,  zundet;wer;1.0
+barbara,  wer;zundet;1.0
+deutschland,  fluchtling;refuge;1.0
+mensch,  nirgendwo;europas;1.0
+europas,  nirgendwo;mensch;1.0
+europas,  starb;mensch;1.0
+nirgendwo,  starb;europas;1.0
+europas,  starb;nirgendwo;1.0
+europas,  nirgendwo;starb;1.0
+europas,  viel;mensch;1.0
+europas,  viel;nirgendwo;1.0
+europas,  nirgendwo;viel;1.0
+starb,  viel;europas;1.0
+europas,  viel;starb;1.0
+europas,  starb;viel;1.0
+fluchtling,  pegida;refuge;1.0
+fluchtling,  refugeeswelcom;refuge;1.0
+gruss,  https;fluchtlingsheim;1.0
+gruss,  nazis;fluchtlingsheim;1.0
+fluchtlingsheim,  gruss;nazis;1.0
+https,  nazis;fluchtlingsheim;1.0
+gruss,  rassismus;fluchtlingsheim;1.0
+fluchtlingsheim,  gruss;rassismus;1.0
+fluchtlingsheim,  rassismus;nazis;1.0
+fluchtlingsheim,  gruss;refuge;1.0
+fluchtlingsheim,  https;refuge;1.0
+fluchtlingsheim,  nazis;refuge;1.0
+fluchtlingsheim,  rassismus;refuge;1.0
+gruss,  wer;fluchtlingsheim;1.0
+fluchtlingsheim,  gruss;wer;1.0
+fluchtlingsheim,  wer;nazis;1.0
+rassismus,  wer;fluchtlingsheim;1.0
+fluchtlingsheim,  wer;rassismus;1.0
+fluchtlingsheim,  rassismus;wer;1.0
+fluchtlingsheim,  wer;refuge;1.0
+gruss,  zundet;fluchtlingsheim;1.0
+fluchtlingsheim,  gruss;zundet;1.0
+https,  zundet;fluchtlingsheim;1.0
+nazis,  zundet;fluchtlingsheim;1.0
+fluchtlingsheim,  zundet;nazis;1.0
+rassismus,  zundet;fluchtlingsheim;1.0
+fluchtlingsheim,  zundet;rassismus;1.0
+fluchtlingsheim,  rassismus;zundet;1.0
+fluchtlingsheim,  zundet;refuge;1.0
+wer,  zundet;fluchtlingsheim;1.0
+fluchtlingsheim,  zundet;wer;1.0
+fluchtlingsheim,  wer;zundet;1.0
+https,  nazis;gruss;1.0
+gruss,  https;nazis;1.0
+gruss,  https;rassismus;1.0
+gruss,  rassismus;nazis;1.0
+gruss,  nazis;rassismus;1.0
+gruss,  https;refuge;1.0
+gruss,  nazis;refuge;1.0
+gruss,  rassismus;refuge;1.0
+gruss,  https;wer;1.0
+gruss,  wer;nazis;1.0
+gruss,  nazis;wer;1.0
+gruss,  wer;rassismus;1.0
+gruss,  rassismus;wer;1.0
+gruss,  wer;refuge;1.0
+https,  zundet;gruss;1.0
+gruss,  https;zundet;1.0
+gruss,  zundet;nazis;1.0
+gruss,  nazis;zundet;1.0
+gruss,  zundet;rassismus;1.0
+gruss,  rassismus;zundet;1.0
+gruss,  zundet;refuge;1.0
+gruss,  zundet;wer;1.0
+gruss,  wer;zundet;1.0
+https,  nazis;rassismus;1.0
+https,  nazis;refuge;1.0
+https,  rassismus;refuge;1.0
+https,  nazis;wer;1.0
+https,  wer;refuge;1.0
+https,  zundet;nazis;1.0
+https,  nazis;zundet;1.0
+https,  zundet;rassismus;1.0
+https,  zundet;refuge;1.0
+https,  zundet;wer;1.0
+infofly,  refuge;silv;1.0
+nirgendwo,  starb;mensch;1.0
+mensch,  nirgendwo;starb;1.0
+mensch,  nirgendwo;viel;1.0
+starb,  viel;mensch;1.0
+nazis,  rassismus;refuge;1.0
+rassismus,  wer;nazis;1.0
+nazis,  wer;refuge;1.0
+rassismus,  zundet;nazis;1.0
+nazis,  zundet;rassismus;1.0
+nazis,  zundet;refuge;1.0
+wer,  zundet;nazis;1.0
+nazis,  zundet;wer;1.0
+nirgendwo,  refuge;viel;1.0
+starb,  viel;nirgendwo;1.0
+nirgendwo,  starb;viel;1.0
+rassismus,  wer;refuge;1.0
+rassismus,  zundet;refuge;1.0
+wer,  zundet;rassismus;1.0
+rassismus,  zundet;wer;1.0
+rassismus,  wer;zundet;1.0
+wer,  zundet;refuge;1.0

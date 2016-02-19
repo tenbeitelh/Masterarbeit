@@ -1,0 +1,25 @@
+IF;THEN;CONFIDENCE
+ticket;deutschland,  sportevent;0.6577330369983004
+ticket;sportevent;0.6577330369983004
+berlin;afd;0.6585179526355996
+ticket;deutschland,  sportsevent;0.665969407765721
+ticket;sportsevent;0.665969407765721
+dresd;pegida;0.6996165827941528
+bay;ticket;0.7198323406132804
+bay;deutschland,  ticket;0.7198323406132804
+bay;deutschland;0.7752040591219943
+ticket;deutschland;0.9949012942868348
+sportevent;deutschland,  ticket;0.9998012718600954
+sportevent;ticket;0.9998012718600954
+sportevent;deutschland;1.0
+sportsevent;deutschland;1.0
+sportsevent;deutschland,  ticket;1.0
+sportsevent;ticket;1.0
+deutschland,  ticket;sportevent;0.6611038107752957
+deutschland,  ticket;sportsevent;0.6693823915900131
+bay,  deutschland;ticket;0.9285714285714286
+deutschland,  sportevent;ticket;0.9998012718600954
+bay,  ticket;deutschland;1.0
+sportevent,  ticket;deutschland;1.0
+sportsevent,  ticket;deutschland;1.0
+deutschland,  sportsevent;ticket;1.0

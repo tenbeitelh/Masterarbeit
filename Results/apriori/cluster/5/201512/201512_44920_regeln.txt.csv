@@ -1,0 +1,1193 @@
+IF;THEN;CONFIDENCE
+dresd;refugeesgr;0.6516129032258065
+dresd;idomeni,  refugeesgr;0.6516129032258065
+htt;amp,  arabisch;0.6545012165450121
+htt;amp,  asylverfahr;0.6545012165450121
+htt;amp,  bitt;0.6545012165450121
+htt;amp,  deutsch;0.6545012165450121
+htt;amp,  retweet;0.6545012165450121
+htt;amp,  skizziert;0.6545012165450121
+htt;amp,  weitergeb;0.6545012165450121
+htt;arabisch,  asylverfahr;0.6545012165450121
+htt;arabisch,  bitt;0.6545012165450121
+htt;arabisch,  deutsch;0.6545012165450121
+htt;arabisch,  retweet;0.6545012165450121
+htt;arabisch,  skizziert;0.6545012165450121
+htt;arabisch,  weitergeb;0.6545012165450121
+htt;asylverfahr,  bitt;0.6545012165450121
+htt;asylverfahr,  deutsch;0.6545012165450121
+htt;asylverfahr,  refugeeswelcom;0.6545012165450121
+htt;asylverfahr,  retweet;0.6545012165450121
+htt;asylverfahr,  skizziert;0.6545012165450121
+htt;asylverfahr,  weitergeb;0.6545012165450121
+htt;bitt,  deutsch;0.6545012165450121
+htt;bitt,  retweet;0.6545012165450121
+htt;bitt,  skizziert;0.6545012165450121
+htt;bitt,  weitergeb;0.6545012165450121
+htt;deutsch,  retweet;0.6545012165450121
+htt;deutsch,  skizziert;0.6545012165450121
+htt;deutsch,  weitergeb;0.6545012165450121
+htt;retweet;0.6545012165450121
+htt;refugeeswelcom,  retweet;0.6545012165450121
+htt;skizziert;0.6545012165450121
+htt;refugeeswelcom,  skizziert;0.6545012165450121
+htt;retweet,  skizziert;0.6545012165450121
+htt;weitergeb;0.6545012165450121
+htt;refugeeswelcom,  weitergeb;0.6545012165450121
+htt;retweet,  weitergeb;0.6545012165450121
+htt;skizziert,  weitergeb;0.6545012165450121
+dresd;wer;0.6548387096774193
+dresd;refugeeswelcom,  wer;0.6548387096774193
+htt;arabisch;0.656934306569343
+htt;arabisch,  refugeeswelcom;0.656934306569343
+htt;deutsch;0.656934306569343
+htt;deutsch,  refugeeswelcom;0.656934306569343
+arabisch;amp,  deutsch;0.6575829383886256
+htt;bitt;0.6581508515815085
+htt;bitt,  refugeeswelcom;0.6581508515815085
+htt;amp,  refugeeswelcom;0.6593673965936739
+arabisch;amp,  refugeeswelcom;0.659952606635071
+htt;amp;0.6618004866180048
+arabisch;amp;0.6623222748815166
+deutsch;arabisch;0.6655879180151025
+htt;asylverfahr;0.6666666666666666
+arabisch;asylverfahr,  deutsch;0.6670616113744076
+arabisch;asylverfahr;0.6682464454976303
+arabisch;deutsch,  refugeeswelcom;0.6729857819905213
+lageso;refugeeswelcom;0.6783216783216783
+uhr;refugeeswelcom;0.6971830985915493
+refugeesgr;bitt,  https;0.7210144927536232
+refugeesgr;dresd,  https;0.7210144927536232
+refugeesgr;hilferuf,  https;0.7210144927536232
+refugeesgr;https;0.7210144927536232
+refugeesgr;https,  idomeni;0.7210144927536232
+refugeesgr;https,  meld;0.7210144927536232
+refugeesgr;https,  mog;0.7210144927536232
+refugeesgr;https,  refugeeswelcom;0.7210144927536232
+refugeesgr;https,  wer;0.7210144927536232
+dresd;idomeni,  refugeeswelcom;0.7258064516129032
+refugeesgr;bitt;0.7282608695652174
+refugeesgr;bitt,  dresd;0.7282608695652174
+refugeesgr;bitt,  hilferuf;0.7282608695652174
+refugeesgr;bitt,  idomeni;0.7282608695652174
+refugeesgr;bitt,  meld;0.7282608695652174
+refugeesgr;bitt,  mog;0.7282608695652174
+refugeesgr;bitt,  refugeeswelcom;0.7282608695652174
+refugeesgr;bitt,  wer;0.7282608695652174
+refugeesgr;dresd,  hilferuf;0.7282608695652174
+refugeesgr;dresd,  meld;0.7282608695652174
+refugeesgr;dresd,  mog;0.7282608695652174
+refugeesgr;dresd,  refugeeswelcom;0.7282608695652174
+refugeesgr;dresd,  wer;0.7282608695652174
+refugeesgr;hilferuf;0.7282608695652174
+refugeesgr;hilferuf,  idomeni;0.7282608695652174
+refugeesgr;hilferuf,  meld;0.7282608695652174
+refugeesgr;hilferuf,  mog;0.7282608695652174
+refugeesgr;hilferuf,  refugeeswelcom;0.7282608695652174
+refugeesgr;hilferuf,  wer;0.7282608695652174
+refugeesgr;idomeni,  meld;0.7282608695652174
+refugeesgr;idomeni,  mog;0.7282608695652174
+refugeesgr;idomeni,  wer;0.7282608695652174
+refugeesgr;meld;0.7282608695652174
+refugeesgr;meld,  mog;0.7282608695652174
+refugeesgr;meld,  refugeeswelcom;0.7282608695652174
+refugeesgr;meld,  wer;0.7282608695652174
+refugeesgr;mog;0.7282608695652174
+refugeesgr;mog,  refugeeswelcom;0.7282608695652174
+refugeesgr;mog,  wer;0.7282608695652174
+refugeesgr;wer;0.7282608695652174
+refugeesgr;refugeeswelcom,  wer;0.7282608695652174
+dresd;idomeni;0.7290322580645161
+arabisch;deutsch;0.731042654028436
+refugeesgr;dresd;0.7318840579710145
+refugeesgr;dresd,  idomeni;0.7318840579710145
+arabisch;refugeeswelcom;0.740521327014218
+refugeesgr;idomeni,  refugeeswelcom;0.7427536231884058
+refugeesgr;refugeeswelcom;0.75
+asylverfahr;amp,  htt;0.7652916073968705
+asylverfahr;arabisch,  htt;0.7652916073968705
+asylverfahr;bitt,  htt;0.7652916073968705
+asylverfahr;deutsch,  htt;0.7652916073968705
+asylverfahr;htt,  refugeeswelcom;0.7652916073968705
+asylverfahr;htt,  retweet;0.7652916073968705
+asylverfahr;htt,  skizziert;0.7652916073968705
+asylverfahr;htt,  weitergeb;0.7652916073968705
+haus;refugeeswelcom;0.7661290322580645
+asylverfahr;amp,  bitt;0.7667140825035562
+asylverfahr;amp,  retweet;0.7667140825035562
+asylverfahr;amp,  skizziert;0.7667140825035562
+asylverfahr;amp,  weitergeb;0.7667140825035562
+asylverfahr;arabisch,  bitt;0.7667140825035562
+asylverfahr;arabisch,  retweet;0.7667140825035562
+asylverfahr;arabisch,  skizziert;0.7667140825035562
+asylverfahr;arabisch,  weitergeb;0.7667140825035562
+asylverfahr;bitt;0.7667140825035562
+asylverfahr;bitt,  deutsch;0.7667140825035562
+asylverfahr;bitt,  refugeeswelcom;0.7667140825035562
+asylverfahr;retweet;0.7667140825035562
+asylverfahr;bitt,  retweet;0.7667140825035562
+asylverfahr;deutsch,  retweet;0.7667140825035562
+asylverfahr;refugeeswelcom,  retweet;0.7667140825035562
+asylverfahr;bitt,  skizziert;0.7667140825035562
+asylverfahr;deutsch,  skizziert;0.7667140825035562
+asylverfahr;refugeeswelcom,  skizziert;0.7667140825035562
+asylverfahr;retweet,  skizziert;0.7667140825035562
+asylverfahr;weitergeb;0.7667140825035562
+asylverfahr;bitt,  weitergeb;0.7667140825035562
+asylverfahr;deutsch,  weitergeb;0.7667140825035562
+asylverfahr;refugeeswelcom,  weitergeb;0.7667140825035562
+asylverfahr;retweet,  weitergeb;0.7667140825035562
+asylverfahr;skizziert,  weitergeb;0.7667140825035562
+feuerwerk;silv,  thema;0.7678018575851393
+asylverfahr;amp,  arabisch;0.7681365576102418
+asylverfahr;amp,  deutsch;0.7681365576102418
+asylverfahr;amp,  refugeeswelcom;0.7681365576102418
+asylverfahr;skizziert;0.7709815078236131
+asylverfahr;deutsch,  refugeeswelcom;0.7724039829302988
+asylverfahr;arabisch,  refugeeswelcom;0.7738264580369844
+asylverfahr;amp;0.7752489331436699
+asylverfahr;refugeeswelcom;0.7780938833570412
+asylverfahr;htt;0.7795163584637269
+feuerwerk;thema;0.7863777089783281
+feuerwerk;infofly,  thema;0.7863777089783281
+helf;refugeeswelcom;0.7908496732026143
+ide;refugeeswelcom;0.7923076923076923
+asylverfahr;arabisch,  deutsch;0.8008534850640113
+2015;refugeeswelcom;0.8015075376884422
+asylverfahr;arabisch;0.802275960170697
+asylverfahr;deutsch;0.8051209103840683
+feuerwerk;infofly,  silv;0.8111455108359134
+feuerwerk;infofly;0.8328173374613003
+klass;refugeeswelcom;0.8348623853211009
+htt;refugeeswelcom;0.8381995133819952
+refugeesgr;idomeni;0.855072463768116
+meld;bitt,  https;0.8614718614718615
+meld;dresd,  https;0.8614718614718615
+meld;hilferuf,  https;0.8614718614718615
+meld;https;0.8614718614718615
+meld;https,  idomeni;0.8614718614718615
+meld;https,  mog;0.8614718614718615
+meld;https,  refugeesgr;0.8614718614718615
+meld;https,  refugeeswelcom;0.8614718614718615
+meld;https,  wer;0.8614718614718615
+wohl;refugeeswelcom;0.8615384615384616
+mehr;refugeeswelcom;0.8640776699029126
+mensch;refugeeswelcom;0.864516129032258
+heut;refugeeswelcom;0.8651685393258427
+amp;refugeeswelcom;0.8655544651619235
+1012ffm;refugeeswelcom;0.8698884758364313
+meld;bitt,  dresd;0.8701298701298701
+meld;bitt,  hilferuf;0.8701298701298701
+meld;bitt,  idomeni;0.8701298701298701
+meld;bitt,  mog;0.8701298701298701
+meld;bitt,  refugeesgr;0.8701298701298701
+meld;dresd;0.8701298701298701
+meld;dresd,  hilferuf;0.8701298701298701
+meld;dresd,  idomeni;0.8701298701298701
+meld;dresd,  mog;0.8701298701298701
+meld;dresd,  refugeesgr;0.8701298701298701
+meld;dresd,  refugeeswelcom;0.8701298701298701
+meld;dresd,  wer;0.8701298701298701
+meld;hilferuf;0.8701298701298701
+meld;hilferuf,  idomeni;0.8701298701298701
+meld;hilferuf,  mog;0.8701298701298701
+meld;hilferuf,  refugeesgr;0.8701298701298701
+meld;hilferuf,  refugeeswelcom;0.8701298701298701
+meld;hilferuf,  wer;0.8701298701298701
+meld;idomeni;0.8701298701298701
+meld;idomeni,  mog;0.8701298701298701
+meld;idomeni,  refugeesgr;0.8701298701298701
+meld;idomeni,  refugeeswelcom;0.8701298701298701
+meld;idomeni,  wer;0.8701298701298701
+meld;mog;0.8701298701298701
+meld;refugeesgr;0.8701298701298701
+meld;mog,  refugeesgr;0.8701298701298701
+meld;mog,  refugeeswelcom;0.8701298701298701
+meld;refugeesgr,  refugeeswelcom;0.8701298701298701
+meld;mog,  wer;0.8701298701298701
+meld;refugeesgr,  wer;0.8701298701298701
+meld;refugeeswelcom,  wer;0.8701298701298701
+meld;bitt,  refugeeswelcom;0.8744588744588745
+dank;refugeeswelcom;0.8747044917257684
+mog;bitt,  https;0.8766519823788547
+mog;dresd,  https;0.8766519823788547
+mog;hilferuf,  https;0.8766519823788547
+mog;https;0.8766519823788547
+mog;https,  idomeni;0.8766519823788547
+mog;https,  meld;0.8766519823788547
+mog;https,  refugeesgr;0.8766519823788547
+mog;https,  refugeeswelcom;0.8766519823788547
+mog;https,  wer;0.8766519823788547
+uns;refugeeswelcom;0.8823529411764706
+mog;bitt,  dresd;0.8854625550660793
+mog;bitt,  hilferuf;0.8854625550660793
+mog;bitt,  idomeni;0.8854625550660793
+mog;bitt,  meld;0.8854625550660793
+mog;bitt,  refugeesgr;0.8854625550660793
+mog;bitt,  refugeeswelcom;0.8854625550660793
+mog;dresd;0.8854625550660793
+mog;dresd,  hilferuf;0.8854625550660793
+mog;dresd,  idomeni;0.8854625550660793
+mog;dresd,  meld;0.8854625550660793
+mog;dresd,  refugeesgr;0.8854625550660793
+mog;dresd,  refugeeswelcom;0.8854625550660793
+mog;dresd,  wer;0.8854625550660793
+mog;hilferuf;0.8854625550660793
+mog;hilferuf,  idomeni;0.8854625550660793
+mog;hilferuf,  meld;0.8854625550660793
+mog;hilferuf,  refugeesgr;0.8854625550660793
+mog;hilferuf,  refugeeswelcom;0.8854625550660793
+mog;hilferuf,  wer;0.8854625550660793
+mog;idomeni;0.8854625550660793
+mog;idomeni,  meld;0.8854625550660793
+mog;idomeni,  refugeesgr;0.8854625550660793
+mog;idomeni,  refugeeswelcom;0.8854625550660793
+mog;idomeni,  wer;0.8854625550660793
+mog;meld;0.8854625550660793
+mog;meld,  refugeesgr;0.8854625550660793
+mog;meld,  refugeeswelcom;0.8854625550660793
+mog;meld,  wer;0.8854625550660793
+mog;refugeesgr;0.8854625550660793
+mog;refugeesgr,  refugeeswelcom;0.8854625550660793
+mog;refugeesgr,  wer;0.8854625550660793
+mog;refugeeswelcom,  wer;0.8854625550660793
+best;refugeeswelcom;0.8865979381443299
+fluchtling;refugeeswelcom;0.8869963969865706
+meld;bitt,  wer;0.8874458874458875
+meld;wer;0.8874458874458875
+leut;refugeeswelcom;0.8892988929889298
+imm;refugeeswelcom;0.8916256157635468
+infofly;silv,  thema;0.8985507246376812
+mal;refugeeswelcom;0.900804289544236
+retweet;amp,  htt;0.9042016806722689
+retweet;arabisch,  htt;0.9042016806722689
+retweet;asylverfahr,  htt;0.9042016806722689
+retweet;bitt,  htt;0.9042016806722689
+retweet;deutsch,  htt;0.9042016806722689
+retweet;htt;0.9042016806722689
+retweet;htt,  refugeeswelcom;0.9042016806722689
+retweet;htt,  skizziert;0.9042016806722689
+retweet;htt,  weitergeb;0.9042016806722689
+meld;bitt;0.9047619047619048
+retweet;amp,  arabisch;0.9058823529411765
+retweet;amp,  asylverfahr;0.9058823529411765
+retweet;amp,  deutsch;0.9058823529411765
+retweet;amp,  refugeeswelcom;0.9058823529411765
+retweet;amp,  skizziert;0.9058823529411765
+retweet;amp,  weitergeb;0.9058823529411765
+retweet;arabisch;0.9058823529411765
+retweet;arabisch,  asylverfahr;0.9058823529411765
+retweet;arabisch,  bitt;0.9058823529411765
+retweet;arabisch,  deutsch;0.9058823529411765
+retweet;arabisch,  refugeeswelcom;0.9058823529411765
+retweet;arabisch,  skizziert;0.9058823529411765
+retweet;arabisch,  weitergeb;0.9058823529411765
+retweet;asylverfahr;0.9058823529411765
+retweet;asylverfahr,  bitt;0.9058823529411765
+retweet;asylverfahr,  deutsch;0.9058823529411765
+retweet;asylverfahr,  refugeeswelcom;0.9058823529411765
+retweet;asylverfahr,  skizziert;0.9058823529411765
+retweet;asylverfahr,  weitergeb;0.9058823529411765
+retweet;bitt,  skizziert;0.9058823529411765
+retweet;bitt,  weitergeb;0.9058823529411765
+retweet;deutsch,  refugeeswelcom;0.9058823529411765
+retweet;deutsch,  skizziert;0.9058823529411765
+retweet;deutsch,  weitergeb;0.9058823529411765
+retweet;refugeeswelcom,  skizziert;0.9058823529411765
+retweet;refugeeswelcom,  weitergeb;0.9058823529411765
+retweet;skizziert;0.9058823529411765
+retweet;weitergeb;0.9058823529411765
+retweet;skizziert,  weitergeb;0.9058823529411765
+retweet;amp;0.907563025210084
+retweet;amp,  bitt;0.907563025210084
+deutsch;refugeeswelcom;0.9083063646170443
+retweet;bitt,  refugeeswelcom;0.9092436974789916
+schauhin;refugeeswelcom;0.9123867069486404
+retweet;bitt,  deutsch;0.9176470588235294
+retweet;deutsch;0.9176470588235294
+hamburg;refugeeswelcom;0.9198113207547169
+infofly;feuerwerk,  thema;0.9202898550724637
+retweet;bitt;0.9226890756302522
+dass;refugeeswelcom;0.9233870967741935
+wer;refugeeswelcom;0.9237668161434978
+mog;bitt;0.9295154185022027
+mog;bitt,  wer;0.9295154185022027
+mog;wer;0.9295154185022027
+infofly;thema;0.9311594202898551
+kommt;refugeeswelcom;0.9317073170731708
+neu;refugeeswelcom;0.9322493224932249
+retweet;refugeeswelcom;0.934453781512605
+gut;refugeeswelcom;0.9376558603491272
+feuerwerk;silv;0.9380804953560371
+mog;refugeeswelcom;0.9383259911894273
+demo;refugeeswelcom;0.9397590361445783
+asyl;refugeeswelcom;0.943089430894309
+geht;refugeeswelcom;0.9435483870967742
+meld;refugeeswelcom;0.9437229437229437
+hilferuf;bitt,  https;0.9476190476190476
+hilferuf;dresd,  https;0.9476190476190476
+hilferuf;https;0.9476190476190476
+hilferuf;https,  idomeni;0.9476190476190476
+hilferuf;https,  meld;0.9476190476190476
+hilferuf;https,  mog;0.9476190476190476
+hilferuf;https,  refugeesgr;0.9476190476190476
+hilferuf;https,  refugeeswelcom;0.9476190476190476
+hilferuf;https,  wer;0.9476190476190476
+infofly;feuerwerk,  silv;0.9492753623188406
+https;refugeeswelcom;0.9517684887459807
+laut;refugeeswelcom;0.95260663507109
+hilferuf;bitt;0.9571428571428572
+hilferuf;bitt,  dresd;0.9571428571428572
+hilferuf;bitt,  idomeni;0.9571428571428572
+hilferuf;bitt,  meld;0.9571428571428572
+hilferuf;bitt,  mog;0.9571428571428572
+hilferuf;bitt,  refugeesgr;0.9571428571428572
+hilferuf;bitt,  refugeeswelcom;0.9571428571428572
+hilferuf;bitt,  wer;0.9571428571428572
+hilferuf;dresd;0.9571428571428572
+hilferuf;dresd,  idomeni;0.9571428571428572
+hilferuf;dresd,  meld;0.9571428571428572
+hilferuf;dresd,  mog;0.9571428571428572
+hilferuf;dresd,  refugeesgr;0.9571428571428572
+hilferuf;dresd,  refugeeswelcom;0.9571428571428572
+hilferuf;dresd,  wer;0.9571428571428572
+hilferuf;idomeni;0.9571428571428572
+hilferuf;meld;0.9571428571428572
+hilferuf;idomeni,  meld;0.9571428571428572
+hilferuf;mog;0.9571428571428572
+hilferuf;idomeni,  mog;0.9571428571428572
+hilferuf;meld,  mog;0.9571428571428572
+hilferuf;refugeesgr;0.9571428571428572
+hilferuf;idomeni,  refugeesgr;0.9571428571428572
+hilferuf;meld,  refugeesgr;0.9571428571428572
+hilferuf;mog,  refugeesgr;0.9571428571428572
+hilferuf;idomeni,  refugeeswelcom;0.9571428571428572
+hilferuf;meld,  refugeeswelcom;0.9571428571428572
+hilferuf;mog,  refugeeswelcom;0.9571428571428572
+hilferuf;refugeesgr,  refugeeswelcom;0.9571428571428572
+hilferuf;wer;0.9571428571428572
+hilferuf;idomeni,  wer;0.9571428571428572
+hilferuf;meld,  wer;0.9571428571428572
+hilferuf;mog,  wer;0.9571428571428572
+hilferuf;refugeesgr,  wer;0.9571428571428572
+hilferuf;refugeeswelcom,  wer;0.9571428571428572
+infofly;silv;0.9601449275362319
+jahr;refugeeswelcom;0.9603960396039604
+gibt;refugeeswelcom;0.9616724738675958
+via;refugeeswelcom;0.9636363636363636
+moabithilft;fluchtling;0.9637681159420289
+moabithilft;fluchtling,  lageso;0.9637681159420289
+moabithilft;fluchtling,  refugeeswelcom;0.9637681159420289
+schon;refugeeswelcom;0.9706546275395034
+infofly;feuerwerk;0.9746376811594203
+moabithilft;lageso;0.9746376811594203
+moabithilft;lageso,  refugeeswelcom;0.9746376811594203
+bild;refugeeswelcom;0.9798387096774194
+berlin;refugeeswelcom;0.9825436408977556
+hilferuf;refugeeswelcom;0.9857142857142858
+skizziert;amp,  htt;0.990791896869245
+skizziert;arabisch,  htt;0.990791896869245
+skizziert;asylverfahr,  htt;0.990791896869245
+skizziert;bitt,  htt;0.990791896869245
+skizziert;deutsch,  htt;0.990791896869245
+skizziert;htt;0.990791896869245
+skizziert;htt,  refugeeswelcom;0.990791896869245
+skizziert;htt,  retweet;0.990791896869245
+skizziert;htt,  weitergeb;0.990791896869245
+skizziert;amp;0.992633517495396
+skizziert;amp,  arabisch;0.992633517495396
+skizziert;amp,  asylverfahr;0.992633517495396
+skizziert;amp,  bitt;0.992633517495396
+skizziert;amp,  deutsch;0.992633517495396
+skizziert;amp,  refugeeswelcom;0.992633517495396
+skizziert;amp,  retweet;0.992633517495396
+skizziert;amp,  weitergeb;0.992633517495396
+skizziert;arabisch;0.992633517495396
+skizziert;arabisch,  asylverfahr;0.992633517495396
+skizziert;arabisch,  bitt;0.992633517495396
+skizziert;arabisch,  deutsch;0.992633517495396
+skizziert;arabisch,  refugeeswelcom;0.992633517495396
+skizziert;arabisch,  retweet;0.992633517495396
+skizziert;arabisch,  weitergeb;0.992633517495396
+skizziert;asylverfahr,  bitt;0.992633517495396
+skizziert;asylverfahr,  deutsch;0.992633517495396
+skizziert;asylverfahr,  refugeeswelcom;0.992633517495396
+skizziert;asylverfahr,  retweet;0.992633517495396
+skizziert;asylverfahr,  weitergeb;0.992633517495396
+skizziert;bitt;0.992633517495396
+skizziert;bitt,  deutsch;0.992633517495396
+skizziert;bitt,  refugeeswelcom;0.992633517495396
+skizziert;bitt,  retweet;0.992633517495396
+skizziert;bitt,  weitergeb;0.992633517495396
+skizziert;deutsch;0.992633517495396
+skizziert;deutsch,  refugeeswelcom;0.992633517495396
+skizziert;deutsch,  retweet;0.992633517495396
+skizziert;deutsch,  weitergeb;0.992633517495396
+skizziert;refugeeswelcom;0.992633517495396
+skizziert;refugeeswelcom,  retweet;0.992633517495396
+skizziert;refugeeswelcom,  weitergeb;0.992633517495396
+skizziert;retweet;0.992633517495396
+skizziert;retweet,  weitergeb;0.992633517495396
+skizziert;weitergeb;0.992633517495396
+moabithilft;refugeeswelcom;0.9963768115942029
+nopegida;refugeeswelcom;0.9965277777777778
+dresd;refugeeswelcom;0.9967741935483871
+pegida;refugeeswelcom;0.9976415094339622
+weitergeb;amp,  htt;0.9981447124304267
+weitergeb;arabisch,  htt;0.9981447124304267
+weitergeb;asylverfahr,  htt;0.9981447124304267
+weitergeb;bitt,  htt;0.9981447124304267
+weitergeb;deutsch,  htt;0.9981447124304267
+weitergeb;htt;0.9981447124304267
+weitergeb;htt,  refugeeswelcom;0.9981447124304267
+weitergeb;htt,  retweet;0.9981447124304267
+weitergeb;htt,  skizziert;0.9981447124304267
+skizziert;asylverfahr;0.998158379373849
+afd;refugeeswelcom;1.0
+weitergeb;amp;1.0
+weitergeb;amp,  arabisch;1.0
+weitergeb;amp,  asylverfahr;1.0
+weitergeb;amp,  bitt;1.0
+weitergeb;amp,  deutsch;1.0
+weitergeb;amp,  refugeeswelcom;1.0
+weitergeb;amp,  retweet;1.0
+weitergeb;amp,  skizziert;1.0
+weitergeb;arabisch;1.0
+weitergeb;arabisch,  asylverfahr;1.0
+weitergeb;arabisch,  bitt;1.0
+weitergeb;arabisch,  deutsch;1.0
+weitergeb;arabisch,  refugeeswelcom;1.0
+weitergeb;arabisch,  retweet;1.0
+weitergeb;arabisch,  skizziert;1.0
+weitergeb;asylverfahr;1.0
+weitergeb;asylverfahr,  bitt;1.0
+weitergeb;asylverfahr,  deutsch;1.0
+weitergeb;asylverfahr,  refugeeswelcom;1.0
+weitergeb;asylverfahr,  retweet;1.0
+weitergeb;asylverfahr,  skizziert;1.0
+weitergeb;bitt;1.0
+weitergeb;bitt,  deutsch;1.0
+weitergeb;bitt,  refugeeswelcom;1.0
+weitergeb;bitt,  retweet;1.0
+weitergeb;bitt,  skizziert;1.0
+weitergeb;deutsch;1.0
+weitergeb;deutsch,  refugeeswelcom;1.0
+weitergeb;deutsch,  retweet;1.0
+weitergeb;deutsch,  skizziert;1.0
+deutschland;refugeeswelcom;1.0
+merkel;refugeeswelcom;1.0
+mio;refugeeswelcom;1.0
+syri;refugeeswelcom;1.0
+weitergeb;refugeeswelcom;1.0
+weitergeb;refugeeswelcom,  retweet;1.0
+weitergeb;refugeeswelcom,  skizziert;1.0
+weitergeb;retweet;1.0
+weitergeb;retweet,  skizziert;1.0
+weitergeb;skizziert;1.0
+dresd,  refugeeswelcom;bitt;0.6504854368932039
+dresd,  refugeeswelcom;hilferuf;0.6504854368932039
+dresd,  refugeeswelcom;https;0.6504854368932039
+dresd,  refugeeswelcom;meld;0.6504854368932039
+dresd,  refugeeswelcom;mog;0.6504854368932039
+dresd,  refugeeswelcom;refugeesgr;0.6504854368932039
+dresd,  refugeeswelcom;wer;0.656957928802589
+deutsch,  refugeeswelcom;amp;0.6591448931116389
+deutsch,  refugeeswelcom;arabisch;0.6745843230403801
+lageso,  refugeeswelcom;moabithilft;0.6932989690721649
+refugeeswelcom,  silv;feuerwerk;0.7206477732793523
+dresd,  refugeeswelcom;idomeni;0.7281553398058253
+refugeeswelcom,  silv;fluchtling;0.7327935222672065
+refugeeswelcom,  thema;fluchtling;0.7458333333333333
+lageso,  refugeeswelcom;fluchtling;0.7525773195876289
+idomeni,  refugeeswelcom;bitt;0.767175572519084
+idomeni,  refugeeswelcom;hilferuf;0.767175572519084
+idomeni,  refugeeswelcom;https;0.767175572519084
+idomeni,  refugeeswelcom;meld;0.767175572519084
+idomeni,  refugeeswelcom;mog;0.767175572519084
+idomeni,  refugeeswelcom;wer;0.767175572519084
+htt,  refugeeswelcom;asylverfahr;0.7808417997097242
+htt,  refugeeswelcom;retweet;0.7808417997097242
+htt,  refugeeswelcom;skizziert;0.7808417997097242
+htt,  refugeeswelcom;weitergeb;0.7808417997097242
+idomeni,  refugeeswelcom;refugeesgr;0.7824427480916031
+htt,  refugeeswelcom;arabisch;0.783744557329463
+htt,  refugeeswelcom;deutsch;0.783744557329463
+htt,  refugeeswelcom;bitt;0.7851959361393324
+htt,  refugeeswelcom;amp;0.7866473149492017
+feuerwerk,  silv;thema;0.8184818481848185
+fluchtling,  lageso;moabithilft;0.8391167192429022
+idomeni,  refugeesgr;https;0.8432203389830508
+idomeni,  refugeesgr;bitt;0.8516949152542372
+idomeni,  refugeesgr;hilferuf;0.8516949152542372
+idomeni,  refugeesgr;meld;0.8516949152542372
+idomeni,  refugeesgr;mog;0.8516949152542372
+idomeni,  refugeesgr;wer;0.8516949152542372
+idomeni,  refugeesgr;dresd;0.8559322033898306
+idomeni,  refugeeswelcom;dresd;0.8587786259541985
+arabisch,  refugeeswelcom;retweet;0.8624
+arabisch,  refugeeswelcom;skizziert;0.8624
+arabisch,  refugeeswelcom;weitergeb;0.8624
+arabisch,  refugeeswelcom;bitt;0.864
+arabisch,  refugeeswelcom;htt;0.864
+feuerwerk,  silv;infofly;0.8646864686468647
+idomeni,  refugeesgr;refugeeswelcom;0.8686440677966102
+arabisch,  refugeeswelcom;asylverfahr;0.8704
+arabisch,  deutsch;htt;0.8719611021069692
+arabisch,  deutsch;bitt;0.873581847649919
+arabisch,  deutsch;retweet;0.873581847649919
+arabisch,  deutsch;skizziert;0.873581847649919
+arabisch,  deutsch;weitergeb;0.873581847649919
+bitt,  wer;https;0.8805309734513275
+dresd,  idomeni;bitt;0.8893805309734514
+bitt,  wer;dresd;0.8893805309734514
+bitt,  wer;hilferuf;0.8893805309734514
+bitt,  wer;idomeni;0.8893805309734514
+bitt,  wer;refugeesgr;0.8893805309734514
+bitt,  wer;refugeeswelcom;0.8893805309734514
+dresd,  idomeni;hilferuf;0.8893805309734514
+dresd,  idomeni;https;0.8893805309734514
+dresd,  idomeni;meld;0.8893805309734514
+dresd,  idomeni;mog;0.8893805309734514
+dresd,  idomeni;wer;0.8893805309734514
+arabisch,  refugeeswelcom;amp;0.8912
+dresd,  idomeni;refugeesgr;0.8938053097345132
+arabisch,  deutsch;amp;0.899513776337115
+fluchtling,  silv;refugeeswelcom;0.900497512437811
+bitt,  wer;meld;0.9070796460176991
+arabisch,  refugeeswelcom;deutsch;0.9088
+fluchtling,  silv;feuerwerk;0.9104477611940298
+arabisch,  deutsch;asylverfahr;0.9124797406807131
+meld,  refugeeswelcom;https;0.9128440366972477
+arabisch,  deutsch;refugeeswelcom;0.9205834683954619
+fluchtling,  lageso;refugeeswelcom;0.9211356466876972
+bitt,  https;dresd;0.9212962962962963
+bitt,  https;hilferuf;0.9212962962962963
+bitt,  https;idomeni;0.9212962962962963
+bitt,  https;meld;0.9212962962962963
+bitt,  https;mog;0.9212962962962963
+bitt,  https;refugeesgr;0.9212962962962963
+bitt,  https;wer;0.9212962962962963
+meld,  refugeeswelcom;dresd;0.9220183486238532
+meld,  refugeeswelcom;hilferuf;0.9220183486238532
+meld,  refugeeswelcom;idomeni;0.9220183486238532
+meld,  refugeeswelcom;mog;0.9220183486238532
+meld,  refugeeswelcom;refugeesgr;0.9220183486238532
+meld,  refugeeswelcom;wer;0.9220183486238532
+bitt,  https;refugeeswelcom;0.9259259259259259
+meld,  refugeeswelcom;bitt;0.926605504587156
+amp,  bitt;htt;0.9324090121317158
+bitt,  wer;mog;0.9336283185840708
+amp,  bitt;arabisch;0.9341421143847487
+amp,  bitt;asylverfahr;0.9341421143847487
+amp,  bitt;deutsch;0.9341421143847487
+amp,  bitt;skizziert;0.9341421143847487
+amp,  bitt;weitergeb;0.9341421143847487
+mog,  refugeeswelcom;https;0.9342723004694836
+infofly,  silv;thema;0.9358490566037736
+amp,  bitt;retweet;0.9358752166377816
+amp,  bitt;refugeeswelcom;0.9410745233968805
+bitt,  mog;https;0.943127962085308
+mog,  wer;https;0.943127962085308
+mog,  refugeeswelcom;bitt;0.9436619718309859
+mog,  refugeeswelcom;dresd;0.9436619718309859
+mog,  refugeeswelcom;hilferuf;0.9436619718309859
+mog,  refugeeswelcom;idomeni;0.9436619718309859
+mog,  refugeeswelcom;meld;0.9436619718309859
+mog,  refugeeswelcom;refugeesgr;0.9436619718309859
+mog,  refugeeswelcom;wer;0.9436619718309859
+feuerwerk,  infofly;thema;0.9442379182156134
+bitt,  deutsch;htt;0.945518453427065
+bitt,  deutsch;amp;0.9472759226713533
+bitt,  deutsch;arabisch;0.9472759226713533
+bitt,  deutsch;asylverfahr;0.9472759226713533
+bitt,  deutsch;skizziert;0.9472759226713533
+bitt,  deutsch;weitergeb;0.9472759226713533
+asylverfahr,  deutsch;htt;0.950530035335689
+bitt,  deutsch;refugeeswelcom;0.9507908611599297
+bitt,  meld;https;0.9521531100478469
+asylverfahr,  deutsch;bitt;0.9522968197879859
+asylverfahr,  deutsch;retweet;0.9522968197879859
+asylverfahr,  deutsch;skizziert;0.9522968197879859
+asylverfahr,  deutsch;weitergeb;0.9522968197879859
+bitt,  mog;dresd;0.95260663507109
+bitt,  mog;hilferuf;0.95260663507109
+bitt,  mog;idomeni;0.95260663507109
+bitt,  mog;meld;0.95260663507109
+bitt,  mog;refugeesgr;0.95260663507109
+bitt,  mog;refugeeswelcom;0.95260663507109
+mog,  wer;dresd;0.95260663507109
+mog,  wer;hilferuf;0.95260663507109
+mog,  wer;idomeni;0.95260663507109
+mog,  wer;meld;0.95260663507109
+mog,  wer;refugeesgr;0.95260663507109
+mog,  wer;refugeeswelcom;0.95260663507109
+feuerwerk,  fluchtling;refugeeswelcom;0.9526315789473684
+arabisch,  asylverfahr;htt;0.9539007092198581
+asylverfahr,  deutsch;amp;0.9540636042402827
+arabisch,  asylverfahr;bitt;0.9556737588652482
+arabisch,  asylverfahr;retweet;0.9556737588652482
+arabisch,  asylverfahr;skizziert;0.9556737588652482
+arabisch,  asylverfahr;weitergeb;0.9556737588652482
+feuerwerk,  refugeeswelcom;silv;0.956989247311828
+arabisch,  asylverfahr;amp;0.9574468085106383
+asylverfahr,  deutsch;refugeeswelcom;0.9593639575971732
+bitt,  deutsch;retweet;0.9595782073813708
+hilferuf,  refugeeswelcom;https;0.961352657004831
+refugeesgr,  refugeeswelcom;https;0.961352657004831
+bitt,  meld;dresd;0.9617224880382775
+bitt,  meld;hilferuf;0.9617224880382775
+bitt,  meld;idomeni;0.9617224880382775
+bitt,  meld;mog;0.9617224880382775
+bitt,  meld;refugeesgr;0.9617224880382775
+amp,  arabisch;htt;0.962432915921288
+feuerwerk,  fluchtling;silv;0.9631578947368421
+amp,  arabisch;bitt;0.964221824686941
+amp,  arabisch;retweet;0.964221824686941
+amp,  arabisch;skizziert;0.964221824686941
+amp,  arabisch;weitergeb;0.964221824686941
+arabisch,  asylverfahr;refugeeswelcom;0.9645390070921985
+infofly,  thema;silv;0.9649805447470817
+amp,  deutsch;htt;0.9658886894075404
+amp,  arabisch;asylverfahr;0.9660107334525939
+bitt,  meld;refugeeswelcom;0.9665071770334929
+moabithilft,  refugeeswelcom;fluchtling;0.9672727272727273
+refugeeswelcom,  retweet;htt;0.9676258992805755
+amp,  deutsch;bitt;0.9676840215439856
+amp,  deutsch;retweet;0.9676840215439856
+amp,  deutsch;skizziert;0.9676840215439856
+amp,  deutsch;weitergeb;0.9676840215439856
+refugeeswelcom,  retweet;amp;0.9694244604316546
+refugeeswelcom,  retweet;arabisch;0.9694244604316546
+refugeeswelcom,  retweet;asylverfahr;0.9694244604316546
+refugeeswelcom,  retweet;deutsch;0.9694244604316546
+refugeeswelcom,  retweet;skizziert;0.9694244604316546
+refugeeswelcom,  retweet;weitergeb;0.9694244604316546
+amp,  deutsch;asylverfahr;0.9694793536804309
+meld,  wer;https;0.9707317073170731
+hilferuf,  refugeeswelcom;bitt;0.9710144927536232
+refugeesgr,  refugeeswelcom;bitt;0.9710144927536232
+hilferuf,  refugeeswelcom;dresd;0.9710144927536232
+refugeesgr,  refugeeswelcom;dresd;0.9710144927536232
+hilferuf,  refugeeswelcom;idomeni;0.9710144927536232
+hilferuf,  refugeeswelcom;meld;0.9710144927536232
+hilferuf,  refugeeswelcom;mog;0.9710144927536232
+refugeesgr,  refugeeswelcom;hilferuf;0.9710144927536232
+hilferuf,  refugeeswelcom;refugeesgr;0.9710144927536232
+hilferuf,  refugeeswelcom;wer;0.9710144927536232
+refugeesgr,  refugeeswelcom;meld;0.9710144927536232
+refugeesgr,  refugeeswelcom;mog;0.9710144927536232
+refugeesgr,  refugeeswelcom;wer;0.9710144927536232
+refugeeswelcom,  retweet;bitt;0.9730215827338129
+feuerwerk,  refugeeswelcom;fluchtling;0.9731182795698925
+feuerwerk,  infofly;silv;0.9739776951672863
+feuerwerk,  thema;silv;0.9763779527559056
+moabithilft,  refugeeswelcom;lageso;0.9781818181818182
+bitt,  retweet;htt;0.9799635701275046
+dresd,  wer;https;0.9802955665024631
+meld,  wer;dresd;0.9804878048780488
+meld,  wer;hilferuf;0.9804878048780488
+meld,  wer;idomeni;0.9804878048780488
+meld,  wer;mog;0.9804878048780488
+meld,  wer;refugeesgr;0.9804878048780488
+meld,  wer;refugeeswelcom;0.9804878048780488
+bitt,  meld;wer;0.9808612440191388
+asylverfahr,  htt;amp;0.9817518248175182
+asylverfahr,  htt;arabisch;0.9817518248175182
+asylverfahr,  htt;bitt;0.9817518248175182
+asylverfahr,  htt;deutsch;0.9817518248175182
+asylverfahr,  htt;refugeeswelcom;0.9817518248175182
+asylverfahr,  htt;retweet;0.9817518248175182
+asylverfahr,  htt;skizziert;0.9817518248175182
+asylverfahr,  htt;weitergeb;0.9817518248175182
+bitt,  retweet;arabisch;0.9817850637522769
+bitt,  retweet;asylverfahr;0.9817850637522769
+bitt,  retweet;skizziert;0.9817850637522769
+bitt,  retweet;weitergeb;0.9817850637522769
+fluchtling,  thema;refugeeswelcom;0.9835164835164835
+asylverfahr,  refugeeswelcom;htt;0.9835466179159049
+bitt,  retweet;amp;0.9836065573770492
+dresd,  refugeesgr;https;0.9851485148514851
+deutsch,  retweet;htt;0.9853479853479854
+asylverfahr,  refugeeswelcom;bitt;0.9853747714808044
+asylverfahr,  refugeeswelcom;retweet;0.9853747714808044
+asylverfahr,  refugeeswelcom;skizziert;0.9853747714808044
+asylverfahr,  refugeeswelcom;weitergeb;0.9853747714808044
+bitt,  retweet;refugeeswelcom;0.9854280510018215
+amp,  asylverfahr;htt;0.9871559633027523
+deutsch,  retweet;amp;0.9871794871794872
+deutsch,  retweet;arabisch;0.9871794871794872
+deutsch,  retweet;asylverfahr;0.9871794871794872
+deutsch,  retweet;refugeeswelcom;0.9871794871794872
+deutsch,  retweet;skizziert;0.9871794871794872
+deutsch,  retweet;weitergeb;0.9871794871794872
+asylverfahr,  refugeeswelcom;amp;0.9872029250457038
+infofly,  thema;feuerwerk;0.9883268482490273
+infofly,  silv;feuerwerk;0.9886792452830189
+lageso,  moabithilft;fluchtling;0.9888475836431226
+amp,  htt;arabisch;0.9889705882352942
+amp,  htt;asylverfahr;0.9889705882352942
+amp,  htt;bitt;0.9889705882352942
+amp,  htt;deutsch;0.9889705882352942
+amp,  htt;retweet;0.9889705882352942
+amp,  htt;skizziert;0.9889705882352942
+amp,  htt;weitergeb;0.9889705882352942
+amp,  asylverfahr;bitt;0.9889908256880734
+amp,  asylverfahr;retweet;0.9889908256880734
+amp,  asylverfahr;skizziert;0.9889908256880734
+amp,  asylverfahr;weitergeb;0.9889908256880734
+dresd,  https;bitt;0.9900497512437811
+bitt,  dresd;https;0.9900497512437811
+bitt,  hilferuf;https;0.9900497512437811
+https,  idomeni;bitt;0.9900497512437811
+bitt,  idomeni;https;0.9900497512437811
+bitt,  refugeesgr;https;0.9900497512437811
+https,  wer;bitt;0.9900497512437811
+dresd,  https;hilferuf;0.9900497512437811
+dresd,  hilferuf;https;0.9900497512437811
+dresd,  meld;https;0.9900497512437811
+dresd,  https;meld;0.9900497512437811
+dresd,  mog;https;0.9900497512437811
+dresd,  https;mog;0.9900497512437811
+dresd,  https;refugeesgr;0.9900497512437811
+https,  wer;dresd;0.9900497512437811
+dresd,  https;wer;0.9900497512437811
+https,  idomeni;hilferuf;0.9900497512437811
+hilferuf,  idomeni;https;0.9900497512437811
+hilferuf,  meld;https;0.9900497512437811
+hilferuf,  mog;https;0.9900497512437811
+hilferuf,  refugeesgr;https;0.9900497512437811
+https,  wer;hilferuf;0.9900497512437811
+hilferuf,  wer;https;0.9900497512437811
+idomeni,  meld;https;0.9900497512437811
+https,  idomeni;meld;0.9900497512437811
+idomeni,  mog;https;0.9900497512437811
+https,  idomeni;mog;0.9900497512437811
+meld,  mog;https;0.9900497512437811
+https,  idomeni;refugeesgr;0.9900497512437811
+meld,  refugeesgr;https;0.9900497512437811
+mog,  refugeesgr;https;0.9900497512437811
+idomeni,  wer;https;0.9900497512437811
+https,  wer;idomeni;0.9900497512437811
+https,  idomeni;wer;0.9900497512437811
+https,  wer;meld;0.9900497512437811
+https,  wer;mog;0.9900497512437811
+refugeesgr,  wer;https;0.9900497512437811
+https,  wer;refugeesgr;0.9900497512437811
+https,  wer;refugeeswelcom;0.9900497512437811
+dresd,  wer;bitt;0.9901477832512315
+dresd,  wer;hilferuf;0.9901477832512315
+dresd,  wer;idomeni;0.9901477832512315
+dresd,  wer;meld;0.9901477832512315
+dresd,  wer;mog;0.9901477832512315
+dresd,  wer;refugeesgr;0.9901477832512315
+refugeesgr,  refugeeswelcom;idomeni;0.9903381642512077
+amp,  asylverfahr;arabisch;0.9908256880733946
+amp,  asylverfahr;deutsch;0.9908256880733946
+amp,  asylverfahr;refugeeswelcom;0.9908256880733946
+asylverfahr,  skizziert;htt;0.992619926199262
+asylverfahr,  refugeeswelcom;deutsch;0.9926873857404022
+amp,  arabisch;deutsch;0.9928443649373881
+bitt,  htt;amp;0.9944547134935305
+bitt,  htt;arabisch;0.9944547134935305
+arabisch,  bitt;htt;0.9944547134935305
+bitt,  htt;asylverfahr;0.9944547134935305
+bitt,  htt;deutsch;0.9944547134935305
+bitt,  htt;retweet;0.9944547134935305
+bitt,  htt;skizziert;0.9944547134935305
+bitt,  htt;weitergeb;0.9944547134935305
+asylverfahr,  skizziert;amp;0.9944649446494465
+asylverfahr,  skizziert;arabisch;0.9944649446494465
+asylverfahr,  skizziert;bitt;0.9944649446494465
+asylverfahr,  skizziert;deutsch;0.9944649446494465
+asylverfahr,  skizziert;refugeeswelcom;0.9944649446494465
+asylverfahr,  skizziert;retweet;0.9944649446494465
+asylverfahr,  skizziert;weitergeb;0.9944649446494465
+asylverfahr,  refugeeswelcom;arabisch;0.9945155393053017
+bitt,  retweet;deutsch;0.994535519125683
+asylverfahr,  deutsch;arabisch;0.9946996466431095
+dresd,  refugeesgr;bitt;0.995049504950495
+dresd,  refugeesgr;hilferuf;0.995049504950495
+dresd,  refugeesgr;meld;0.995049504950495
+dresd,  refugeesgr;mog;0.995049504950495
+dresd,  refugeesgr;refugeeswelcom;0.995049504950495
+dresd,  refugeesgr;wer;0.995049504950495
+dresd,  idomeni;refugeeswelcom;0.995575221238938
+arabisch,  htt;amp;0.9962962962962963
+deutsch,  htt;amp;0.9962962962962963
+amp,  retweet;htt;0.9962962962962963
+arabisch,  htt;asylverfahr;0.9962962962962963
+arabisch,  htt;bitt;0.9962962962962963
+deutsch,  htt;arabisch;0.9962962962962963
+arabisch,  htt;deutsch;0.9962962962962963
+arabisch,  htt;retweet;0.9962962962962963
+arabisch,  htt;skizziert;0.9962962962962963
+arabisch,  htt;weitergeb;0.9962962962962963
+deutsch,  htt;asylverfahr;0.9962962962962963
+deutsch,  htt;bitt;0.9962962962962963
+deutsch,  htt;retweet;0.9962962962962963
+deutsch,  htt;skizziert;0.9962962962962963
+deutsch,  htt;weitergeb;0.9962962962962963
+arabisch,  bitt;amp;0.9963031423290203
+arabisch,  bitt;asylverfahr;0.9963031423290203
+arabisch,  bitt;deutsch;0.9963031423290203
+arabisch,  bitt;retweet;0.9963031423290203
+arabisch,  bitt;skizziert;0.9963031423290203
+arabisch,  bitt;weitergeb;0.9963031423290203
+amp,  htt;refugeeswelcom;0.9963235294117647
+amp,  deutsch;arabisch;0.9964093357271095
+amp,  deutsch;refugeeswelcom;0.9964093357271095
+amp,  arabisch;refugeeswelcom;0.9964221824686941
+amp,  skizziert;htt;0.9981447124304267
+amp,  weitergeb;htt;0.9981447124304267
+arabisch,  retweet;htt;0.9981447124304267
+arabisch,  skizziert;htt;0.9981447124304267
+arabisch,  weitergeb;htt;0.9981447124304267
+asylverfahr,  bitt;htt;0.9981447124304267
+asylverfahr,  retweet;htt;0.9981447124304267
+asylverfahr,  weitergeb;htt;0.9981447124304267
+bitt,  skizziert;htt;0.9981447124304267
+bitt,  weitergeb;htt;0.9981447124304267
+deutsch,  skizziert;htt;0.9981447124304267
+deutsch,  weitergeb;htt;0.9981447124304267
+refugeeswelcom,  skizziert;htt;0.9981447124304267
+retweet,  skizziert;htt;0.9981447124304267
+refugeeswelcom,  weitergeb;htt;0.9981447124304267
+retweet,  weitergeb;htt;0.9981447124304267
+skizziert,  weitergeb;htt;0.9981447124304267
+amp,  retweet;arabisch;0.9981481481481481
+amp,  retweet;asylverfahr;0.9981481481481481
+amp,  retweet;deutsch;0.9981481481481481
+amp,  retweet;refugeeswelcom;0.9981481481481481
+amp,  retweet;skizziert;0.9981481481481481
+amp,  retweet;weitergeb;0.9981481481481481
+arabisch,  bitt;refugeeswelcom;0.9981515711645101
+arabisch,  asylverfahr;deutsch;0.99822695035461
+afd,  pegida;refugeeswelcom;1.0
+asylverfahr,  bitt;amp;1.0
+arabisch,  retweet;amp;1.0
+asylverfahr,  retweet;amp;1.0
+amp,  retweet;bitt;1.0
+htt,  retweet;amp;1.0
+arabisch,  skizziert;amp;1.0
+amp,  skizziert;arabisch;1.0
+amp,  skizziert;asylverfahr;1.0
+bitt,  skizziert;amp;1.0
+amp,  skizziert;bitt;1.0
+deutsch,  skizziert;amp;1.0
+amp,  skizziert;deutsch;1.0
+htt,  skizziert;amp;1.0
+refugeeswelcom,  skizziert;amp;1.0
+amp,  skizziert;refugeeswelcom;1.0
+retweet,  skizziert;amp;1.0
+amp,  skizziert;retweet;1.0
+arabisch,  weitergeb;amp;1.0
+amp,  weitergeb;arabisch;1.0
+asylverfahr,  weitergeb;amp;1.0
+amp,  weitergeb;asylverfahr;1.0
+bitt,  weitergeb;amp;1.0
+amp,  weitergeb;bitt;1.0
+deutsch,  weitergeb;amp;1.0
+amp,  weitergeb;deutsch;1.0
+htt,  weitergeb;amp;1.0
+refugeeswelcom,  weitergeb;amp;1.0
+amp,  weitergeb;refugeeswelcom;1.0
+retweet,  weitergeb;amp;1.0
+amp,  weitergeb;retweet;1.0
+skizziert,  weitergeb;amp;1.0
+amp,  weitergeb;skizziert;1.0
+amp,  skizziert;weitergeb;1.0
+asylverfahr,  bitt;arabisch;1.0
+arabisch,  htt;refugeeswelcom;1.0
+asylverfahr,  retweet;arabisch;1.0
+arabisch,  retweet;asylverfahr;1.0
+arabisch,  retweet;bitt;1.0
+arabisch,  retweet;deutsch;1.0
+htt,  retweet;arabisch;1.0
+arabisch,  retweet;refugeeswelcom;1.0
+arabisch,  skizziert;asylverfahr;1.0
+bitt,  skizziert;arabisch;1.0
+arabisch,  skizziert;bitt;1.0
+deutsch,  skizziert;arabisch;1.0
+arabisch,  skizziert;deutsch;1.0
+htt,  skizziert;arabisch;1.0
+refugeeswelcom,  skizziert;arabisch;1.0
+arabisch,  skizziert;refugeeswelcom;1.0
+retweet,  skizziert;arabisch;1.0
+arabisch,  skizziert;retweet;1.0
+arabisch,  retweet;skizziert;1.0
+asylverfahr,  weitergeb;arabisch;1.0
+arabisch,  weitergeb;asylverfahr;1.0
+bitt,  weitergeb;arabisch;1.0
+arabisch,  weitergeb;bitt;1.0
+deutsch,  weitergeb;arabisch;1.0
+arabisch,  weitergeb;deutsch;1.0
+htt,  weitergeb;arabisch;1.0
+refugeeswelcom,  weitergeb;arabisch;1.0
+arabisch,  weitergeb;refugeeswelcom;1.0
+retweet,  weitergeb;arabisch;1.0
+arabisch,  weitergeb;retweet;1.0
+arabisch,  retweet;weitergeb;1.0
+skizziert,  weitergeb;arabisch;1.0
+arabisch,  weitergeb;skizziert;1.0
+arabisch,  skizziert;weitergeb;1.0
+asylverfahr,  bitt;deutsch;1.0
+asylverfahr,  bitt;refugeeswelcom;1.0
+asylverfahr,  retweet;bitt;1.0
+asylverfahr,  bitt;retweet;1.0
+asylverfahr,  retweet;deutsch;1.0
+htt,  retweet;asylverfahr;1.0
+asylverfahr,  retweet;refugeeswelcom;1.0
+bitt,  skizziert;asylverfahr;1.0
+asylverfahr,  bitt;skizziert;1.0
+deutsch,  skizziert;asylverfahr;1.0
+htt,  skizziert;asylverfahr;1.0
+refugeeswelcom,  skizziert;asylverfahr;1.0
+retweet,  skizziert;asylverfahr;1.0
+asylverfahr,  retweet;skizziert;1.0
+bitt,  weitergeb;asylverfahr;1.0
+asylverfahr,  weitergeb;bitt;1.0
+asylverfahr,  bitt;weitergeb;1.0
+deutsch,  weitergeb;asylverfahr;1.0
+asylverfahr,  weitergeb;deutsch;1.0
+htt,  weitergeb;asylverfahr;1.0
+refugeeswelcom,  weitergeb;asylverfahr;1.0
+asylverfahr,  weitergeb;refugeeswelcom;1.0
+retweet,  weitergeb;asylverfahr;1.0
+asylverfahr,  weitergeb;retweet;1.0
+asylverfahr,  retweet;weitergeb;1.0
+skizziert,  weitergeb;asylverfahr;1.0
+asylverfahr,  weitergeb;skizziert;1.0
+dresd,  hilferuf;bitt;1.0
+bitt,  hilferuf;dresd;1.0
+bitt,  dresd;hilferuf;1.0
+hilferuf,  https;bitt;1.0
+bitt,  idomeni;dresd;1.0
+bitt,  dresd;idomeni;1.0
+hilferuf,  idomeni;bitt;1.0
+bitt,  idomeni;hilferuf;1.0
+bitt,  hilferuf;idomeni;1.0
+dresd,  meld;bitt;1.0
+bitt,  dresd;meld;1.0
+hilferuf,  meld;bitt;1.0
+bitt,  hilferuf;meld;1.0
+https,  meld;bitt;1.0
+idomeni,  meld;bitt;1.0
+bitt,  idomeni;meld;1.0
+dresd,  mog;bitt;1.0
+bitt,  dresd;mog;1.0
+hilferuf,  mog;bitt;1.0
+bitt,  hilferuf;mog;1.0
+https,  mog;bitt;1.0
+idomeni,  mog;bitt;1.0
+bitt,  idomeni;mog;1.0
+meld,  mog;bitt;1.0
+bitt,  refugeesgr;dresd;1.0
+bitt,  dresd;refugeesgr;1.0
+hilferuf,  refugeesgr;bitt;1.0
+bitt,  refugeesgr;hilferuf;1.0
+bitt,  hilferuf;refugeesgr;1.0
+https,  refugeesgr;bitt;1.0
+bitt,  refugeesgr;idomeni;1.0
+bitt,  idomeni;refugeesgr;1.0
+meld,  refugeesgr;bitt;1.0
+bitt,  refugeesgr;meld;1.0
+mog,  refugeesgr;bitt;1.0
+bitt,  refugeesgr;mog;1.0
+bitt,  dresd;refugeeswelcom;1.0
+bitt,  hilferuf;refugeeswelcom;1.0
+bitt,  htt;refugeeswelcom;1.0
+bitt,  idomeni;refugeeswelcom;1.0
+bitt,  refugeesgr;refugeeswelcom;1.0
+deutsch,  retweet;bitt;1.0
+htt,  retweet;bitt;1.0
+deutsch,  skizziert;bitt;1.0
+bitt,  skizziert;deutsch;1.0
+htt,  skizziert;bitt;1.0
+refugeeswelcom,  skizziert;bitt;1.0
+bitt,  skizziert;refugeeswelcom;1.0
+retweet,  skizziert;bitt;1.0
+bitt,  skizziert;retweet;1.0
+deutsch,  weitergeb;bitt;1.0
+bitt,  weitergeb;deutsch;1.0
+htt,  weitergeb;bitt;1.0
+refugeeswelcom,  weitergeb;bitt;1.0
+bitt,  weitergeb;refugeeswelcom;1.0
+retweet,  weitergeb;bitt;1.0
+bitt,  weitergeb;retweet;1.0
+skizziert,  weitergeb;bitt;1.0
+bitt,  weitergeb;skizziert;1.0
+bitt,  skizziert;weitergeb;1.0
+bitt,  dresd;wer;1.0
+hilferuf,  wer;bitt;1.0
+bitt,  hilferuf;wer;1.0
+idomeni,  wer;bitt;1.0
+bitt,  idomeni;wer;1.0
+meld,  wer;bitt;1.0
+mog,  wer;bitt;1.0
+bitt,  mog;wer;1.0
+refugeesgr,  wer;bitt;1.0
+bitt,  refugeesgr;wer;1.0
+deutsch,  htt;refugeeswelcom;1.0
+htt,  retweet;deutsch;1.0
+htt,  skizziert;deutsch;1.0
+refugeeswelcom,  skizziert;deutsch;1.0
+deutsch,  skizziert;refugeeswelcom;1.0
+retweet,  skizziert;deutsch;1.0
+deutsch,  skizziert;retweet;1.0
+htt,  weitergeb;deutsch;1.0
+refugeeswelcom,  weitergeb;deutsch;1.0
+deutsch,  weitergeb;refugeeswelcom;1.0
+retweet,  weitergeb;deutsch;1.0
+deutsch,  weitergeb;retweet;1.0
+skizziert,  weitergeb;deutsch;1.0
+deutsch,  weitergeb;skizziert;1.0
+deutsch,  skizziert;weitergeb;1.0
+hilferuf,  https;dresd;1.0
+hilferuf,  idomeni;dresd;1.0
+dresd,  hilferuf;idomeni;1.0
+https,  idomeni;dresd;1.0
+dresd,  https;idomeni;1.0
+hilferuf,  meld;dresd;1.0
+dresd,  meld;hilferuf;1.0
+dresd,  hilferuf;meld;1.0
+https,  meld;dresd;1.0
+idomeni,  meld;dresd;1.0
+dresd,  meld;idomeni;1.0
+hilferuf,  mog;dresd;1.0
+dresd,  mog;hilferuf;1.0
+dresd,  hilferuf;mog;1.0
+https,  mog;dresd;1.0
+idomeni,  mog;dresd;1.0
+dresd,  mog;idomeni;1.0
+meld,  mog;dresd;1.0
+dresd,  mog;meld;1.0
+dresd,  meld;mog;1.0
+hilferuf,  refugeesgr;dresd;1.0
+dresd,  hilferuf;refugeesgr;1.0
+https,  refugeesgr;dresd;1.0
+dresd,  refugeesgr;idomeni;1.0
+meld,  refugeesgr;dresd;1.0
+dresd,  meld;refugeesgr;1.0
+mog,  refugeesgr;dresd;1.0
+dresd,  mog;refugeesgr;1.0
+dresd,  hilferuf;refugeeswelcom;1.0
+dresd,  https;refugeeswelcom;1.0
+dresd,  meld;refugeeswelcom;1.0
+dresd,  mog;refugeeswelcom;1.0
+hilferuf,  wer;dresd;1.0
+dresd,  hilferuf;wer;1.0
+idomeni,  wer;dresd;1.0
+dresd,  meld;wer;1.0
+dresd,  mog;wer;1.0
+refugeesgr,  wer;dresd;1.0
+dresd,  wer;refugeeswelcom;1.0
+feuerwerk,  thema;infofly;1.0
+silv,  thema;feuerwerk;1.0
+fluchtling,  moabithilft;lageso;1.0
+fluchtling,  moabithilft;refugeeswelcom;1.0
+hilferuf,  https;idomeni;1.0
+https,  meld;hilferuf;1.0
+hilferuf,  https;meld;1.0
+idomeni,  meld;hilferuf;1.0
+hilferuf,  meld;idomeni;1.0
+hilferuf,  idomeni;meld;1.0
+https,  mog;hilferuf;1.0
+hilferuf,  https;mog;1.0
+idomeni,  mog;hilferuf;1.0
+hilferuf,  mog;idomeni;1.0
+hilferuf,  idomeni;mog;1.0
+meld,  mog;hilferuf;1.0
+hilferuf,  mog;meld;1.0
+hilferuf,  meld;mog;1.0
+https,  refugeesgr;hilferuf;1.0
+hilferuf,  https;refugeesgr;1.0
+hilferuf,  refugeesgr;idomeni;1.0
+hilferuf,  idomeni;refugeesgr;1.0
+meld,  refugeesgr;hilferuf;1.0
+hilferuf,  refugeesgr;meld;1.0
+hilferuf,  meld;refugeesgr;1.0
+mog,  refugeesgr;hilferuf;1.0
+hilferuf,  refugeesgr;mog;1.0
+hilferuf,  mog;refugeesgr;1.0
+hilferuf,  https;refugeeswelcom;1.0
+hilferuf,  idomeni;refugeeswelcom;1.0
+hilferuf,  meld;refugeeswelcom;1.0
+hilferuf,  mog;refugeeswelcom;1.0
+hilferuf,  refugeesgr;refugeeswelcom;1.0
+hilferuf,  https;wer;1.0
+idomeni,  wer;hilferuf;1.0
+hilferuf,  wer;idomeni;1.0
+hilferuf,  idomeni;wer;1.0
+hilferuf,  wer;meld;1.0
+hilferuf,  meld;wer;1.0
+hilferuf,  wer;mog;1.0
+hilferuf,  mog;wer;1.0
+refugeesgr,  wer;hilferuf;1.0
+hilferuf,  wer;refugeesgr;1.0
+hilferuf,  refugeesgr;wer;1.0
+hilferuf,  wer;refugeeswelcom;1.0
+htt,  retweet;refugeeswelcom;1.0
+htt,  skizziert;refugeeswelcom;1.0
+htt,  skizziert;retweet;1.0
+htt,  retweet;skizziert;1.0
+htt,  weitergeb;refugeeswelcom;1.0
+htt,  weitergeb;retweet;1.0
+htt,  retweet;weitergeb;1.0
+htt,  weitergeb;skizziert;1.0
+htt,  skizziert;weitergeb;1.0
+https,  meld;idomeni;1.0
+https,  mog;idomeni;1.0
+https,  mog;meld;1.0
+https,  meld;mog;1.0
+https,  refugeesgr;idomeni;1.0
+https,  refugeesgr;meld;1.0
+https,  meld;refugeesgr;1.0
+https,  refugeesgr;mog;1.0
+https,  mog;refugeesgr;1.0
+https,  idomeni;refugeeswelcom;1.0
+https,  meld;refugeeswelcom;1.0
+https,  mog;refugeeswelcom;1.0
+https,  refugeesgr;refugeeswelcom;1.0
+https,  meld;wer;1.0
+https,  mog;wer;1.0
+https,  refugeesgr;wer;1.0
+meld,  mog;idomeni;1.0
+idomeni,  mog;meld;1.0
+idomeni,  meld;mog;1.0
+meld,  refugeesgr;idomeni;1.0
+idomeni,  meld;refugeesgr;1.0
+mog,  refugeesgr;idomeni;1.0
+idomeni,  mog;refugeesgr;1.0
+idomeni,  meld;refugeeswelcom;1.0
+idomeni,  mog;refugeeswelcom;1.0
+idomeni,  wer;meld;1.0
+idomeni,  meld;wer;1.0
+idomeni,  wer;mog;1.0
+idomeni,  mog;wer;1.0
+refugeesgr,  wer;idomeni;1.0
+idomeni,  wer;refugeesgr;1.0
+idomeni,  wer;refugeeswelcom;1.0
+silv,  thema;infofly;1.0
+lageso,  moabithilft;refugeeswelcom;1.0
+mog,  refugeesgr;meld;1.0
+meld,  refugeesgr;mog;1.0
+meld,  mog;refugeesgr;1.0
+meld,  mog;refugeeswelcom;1.0
+meld,  refugeesgr;refugeeswelcom;1.0
+meld,  mog;wer;1.0
+refugeesgr,  wer;meld;1.0
+meld,  refugeesgr;wer;1.0
+mog,  refugeesgr;refugeeswelcom;1.0
+refugeesgr,  wer;mog;1.0
+mog,  refugeesgr;wer;1.0
+refugeesgr,  wer;refugeeswelcom;1.0
+retweet,  skizziert;refugeeswelcom;1.0
+refugeeswelcom,  skizziert;retweet;1.0
+retweet,  weitergeb;refugeeswelcom;1.0
+refugeeswelcom,  weitergeb;retweet;1.0
+skizziert,  weitergeb;refugeeswelcom;1.0
+refugeeswelcom,  weitergeb;skizziert;1.0
+refugeeswelcom,  skizziert;weitergeb;1.0
+skizziert,  weitergeb;retweet;1.0
+retweet,  weitergeb;skizziert;1.0
+retweet,  skizziert;weitergeb;1.0
