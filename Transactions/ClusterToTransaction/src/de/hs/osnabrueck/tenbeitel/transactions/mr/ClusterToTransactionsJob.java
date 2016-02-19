@@ -34,8 +34,8 @@ public class ClusterToTransactionsJob extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
-		if (args.length < 1) {
-			System.out.println("usage: [inputDir]");
+		if (args.length < 2) {
+			System.out.println("usage: [inputDir] [outputDir]");
 			return 1;
 		}
 		Path workDir = new Path(args[0]);
@@ -64,7 +64,7 @@ public class ClusterToTransactionsJob extends Configured implements Tool {
 
 		createClusterTransactionDir.setOutputFormatClass(SequenceFileOutputFormat.class);
 
-		Path outputBasePath = new Path(workDir, BASE_PATH);
+		Path outputBasePath = new Path(args[1]);
 
 		HadoopPathUtils.deletePathIfExists(getConf(), outputBasePath);
 
