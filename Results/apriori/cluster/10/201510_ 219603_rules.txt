@@ -1,0 +1,2 @@
+[fluchtling] ==> [asyl]	1.0
+[merkel] ==> [asyl]	1.0

@@ -1,0 +1,275 @@
+[afd] ==> [refugeeswelcom]	1.0
+[amp] ==> [refugeeswelcom]	0.9925373134328358
+[antifa] ==> [refugeeswelcom]	0.8809523809523809
+[asyl] ==> [refugeeswelcom]	0.96
+[erlebniss] ==> [bericht]	1.0
+[erlebniss, fluchtling] ==> [bericht]	1.0
+[bericht, fluchtling] ==> [erlebniss]	0.9753694581280788
+[bericht, erlebniss] ==> [fluchtling]	1.0
+[erlebniss] ==> [bericht, fluchtling]	1.0
+[freital] ==> [bericht]	0.7764705882352941
+[erlebniss, freital] ==> [bericht]	1.0
+[bericht, freital] ==> [erlebniss]	1.0
+[bericht, erlebniss] ==> [freital]	1.0
+[freital] ==> [bericht, erlebniss]	0.7764705882352941
+[erlebniss] ==> [bericht, freital]	1.0
+[fluchtling, freital] ==> [bericht]	1.0
+[bericht, freital] ==> [fluchtling]	1.0
+[bericht, fluchtling] ==> [freital]	0.9753694581280788
+[freital] ==> [bericht, fluchtling]	0.7764705882352941
+[leb] ==> [bericht]	0.6996466431095406
+[erlebniss, leb] ==> [bericht]	1.0
+[bericht, leb] ==> [erlebniss]	1.0
+[bericht, erlebniss] ==> [leb]	1.0
+[erlebniss] ==> [bericht, leb]	1.0
+[leb] ==> [bericht, erlebniss]	0.6996466431095406
+[fluchtling, leb] ==> [bericht]	0.9565217391304348
+[bericht, leb] ==> [fluchtling]	1.0
+[bericht, fluchtling] ==> [leb]	0.9753694581280788
+[leb] ==> [bericht, fluchtling]	0.6996466431095406
+[freital, leb] ==> [bericht]	1.0
+[bericht, leb] ==> [freital]	1.0
+[bericht, freital] ==> [leb]	1.0
+[freital] ==> [bericht, leb]	0.7764705882352941
+[leb] ==> [bericht, freital]	0.6996466431095406
+[erlebniss, nopegida] ==> [bericht]	1.0
+[bericht, nopegida] ==> [erlebniss]	0.98989898989899
+[bericht, erlebniss] ==> [nopegida]	0.98989898989899
+[erlebniss] ==> [bericht, nopegida]	0.98989898989899
+[fluchtling, nopegida] ==> [bericht]	0.8521739130434782
+[bericht, nopegida] ==> [fluchtling]	0.98989898989899
+[bericht, fluchtling] ==> [nopegida]	0.9655172413793104
+[freital, nopegida] ==> [bericht]	0.9949238578680203
+[bericht, nopegida] ==> [freital]	0.98989898989899
+[bericht, freital] ==> [nopegida]	0.98989898989899
+[freital] ==> [bericht, nopegida]	0.7686274509803922
+[leb, nopegida] ==> [bericht]	1.0
+[bericht, nopegida] ==> [leb]	0.98989898989899
+[bericht, leb] ==> [nopegida]	0.98989898989899
+[leb] ==> [bericht, nopegida]	0.6925795053003534
+[bericht] ==> [refugeeswelcom]	0.9233226837060703
+[erlebniss, refugeeswelcom] ==> [bericht]	1.0
+[bericht, refugeeswelcom] ==> [erlebniss]	0.6782006920415224
+[bericht, erlebniss] ==> [refugeeswelcom]	0.98989898989899
+[erlebniss] ==> [bericht, refugeeswelcom]	0.98989898989899
+[bericht, refugeeswelcom] ==> [fluchtling]	0.6851211072664359
+[bericht, fluchtling] ==> [refugeeswelcom]	0.9753694581280788
+[freital, refugeeswelcom] ==> [bericht]	0.784
+[bericht, refugeeswelcom] ==> [freital]	0.6782006920415224
+[bericht, freital] ==> [refugeeswelcom]	0.98989898989899
+[freital] ==> [bericht, refugeeswelcom]	0.7686274509803922
+[leb, refugeeswelcom] ==> [bericht]	0.7538461538461538
+[bericht, refugeeswelcom] ==> [leb]	0.6782006920415224
+[bericht, leb] ==> [refugeeswelcom]	0.98989898989899
+[leb] ==> [bericht, refugeeswelcom]	0.6925795053003534
+[bericht, refugeeswelcom] ==> [nopegida]	0.6816608996539792
+[bericht, nopegida] ==> [refugeeswelcom]	0.9949494949494949
+[berlin] ==> [refugeeswelcom]	0.8673740053050398
+[bild] ==> [refugeeswelcom]	0.9873417721518988
+[braucht] ==> [refugeeswelcom]	0.7456896551724138
+[carsofhop] ==> [refugeeswelcom]	0.9444444444444444
+[cdu] ==> [refugeeswelcom]	1.0
+[csu] ==> [refugeeswelcom]	1.0
+[dank] ==> [refugeeswelcom]	0.7730192719486081
+[dass] ==> [refugeeswelcom]	0.9826589595375722
+[demo] ==> [refugeeswelcom]	1.0
+[deutsch] ==> [refugeeswelcom]	0.7990196078431373
+[deutschland] ==> [refugeeswelcom]	1.0
+[dresd] ==> [refugeeswelcom]	0.9540816326530612
+[durf] ==> [refugeeswelcom]	0.935064935064935
+[sag] ==> [durf]	0.6862068965517242
+[durf] ==> [sag]	0.8614718614718615
+[refugeeswelcom, sag] ==> [durf]	0.7848605577689243
+[durf, sag] ==> [refugeeswelcom]	0.9899497487437185
+[durf, refugeeswelcom] ==> [sag]	0.9120370370370371
+[durf] ==> [refugeeswelcom, sag]	0.8528138528138528
+[sag] ==> [durf, refugeeswelcom]	0.6793103448275862
+[wohl] ==> [durf]	0.792156862745098
+[durf] ==> [wohl]	0.8744588744588745
+[refugeeswelcom, wohl] ==> [durf]	0.8215767634854771
+[durf, wohl] ==> [refugeeswelcom]	0.9801980198019802
+[durf, refugeeswelcom] ==> [wohl]	0.9166666666666666
+[wohl] ==> [durf, refugeeswelcom]	0.7764705882352941
+[durf] ==> [refugeeswelcom, wohl]	0.8571428571428571
+[sag, wohl] ==> [durf]	0.995
+[durf, wohl] ==> [sag]	0.9851485148514851
+[durf, sag] ==> [wohl]	1.0
+[durf] ==> [sag, wohl]	0.8614718614718615
+[wohl] ==> [durf, sag]	0.7803921568627451
+[sag] ==> [durf, wohl]	0.6862068965517242
+[einfach] ==> [refugeeswelcom]	0.9512195121951219
+[erlebniss] ==> [fluchtling]	1.0
+[freital] ==> [erlebniss]	0.7764705882352941
+[erlebniss] ==> [freital]	1.0
+[fluchtling, freital] ==> [erlebniss]	1.0
+[erlebniss, freital] ==> [fluchtling]	1.0
+[erlebniss, fluchtling] ==> [freital]	1.0
+[freital] ==> [erlebniss, fluchtling]	0.7764705882352941
+[erlebniss] ==> [fluchtling, freital]	1.0
+[leb] ==> [erlebniss]	0.6996466431095406
+[erlebniss] ==> [leb]	1.0
+[fluchtling, leb] ==> [erlebniss]	0.9565217391304348
+[erlebniss, leb] ==> [fluchtling]	1.0
+[erlebniss, fluchtling] ==> [leb]	1.0
+[leb] ==> [erlebniss, fluchtling]	0.6996466431095406
+[erlebniss] ==> [fluchtling, leb]	1.0
+[freital, leb] ==> [erlebniss]	1.0
+[erlebniss, leb] ==> [freital]	1.0
+[erlebniss, freital] ==> [leb]	1.0
+[erlebniss] ==> [freital, leb]	1.0
+[freital] ==> [erlebniss, leb]	0.7764705882352941
+[leb] ==> [erlebniss, freital]	0.6996466431095406
+[erlebniss] ==> [nopegida]	0.98989898989899
+[fluchtling, nopegida] ==> [erlebniss]	0.8521739130434782
+[erlebniss, nopegida] ==> [fluchtling]	1.0
+[erlebniss, fluchtling] ==> [nopegida]	0.98989898989899
+[erlebniss] ==> [fluchtling, nopegida]	0.98989898989899
+[freital, nopegida] ==> [erlebniss]	0.9949238578680203
+[erlebniss, nopegida] ==> [freital]	1.0
+[erlebniss, freital] ==> [nopegida]	0.98989898989899
+[erlebniss] ==> [freital, nopegida]	0.98989898989899
+[freital] ==> [erlebniss, nopegida]	0.7686274509803922
+[leb, nopegida] ==> [erlebniss]	1.0
+[erlebniss, nopegida] ==> [leb]	1.0
+[erlebniss, leb] ==> [nopegida]	0.98989898989899
+[erlebniss] ==> [leb, nopegida]	0.98989898989899
+[leb] ==> [erlebniss, nopegida]	0.6925795053003534
+[erlebniss] ==> [refugeeswelcom]	0.98989898989899
+[erlebniss, refugeeswelcom] ==> [fluchtling]	1.0
+[erlebniss, fluchtling] ==> [refugeeswelcom]	0.98989898989899
+[erlebniss] ==> [fluchtling, refugeeswelcom]	0.98989898989899
+[freital, refugeeswelcom] ==> [erlebniss]	0.784
+[erlebniss, refugeeswelcom] ==> [freital]	1.0
+[erlebniss, freital] ==> [refugeeswelcom]	0.98989898989899
+[erlebniss] ==> [freital, refugeeswelcom]	0.98989898989899
+[freital] ==> [erlebniss, refugeeswelcom]	0.7686274509803922
+[leb, refugeeswelcom] ==> [erlebniss]	0.7538461538461538
+[erlebniss, refugeeswelcom] ==> [leb]	1.0
+[erlebniss, leb] ==> [refugeeswelcom]	0.98989898989899
+[erlebniss] ==> [leb, refugeeswelcom]	0.98989898989899
+[leb] ==> [erlebniss, refugeeswelcom]	0.6925795053003534
+[erlebniss, refugeeswelcom] ==> [nopegida]	1.0
+[erlebniss, nopegida] ==> [refugeeswelcom]	1.0
+[erlebniss] ==> [nopegida, refugeeswelcom]	0.98989898989899
+[europa] ==> [refugeeswelcom]	1.0
+[freital] ==> [fluchtling]	0.7764705882352941
+[leb] ==> [fluchtling]	0.7314487632508834
+[freital, leb] ==> [fluchtling]	1.0
+[fluchtling, leb] ==> [freital]	0.9565217391304348
+[fluchtling, freital] ==> [leb]	1.0
+[leb] ==> [fluchtling, freital]	0.6996466431095406
+[freital] ==> [fluchtling, leb]	0.7764705882352941
+[freital, nopegida] ==> [fluchtling]	0.9949238578680203
+[fluchtling, nopegida] ==> [freital]	0.8521739130434782
+[fluchtling, freital] ==> [nopegida]	0.98989898989899
+[freital] ==> [fluchtling, nopegida]	0.7686274509803922
+[leb, nopegida] ==> [fluchtling]	1.0
+[fluchtling, nopegida] ==> [leb]	0.8521739130434782
+[fluchtling, leb] ==> [nopegida]	0.9468599033816425
+[leb] ==> [fluchtling, nopegida]	0.6925795053003534
+[fluchtling] ==> [refugeeswelcom]	0.9704749679075738
+[freital, refugeeswelcom] ==> [fluchtling]	0.784
+[fluchtling, freital] ==> [refugeeswelcom]	0.98989898989899
+[freital] ==> [fluchtling, refugeeswelcom]	0.7686274509803922
+[leb, refugeeswelcom] ==> [fluchtling]	0.7884615384615384
+[fluchtling, leb] ==> [refugeeswelcom]	0.9903381642512077
+[leb] ==> [fluchtling, refugeeswelcom]	0.7243816254416962
+[fluchtling, merkel] ==> [refugeeswelcom]	1.0
+[fluchtling, nopegida] ==> [refugeeswelcom]	1.0
+[fluchtling, refuge] ==> [refugeeswelcom]	1.0
+[leb] ==> [freital]	0.6996466431095406
+[freital] ==> [leb]	0.7764705882352941
+[freital] ==> [nopegida]	0.7725490196078432
+[leb, nopegida] ==> [freital]	1.0
+[freital, nopegida] ==> [leb]	0.9949238578680203
+[freital, leb] ==> [nopegida]	0.98989898989899
+[leb] ==> [freital, nopegida]	0.6925795053003534
+[freital] ==> [leb, nopegida]	0.7686274509803922
+[freital] ==> [refugeeswelcom]	0.9803921568627451
+[leb, refugeeswelcom] ==> [freital]	0.7538461538461538
+[freital, refugeeswelcom] ==> [leb]	0.784
+[freital, leb] ==> [refugeeswelcom]	0.98989898989899
+[freital] ==> [leb, refugeeswelcom]	0.7686274509803922
+[leb] ==> [freital, refugeeswelcom]	0.6925795053003534
+[freital, refugeeswelcom] ==> [nopegida]	0.784
+[freital, nopegida] ==> [refugeeswelcom]	0.9949238578680203
+[freital] ==> [nopegida, refugeeswelcom]	0.7686274509803922
+[gefluchtet] ==> [refugeeswelcom]	0.9293478260869565
+[geht] ==> [refugeeswelcom]	0.9707602339181286
+[gewalt] ==> [refugeeswelcom]	0.9873417721518988
+[grenz] ==> [refugeeswelcom]	0.8991935483870968
+[grun] ==> [refugeeswelcom]	0.9928571428571429
+[gut] ==> [refugeeswelcom]	0.9367816091954023
+[hamburg] ==> [refugeeswelcom]	0.9308176100628931
+[hassburg] ==> [lieb]	0.9907407407407407
+[hassburg] ==> [refugeeswelcom]	1.0
+[lieb, refugeeswelcom] ==> [hassburg]	0.656441717791411
+[hassburg, refugeeswelcom] ==> [lieb]	0.9907407407407407
+[hassburg, lieb] ==> [refugeeswelcom]	1.0
+[hassburg] ==> [lieb, refugeeswelcom]	0.9907407407407407
+[schlechtmensch] ==> [hassburg]	0.9907407407407407
+[hassburg] ==> [schlechtmensch]	0.9907407407407407
+[lieb, schlechtmensch] ==> [hassburg]	0.9953488372093023
+[hassburg, schlechtmensch] ==> [lieb]	1.0
+[hassburg, lieb] ==> [schlechtmensch]	1.0
+[schlechtmensch] ==> [hassburg, lieb]	0.9907407407407407
+[hassburg] ==> [lieb, schlechtmensch]	0.9907407407407407
+[refugeeswelcom, schlechtmensch] ==> [hassburg]	0.9953488372093023
+[hassburg, schlechtmensch] ==> [refugeeswelcom]	1.0
+[hassburg, refugeeswelcom] ==> [schlechtmensch]	0.9907407407407407
+[schlechtmensch] ==> [hassburg, refugeeswelcom]	0.9907407407407407
+[hassburg] ==> [refugeeswelcom, schlechtmensch]	0.9907407407407407
+[job] ==> [helf]	0.8426395939086294
+[heut] ==> [refugeeswelcom]	0.9391534391534392
+[hilf] ==> [refugeeswelcom]	0.8316831683168316
+[htt] ==> [refugeeswelcom]	0.9794871794871794
+[http] ==> [refugeeswelcom]	0.9469964664310954
+[https] ==> [refugeeswelcom]	0.8338983050847457
+[kaltland] ==> [refugeeswelcom]	0.8325991189427313
+[land] ==> [refugeeswelcom]	0.9385964912280702
+[leb] ==> [nopegida]	0.6925795053003534
+[leb] ==> [refugeeswelcom]	0.9187279151943463
+[leb, refugeeswelcom] ==> [nopegida]	0.7538461538461538
+[leb, nopegida] ==> [refugeeswelcom]	1.0
+[leb] ==> [nopegida, refugeeswelcom]	0.6925795053003534
+[lieb] ==> [refugeeswelcom]	0.8858695652173914
+[schlechtmensch] ==> [lieb]	0.9953703703703703
+[refugeeswelcom, schlechtmensch] ==> [lieb]	0.9953488372093023
+[lieb, schlechtmensch] ==> [refugeeswelcom]	0.9953488372093023
+[lieb, refugeeswelcom] ==> [schlechtmensch]	0.656441717791411
+[schlechtmensch] ==> [lieb, refugeeswelcom]	0.9907407407407407
+[mal] ==> [refugeeswelcom]	0.9936708860759493
+[mehr] ==> [refugeeswelcom]	0.9902597402597403
+[mensch] ==> [refugeeswelcom]	0.9282178217821783
+[merkel] ==> [refugeeswelcom]	1.0
+[morg] ==> [refugeeswelcom]	0.8161434977578476
+[muss] ==> [refugeeswelcom]	0.9935897435897436
+[neu] ==> [refugeeswelcom]	0.927710843373494
+[nonazis] ==> [refugeeswelcom]	0.8125
+[nopegida] ==> [refugeeswelcom]	0.8474226804123711
+[openeuborders] ==> [refugeeswelcom]	0.9857142857142858
+[osterreich] ==> [refugeeswelcom]	1.0
+[pegida] ==> [refugeeswelcom]	0.7272727272727273
+[polizei] ==> [refugeeswelcom]	0.946524064171123
+[recht] ==> [refugeeswelcom]	0.9956709956709957
+[refuge] ==> [refugeeswelcom]	1.0
+[sag] ==> [refugeeswelcom]	0.8655172413793103
+[schlechtmensch] ==> [refugeeswelcom]	0.9953703703703703
+[schon] ==> [refugeeswelcom]	0.9153605015673981
+[seehof] ==> [refugeeswelcom]	1.0
+[spd] ==> [refugeeswelcom]	1.0
+[uhr] ==> [refugeeswelcom]	0.9521531100478469
+[uns] ==> [refugeeswelcom]	0.889344262295082
+[via] ==> [refugeeswelcom]	0.9532374100719424
+[viel] ==> [refugeeswelcom]	0.8744769874476988
+[wer] ==> [refugeeswelcom]	1.0
+[wien] ==> [refugeeswelcom]	0.7171314741035857
+[willkomm] ==> [refugeeswelcom]	0.7321428571428571
+[wohl] ==> [refugeeswelcom]	0.9450980392156862
+[sag, wohl] ==> [refugeeswelcom]	0.99
+[refugeeswelcom, wohl] ==> [sag]	0.8215767634854771
+[refugeeswelcom, sag] ==> [wohl]	0.7888446215139442
+[wohl] ==> [refugeeswelcom, sag]	0.7764705882352941
+[sag] ==> [refugeeswelcom, wohl]	0.6827586206896552
+[wohl] ==> [sag]	0.7843137254901961
+[sag] ==> [wohl]	0.6896551724137931

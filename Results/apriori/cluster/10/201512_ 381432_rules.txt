@@ -1,0 +1,830 @@
+[2015] ==> [deutschland]	0.6705202312138728
+[belastung] ==> [ang]	0.9862610402355251
+[chronisch] ==> [ang]	0.9980139026812314
+[belastung, chronisch] ==> [ang]	1.0
+[ang, chronisch] ==> [belastung]	1.0
+[ang, belastung] ==> [chronisch]	1.0
+[chronisch] ==> [ang, belastung]	0.9980139026812314
+[belastung] ==> [ang, chronisch]	0.9862610402355251
+[belastung, leb] ==> [ang]	1.0
+[ang, leb] ==> [belastung]	0.9262672811059908
+[ang, belastung] ==> [leb]	1.0
+[belastung] ==> [ang, leb]	0.9862610402355251
+[chronisch, leb] ==> [ang]	1.0
+[ang, leb] ==> [chronisch]	0.9262672811059908
+[ang, chronisch] ==> [leb]	1.0
+[chronisch] ==> [ang, leb]	0.9980139026812314
+[leid] ==> [ang]	0.691156462585034
+[belastung, leid] ==> [ang]	1.0
+[ang, leid] ==> [belastung]	0.9891732283464567
+[ang, belastung] ==> [leid]	1.0
+[leid] ==> [ang, belastung]	0.6836734693877551
+[belastung] ==> [ang, leid]	0.9862610402355251
+[chronisch, leid] ==> [ang]	1.0
+[ang, leid] ==> [chronisch]	0.9891732283464567
+[ang, chronisch] ==> [leid]	1.0
+[leid] ==> [ang, chronisch]	0.6836734693877551
+[chronisch] ==> [ang, leid]	0.9980139026812314
+[leb, leid] ==> [ang]	0.995049504950495
+[ang, leid] ==> [leb]	0.9891732283464567
+[ang, leb] ==> [leid]	0.9262672811059908
+[leid] ==> [ang, leb]	0.6836734693877551
+[mind] ==> [ang]	0.9608030592734226
+[belastung, mind] ==> [ang]	1.0
+[ang, mind] ==> [belastung]	1.0
+[ang, belastung] ==> [mind]	1.0
+[mind] ==> [ang, belastung]	0.9608030592734226
+[belastung] ==> [ang, mind]	0.9862610402355251
+[chronisch, mind] ==> [ang]	1.0
+[ang, mind] ==> [chronisch]	1.0
+[ang, chronisch] ==> [mind]	1.0
+[chronisch] ==> [ang, mind]	0.9980139026812314
+[mind] ==> [ang, chronisch]	0.9608030592734226
+[leb, mind] ==> [ang]	1.0
+[ang, mind] ==> [leb]	1.0
+[ang, leb] ==> [mind]	0.9262672811059908
+[mind] ==> [ang, leb]	0.9608030592734226
+[leid, mind] ==> [ang]	1.0
+[ang, mind] ==> [leid]	1.0
+[ang, leid] ==> [mind]	0.9891732283464567
+[leid] ==> [ang, mind]	0.6836734693877551
+[mind] ==> [ang, leid]	0.9608030592734226
+[prag] ==> [ang]	0.9921026653504442
+[belastung, prag] ==> [ang]	1.0
+[ang, prag] ==> [belastung]	1.0
+[ang, belastung] ==> [prag]	1.0
+[belastung] ==> [ang, prag]	0.9862610402355251
+[prag] ==> [ang, belastung]	0.9921026653504442
+[chronisch, prag] ==> [ang]	1.0
+[ang, prag] ==> [chronisch]	1.0
+[ang, chronisch] ==> [prag]	1.0
+[chronisch] ==> [ang, prag]	0.9980139026812314
+[prag] ==> [ang, chronisch]	0.9921026653504442
+[leb, prag] ==> [ang]	1.0
+[ang, prag] ==> [leb]	1.0
+[ang, leb] ==> [prag]	0.9262672811059908
+[prag] ==> [ang, leb]	0.9921026653504442
+[leid, prag] ==> [ang]	1.0
+[ang, prag] ==> [leid]	1.0
+[ang, leid] ==> [prag]	0.9891732283464567
+[leid] ==> [ang, prag]	0.6836734693877551
+[prag] ==> [ang, leid]	0.9921026653504442
+[mind, prag] ==> [ang]	1.0
+[ang, prag] ==> [mind]	1.0
+[ang, mind] ==> [prag]	1.0
+[mind] ==> [ang, prag]	0.9608030592734226
+[prag] ==> [ang, mind]	0.9921026653504442
+[psychisch] ==> [ang]	0.9940769990128332
+[belastung, psychisch] ==> [ang]	1.0
+[ang, psychisch] ==> [belastung]	0.9980139026812314
+[ang, belastung] ==> [psychisch]	1.0
+[belastung] ==> [ang, psychisch]	0.9862610402355251
+[psychisch] ==> [ang, belastung]	0.9921026653504442
+[chronisch, psychisch] ==> [ang]	1.0
+[ang, psychisch] ==> [chronisch]	0.9980139026812314
+[ang, chronisch] ==> [psychisch]	1.0
+[chronisch] ==> [ang, psychisch]	0.9980139026812314
+[psychisch] ==> [ang, chronisch]	0.9921026653504442
+[leb, psychisch] ==> [ang]	1.0
+[ang, psychisch] ==> [leb]	0.9980139026812314
+[ang, leb] ==> [psychisch]	0.9262672811059908
+[psychisch] ==> [ang, leb]	0.9921026653504442
+[leid, psychisch] ==> [ang]	1.0
+[ang, psychisch] ==> [leid]	0.9980139026812314
+[ang, leid] ==> [psychisch]	0.9891732283464567
+[leid] ==> [ang, psychisch]	0.6836734693877551
+[psychisch] ==> [ang, leid]	0.9921026653504442
+[mind, psychisch] ==> [ang]	1.0
+[ang, psychisch] ==> [mind]	0.9980139026812314
+[ang, mind] ==> [psychisch]	1.0
+[mind] ==> [ang, psychisch]	0.9608030592734226
+[psychisch] ==> [ang, mind]	0.9921026653504442
+[prag, psychisch] ==> [ang]	1.0
+[ang, psychisch] ==> [prag]	0.9980139026812314
+[ang, prag] ==> [psychisch]	1.0
+[psychisch] ==> [ang, prag]	0.9921026653504442
+[prag] ==> [ang, psychisch]	0.9921026653504442
+[sozial] ==> [ang]	0.7737003058103975
+[belastung, sozial] ==> [ang]	1.0
+[ang, sozial] ==> [belastung]	0.9930830039525692
+[ang, belastung] ==> [sozial]	1.0
+[sozial] ==> [ang, belastung]	0.768348623853211
+[belastung] ==> [ang, sozial]	0.9862610402355251
+[chronisch, sozial] ==> [ang]	1.0
+[ang, sozial] ==> [chronisch]	0.9930830039525692
+[ang, chronisch] ==> [sozial]	1.0
+[sozial] ==> [ang, chronisch]	0.768348623853211
+[chronisch] ==> [ang, sozial]	0.9980139026812314
+[leb, sozial] ==> [ang]	0.9930830039525692
+[ang, sozial] ==> [leb]	0.9930830039525692
+[ang, leb] ==> [sozial]	0.9262672811059908
+[sozial] ==> [ang, leb]	0.768348623853211
+[leid, sozial] ==> [ang]	0.9980139026812314
+[ang, sozial] ==> [leid]	0.9930830039525692
+[ang, leid] ==> [sozial]	0.9891732283464567
+[sozial] ==> [ang, leid]	0.768348623853211
+[leid] ==> [ang, sozial]	0.6836734693877551
+[mind, sozial] ==> [ang]	1.0
+[ang, sozial] ==> [mind]	0.9930830039525692
+[ang, mind] ==> [sozial]	1.0
+[sozial] ==> [ang, mind]	0.768348623853211
+[mind] ==> [ang, sozial]	0.9608030592734226
+[prag, sozial] ==> [ang]	1.0
+[ang, sozial] ==> [prag]	0.9930830039525692
+[ang, prag] ==> [sozial]	1.0
+[sozial] ==> [ang, prag]	0.768348623853211
+[prag] ==> [ang, sozial]	0.9921026653504442
+[psychisch, sozial] ==> [ang]	1.0
+[ang, sozial] ==> [psychisch]	0.9930830039525692
+[ang, psychisch] ==> [sozial]	0.9980139026812314
+[sozial] ==> [ang, psychisch]	0.768348623853211
+[psychisch] ==> [ang, sozial]	0.9921026653504442
+[baby] ==> [angebot]	0.9666195190947666
+[angebot] ==> [baby]	0.9671667138409283
+[angebot] ==> [deutschland]	0.9923577696009057
+[baby, deutschland] ==> [angebot]	0.9973730297723292
+[angebot, deutschland] ==> [baby]	0.9746149458071877
+[angebot, baby] ==> [deutschland]	1.0
+[angebot] ==> [baby, deutschland]	0.9671667138409283
+[baby] ==> [angebot, deutschland]	0.9666195190947666
+[madch] ==> [angebot]	0.9109730848861284
+[baby, madch] ==> [angebot]	1.0
+[angebot, madch] ==> [baby]	1.0
+[madch] ==> [angebot, baby]	0.9109730848861284
+[deutschland, madch] ==> [angebot]	0.962800875273523
+[angebot, madch] ==> [deutschland]	1.0
+[madch] ==> [angebot, deutschland]	0.9109730848861284
+[newborn] ==> [angebot]	1.0
+[angebot] ==> [newborn]	0.7387489385791113
+[baby, newborn] ==> [angebot]	1.0
+[angebot, newborn] ==> [baby]	1.0
+[angebot, baby] ==> [newborn]	0.7638279192273925
+[newborn] ==> [angebot, baby]	1.0
+[baby] ==> [angebot, newborn]	0.7383309759547383
+[angebot] ==> [baby, newborn]	0.7387489385791113
+[deutschland, newborn] ==> [angebot]	1.0
+[angebot, newborn] ==> [deutschland]	1.0
+[angebot, deutschland] ==> [newborn]	0.744438106103822
+[angebot] ==> [deutschland, newborn]	0.7387489385791113
+[newborn] ==> [angebot, deutschland]	1.0
+[madch, newborn] ==> [angebot]	1.0
+[angebot, madch] ==> [newborn]	0.8920454545454546
+[madch] ==> [angebot, newborn]	0.8126293995859213
+[hotel] ==> [app]	0.8605313092979127
+[app] ==> [hotel]	0.9659211927582535
+[pension] ==> [app]	0.9805405405405405
+[app] ==> [pension]	0.9659211927582535
+[hotel, pension] ==> [app]	0.9967032967032967
+[app, pension] ==> [hotel]	1.0
+[app, hotel] ==> [pension]	1.0
+[app] ==> [hotel, pension]	0.9659211927582535
+[pension] ==> [app, hotel]	0.9805405405405405
+[hotel] ==> [app, pension]	0.8605313092979127
+[reis] ==> [app]	0.8171171171171171
+[app] ==> [reis]	0.9659211927582535
+[hotel, reis] ==> [app]	0.9967032967032967
+[app, reis] ==> [hotel]	1.0
+[app, hotel] ==> [reis]	1.0
+[hotel] ==> [app, reis]	0.8605313092979127
+[reis] ==> [app, hotel]	0.8171171171171171
+[app] ==> [hotel, reis]	0.9659211927582535
+[pension, reis] ==> [app]	0.998898678414097
+[app, reis] ==> [pension]	1.0
+[app, pension] ==> [reis]	1.0
+[pension] ==> [app, reis]	0.9805405405405405
+[reis] ==> [app, pension]	0.8171171171171171
+[app] ==> [pension, reis]	0.9659211927582535
+[room] ==> [app]	0.998898678414097
+[app] ==> [room]	0.9659211927582535
+[hotel, room] ==> [app]	1.0
+[app, room] ==> [hotel]	1.0
+[app, hotel] ==> [room]	1.0
+[hotel] ==> [app, room]	0.8605313092979127
+[room] ==> [app, hotel]	0.998898678414097
+[app] ==> [hotel, room]	0.9659211927582535
+[pension, room] ==> [app]	1.0
+[app, room] ==> [pension]	1.0
+[app, pension] ==> [room]	1.0
+[pension] ==> [app, room]	0.9805405405405405
+[app] ==> [pension, room]	0.9659211927582535
+[room] ==> [app, pension]	0.998898678414097
+[reis, room] ==> [app]	1.0
+[app, room] ==> [reis]	1.0
+[app, reis] ==> [room]	1.0
+[reis] ==> [app, room]	0.8171171171171171
+[room] ==> [app, reis]	0.998898678414097
+[app] ==> [reis, room]	0.9659211927582535
+[urlaub] ==> [app]	0.873795761078998
+[app] ==> [urlaub]	0.9659211927582535
+[hotel, urlaub] ==> [app]	0.9945175438596491
+[app, urlaub] ==> [hotel]	1.0
+[app, hotel] ==> [urlaub]	1.0
+[app] ==> [hotel, urlaub]	0.9659211927582535
+[urlaub] ==> [app, hotel]	0.873795761078998
+[hotel] ==> [app, urlaub]	0.8605313092979127
+[pension, urlaub] ==> [app]	1.0
+[app, urlaub] ==> [pension]	1.0
+[app, pension] ==> [urlaub]	1.0
+[app] ==> [pension, urlaub]	0.9659211927582535
+[pension] ==> [app, urlaub]	0.9805405405405405
+[urlaub] ==> [app, pension]	0.873795761078998
+[reis, urlaub] ==> [app]	0.976318622174381
+[app, urlaub] ==> [reis]	1.0
+[app, reis] ==> [urlaub]	1.0
+[urlaub] ==> [app, reis]	0.873795761078998
+[app] ==> [reis, urlaub]	0.9659211927582535
+[reis] ==> [app, urlaub]	0.8171171171171171
+[room, urlaub] ==> [app]	1.0
+[app, urlaub] ==> [room]	1.0
+[app, room] ==> [urlaub]	1.0
+[app] ==> [room, urlaub]	0.9659211927582535
+[urlaub] ==> [app, room]	0.873795761078998
+[room] ==> [app, urlaub]	0.998898678414097
+[baby] ==> [deutschland]	0.9691654879773691
+[madch] ==> [baby]	0.9109730848861284
+[deutschland, madch] ==> [baby]	0.962800875273523
+[baby, madch] ==> [deutschland]	1.0
+[madch] ==> [baby, deutschland]	0.9109730848861284
+[newborn] ==> [baby]	1.0
+[baby] ==> [newborn]	0.7383309759547383
+[deutschland, newborn] ==> [baby]	1.0
+[baby, newborn] ==> [deutschland]	1.0
+[baby, deutschland] ==> [newborn]	0.7618213660245184
+[newborn] ==> [baby, deutschland]	1.0
+[baby] ==> [deutschland, newborn]	0.7383309759547383
+[madch, newborn] ==> [baby]	1.0
+[baby, madch] ==> [newborn]	0.8920454545454546
+[madch] ==> [baby, newborn]	0.8126293995859213
+[bay] ==> [deutschland]	0.91737975804072
+[munch] ==> [bay]	0.8327929597035665
+[deutschland, munch] ==> [bay]	0.8845963348192174
+[bay, munch] ==> [deutschland]	0.9933259176863182
+[munch] ==> [bay, deutschland]	0.8272348309402501
+[bay, sportevent] ==> [deutschland]	1.0
+[munch, sportevent] ==> [bay]	0.9937106918238994
+[bay, sportsevent] ==> [deutschland]	1.0
+[munch, sportsevent] ==> [bay]	0.9951456310679612
+[bay] ==> [ticket]	0.8164650339333137
+[bay, ticket] ==> [deutschland]	1.0
+[bay, deutschland] ==> [ticket]	0.8899967835316822
+[bay] ==> [deutschland, ticket]	0.8164650339333137
+[munch, ticket] ==> [bay]	0.9931934203062961
+[bay, munch] ==> [ticket]	0.9738598442714127
+[munch] ==> [bay, ticket]	0.8110236220472441
+[bay, ticket] ==> [sportevent]	0.6516082399710879
+[bay, sportevent] ==> [ticket]	1.0
+[bay, sportsevent] ==> [ticket]	1.0
+[chronisch] ==> [belastung]	0.9980139026812314
+[belastung] ==> [chronisch]	0.9862610402355251
+[belastung] ==> [leb]	0.9862610402355251
+[chronisch, leb] ==> [belastung]	1.0
+[belastung, leb] ==> [chronisch]	1.0
+[belastung, chronisch] ==> [leb]	1.0
+[belastung] ==> [chronisch, leb]	0.9862610402355251
+[chronisch] ==> [belastung, leb]	0.9980139026812314
+[leid] ==> [belastung]	0.6836734693877551
+[belastung] ==> [leid]	0.9862610402355251
+[chronisch, leid] ==> [belastung]	1.0
+[belastung, leid] ==> [chronisch]	1.0
+[belastung, chronisch] ==> [leid]	1.0
+[leid] ==> [belastung, chronisch]	0.6836734693877551
+[belastung] ==> [chronisch, leid]	0.9862610402355251
+[chronisch] ==> [belastung, leid]	0.9980139026812314
+[leb, leid] ==> [belastung]	0.995049504950495
+[belastung, leid] ==> [leb]	1.0
+[belastung, leb] ==> [leid]	1.0
+[belastung] ==> [leb, leid]	0.9862610402355251
+[leid] ==> [belastung, leb]	0.6836734693877551
+[mind] ==> [belastung]	0.9608030592734226
+[belastung] ==> [mind]	0.9862610402355251
+[chronisch, mind] ==> [belastung]	1.0
+[belastung, mind] ==> [chronisch]	1.0
+[belastung, chronisch] ==> [mind]	1.0
+[chronisch] ==> [belastung, mind]	0.9980139026812314
+[mind] ==> [belastung, chronisch]	0.9608030592734226
+[belastung] ==> [chronisch, mind]	0.9862610402355251
+[leb, mind] ==> [belastung]	1.0
+[belastung, mind] ==> [leb]	1.0
+[belastung, leb] ==> [mind]	1.0
+[belastung] ==> [leb, mind]	0.9862610402355251
+[mind] ==> [belastung, leb]	0.9608030592734226
+[leid, mind] ==> [belastung]	1.0
+[belastung, mind] ==> [leid]	1.0
+[belastung, leid] ==> [mind]	1.0
+[leid] ==> [belastung, mind]	0.6836734693877551
+[mind] ==> [belastung, leid]	0.9608030592734226
+[belastung] ==> [leid, mind]	0.9862610402355251
+[prag] ==> [belastung]	0.9921026653504442
+[belastung] ==> [prag]	0.9862610402355251
+[chronisch, prag] ==> [belastung]	1.0
+[belastung, prag] ==> [chronisch]	1.0
+[belastung, chronisch] ==> [prag]	1.0
+[prag] ==> [belastung, chronisch]	0.9921026653504442
+[chronisch] ==> [belastung, prag]	0.9980139026812314
+[belastung] ==> [chronisch, prag]	0.9862610402355251
+[leb, prag] ==> [belastung]	1.0
+[belastung, prag] ==> [leb]	1.0
+[belastung, leb] ==> [prag]	1.0
+[belastung] ==> [leb, prag]	0.9862610402355251
+[prag] ==> [belastung, leb]	0.9921026653504442
+[leid, prag] ==> [belastung]	1.0
+[belastung, prag] ==> [leid]	1.0
+[belastung, leid] ==> [prag]	1.0
+[leid] ==> [belastung, prag]	0.6836734693877551
+[prag] ==> [belastung, leid]	0.9921026653504442
+[belastung] ==> [leid, prag]	0.9862610402355251
+[mind, prag] ==> [belastung]	1.0
+[belastung, prag] ==> [mind]	1.0
+[belastung, mind] ==> [prag]	1.0
+[prag] ==> [belastung, mind]	0.9921026653504442
+[mind] ==> [belastung, prag]	0.9608030592734226
+[belastung] ==> [mind, prag]	0.9862610402355251
+[psychisch] ==> [belastung]	0.9921026653504442
+[belastung] ==> [psychisch]	0.9862610402355251
+[chronisch, psychisch] ==> [belastung]	1.0
+[belastung, psychisch] ==> [chronisch]	1.0
+[belastung, chronisch] ==> [psychisch]	1.0
+[psychisch] ==> [belastung, chronisch]	0.9921026653504442
+[belastung] ==> [chronisch, psychisch]	0.9862610402355251
+[chronisch] ==> [belastung, psychisch]	0.9980139026812314
+[leb, psychisch] ==> [belastung]	1.0
+[belastung, psychisch] ==> [leb]	1.0
+[belastung, leb] ==> [psychisch]	1.0
+[belastung] ==> [leb, psychisch]	0.9862610402355251
+[psychisch] ==> [belastung, leb]	0.9921026653504442
+[leid, psychisch] ==> [belastung]	1.0
+[belastung, psychisch] ==> [leid]	1.0
+[belastung, leid] ==> [psychisch]	1.0
+[belastung] ==> [leid, psychisch]	0.9862610402355251
+[psychisch] ==> [belastung, leid]	0.9921026653504442
+[leid] ==> [belastung, psychisch]	0.6836734693877551
+[mind, psychisch] ==> [belastung]	1.0
+[belastung, psychisch] ==> [mind]	1.0
+[belastung, mind] ==> [psychisch]	1.0
+[psychisch] ==> [belastung, mind]	0.9921026653504442
+[mind] ==> [belastung, psychisch]	0.9608030592734226
+[belastung] ==> [mind, psychisch]	0.9862610402355251
+[prag, psychisch] ==> [belastung]	1.0
+[belastung, psychisch] ==> [prag]	1.0
+[belastung, prag] ==> [psychisch]	1.0
+[psychisch] ==> [belastung, prag]	0.9921026653504442
+[belastung] ==> [prag, psychisch]	0.9862610402355251
+[prag] ==> [belastung, psychisch]	0.9921026653504442
+[sozial] ==> [belastung]	0.768348623853211
+[belastung] ==> [sozial]	0.9862610402355251
+[chronisch, sozial] ==> [belastung]	1.0
+[belastung, sozial] ==> [chronisch]	1.0
+[belastung, chronisch] ==> [sozial]	1.0
+[sozial] ==> [belastung, chronisch]	0.768348623853211
+[chronisch] ==> [belastung, sozial]	0.9980139026812314
+[belastung] ==> [chronisch, sozial]	0.9862610402355251
+[leb, sozial] ==> [belastung]	0.9930830039525692
+[belastung, sozial] ==> [leb]	1.0
+[belastung, leb] ==> [sozial]	1.0
+[sozial] ==> [belastung, leb]	0.768348623853211
+[belastung] ==> [leb, sozial]	0.9862610402355251
+[leid, sozial] ==> [belastung]	0.9980139026812314
+[belastung, sozial] ==> [leid]	1.0
+[belastung, leid] ==> [sozial]	1.0
+[belastung] ==> [leid, sozial]	0.9862610402355251
+[leid] ==> [belastung, sozial]	0.6836734693877551
+[sozial] ==> [belastung, leid]	0.768348623853211
+[mind, sozial] ==> [belastung]	1.0
+[belastung, sozial] ==> [mind]	1.0
+[belastung, mind] ==> [sozial]	1.0
+[sozial] ==> [belastung, mind]	0.768348623853211
+[belastung] ==> [mind, sozial]	0.9862610402355251
+[mind] ==> [belastung, sozial]	0.9608030592734226
+[prag, sozial] ==> [belastung]	1.0
+[belastung, sozial] ==> [prag]	1.0
+[belastung, prag] ==> [sozial]	1.0
+[belastung] ==> [prag, sozial]	0.9862610402355251
+[sozial] ==> [belastung, prag]	0.768348623853211
+[prag] ==> [belastung, sozial]	0.9921026653504442
+[psychisch, sozial] ==> [belastung]	1.0
+[belastung, sozial] ==> [psychisch]	1.0
+[belastung, psychisch] ==> [sozial]	1.0
+[belastung] ==> [psychisch, sozial]	0.9862610402355251
+[psychisch] ==> [belastung, sozial]	0.9921026653504442
+[sozial] ==> [belastung, psychisch]	0.768348623853211
+[berlin] ==> [deutschland]	0.7463111111111111
+[nachricht] ==> [berlin]	0.727554980595084
+[deutschland, nachricht] ==> [berlin]	0.8053883634279163
+[berlin, nachricht] ==> [deutschland]	0.9992887624466572
+[berlin, deutschland] ==> [nachricht]	0.6693663649356837
+[nachricht] ==> [berlin, deutschland]	0.7270375161707633
+[borussia] ==> [deutschland]	0.9992025518341308
+[dortmund] ==> [borussia]	0.8587819947043248
+[borussia] ==> [dortmund]	0.7759170653907496
+[deutschland, dortmund] ==> [borussia]	0.8983364140480592
+[borussia, dortmund] ==> [deutschland]	0.998972250770812
+[borussia, deutschland] ==> [dortmund]	0.7757382282521947
+[borussia] ==> [deutschland, dortmund]	0.7751196172248804
+[dortmund] ==> [borussia, deutschland]	0.8578993821712269
+[borussia, sportevent] ==> [deutschland]	1.0
+[borussia] ==> [ticket]	0.9960127591706539
+[borussia, ticket] ==> [deutschland]	1.0
+[borussia, deutschland] ==> [ticket]	0.9968076616121309
+[borussia] ==> [deutschland, ticket]	0.9960127591706539
+[dortmund, ticket] ==> [borussia]	0.9246901811248809
+[borussia, ticket] ==> [dortmund]	0.77662129703763
+[borussia, dortmund] ==> [ticket]	0.9969167523124358
+[dortmund] ==> [borussia, ticket]	0.8561341571050309
+[borussia] ==> [dortmund, ticket]	0.773524720893142
+[borussia, sportevent] ==> [ticket]	1.0
+[bvb] ==> [deutschland]	0.9914529914529915
+[bvb] ==> [ticket]	0.9861111111111112
+[bvb, ticket] ==> [deutschland]	1.0
+[bvb, deutschland] ==> [ticket]	0.9946120689655172
+[bvb] ==> [deutschland, ticket]	0.9861111111111112
+[chronisch] ==> [leb]	0.9980139026812314
+[leid] ==> [chronisch]	0.6836734693877551
+[chronisch] ==> [leid]	0.9980139026812314
+[leb, leid] ==> [chronisch]	0.995049504950495
+[chronisch, leid] ==> [leb]	1.0
+[chronisch, leb] ==> [leid]	1.0
+[chronisch] ==> [leb, leid]	0.9980139026812314
+[leid] ==> [chronisch, leb]	0.6836734693877551
+[mind] ==> [chronisch]	0.9608030592734226
+[chronisch] ==> [mind]	0.9980139026812314
+[leb, mind] ==> [chronisch]	1.0
+[chronisch, mind] ==> [leb]	1.0
+[chronisch, leb] ==> [mind]	1.0
+[mind] ==> [chronisch, leb]	0.9608030592734226
+[chronisch] ==> [leb, mind]	0.9980139026812314
+[leid, mind] ==> [chronisch]	1.0
+[chronisch, mind] ==> [leid]	1.0
+[chronisch, leid] ==> [mind]	1.0
+[mind] ==> [chronisch, leid]	0.9608030592734226
+[leid] ==> [chronisch, mind]	0.6836734693877551
+[chronisch] ==> [leid, mind]	0.9980139026812314
+[prag] ==> [chronisch]	0.9921026653504442
+[chronisch] ==> [prag]	0.9980139026812314
+[leb, prag] ==> [chronisch]	1.0
+[chronisch, prag] ==> [leb]	1.0
+[chronisch, leb] ==> [prag]	1.0
+[prag] ==> [chronisch, leb]	0.9921026653504442
+[chronisch] ==> [leb, prag]	0.9980139026812314
+[leid, prag] ==> [chronisch]	1.0
+[chronisch, prag] ==> [leid]	1.0
+[chronisch, leid] ==> [prag]	1.0
+[prag] ==> [chronisch, leid]	0.9921026653504442
+[chronisch] ==> [leid, prag]	0.9980139026812314
+[leid] ==> [chronisch, prag]	0.6836734693877551
+[mind, prag] ==> [chronisch]	1.0
+[chronisch, prag] ==> [mind]	1.0
+[chronisch, mind] ==> [prag]	1.0
+[prag] ==> [chronisch, mind]	0.9921026653504442
+[mind] ==> [chronisch, prag]	0.9608030592734226
+[chronisch] ==> [mind, prag]	0.9980139026812314
+[psychisch] ==> [chronisch]	0.9921026653504442
+[chronisch] ==> [psychisch]	0.9980139026812314
+[leb, psychisch] ==> [chronisch]	1.0
+[chronisch, psychisch] ==> [leb]	1.0
+[chronisch, leb] ==> [psychisch]	1.0
+[psychisch] ==> [chronisch, leb]	0.9921026653504442
+[chronisch] ==> [leb, psychisch]	0.9980139026812314
+[leid, psychisch] ==> [chronisch]	1.0
+[chronisch, psychisch] ==> [leid]	1.0
+[chronisch, leid] ==> [psychisch]	1.0
+[chronisch] ==> [leid, psychisch]	0.9980139026812314
+[psychisch] ==> [chronisch, leid]	0.9921026653504442
+[leid] ==> [chronisch, psychisch]	0.6836734693877551
+[mind, psychisch] ==> [chronisch]	1.0
+[chronisch, psychisch] ==> [mind]	1.0
+[chronisch, mind] ==> [psychisch]	1.0
+[psychisch] ==> [chronisch, mind]	0.9921026653504442
+[mind] ==> [chronisch, psychisch]	0.9608030592734226
+[chronisch] ==> [mind, psychisch]	0.9980139026812314
+[prag, psychisch] ==> [chronisch]	1.0
+[chronisch, psychisch] ==> [prag]	1.0
+[chronisch, prag] ==> [psychisch]	1.0
+[prag] ==> [chronisch, psychisch]	0.9921026653504442
+[chronisch] ==> [prag, psychisch]	0.9980139026812314
+[psychisch] ==> [chronisch, prag]	0.9921026653504442
+[sozial] ==> [chronisch]	0.768348623853211
+[chronisch] ==> [sozial]	0.9980139026812314
+[leb, sozial] ==> [chronisch]	0.9930830039525692
+[chronisch, sozial] ==> [leb]	1.0
+[chronisch, leb] ==> [sozial]	1.0
+[sozial] ==> [chronisch, leb]	0.768348623853211
+[chronisch] ==> [leb, sozial]	0.9980139026812314
+[leid, sozial] ==> [chronisch]	0.9980139026812314
+[chronisch, sozial] ==> [leid]	1.0
+[chronisch, leid] ==> [sozial]	1.0
+[chronisch] ==> [leid, sozial]	0.9980139026812314
+[sozial] ==> [chronisch, leid]	0.768348623853211
+[leid] ==> [chronisch, sozial]	0.6836734693877551
+[mind, sozial] ==> [chronisch]	1.0
+[chronisch, sozial] ==> [mind]	1.0
+[chronisch, mind] ==> [sozial]	1.0
+[chronisch] ==> [mind, sozial]	0.9980139026812314
+[sozial] ==> [chronisch, mind]	0.768348623853211
+[mind] ==> [chronisch, sozial]	0.9608030592734226
+[prag, sozial] ==> [chronisch]	1.0
+[chronisch, sozial] ==> [prag]	1.0
+[chronisch, prag] ==> [sozial]	1.0
+[chronisch] ==> [prag, sozial]	0.9980139026812314
+[prag] ==> [chronisch, sozial]	0.9921026653504442
+[sozial] ==> [chronisch, prag]	0.768348623853211
+[psychisch, sozial] ==> [chronisch]	1.0
+[chronisch, sozial] ==> [psychisch]	1.0
+[chronisch, psychisch] ==> [sozial]	1.0
+[chronisch] ==> [psychisch, sozial]	0.9980139026812314
+[sozial] ==> [chronisch, psychisch]	0.768348623853211
+[psychisch] ==> [chronisch, sozial]	0.9921026653504442
+[comics] ==> [deutschland]	0.9983597594313832
+[eur] ==> [comics]	0.896551724137931
+[comics] ==> [eur]	0.8102788408966648
+[deutschland, eur] ==> [comics]	0.9130702836004932
+[comics, eur] ==> [deutschland]	0.9993252361673415
+[comics, deutschland] ==> [eur]	0.8110624315443593
+[eur] ==> [comics, deutschland]	0.895946763460375
+[comics] ==> [deutschland, eur]	0.8097320940404593
+[marvel] ==> [comics]	1.0
+[comics] ==> [marvel]	0.9989065062875888
+[deutschland, marvel] ==> [comics]	1.0
+[comics, marvel] ==> [deutschland]	0.9989053092501369
+[comics, deutschland] ==> [marvel]	0.9994523548740416
+[marvel] ==> [comics, deutschland]	0.9989053092501369
+[comics] ==> [deutschland, marvel]	0.9978130125751777
+[eur, marvel] ==> [comics]	1.0
+[comics, marvel] ==> [eur]	0.8111658456486043
+[comics, eur] ==> [marvel]	1.0
+[marvel] ==> [comics, eur]	0.8111658456486043
+[comics] ==> [eur, marvel]	0.8102788408966648
+[eur] ==> [comics, marvel]	0.896551724137931
+[deutsch] ==> [deutschland]	0.7939453125
+[dortmund] ==> [deutschland]	0.9549867608120035
+[eur] ==> [deutschland]	0.9812462189957653
+[fluchtling] ==> [deutschland]	0.9984484096198604
+[frankfurt] ==> [deutschland]	0.8063102541630149
+[germany] ==> [deutschland]	0.955503512880562
+[hamburg] ==> [deutschland]	0.7749003984063745
+[madch] ==> [deutschland]	0.9461697722567288
+[marvel] ==> [deutschland]	0.9989053092501369
+[eur, marvel] ==> [deutschland]	0.9993252361673415
+[deutschland, marvel] ==> [eur]	0.8115068493150684
+[deutschland, eur] ==> [marvel]	0.9130702836004932
+[marvel] ==> [deutschland, eur]	0.8106185002736727
+[eur] ==> [deutschland, marvel]	0.895946763460375
+[munch] ==> [deutschland]	0.9351551644279759
+[nachricht] ==> [deutschland]	0.9027166882276844
+[newborn] ==> [deutschland]	1.0
+[madch, newborn] ==> [deutschland]	1.0
+[deutschland, madch] ==> [newborn]	0.8588621444201313
+[madch] ==> [deutschland, newborn]	0.8126293995859213
+[sportevent] ==> [deutschland]	1.0
+[munch, sportevent] ==> [deutschland]	1.0
+[sportsevent] ==> [deutschland]	1.0
+[munch, sportsevent] ==> [deutschland]	1.0
+[sportevent, sportsevent] ==> [deutschland]	1.0
+[ticket] ==> [deutschland]	0.9979615237609887
+[dortmund, ticket] ==> [deutschland]	0.9990467111534795
+[deutschland, dortmund] ==> [ticket]	0.9685767097966729
+[dortmund] ==> [deutschland, ticket]	0.9249779346866726
+[munch, ticket] ==> [deutschland]	1.0
+[deutschland, munch] ==> [ticket]	0.8732045567112432
+[munch] ==> [deutschland, ticket]	0.8165817508105604
+[sportevent, ticket] ==> [deutschland]	1.0
+[deutschland, ticket] ==> [sportevent]	0.656325801097919
+[deutschland, sportevent] ==> [ticket]	1.0
+[sportevent] ==> [deutschland, ticket]	1.0
+[ticket] ==> [deutschland, sportevent]	0.6549878965473309
+[sportsevent, ticket] ==> [deutschland]	1.0
+[deutschland, sportsevent] ==> [ticket]	1.0
+[sportsevent] ==> [deutschland, ticket]	1.0
+[top] ==> [deutschland]	0.7864306784660767
+[ticket, top] ==> [deutschland]	1.0
+[deutschland, top] ==> [ticket]	0.7494373593398349
+[dortmund] ==> [ticket]	0.9258605472197705
+[marvel] ==> [eur]	0.8111658456486043
+[eur] ==> [marvel]	0.896551724137931
+[gabriel] ==> [spd]	0.9327510917030568
+[grun] ==> [spd]	0.6811337466784765
+[pension] ==> [hotel]	0.9837837837837838
+[hotel] ==> [pension]	0.8633776091081594
+[reis] ==> [hotel]	0.8198198198198198
+[hotel] ==> [reis]	0.8633776091081594
+[pension, reis] ==> [hotel]	0.998898678414097
+[hotel, reis] ==> [pension]	0.9967032967032967
+[hotel, pension] ==> [reis]	0.9967032967032967
+[reis] ==> [hotel, pension]	0.8171171171171171
+[pension] ==> [hotel, reis]	0.9805405405405405
+[hotel] ==> [pension, reis]	0.8605313092979127
+[room] ==> [hotel]	0.998898678414097
+[hotel] ==> [room]	0.8605313092979127
+[pension, room] ==> [hotel]	1.0
+[hotel, room] ==> [pension]	1.0
+[hotel, pension] ==> [room]	0.9967032967032967
+[room] ==> [hotel, pension]	0.998898678414097
+[hotel] ==> [pension, room]	0.8605313092979127
+[pension] ==> [hotel, room]	0.9805405405405405
+[reis, room] ==> [hotel]	1.0
+[hotel, room] ==> [reis]	1.0
+[hotel, reis] ==> [room]	0.9967032967032967
+[hotel] ==> [reis, room]	0.8605313092979127
+[reis] ==> [hotel, room]	0.8171171171171171
+[room] ==> [hotel, reis]	0.998898678414097
+[urlaub] ==> [hotel]	0.8786127167630058
+[hotel] ==> [urlaub]	0.8652751423149905
+[pension, urlaub] ==> [hotel]	1.0
+[hotel, urlaub] ==> [pension]	0.9945175438596491
+[hotel, pension] ==> [urlaub]	0.9967032967032967
+[urlaub] ==> [hotel, pension]	0.873795761078998
+[pension] ==> [hotel, urlaub]	0.9805405405405405
+[hotel] ==> [pension, urlaub]	0.8605313092979127
+[reis, urlaub] ==> [hotel]	0.976318622174381
+[hotel, urlaub] ==> [reis]	0.9945175438596491
+[hotel, reis] ==> [urlaub]	0.9967032967032967
+[hotel] ==> [reis, urlaub]	0.8605313092979127
+[reis] ==> [hotel, urlaub]	0.8171171171171171
+[urlaub] ==> [hotel, reis]	0.873795761078998
+[room, urlaub] ==> [hotel]	1.0
+[hotel, urlaub] ==> [room]	0.9945175438596491
+[hotel, room] ==> [urlaub]	1.0
+[hotel] ==> [room, urlaub]	0.8605313092979127
+[room] ==> [hotel, urlaub]	0.998898678414097
+[urlaub] ==> [hotel, room]	0.873795761078998
+[leid] ==> [leb]	0.6870748299319728
+[mind] ==> [leb]	0.9608030592734226
+[leid, mind] ==> [leb]	1.0
+[leb, mind] ==> [leid]	1.0
+[leb, leid] ==> [mind]	0.995049504950495
+[mind] ==> [leb, leid]	0.9608030592734226
+[leid] ==> [leb, mind]	0.6836734693877551
+[prag] ==> [leb]	0.9921026653504442
+[leid, prag] ==> [leb]	1.0
+[leb, prag] ==> [leid]	1.0
+[leb, leid] ==> [prag]	0.995049504950495
+[prag] ==> [leb, leid]	0.9921026653504442
+[leid] ==> [leb, prag]	0.6836734693877551
+[mind, prag] ==> [leb]	1.0
+[leb, prag] ==> [mind]	1.0
+[leb, mind] ==> [prag]	1.0
+[prag] ==> [leb, mind]	0.9921026653504442
+[mind] ==> [leb, prag]	0.9608030592734226
+[psychisch] ==> [leb]	0.9921026653504442
+[leid, psychisch] ==> [leb]	1.0
+[leb, psychisch] ==> [leid]	1.0
+[leb, leid] ==> [psychisch]	0.995049504950495
+[psychisch] ==> [leb, leid]	0.9921026653504442
+[leid] ==> [leb, psychisch]	0.6836734693877551
+[mind, psychisch] ==> [leb]	1.0
+[leb, psychisch] ==> [mind]	1.0
+[leb, mind] ==> [psychisch]	1.0
+[psychisch] ==> [leb, mind]	0.9921026653504442
+[mind] ==> [leb, psychisch]	0.9608030592734226
+[prag, psychisch] ==> [leb]	1.0
+[leb, psychisch] ==> [prag]	1.0
+[leb, prag] ==> [psychisch]	1.0
+[psychisch] ==> [leb, prag]	0.9921026653504442
+[prag] ==> [leb, psychisch]	0.9921026653504442
+[sozial] ==> [leb]	0.7737003058103975
+[leid, sozial] ==> [leb]	0.9980139026812314
+[leb, sozial] ==> [leid]	0.9930830039525692
+[leb, leid] ==> [sozial]	0.995049504950495
+[sozial] ==> [leb, leid]	0.768348623853211
+[leid] ==> [leb, sozial]	0.6836734693877551
+[mind, sozial] ==> [leb]	1.0
+[leb, sozial] ==> [mind]	0.9930830039525692
+[leb, mind] ==> [sozial]	1.0
+[sozial] ==> [leb, mind]	0.768348623853211
+[mind] ==> [leb, sozial]	0.9608030592734226
+[prag, sozial] ==> [leb]	1.0
+[leb, sozial] ==> [prag]	0.9930830039525692
+[leb, prag] ==> [sozial]	1.0
+[sozial] ==> [leb, prag]	0.768348623853211
+[prag] ==> [leb, sozial]	0.9921026653504442
+[psychisch, sozial] ==> [leb]	1.0
+[leb, sozial] ==> [psychisch]	0.9930830039525692
+[leb, psychisch] ==> [sozial]	1.0
+[sozial] ==> [leb, psychisch]	0.768348623853211
+[psychisch] ==> [leb, sozial]	0.9921026653504442
+[mind] ==> [leid]	0.9608030592734226
+[leid] ==> [mind]	0.6836734693877551
+[prag] ==> [leid]	0.9921026653504442
+[leid] ==> [prag]	0.6836734693877551
+[mind, prag] ==> [leid]	1.0
+[leid, prag] ==> [mind]	1.0
+[leid, mind] ==> [prag]	1.0
+[prag] ==> [leid, mind]	0.9921026653504442
+[mind] ==> [leid, prag]	0.9608030592734226
+[leid] ==> [mind, prag]	0.6836734693877551
+[psychisch] ==> [leid]	0.9921026653504442
+[leid] ==> [psychisch]	0.6836734693877551
+[mind, psychisch] ==> [leid]	1.0
+[leid, psychisch] ==> [mind]	1.0
+[leid, mind] ==> [psychisch]	1.0
+[mind] ==> [leid, psychisch]	0.9608030592734226
+[psychisch] ==> [leid, mind]	0.9921026653504442
+[leid] ==> [mind, psychisch]	0.6836734693877551
+[prag, psychisch] ==> [leid]	1.0
+[leid, psychisch] ==> [prag]	1.0
+[leid, prag] ==> [psychisch]	1.0
+[prag] ==> [leid, psychisch]	0.9921026653504442
+[leid] ==> [prag, psychisch]	0.6836734693877551
+[psychisch] ==> [leid, prag]	0.9921026653504442
+[sozial] ==> [leid]	0.7698776758409785
+[leid] ==> [sozial]	0.6850340136054421
+[mind, sozial] ==> [leid]	1.0
+[leid, sozial] ==> [mind]	0.9980139026812314
+[leid, mind] ==> [sozial]	1.0
+[mind] ==> [leid, sozial]	0.9608030592734226
+[leid] ==> [mind, sozial]	0.6836734693877551
+[sozial] ==> [leid, mind]	0.768348623853211
+[prag, sozial] ==> [leid]	1.0
+[leid, sozial] ==> [prag]	0.9980139026812314
+[leid, prag] ==> [sozial]	1.0
+[leid] ==> [prag, sozial]	0.6836734693877551
+[prag] ==> [leid, sozial]	0.9921026653504442
+[sozial] ==> [leid, prag]	0.768348623853211
+[psychisch, sozial] ==> [leid]	1.0
+[leid, sozial] ==> [psychisch]	0.9980139026812314
+[leid, psychisch] ==> [sozial]	1.0
+[leid] ==> [psychisch, sozial]	0.6836734693877551
+[sozial] ==> [leid, psychisch]	0.768348623853211
+[psychisch] ==> [leid, sozial]	0.9921026653504442
+[madch] ==> [newborn]	0.8126293995859213
+[prag] ==> [mind]	0.9921026653504442
+[mind] ==> [prag]	0.9608030592734226
+[psychisch] ==> [mind]	0.9921026653504442
+[mind] ==> [psychisch]	0.9608030592734226
+[prag, psychisch] ==> [mind]	1.0
+[mind, psychisch] ==> [prag]	1.0
+[mind, prag] ==> [psychisch]	1.0
+[mind] ==> [prag, psychisch]	0.9608030592734226
+[psychisch] ==> [mind, prag]	0.9921026653504442
+[prag] ==> [mind, psychisch]	0.9921026653504442
+[sozial] ==> [mind]	0.768348623853211
+[mind] ==> [sozial]	0.9608030592734226
+[prag, sozial] ==> [mind]	1.0
+[mind, sozial] ==> [prag]	1.0
+[mind, prag] ==> [sozial]	1.0
+[mind] ==> [prag, sozial]	0.9608030592734226
+[prag] ==> [mind, sozial]	0.9921026653504442
+[sozial] ==> [mind, prag]	0.768348623853211
+[psychisch, sozial] ==> [mind]	1.0
+[mind, sozial] ==> [psychisch]	1.0
+[mind, psychisch] ==> [sozial]	1.0
+[mind] ==> [psychisch, sozial]	0.9608030592734226
+[psychisch] ==> [mind, sozial]	0.9921026653504442
+[sozial] ==> [mind, psychisch]	0.768348623853211
+[munch] ==> [ticket]	0.8165817508105604
+[munch, sportevent] ==> [ticket]	1.0
+[munch, sportsevent] ==> [ticket]	1.0
+[parteitag] ==> [spd]	0.8798411122144985
+[reis] ==> [pension]	0.818018018018018
+[pension] ==> [reis]	0.9816216216216216
+[room] ==> [pension]	0.998898678414097
+[pension] ==> [room]	0.9805405405405405
+[reis, room] ==> [pension]	1.0
+[pension, room] ==> [reis]	1.0
+[pension, reis] ==> [room]	0.998898678414097
+[pension] ==> [reis, room]	0.9805405405405405
+[reis] ==> [pension, room]	0.8171171171171171
+[room] ==> [pension, reis]	0.998898678414097
+[urlaub] ==> [pension]	0.873795761078998
+[pension] ==> [urlaub]	0.9805405405405405
+[reis, urlaub] ==> [pension]	0.976318622174381
+[pension, urlaub] ==> [reis]	1.0
+[pension, reis] ==> [urlaub]	0.998898678414097
+[pension] ==> [reis, urlaub]	0.9805405405405405
+[reis] ==> [pension, urlaub]	0.8171171171171171
+[urlaub] ==> [pension, reis]	0.873795761078998
+[room, urlaub] ==> [pension]	1.0
+[pension, urlaub] ==> [room]	1.0
+[pension, room] ==> [urlaub]	1.0
+[pension] ==> [room, urlaub]	0.9805405405405405
+[urlaub] ==> [pension, room]	0.873795761078998
+[room] ==> [pension, urlaub]	0.998898678414097
+[psychisch] ==> [prag]	0.9921026653504442
+[prag] ==> [psychisch]	0.9921026653504442
+[sozial] ==> [prag]	0.768348623853211
+[prag] ==> [sozial]	0.9921026653504442
+[psychisch, sozial] ==> [prag]	1.0
+[prag, sozial] ==> [psychisch]	1.0
+[prag, psychisch] ==> [sozial]	1.0
+[prag] ==> [psychisch, sozial]	0.9921026653504442
+[psychisch] ==> [prag, sozial]	0.9921026653504442
+[sozial] ==> [prag, psychisch]	0.768348623853211
+[sozial] ==> [psychisch]	0.768348623853211
+[psychisch] ==> [sozial]	0.9921026653504442
+[room] ==> [reis]	0.998898678414097
+[reis] ==> [room]	0.8171171171171171
+[urlaub] ==> [reis]	0.894990366088632
+[reis] ==> [urlaub]	0.8369369369369369
+[room, urlaub] ==> [reis]	1.0
+[reis, urlaub] ==> [room]	0.976318622174381
+[reis, room] ==> [urlaub]	1.0
+[reis] ==> [room, urlaub]	0.8171171171171171
+[room] ==> [reis, urlaub]	0.998898678414097
+[urlaub] ==> [reis, room]	0.873795761078998
+[urlaub] ==> [room]	0.873795761078998
+[room] ==> [urlaub]	0.998898678414097
+[spdbpt] ==> [spd]	0.933997509339975
+[ttip] ==> [spd]	0.7610192837465565
+[ticket] ==> [sportevent]	0.6549878965473309
+[sportevent] ==> [ticket]	1.0
+[sportevent, sportsevent] ==> [ticket]	1.0
+[sportsevent] ==> [ticket]	1.0

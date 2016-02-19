@@ -1,0 +1,991 @@
+[demo] ==> [afd]	0.6973871733966746
+[erfurt] ==> [afd]	0.9193724917913171
+[hock] ==> [afd]	0.8941896024464832
+[npd] ==> [afd]	0.6884735202492211
+[arzt] ==> [fluchtling]	0.9023136246786633
+[arzt] ==> [https]	0.8952442159383034
+[fluchtling, https] ==> [arzt]	0.8728070175438597
+[arzt, https] ==> [fluchtling]	1.0
+[arzt, fluchtling] ==> [https]	0.9921652421652422
+[arzt] ==> [fluchtling, https]	0.8952442159383034
+[ingenieur] ==> [arzt]	0.9916259595254711
+[arzt] ==> [ingenieur]	0.9132390745501285
+[fluchtling, ingenieur] ==> [arzt]	1.0
+[arzt, ingenieur] ==> [fluchtling]	0.9802955665024631
+[arzt, fluchtling] ==> [ingenieur]	0.9921652421652422
+[arzt] ==> [fluchtling, ingenieur]	0.8952442159383034
+[ingenieur] ==> [arzt, fluchtling]	0.9720865317515701
+[https, ingenieur] ==> [arzt]	1.0
+[arzt, ingenieur] ==> [https]	0.9802955665024631
+[arzt, https] ==> [ingenieur]	1.0
+[ingenieur] ==> [arzt, https]	0.9720865317515701
+[arzt] ==> [https, ingenieur]	0.8952442159383034
+[arzt] ==> [migrant]	0.8991002570694088
+[fluchtling, migrant] ==> [arzt]	0.8801261829652997
+[arzt, migrant] ==> [fluchtling]	0.9971408148677627
+[arzt, fluchtling] ==> [migrant]	0.9935897435897436
+[arzt] ==> [fluchtling, migrant]	0.8965295629820051
+[https, migrant] ==> [arzt]	0.9727653631284916
+[arzt, migrant] ==> [https]	0.995711222301644
+[arzt, https] ==> [migrant]	1.0
+[arzt] ==> [https, migrant]	0.8952442159383034
+[ingenieur, migrant] ==> [arzt]	1.0
+[arzt, migrant] ==> [ingenieur]	0.9964260185847034
+[arzt, ingenieur] ==> [migrant]	0.9809992962702322
+[ingenieur] ==> [arzt, migrant]	0.9727843684577809
+[arzt] ==> [ingenieur, migrant]	0.8958868894601543
+[arzt] ==> [pegida]	0.8952442159383034
+[fluchtling, pegida] ==> [arzt]	0.6971971971971972
+[arzt, pegida] ==> [fluchtling]	1.0
+[arzt, fluchtling] ==> [pegida]	0.9921652421652422
+[arzt] ==> [fluchtling, pegida]	0.8952442159383034
+[https, pegida] ==> [arzt]	0.7747497219132369
+[arzt, pegida] ==> [https]	1.0
+[arzt, https] ==> [pegida]	1.0
+[arzt] ==> [https, pegida]	0.8952442159383034
+[ingenieur, pegida] ==> [arzt]	0.9985663082437276
+[arzt, pegida] ==> [ingenieur]	1.0
+[arzt, ingenieur] ==> [pegida]	0.9802955665024631
+[ingenieur] ==> [arzt, pegida]	0.9720865317515701
+[arzt] ==> [ingenieur, pegida]	0.8952442159383034
+[migrant, pegida] ==> [arzt]	0.9858457183297947
+[arzt, pegida] ==> [migrant]	1.0
+[arzt, migrant] ==> [pegida]	0.995711222301644
+[arzt] ==> [migrant, pegida]	0.8952442159383034
+[vergewaltig] ==> [arzt]	0.9823943661971831
+[arzt] ==> [vergewaltig]	0.8965295629820051
+[fluchtling, vergewaltig] ==> [arzt]	0.9964234620886981
+[arzt, vergewaltig] ==> [fluchtling]	0.9985663082437276
+[arzt, fluchtling] ==> [vergewaltig]	0.9921652421652422
+[vergewaltig] ==> [arzt, fluchtling]	0.9809859154929578
+[arzt] ==> [fluchtling, vergewaltig]	0.8952442159383034
+[https, vergewaltig] ==> [arzt]	1.0
+[arzt, vergewaltig] ==> [https]	0.9985663082437276
+[arzt, https] ==> [vergewaltig]	1.0
+[vergewaltig] ==> [arzt, https]	0.9809859154929578
+[arzt] ==> [https, vergewaltig]	0.8952442159383034
+[ingenieur, vergewaltig] ==> [arzt]	1.0
+[arzt, vergewaltig] ==> [ingenieur]	1.0
+[arzt, ingenieur] ==> [vergewaltig]	0.9817030260380014
+[vergewaltig] ==> [arzt, ingenieur]	0.9823943661971831
+[ingenieur] ==> [arzt, vergewaltig]	0.9734822051639916
+[arzt] ==> [ingenieur, vergewaltig]	0.8965295629820051
+[migrant, vergewaltig] ==> [arzt]	1.0
+[arzt, vergewaltig] ==> [migrant]	0.9992831541218637
+[arzt, migrant] ==> [vergewaltig]	0.9964260185847034
+[vergewaltig] ==> [arzt, migrant]	0.9816901408450704
+[arzt] ==> [migrant, vergewaltig]	0.8958868894601543
+[pegida, vergewaltig] ==> [arzt]	0.9985663082437276
+[arzt, vergewaltig] ==> [pegida]	0.9985663082437276
+[arzt, pegida] ==> [vergewaltig]	1.0
+[arzt] ==> [pegida, vergewaltig]	0.8952442159383034
+[vergewaltig] ==> [arzt, pegida]	0.9809859154929578
+[weiterstadt] ==> [arzt]	0.9978525411596277
+[arzt] ==> [weiterstadt]	0.8958868894601543
+[fluchtling, weiterstadt] ==> [arzt]	0.9992826398852224
+[arzt, weiterstadt] ==> [fluchtling]	0.9992826398852224
+[arzt, fluchtling] ==> [weiterstadt]	0.9921652421652422
+[weiterstadt] ==> [arzt, fluchtling]	0.9971367215461704
+[arzt] ==> [fluchtling, weiterstadt]	0.8952442159383034
+[https, weiterstadt] ==> [arzt]	1.0
+[arzt, weiterstadt] ==> [https]	0.9992826398852224
+[arzt, https] ==> [weiterstadt]	1.0
+[weiterstadt] ==> [arzt, https]	0.9971367215461704
+[arzt] ==> [https, weiterstadt]	0.8952442159383034
+[ingenieur, weiterstadt] ==> [arzt]	1.0
+[arzt, weiterstadt] ==> [ingenieur]	1.0
+[arzt, ingenieur] ==> [weiterstadt]	0.9809992962702322
+[weiterstadt] ==> [arzt, ingenieur]	0.9978525411596277
+[arzt] ==> [ingenieur, weiterstadt]	0.8958868894601543
+[ingenieur] ==> [arzt, weiterstadt]	0.9727843684577809
+[migrant, weiterstadt] ==> [arzt]	1.0
+[arzt, weiterstadt] ==> [migrant]	1.0
+[arzt, migrant] ==> [weiterstadt]	0.9964260185847034
+[arzt] ==> [migrant, weiterstadt]	0.8958868894601543
+[weiterstadt] ==> [arzt, migrant]	0.9978525411596277
+[pegida, weiterstadt] ==> [arzt]	1.0
+[arzt, weiterstadt] ==> [pegida]	0.9992826398852224
+[arzt, pegida] ==> [weiterstadt]	1.0
+[weiterstadt] ==> [arzt, pegida]	0.9971367215461704
+[arzt] ==> [pegida, weiterstadt]	0.8952442159383034
+[vergewaltig, weiterstadt] ==> [arzt]	1.0
+[arzt, weiterstadt] ==> [vergewaltig]	1.0
+[arzt, vergewaltig] ==> [weiterstadt]	0.9992831541218637
+[weiterstadt] ==> [arzt, vergewaltig]	0.9978525411596277
+[arzt] ==> [vergewaltig, weiterstadt]	0.8958868894601543
+[vergewaltig] ==> [arzt, weiterstadt]	0.9816901408450704
+[brief] ==> [bildung]	0.9428440786465477
+[fur] ==> [bildung]	0.95817843866171
+[brief, fur] ==> [bildung]	1.0
+[bildung, fur] ==> [brief]	1.0
+[bildung, brief] ==> [fur]	1.0
+[fur] ==> [bildung, brief]	0.95817843866171
+[brief] ==> [bildung, fur]	0.9428440786465477
+[jung] ==> [bildung]	0.853596757852077
+[bildung] ==> [jung]	0.9581122062168309
+[brief, jung] ==> [bildung]	1.0
+[bildung, brief] ==> [jung]	1.0
+[brief] ==> [bildung, jung]	0.9428440786465477
+[europa, jung] ==> [bildung]	0.9963382157123835
+[bildung, europa] ==> [jung]	1.0
+[fur, jung] ==> [bildung]	1.0
+[bildung, fur] ==> [jung]	1.0
+[fur] ==> [bildung, jung]	0.95817843866171
+[kapitel] ==> [bildung]	0.991716368455931
+[europa, kapitel] ==> [bildung]	0.9996659986639946
+[bildung, kapitel] ==> [europa]	1.0
+[bildung, europa] ==> [kapitel]	1.0
+[kapitel] ==> [bildung, europa]	0.991716368455931
+[jung, kapitel] ==> [bildung]	0.9996659986639946
+[bildung, kapitel] ==> [jung]	1.0
+[kapitel] ==> [bildung, jung]	0.991716368455931
+[madch] ==> [bildung]	0.9016178399650197
+[brief, madch] ==> [bildung]	1.0
+[bildung, madch] ==> [brief]	1.0
+[bildung, brief] ==> [madch]	1.0
+[madch] ==> [bildung, brief]	0.9016178399650197
+[brief] ==> [bildung, madch]	0.9428440786465477
+[fur, madch] ==> [bildung]	1.0
+[bildung, madch] ==> [fur]	1.0
+[bildung, fur] ==> [madch]	1.0
+[fur] ==> [bildung, madch]	0.95817843866171
+[madch] ==> [bildung, fur]	0.9016178399650197
+[jung, madch] ==> [bildung]	0.985188724319159
+[bildung, madch] ==> [jung]	1.0
+[madch] ==> [bildung, jung]	0.9016178399650197
+[europa, mensch] ==> [bildung]	0.9803471994759253
+[bildung, mensch] ==> [europa]	0.9996659986639946
+[bildung, europa] ==> [mensch]	1.0
+[jung, mensch] ==> [bildung]	0.9868117375535773
+[bildung, mensch] ==> [jung]	0.9996659986639946
+[kapitel, mensch] ==> [bildung]	0.9996659986639946
+[bildung, mensch] ==> [kapitel]	0.9996659986639946
+[bildung, kapitel] ==> [mensch]	1.0
+[kapitel] ==> [bildung, mensch]	0.991716368455931
+[nordamerika] ==> [bildung]	0.9996659986639946
+[europa, nordamerika] ==> [bildung]	0.9996659986639946
+[bildung, nordamerika] ==> [europa]	1.0
+[bildung, europa] ==> [nordamerika]	1.0
+[nordamerika] ==> [bildung, europa]	0.9996659986639946
+[jung, nordamerika] ==> [bildung]	0.9996659986639946
+[bildung, nordamerika] ==> [jung]	1.0
+[nordamerika] ==> [bildung, jung]	0.9996659986639946
+[kapitel, nordamerika] ==> [bildung]	0.9996659986639946
+[bildung, nordamerika] ==> [kapitel]	1.0
+[bildung, kapitel] ==> [nordamerika]	1.0
+[kapitel] ==> [bildung, nordamerika]	0.991716368455931
+[nordamerika] ==> [bildung, kapitel]	0.9996659986639946
+[mensch, nordamerika] ==> [bildung]	0.9996659986639946
+[bildung, nordamerika] ==> [mensch]	1.0
+[bildung, mensch] ==> [nordamerika]	0.9996659986639946
+[nordamerika] ==> [bildung, mensch]	0.9996659986639946
+[bildung] ==> [politik]	0.9655041698256255
+[brief, politik] ==> [bildung]	0.9942140790742526
+[bildung, brief] ==> [politik]	1.0
+[brief] ==> [bildung, politik]	0.9428440786465477
+[europa, politik] ==> [bildung]	0.9367762128325509
+[bildung, europa] ==> [politik]	1.0
+[fur, politik] ==> [bildung]	0.9995152690256908
+[bildung, fur] ==> [politik]	1.0
+[fur] ==> [bildung, politik]	0.95817843866171
+[jung, politik] ==> [bildung]	0.9886563661255623
+[bildung, politik] ==> [jung]	0.9923439340400471
+[bildung, jung] ==> [politik]	1.0
+[jung] ==> [bildung, politik]	0.853596757852077
+[bildung] ==> [jung, politik]	0.9581122062168309
+[kapitel, politik] ==> [bildung]	0.9996659986639946
+[bildung, kapitel] ==> [politik]	1.0
+[kapitel] ==> [bildung, politik]	0.991716368455931
+[madch, politik] ==> [bildung]	0.9942140790742526
+[bildung, madch] ==> [politik]	1.0
+[madch] ==> [bildung, politik]	0.9016178399650197
+[mensch, politik] ==> [bildung]	0.9438662882371491
+[bildung, mensch] ==> [politik]	0.9996659986639946
+[nordamerika, politik] ==> [bildung]	0.9996659986639946
+[bildung, nordamerika] ==> [politik]	1.0
+[nordamerika] ==> [bildung, politik]	0.9996659986639946
+[schul] ==> [bildung]	0.8972366148531952
+[brief, schul] ==> [bildung]	1.0
+[bildung, schul] ==> [brief]	0.9923002887391723
+[bildung, brief] ==> [schul]	1.0
+[schul] ==> [bildung, brief]	0.8903281519861831
+[brief] ==> [bildung, schul]	0.9428440786465477
+[fur, schul] ==> [bildung]	1.0
+[bildung, schul] ==> [fur]	0.9923002887391723
+[bildung, fur] ==> [schul]	1.0
+[fur] ==> [bildung, schul]	0.95817843866171
+[schul] ==> [bildung, fur]	0.8903281519861831
+[jung, schul] ==> [bildung]	0.999031007751938
+[bildung, schul] ==> [jung]	0.9923002887391723
+[schul] ==> [bildung, jung]	0.8903281519861831
+[madch, schul] ==> [bildung]	0.999031007751938
+[bildung, schul] ==> [madch]	0.9923002887391723
+[bildung, madch] ==> [schul]	1.0
+[madch] ==> [bildung, schul]	0.9016178399650197
+[schul] ==> [bildung, madch]	0.8903281519861831
+[politik, schul] ==> [bildung]	0.9791666666666666
+[bildung, schul] ==> [politik]	0.9951876804619827
+[schul] ==> [bildung, politik]	0.8929188255613126
+[somm] ==> [bildung]	0.9809705042816366
+[brief, somm] ==> [bildung]	1.0
+[bildung, somm] ==> [brief]	1.0
+[bildung, brief] ==> [somm]	1.0
+[brief] ==> [bildung, somm]	0.9428440786465477
+[somm] ==> [bildung, brief]	0.9809705042816366
+[fur, somm] ==> [bildung]	1.0
+[bildung, somm] ==> [fur]	1.0
+[bildung, fur] ==> [somm]	1.0
+[fur] ==> [bildung, somm]	0.95817843866171
+[somm] ==> [bildung, fur]	0.9809705042816366
+[jung, somm] ==> [bildung]	0.996135265700483
+[bildung, somm] ==> [jung]	1.0
+[somm] ==> [bildung, jung]	0.9809705042816366
+[madch, somm] ==> [bildung]	0.9975810353168844
+[bildung, somm] ==> [madch]	1.0
+[bildung, madch] ==> [somm]	1.0
+[madch] ==> [bildung, somm]	0.9016178399650197
+[somm] ==> [bildung, madch]	0.9809705042816366
+[politik, somm] ==> [bildung]	0.998547215496368
+[bildung, somm] ==> [politik]	1.0
+[somm] ==> [bildung, politik]	0.9809705042816366
+[schul, somm] ==> [bildung]	1.0
+[bildung, somm] ==> [schul]	1.0
+[bildung, schul] ==> [somm]	0.9923002887391723
+[schul] ==> [bildung, somm]	0.8903281519861831
+[somm] ==> [bildung, schul]	0.9809705042816366
+[spiel] ==> [bildung]	0.870042194092827
+[brief, spiel] ==> [bildung]	1.0
+[bildung, spiel] ==> [brief]	1.0
+[bildung, brief] ==> [spiel]	1.0
+[spiel] ==> [bildung, brief]	0.870042194092827
+[brief] ==> [bildung, spiel]	0.9428440786465477
+[fur, spiel] ==> [bildung]	1.0
+[bildung, spiel] ==> [fur]	1.0
+[bildung, fur] ==> [spiel]	1.0
+[fur] ==> [bildung, spiel]	0.95817843866171
+[spiel] ==> [bildung, fur]	0.870042194092827
+[jung, spiel] ==> [bildung]	0.999031007751938
+[bildung, spiel] ==> [jung]	1.0
+[spiel] ==> [bildung, jung]	0.870042194092827
+[madch, spiel] ==> [bildung]	0.9995152690256908
+[bildung, spiel] ==> [madch]	1.0
+[bildung, madch] ==> [spiel]	1.0
+[spiel] ==> [bildung, madch]	0.870042194092827
+[madch] ==> [bildung, spiel]	0.9016178399650197
+[politik, spiel] ==> [bildung]	0.9908697741470447
+[bildung, spiel] ==> [politik]	1.0
+[spiel] ==> [bildung, politik]	0.870042194092827
+[schul, spiel] ==> [bildung]	1.0
+[bildung, spiel] ==> [schul]	1.0
+[bildung, schul] ==> [spiel]	0.9923002887391723
+[spiel] ==> [bildung, schul]	0.870042194092827
+[schul] ==> [bildung, spiel]	0.8903281519861831
+[somm, spiel] ==> [bildung]	1.0
+[bildung, spiel] ==> [somm]	1.0
+[bildung, somm] ==> [spiel]	1.0
+[spiel] ==> [bildung, somm]	0.870042194092827
+[somm] ==> [bildung, spiel]	0.9809705042816366
+[treff] ==> [bildung]	0.906969696969697
+[europa, treff] ==> [bildung]	0.9996659986639946
+[bildung, treff] ==> [europa]	1.0
+[bildung, europa] ==> [treff]	1.0
+[treff] ==> [bildung, europa]	0.906969696969697
+[jung, treff] ==> [bildung]	1.0
+[bildung, treff] ==> [jung]	1.0
+[treff] ==> [bildung, jung]	0.906969696969697
+[kapitel, treff] ==> [bildung]	1.0
+[bildung, treff] ==> [kapitel]	1.0
+[bildung, kapitel] ==> [treff]	1.0
+[treff] ==> [bildung, kapitel]	0.906969696969697
+[kapitel] ==> [bildung, treff]	0.991716368455931
+[mensch, treff] ==> [bildung]	0.9986653319986654
+[bildung, treff] ==> [mensch]	1.0
+[bildung, mensch] ==> [treff]	0.9996659986639946
+[treff] ==> [bildung, mensch]	0.906969696969697
+[nordamerika, treff] ==> [bildung]	1.0
+[bildung, treff] ==> [nordamerika]	1.0
+[bildung, nordamerika] ==> [treff]	1.0
+[treff] ==> [bildung, nordamerika]	0.906969696969697
+[nordamerika] ==> [bildung, treff]	0.9996659986639946
+[politik, treff] ==> [bildung]	0.9871372031662269
+[bildung, treff] ==> [politik]	1.0
+[treff] ==> [bildung, politik]	0.906969696969697
+[fur] ==> [brief]	0.95817843866171
+[brief] ==> [fur]	0.9428440786465477
+[brief] ==> [jung]	0.9428440786465477
+[fur, jung] ==> [brief]	1.0
+[brief, jung] ==> [fur]	1.0
+[brief, fur] ==> [jung]	1.0
+[brief] ==> [fur, jung]	0.9428440786465477
+[fur] ==> [brief, jung]	0.95817843866171
+[madch] ==> [brief]	0.9016178399650197
+[brief] ==> [madch]	0.9428440786465477
+[fur, madch] ==> [brief]	1.0
+[brief, madch] ==> [fur]	1.0
+[brief, fur] ==> [madch]	1.0
+[brief] ==> [fur, madch]	0.9428440786465477
+[madch] ==> [brief, fur]	0.9016178399650197
+[fur] ==> [brief, madch]	0.95817843866171
+[jung, madch] ==> [brief]	0.985188724319159
+[brief, madch] ==> [jung]	1.0
+[brief, jung] ==> [madch]	1.0
+[brief] ==> [jung, madch]	0.9428440786465477
+[madch] ==> [brief, jung]	0.9016178399650197
+[brief] ==> [politik]	0.9483310470964792
+[fur, politik] ==> [brief]	0.9995152690256908
+[brief, politik] ==> [fur]	0.9942140790742526
+[brief, fur] ==> [politik]	1.0
+[brief] ==> [fur, politik]	0.9428440786465477
+[fur] ==> [brief, politik]	0.95817843866171
+[brief, politik] ==> [jung]	0.9942140790742526
+[brief, jung] ==> [politik]	1.0
+[brief] ==> [jung, politik]	0.9428440786465477
+[madch, politik] ==> [brief]	0.9942140790742526
+[brief, politik] ==> [madch]	0.9942140790742526
+[brief, madch] ==> [politik]	1.0
+[brief] ==> [madch, politik]	0.9428440786465477
+[madch] ==> [brief, politik]	0.9016178399650197
+[schul] ==> [brief]	0.8903281519861831
+[brief] ==> [schul]	0.9428440786465477
+[fur, schul] ==> [brief]	1.0
+[brief, schul] ==> [fur]	1.0
+[brief, fur] ==> [schul]	1.0
+[brief] ==> [fur, schul]	0.9428440786465477
+[fur] ==> [brief, schul]	0.95817843866171
+[schul] ==> [brief, fur]	0.8903281519861831
+[jung, schul] ==> [brief]	0.999031007751938
+[brief, schul] ==> [jung]	1.0
+[brief, jung] ==> [schul]	1.0
+[schul] ==> [brief, jung]	0.8903281519861831
+[brief] ==> [jung, schul]	0.9428440786465477
+[madch, schul] ==> [brief]	0.999031007751938
+[brief, schul] ==> [madch]	1.0
+[brief, madch] ==> [schul]	1.0
+[madch] ==> [brief, schul]	0.9016178399650197
+[schul] ==> [brief, madch]	0.8903281519861831
+[brief] ==> [madch, schul]	0.9428440786465477
+[politik, schul] ==> [brief]	0.9763257575757576
+[brief, schul] ==> [politik]	1.0
+[brief, politik] ==> [schul]	0.9942140790742526
+[brief] ==> [politik, schul]	0.9428440786465477
+[schul] ==> [brief, politik]	0.8903281519861831
+[somm] ==> [brief]	0.9809705042816366
+[brief] ==> [somm]	0.9428440786465477
+[fur, somm] ==> [brief]	1.0
+[brief, somm] ==> [fur]	1.0
+[brief, fur] ==> [somm]	1.0
+[somm] ==> [brief, fur]	0.9809705042816366
+[brief] ==> [fur, somm]	0.9428440786465477
+[fur] ==> [brief, somm]	0.95817843866171
+[jung, somm] ==> [brief]	0.996135265700483
+[brief, somm] ==> [jung]	1.0
+[brief, jung] ==> [somm]	1.0
+[somm] ==> [brief, jung]	0.9809705042816366
+[brief] ==> [jung, somm]	0.9428440786465477
+[madch, somm] ==> [brief]	0.9975810353168844
+[brief, somm] ==> [madch]	1.0
+[brief, madch] ==> [somm]	1.0
+[brief] ==> [madch, somm]	0.9428440786465477
+[somm] ==> [brief, madch]	0.9809705042816366
+[madch] ==> [brief, somm]	0.9016178399650197
+[politik, somm] ==> [brief]	0.998547215496368
+[brief, somm] ==> [politik]	1.0
+[brief, politik] ==> [somm]	0.9942140790742526
+[somm] ==> [brief, politik]	0.9809705042816366
+[brief] ==> [politik, somm]	0.9428440786465477
+[schul, somm] ==> [brief]	1.0
+[brief, somm] ==> [schul]	1.0
+[brief, schul] ==> [somm]	1.0
+[brief] ==> [schul, somm]	0.9428440786465477
+[somm] ==> [brief, schul]	0.9809705042816366
+[schul] ==> [brief, somm]	0.8903281519861831
+[spiel] ==> [brief]	0.870042194092827
+[brief] ==> [spiel]	0.9428440786465477
+[fur, spiel] ==> [brief]	1.0
+[brief, spiel] ==> [fur]	1.0
+[brief, fur] ==> [spiel]	1.0
+[fur] ==> [brief, spiel]	0.95817843866171
+[brief] ==> [fur, spiel]	0.9428440786465477
+[spiel] ==> [brief, fur]	0.870042194092827
+[jung, spiel] ==> [brief]	0.999031007751938
+[brief, spiel] ==> [jung]	1.0
+[brief, jung] ==> [spiel]	1.0
+[brief] ==> [jung, spiel]	0.9428440786465477
+[spiel] ==> [brief, jung]	0.870042194092827
+[madch, spiel] ==> [brief]	0.9995152690256908
+[brief, spiel] ==> [madch]	1.0
+[brief, madch] ==> [spiel]	1.0
+[madch] ==> [brief, spiel]	0.9016178399650197
+[brief] ==> [madch, spiel]	0.9428440786465477
+[spiel] ==> [brief, madch]	0.870042194092827
+[politik, spiel] ==> [brief]	0.9908697741470447
+[brief, spiel] ==> [politik]	1.0
+[brief, politik] ==> [spiel]	0.9942140790742526
+[spiel] ==> [brief, politik]	0.870042194092827
+[brief] ==> [politik, spiel]	0.9428440786465477
+[schul, spiel] ==> [brief]	1.0
+[brief, spiel] ==> [schul]	1.0
+[brief, schul] ==> [spiel]	1.0
+[schul] ==> [brief, spiel]	0.8903281519861831
+[spiel] ==> [brief, schul]	0.870042194092827
+[brief] ==> [schul, spiel]	0.9428440786465477
+[somm, spiel] ==> [brief]	1.0
+[brief, spiel] ==> [somm]	1.0
+[brief, somm] ==> [spiel]	1.0
+[somm] ==> [brief, spiel]	0.9809705042816366
+[spiel] ==> [brief, somm]	0.870042194092827
+[brief] ==> [somm, spiel]	0.9428440786465477
+[sportevent] ==> [deutschland]	1.0
+[sportsevent] ==> [deutschland]	1.0
+[ticket] ==> [deutschland]	0.9942528735632183
+[sportevent, ticket] ==> [deutschland]	1.0
+[deutschland, ticket] ==> [sportevent]	0.6691863050244553
+[deutschland, sportevent] ==> [ticket]	1.0
+[sportevent] ==> [deutschland, ticket]	1.0
+[ticket] ==> [deutschland, sportevent]	0.6653404067197171
+[sportsevent, ticket] ==> [deutschland]	1.0
+[deutschland, sportsevent] ==> [ticket]	1.0
+[sportsevent] ==> [deutschland, ticket]	1.0
+[kapitel] ==> [europa]	0.9920477137176938
+[jung, kapitel] ==> [europa]	1.0
+[europa, kapitel] ==> [jung]	1.0
+[europa, jung] ==> [kapitel]	0.9966711051930759
+[kapitel] ==> [europa, jung]	0.9920477137176938
+[europa] ==> [mensch]	0.6552908349431208
+[jung, mensch] ==> [europa]	0.9871414441147379
+[europa, mensch] ==> [jung]	0.9806747461513265
+[europa, jung] ==> [mensch]	0.9966711051930759
+[kapitel, mensch] ==> [europa]	1.0
+[europa, mensch] ==> [kapitel]	0.9806747461513265
+[europa, kapitel] ==> [mensch]	1.0
+[kapitel] ==> [europa, mensch]	0.9920477137176938
+[nordamerika] ==> [europa]	1.0
+[jung, nordamerika] ==> [europa]	1.0
+[europa, nordamerika] ==> [jung]	1.0
+[europa, jung] ==> [nordamerika]	0.9966711051930759
+[nordamerika] ==> [europa, jung]	1.0
+[kapitel, nordamerika] ==> [europa]	1.0
+[europa, nordamerika] ==> [kapitel]	1.0
+[europa, kapitel] ==> [nordamerika]	1.0
+[kapitel] ==> [europa, nordamerika]	0.9920477137176938
+[nordamerika] ==> [europa, kapitel]	1.0
+[mensch, nordamerika] ==> [europa]	1.0
+[europa, nordamerika] ==> [mensch]	1.0
+[europa, mensch] ==> [nordamerika]	0.9806747461513265
+[nordamerika] ==> [europa, mensch]	1.0
+[europa] ==> [politik]	0.6857694784288474
+[europa, politik] ==> [jung]	0.9374021909233177
+[europa, jung] ==> [politik]	0.9970039946737683
+[kapitel, politik] ==> [europa]	1.0
+[europa, politik] ==> [kapitel]	0.9370892018779343
+[europa, kapitel] ==> [politik]	1.0
+[kapitel] ==> [europa, politik]	0.9920477137176938
+[mensch, politik] ==> [europa]	0.945758435824661
+[europa, politik] ==> [mensch]	0.9386541471048513
+[europa, mensch] ==> [politik]	0.9823124795283328
+[nordamerika, politik] ==> [europa]	1.0
+[europa, politik] ==> [nordamerika]	0.9370892018779343
+[europa, nordamerika] ==> [politik]	1.0
+[nordamerika] ==> [europa, politik]	1.0
+[treff] ==> [europa]	0.9072727272727272
+[jung, treff] ==> [europa]	1.0
+[europa, treff] ==> [jung]	0.9996659986639946
+[europa, jung] ==> [treff]	0.9963382157123835
+[treff] ==> [europa, jung]	0.906969696969697
+[kapitel, treff] ==> [europa]	1.0
+[europa, treff] ==> [kapitel]	0.9996659986639946
+[europa, kapitel] ==> [treff]	0.9996659986639946
+[kapitel] ==> [europa, treff]	0.991716368455931
+[treff] ==> [europa, kapitel]	0.906969696969697
+[mensch, treff] ==> [europa]	0.9986653319986654
+[europa, treff] ==> [mensch]	0.9996659986639946
+[europa, mensch] ==> [treff]	0.9803471994759253
+[treff] ==> [europa, mensch]	0.906969696969697
+[nordamerika, treff] ==> [europa]	1.0
+[europa, treff] ==> [nordamerika]	0.9996659986639946
+[europa, nordamerika] ==> [treff]	0.9996659986639946
+[treff] ==> [europa, nordamerika]	0.906969696969697
+[nordamerika] ==> [europa, treff]	0.9996659986639946
+[politik, treff] ==> [europa]	0.9871372031662269
+[europa, treff] ==> [politik]	0.9996659986639946
+[europa, politik] ==> [treff]	0.9367762128325509
+[treff] ==> [europa, politik]	0.906969696969697
+[ingenieur] ==> [fluchtling]	0.9720865317515701
+[https, ingenieur] ==> [fluchtling]	1.0
+[fluchtling, ingenieur] ==> [https]	1.0
+[fluchtling, https] ==> [ingenieur]	0.8728070175438597
+[ingenieur] ==> [fluchtling, https]	0.9720865317515701
+[migrant] ==> [fluchtling]	0.6985456148082856
+[https, migrant] ==> [fluchtling]	0.9888268156424581
+[fluchtling, migrant] ==> [https]	0.8933753943217666
+[fluchtling, https] ==> [migrant]	0.8872180451127819
+[ingenieur, migrant] ==> [fluchtling]	0.9992826398852224
+[fluchtling, migrant] ==> [ingenieur]	0.8788643533123028
+[fluchtling, ingenieur] ==> [migrant]	1.0
+[ingenieur] ==> [fluchtling, migrant]	0.9720865317515701
+[https, pegida] ==> [fluchtling]	0.7986651835372637
+[fluchtling, pegida] ==> [https]	0.7187187187187187
+[fluchtling, https] ==> [pegida]	0.899749373433584
+[ingenieur, pegida] ==> [fluchtling]	0.9985663082437276
+[fluchtling, pegida] ==> [ingenieur]	0.6971971971971972
+[fluchtling, ingenieur] ==> [pegida]	1.0
+[ingenieur] ==> [fluchtling, pegida]	0.9720865317515701
+[migrant, pegida] ==> [fluchtling]	0.9872611464968153
+[fluchtling, pegida] ==> [migrant]	0.6981981981981982
+[fluchtling, migrant] ==> [pegida]	0.8801261829652997
+[vergewaltig] ==> [fluchtling]	0.9845070422535211
+[https, vergewaltig] ==> [fluchtling]	1.0
+[fluchtling, vergewaltig] ==> [https]	0.9964234620886981
+[fluchtling, https] ==> [vergewaltig]	0.8728070175438597
+[vergewaltig] ==> [fluchtling, https]	0.9809859154929578
+[ingenieur, vergewaltig] ==> [fluchtling]	0.9985663082437276
+[fluchtling, vergewaltig] ==> [ingenieur]	0.9964234620886981
+[fluchtling, ingenieur] ==> [vergewaltig]	1.0
+[vergewaltig] ==> [fluchtling, ingenieur]	0.9809859154929578
+[ingenieur] ==> [fluchtling, vergewaltig]	0.9720865317515701
+[migrant, vergewaltig] ==> [fluchtling]	0.9992826398852224
+[fluchtling, vergewaltig] ==> [migrant]	0.9964234620886981
+[fluchtling, migrant] ==> [vergewaltig]	0.8788643533123028
+[vergewaltig] ==> [fluchtling, migrant]	0.9809859154929578
+[pegida, vergewaltig] ==> [fluchtling]	1.0
+[fluchtling, vergewaltig] ==> [pegida]	0.9978540772532188
+[fluchtling, pegida] ==> [vergewaltig]	0.6981981981981982
+[vergewaltig] ==> [fluchtling, pegida]	0.9823943661971831
+[weiterstadt] ==> [fluchtling]	0.9978525411596277
+[https, weiterstadt] ==> [fluchtling]	1.0
+[fluchtling, weiterstadt] ==> [https]	0.9992826398852224
+[fluchtling, https] ==> [weiterstadt]	0.8728070175438597
+[weiterstadt] ==> [fluchtling, https]	0.9971367215461704
+[ingenieur, weiterstadt] ==> [fluchtling]	0.9992826398852224
+[fluchtling, weiterstadt] ==> [ingenieur]	0.9992826398852224
+[fluchtling, ingenieur] ==> [weiterstadt]	1.0
+[weiterstadt] ==> [fluchtling, ingenieur]	0.9971367215461704
+[ingenieur] ==> [fluchtling, weiterstadt]	0.9720865317515701
+[migrant, weiterstadt] ==> [fluchtling]	0.9992826398852224
+[fluchtling, weiterstadt] ==> [migrant]	0.9992826398852224
+[fluchtling, migrant] ==> [weiterstadt]	0.8788643533123028
+[weiterstadt] ==> [fluchtling, migrant]	0.9971367215461704
+[pegida, weiterstadt] ==> [fluchtling]	1.0
+[fluchtling, weiterstadt] ==> [pegida]	0.9992826398852224
+[fluchtling, pegida] ==> [weiterstadt]	0.6971971971971972
+[weiterstadt] ==> [fluchtling, pegida]	0.9971367215461704
+[vergewaltig, weiterstadt] ==> [fluchtling]	0.9992826398852224
+[fluchtling, weiterstadt] ==> [vergewaltig]	0.9992826398852224
+[fluchtling, vergewaltig] ==> [weiterstadt]	0.9964234620886981
+[weiterstadt] ==> [fluchtling, vergewaltig]	0.9971367215461704
+[vergewaltig] ==> [fluchtling, weiterstadt]	0.9809859154929578
+[fur] ==> [jung]	0.95817843866171
+[madch] ==> [fur]	0.9016178399650197
+[fur] ==> [madch]	0.95817843866171
+[jung, madch] ==> [fur]	0.985188724319159
+[fur, madch] ==> [jung]	1.0
+[fur, jung] ==> [madch]	1.0
+[madch] ==> [fur, jung]	0.9016178399650197
+[fur] ==> [jung, madch]	0.95817843866171
+[fur] ==> [politik]	0.9586431226765799
+[fur, politik] ==> [jung]	0.9995152690256908
+[fur, jung] ==> [politik]	1.0
+[fur] ==> [jung, politik]	0.95817843866171
+[madch, politik] ==> [fur]	0.9942140790742526
+[fur, politik] ==> [madch]	0.9995152690256908
+[fur, madch] ==> [politik]	1.0
+[fur] ==> [madch, politik]	0.95817843866171
+[madch] ==> [fur, politik]	0.9016178399650197
+[schul] ==> [fur]	0.8903281519861831
+[fur] ==> [schul]	0.95817843866171
+[jung, schul] ==> [fur]	0.999031007751938
+[fur, schul] ==> [jung]	1.0
+[fur, jung] ==> [schul]	1.0
+[schul] ==> [fur, jung]	0.8903281519861831
+[fur] ==> [jung, schul]	0.95817843866171
+[madch, schul] ==> [fur]	0.999031007751938
+[fur, schul] ==> [madch]	1.0
+[fur, madch] ==> [schul]	1.0
+[madch] ==> [fur, schul]	0.9016178399650197
+[schul] ==> [fur, madch]	0.8903281519861831
+[fur] ==> [madch, schul]	0.95817843866171
+[politik, schul] ==> [fur]	0.9763257575757576
+[fur, schul] ==> [politik]	1.0
+[fur, politik] ==> [schul]	0.9995152690256908
+[fur] ==> [politik, schul]	0.95817843866171
+[schul] ==> [fur, politik]	0.8903281519861831
+[somm] ==> [fur]	0.9809705042816366
+[fur] ==> [somm]	0.95817843866171
+[jung, somm] ==> [fur]	0.996135265700483
+[fur, somm] ==> [jung]	1.0
+[fur, jung] ==> [somm]	1.0
+[somm] ==> [fur, jung]	0.9809705042816366
+[fur] ==> [jung, somm]	0.95817843866171
+[madch, somm] ==> [fur]	0.9975810353168844
+[fur, somm] ==> [madch]	1.0
+[fur, madch] ==> [somm]	1.0
+[somm] ==> [fur, madch]	0.9809705042816366
+[fur] ==> [madch, somm]	0.95817843866171
+[madch] ==> [fur, somm]	0.9016178399650197
+[politik, somm] ==> [fur]	0.998547215496368
+[fur, somm] ==> [politik]	1.0
+[fur, politik] ==> [somm]	0.9995152690256908
+[somm] ==> [fur, politik]	0.9809705042816366
+[fur] ==> [politik, somm]	0.95817843866171
+[schul, somm] ==> [fur]	1.0
+[fur, somm] ==> [schul]	1.0
+[fur, schul] ==> [somm]	1.0
+[fur] ==> [schul, somm]	0.95817843866171
+[somm] ==> [fur, schul]	0.9809705042816366
+[schul] ==> [fur, somm]	0.8903281519861831
+[spiel] ==> [fur]	0.870042194092827
+[fur] ==> [spiel]	0.95817843866171
+[jung, spiel] ==> [fur]	0.999031007751938
+[fur, spiel] ==> [jung]	1.0
+[fur, jung] ==> [spiel]	1.0
+[spiel] ==> [fur, jung]	0.870042194092827
+[fur] ==> [jung, spiel]	0.95817843866171
+[madch, spiel] ==> [fur]	0.9995152690256908
+[fur, spiel] ==> [madch]	1.0
+[fur, madch] ==> [spiel]	1.0
+[madch] ==> [fur, spiel]	0.9016178399650197
+[fur] ==> [madch, spiel]	0.95817843866171
+[spiel] ==> [fur, madch]	0.870042194092827
+[politik, spiel] ==> [fur]	0.9908697741470447
+[fur, spiel] ==> [politik]	1.0
+[fur, politik] ==> [spiel]	0.9995152690256908
+[spiel] ==> [fur, politik]	0.870042194092827
+[fur] ==> [politik, spiel]	0.95817843866171
+[schul, spiel] ==> [fur]	1.0
+[fur, spiel] ==> [schul]	1.0
+[fur, schul] ==> [spiel]	1.0
+[spiel] ==> [fur, schul]	0.870042194092827
+[schul] ==> [fur, spiel]	0.8903281519861831
+[fur] ==> [schul, spiel]	0.95817843866171
+[somm, spiel] ==> [fur]	1.0
+[fur, spiel] ==> [somm]	1.0
+[fur, somm] ==> [spiel]	1.0
+[somm] ==> [fur, spiel]	0.9809705042816366
+[spiel] ==> [fur, somm]	0.870042194092827
+[fur] ==> [somm, spiel]	0.95817843866171
+[ingenieur] ==> [https]	0.9720865317515701
+[ingenieur, migrant] ==> [https]	0.9992826398852224
+[https, migrant] ==> [ingenieur]	0.9727653631284916
+[https, ingenieur] ==> [migrant]	1.0
+[ingenieur] ==> [https, migrant]	0.9720865317515701
+[ingenieur, pegida] ==> [https]	0.9985663082437276
+[https, pegida] ==> [ingenieur]	0.7747497219132369
+[https, ingenieur] ==> [pegida]	1.0
+[ingenieur] ==> [https, pegida]	0.9720865317515701
+[migrant, pegida] ==> [https]	0.9858457183297947
+[https, pegida] ==> [migrant]	0.7747497219132369
+[https, migrant] ==> [pegida]	0.9727653631284916
+[vergewaltig] ==> [https]	0.9809859154929578
+[ingenieur, vergewaltig] ==> [https]	0.9985663082437276
+[https, vergewaltig] ==> [ingenieur]	1.0
+[https, ingenieur] ==> [vergewaltig]	1.0
+[ingenieur] ==> [https, vergewaltig]	0.9720865317515701
+[vergewaltig] ==> [https, ingenieur]	0.9809859154929578
+[migrant, vergewaltig] ==> [https]	0.9992826398852224
+[https, vergewaltig] ==> [migrant]	1.0
+[https, migrant] ==> [vergewaltig]	0.9727653631284916
+[vergewaltig] ==> [https, migrant]	0.9809859154929578
+[pegida, vergewaltig] ==> [https]	0.9985663082437276
+[https, vergewaltig] ==> [pegida]	1.0
+[https, pegida] ==> [vergewaltig]	0.7747497219132369
+[vergewaltig] ==> [https, pegida]	0.9809859154929578
+[weiterstadt] ==> [https]	0.9971367215461704
+[ingenieur, weiterstadt] ==> [https]	0.9992826398852224
+[https, weiterstadt] ==> [ingenieur]	1.0
+[https, ingenieur] ==> [weiterstadt]	1.0
+[ingenieur] ==> [https, weiterstadt]	0.9720865317515701
+[weiterstadt] ==> [https, ingenieur]	0.9971367215461704
+[migrant, weiterstadt] ==> [https]	0.9992826398852224
+[https, weiterstadt] ==> [migrant]	1.0
+[https, migrant] ==> [weiterstadt]	0.9727653631284916
+[weiterstadt] ==> [https, migrant]	0.9971367215461704
+[pegida, weiterstadt] ==> [https]	1.0
+[https, weiterstadt] ==> [pegida]	1.0
+[https, pegida] ==> [weiterstadt]	0.7747497219132369
+[weiterstadt] ==> [https, pegida]	0.9971367215461704
+[vergewaltig, weiterstadt] ==> [https]	0.9992826398852224
+[https, weiterstadt] ==> [vergewaltig]	1.0
+[https, vergewaltig] ==> [weiterstadt]	1.0
+[vergewaltig] ==> [https, weiterstadt]	0.9809859154929578
+[weiterstadt] ==> [https, vergewaltig]	0.9971367215461704
+[ingenieur] ==> [migrant]	0.9727843684577809
+[ingenieur] ==> [pegida]	0.9734822051639916
+[migrant, pegida] ==> [ingenieur]	0.9858457183297947
+[ingenieur, pegida] ==> [migrant]	0.9985663082437276
+[ingenieur, migrant] ==> [pegida]	0.9992826398852224
+[ingenieur] ==> [migrant, pegida]	0.9720865317515701
+[vergewaltig] ==> [ingenieur]	0.9823943661971831
+[ingenieur] ==> [vergewaltig]	0.9734822051639916
+[migrant, vergewaltig] ==> [ingenieur]	1.0
+[ingenieur, vergewaltig] ==> [migrant]	0.9992831541218637
+[ingenieur, migrant] ==> [vergewaltig]	1.0
+[vergewaltig] ==> [ingenieur, migrant]	0.9816901408450704
+[ingenieur] ==> [migrant, vergewaltig]	0.9727843684577809
+[pegida, vergewaltig] ==> [ingenieur]	0.9985663082437276
+[ingenieur, vergewaltig] ==> [pegida]	0.9985663082437276
+[ingenieur, pegida] ==> [vergewaltig]	0.9985663082437276
+[ingenieur] ==> [pegida, vergewaltig]	0.9720865317515701
+[vergewaltig] ==> [ingenieur, pegida]	0.9809859154929578
+[weiterstadt] ==> [ingenieur]	0.9978525411596277
+[ingenieur] ==> [weiterstadt]	0.9727843684577809
+[migrant, weiterstadt] ==> [ingenieur]	1.0
+[ingenieur, weiterstadt] ==> [migrant]	1.0
+[ingenieur, migrant] ==> [weiterstadt]	1.0
+[ingenieur] ==> [migrant, weiterstadt]	0.9727843684577809
+[weiterstadt] ==> [ingenieur, migrant]	0.9978525411596277
+[pegida, weiterstadt] ==> [ingenieur]	1.0
+[ingenieur, weiterstadt] ==> [pegida]	0.9992826398852224
+[ingenieur, pegida] ==> [weiterstadt]	0.9985663082437276
+[weiterstadt] ==> [ingenieur, pegida]	0.9971367215461704
+[ingenieur] ==> [pegida, weiterstadt]	0.9720865317515701
+[vergewaltig, weiterstadt] ==> [ingenieur]	1.0
+[ingenieur, weiterstadt] ==> [vergewaltig]	1.0
+[ingenieur, vergewaltig] ==> [weiterstadt]	0.9992831541218637
+[vergewaltig] ==> [ingenieur, weiterstadt]	0.9816901408450704
+[ingenieur] ==> [vergewaltig, weiterstadt]	0.9727843684577809
+[weiterstadt] ==> [ingenieur, vergewaltig]	0.9978525411596277
+[kapitel] ==> [jung]	0.9920477137176938
+[madch] ==> [jung]	0.915172715347617
+[kapitel, mensch] ==> [jung]	1.0
+[jung, mensch] ==> [kapitel]	0.9871414441147379
+[jung, kapitel] ==> [mensch]	1.0
+[kapitel] ==> [jung, mensch]	0.9920477137176938
+[nordamerika] ==> [jung]	1.0
+[kapitel, nordamerika] ==> [jung]	1.0
+[jung, nordamerika] ==> [kapitel]	1.0
+[jung, kapitel] ==> [nordamerika]	1.0
+[kapitel] ==> [jung, nordamerika]	0.9920477137176938
+[nordamerika] ==> [jung, kapitel]	1.0
+[mensch, nordamerika] ==> [jung]	1.0
+[jung, nordamerika] ==> [mensch]	1.0
+[jung, mensch] ==> [nordamerika]	0.9871414441147379
+[nordamerika] ==> [jung, mensch]	1.0
+[jung] ==> [politik]	0.8633907463694698
+[kapitel, politik] ==> [jung]	1.0
+[jung, kapitel] ==> [politik]	1.0
+[kapitel] ==> [jung, politik]	0.9920477137176938
+[madch, politik] ==> [jung]	0.9942140790742526
+[jung, madch] ==> [politik]	0.985188724319159
+[madch] ==> [jung, politik]	0.9016178399650197
+[mensch, politik] ==> [jung]	0.9460737937559129
+[jung, mensch] ==> [politik]	0.9891196834817013
+[nordamerika, politik] ==> [jung]	1.0
+[jung, nordamerika] ==> [politik]	1.0
+[nordamerika] ==> [jung, politik]	1.0
+[schul] ==> [jung]	0.8911917098445595
+[madch, schul] ==> [jung]	0.999031007751938
+[jung, schul] ==> [madch]	0.999031007751938
+[jung, madch] ==> [schul]	0.985188724319159
+[schul] ==> [jung, madch]	0.8903281519861831
+[madch] ==> [jung, schul]	0.9016178399650197
+[politik, schul] ==> [jung]	0.9763257575757576
+[jung, schul] ==> [politik]	0.999031007751938
+[schul] ==> [jung, politik]	0.8903281519861831
+[somm] ==> [jung]	0.9847764034253093
+[madch, somm] ==> [jung]	0.9990324141267537
+[jung, somm] ==> [madch]	0.9975845410628019
+[jung, madch] ==> [somm]	0.9866220735785953
+[somm] ==> [jung, madch]	0.9823977164605138
+[madch] ==> [jung, somm]	0.9029296020988195
+[politik, somm] ==> [jung]	0.998547215496368
+[jung, somm] ==> [politik]	0.996135265700483
+[somm] ==> [jung, politik]	0.9809705042816366
+[schul, somm] ==> [jung]	1.0
+[jung, somm] ==> [schul]	0.996135265700483
+[jung, schul] ==> [somm]	0.999031007751938
+[schul] ==> [jung, somm]	0.8903281519861831
+[somm] ==> [jung, schul]	0.9809705042816366
+[spiel] ==> [jung]	0.8708860759493671
+[madch, spiel] ==> [jung]	0.9995152690256908
+[jung, spiel] ==> [madch]	0.999031007751938
+[jung, madch] ==> [spiel]	0.985188724319159
+[madch] ==> [jung, spiel]	0.9016178399650197
+[spiel] ==> [jung, madch]	0.870042194092827
+[politik, spiel] ==> [jung]	0.9918308505526189
+[jung, spiel] ==> [politik]	1.0
+[spiel] ==> [jung, politik]	0.8708860759493671
+[schul, spiel] ==> [jung]	1.0
+[jung, spiel] ==> [schul]	0.999031007751938
+[jung, schul] ==> [spiel]	0.999031007751938
+[schul] ==> [jung, spiel]	0.8903281519861831
+[spiel] ==> [jung, schul]	0.870042194092827
+[somm, spiel] ==> [jung]	1.0
+[jung, spiel] ==> [somm]	0.999031007751938
+[jung, somm] ==> [spiel]	0.996135265700483
+[somm] ==> [jung, spiel]	0.9809705042816366
+[spiel] ==> [jung, somm]	0.870042194092827
+[treff] ==> [jung]	0.906969696969697
+[kapitel, treff] ==> [jung]	1.0
+[jung, treff] ==> [kapitel]	1.0
+[jung, kapitel] ==> [treff]	0.9996659986639946
+[kapitel] ==> [jung, treff]	0.991716368455931
+[treff] ==> [jung, kapitel]	0.906969696969697
+[mensch, treff] ==> [jung]	0.9986653319986654
+[jung, treff] ==> [mensch]	1.0
+[jung, mensch] ==> [treff]	0.9868117375535773
+[treff] ==> [jung, mensch]	0.906969696969697
+[nordamerika, treff] ==> [jung]	1.0
+[jung, treff] ==> [nordamerika]	1.0
+[jung, nordamerika] ==> [treff]	0.9996659986639946
+[nordamerika] ==> [jung, treff]	0.9996659986639946
+[treff] ==> [jung, nordamerika]	0.906969696969697
+[politik, treff] ==> [jung]	0.9871372031662269
+[jung, treff] ==> [politik]	1.0
+[treff] ==> [jung, politik]	0.906969696969697
+[kapitel] ==> [mensch]	0.9920477137176938
+[nordamerika] ==> [kapitel]	1.0
+[kapitel] ==> [nordamerika]	0.9920477137176938
+[mensch, nordamerika] ==> [kapitel]	1.0
+[kapitel, nordamerika] ==> [mensch]	1.0
+[kapitel, mensch] ==> [nordamerika]	1.0
+[kapitel] ==> [mensch, nordamerika]	0.9920477137176938
+[nordamerika] ==> [kapitel, mensch]	1.0
+[kapitel] ==> [politik]	0.9920477137176938
+[mensch, politik] ==> [kapitel]	0.9441816461684012
+[kapitel, politik] ==> [mensch]	1.0
+[kapitel, mensch] ==> [politik]	1.0
+[kapitel] ==> [mensch, politik]	0.9920477137176938
+[nordamerika, politik] ==> [kapitel]	1.0
+[kapitel, politik] ==> [nordamerika]	1.0
+[kapitel, nordamerika] ==> [politik]	1.0
+[kapitel] ==> [nordamerika, politik]	0.9920477137176938
+[nordamerika] ==> [kapitel, politik]	1.0
+[treff] ==> [kapitel]	0.906969696969697
+[kapitel] ==> [treff]	0.991716368455931
+[mensch, treff] ==> [kapitel]	0.9986653319986654
+[kapitel, treff] ==> [mensch]	1.0
+[kapitel, mensch] ==> [treff]	0.9996659986639946
+[kapitel] ==> [mensch, treff]	0.991716368455931
+[treff] ==> [kapitel, mensch]	0.906969696969697
+[nordamerika, treff] ==> [kapitel]	1.0
+[kapitel, treff] ==> [nordamerika]	1.0
+[kapitel, nordamerika] ==> [treff]	0.9996659986639946
+[nordamerika] ==> [kapitel, treff]	0.9996659986639946
+[kapitel] ==> [nordamerika, treff]	0.991716368455931
+[treff] ==> [kapitel, nordamerika]	0.906969696969697
+[politik, treff] ==> [kapitel]	0.9871372031662269
+[kapitel, treff] ==> [politik]	1.0
+[kapitel, politik] ==> [treff]	0.9996659986639946
+[treff] ==> [kapitel, politik]	0.906969696969697
+[kapitel] ==> [politik, treff]	0.991716368455931
+[madch] ==> [politik]	0.9068648885002186
+[schul] ==> [madch]	0.8911917098445595
+[madch] ==> [schul]	0.9024923480542195
+[politik, schul] ==> [madch]	0.9763257575757576
+[madch, schul] ==> [politik]	0.999031007751938
+[madch, politik] ==> [schul]	0.9942140790742526
+[schul] ==> [madch, politik]	0.8903281519861831
+[madch] ==> [politik, schul]	0.9016178399650197
+[somm] ==> [madch]	0.9833491912464319
+[madch] ==> [somm]	0.9038041101880192
+[politik, somm] ==> [madch]	0.998547215496368
+[madch, somm] ==> [politik]	0.9975810353168844
+[madch, politik] ==> [somm]	0.9942140790742526
+[somm] ==> [madch, politik]	0.9809705042816366
+[madch] ==> [politik, somm]	0.9016178399650197
+[schul, somm] ==> [madch]	1.0
+[madch, somm] ==> [schul]	0.9975810353168844
+[madch, schul] ==> [somm]	0.999031007751938
+[madch] ==> [schul, somm]	0.9016178399650197
+[schul] ==> [madch, somm]	0.8903281519861831
+[somm] ==> [madch, schul]	0.9809705042816366
+[spiel] ==> [madch]	0.8704641350210971
+[madch] ==> [spiel]	0.9020550940096196
+[politik, spiel] ==> [madch]	0.9908697741470447
+[madch, spiel] ==> [politik]	0.9995152690256908
+[madch, politik] ==> [spiel]	0.9942140790742526
+[spiel] ==> [madch, politik]	0.870042194092827
+[madch] ==> [politik, spiel]	0.9016178399650197
+[schul, spiel] ==> [madch]	1.0
+[madch, spiel] ==> [schul]	0.9995152690256908
+[madch, schul] ==> [spiel]	0.999031007751938
+[schul] ==> [madch, spiel]	0.8903281519861831
+[madch] ==> [schul, spiel]	0.9016178399650197
+[spiel] ==> [madch, schul]	0.870042194092827
+[somm, spiel] ==> [madch]	1.0
+[madch, spiel] ==> [somm]	0.9995152690256908
+[madch, somm] ==> [spiel]	0.9975810353168844
+[somm] ==> [madch, spiel]	0.9809705042816366
+[spiel] ==> [madch, somm]	0.870042194092827
+[madch] ==> [somm, spiel]	0.9016178399650197
+[nordamerika] ==> [mensch]	1.0
+[nordamerika, politik] ==> [mensch]	1.0
+[mensch, politik] ==> [nordamerika]	0.9441816461684012
+[mensch, nordamerika] ==> [politik]	1.0
+[nordamerika] ==> [mensch, politik]	1.0
+[treff] ==> [mensch]	0.9081818181818182
+[nordamerika, treff] ==> [mensch]	1.0
+[mensch, treff] ==> [nordamerika]	0.9986653319986654
+[mensch, nordamerika] ==> [treff]	0.9996659986639946
+[nordamerika] ==> [mensch, treff]	0.9996659986639946
+[treff] ==> [mensch, nordamerika]	0.906969696969697
+[politik, treff] ==> [mensch]	0.9871372031662269
+[mensch, treff] ==> [politik]	0.9986653319986654
+[mensch, politik] ==> [treff]	0.9438662882371491
+[treff] ==> [mensch, politik]	0.906969696969697
+[vergewaltig] ==> [migrant]	0.9816901408450704
+[pegida, vergewaltig] ==> [migrant]	0.9985663082437276
+[migrant, vergewaltig] ==> [pegida]	0.9992826398852224
+[migrant, pegida] ==> [vergewaltig]	0.9858457183297947
+[vergewaltig] ==> [migrant, pegida]	0.9809859154929578
+[weiterstadt] ==> [migrant]	0.9978525411596277
+[pegida, weiterstadt] ==> [migrant]	1.0
+[migrant, weiterstadt] ==> [pegida]	0.9992826398852224
+[migrant, pegida] ==> [weiterstadt]	0.9858457183297947
+[weiterstadt] ==> [migrant, pegida]	0.9971367215461704
+[vergewaltig, weiterstadt] ==> [migrant]	1.0
+[migrant, weiterstadt] ==> [vergewaltig]	1.0
+[migrant, vergewaltig] ==> [weiterstadt]	1.0
+[vergewaltig] ==> [migrant, weiterstadt]	0.9816901408450704
+[weiterstadt] ==> [migrant, vergewaltig]	0.9978525411596277
+[nordamerika] ==> [politik]	1.0
+[treff] ==> [nordamerika]	0.906969696969697
+[nordamerika] ==> [treff]	0.9996659986639946
+[politik, treff] ==> [nordamerika]	0.9871372031662269
+[nordamerika, treff] ==> [politik]	1.0
+[nordamerika, politik] ==> [treff]	0.9996659986639946
+[treff] ==> [nordamerika, politik]	0.906969696969697
+[nordamerika] ==> [politik, treff]	0.9996659986639946
+[vergewaltig] ==> [pegida]	0.9823943661971831
+[weiterstadt] ==> [pegida]	0.9971367215461704
+[vergewaltig, weiterstadt] ==> [pegida]	0.9992826398852224
+[pegida, weiterstadt] ==> [vergewaltig]	1.0
+[pegida, vergewaltig] ==> [weiterstadt]	0.9985663082437276
+[weiterstadt] ==> [pegida, vergewaltig]	0.9971367215461704
+[vergewaltig] ==> [pegida, weiterstadt]	0.9809859154929578
+[schul] ==> [politik]	0.9119170984455959
+[somm] ==> [politik]	0.9823977164605138
+[schul, somm] ==> [politik]	1.0
+[politik, somm] ==> [schul]	0.998547215496368
+[politik, schul] ==> [somm]	0.9763257575757576
+[somm] ==> [politik, schul]	0.9809705042816366
+[schul] ==> [politik, somm]	0.8903281519861831
+[spiel] ==> [politik]	0.8780590717299578
+[schul, spiel] ==> [politik]	1.0
+[politik, spiel] ==> [schul]	0.9908697741470447
+[politik, schul] ==> [spiel]	0.9763257575757576
+[spiel] ==> [politik, schul]	0.870042194092827
+[schul] ==> [politik, spiel]	0.8903281519861831
+[somm, spiel] ==> [politik]	1.0
+[politik, spiel] ==> [somm]	0.9908697741470447
+[politik, somm] ==> [spiel]	0.998547215496368
+[somm] ==> [politik, spiel]	0.9809705042816366
+[spiel] ==> [politik, somm]	0.870042194092827
+[treff] ==> [politik]	0.9187878787878788
+[somm] ==> [schul]	0.9809705042816366
+[schul] ==> [somm]	0.8903281519861831
+[spiel] ==> [schul]	0.870042194092827
+[schul] ==> [spiel]	0.8903281519861831
+[somm, spiel] ==> [schul]	1.0
+[schul, spiel] ==> [somm]	1.0
+[schul, somm] ==> [spiel]	1.0
+[spiel] ==> [schul, somm]	0.870042194092827
+[somm] ==> [schul, spiel]	0.9809705042816366
+[schul] ==> [somm, spiel]	0.8903281519861831
+[spiel] ==> [somm]	0.870042194092827
+[somm] ==> [spiel]	0.9809705042816366
+[ticket] ==> [sportevent]	0.6653404067197171
+[sportevent] ==> [ticket]	1.0
+[sportsevent] ==> [ticket]	1.0
+[weiterstadt] ==> [vergewaltig]	0.9978525411596277
+[vergewaltig] ==> [weiterstadt]	0.9816901408450704

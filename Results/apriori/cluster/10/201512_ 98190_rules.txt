@@ -1,0 +1,433 @@
+[gruss] ==> [afd]	1.0
+[herrn] ==> [afd]	0.9504132231404959
+[gruss, herrn] ==> [afd]	1.0
+[afd, herrn] ==> [gruss]	0.9217391304347826
+[afd, gruss] ==> [herrn]	1.0
+[herrn] ==> [afd, gruss]	0.8760330578512396
+[gruss] ==> [afd, herrn]	1.0
+[hock] ==> [afd]	0.8936170212765957
+[gruss, hock] ==> [afd]	1.0
+[afd, gruss] ==> [hock]	1.0
+[gruss] ==> [afd, hock]	1.0
+[herrn, hock] ==> [afd]	1.0
+[afd, herrn] ==> [hock]	1.0
+[herrn] ==> [afd, hock]	0.9504132231404959
+[petry] ==> [afd]	0.9807692307692307
+[afd] ==> [via]	1.0
+[gruss, via] ==> [afd]	1.0
+[afd, gruss] ==> [via]	1.0
+[gruss] ==> [afd, via]	1.0
+[herrn, via] ==> [afd]	1.0
+[afd, herrn] ==> [via]	1.0
+[herrn] ==> [afd, via]	0.9504132231404959
+[hock, via] ==> [afd]	0.8936170212765957
+[afd, hock] ==> [via]	1.0
+[hock] ==> [afd, via]	0.8936170212765957
+[afd, mehr] ==> [via]	1.0
+[petry, via] ==> [afd]	0.9807692307692307
+[afd, petry] ==> [via]	1.0
+[petry] ==> [afd, via]	0.9807692307692307
+[amp] ==> [via]	1.0
+[angela] ==> [merkel]	0.9279279279279279
+[angela] ==> [via]	1.0
+[angela, via] ==> [merkel]	0.9279279279279279
+[angela, merkel] ==> [via]	1.0
+[angela] ==> [merkel, via]	0.9279279279279279
+[darf] ==> [archiv]	0.7735042735042735
+[archiv] ==> [darf]	0.9945054945054945
+[firm] ==> [archiv]	0.9141414141414141
+[archiv] ==> [firm]	0.9945054945054945
+[darf, firm] ==> [archiv]	1.0
+[archiv, firm] ==> [darf]	1.0
+[archiv, darf] ==> [firm]	1.0
+[archiv] ==> [darf, firm]	0.9945054945054945
+[firm] ==> [archiv, darf]	0.9141414141414141
+[darf] ==> [archiv, firm]	0.7735042735042735
+[freu] ==> [archiv]	0.8701923076923077
+[archiv] ==> [freu]	0.9945054945054945
+[darf, freu] ==> [archiv]	1.0
+[archiv, freu] ==> [darf]	1.0
+[archiv, darf] ==> [freu]	1.0
+[darf] ==> [archiv, freu]	0.7735042735042735
+[freu] ==> [archiv, darf]	0.8701923076923077
+[archiv] ==> [darf, freu]	0.9945054945054945
+[firm, freu] ==> [archiv]	1.0
+[archiv, freu] ==> [firm]	1.0
+[archiv, firm] ==> [freu]	1.0
+[firm] ==> [archiv, freu]	0.9141414141414141
+[archiv] ==> [firm, freu]	0.9945054945054945
+[freu] ==> [archiv, firm]	0.8701923076923077
+[spons] ==> [archiv]	1.0
+[archiv] ==> [spons]	0.9945054945054945
+[darf, spons] ==> [archiv]	1.0
+[archiv, spons] ==> [darf]	1.0
+[archiv, darf] ==> [spons]	1.0
+[archiv] ==> [darf, spons]	0.9945054945054945
+[darf] ==> [archiv, spons]	0.7735042735042735
+[spons] ==> [archiv, darf]	1.0
+[firm, spons] ==> [archiv]	1.0
+[archiv, spons] ==> [firm]	1.0
+[archiv, firm] ==> [spons]	1.0
+[firm] ==> [archiv, spons]	0.9141414141414141
+[archiv] ==> [firm, spons]	0.9945054945054945
+[spons] ==> [archiv, firm]	1.0
+[freu, spons] ==> [archiv]	1.0
+[archiv, spons] ==> [freu]	1.0
+[archiv, freu] ==> [spons]	1.0
+[spons] ==> [archiv, freu]	1.0
+[freu] ==> [archiv, spons]	0.8701923076923077
+[archiv] ==> [freu, spons]	0.9945054945054945
+[archiv] ==> [via]	0.9945054945054945
+[darf, via] ==> [archiv]	0.8497652582159625
+[archiv, via] ==> [darf]	1.0
+[archiv, darf] ==> [via]	1.0
+[darf] ==> [archiv, via]	0.7735042735042735
+[archiv] ==> [darf, via]	0.9945054945054945
+[firm, via] ==> [archiv]	0.9627659574468085
+[archiv, via] ==> [firm]	1.0
+[archiv, firm] ==> [via]	1.0
+[firm] ==> [archiv, via]	0.9141414141414141
+[archiv] ==> [firm, via]	0.9945054945054945
+[freu, via] ==> [archiv]	0.9890710382513661
+[archiv, via] ==> [freu]	1.0
+[archiv, freu] ==> [via]	1.0
+[freu] ==> [archiv, via]	0.8701923076923077
+[archiv] ==> [freu, via]	0.9945054945054945
+[spons, via] ==> [archiv]	1.0
+[archiv, via] ==> [spons]	1.0
+[archiv, spons] ==> [via]	1.0
+[spons] ==> [archiv, via]	1.0
+[archiv] ==> [spons, via]	0.9945054945054945
+[asyl] ==> [via]	0.9962825278810409
+[bundestag] ==> [via]	1.0
+[cdu] ==> [via]	1.0
+[cdu, merkel] ==> [via]	1.0
+[chefin] ==> [via]	0.9904761904761905
+[csu] ==> [via]	1.0
+[firm] ==> [darf]	0.9141414141414141
+[darf] ==> [firm]	0.7735042735042735
+[freu] ==> [darf]	0.8701923076923077
+[darf] ==> [freu]	0.7735042735042735
+[firm, freu] ==> [darf]	1.0
+[darf, freu] ==> [firm]	1.0
+[darf, firm] ==> [freu]	1.0
+[darf] ==> [firm, freu]	0.7735042735042735
+[freu] ==> [darf, firm]	0.8701923076923077
+[firm] ==> [darf, freu]	0.9141414141414141
+[spons] ==> [darf]	1.0
+[darf] ==> [spons]	0.7735042735042735
+[firm, spons] ==> [darf]	1.0
+[darf, spons] ==> [firm]	1.0
+[darf, firm] ==> [spons]	1.0
+[firm] ==> [darf, spons]	0.9141414141414141
+[spons] ==> [darf, firm]	1.0
+[darf] ==> [firm, spons]	0.7735042735042735
+[freu, spons] ==> [darf]	1.0
+[darf, spons] ==> [freu]	1.0
+[darf, freu] ==> [spons]	1.0
+[freu] ==> [darf, spons]	0.8701923076923077
+[darf] ==> [freu, spons]	0.7735042735042735
+[spons] ==> [darf, freu]	1.0
+[darf] ==> [via]	0.9102564102564102
+[firm, via] ==> [darf]	0.9627659574468085
+[darf, via] ==> [firm]	0.8497652582159625
+[darf, firm] ==> [via]	1.0
+[darf] ==> [firm, via]	0.7735042735042735
+[firm] ==> [darf, via]	0.9141414141414141
+[freu, via] ==> [darf]	0.9890710382513661
+[darf, via] ==> [freu]	0.8497652582159625
+[darf, freu] ==> [via]	1.0
+[darf] ==> [freu, via]	0.7735042735042735
+[freu] ==> [darf, via]	0.8701923076923077
+[spons, via] ==> [darf]	1.0
+[darf, via] ==> [spons]	0.8497652582159625
+[darf, spons] ==> [via]	1.0
+[darf] ==> [spons, via]	0.7735042735042735
+[spons] ==> [darf, via]	1.0
+[deutsch] ==> [via]	1.0
+[deutsch, merkel] ==> [via]	1.0
+[krieg] ==> [deutschland]	0.6820512820512821
+[kriegseintritt] ==> [deutschland]	0.9338235294117647
+[krieg, kriegseintritt] ==> [deutschland]	0.951310861423221
+[deutschland, kriegseintritt] ==> [krieg]	1.0
+[deutschland, krieg] ==> [kriegseintritt]	0.9548872180451128
+[kriegseintritt] ==> [deutschland, krieg]	0.9338235294117647
+[krieg] ==> [deutschland, kriegseintritt]	0.6512820512820513
+[nam] ==> [deutschland]	0.7764350453172205
+[krieg, nam] ==> [deutschland]	0.9372693726937269
+[deutschland, nam] ==> [krieg]	0.9883268482490273
+[deutschland, krieg] ==> [nam]	0.9548872180451128
+[nam] ==> [deutschland, krieg]	0.7673716012084593
+[krieg] ==> [deutschland, nam]	0.6512820512820513
+[kriegseintritt, nam] ==> [deutschland]	0.9511278195488722
+[deutschland, nam] ==> [kriegseintritt]	0.9844357976653697
+[deutschland, kriegseintritt] ==> [nam]	0.9960629921259843
+[kriegseintritt] ==> [deutschland, nam]	0.9301470588235294
+[nam] ==> [deutschland, kriegseintritt]	0.7643504531722054
+[petition] ==> [deutschland]	0.8508946322067594
+[krieg, petition] ==> [deutschland]	0.9471698113207547
+[deutschland, krieg] ==> [petition]	0.943609022556391
+[kriegseintritt, petition] ==> [deutschland]	0.9578544061302682
+[deutschland, kriegseintritt] ==> [petition]	0.984251968503937
+[kriegseintritt] ==> [deutschland, petition]	0.9191176470588235
+[nam, petition] ==> [deutschland]	0.9477611940298507
+[deutschland, nam] ==> [petition]	0.9883268482490273
+[nam] ==> [deutschland, petition]	0.7673716012084593
+[unterschrieb] ==> [deutschland]	0.9521531100478469
+[krieg, unterschrieb] ==> [deutschland]	0.96484375
+[deutschland, krieg] ==> [unterschrieb]	0.9285714285714286
+[kriegseintritt, unterschrieb] ==> [deutschland]	0.96484375
+[deutschland, kriegseintritt] ==> [unterschrieb]	0.9724409448818898
+[kriegseintritt] ==> [deutschland, unterschrieb]	0.9080882352941176
+[nam, unterschrieb] ==> [deutschland]	0.96484375
+[deutschland, nam] ==> [unterschrieb]	0.9610894941634242
+[nam] ==> [deutschland, unterschrieb]	0.7462235649546828
+[petition, unterschrieb] ==> [deutschland]	0.9705159705159705
+[deutschland, unterschrieb] ==> [petition]	0.992462311557789
+[deutschland, petition] ==> [unterschrieb]	0.9228971962616822
+[petition] ==> [deutschland, unterschrieb]	0.7852882703777336
+[unterschrieb] ==> [deutschland, petition]	0.9449760765550239
+[deutschland] ==> [via]	0.94609375
+[deutschland, krieg] ==> [via]	0.7406015037593985
+[kriegseintritt, via] ==> [deutschland]	0.925
+[deutschland, kriegseintritt] ==> [via]	0.7283464566929134
+[kriegseintritt] ==> [deutschland, via]	0.6801470588235294
+[nam, via] ==> [deutschland]	0.912621359223301
+[deutschland, nam] ==> [via]	0.7315175097276264
+[petition, via] ==> [deutschland]	0.9252577319587629
+[deutschland, petition] ==> [via]	0.8387850467289719
+[petition] ==> [deutschland, via]	0.7137176938369781
+[unterschrieb, via] ==> [deutschland]	0.9676470588235294
+[deutschland, unterschrieb] ==> [via]	0.8266331658291457
+[unterschrieb] ==> [deutschland, via]	0.7870813397129187
+[dresd] ==> [pegida]	0.8271028037383178
+[dresd] ==> [via]	1.0
+[dresd, via] ==> [pegida]	0.8271028037383178
+[dresd, pegida] ==> [via]	1.0
+[dresd] ==> [pegida, via]	0.8271028037383178
+[europa] ==> [via]	0.9532163742690059
+[freu] ==> [firm]	0.8701923076923077
+[firm] ==> [freu]	0.9141414141414141
+[spons] ==> [firm]	1.0
+[firm] ==> [spons]	0.9141414141414141
+[freu, spons] ==> [firm]	1.0
+[firm, spons] ==> [freu]	1.0
+[firm, freu] ==> [spons]	1.0
+[firm] ==> [freu, spons]	0.9141414141414141
+[spons] ==> [firm, freu]	1.0
+[freu] ==> [firm, spons]	0.8701923076923077
+[firm] ==> [via]	0.9494949494949495
+[freu, via] ==> [firm]	0.9890710382513661
+[firm, via] ==> [freu]	0.9627659574468085
+[firm, freu] ==> [via]	1.0
+[freu] ==> [firm, via]	0.8701923076923077
+[firm] ==> [freu, via]	0.9141414141414141
+[spons, via] ==> [firm]	1.0
+[firm, via] ==> [spons]	0.9627659574468085
+[firm, spons] ==> [via]	1.0
+[spons] ==> [firm, via]	1.0
+[firm] ==> [spons, via]	0.9141414141414141
+[fluchtling] ==> [via]	1.0
+[fluchtling, merkel] ==> [via]	1.0
+[fluchtling, pegida] ==> [via]	1.0
+[fluchtlingskris] ==> [via]	0.823943661971831
+[spons] ==> [freu]	1.0
+[freu] ==> [spons]	0.8701923076923077
+[freu] ==> [via]	0.8798076923076923
+[spons, via] ==> [freu]	1.0
+[freu, via] ==> [spons]	0.9890710382513661
+[freu, spons] ==> [via]	1.0
+[freu] ==> [spons, via]	0.8701923076923077
+[spons] ==> [freu, via]	1.0
+[gibt] ==> [via]	0.9823008849557522
+[grun] ==> [via]	1.0
+[herrn] ==> [gruss]	0.8760330578512396
+[gruss] ==> [herrn]	1.0
+[gruss] ==> [hock]	1.0
+[herrn, hock] ==> [gruss]	0.9217391304347826
+[gruss, hock] ==> [herrn]	1.0
+[gruss, herrn] ==> [hock]	1.0
+[gruss] ==> [herrn, hock]	1.0
+[herrn] ==> [gruss, hock]	0.8760330578512396
+[gruss] ==> [via]	1.0
+[herrn, via] ==> [gruss]	0.9217391304347826
+[gruss, via] ==> [herrn]	1.0
+[gruss, herrn] ==> [via]	1.0
+[gruss] ==> [herrn, via]	1.0
+[herrn] ==> [gruss, via]	0.8760330578512396
+[gruss, via] ==> [hock]	1.0
+[gruss, hock] ==> [via]	1.0
+[gruss] ==> [hock, via]	1.0
+[herrn] ==> [hock]	0.9504132231404959
+[herrn] ==> [via]	0.9504132231404959
+[herrn, via] ==> [hock]	1.0
+[herrn, hock] ==> [via]	1.0
+[herrn] ==> [hock, via]	0.9504132231404959
+[hock] ==> [via]	1.0
+[jahr] ==> [via]	0.9934640522875817
+[kommt] ==> [via]	1.0
+[kriegseintritt] ==> [krieg]	0.9816176470588235
+[krieg] ==> [kriegseintritt]	0.6846153846153846
+[nam] ==> [krieg]	0.8187311178247734
+[krieg] ==> [nam]	0.6948717948717948
+[kriegseintritt, nam] ==> [krieg]	1.0
+[krieg, nam] ==> [kriegseintritt]	0.981549815498155
+[krieg, kriegseintritt] ==> [nam]	0.9962546816479401
+[nam] ==> [krieg, kriegseintritt]	0.8036253776435045
+[krieg] ==> [kriegseintritt, nam]	0.6820512820512821
+[kriegseintritt] ==> [krieg, nam]	0.9779411764705882
+[krieg] ==> [petition]	0.6794871794871795
+[kriegseintritt, petition] ==> [krieg]	1.0
+[krieg, petition] ==> [kriegseintritt]	0.9849056603773585
+[krieg, kriegseintritt] ==> [petition]	0.9775280898876404
+[kriegseintritt] ==> [krieg, petition]	0.9595588235294118
+[krieg] ==> [kriegseintritt, petition]	0.6692307692307692
+[nam, petition] ==> [krieg]	0.9888059701492538
+[krieg, petition] ==> [nam]	1.0
+[krieg, nam] ==> [petition]	0.977859778597786
+[nam] ==> [krieg, petition]	0.8006042296072508
+[krieg] ==> [nam, petition]	0.6794871794871795
+[krieg] ==> [unterschrieb]	0.6564102564102564
+[kriegseintritt, unterschrieb] ==> [krieg]	1.0
+[krieg, unterschrieb] ==> [kriegseintritt]	1.0
+[krieg, kriegseintritt] ==> [unterschrieb]	0.9588014981273408
+[kriegseintritt] ==> [krieg, unterschrieb]	0.9411764705882353
+[krieg] ==> [kriegseintritt, unterschrieb]	0.6564102564102564
+[nam, unterschrieb] ==> [krieg]	1.0
+[krieg, unterschrieb] ==> [nam]	1.0
+[krieg, nam] ==> [unterschrieb]	0.9446494464944649
+[nam] ==> [krieg, unterschrieb]	0.7734138972809668
+[krieg] ==> [nam, unterschrieb]	0.6564102564102564
+[krieg, unterschrieb] ==> [petition]	1.0
+[krieg, petition] ==> [unterschrieb]	0.9660377358490566
+[krieg] ==> [petition, unterschrieb]	0.6564102564102564
+[krieg] ==> [via]	0.823076923076923
+[kriegseintritt, via] ==> [krieg]	0.99
+[krieg, kriegseintritt] ==> [via]	0.7415730337078652
+[kriegseintritt] ==> [krieg, via]	0.7279411764705882
+[nam, via] ==> [krieg]	0.9805825242718447
+[krieg, nam] ==> [via]	0.7453874538745388
+[krieg, petition] ==> [via]	0.7396226415094339
+[krieg, unterschrieb] ==> [via]	0.73046875
+[nam] ==> [kriegseintritt]	0.8036253776435045
+[kriegseintritt] ==> [nam]	0.9779411764705882
+[kriegseintritt] ==> [petition]	0.9595588235294118
+[nam, petition] ==> [kriegseintritt]	0.9738805970149254
+[kriegseintritt, petition] ==> [nam]	1.0
+[kriegseintritt, nam] ==> [petition]	0.981203007518797
+[nam] ==> [kriegseintritt, petition]	0.7885196374622356
+[kriegseintritt] ==> [nam, petition]	0.9595588235294118
+[kriegseintritt] ==> [unterschrieb]	0.9411764705882353
+[nam, unterschrieb] ==> [kriegseintritt]	1.0
+[kriegseintritt, unterschrieb] ==> [nam]	1.0
+[kriegseintritt, nam] ==> [unterschrieb]	0.9624060150375939
+[kriegseintritt] ==> [nam, unterschrieb]	0.9411764705882353
+[nam] ==> [kriegseintritt, unterschrieb]	0.7734138972809668
+[kriegseintritt, unterschrieb] ==> [petition]	1.0
+[kriegseintritt, petition] ==> [unterschrieb]	0.9808429118773946
+[kriegseintritt] ==> [petition, unterschrieb]	0.9411764705882353
+[kriegseintritt] ==> [via]	0.7352941176470589
+[nam, via] ==> [kriegseintritt]	0.9563106796116505
+[kriegseintritt, via] ==> [nam]	0.985
+[kriegseintritt, nam] ==> [via]	0.7406015037593985
+[kriegseintritt] ==> [nam, via]	0.7242647058823529
+[kriegseintritt, via] ==> [petition]	0.96
+[kriegseintritt, petition] ==> [via]	0.735632183908046
+[kriegseintritt] ==> [petition, via]	0.7058823529411765
+[kriegseintritt, via] ==> [unterschrieb]	0.935
+[kriegseintritt, unterschrieb] ==> [via]	0.73046875
+[kriegseintritt] ==> [unterschrieb, via]	0.6875
+[mehr] ==> [via]	0.9964664310954063
+[merkel] ==> [via]	1.0
+[merkelmussweg] ==> [via]	1.0
+[mio] ==> [nopegida]	0.9491525423728814
+[mio] ==> [pegida]	0.9491525423728814
+[mio, pegida] ==> [nopegida]	1.0
+[mio, nopegida] ==> [pegida]	1.0
+[mio] ==> [nopegida, pegida]	0.9491525423728814
+[unterschrift] ==> [mio]	0.9333333333333333
+[mio] ==> [unterschrift]	0.9491525423728814
+[nopegida, unterschrift] ==> [mio]	1.0
+[mio, unterschrift] ==> [nopegida]	1.0
+[mio, nopegida] ==> [unterschrift]	1.0
+[mio] ==> [nopegida, unterschrift]	0.9491525423728814
+[unterschrift] ==> [mio, nopegida]	0.9333333333333333
+[pegida, unterschrift] ==> [mio]	1.0
+[mio, unterschrift] ==> [pegida]	1.0
+[mio, pegida] ==> [unterschrift]	1.0
+[mio] ==> [pegida, unterschrift]	0.9491525423728814
+[unterschrift] ==> [mio, pegida]	0.9333333333333333
+[mio] ==> [via]	1.0
+[mio, via] ==> [nopegida]	0.9491525423728814
+[mio, nopegida] ==> [via]	1.0
+[mio] ==> [nopegida, via]	0.9491525423728814
+[mio, via] ==> [pegida]	0.9491525423728814
+[mio, pegida] ==> [via]	1.0
+[mio] ==> [pegida, via]	0.9491525423728814
+[unterschrift, via] ==> [mio]	0.9333333333333333
+[mio, via] ==> [unterschrift]	0.9491525423728814
+[mio, unterschrift] ==> [via]	1.0
+[unterschrift] ==> [mio, via]	0.9333333333333333
+[mio] ==> [unterschrift, via]	0.9491525423728814
+[nam] ==> [petition]	0.8096676737160121
+[nam] ==> [unterschrieb]	0.7734138972809668
+[nam, unterschrieb] ==> [petition]	1.0
+[nam, petition] ==> [unterschrieb]	0.9552238805970149
+[nam] ==> [petition, unterschrieb]	0.7734138972809668
+[nam, via] ==> [petition]	0.9660194174757282
+[nam, petition] ==> [via]	0.7425373134328358
+[nam, via] ==> [unterschrieb]	0.9077669902912622
+[nam, unterschrieb] ==> [via]	0.73046875
+[neu] ==> [via]	0.9194139194139194
+[nopegida] ==> [pegida]	0.6580645161290323
+[unterschrift] ==> [nopegida]	0.9333333333333333
+[pegida, unterschrift] ==> [nopegida]	1.0
+[nopegida, unterschrift] ==> [pegida]	1.0
+[unterschrift] ==> [nopegida, pegida]	0.9333333333333333
+[nopegida] ==> [via]	1.0
+[nopegida, via] ==> [pegida]	0.6580645161290323
+[nopegida, pegida] ==> [via]	1.0
+[nopegida] ==> [pegida, via]	0.6580645161290323
+[unterschrift, via] ==> [nopegida]	0.9333333333333333
+[nopegida, unterschrift] ==> [via]	1.0
+[unterschrift] ==> [nopegida, via]	0.9333333333333333
+[parteitag] ==> [via]	1.0
+[unterschrift] ==> [pegida]	0.9333333333333333
+[pegida] ==> [via]	1.0
+[unterschrift, via] ==> [pegida]	0.9333333333333333
+[pegida, unterschrift] ==> [via]	1.0
+[unterschrift] ==> [pegida, via]	0.9333333333333333
+[unterschrieb] ==> [petition]	0.9736842105263158
+[petition] ==> [unterschrieb]	0.8091451292246521
+[petition] ==> [via]	0.7713717693836978
+[unterschrieb, via] ==> [petition]	0.9911764705882353
+[petition, via] ==> [unterschrieb]	0.8685567010309279
+[petition, unterschrieb] ==> [via]	0.828009828009828
+[unterschrieb] ==> [petition, via]	0.80622009569378
+[petition] ==> [unterschrieb, via]	0.6699801192842942
+[petry] ==> [via]	1.0
+[politik] ==> [via]	1.0
+[recht] ==> [via]	1.0
+[refugeeswelcom] ==> [via]	1.0
+[sanktion] ==> [russland]	0.8379888268156425
+[russland] ==> [via]	1.0
+[sanktion, via] ==> [russland]	0.8771929824561403
+[russland, sanktion] ==> [via]	1.0
+[sanktion] ==> [russland, via]	0.8379888268156425
+[sachs] ==> [via]	1.0
+[sanktion] ==> [via]	0.9553072625698324
+[spdbpt] ==> [spd]	1.0
+[spd] ==> [via]	1.0
+[spdbpt, via] ==> [spd]	1.0
+[spd, spdbpt] ==> [via]	1.0
+[spdbpt] ==> [spd, via]	1.0
+[spdbpt] ==> [via]	1.0
+[spons] ==> [via]	1.0
+[syri] ==> [via]	1.0
+[turkei] ==> [via]	1.0
+[unterschreib] ==> [via]	0.9230769230769231
+[unterschrieb] ==> [via]	0.8133971291866029
+[unterschrift] ==> [via]	1.0
+[usa] ==> [via]	1.0
+[wahl] ==> [via]	1.0
+[warum] ==> [via]	0.9922480620155039

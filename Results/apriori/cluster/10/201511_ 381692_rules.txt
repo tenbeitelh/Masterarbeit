@@ -1,0 +1,1136 @@
+[500] ==> [recht]	0.7227722772277227
+[9nov] ==> [dresd]	0.841025641025641
+[afd] ==> [dresd]	0.9952267303102625
+[nsu] ==> [afd]	0.8109452736318408
+[dresd, nsu] ==> [afd]	0.9939024390243902
+[afd, nsu] ==> [dresd]	1.0
+[nsu] ==> [afd, dresd]	0.8109452736318408
+[afd] ==> [pegida]	0.8902147971360382
+[afd, pegida] ==> [dresd]	0.9946380697050938
+[afd, dresd] ==> [pegida]	0.8896882494004796
+[afd] ==> [dresd, pegida]	0.8854415274463007
+[nsu, pegida] ==> [afd]	0.8402061855670103
+[afd, nsu] ==> [pegida]	1.0
+[nsu] ==> [afd, pegida]	0.8109452736318408
+[droht] ==> [amp]	0.9234234234234234
+[angriff, droht] ==> [amp]	1.0
+[amp, droht] ==> [angriff]	1.0
+[amp, angriff] ==> [droht]	0.9951456310679612
+[droht] ==> [amp, angriff]	0.9234234234234234
+[feig] ==> [amp]	0.9715639810426541
+[angriff, feig] ==> [amp]	1.0
+[amp, feig] ==> [angriff]	1.0
+[amp, angriff] ==> [feig]	0.9951456310679612
+[feig] ==> [amp, angriff]	0.9715639810426541
+[droht, feig] ==> [amp]	1.0
+[amp, feig] ==> [droht]	1.0
+[amp, droht] ==> [feig]	1.0
+[feig] ==> [amp, droht]	0.9715639810426541
+[droht] ==> [amp, feig]	0.9234234234234234
+[angriff, gewalt] ==> [amp]	0.8836206896551724
+[amp, gewalt] ==> [angriff]	0.9761904761904762
+[amp, angriff] ==> [gewalt]	0.9951456310679612
+[droht, gewalt] ==> [amp]	0.9951456310679612
+[amp, gewalt] ==> [droht]	0.9761904761904762
+[amp, droht] ==> [gewalt]	1.0
+[droht] ==> [amp, gewalt]	0.9234234234234234
+[feig, gewalt] ==> [amp]	1.0
+[amp, gewalt] ==> [feig]	0.9761904761904762
+[amp, feig] ==> [gewalt]	1.0
+[feig] ==> [amp, gewalt]	0.9715639810426541
+[hdp] ==> [amp]	0.9715639810426541
+[angriff, hdp] ==> [amp]	1.0
+[amp, hdp] ==> [angriff]	1.0
+[amp, angriff] ==> [hdp]	0.9951456310679612
+[hdp] ==> [amp, angriff]	0.9715639810426541
+[droht, hdp] ==> [amp]	1.0
+[amp, hdp] ==> [droht]	1.0
+[amp, droht] ==> [hdp]	1.0
+[hdp] ==> [amp, droht]	0.9715639810426541
+[droht] ==> [amp, hdp]	0.9234234234234234
+[feig, hdp] ==> [amp]	1.0
+[amp, hdp] ==> [feig]	1.0
+[amp, feig] ==> [hdp]	1.0
+[feig] ==> [amp, hdp]	0.9715639810426541
+[hdp] ==> [amp, feig]	0.9715639810426541
+[gewalt, hdp] ==> [amp]	1.0
+[amp, hdp] ==> [gewalt]	1.0
+[amp, gewalt] ==> [hdp]	0.9761904761904762
+[hdp] ==> [amp, gewalt]	0.9715639810426541
+[turkei] ==> [amp]	0.9624413145539906
+[angriff, turkei] ==> [amp]	1.0
+[amp, turkei] ==> [angriff]	1.0
+[amp, angriff] ==> [turkei]	0.9951456310679612
+[turkei] ==> [amp, angriff]	0.9624413145539906
+[droht, turkei] ==> [amp]	1.0
+[amp, turkei] ==> [droht]	1.0
+[amp, droht] ==> [turkei]	1.0
+[turkei] ==> [amp, droht]	0.9624413145539906
+[droht] ==> [amp, turkei]	0.9234234234234234
+[feig, turkei] ==> [amp]	1.0
+[amp, turkei] ==> [feig]	1.0
+[amp, feig] ==> [turkei]	1.0
+[turkei] ==> [amp, feig]	0.9624413145539906
+[feig] ==> [amp, turkei]	0.9715639810426541
+[gewalt, turkei] ==> [amp]	1.0
+[amp, turkei] ==> [gewalt]	1.0
+[amp, gewalt] ==> [turkei]	0.9761904761904762
+[turkei] ==> [amp, gewalt]	0.9624413145539906
+[hdp, turkei] ==> [amp]	0.9951456310679612
+[amp, turkei] ==> [hdp]	1.0
+[amp, hdp] ==> [turkei]	1.0
+[turkei] ==> [amp, hdp]	0.9624413145539906
+[hdp] ==> [amp, turkei]	0.9715639810426541
+[verurteil] ==> [amp]	0.9951456310679612
+[angriff, verurteil] ==> [amp]	1.0
+[amp, verurteil] ==> [angriff]	1.0
+[amp, angriff] ==> [verurteil]	0.9951456310679612
+[verurteil] ==> [amp, angriff]	0.9951456310679612
+[droht, verurteil] ==> [amp]	1.0
+[amp, verurteil] ==> [droht]	1.0
+[amp, droht] ==> [verurteil]	1.0
+[verurteil] ==> [amp, droht]	0.9951456310679612
+[droht] ==> [amp, verurteil]	0.9234234234234234
+[feig, verurteil] ==> [amp]	1.0
+[amp, verurteil] ==> [feig]	1.0
+[amp, feig] ==> [verurteil]	1.0
+[feig] ==> [amp, verurteil]	0.9715639810426541
+[verurteil] ==> [amp, feig]	0.9951456310679612
+[gewalt, verurteil] ==> [amp]	1.0
+[amp, verurteil] ==> [gewalt]	1.0
+[amp, gewalt] ==> [verurteil]	0.9761904761904762
+[verurteil] ==> [amp, gewalt]	0.9951456310679612
+[hdp, verurteil] ==> [amp]	1.0
+[amp, verurteil] ==> [hdp]	1.0
+[amp, hdp] ==> [verurteil]	1.0
+[verurteil] ==> [amp, hdp]	0.9951456310679612
+[hdp] ==> [amp, verurteil]	0.9715639810426541
+[turkei, verurteil] ==> [amp]	1.0
+[amp, verurteil] ==> [turkei]	1.0
+[amp, turkei] ==> [verurteil]	1.0
+[turkei] ==> [amp, verurteil]	0.9624413145539906
+[verurteil] ==> [amp, turkei]	0.9951456310679612
+[vorsitzend] ==> [amp]	0.9234234234234234
+[angriff, vorsitzend] ==> [amp]	1.0
+[amp, vorsitzend] ==> [angriff]	1.0
+[amp, angriff] ==> [vorsitzend]	0.9951456310679612
+[vorsitzend] ==> [amp, angriff]	0.9234234234234234
+[droht, vorsitzend] ==> [amp]	1.0
+[amp, vorsitzend] ==> [droht]	1.0
+[amp, droht] ==> [vorsitzend]	1.0
+[vorsitzend] ==> [amp, droht]	0.9234234234234234
+[droht] ==> [amp, vorsitzend]	0.9234234234234234
+[feig, vorsitzend] ==> [amp]	1.0
+[amp, vorsitzend] ==> [feig]	1.0
+[amp, feig] ==> [vorsitzend]	1.0
+[feig] ==> [amp, vorsitzend]	0.9715639810426541
+[vorsitzend] ==> [amp, feig]	0.9234234234234234
+[gewalt, vorsitzend] ==> [amp]	1.0
+[amp, vorsitzend] ==> [gewalt]	1.0
+[amp, gewalt] ==> [vorsitzend]	0.9761904761904762
+[vorsitzend] ==> [amp, gewalt]	0.9234234234234234
+[hdp, vorsitzend] ==> [amp]	0.9761904761904762
+[amp, vorsitzend] ==> [hdp]	1.0
+[amp, hdp] ==> [vorsitzend]	1.0
+[vorsitzend] ==> [amp, hdp]	0.9234234234234234
+[hdp] ==> [amp, vorsitzend]	0.9715639810426541
+[turkei, vorsitzend] ==> [amp]	1.0
+[amp, vorsitzend] ==> [turkei]	1.0
+[amp, turkei] ==> [vorsitzend]	1.0
+[turkei] ==> [amp, vorsitzend]	0.9624413145539906
+[vorsitzend] ==> [amp, turkei]	0.9234234234234234
+[verurteil, vorsitzend] ==> [amp]	1.0
+[amp, vorsitzend] ==> [verurteil]	1.0
+[amp, verurteil] ==> [vorsitzend]	1.0
+[verurteil] ==> [amp, vorsitzend]	0.9951456310679612
+[vorsitzend] ==> [amp, verurteil]	0.9234234234234234
+[droht] ==> [angriff]	0.9234234234234234
+[feig] ==> [angriff]	0.9715639810426541
+[droht, feig] ==> [angriff]	1.0
+[angriff, feig] ==> [droht]	1.0
+[angriff, droht] ==> [feig]	1.0
+[droht] ==> [angriff, feig]	0.9234234234234234
+[feig] ==> [angriff, droht]	0.9715639810426541
+[droht, gewalt] ==> [angriff]	0.9951456310679612
+[angriff, gewalt] ==> [droht]	0.8836206896551724
+[angriff, droht] ==> [gewalt]	1.0
+[droht] ==> [angriff, gewalt]	0.9234234234234234
+[feig, gewalt] ==> [angriff]	1.0
+[angriff, gewalt] ==> [feig]	0.8836206896551724
+[angriff, feig] ==> [gewalt]	1.0
+[feig] ==> [angriff, gewalt]	0.9715639810426541
+[hdp] ==> [angriff]	0.9715639810426541
+[droht, hdp] ==> [angriff]	1.0
+[angriff, hdp] ==> [droht]	1.0
+[angriff, droht] ==> [hdp]	1.0
+[droht] ==> [angriff, hdp]	0.9234234234234234
+[hdp] ==> [angriff, droht]	0.9715639810426541
+[feig, hdp] ==> [angriff]	1.0
+[angriff, hdp] ==> [feig]	1.0
+[angriff, feig] ==> [hdp]	1.0
+[feig] ==> [angriff, hdp]	0.9715639810426541
+[hdp] ==> [angriff, feig]	0.9715639810426541
+[gewalt, hdp] ==> [angriff]	1.0
+[angriff, hdp] ==> [gewalt]	1.0
+[angriff, gewalt] ==> [hdp]	0.8836206896551724
+[hdp] ==> [angriff, gewalt]	0.9715639810426541
+[turkei] ==> [angriff]	0.9624413145539906
+[droht, turkei] ==> [angriff]	1.0
+[angriff, turkei] ==> [droht]	1.0
+[angriff, droht] ==> [turkei]	1.0
+[droht] ==> [angriff, turkei]	0.9234234234234234
+[turkei] ==> [angriff, droht]	0.9624413145539906
+[feig, turkei] ==> [angriff]	1.0
+[angriff, turkei] ==> [feig]	1.0
+[angriff, feig] ==> [turkei]	1.0
+[feig] ==> [angriff, turkei]	0.9715639810426541
+[turkei] ==> [angriff, feig]	0.9624413145539906
+[gewalt, turkei] ==> [angriff]	1.0
+[angriff, turkei] ==> [gewalt]	1.0
+[angriff, gewalt] ==> [turkei]	0.8836206896551724
+[turkei] ==> [angriff, gewalt]	0.9624413145539906
+[hdp, turkei] ==> [angriff]	0.9951456310679612
+[angriff, turkei] ==> [hdp]	1.0
+[angriff, hdp] ==> [turkei]	1.0
+[turkei] ==> [angriff, hdp]	0.9624413145539906
+[hdp] ==> [angriff, turkei]	0.9715639810426541
+[verurteil] ==> [angriff]	0.9951456310679612
+[droht, verurteil] ==> [angriff]	1.0
+[angriff, verurteil] ==> [droht]	1.0
+[angriff, droht] ==> [verurteil]	1.0
+[droht] ==> [angriff, verurteil]	0.9234234234234234
+[verurteil] ==> [angriff, droht]	0.9951456310679612
+[feig, verurteil] ==> [angriff]	1.0
+[angriff, verurteil] ==> [feig]	1.0
+[angriff, feig] ==> [verurteil]	1.0
+[verurteil] ==> [angriff, feig]	0.9951456310679612
+[feig] ==> [angriff, verurteil]	0.9715639810426541
+[gewalt, verurteil] ==> [angriff]	1.0
+[angriff, verurteil] ==> [gewalt]	1.0
+[angriff, gewalt] ==> [verurteil]	0.8836206896551724
+[verurteil] ==> [angriff, gewalt]	0.9951456310679612
+[hdp, verurteil] ==> [angriff]	1.0
+[angriff, verurteil] ==> [hdp]	1.0
+[angriff, hdp] ==> [verurteil]	1.0
+[verurteil] ==> [angriff, hdp]	0.9951456310679612
+[hdp] ==> [angriff, verurteil]	0.9715639810426541
+[turkei, verurteil] ==> [angriff]	1.0
+[angriff, verurteil] ==> [turkei]	1.0
+[angriff, turkei] ==> [verurteil]	1.0
+[verurteil] ==> [angriff, turkei]	0.9951456310679612
+[turkei] ==> [angriff, verurteil]	0.9624413145539906
+[vorsitzend] ==> [angriff]	0.9234234234234234
+[droht, vorsitzend] ==> [angriff]	1.0
+[angriff, vorsitzend] ==> [droht]	1.0
+[angriff, droht] ==> [vorsitzend]	1.0
+[droht] ==> [angriff, vorsitzend]	0.9234234234234234
+[vorsitzend] ==> [angriff, droht]	0.9234234234234234
+[feig, vorsitzend] ==> [angriff]	1.0
+[angriff, vorsitzend] ==> [feig]	1.0
+[angriff, feig] ==> [vorsitzend]	1.0
+[feig] ==> [angriff, vorsitzend]	0.9715639810426541
+[vorsitzend] ==> [angriff, feig]	0.9234234234234234
+[gewalt, vorsitzend] ==> [angriff]	1.0
+[angriff, vorsitzend] ==> [gewalt]	1.0
+[angriff, gewalt] ==> [vorsitzend]	0.8836206896551724
+[vorsitzend] ==> [angriff, gewalt]	0.9234234234234234
+[hdp, vorsitzend] ==> [angriff]	0.9761904761904762
+[angriff, vorsitzend] ==> [hdp]	1.0
+[angriff, hdp] ==> [vorsitzend]	1.0
+[hdp] ==> [angriff, vorsitzend]	0.9715639810426541
+[vorsitzend] ==> [angriff, hdp]	0.9234234234234234
+[turkei, vorsitzend] ==> [angriff]	1.0
+[angriff, vorsitzend] ==> [turkei]	1.0
+[angriff, turkei] ==> [vorsitzend]	1.0
+[turkei] ==> [angriff, vorsitzend]	0.9624413145539906
+[vorsitzend] ==> [angriff, turkei]	0.9234234234234234
+[verurteil, vorsitzend] ==> [angriff]	1.0
+[angriff, vorsitzend] ==> [verurteil]	1.0
+[angriff, verurteil] ==> [vorsitzend]	1.0
+[verurteil] ==> [angriff, vorsitzend]	0.9951456310679612
+[vorsitzend] ==> [angriff, verurteil]	0.9234234234234234
+[asyl] ==> [dresd]	0.6506447831184057
+[asyl, fluchtling] ==> [dresd]	0.9455782312925171
+[bachmann] ==> [dresd]	1.0
+[bachmann] ==> [pegida]	0.8488888888888889
+[bachmann, pegida] ==> [dresd]	1.0
+[bachmann, dresd] ==> [pegida]	0.8488888888888889
+[bachmann] ==> [dresd, pegida]	0.8488888888888889
+[berlin] ==> [dresd]	0.8393782383419689
+[berlin] ==> [pegida]	0.7202072538860104
+[berlin, pegida] ==> [dresd]	1.0
+[berlin, dresd] ==> [pegida]	0.8580246913580247
+[berlin] ==> [dresd, pegida]	0.7202072538860104
+[bild] ==> [dresd]	0.967391304347826
+[bild] ==> [pegida]	0.7771739130434783
+[bild, pegida] ==> [dresd]	1.0
+[bild, dresd] ==> [pegida]	0.8033707865168539
+[bild] ==> [dresd, pegida]	0.7771739130434783
+[burg] ==> [dresd]	0.8052631578947368
+[dass] ==> [recht]	0.6852589641434262
+[dd0911] ==> [dresd]	0.9299820466786356
+[dd0911, herzstatthetz] ==> [dresd]	1.0
+[dd0911] ==> [nopegida]	0.696588868940754
+[dd0911, nopegida] ==> [dresd]	0.9587628865979382
+[dd0911, dresd] ==> [nopegida]	0.7181467181467182
+[dd0911] ==> [dresd, nopegida]	0.6678635547576302
+[dd0911, nopegida] ==> [herzstatthetz]	0.6597938144329897
+[dd0911, herzstatthetz] ==> [nopegida]	0.8448844884488449
+[dd0911, pegida] ==> [dresd]	0.9489795918367347
+[dd2311] ==> [dresd]	0.9545454545454546
+[dd2311] ==> [pegida]	0.7818181818181819
+[dd2311, pegida] ==> [dresd]	0.9709302325581395
+[dd2311, dresd] ==> [pegida]	0.7952380952380952
+[dd2311] ==> [dresd, pegida]	0.759090909090909
+[demo] ==> [dresd]	0.7754868270332188
+[demo] ==> [pegida]	0.6655211912943871
+[demo, pegida] ==> [dresd]	0.9655765920826161
+[demo, dresd] ==> [pegida]	0.8286558345642541
+[demonstration] ==> [dresd]	0.8602150537634409
+[demonstration, nopegida] ==> [dresd]	1.0
+[demonstration, pegida] ==> [dresd]	1.0
+[deutschland] ==> [dresd]	0.6727941176470589
+[endet] ==> [dresd]	0.9941176470588236
+[ermittelt] ==> [dresd]	0.9145299145299145
+[festerling] ==> [dresd]	0.9852507374631269
+[fluchtling] ==> [dresd]	0.7484536082474227
+[frontfrau] ==> [dresd]	1.0
+[festerling, frontfrau] ==> [dresd]	1.0
+[dresd, frontfrau] ==> [festerling]	1.0
+[frontfrau] ==> [dresd, festerling]	1.0
+[furchtbar] ==> [dresd]	0.9828571428571429
+[endet, furchtbar] ==> [dresd]	1.0
+[dresd, furchtbar] ==> [endet]	0.9825581395348837
+[dresd, endet] ==> [furchtbar]	1.0
+[endet] ==> [dresd, furchtbar]	0.9941176470588236
+[furchtbar] ==> [dresd, endet]	0.9657142857142857
+[gepida] ==> [dresd]	0.928030303030303
+[herzstatthetz] ==> [dresd]	0.8818342151675485
+[heut] ==> [dresd]	0.7309458218549127
+[heutig] ==> [dresd]	0.967032967032967
+[hochburg] ==> [dresd]	1.0
+[endet, hochburg] ==> [dresd]	1.0
+[dresd, hochburg] ==> [endet]	0.9883040935672515
+[dresd, endet] ==> [hochburg]	1.0
+[hochburg] ==> [dresd, endet]	0.9883040935672515
+[endet] ==> [dresd, hochburg]	0.9941176470588236
+[furchtbar, hochburg] ==> [dresd]	1.0
+[dresd, hochburg] ==> [furchtbar]	0.9883040935672515
+[dresd, furchtbar] ==> [hochburg]	0.9825581395348837
+[hochburg] ==> [dresd, furchtbar]	0.9883040935672515
+[furchtbar] ==> [dresd, hochburg]	0.9657142857142857
+[http] ==> [dresd]	0.8210526315789474
+[https] ==> [dresd]	0.7682539682539683
+[kaltland] ==> [dresd]	0.6686567164179105
+[kameramann] ==> [dresd]	0.9764705882352941
+[leipzig] ==> [dresd]	0.7216117216117216
+[mal] ==> [dresd]	0.7536656891495601
+[mann] ==> [dresd]	0.7380073800738007
+[endet, mann] ==> [dresd]	1.0
+[dresd, mann] ==> [endet]	0.845
+[dresd, endet] ==> [mann]	1.0
+[endet] ==> [dresd, mann]	0.9941176470588236
+[furchtbar, mann] ==> [dresd]	1.0
+[dresd, mann] ==> [furchtbar]	0.845
+[dresd, furchtbar] ==> [mann]	0.9825581395348837
+[furchtbar] ==> [dresd, mann]	0.9657142857142857
+[hochburg, mann] ==> [dresd]	1.0
+[dresd, mann] ==> [hochburg]	0.845
+[dresd, hochburg] ==> [mann]	0.9883040935672515
+[hochburg] ==> [dresd, mann]	0.9883040935672515
+[mehr] ==> [dresd]	0.6923076923076923
+[mensch] ==> [dresd]	0.728310502283105
+[merkel] ==> [dresd]	0.9826086956521739
+[montag] ==> [dresd]	0.8444444444444444
+[munch] ==> [dresd]	0.9191919191919192
+[nopegida] ==> [dresd]	0.888332691567193
+[gepida, nopegida] ==> [dresd]	0.9266862170087976
+[herzstatthetz, nopegida] ==> [dresd]	0.9491525423728814
+[dresd, herzstatthetz] ==> [nopegida]	0.784
+[herzstatthetz] ==> [dresd, nopegida]	0.691358024691358
+[heut, nopegida] ==> [dresd]	0.8464052287581699
+[kaltland, nopegida] ==> [dresd]	0.9055555555555556
+[dresd, kaltland] ==> [nopegida]	0.7276785714285714
+[novemb] ==> [dresd]	0.9561752988047809
+[endet, novemb] ==> [dresd]	1.0
+[dresd, novemb] ==> [endet]	0.7041666666666667
+[dresd, endet] ==> [novemb]	1.0
+[endet] ==> [dresd, novemb]	0.9941176470588236
+[novemb] ==> [dresd, endet]	0.6733067729083665
+[furchtbar, novemb] ==> [dresd]	1.0
+[dresd, novemb] ==> [furchtbar]	0.7041666666666667
+[dresd, furchtbar] ==> [novemb]	0.9825581395348837
+[furchtbar] ==> [dresd, novemb]	0.9657142857142857
+[novemb] ==> [dresd, furchtbar]	0.6733067729083665
+[hochburg, novemb] ==> [dresd]	1.0
+[dresd, novemb] ==> [hochburg]	0.7041666666666667
+[dresd, hochburg] ==> [novemb]	0.9883040935672515
+[hochburg] ==> [dresd, novemb]	0.9883040935672515
+[novemb] ==> [dresd, hochburg]	0.6733067729083665
+[mann, novemb] ==> [dresd]	1.0
+[dresd, novemb] ==> [mann]	0.7166666666666667
+[dresd, mann] ==> [novemb]	0.86
+[novemb] ==> [dresd, mann]	0.6852589641434262
+[nsu] ==> [dresd]	0.8159203980099502
+[paris] ==> [dresd]	0.6798418972332015
+[pegida] ==> [dresd]	0.917841443080188
+[dresd] ==> [pegida]	0.6794210053859964
+[endet, pegida] ==> [dresd]	1.0
+[dresd, endet] ==> [pegida]	1.0
+[endet] ==> [dresd, pegida]	0.9941176470588236
+[ermittelt, pegida] ==> [dresd]	1.0
+[dresd, ermittelt] ==> [pegida]	0.822429906542056
+[ermittelt] ==> [dresd, pegida]	0.7521367521367521
+[festerling, pegida] ==> [dresd]	1.0
+[dresd, festerling] ==> [pegida]	0.9461077844311377
+[festerling] ==> [dresd, pegida]	0.9321533923303835
+[frontfrau, pegida] ==> [dresd]	1.0
+[dresd, frontfrau] ==> [pegida]	1.0
+[frontfrau] ==> [dresd, pegida]	1.0
+[furchtbar, pegida] ==> [dresd]	1.0
+[dresd, furchtbar] ==> [pegida]	0.9883720930232558
+[furchtbar] ==> [dresd, pegida]	0.9714285714285714
+[gepida, pegida] ==> [dresd]	1.0
+[herzstatthetz, pegida] ==> [dresd]	0.9925650557620818
+[heut, pegida] ==> [dresd]	0.9704918032786886
+[dresd, heut] ==> [pegida]	0.7437185929648241
+[heutig, pegida] ==> [dresd]	0.9887640449438202
+[dresd, heutig] ==> [pegida]	1.0
+[heutig] ==> [dresd, pegida]	0.967032967032967
+[hochburg, pegida] ==> [dresd]	1.0
+[dresd, hochburg] ==> [pegida]	1.0
+[hochburg] ==> [dresd, pegida]	1.0
+[http, pegida] ==> [dresd]	0.9491094147582697
+[dresd, http] ==> [pegida]	0.9564102564102565
+[http] ==> [dresd, pegida]	0.7852631578947369
+[kameramann, pegida] ==> [dresd]	0.9940119760479041
+[dresd, kameramann] ==> [pegida]	1.0
+[kameramann] ==> [dresd, pegida]	0.9764705882352941
+[mal, pegida] ==> [dresd]	0.8818181818181818
+[dresd, mal] ==> [pegida]	0.754863813229572
+[mann, pegida] ==> [dresd]	0.994535519125683
+[dresd, mann] ==> [pegida]	0.91
+[mann] ==> [dresd, pegida]	0.6715867158671587
+[mehr, pegida] ==> [dresd]	0.972972972972973
+[dresd, mehr] ==> [pegida]	0.75
+[mensch, pegida] ==> [dresd]	0.8578431372549019
+[merkel, pegida] ==> [dresd]	0.9777777777777777
+[dresd, merkel] ==> [pegida]	0.7787610619469026
+[merkel] ==> [dresd, pegida]	0.7652173913043478
+[montag, pegida] ==> [dresd]	0.9085365853658537
+[dresd, montag] ==> [pegida]	0.6535087719298246
+[munch, pegida] ==> [dresd]	1.0
+[dresd, munch] ==> [pegida]	0.8351648351648352
+[munch] ==> [dresd, pegida]	0.7676767676767676
+[nopegida, pegida] ==> [dresd]	1.0
+[novemb, pegida] ==> [dresd]	1.0
+[dresd, novemb] ==> [pegida]	0.9458333333333333
+[novemb] ==> [dresd, pegida]	0.9043824701195219
+[nsu, pegida] ==> [dresd]	0.845360824742268
+[dresd, nsu] ==> [pegida]	1.0
+[nsu] ==> [dresd, pegida]	0.8159203980099502
+[paris, pegida] ==> [dresd]	0.7475247524752475
+[dresd, paris] ==> [pegida]	0.877906976744186
+[polizei] ==> [dresd]	0.8326530612244898
+[reinig] ==> [dresd]	1.0
+[endet, reinig] ==> [dresd]	1.0
+[dresd, reinig] ==> [endet]	0.9657142857142857
+[dresd, endet] ==> [reinig]	1.0
+[reinig] ==> [dresd, endet]	0.9657142857142857
+[endet] ==> [dresd, reinig]	0.9941176470588236
+[furchtbar, reinig] ==> [dresd]	1.0
+[dresd, reinig] ==> [furchtbar]	0.9657142857142857
+[dresd, furchtbar] ==> [reinig]	0.9825581395348837
+[reinig] ==> [dresd, furchtbar]	0.9657142857142857
+[furchtbar] ==> [dresd, reinig]	0.9657142857142857
+[hochburg, reinig] ==> [dresd]	1.0
+[dresd, reinig] ==> [hochburg]	0.9657142857142857
+[dresd, hochburg] ==> [reinig]	0.9883040935672515
+[hochburg] ==> [dresd, reinig]	0.9883040935672515
+[reinig] ==> [dresd, hochburg]	0.9657142857142857
+[mann, reinig] ==> [dresd]	1.0
+[dresd, reinig] ==> [mann]	0.9828571428571429
+[dresd, mann] ==> [reinig]	0.86
+[reinig] ==> [dresd, mann]	0.9828571428571429
+[novemb, reinig] ==> [dresd]	1.0
+[dresd, reinig] ==> [novemb]	0.9828571428571429
+[dresd, novemb] ==> [reinig]	0.7166666666666667
+[reinig] ==> [dresd, novemb]	0.9828571428571429
+[novemb] ==> [dresd, reinig]	0.6852589641434262
+[pegida, reinig] ==> [dresd]	1.0
+[dresd, reinig] ==> [pegida]	0.9885714285714285
+[reinig] ==> [dresd, pegida]	0.9885714285714285
+[pegida, sachs] ==> [dresd]	0.9484536082474226
+[schatzung] ==> [dresd]	0.9459459459459459
+[heut, schatzung] ==> [dresd]	0.9032258064516129
+[pegida, schatzung] ==> [dresd]	1.0
+[dresd, schatzung] ==> [pegida]	0.9238095238095239
+[schatzung] ==> [dresd, pegida]	0.8738738738738738
+[schon] ==> [dresd]	0.7743362831858407
+[seit] ==> [dresd]	0.8279569892473119
+[stadt] ==> [dresd]	0.9087947882736156
+[pegida, stadt] ==> [dresd]	0.9901960784313726
+[dresd, stadt] ==> [pegida]	0.7240143369175627
+[stadt] ==> [dresd, pegida]	0.6579804560260586
+[stolperstein] ==> [dresd]	1.0
+[endet, stolperstein] ==> [dresd]	1.0
+[dresd, stolperstein] ==> [endet]	0.757847533632287
+[dresd, endet] ==> [stolperstein]	1.0
+[stolperstein] ==> [dresd, endet]	0.757847533632287
+[endet] ==> [dresd, stolperstein]	0.9941176470588236
+[furchtbar, stolperstein] ==> [dresd]	1.0
+[dresd, stolperstein] ==> [furchtbar]	0.757847533632287
+[dresd, furchtbar] ==> [stolperstein]	0.9825581395348837
+[stolperstein] ==> [dresd, furchtbar]	0.757847533632287
+[furchtbar] ==> [dresd, stolperstein]	0.9657142857142857
+[hochburg, stolperstein] ==> [dresd]	1.0
+[dresd, stolperstein] ==> [hochburg]	0.757847533632287
+[dresd, hochburg] ==> [stolperstein]	0.9883040935672515
+[stolperstein] ==> [dresd, hochburg]	0.757847533632287
+[hochburg] ==> [dresd, stolperstein]	0.9883040935672515
+[mann, stolperstein] ==> [dresd]	1.0
+[dresd, stolperstein] ==> [mann]	0.7802690582959642
+[dresd, mann] ==> [stolperstein]	0.87
+[stolperstein] ==> [dresd, mann]	0.7802690582959642
+[novemb, stolperstein] ==> [dresd]	1.0
+[dresd, stolperstein] ==> [novemb]	0.8295964125560538
+[dresd, novemb] ==> [stolperstein]	0.7708333333333334
+[stolperstein] ==> [dresd, novemb]	0.8295964125560538
+[novemb] ==> [dresd, stolperstein]	0.7370517928286853
+[pegida, stolperstein] ==> [dresd]	1.0
+[dresd, stolperstein] ==> [pegida]	0.9641255605381166
+[stolperstein] ==> [dresd, pegida]	0.9641255605381166
+[reinig, stolperstein] ==> [dresd]	1.0
+[dresd, stolperstein] ==> [reinig]	0.7847533632286996
+[dresd, reinig] ==> [stolperstein]	1.0
+[stolperstein] ==> [dresd, reinig]	0.7847533632286996
+[reinig] ==> [dresd, stolperstein]	1.0
+[strass] ==> [dresd]	0.7007575757575758
+[pegida, strass] ==> [dresd]	0.9861111111111112
+[dresd, strass] ==> [pegida]	0.7675675675675676
+[teilnehm] ==> [dresd]	0.9222222222222223
+[heut, teilnehm] ==> [dresd]	0.9152542372881356
+[pegida, teilnehm] ==> [dresd]	1.0
+[dresd, teilnehm] ==> [pegida]	0.9614457831325302
+[teilnehm] ==> [dresd, pegida]	0.8866666666666667
+[schatzung, teilnehm] ==> [dresd]	0.9162011173184358
+[theaterplatz] ==> [dresd]	0.9914772727272727
+[nopegida, theaterplatz] ==> [dresd]	1.0
+[pegida, theaterplatz] ==> [dresd]	0.9933554817275747
+[dresd, theaterplatz] ==> [pegida]	0.8567335243553008
+[theaterplatz] ==> [dresd, pegida]	0.8494318181818182
+[via] ==> [dresd]	0.9180887372013652
+[pegida, via] ==> [dresd]	0.9910714285714286
+[dresd, via] ==> [pegida]	0.8252788104089219
+[via] ==> [dresd, pegida]	0.757679180887372
+[warum] ==> [dresd]	0.8858447488584474
+[pegida, warum] ==> [dresd]	0.9583333333333334
+[dresd, warum] ==> [pegida]	0.9484536082474226
+[warum] ==> [dresd, pegida]	0.8401826484018264
+[weg] ==> [dresd]	0.9715639810426541
+[wenig] ==> [dresd]	0.9251968503937008
+[pegida, wenig] ==> [dresd]	0.9955357142857143
+[dresd, wenig] ==> [pegida]	0.948936170212766
+[wenig] ==> [dresd, pegida]	0.8779527559055118
+[zulauf] ==> [dresd]	0.9819277108433735
+[feig] ==> [droht]	0.9715639810426541
+[droht] ==> [feig]	0.9234234234234234
+[droht] ==> [gewalt]	0.9279279279279279
+[feig, gewalt] ==> [droht]	1.0
+[droht, gewalt] ==> [feig]	0.9951456310679612
+[droht, feig] ==> [gewalt]	1.0
+[droht] ==> [feig, gewalt]	0.9234234234234234
+[feig] ==> [droht, gewalt]	0.9715639810426541
+[hdp] ==> [droht]	0.9715639810426541
+[droht] ==> [hdp]	0.9234234234234234
+[feig, hdp] ==> [droht]	1.0
+[droht, hdp] ==> [feig]	1.0
+[droht, feig] ==> [hdp]	1.0
+[feig] ==> [droht, hdp]	0.9715639810426541
+[hdp] ==> [droht, feig]	0.9715639810426541
+[droht] ==> [feig, hdp]	0.9234234234234234
+[gewalt, hdp] ==> [droht]	1.0
+[droht, hdp] ==> [gewalt]	1.0
+[droht, gewalt] ==> [hdp]	0.9951456310679612
+[hdp] ==> [droht, gewalt]	0.9715639810426541
+[droht] ==> [gewalt, hdp]	0.9234234234234234
+[turkei] ==> [droht]	0.9624413145539906
+[droht] ==> [turkei]	0.9234234234234234
+[feig, turkei] ==> [droht]	1.0
+[droht, turkei] ==> [feig]	1.0
+[droht, feig] ==> [turkei]	1.0
+[feig] ==> [droht, turkei]	0.9715639810426541
+[turkei] ==> [droht, feig]	0.9624413145539906
+[droht] ==> [feig, turkei]	0.9234234234234234
+[gewalt, turkei] ==> [droht]	1.0
+[droht, turkei] ==> [gewalt]	1.0
+[droht, gewalt] ==> [turkei]	0.9951456310679612
+[droht] ==> [gewalt, turkei]	0.9234234234234234
+[turkei] ==> [droht, gewalt]	0.9624413145539906
+[hdp, turkei] ==> [droht]	0.9951456310679612
+[droht, turkei] ==> [hdp]	1.0
+[droht, hdp] ==> [turkei]	1.0
+[droht] ==> [hdp, turkei]	0.9234234234234234
+[turkei] ==> [droht, hdp]	0.9624413145539906
+[hdp] ==> [droht, turkei]	0.9715639810426541
+[verurteil] ==> [droht]	0.9951456310679612
+[droht] ==> [verurteil]	0.9234234234234234
+[feig, verurteil] ==> [droht]	1.0
+[droht, verurteil] ==> [feig]	1.0
+[droht, feig] ==> [verurteil]	1.0
+[droht] ==> [feig, verurteil]	0.9234234234234234
+[verurteil] ==> [droht, feig]	0.9951456310679612
+[feig] ==> [droht, verurteil]	0.9715639810426541
+[gewalt, verurteil] ==> [droht]	1.0
+[droht, verurteil] ==> [gewalt]	1.0
+[droht, gewalt] ==> [verurteil]	0.9951456310679612
+[droht] ==> [gewalt, verurteil]	0.9234234234234234
+[verurteil] ==> [droht, gewalt]	0.9951456310679612
+[hdp, verurteil] ==> [droht]	1.0
+[droht, verurteil] ==> [hdp]	1.0
+[droht, hdp] ==> [verurteil]	1.0
+[verurteil] ==> [droht, hdp]	0.9951456310679612
+[droht] ==> [hdp, verurteil]	0.9234234234234234
+[hdp] ==> [droht, verurteil]	0.9715639810426541
+[turkei, verurteil] ==> [droht]	1.0
+[droht, verurteil] ==> [turkei]	1.0
+[droht, turkei] ==> [verurteil]	1.0
+[verurteil] ==> [droht, turkei]	0.9951456310679612
+[turkei] ==> [droht, verurteil]	0.9624413145539906
+[droht] ==> [turkei, verurteil]	0.9234234234234234
+[vorsitzend] ==> [droht]	0.9234234234234234
+[droht] ==> [vorsitzend]	0.9234234234234234
+[feig, vorsitzend] ==> [droht]	1.0
+[droht, vorsitzend] ==> [feig]	1.0
+[droht, feig] ==> [vorsitzend]	1.0
+[feig] ==> [droht, vorsitzend]	0.9715639810426541
+[droht] ==> [feig, vorsitzend]	0.9234234234234234
+[vorsitzend] ==> [droht, feig]	0.9234234234234234
+[gewalt, vorsitzend] ==> [droht]	1.0
+[droht, vorsitzend] ==> [gewalt]	1.0
+[droht, gewalt] ==> [vorsitzend]	0.9951456310679612
+[vorsitzend] ==> [droht, gewalt]	0.9234234234234234
+[droht] ==> [gewalt, vorsitzend]	0.9234234234234234
+[hdp, vorsitzend] ==> [droht]	0.9761904761904762
+[droht, vorsitzend] ==> [hdp]	1.0
+[droht, hdp] ==> [vorsitzend]	1.0
+[hdp] ==> [droht, vorsitzend]	0.9715639810426541
+[vorsitzend] ==> [droht, hdp]	0.9234234234234234
+[droht] ==> [hdp, vorsitzend]	0.9234234234234234
+[turkei, vorsitzend] ==> [droht]	1.0
+[droht, vorsitzend] ==> [turkei]	1.0
+[droht, turkei] ==> [vorsitzend]	1.0
+[turkei] ==> [droht, vorsitzend]	0.9624413145539906
+[vorsitzend] ==> [droht, turkei]	0.9234234234234234
+[droht] ==> [turkei, vorsitzend]	0.9234234234234234
+[verurteil, vorsitzend] ==> [droht]	1.0
+[droht, vorsitzend] ==> [verurteil]	1.0
+[droht, verurteil] ==> [vorsitzend]	1.0
+[droht] ==> [verurteil, vorsitzend]	0.9234234234234234
+[verurteil] ==> [droht, vorsitzend]	0.9951456310679612
+[vorsitzend] ==> [droht, verurteil]	0.9234234234234234
+[furchtbar] ==> [endet]	0.9657142857142857
+[endet] ==> [furchtbar]	0.9941176470588236
+[hochburg] ==> [endet]	0.9883040935672515
+[endet] ==> [hochburg]	0.9941176470588236
+[furchtbar, hochburg] ==> [endet]	1.0
+[endet, hochburg] ==> [furchtbar]	1.0
+[endet, furchtbar] ==> [hochburg]	1.0
+[hochburg] ==> [endet, furchtbar]	0.9883040935672515
+[furchtbar] ==> [endet, hochburg]	0.9657142857142857
+[endet] ==> [furchtbar, hochburg]	0.9941176470588236
+[endet] ==> [mann]	0.9941176470588236
+[furchtbar, mann] ==> [endet]	1.0
+[endet, mann] ==> [furchtbar]	1.0
+[endet, furchtbar] ==> [mann]	1.0
+[furchtbar] ==> [endet, mann]	0.9657142857142857
+[endet] ==> [furchtbar, mann]	0.9941176470588236
+[hochburg, mann] ==> [endet]	1.0
+[endet, mann] ==> [hochburg]	1.0
+[endet, hochburg] ==> [mann]	1.0
+[hochburg] ==> [endet, mann]	0.9883040935672515
+[endet] ==> [hochburg, mann]	0.9941176470588236
+[novemb] ==> [endet]	0.6733067729083665
+[endet] ==> [novemb]	0.9941176470588236
+[furchtbar, novemb] ==> [endet]	1.0
+[endet, novemb] ==> [furchtbar]	1.0
+[endet, furchtbar] ==> [novemb]	1.0
+[novemb] ==> [endet, furchtbar]	0.6733067729083665
+[endet] ==> [furchtbar, novemb]	0.9941176470588236
+[furchtbar] ==> [endet, novemb]	0.9657142857142857
+[hochburg, novemb] ==> [endet]	1.0
+[endet, novemb] ==> [hochburg]	1.0
+[endet, hochburg] ==> [novemb]	1.0
+[endet] ==> [hochburg, novemb]	0.9941176470588236
+[novemb] ==> [endet, hochburg]	0.6733067729083665
+[hochburg] ==> [endet, novemb]	0.9883040935672515
+[mann, novemb] ==> [endet]	0.9825581395348837
+[endet, novemb] ==> [mann]	1.0
+[endet, mann] ==> [novemb]	1.0
+[novemb] ==> [endet, mann]	0.6733067729083665
+[endet] ==> [mann, novemb]	0.9941176470588236
+[endet] ==> [pegida]	0.9941176470588236
+[furchtbar, pegida] ==> [endet]	0.9941176470588236
+[endet, pegida] ==> [furchtbar]	1.0
+[endet, furchtbar] ==> [pegida]	1.0
+[furchtbar] ==> [endet, pegida]	0.9657142857142857
+[endet] ==> [furchtbar, pegida]	0.9941176470588236
+[hochburg, pegida] ==> [endet]	0.9883040935672515
+[endet, pegida] ==> [hochburg]	1.0
+[endet, hochburg] ==> [pegida]	1.0
+[endet] ==> [hochburg, pegida]	0.9941176470588236
+[hochburg] ==> [endet, pegida]	0.9883040935672515
+[mann, pegida] ==> [endet]	0.9234972677595629
+[endet, pegida] ==> [mann]	1.0
+[endet, mann] ==> [pegida]	1.0
+[endet] ==> [mann, pegida]	0.9941176470588236
+[novemb, pegida] ==> [endet]	0.7444933920704846
+[endet, pegida] ==> [novemb]	1.0
+[endet, novemb] ==> [pegida]	1.0
+[novemb] ==> [endet, pegida]	0.6733067729083665
+[endet] ==> [novemb, pegida]	0.9941176470588236
+[reinig] ==> [endet]	0.9657142857142857
+[endet] ==> [reinig]	0.9941176470588236
+[furchtbar, reinig] ==> [endet]	1.0
+[endet, reinig] ==> [furchtbar]	1.0
+[endet, furchtbar] ==> [reinig]	1.0
+[reinig] ==> [endet, furchtbar]	0.9657142857142857
+[endet] ==> [furchtbar, reinig]	0.9941176470588236
+[furchtbar] ==> [endet, reinig]	0.9657142857142857
+[hochburg, reinig] ==> [endet]	1.0
+[endet, reinig] ==> [hochburg]	1.0
+[endet, hochburg] ==> [reinig]	1.0
+[hochburg] ==> [endet, reinig]	0.9883040935672515
+[reinig] ==> [endet, hochburg]	0.9657142857142857
+[endet] ==> [hochburg, reinig]	0.9941176470588236
+[mann, reinig] ==> [endet]	0.9825581395348837
+[endet, reinig] ==> [mann]	1.0
+[endet, mann] ==> [reinig]	1.0
+[reinig] ==> [endet, mann]	0.9657142857142857
+[endet] ==> [mann, reinig]	0.9941176470588236
+[novemb, reinig] ==> [endet]	0.9825581395348837
+[endet, reinig] ==> [novemb]	1.0
+[endet, novemb] ==> [reinig]	1.0
+[novemb] ==> [endet, reinig]	0.6733067729083665
+[reinig] ==> [endet, novemb]	0.9657142857142857
+[endet] ==> [novemb, reinig]	0.9941176470588236
+[pegida, reinig] ==> [endet]	0.976878612716763
+[endet, reinig] ==> [pegida]	1.0
+[endet, pegida] ==> [reinig]	1.0
+[reinig] ==> [endet, pegida]	0.9657142857142857
+[endet] ==> [pegida, reinig]	0.9941176470588236
+[stolperstein] ==> [endet]	0.757847533632287
+[endet] ==> [stolperstein]	0.9941176470588236
+[furchtbar, stolperstein] ==> [endet]	1.0
+[endet, stolperstein] ==> [furchtbar]	1.0
+[endet, furchtbar] ==> [stolperstein]	1.0
+[stolperstein] ==> [endet, furchtbar]	0.757847533632287
+[endet] ==> [furchtbar, stolperstein]	0.9941176470588236
+[furchtbar] ==> [endet, stolperstein]	0.9657142857142857
+[hochburg, stolperstein] ==> [endet]	1.0
+[endet, stolperstein] ==> [hochburg]	1.0
+[endet, hochburg] ==> [stolperstein]	1.0
+[stolperstein] ==> [endet, hochburg]	0.757847533632287
+[endet] ==> [hochburg, stolperstein]	0.9941176470588236
+[hochburg] ==> [endet, stolperstein]	0.9883040935672515
+[mann, stolperstein] ==> [endet]	0.9712643678160919
+[endet, stolperstein] ==> [mann]	1.0
+[endet, mann] ==> [stolperstein]	1.0
+[stolperstein] ==> [endet, mann]	0.757847533632287
+[endet] ==> [mann, stolperstein]	0.9941176470588236
+[novemb, stolperstein] ==> [endet]	0.9135135135135135
+[endet, stolperstein] ==> [novemb]	1.0
+[endet, novemb] ==> [stolperstein]	1.0
+[endet] ==> [novemb, stolperstein]	0.9941176470588236
+[stolperstein] ==> [endet, novemb]	0.757847533632287
+[novemb] ==> [endet, stolperstein]	0.6733067729083665
+[pegida, stolperstein] ==> [endet]	0.786046511627907
+[endet, stolperstein] ==> [pegida]	1.0
+[endet, pegida] ==> [stolperstein]	1.0
+[endet] ==> [pegida, stolperstein]	0.9941176470588236
+[stolperstein] ==> [endet, pegida]	0.757847533632287
+[reinig, stolperstein] ==> [endet]	0.9657142857142857
+[endet, stolperstein] ==> [reinig]	1.0
+[endet, reinig] ==> [stolperstein]	1.0
+[stolperstein] ==> [endet, reinig]	0.757847533632287
+[reinig] ==> [endet, stolperstein]	0.9657142857142857
+[endet] ==> [reinig, stolperstein]	0.9941176470588236
+[ermittelt] ==> [pegida]	0.7521367521367521
+[feig] ==> [gewalt]	0.9715639810426541
+[hdp] ==> [feig]	0.9715639810426541
+[feig] ==> [hdp]	0.9715639810426541
+[gewalt, hdp] ==> [feig]	1.0
+[feig, hdp] ==> [gewalt]	1.0
+[feig, gewalt] ==> [hdp]	1.0
+[hdp] ==> [feig, gewalt]	0.9715639810426541
+[feig] ==> [gewalt, hdp]	0.9715639810426541
+[turkei] ==> [feig]	0.9624413145539906
+[feig] ==> [turkei]	0.9715639810426541
+[gewalt, turkei] ==> [feig]	1.0
+[feig, turkei] ==> [gewalt]	1.0
+[feig, gewalt] ==> [turkei]	1.0
+[turkei] ==> [feig, gewalt]	0.9624413145539906
+[feig] ==> [gewalt, turkei]	0.9715639810426541
+[hdp, turkei] ==> [feig]	0.9951456310679612
+[feig, turkei] ==> [hdp]	1.0
+[feig, hdp] ==> [turkei]	1.0
+[feig] ==> [hdp, turkei]	0.9715639810426541
+[hdp] ==> [feig, turkei]	0.9715639810426541
+[turkei] ==> [feig, hdp]	0.9624413145539906
+[verurteil] ==> [feig]	0.9951456310679612
+[feig] ==> [verurteil]	0.9715639810426541
+[gewalt, verurteil] ==> [feig]	1.0
+[feig, verurteil] ==> [gewalt]	1.0
+[feig, gewalt] ==> [verurteil]	1.0
+[verurteil] ==> [feig, gewalt]	0.9951456310679612
+[feig] ==> [gewalt, verurteil]	0.9715639810426541
+[hdp, verurteil] ==> [feig]	1.0
+[feig, verurteil] ==> [hdp]	1.0
+[feig, hdp] ==> [verurteil]	1.0
+[hdp] ==> [feig, verurteil]	0.9715639810426541
+[feig] ==> [hdp, verurteil]	0.9715639810426541
+[verurteil] ==> [feig, hdp]	0.9951456310679612
+[turkei, verurteil] ==> [feig]	1.0
+[feig, verurteil] ==> [turkei]	1.0
+[feig, turkei] ==> [verurteil]	1.0
+[turkei] ==> [feig, verurteil]	0.9624413145539906
+[verurteil] ==> [feig, turkei]	0.9951456310679612
+[feig] ==> [turkei, verurteil]	0.9715639810426541
+[vorsitzend] ==> [feig]	0.9234234234234234
+[feig] ==> [vorsitzend]	0.9715639810426541
+[gewalt, vorsitzend] ==> [feig]	1.0
+[feig, vorsitzend] ==> [gewalt]	1.0
+[feig, gewalt] ==> [vorsitzend]	1.0
+[vorsitzend] ==> [feig, gewalt]	0.9234234234234234
+[feig] ==> [gewalt, vorsitzend]	0.9715639810426541
+[hdp, vorsitzend] ==> [feig]	0.9761904761904762
+[feig, vorsitzend] ==> [hdp]	1.0
+[feig, hdp] ==> [vorsitzend]	1.0
+[hdp] ==> [feig, vorsitzend]	0.9715639810426541
+[vorsitzend] ==> [feig, hdp]	0.9234234234234234
+[feig] ==> [hdp, vorsitzend]	0.9715639810426541
+[turkei, vorsitzend] ==> [feig]	1.0
+[feig, vorsitzend] ==> [turkei]	1.0
+[feig, turkei] ==> [vorsitzend]	1.0
+[turkei] ==> [feig, vorsitzend]	0.9624413145539906
+[vorsitzend] ==> [feig, turkei]	0.9234234234234234
+[feig] ==> [turkei, vorsitzend]	0.9715639810426541
+[verurteil, vorsitzend] ==> [feig]	1.0
+[feig, vorsitzend] ==> [verurteil]	1.0
+[feig, verurteil] ==> [vorsitzend]	1.0
+[feig] ==> [verurteil, vorsitzend]	0.9715639810426541
+[vorsitzend] ==> [feig, verurteil]	0.9234234234234234
+[verurteil] ==> [feig, vorsitzend]	0.9951456310679612
+[frontfrau] ==> [festerling]	1.0
+[festerling] ==> [pegida]	0.9321533923303835
+[frontfrau, pegida] ==> [festerling]	1.0
+[festerling, frontfrau] ==> [pegida]	1.0
+[frontfrau] ==> [festerling, pegida]	1.0
+[frontfrau] ==> [pegida]	1.0
+[hochburg] ==> [furchtbar]	0.9883040935672515
+[furchtbar] ==> [hochburg]	0.9657142857142857
+[furchtbar] ==> [mann]	0.9657142857142857
+[hochburg, mann] ==> [furchtbar]	1.0
+[furchtbar, mann] ==> [hochburg]	1.0
+[furchtbar, hochburg] ==> [mann]	1.0
+[furchtbar] ==> [hochburg, mann]	0.9657142857142857
+[hochburg] ==> [furchtbar, mann]	0.9883040935672515
+[novemb] ==> [furchtbar]	0.6733067729083665
+[furchtbar] ==> [novemb]	0.9657142857142857
+[hochburg, novemb] ==> [furchtbar]	1.0
+[furchtbar, novemb] ==> [hochburg]	1.0
+[furchtbar, hochburg] ==> [novemb]	1.0
+[furchtbar] ==> [hochburg, novemb]	0.9657142857142857
+[hochburg] ==> [furchtbar, novemb]	0.9883040935672515
+[novemb] ==> [furchtbar, hochburg]	0.6733067729083665
+[mann, novemb] ==> [furchtbar]	0.9825581395348837
+[furchtbar, novemb] ==> [mann]	1.0
+[furchtbar, mann] ==> [novemb]	1.0
+[novemb] ==> [furchtbar, mann]	0.6733067729083665
+[furchtbar] ==> [mann, novemb]	0.9657142857142857
+[furchtbar] ==> [pegida]	0.9714285714285714
+[hochburg, pegida] ==> [furchtbar]	0.9883040935672515
+[furchtbar, pegida] ==> [hochburg]	0.9941176470588236
+[furchtbar, hochburg] ==> [pegida]	1.0
+[furchtbar] ==> [hochburg, pegida]	0.9657142857142857
+[hochburg] ==> [furchtbar, pegida]	0.9883040935672515
+[mann, pegida] ==> [furchtbar]	0.9234972677595629
+[furchtbar, pegida] ==> [mann]	0.9941176470588236
+[furchtbar, mann] ==> [pegida]	1.0
+[furchtbar] ==> [mann, pegida]	0.9657142857142857
+[novemb, pegida] ==> [furchtbar]	0.7444933920704846
+[furchtbar, pegida] ==> [novemb]	0.9941176470588236
+[furchtbar, novemb] ==> [pegida]	1.0
+[furchtbar] ==> [novemb, pegida]	0.9657142857142857
+[novemb] ==> [furchtbar, pegida]	0.6733067729083665
+[reinig] ==> [furchtbar]	0.9657142857142857
+[furchtbar] ==> [reinig]	0.9657142857142857
+[hochburg, reinig] ==> [furchtbar]	1.0
+[furchtbar, reinig] ==> [hochburg]	1.0
+[furchtbar, hochburg] ==> [reinig]	1.0
+[hochburg] ==> [furchtbar, reinig]	0.9883040935672515
+[furchtbar] ==> [hochburg, reinig]	0.9657142857142857
+[reinig] ==> [furchtbar, hochburg]	0.9657142857142857
+[mann, reinig] ==> [furchtbar]	0.9825581395348837
+[furchtbar, reinig] ==> [mann]	1.0
+[furchtbar, mann] ==> [reinig]	1.0
+[reinig] ==> [furchtbar, mann]	0.9657142857142857
+[furchtbar] ==> [mann, reinig]	0.9657142857142857
+[novemb, reinig] ==> [furchtbar]	0.9825581395348837
+[furchtbar, reinig] ==> [novemb]	1.0
+[furchtbar, novemb] ==> [reinig]	1.0
+[novemb] ==> [furchtbar, reinig]	0.6733067729083665
+[reinig] ==> [furchtbar, novemb]	0.9657142857142857
+[furchtbar] ==> [novemb, reinig]	0.9657142857142857
+[pegida, reinig] ==> [furchtbar]	0.976878612716763
+[furchtbar, reinig] ==> [pegida]	1.0
+[furchtbar, pegida] ==> [reinig]	0.9941176470588236
+[furchtbar] ==> [pegida, reinig]	0.9657142857142857
+[reinig] ==> [furchtbar, pegida]	0.9657142857142857
+[stolperstein] ==> [furchtbar]	0.757847533632287
+[furchtbar] ==> [stolperstein]	0.9657142857142857
+[hochburg, stolperstein] ==> [furchtbar]	1.0
+[furchtbar, stolperstein] ==> [hochburg]	1.0
+[furchtbar, hochburg] ==> [stolperstein]	1.0
+[furchtbar] ==> [hochburg, stolperstein]	0.9657142857142857
+[hochburg] ==> [furchtbar, stolperstein]	0.9883040935672515
+[stolperstein] ==> [furchtbar, hochburg]	0.757847533632287
+[mann, stolperstein] ==> [furchtbar]	0.9712643678160919
+[furchtbar, stolperstein] ==> [mann]	1.0
+[furchtbar, mann] ==> [stolperstein]	1.0
+[stolperstein] ==> [furchtbar, mann]	0.757847533632287
+[furchtbar] ==> [mann, stolperstein]	0.9657142857142857
+[novemb, stolperstein] ==> [furchtbar]	0.9135135135135135
+[furchtbar, stolperstein] ==> [novemb]	1.0
+[furchtbar, novemb] ==> [stolperstein]	1.0
+[stolperstein] ==> [furchtbar, novemb]	0.757847533632287
+[furchtbar] ==> [novemb, stolperstein]	0.9657142857142857
+[novemb] ==> [furchtbar, stolperstein]	0.6733067729083665
+[pegida, stolperstein] ==> [furchtbar]	0.786046511627907
+[furchtbar, stolperstein] ==> [pegida]	1.0
+[furchtbar, pegida] ==> [stolperstein]	0.9941176470588236
+[furchtbar] ==> [pegida, stolperstein]	0.9657142857142857
+[stolperstein] ==> [furchtbar, pegida]	0.757847533632287
+[reinig, stolperstein] ==> [furchtbar]	0.9657142857142857
+[furchtbar, stolperstein] ==> [reinig]	1.0
+[furchtbar, reinig] ==> [stolperstein]	1.0
+[stolperstein] ==> [furchtbar, reinig]	0.757847533632287
+[reinig] ==> [furchtbar, stolperstein]	0.9657142857142857
+[furchtbar] ==> [reinig, stolperstein]	0.9657142857142857
+[hdp] ==> [gewalt]	0.9715639810426541
+[turkei] ==> [gewalt]	0.9624413145539906
+[hdp, turkei] ==> [gewalt]	0.9951456310679612
+[gewalt, turkei] ==> [hdp]	1.0
+[gewalt, hdp] ==> [turkei]	1.0
+[hdp] ==> [gewalt, turkei]	0.9715639810426541
+[turkei] ==> [gewalt, hdp]	0.9624413145539906
+[verurteil] ==> [gewalt]	0.9951456310679612
+[hdp, verurteil] ==> [gewalt]	1.0
+[gewalt, verurteil] ==> [hdp]	1.0
+[gewalt, hdp] ==> [verurteil]	1.0
+[hdp] ==> [gewalt, verurteil]	0.9715639810426541
+[verurteil] ==> [gewalt, hdp]	0.9951456310679612
+[turkei, verurteil] ==> [gewalt]	1.0
+[gewalt, verurteil] ==> [turkei]	1.0
+[gewalt, turkei] ==> [verurteil]	1.0
+[turkei] ==> [gewalt, verurteil]	0.9624413145539906
+[verurteil] ==> [gewalt, turkei]	0.9951456310679612
+[vorsitzend] ==> [gewalt]	0.9234234234234234
+[hdp, vorsitzend] ==> [gewalt]	0.9761904761904762
+[gewalt, vorsitzend] ==> [hdp]	1.0
+[gewalt, hdp] ==> [vorsitzend]	1.0
+[vorsitzend] ==> [gewalt, hdp]	0.9234234234234234
+[hdp] ==> [gewalt, vorsitzend]	0.9715639810426541
+[turkei, vorsitzend] ==> [gewalt]	1.0
+[gewalt, vorsitzend] ==> [turkei]	1.0
+[gewalt, turkei] ==> [vorsitzend]	1.0
+[vorsitzend] ==> [gewalt, turkei]	0.9234234234234234
+[turkei] ==> [gewalt, vorsitzend]	0.9624413145539906
+[verurteil, vorsitzend] ==> [gewalt]	1.0
+[gewalt, vorsitzend] ==> [verurteil]	1.0
+[gewalt, verurteil] ==> [vorsitzend]	1.0
+[vorsitzend] ==> [gewalt, verurteil]	0.9234234234234234
+[verurteil] ==> [gewalt, vorsitzend]	0.9951456310679612
+[gibt] ==> [recht]	0.6851851851851852
+[turkei] ==> [hdp]	0.9671361502347418
+[hdp] ==> [turkei]	0.976303317535545
+[verurteil] ==> [hdp]	0.9951456310679612
+[hdp] ==> [verurteil]	0.9715639810426541
+[turkei, verurteil] ==> [hdp]	1.0
+[hdp, verurteil] ==> [turkei]	1.0
+[hdp, turkei] ==> [verurteil]	0.9951456310679612
+[verurteil] ==> [hdp, turkei]	0.9951456310679612
+[turkei] ==> [hdp, verurteil]	0.9624413145539906
+[hdp] ==> [turkei, verurteil]	0.9715639810426541
+[vorsitzend] ==> [hdp]	0.9459459459459459
+[hdp] ==> [vorsitzend]	0.995260663507109
+[turkei, vorsitzend] ==> [hdp]	1.0
+[hdp, vorsitzend] ==> [turkei]	0.9761904761904762
+[hdp, turkei] ==> [vorsitzend]	0.9951456310679612
+[vorsitzend] ==> [hdp, turkei]	0.9234234234234234
+[turkei] ==> [hdp, vorsitzend]	0.9624413145539906
+[hdp] ==> [turkei, vorsitzend]	0.9715639810426541
+[verurteil, vorsitzend] ==> [hdp]	1.0
+[hdp, vorsitzend] ==> [verurteil]	0.9761904761904762
+[hdp, verurteil] ==> [vorsitzend]	1.0
+[hdp] ==> [verurteil, vorsitzend]	0.9715639810426541
+[vorsitzend] ==> [hdp, verurteil]	0.9234234234234234
+[verurteil] ==> [hdp, vorsitzend]	0.9951456310679612
+[herzstatthetz] ==> [nopegida]	0.7283950617283951
+[herzstatthetz, pegida] ==> [nopegida]	0.6505576208178439
+[hetz] ==> [recht]	0.7478632478632479
+[heut, schatzung] ==> [pegida]	0.9032258064516129
+[heut, teilnehm] ==> [pegida]	0.9152542372881356
+[heutig] ==> [pegida]	0.978021978021978
+[hochburg] ==> [mann]	0.9883040935672515
+[novemb] ==> [hochburg]	0.6733067729083665
+[hochburg] ==> [novemb]	0.9883040935672515
+[mann, novemb] ==> [hochburg]	0.9825581395348837
+[hochburg, novemb] ==> [mann]	1.0
+[hochburg, mann] ==> [novemb]	1.0
+[novemb] ==> [hochburg, mann]	0.6733067729083665
+[hochburg] ==> [mann, novemb]	0.9883040935672515
+[hochburg] ==> [pegida]	1.0
+[mann, pegida] ==> [hochburg]	0.9234972677595629
+[hochburg, pegida] ==> [mann]	0.9883040935672515
+[hochburg, mann] ==> [pegida]	1.0
+[hochburg] ==> [mann, pegida]	0.9883040935672515
+[novemb, pegida] ==> [hochburg]	0.7444933920704846
+[hochburg, pegida] ==> [novemb]	0.9883040935672515
+[hochburg, novemb] ==> [pegida]	1.0
+[novemb] ==> [hochburg, pegida]	0.6733067729083665
+[hochburg] ==> [novemb, pegida]	0.9883040935672515
+[reinig] ==> [hochburg]	0.9657142857142857
+[hochburg] ==> [reinig]	0.9883040935672515
+[mann, reinig] ==> [hochburg]	0.9825581395348837
+[hochburg, reinig] ==> [mann]	1.0
+[hochburg, mann] ==> [reinig]	1.0
+[reinig] ==> [hochburg, mann]	0.9657142857142857
+[hochburg] ==> [mann, reinig]	0.9883040935672515
+[novemb, reinig] ==> [hochburg]	0.9825581395348837
+[hochburg, reinig] ==> [novemb]	1.0
+[hochburg, novemb] ==> [reinig]	1.0
+[reinig] ==> [hochburg, novemb]	0.9657142857142857
+[novemb] ==> [hochburg, reinig]	0.6733067729083665
+[hochburg] ==> [novemb, reinig]	0.9883040935672515
+[pegida, reinig] ==> [hochburg]	0.976878612716763
+[hochburg, reinig] ==> [pegida]	1.0
+[hochburg, pegida] ==> [reinig]	0.9883040935672515
+[reinig] ==> [hochburg, pegida]	0.9657142857142857
+[hochburg] ==> [pegida, reinig]	0.9883040935672515
+[stolperstein] ==> [hochburg]	0.757847533632287
+[hochburg] ==> [stolperstein]	0.9883040935672515
+[mann, stolperstein] ==> [hochburg]	0.9712643678160919
+[hochburg, stolperstein] ==> [mann]	1.0
+[hochburg, mann] ==> [stolperstein]	1.0
+[stolperstein] ==> [hochburg, mann]	0.757847533632287
+[hochburg] ==> [mann, stolperstein]	0.9883040935672515
+[novemb, stolperstein] ==> [hochburg]	0.9135135135135135
+[hochburg, stolperstein] ==> [novemb]	1.0
+[hochburg, novemb] ==> [stolperstein]	1.0
+[stolperstein] ==> [hochburg, novemb]	0.757847533632287
+[novemb] ==> [hochburg, stolperstein]	0.6733067729083665
+[hochburg] ==> [novemb, stolperstein]	0.9883040935672515
+[pegida, stolperstein] ==> [hochburg]	0.786046511627907
+[hochburg, stolperstein] ==> [pegida]	1.0
+[hochburg, pegida] ==> [stolperstein]	0.9883040935672515
+[stolperstein] ==> [hochburg, pegida]	0.757847533632287
+[hochburg] ==> [pegida, stolperstein]	0.9883040935672515
+[reinig, stolperstein] ==> [hochburg]	0.9657142857142857
+[hochburg, stolperstein] ==> [reinig]	1.0
+[hochburg, reinig] ==> [stolperstein]	1.0
+[stolperstein] ==> [hochburg, reinig]	0.757847533632287
+[reinig] ==> [hochburg, stolperstein]	0.9657142857142857
+[hochburg] ==> [reinig, stolperstein]	0.9883040935672515
+[http] ==> [pegida]	0.8273684210526315
+[kameramann] ==> [pegida]	0.9823529411764705
+[kassmann] ==> [recht]	1.0
+[link] ==> [recht]	0.8693181818181818
+[novemb] ==> [mann]	0.6852589641434262
+[mann] ==> [pegida]	0.6752767527675276
+[novemb, pegida] ==> [mann]	0.7577092511013216
+[mann, pegida] ==> [novemb]	0.9398907103825137
+[mann, novemb] ==> [pegida]	1.0
+[novemb] ==> [mann, pegida]	0.6852589641434262
+[reinig] ==> [mann]	0.9828571428571429
+[novemb, reinig] ==> [mann]	1.0
+[mann, reinig] ==> [novemb]	1.0
+[mann, novemb] ==> [reinig]	1.0
+[reinig] ==> [mann, novemb]	0.9828571428571429
+[novemb] ==> [mann, reinig]	0.6852589641434262
+[pegida, reinig] ==> [mann]	0.9942196531791907
+[mann, reinig] ==> [pegida]	1.0
+[mann, pegida] ==> [reinig]	0.9398907103825137
+[reinig] ==> [mann, pegida]	0.9828571428571429
+[stolperstein] ==> [mann]	0.7802690582959642
+[novemb, stolperstein] ==> [mann]	0.9297297297297298
+[mann, stolperstein] ==> [novemb]	0.9885057471264368
+[mann, novemb] ==> [stolperstein]	1.0
+[stolperstein] ==> [mann, novemb]	0.7713004484304933
+[novemb] ==> [mann, stolperstein]	0.6852589641434262
+[pegida, stolperstein] ==> [mann]	0.8046511627906977
+[mann, stolperstein] ==> [pegida]	0.9942528735632183
+[mann, pegida] ==> [stolperstein]	0.9453551912568307
+[stolperstein] ==> [mann, pegida]	0.7757847533632287
+[reinig, stolperstein] ==> [mann]	0.9828571428571429
+[mann, stolperstein] ==> [reinig]	0.9885057471264368
+[mann, reinig] ==> [stolperstein]	1.0
+[reinig] ==> [mann, stolperstein]	0.9828571428571429
+[stolperstein] ==> [mann, reinig]	0.7713004484304933
+[merkel] ==> [pegida]	0.782608695652174
+[munch] ==> [pegida]	0.7676767676767676
+[nolegida] ==> [nopegida]	0.8670520231213873
+[novemb] ==> [pegida]	0.9043824701195219
+[reinig] ==> [novemb]	0.9828571428571429
+[novemb] ==> [reinig]	0.6852589641434262
+[pegida, reinig] ==> [novemb]	0.9942196531791907
+[novemb, reinig] ==> [pegida]	1.0
+[novemb, pegida] ==> [reinig]	0.7577092511013216
+[reinig] ==> [novemb, pegida]	0.9828571428571429
+[novemb] ==> [pegida, reinig]	0.6852589641434262
+[stolperstein] ==> [novemb]	0.8295964125560538
+[novemb] ==> [stolperstein]	0.7370517928286853
+[pegida, stolperstein] ==> [novemb]	0.8604651162790697
+[novemb, stolperstein] ==> [pegida]	1.0
+[novemb, pegida] ==> [stolperstein]	0.8149779735682819
+[novemb] ==> [pegida, stolperstein]	0.7370517928286853
+[stolperstein] ==> [novemb, pegida]	0.8295964125560538
+[reinig, stolperstein] ==> [novemb]	0.9828571428571429
+[novemb, stolperstein] ==> [reinig]	0.9297297297297298
+[novemb, reinig] ==> [stolperstein]	1.0
+[reinig] ==> [novemb, stolperstein]	0.9828571428571429
+[stolperstein] ==> [novemb, reinig]	0.7713004484304933
+[novemb] ==> [reinig, stolperstein]	0.6852589641434262
+[nsu] ==> [pegida]	0.9651741293532339
+[paris] ==> [pegida]	0.7984189723320159
+[reinig] ==> [pegida]	0.9885714285714285
+[schatzung] ==> [pegida]	0.8738738738738738
+[seit] ==> [pegida]	0.7741935483870968
+[stadt] ==> [pegida]	0.6644951140065146
+[stolperstein] ==> [pegida]	0.9641255605381166
+[reinig, stolperstein] ==> [pegida]	0.9885714285714285
+[pegida, stolperstein] ==> [reinig]	0.8046511627906977
+[pegida, reinig] ==> [stolperstein]	1.0
+[reinig] ==> [pegida, stolperstein]	0.9885714285714285
+[stolperstein] ==> [pegida, reinig]	0.7757847533632287
+[teilnehm] ==> [pegida]	0.8866666666666667
+[schatzung, teilnehm] ==> [pegida]	0.9106145251396648
+[theaterplatz] ==> [pegida]	0.8551136363636364
+[via] ==> [pegida]	0.764505119453925
+[warum] ==> [pegida]	0.8767123287671232
+[wenig] ==> [pegida]	0.8818897637795275
+[refugeeswelcom] ==> [recht]	0.7623066104078763
+[stolperstein] ==> [reinig]	0.7847533632286996
+[reinig] ==> [stolperstein]	1.0
+[verurteil] ==> [turkei]	0.9951456310679612
+[turkei] ==> [verurteil]	0.9624413145539906
+[vorsitzend] ==> [turkei]	0.9234234234234234
+[turkei] ==> [vorsitzend]	0.9624413145539906
+[verurteil, vorsitzend] ==> [turkei]	1.0
+[turkei, vorsitzend] ==> [verurteil]	1.0
+[turkei, verurteil] ==> [vorsitzend]	1.0
+[turkei] ==> [verurteil, vorsitzend]	0.9624413145539906
+[vorsitzend] ==> [turkei, verurteil]	0.9234234234234234
+[verurteil] ==> [turkei, vorsitzend]	0.9951456310679612
+[vorsitzend] ==> [verurteil]	0.9234234234234234
+[verurteil] ==> [vorsitzend]	0.9951456310679612

@@ -1,0 +1,589 @@
+[afd] ==> [merkelmussweg]	1.0
+[afd, merkel] ==> [merkelmussweg]	1.0
+[afd, pegida] ==> [merkelmussweg]	1.0
+[aktion] ==> [merkel]	0.8313253012048193
+[aktion] ==> [merkelmussweg]	0.8433734939759037
+[aktion, merkelmussweg] ==> [merkel]	0.9857142857142858
+[aktion, merkel] ==> [merkelmussweg]	1.0
+[aktion] ==> [merkel, merkelmussweg]	0.8313253012048193
+[taglich] ==> [aktion]	0.8205128205128205
+[aktion] ==> [taglich]	0.7710843373493976
+[merkel, taglich] ==> [aktion]	0.9770992366412213
+[aktion, taglich] ==> [merkel]	1.0
+[aktion, merkel] ==> [taglich]	0.927536231884058
+[aktion] ==> [merkel, taglich]	0.7710843373493976
+[taglich] ==> [aktion, merkel]	0.8205128205128205
+[merkelmussweg, taglich] ==> [aktion]	0.9078014184397163
+[aktion, taglich] ==> [merkelmussweg]	1.0
+[aktion, merkelmussweg] ==> [taglich]	0.9142857142857143
+[taglich] ==> [aktion, merkelmussweg]	0.8205128205128205
+[aktion] ==> [merkelmussweg, taglich]	0.7710843373493976
+[aktion] ==> [uhr]	0.8192771084337349
+[merkel, uhr] ==> [aktion]	0.8047337278106509
+[aktion, uhr] ==> [merkel]	1.0
+[aktion, merkel] ==> [uhr]	0.9855072463768116
+[aktion] ==> [merkel, uhr]	0.8192771084337349
+[aktion, uhr] ==> [merkelmussweg]	1.0
+[aktion, merkelmussweg] ==> [uhr]	0.9714285714285714
+[aktion] ==> [merkelmussweg, uhr]	0.8192771084337349
+[taglich, uhr] ==> [aktion]	1.0
+[aktion, uhr] ==> [taglich]	0.9411764705882353
+[aktion, taglich] ==> [uhr]	1.0
+[aktion] ==> [taglich, uhr]	0.7710843373493976
+[taglich] ==> [aktion, uhr]	0.8205128205128205
+[angela] ==> [merkel]	0.9327731092436975
+[angela] ==> [merkelmussweg]	1.0
+[angela, merkelmussweg] ==> [merkel]	0.9327731092436975
+[angela, merkel] ==> [merkelmussweg]	1.0
+[angela] ==> [merkel, merkelmussweg]	0.9327731092436975
+[bundestag] ==> [annewill]	0.8099173553719008
+[bundestag, genoss] ==> [annewill]	1.0
+[annewill, genoss] ==> [bundestag]	1.0
+[annewill, bundestag] ==> [genoss]	1.0
+[bundestag] ==> [annewill, genoss]	0.8099173553719008
+[gewahlt] ==> [annewill]	0.8990825688073395
+[bundestag, gewahlt] ==> [annewill]	1.0
+[annewill, gewahlt] ==> [bundestag]	1.0
+[annewill, bundestag] ==> [gewahlt]	1.0
+[bundestag] ==> [annewill, gewahlt]	0.8099173553719008
+[gewahlt] ==> [annewill, bundestag]	0.8990825688073395
+[genoss, gewahlt] ==> [annewill]	1.0
+[annewill, gewahlt] ==> [genoss]	1.0
+[annewill, genoss] ==> [gewahlt]	1.0
+[gewahlt] ==> [annewill, genoss]	0.8990825688073395
+[inkompetent] ==> [annewill]	1.0
+[bundestag, inkompetent] ==> [annewill]	1.0
+[annewill, inkompetent] ==> [bundestag]	1.0
+[annewill, bundestag] ==> [inkompetent]	1.0
+[bundestag] ==> [annewill, inkompetent]	0.8099173553719008
+[inkompetent] ==> [annewill, bundestag]	1.0
+[genoss, inkompetent] ==> [annewill]	1.0
+[annewill, inkompetent] ==> [genoss]	1.0
+[annewill, genoss] ==> [inkompetent]	1.0
+[inkompetent] ==> [annewill, genoss]	1.0
+[gewahlt, inkompetent] ==> [annewill]	1.0
+[annewill, inkompetent] ==> [gewahlt]	1.0
+[annewill, gewahlt] ==> [inkompetent]	1.0
+[gewahlt] ==> [annewill, inkompetent]	0.8990825688073395
+[inkompetent] ==> [annewill, gewahlt]	1.0
+[annewill] ==> [merkel]	0.8533724340175953
+[bundestag, merkel] ==> [annewill]	0.8828828828828829
+[annewill, bundestag] ==> [merkel]	1.0
+[bundestag] ==> [annewill, merkel]	0.8099173553719008
+[genoss, merkel] ==> [annewill]	0.6712328767123288
+[annewill, genoss] ==> [merkel]	1.0
+[gewahlt, merkel] ==> [annewill]	0.98
+[annewill, gewahlt] ==> [merkel]	1.0
+[gewahlt] ==> [annewill, merkel]	0.8990825688073395
+[inkompetent, merkel] ==> [annewill]	1.0
+[annewill, inkompetent] ==> [merkel]	1.0
+[inkompetent] ==> [annewill, merkel]	1.0
+[annewill] ==> [merkelmussweg]	1.0
+[bundestag, merkelmussweg] ==> [annewill]	0.8099173553719008
+[annewill, bundestag] ==> [merkelmussweg]	1.0
+[bundestag] ==> [annewill, merkelmussweg]	0.8099173553719008
+[annewill, genoss] ==> [merkelmussweg]	1.0
+[gewahlt, merkelmussweg] ==> [annewill]	0.9423076923076923
+[annewill, gewahlt] ==> [merkelmussweg]	1.0
+[gewahlt] ==> [annewill, merkelmussweg]	0.8990825688073395
+[inkompetent, merkelmussweg] ==> [annewill]	1.0
+[annewill, inkompetent] ==> [merkelmussweg]	1.0
+[inkompetent] ==> [annewill, merkelmussweg]	1.0
+[annewill, merkelmussweg] ==> [merkel]	0.8533724340175953
+[annewill, merkel] ==> [merkelmussweg]	1.0
+[annewill] ==> [merkel, merkelmussweg]	0.8533724340175953
+[person] ==> [annewill]	0.8305084745762712
+[bundestag, person] ==> [annewill]	1.0
+[annewill, person] ==> [bundestag]	1.0
+[annewill, bundestag] ==> [person]	1.0
+[person] ==> [annewill, bundestag]	0.8305084745762712
+[bundestag] ==> [annewill, person]	0.8099173553719008
+[genoss, person] ==> [annewill]	1.0
+[annewill, person] ==> [genoss]	1.0
+[annewill, genoss] ==> [person]	1.0
+[person] ==> [annewill, genoss]	0.8305084745762712
+[gewahlt, person] ==> [annewill]	1.0
+[annewill, person] ==> [gewahlt]	1.0
+[annewill, gewahlt] ==> [person]	1.0
+[person] ==> [annewill, gewahlt]	0.8305084745762712
+[gewahlt] ==> [annewill, person]	0.8990825688073395
+[inkompetent, person] ==> [annewill]	1.0
+[annewill, person] ==> [inkompetent]	1.0
+[annewill, inkompetent] ==> [person]	1.0
+[person] ==> [annewill, inkompetent]	0.8305084745762712
+[inkompetent] ==> [annewill, person]	1.0
+[merkel, person] ==> [annewill]	0.8909090909090909
+[annewill, person] ==> [merkel]	1.0
+[person] ==> [annewill, merkel]	0.8305084745762712
+[merkelmussweg, person] ==> [annewill]	0.8521739130434782
+[annewill, person] ==> [merkelmussweg]	1.0
+[person] ==> [annewill, merkelmussweg]	0.8305084745762712
+[bundestag, wer] ==> [annewill]	1.0
+[annewill, wer] ==> [bundestag]	0.98989898989899
+[annewill, bundestag] ==> [wer]	1.0
+[bundestag] ==> [annewill, wer]	0.8099173553719008
+[genoss, wer] ==> [annewill]	1.0
+[annewill, wer] ==> [genoss]	0.98989898989899
+[annewill, genoss] ==> [wer]	1.0
+[gewahlt, wer] ==> [annewill]	1.0
+[annewill, wer] ==> [gewahlt]	0.98989898989899
+[annewill, gewahlt] ==> [wer]	1.0
+[gewahlt] ==> [annewill, wer]	0.8990825688073395
+[inkompetent, wer] ==> [annewill]	1.0
+[annewill, wer] ==> [inkompetent]	0.98989898989899
+[annewill, inkompetent] ==> [wer]	1.0
+[inkompetent] ==> [annewill, wer]	1.0
+[annewill, wer] ==> [merkel]	1.0
+[annewill, wer] ==> [merkelmussweg]	1.0
+[person, wer] ==> [annewill]	1.0
+[annewill, wer] ==> [person]	0.98989898989899
+[annewill, person] ==> [wer]	1.0
+[person] ==> [annewill, wer]	0.8305084745762712
+[asyl] ==> [merkelmussweg]	1.0
+[asylant] ==> [merkelmussweg]	0.8947368421052632
+[asylchaos] ==> [merkelmussweg]	0.94
+[asylflut] ==> [merkelmussweg]	0.7866666666666666
+[aufnahmestopp] ==> [merkelmussweg]	0.9090909090909091
+[bevor] ==> [merkelmussweg]	0.9541284403669725
+[bundestag] ==> [genoss]	0.8099173553719008
+[gewahlt] ==> [bundestag]	0.8990825688073395
+[bundestag] ==> [gewahlt]	0.8099173553719008
+[genoss, gewahlt] ==> [bundestag]	1.0
+[bundestag, gewahlt] ==> [genoss]	1.0
+[bundestag, genoss] ==> [gewahlt]	1.0
+[gewahlt] ==> [bundestag, genoss]	0.8990825688073395
+[bundestag] ==> [genoss, gewahlt]	0.8099173553719008
+[inkompetent] ==> [bundestag]	1.0
+[bundestag] ==> [inkompetent]	0.8099173553719008
+[genoss, inkompetent] ==> [bundestag]	1.0
+[bundestag, inkompetent] ==> [genoss]	1.0
+[bundestag, genoss] ==> [inkompetent]	1.0
+[inkompetent] ==> [bundestag, genoss]	1.0
+[bundestag] ==> [genoss, inkompetent]	0.8099173553719008
+[gewahlt, inkompetent] ==> [bundestag]	1.0
+[bundestag, inkompetent] ==> [gewahlt]	1.0
+[bundestag, gewahlt] ==> [inkompetent]	1.0
+[bundestag] ==> [gewahlt, inkompetent]	0.8099173553719008
+[inkompetent] ==> [bundestag, gewahlt]	1.0
+[gewahlt] ==> [bundestag, inkompetent]	0.8990825688073395
+[bundestag] ==> [merkel]	0.9173553719008265
+[genoss, merkel] ==> [bundestag]	0.6712328767123288
+[bundestag, merkel] ==> [genoss]	0.8828828828828829
+[bundestag, genoss] ==> [merkel]	1.0
+[bundestag] ==> [genoss, merkel]	0.8099173553719008
+[gewahlt, merkel] ==> [bundestag]	0.98
+[bundestag, merkel] ==> [gewahlt]	0.8828828828828829
+[bundestag, gewahlt] ==> [merkel]	1.0
+[gewahlt] ==> [bundestag, merkel]	0.8990825688073395
+[bundestag] ==> [gewahlt, merkel]	0.8099173553719008
+[inkompetent, merkel] ==> [bundestag]	1.0
+[bundestag, merkel] ==> [inkompetent]	0.8828828828828829
+[bundestag, inkompetent] ==> [merkel]	1.0
+[bundestag] ==> [inkompetent, merkel]	0.8099173553719008
+[inkompetent] ==> [bundestag, merkel]	1.0
+[bundestag] ==> [merkelmussweg]	1.0
+[bundestag, merkelmussweg] ==> [genoss]	0.8099173553719008
+[bundestag, genoss] ==> [merkelmussweg]	1.0
+[bundestag] ==> [genoss, merkelmussweg]	0.8099173553719008
+[gewahlt, merkelmussweg] ==> [bundestag]	0.9423076923076923
+[bundestag, merkelmussweg] ==> [gewahlt]	0.8099173553719008
+[bundestag, gewahlt] ==> [merkelmussweg]	1.0
+[gewahlt] ==> [bundestag, merkelmussweg]	0.8990825688073395
+[bundestag] ==> [gewahlt, merkelmussweg]	0.8099173553719008
+[inkompetent, merkelmussweg] ==> [bundestag]	1.0
+[bundestag, merkelmussweg] ==> [inkompetent]	0.8099173553719008
+[bundestag, inkompetent] ==> [merkelmussweg]	1.0
+[inkompetent] ==> [bundestag, merkelmussweg]	1.0
+[bundestag] ==> [inkompetent, merkelmussweg]	0.8099173553719008
+[bundestag, merkelmussweg] ==> [merkel]	0.9173553719008265
+[bundestag, merkel] ==> [merkelmussweg]	1.0
+[bundestag] ==> [merkel, merkelmussweg]	0.9173553719008265
+[person] ==> [bundestag]	0.8305084745762712
+[bundestag] ==> [person]	0.8099173553719008
+[genoss, person] ==> [bundestag]	1.0
+[bundestag, person] ==> [genoss]	1.0
+[bundestag, genoss] ==> [person]	1.0
+[person] ==> [bundestag, genoss]	0.8305084745762712
+[bundestag] ==> [genoss, person]	0.8099173553719008
+[gewahlt, person] ==> [bundestag]	1.0
+[bundestag, person] ==> [gewahlt]	1.0
+[bundestag, gewahlt] ==> [person]	1.0
+[bundestag] ==> [gewahlt, person]	0.8099173553719008
+[gewahlt] ==> [bundestag, person]	0.8990825688073395
+[person] ==> [bundestag, gewahlt]	0.8305084745762712
+[inkompetent, person] ==> [bundestag]	1.0
+[bundestag, person] ==> [inkompetent]	1.0
+[bundestag, inkompetent] ==> [person]	1.0
+[bundestag] ==> [inkompetent, person]	0.8099173553719008
+[inkompetent] ==> [bundestag, person]	1.0
+[person] ==> [bundestag, inkompetent]	0.8305084745762712
+[merkel, person] ==> [bundestag]	0.8909090909090909
+[bundestag, person] ==> [merkel]	1.0
+[bundestag, merkel] ==> [person]	0.8828828828828829
+[bundestag] ==> [merkel, person]	0.8099173553719008
+[person] ==> [bundestag, merkel]	0.8305084745762712
+[merkelmussweg, person] ==> [bundestag]	0.8521739130434782
+[bundestag, person] ==> [merkelmussweg]	1.0
+[bundestag, merkelmussweg] ==> [person]	0.8099173553719008
+[person] ==> [bundestag, merkelmussweg]	0.8305084745762712
+[bundestag] ==> [merkelmussweg, person]	0.8099173553719008
+[bundestag] ==> [wer]	0.8099173553719008
+[genoss, wer] ==> [bundestag]	1.0
+[bundestag, wer] ==> [genoss]	1.0
+[bundestag, genoss] ==> [wer]	1.0
+[bundestag] ==> [genoss, wer]	0.8099173553719008
+[gewahlt, wer] ==> [bundestag]	1.0
+[bundestag, wer] ==> [gewahlt]	1.0
+[bundestag, gewahlt] ==> [wer]	1.0
+[bundestag] ==> [gewahlt, wer]	0.8099173553719008
+[gewahlt] ==> [bundestag, wer]	0.8990825688073395
+[inkompetent, wer] ==> [bundestag]	1.0
+[bundestag, wer] ==> [inkompetent]	1.0
+[bundestag, inkompetent] ==> [wer]	1.0
+[bundestag] ==> [inkompetent, wer]	0.8099173553719008
+[inkompetent] ==> [bundestag, wer]	1.0
+[bundestag, wer] ==> [merkel]	1.0
+[bundestag, merkel] ==> [wer]	0.8828828828828829
+[bundestag] ==> [merkel, wer]	0.8099173553719008
+[bundestag, wer] ==> [merkelmussweg]	1.0
+[bundestag, merkelmussweg] ==> [wer]	0.8099173553719008
+[bundestag] ==> [merkelmussweg, wer]	0.8099173553719008
+[person, wer] ==> [bundestag]	1.0
+[bundestag, wer] ==> [person]	1.0
+[bundestag, person] ==> [wer]	1.0
+[bundestag] ==> [person, wer]	0.8099173553719008
+[person] ==> [bundestag, wer]	0.8305084745762712
+[burg] ==> [merkel]	0.6507936507936508
+[burg] ==> [merkelmussweg]	0.9761904761904762
+[burg, merkelmussweg] ==> [merkel]	0.6666666666666666
+[burg, merkel] ==> [merkelmussweg]	1.0
+[burg] ==> [merkel, merkelmussweg]	0.6507936507936508
+[csu, merkel] ==> [cdu]	0.6833333333333333
+[cdu, fluchtling] ==> [merkel]	0.6712328767123288
+[cdu] ==> [merkelmussweg]	1.0
+[cdu, csu] ==> [merkelmussweg]	1.0
+[cdu, fluchtling] ==> [merkelmussweg]	1.0
+[cdu, merkel] ==> [merkelmussweg]	1.0
+[cdu, spd] ==> [merkelmussweg]	1.0
+[csu] ==> [merkelmussweg]	1.0
+[csu, merkel] ==> [merkelmussweg]	1.0
+[dank] ==> [merkelmussweg]	0.9895833333333334
+[dass] ==> [merkelmussweg]	1.0
+[deutsch] ==> [merkelmussweg]	1.0
+[deutschland] ==> [merkelmussweg]	1.0
+[deutschland, merkel] ==> [merkelmussweg]	1.0
+[endlich] ==> [merkelmussweg]	0.949438202247191
+[europa] ==> [merkelmussweg]	1.0
+[flucht] ==> [fluchtling]	0.8244274809160306
+[flucht] ==> [merkelmussweg]	0.9236641221374046
+[flucht, merkelmussweg] ==> [fluchtling]	0.8925619834710744
+[flucht, fluchtling] ==> [merkelmussweg]	1.0
+[flucht] ==> [fluchtling, merkelmussweg]	0.8244274809160306
+[fluchtling] ==> [merkelmussweg]	1.0
+[fluchtling, invasion] ==> [merkelmussweg]	1.0
+[fluchtling, merkel] ==> [merkelmussweg]	1.0
+[fluchtlingskris] ==> [merkelmussweg]	1.0
+[fluchtlingspolitik] ==> [merkelmussweg]	1.0
+[ford] ==> [merkelmussweg]	0.9540229885057471
+[frag] ==> [merkelmussweg]	0.99
+[frau] ==> [merkel]	0.7762237762237763
+[frau] ==> [merkelmussweg]	1.0
+[frau, merkelmussweg] ==> [merkel]	0.7762237762237763
+[frau, merkel] ==> [merkelmussweg]	1.0
+[frau] ==> [merkel, merkelmussweg]	0.7762237762237763
+[friedensnobelpreis] ==> [merkel]	0.6524822695035462
+[friedensnobelpreis] ==> [merkelmussweg]	1.0
+[friedensnobelpreis, merkelmussweg] ==> [merkel]	0.6524822695035462
+[friedensnobelpreis, merkel] ==> [merkelmussweg]	1.0
+[friedensnobelpreis] ==> [merkel, merkelmussweg]	0.6524822695035462
+[ganz] ==> [merkelmussweg]	0.9830508474576272
+[geht] ==> [merkelmussweg]	1.0
+[gewahlt] ==> [genoss]	0.8990825688073395
+[inkompetent] ==> [genoss]	1.0
+[gewahlt, inkompetent] ==> [genoss]	1.0
+[genoss, inkompetent] ==> [gewahlt]	1.0
+[genoss, gewahlt] ==> [inkompetent]	1.0
+[gewahlt] ==> [genoss, inkompetent]	0.8990825688073395
+[inkompetent] ==> [genoss, gewahlt]	1.0
+[genoss] ==> [merkel]	0.9012345679012346
+[gewahlt, merkel] ==> [genoss]	0.98
+[genoss, merkel] ==> [gewahlt]	0.6712328767123288
+[genoss, gewahlt] ==> [merkel]	1.0
+[gewahlt] ==> [genoss, merkel]	0.8990825688073395
+[inkompetent, merkel] ==> [genoss]	1.0
+[genoss, merkel] ==> [inkompetent]	0.6712328767123288
+[genoss, inkompetent] ==> [merkel]	1.0
+[inkompetent] ==> [genoss, merkel]	1.0
+[genoss] ==> [merkelmussweg]	0.9320987654320988
+[gewahlt, merkelmussweg] ==> [genoss]	0.9423076923076923
+[genoss, gewahlt] ==> [merkelmussweg]	1.0
+[gewahlt] ==> [genoss, merkelmussweg]	0.8990825688073395
+[inkompetent, merkelmussweg] ==> [genoss]	1.0
+[genoss, inkompetent] ==> [merkelmussweg]	1.0
+[inkompetent] ==> [genoss, merkelmussweg]	1.0
+[genoss, merkelmussweg] ==> [merkel]	0.9668874172185431
+[genoss, merkel] ==> [merkelmussweg]	1.0
+[genoss] ==> [merkel, merkelmussweg]	0.9012345679012346
+[person] ==> [genoss]	0.8305084745762712
+[gewahlt, person] ==> [genoss]	1.0
+[genoss, person] ==> [gewahlt]	1.0
+[genoss, gewahlt] ==> [person]	1.0
+[gewahlt] ==> [genoss, person]	0.8990825688073395
+[person] ==> [genoss, gewahlt]	0.8305084745762712
+[inkompetent, person] ==> [genoss]	1.0
+[genoss, person] ==> [inkompetent]	1.0
+[genoss, inkompetent] ==> [person]	1.0
+[person] ==> [genoss, inkompetent]	0.8305084745762712
+[inkompetent] ==> [genoss, person]	1.0
+[merkel, person] ==> [genoss]	0.8909090909090909
+[genoss, person] ==> [merkel]	1.0
+[genoss, merkel] ==> [person]	0.6712328767123288
+[person] ==> [genoss, merkel]	0.8305084745762712
+[merkelmussweg, person] ==> [genoss]	0.8521739130434782
+[genoss, person] ==> [merkelmussweg]	1.0
+[person] ==> [genoss, merkelmussweg]	0.8305084745762712
+[gewahlt, wer] ==> [genoss]	1.0
+[genoss, wer] ==> [gewahlt]	1.0
+[genoss, gewahlt] ==> [wer]	1.0
+[gewahlt] ==> [genoss, wer]	0.8990825688073395
+[inkompetent, wer] ==> [genoss]	1.0
+[genoss, wer] ==> [inkompetent]	1.0
+[genoss, inkompetent] ==> [wer]	1.0
+[inkompetent] ==> [genoss, wer]	1.0
+[genoss, wer] ==> [merkel]	1.0
+[genoss, merkel] ==> [wer]	0.6712328767123288
+[genoss, wer] ==> [merkelmussweg]	1.0
+[person, wer] ==> [genoss]	1.0
+[genoss, wer] ==> [person]	1.0
+[genoss, person] ==> [wer]	1.0
+[person] ==> [genoss, wer]	0.8305084745762712
+[inkompetent] ==> [gewahlt]	1.0
+[gewahlt] ==> [inkompetent]	0.8990825688073395
+[gewahlt] ==> [merkel]	0.9174311926605505
+[inkompetent, merkel] ==> [gewahlt]	1.0
+[gewahlt, merkel] ==> [inkompetent]	0.98
+[gewahlt, inkompetent] ==> [merkel]	1.0
+[gewahlt] ==> [inkompetent, merkel]	0.8990825688073395
+[inkompetent] ==> [gewahlt, merkel]	1.0
+[gewahlt] ==> [merkelmussweg]	0.9541284403669725
+[inkompetent, merkelmussweg] ==> [gewahlt]	1.0
+[gewahlt, merkelmussweg] ==> [inkompetent]	0.9423076923076923
+[gewahlt, inkompetent] ==> [merkelmussweg]	1.0
+[gewahlt] ==> [inkompetent, merkelmussweg]	0.8990825688073395
+[inkompetent] ==> [gewahlt, merkelmussweg]	1.0
+[gewahlt, merkelmussweg] ==> [merkel]	0.9615384615384616
+[gewahlt, merkel] ==> [merkelmussweg]	1.0
+[gewahlt] ==> [merkel, merkelmussweg]	0.9174311926605505
+[person] ==> [gewahlt]	0.8305084745762712
+[gewahlt] ==> [person]	0.8990825688073395
+[inkompetent, person] ==> [gewahlt]	1.0
+[gewahlt, person] ==> [inkompetent]	1.0
+[gewahlt, inkompetent] ==> [person]	1.0
+[person] ==> [gewahlt, inkompetent]	0.8305084745762712
+[inkompetent] ==> [gewahlt, person]	1.0
+[gewahlt] ==> [inkompetent, person]	0.8990825688073395
+[merkel, person] ==> [gewahlt]	0.8909090909090909
+[gewahlt, person] ==> [merkel]	1.0
+[gewahlt, merkel] ==> [person]	0.98
+[gewahlt] ==> [merkel, person]	0.8990825688073395
+[person] ==> [gewahlt, merkel]	0.8305084745762712
+[merkelmussweg, person] ==> [gewahlt]	0.8521739130434782
+[gewahlt, person] ==> [merkelmussweg]	1.0
+[gewahlt, merkelmussweg] ==> [person]	0.9423076923076923
+[person] ==> [gewahlt, merkelmussweg]	0.8305084745762712
+[gewahlt] ==> [merkelmussweg, person]	0.8990825688073395
+[gewahlt] ==> [wer]	0.8990825688073395
+[inkompetent, wer] ==> [gewahlt]	1.0
+[gewahlt, wer] ==> [inkompetent]	1.0
+[gewahlt, inkompetent] ==> [wer]	1.0
+[inkompetent] ==> [gewahlt, wer]	1.0
+[gewahlt] ==> [inkompetent, wer]	0.8990825688073395
+[gewahlt, wer] ==> [merkel]	1.0
+[gewahlt, merkel] ==> [wer]	0.98
+[gewahlt] ==> [merkel, wer]	0.8990825688073395
+[gewahlt, wer] ==> [merkelmussweg]	1.0
+[gewahlt, merkelmussweg] ==> [wer]	0.9423076923076923
+[gewahlt] ==> [merkelmussweg, wer]	0.8990825688073395
+[person, wer] ==> [gewahlt]	1.0
+[gewahlt, wer] ==> [person]	1.0
+[gewahlt, person] ==> [wer]	1.0
+[gewahlt] ==> [person, wer]	0.8990825688073395
+[person] ==> [gewahlt, wer]	0.8305084745762712
+[grenz] ==> [merkelmussweg]	1.0
+[grun] ==> [merkelmussweg]	1.0
+[gut] ==> [merkelmussweg]	0.967479674796748
+[heut] ==> [merkelmussweg]	1.0
+[https] ==> [merkelmussweg]	1.0
+[https, merkel] ==> [merkelmussweg]	1.0
+[imm] ==> [merkelmussweg]	0.9923076923076923
+[inkompetent] ==> [merkel]	1.0
+[inkompetent] ==> [merkelmussweg]	1.0
+[inkompetent, merkelmussweg] ==> [merkel]	1.0
+[inkompetent, merkel] ==> [merkelmussweg]	1.0
+[inkompetent] ==> [merkel, merkelmussweg]	1.0
+[person] ==> [inkompetent]	0.8305084745762712
+[inkompetent] ==> [person]	1.0
+[merkel, person] ==> [inkompetent]	0.8909090909090909
+[inkompetent, person] ==> [merkel]	1.0
+[inkompetent, merkel] ==> [person]	1.0
+[inkompetent] ==> [merkel, person]	1.0
+[person] ==> [inkompetent, merkel]	0.8305084745762712
+[merkelmussweg, person] ==> [inkompetent]	0.8521739130434782
+[inkompetent, person] ==> [merkelmussweg]	1.0
+[inkompetent, merkelmussweg] ==> [person]	1.0
+[person] ==> [inkompetent, merkelmussweg]	0.8305084745762712
+[inkompetent] ==> [merkelmussweg, person]	1.0
+[inkompetent] ==> [wer]	1.0
+[inkompetent, wer] ==> [merkel]	1.0
+[inkompetent, merkel] ==> [wer]	1.0
+[inkompetent] ==> [merkel, wer]	1.0
+[inkompetent, wer] ==> [merkelmussweg]	1.0
+[inkompetent, merkelmussweg] ==> [wer]	1.0
+[inkompetent] ==> [merkelmussweg, wer]	1.0
+[person, wer] ==> [inkompetent]	1.0
+[inkompetent, wer] ==> [person]	1.0
+[inkompetent, person] ==> [wer]	1.0
+[inkompetent] ==> [person, wer]	1.0
+[person] ==> [inkompetent, wer]	0.8305084745762712
+[invasion] ==> [merkelmussweg]	0.7189189189189189
+[invasion, merkelmussweg] ==> [merkel]	0.6766917293233082
+[invasion, merkel] ==> [merkelmussweg]	1.0
+[kanzlerin] ==> [merkelmussweg]	1.0
+[kanzlerin, merkel] ==> [merkelmussweg]	1.0
+[klar] ==> [merkelmussweg]	1.0
+[kommt] ==> [merkelmussweg]	0.9701492537313433
+[land] ==> [merkelmussweg]	1.0
+[lass] ==> [merkelmussweg]	1.0
+[lasst] ==> [merkelmussweg]	0.9572649572649573
+[macht] ==> [merkelmussweg]	0.9668508287292817
+[macht, merkel] ==> [merkelmussweg]	1.0
+[mal] ==> [merkelmussweg]	1.0
+[mehr] ==> [merkelmussweg]	1.0
+[mehr, merkel] ==> [merkelmussweg]	1.0
+[merkel] ==> [merkelmussweg]	1.0
+[merkel, pegida] ==> [merkelmussweg]	1.0
+[person] ==> [merkel]	0.9322033898305084
+[merkelmussweg, person] ==> [merkel]	0.9565217391304348
+[merkel, person] ==> [merkelmussweg]	1.0
+[person] ==> [merkel, merkelmussweg]	0.9322033898305084
+[merkelmussweg, refugeesnotwelcom] ==> [merkel]	0.7124183006535948
+[merkel, refugeesnotwelcom] ==> [merkelmussweg]	1.0
+[rucktritt] ==> [merkel]	0.9476190476190476
+[merkelmussweg, rucktritt] ==> [merkel]	0.9851485148514851
+[merkel, rucktritt] ==> [merkelmussweg]	1.0
+[rucktritt] ==> [merkel, merkelmussweg]	0.9476190476190476
+[merkel, schaff] ==> [merkelmussweg]	1.0
+[merkel, schon] ==> [merkelmussweg]	1.0
+[merkel, seehof] ==> [merkelmussweg]	1.0
+[taglich] ==> [merkel]	0.8397435897435898
+[merkelmussweg, taglich] ==> [merkel]	0.9290780141843972
+[merkel, taglich] ==> [merkelmussweg]	1.0
+[taglich] ==> [merkel, merkelmussweg]	0.8397435897435898
+[uhr] ==> [merkel]	0.7897196261682243
+[merkelmussweg, uhr] ==> [merkel]	0.7934272300469484
+[merkel, uhr] ==> [merkelmussweg]	1.0
+[uhr] ==> [merkel, merkelmussweg]	0.7897196261682243
+[taglich, uhr] ==> [merkel]	1.0
+[merkel, uhr] ==> [taglich]	0.757396449704142
+[merkel, taglich] ==> [uhr]	0.9770992366412213
+[taglich] ==> [merkel, uhr]	0.8205128205128205
+[unterschreib] ==> [merkel]	0.8137254901960784
+[merkelmussweg, unterschreib] ==> [merkel]	0.8645833333333334
+[merkel, unterschreib] ==> [merkelmussweg]	1.0
+[unterschreib] ==> [merkel, merkelmussweg]	0.8137254901960784
+[merkel, via] ==> [merkelmussweg]	1.0
+[vorall] ==> [merkel]	0.9761904761904762
+[merkelmussweg, vorall] ==> [merkel]	0.9761904761904762
+[merkel, vorall] ==> [merkelmussweg]	1.0
+[vorall] ==> [merkel, merkelmussweg]	0.9761904761904762
+[unterschreib, vorall] ==> [merkel]	0.9761904761904762
+[merkel, vorall] ==> [unterschreib]	1.0
+[merkel, unterschreib] ==> [vorall]	0.9879518072289156
+[vorall] ==> [merkel, unterschreib]	0.9761904761904762
+[unterschreib] ==> [merkel, vorall]	0.803921568627451
+[weiterleit] ==> [merkel]	0.9278350515463918
+[merkelmussweg, weiterleit] ==> [merkel]	0.9278350515463918
+[merkel, weiterleit] ==> [merkelmussweg]	1.0
+[weiterleit] ==> [merkel, merkelmussweg]	0.9278350515463918
+[unterschreib, weiterleit] ==> [merkel]	0.9425287356321839
+[merkel, weiterleit] ==> [unterschreib]	0.9111111111111111
+[merkel, unterschreib] ==> [weiterleit]	0.9879518072289156
+[weiterleit] ==> [merkel, unterschreib]	0.845360824742268
+[unterschreib] ==> [merkel, weiterleit]	0.803921568627451
+[vorall, weiterleit] ==> [merkel]	0.9761904761904762
+[merkel, weiterleit] ==> [vorall]	0.9111111111111111
+[merkel, vorall] ==> [weiterleit]	1.0
+[weiterleit] ==> [merkel, vorall]	0.845360824742268
+[vorall] ==> [merkel, weiterleit]	0.9761904761904762
+[merkel, wer] ==> [merkelmussweg]	1.0
+[person, wer] ==> [merkel]	1.0
+[merkel, person] ==> [wer]	0.8909090909090909
+[person] ==> [merkel, wer]	0.8305084745762712
+[muss] ==> [merkelmussweg]	1.0
+[neuwahl] ==> [merkelmussweg]	0.8910891089108911
+[paar] ==> [merkelmussweg]	0.9879518072289156
+[pegida] ==> [merkelmussweg]	1.0
+[person] ==> [merkelmussweg]	0.9745762711864406
+[politik] ==> [merkelmussweg]	1.0
+[recht] ==> [merkelmussweg]	1.0
+[refuge] ==> [merkelmussweg]	1.0
+[refugeesnotwelcom] ==> [merkelmussweg]	0.6830357142857143
+[regierung] ==> [merkelmussweg]	0.9791666666666666
+[rucktritt] ==> [merkelmussweg]	0.9619047619047619
+[schaff] ==> [merkelmussweg]	1.0
+[schon] ==> [merkelmussweg]	0.9965870307167235
+[seehof] ==> [merkelmussweg]	1.0
+[sofortig] ==> [merkelmussweg]	0.9010989010989011
+[spd] ==> [merkelmussweg]	1.0
+[taglich] ==> [merkelmussweg]	0.9038461538461539
+[uhr] ==> [merkelmussweg]	0.9953271028037384
+[taglich, uhr] ==> [merkelmussweg]	1.0
+[merkelmussweg, taglich] ==> [uhr]	0.9078014184397163
+[taglich] ==> [merkelmussweg, uhr]	0.8205128205128205
+[uns] ==> [merkelmussweg]	1.0
+[unterschreib] ==> [merkelmussweg]	0.9411764705882353
+[via] ==> [merkelmussweg]	1.0
+[viel] ==> [merkelmussweg]	1.0
+[volk] ==> [merkelmussweg]	0.8956228956228957
+[vorall] ==> [merkelmussweg]	1.0
+[unterschreib, vorall] ==> [merkelmussweg]	1.0
+[merkelmussweg, vorall] ==> [unterschreib]	1.0
+[merkelmussweg, unterschreib] ==> [vorall]	0.875
+[vorall] ==> [merkelmussweg, unterschreib]	1.0
+[unterschreib] ==> [merkelmussweg, vorall]	0.8235294117647058
+[war] ==> [merkelmussweg]	0.9782608695652174
+[weg] ==> [merkelmussweg]	1.0
+[weiterleit] ==> [merkelmussweg]	1.0
+[unterschreib, weiterleit] ==> [merkelmussweg]	1.0
+[merkelmussweg, weiterleit] ==> [unterschreib]	0.8969072164948454
+[merkelmussweg, unterschreib] ==> [weiterleit]	0.90625
+[weiterleit] ==> [merkelmussweg, unterschreib]	0.8969072164948454
+[unterschreib] ==> [merkelmussweg, weiterleit]	0.8529411764705882
+[vorall, weiterleit] ==> [merkelmussweg]	1.0
+[merkelmussweg, weiterleit] ==> [vorall]	0.865979381443299
+[merkelmussweg, vorall] ==> [weiterleit]	1.0
+[weiterleit] ==> [merkelmussweg, vorall]	0.865979381443299
+[vorall] ==> [merkelmussweg, weiterleit]	1.0
+[wendeherbst2015] ==> [merkelmussweg]	1.0
+[wer] ==> [merkelmussweg]	0.9969512195121951
+[person, wer] ==> [merkelmussweg]	1.0
+[merkelmussweg, person] ==> [wer]	0.8521739130434782
+[person] ==> [merkelmussweg, wer]	0.8305084745762712
+[wohl] ==> [merkelmussweg]	0.7109004739336493
+[zeit] ==> [merkelmussweg]	1.0
+[zuruck] ==> [merkelmussweg]	0.9770114942528736
+[person] ==> [wer]	0.8305084745762712
+[sofortig] ==> [rucktritt]	0.945054945054945
+[taglich] ==> [uhr]	0.8205128205128205
+[vorall] ==> [unterschreib]	1.0
+[unterschreib] ==> [vorall]	0.8235294117647058
+[weiterleit] ==> [unterschreib]	0.8969072164948454
+[unterschreib] ==> [weiterleit]	0.8529411764705882
+[vorall, weiterleit] ==> [unterschreib]	1.0
+[unterschreib, weiterleit] ==> [vorall]	0.9655172413793104
+[unterschreib, vorall] ==> [weiterleit]	1.0
+[vorall] ==> [unterschreib, weiterleit]	1.0
+[unterschreib] ==> [vorall, weiterleit]	0.8235294117647058
+[weiterleit] ==> [unterschreib, vorall]	0.865979381443299
+[weiterleit] ==> [vorall]	0.865979381443299
+[vorall] ==> [weiterleit]	1.0

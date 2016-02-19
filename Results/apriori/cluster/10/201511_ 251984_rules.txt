@@ -1,0 +1,593 @@
+[amp] ==> [afd]	0.9948506694129763
+[ang] ==> [afd]	0.9962962962962963
+[anschlag] ==> [afd]	0.9985775248933144
+[berlin] ==> [afd]	0.9638888888888889
+[brandenburg] ==> [afd]	0.9888579387186629
+[burg] ==> [afd]	0.9987546699875467
+[cdu] ==> [afd]	1.0
+[chef] ==> [afd]	0.9944029850746269
+[cottbus] ==> [afd]	0.9803149606299213
+[csu] ==> [afd]	1.0
+[dass] ==> [afd]	0.9970738844184345
+[demo] ==> [afd]	0.9761792452830189
+[berlin, demo] ==> [afd]	0.998211091234347
+[demonstration] ==> [afd]	0.9906191369606003
+[deutsch] ==> [afd]	1.0
+[deutschland] ==> [afd]	1.0
+[drittstark] ==> [afd]	0.9968602825745683
+[endlich] ==> [afd]	1.0
+[erfurt] ==> [afd]	0.9650413983440662
+[fluchtling] ==> [afd]	1.0
+[fordert] ==> [afd]	0.9923371647509579
+[gauland] ==> [afd]	0.9688809096349491
+[gegendemonstrant] ==> [afd]	0.9922779922779923
+[berlin, gegendemonstrant] ==> [afd]	1.0
+[afd, gegendemonstrant] ==> [berlin]	0.8878080415045395
+[gegendemonstrant] ==> [afd, berlin]	0.8809523809523809
+[demo, gegendemonstrant] ==> [afd]	1.0
+[afd, gegendemonstrant] ==> [demo]	0.9319066147859922
+[gegendemonstrant] ==> [afd, demo]	0.9247104247104247
+[geht] ==> [afd]	0.9858044164037855
+[gibt] ==> [afd]	1.0
+[grenz] ==> [afd]	1.0
+[gross] ==> [afd]	0.998158379373849
+[grun] ==> [afd]	1.0
+[gut] ==> [afd]	0.9978563772775991
+[hannov] ==> [afd]	0.9699074074074074
+[hartaberfair] ==> [afd]	0.9846153846153847
+[hetz] ==> [afd]	0.9731127197518097
+[heut] ==> [afd]	0.9873417721518988
+[hochgehalt] ==> [afd]	1.0
+[berlin, hochgehalt] ==> [afd]	1.0
+[afd, hochgehalt] ==> [berlin]	1.0
+[hochgehalt] ==> [afd, berlin]	1.0
+[demo, hochgehalt] ==> [afd]	1.0
+[afd, hochgehalt] ==> [demo]	1.0
+[hochgehalt] ==> [afd, demo]	1.0
+[gegendemonstrant, hochgehalt] ==> [afd]	1.0
+[afd, hochgehalt] ==> [gegendemonstrant]	1.0
+[afd, gegendemonstrant] ==> [hochgehalt]	0.8605706874189365
+[hochgehalt] ==> [afd, gegendemonstrant]	1.0
+[gegendemonstrant] ==> [afd, hochgehalt]	0.853925353925354
+[hock] ==> [afd]	0.8681081081081081
+[hotel] ==> [afd]	0.9911504424778761
+[htt] ==> [afd]	0.9879194630872483
+[https] ==> [afd]	0.9993913572732805
+[imm] ==> [afd]	0.9980525803310614
+[insa] ==> [afd]	0.9906367041198502
+[jung] ==> [afd]	0.9981060606060606
+[klar] ==> [afd]	0.9940711462450593
+[kolleg] ==> [afd]	0.8962025316455696
+[berlin, kolleg] ==> [afd]	0.9982668977469671
+[afd, kolleg] ==> [berlin]	0.8135593220338984
+[kolleg] ==> [afd, berlin]	0.7291139240506329
+[kolumn] ==> [afd]	0.99
+[berlin, kolumn] ==> [afd]	0.995
+[afd, kolumn] ==> [berlin]	0.8614718614718615
+[kolumn] ==> [afd, berlin]	0.8528571428571429
+[kolleg, kolumn] ==> [afd]	1.0
+[afd, kolumn] ==> [kolleg]	0.9682539682539683
+[afd, kolleg] ==> [kolumn]	0.9477401129943502
+[kolleg] ==> [afd, kolumn]	0.8493670886075949
+[kolumn] ==> [afd, kolleg]	0.9585714285714285
+[komm] ==> [afd]	0.9982788296041308
+[kommt] ==> [afd]	0.979557069846678
+[kritisch] ==> [afd]	0.992638036809816
+[berlin, kritisch] ==> [afd]	0.9984101748807631
+[afd, kritisch] ==> [berlin]	0.7762669962917181
+[kritisch] ==> [afd, berlin]	0.7705521472392638
+[kolleg, kritisch] ==> [afd]	1.0
+[afd, kritisch] ==> [kolleg]	0.8294190358467244
+[afd, kolleg] ==> [kritisch]	0.9477401129943502
+[kolleg] ==> [afd, kritisch]	0.8493670886075949
+[kritisch] ==> [afd, kolleg]	0.8233128834355828
+[kolumn, kritisch] ==> [afd]	1.0
+[afd, kritisch] ==> [kolumn]	0.8553770086526576
+[afd, kolumn] ==> [kritisch]	0.9985569985569985
+[kritisch] ==> [afd, kolumn]	0.849079754601227
+[kolumn] ==> [afd, kritisch]	0.9885714285714285
+[kundgebung] ==> [afd]	0.9939246658566221
+[laut] ==> [afd]	0.9746835443037974
+[lieb] ==> [afd]	0.9906396255850234
+[link] ==> [afd]	0.9939759036144579
+[lugenpress] ==> [afd]	0.9902534113060428
+[macht] ==> [afd]	0.9947916666666666
+[mainz] ==> [afd]	0.971947194719472
+[mal] ==> [afd]	0.9991356957649092
+[mehr] ==> [afd]	0.9935256032960565
+[mensch] ==> [afd]	1.0
+[merkel] ==> [afd]	1.0
+[merkelmussweg] ==> [afd]	1.0
+[mitglied] ==> [afd]	0.9554794520547946
+[nazis] ==> [afd]	0.9930434782608696
+[neu] ==> [afd]	0.9972222222222222
+[niedergeschlag] ==> [afd]	0.9985590778097982
+[berlin, niedergeschlag] ==> [afd]	1.0
+[afd, niedergeschlag] ==> [berlin]	0.8614718614718615
+[niedergeschlag] ==> [afd, berlin]	0.8602305475504323
+[kolleg, niedergeschlag] ==> [afd]	1.0
+[afd, niedergeschlag] ==> [kolleg]	0.9682539682539683
+[afd, kolleg] ==> [niedergeschlag]	0.9477401129943502
+[kolleg] ==> [afd, niedergeschlag]	0.8493670886075949
+[niedergeschlag] ==> [afd, kolleg]	0.9668587896253602
+[kolumn, niedergeschlag] ==> [afd]	1.0
+[afd, niedergeschlag] ==> [kolumn]	0.9985569985569985
+[afd, kolumn] ==> [niedergeschlag]	0.9985569985569985
+[kolumn] ==> [afd, niedergeschlag]	0.9885714285714285
+[niedergeschlag] ==> [afd, kolumn]	0.9971181556195965
+[kritisch, niedergeschlag] ==> [afd]	1.0
+[afd, niedergeschlag] ==> [kritisch]	0.9985569985569985
+[afd, kritisch] ==> [niedergeschlag]	0.8553770086526576
+[kritisch] ==> [afd, niedergeschlag]	0.849079754601227
+[niedergeschlag] ==> [afd, kritisch]	0.9971181556195965
+[noafd] ==> [afd]	0.9589442815249267
+[paris] ==> [afd]	1.0
+[partei] ==> [afd]	0.9583835946924005
+[pegida] ==> [afd]	1.0
+[amp, pegida] ==> [afd]	1.0
+[berlin, pegida] ==> [afd]	1.0
+[kolleg, pegida] ==> [afd]	1.0
+[afd, kolleg] ==> [pegida]	0.9519774011299436
+[kolleg] ==> [afd, pegida]	0.8531645569620253
+[kolumn, pegida] ==> [afd]	1.0
+[afd, kolumn] ==> [pegida]	0.9985569985569985
+[kolumn] ==> [afd, pegida]	0.9885714285714285
+[kritisch, pegida] ==> [afd]	1.0
+[afd, kritisch] ==> [pegida]	0.8949320148331273
+[kritisch] ==> [afd, pegida]	0.8883435582822086
+[niedergeschlag, pegida] ==> [afd]	1.0
+[afd, niedergeschlag] ==> [pegida]	0.9985569985569985
+[niedergeschlag] ==> [afd, pegida]	0.9971181556195965
+[petry] ==> [afd]	0.9553450608930988
+[plakat] ==> [afd]	0.99568655643422
+[berlin, plakat] ==> [afd]	1.0
+[afd, plakat] ==> [berlin]	0.9638989169675091
+[plakat] ==> [afd, berlin]	0.9597411933860532
+[demo, plakat] ==> [afd]	1.0
+[afd, plakat] ==> [demo]	0.9783393501805054
+[plakat] ==> [afd, demo]	0.97411933860532
+[gegendemonstrant, plakat] ==> [afd]	1.0
+[afd, plakat] ==> [gegendemonstrant]	0.9602888086642599
+[afd, gegendemonstrant] ==> [plakat]	0.8625162127107653
+[gegendemonstrant] ==> [afd, plakat]	0.8558558558558559
+[plakat] ==> [afd, gegendemonstrant]	0.9561466570812365
+[hochgehalt, plakat] ==> [afd]	1.0
+[afd, plakat] ==> [hochgehalt]	0.9581227436823104
+[afd, hochgehalt] ==> [plakat]	1.0
+[hochgehalt] ==> [afd, plakat]	1.0
+[plakat] ==> [afd, hochgehalt]	0.9539899352983465
+[politik] ==> [afd]	1.0
+[politisch] ==> [afd]	0.9886178861788618
+[polizei] ==> [afd]	0.9938176197836167
+[pretzell] ==> [afd]	0.9763975155279503
+[prozent] ==> [afd]	0.9752650176678446
+[recht] ==> [afd]	1.0
+[sachs] ==> [afd]	1.0
+[sagt] ==> [afd]	0.9884393063583815
+[schon] ==> [afd]	0.9992810927390366
+[spd] ==> [afd]	1.0
+[strass] ==> [afd]	0.9793621013133208
+[teil] ==> [afd]	0.9828897338403042
+[terror] ==> [afd]	1.0
+[thuring] ==> [afd]	0.9329758713136729
+[uhr] ==> [afd]	0.9734345351043643
+[umfrag] ==> [afd]	0.9447040498442367
+[unfassbar] ==> [afd]	0.9083094555873925
+[berlin, unfassbar] ==> [afd]	1.0
+[afd, unfassbar] ==> [berlin]	0.9085173501577287
+[unfassbar] ==> [afd, berlin]	0.8252148997134671
+[kolleg, unfassbar] ==> [afd]	0.9982668977469671
+[afd, unfassbar] ==> [kolleg]	0.9085173501577287
+[afd, kolleg] ==> [unfassbar]	0.8135593220338984
+[kolleg] ==> [afd, unfassbar]	0.7291139240506329
+[unfassbar] ==> [afd, kolleg]	0.8252148997134671
+[kolumn, unfassbar] ==> [afd]	1.0
+[afd, unfassbar] ==> [kolumn]	0.9085173501577287
+[afd, kolumn] ==> [unfassbar]	0.8311688311688312
+[kolumn] ==> [afd, unfassbar]	0.8228571428571428
+[unfassbar] ==> [afd, kolumn]	0.8252148997134671
+[kritisch, unfassbar] ==> [afd]	1.0
+[afd, unfassbar] ==> [kritisch]	0.9085173501577287
+[afd, kritisch] ==> [unfassbar]	0.7119901112484549
+[kritisch] ==> [afd, unfassbar]	0.7067484662576687
+[unfassbar] ==> [afd, kritisch]	0.8252148997134671
+[niedergeschlag, unfassbar] ==> [afd]	1.0
+[afd, unfassbar] ==> [niedergeschlag]	0.9085173501577287
+[afd, niedergeschlag] ==> [unfassbar]	0.8311688311688312
+[unfassbar] ==> [afd, niedergeschlag]	0.8252148997134671
+[niedergeschlag] ==> [afd, unfassbar]	0.829971181556196
+[pegida, unfassbar] ==> [afd]	1.0
+[afd, unfassbar] ==> [pegida]	0.9085173501577287
+[unfassbar] ==> [afd, pegida]	0.8252148997134671
+[uns] ==> [afd]	0.9827856025039123
+[via] ==> [afd]	0.998546511627907
+[wahl] ==> [afd]	0.9646869983948636
+[war] ==> [afd]	0.9738372093023255
+[weg] ==> [afd]	0.99833748960931
+[berlin, weg] ==> [afd]	0.9983818770226537
+[kolleg, weg] ==> [afd]	1.0
+[afd, kolleg] ==> [weg]	0.8135593220338984
+[kolleg] ==> [afd, weg]	0.7291139240506329
+[kolumn, weg] ==> [afd]	1.0
+[afd, kolumn] ==> [weg]	0.8311688311688312
+[kolumn] ==> [afd, weg]	0.8228571428571428
+[kritisch, weg] ==> [afd]	1.0
+[afd, kritisch] ==> [weg]	0.7898640296662547
+[kritisch] ==> [afd, weg]	0.7840490797546013
+[niedergeschlag, weg] ==> [afd]	1.0
+[afd, niedergeschlag] ==> [weg]	0.8311688311688312
+[niedergeschlag] ==> [afd, weg]	0.829971181556196
+[pegida, weg] ==> [afd]	1.0
+[unfassbar, weg] ==> [afd]	1.0
+[afd, unfassbar] ==> [weg]	0.9100946372239748
+[unfassbar] ==> [afd, weg]	0.826647564469914
+[wer] ==> [afd]	1.0
+[zdf] ==> [afd]	0.980806142034549
+[gegendemonstrant] ==> [berlin]	0.8809523809523809
+[demo, gegendemonstrant] ==> [berlin]	0.9526791927627001
+[berlin, gegendemonstrant] ==> [demo]	1.0
+[berlin, demo] ==> [gegendemonstrant]	0.8163387000596303
+[gegendemonstrant] ==> [berlin, demo]	0.8809523809523809
+[hochgehalt] ==> [berlin]	1.0
+[demo, hochgehalt] ==> [berlin]	1.0
+[berlin, hochgehalt] ==> [demo]	1.0
+[berlin, demo] ==> [hochgehalt]	0.791293977340489
+[hochgehalt] ==> [berlin, demo]	1.0
+[gegendemonstrant, hochgehalt] ==> [berlin]	1.0
+[berlin, hochgehalt] ==> [gegendemonstrant]	1.0
+[berlin, gegendemonstrant] ==> [hochgehalt]	0.9693206720233747
+[hochgehalt] ==> [berlin, gegendemonstrant]	1.0
+[gegendemonstrant] ==> [berlin, hochgehalt]	0.853925353925354
+[kolleg] ==> [berlin]	0.730379746835443
+[kolumn] ==> [berlin]	0.8571428571428571
+[kolleg, kolumn] ==> [berlin]	0.8584202682563339
+[berlin, kolumn] ==> [kolleg]	0.96
+[berlin, kolleg] ==> [kolumn]	0.9982668977469671
+[kolumn] ==> [berlin, kolleg]	0.8228571428571428
+[kolleg] ==> [berlin, kolumn]	0.7291139240506329
+[kritisch] ==> [berlin]	0.7717791411042945
+[kolleg, kritisch] ==> [berlin]	0.8584202682563339
+[berlin, kritisch] ==> [kolleg]	0.9157392686804452
+[berlin, kolleg] ==> [kritisch]	0.9982668977469671
+[kolleg] ==> [berlin, kritisch]	0.7291139240506329
+[kritisch] ==> [berlin, kolleg]	0.7067484662576687
+[kolumn, kritisch] ==> [berlin]	0.8627167630057804
+[berlin, kritisch] ==> [kolumn]	0.9491255961844197
+[berlin, kolumn] ==> [kritisch]	0.995
+[kolumn] ==> [berlin, kritisch]	0.8528571428571429
+[kritisch] ==> [berlin, kolumn]	0.7325153374233129
+[niedergeschlag] ==> [berlin]	0.8602305475504323
+[kolleg, niedergeschlag] ==> [berlin]	0.8584202682563339
+[berlin, niedergeschlag] ==> [kolleg]	0.964824120603015
+[berlin, kolleg] ==> [niedergeschlag]	0.9982668977469671
+[kolleg] ==> [berlin, niedergeschlag]	0.7291139240506329
+[niedergeschlag] ==> [berlin, kolleg]	0.829971181556196
+[kolumn, niedergeschlag] ==> [berlin]	0.8627167630057804
+[berlin, niedergeschlag] ==> [kolumn]	1.0
+[berlin, kolumn] ==> [niedergeschlag]	0.995
+[kolumn] ==> [berlin, niedergeschlag]	0.8528571428571429
+[niedergeschlag] ==> [berlin, kolumn]	0.8602305475504323
+[kritisch, niedergeschlag] ==> [berlin]	0.8627167630057804
+[berlin, niedergeschlag] ==> [kritisch]	1.0
+[berlin, kritisch] ==> [niedergeschlag]	0.9491255961844197
+[niedergeschlag] ==> [berlin, kritisch]	0.8602305475504323
+[kritisch] ==> [berlin, niedergeschlag]	0.7325153374233129
+[kolleg, pegida] ==> [berlin]	0.8545994065281899
+[berlin, pegida] ==> [kolleg]	0.7710843373493976
+[berlin, kolleg] ==> [pegida]	0.9982668977469671
+[kolleg] ==> [berlin, pegida]	0.7291139240506329
+[kolumn, pegida] ==> [berlin]	0.8627167630057804
+[berlin, pegida] ==> [kolumn]	0.7991967871485943
+[berlin, kolumn] ==> [pegida]	0.995
+[kolumn] ==> [berlin, pegida]	0.8528571428571429
+[kritisch, pegida] ==> [berlin]	0.8660220994475138
+[berlin, pegida] ==> [kritisch]	0.8393574297188755
+[berlin, kritisch] ==> [pegida]	0.9968203497615262
+[kritisch] ==> [berlin, pegida]	0.7693251533742331
+[niedergeschlag, pegida] ==> [berlin]	0.8627167630057804
+[berlin, pegida] ==> [niedergeschlag]	0.7991967871485943
+[berlin, niedergeschlag] ==> [pegida]	1.0
+[niedergeschlag] ==> [berlin, pegida]	0.8602305475504323
+[plakat] ==> [berlin]	0.9597411933860532
+[demo, plakat] ==> [berlin]	0.985239852398524
+[berlin, plakat] ==> [demo]	1.0
+[berlin, demo] ==> [plakat]	0.7960644007155635
+[plakat] ==> [berlin, demo]	0.9597411933860532
+[gegendemonstrant, plakat] ==> [berlin]	0.9992481203007518
+[berlin, plakat] ==> [gegendemonstrant]	0.9955056179775281
+[berlin, gegendemonstrant] ==> [plakat]	0.970781592403214
+[plakat] ==> [berlin, gegendemonstrant]	0.9554277498202732
+[gegendemonstrant] ==> [berlin, plakat]	0.8552123552123552
+[hochgehalt, plakat] ==> [berlin]	1.0
+[berlin, plakat] ==> [hochgehalt]	0.9940074906367041
+[berlin, hochgehalt] ==> [plakat]	1.0
+[plakat] ==> [berlin, hochgehalt]	0.9539899352983465
+[hochgehalt] ==> [berlin, plakat]	1.0
+[unfassbar] ==> [berlin]	0.8252148997134671
+[kolleg, unfassbar] ==> [berlin]	0.9982668977469671
+[berlin, unfassbar] ==> [kolleg]	1.0
+[berlin, kolleg] ==> [unfassbar]	0.9982668977469671
+[kolleg] ==> [berlin, unfassbar]	0.7291139240506329
+[unfassbar] ==> [berlin, kolleg]	0.8252148997134671
+[kolumn, unfassbar] ==> [berlin]	1.0
+[berlin, unfassbar] ==> [kolumn]	1.0
+[berlin, kolumn] ==> [unfassbar]	0.96
+[kolumn] ==> [berlin, unfassbar]	0.8228571428571428
+[unfassbar] ==> [berlin, kolumn]	0.8252148997134671
+[kritisch, unfassbar] ==> [berlin]	1.0
+[berlin, unfassbar] ==> [kritisch]	1.0
+[berlin, kritisch] ==> [unfassbar]	0.9157392686804452
+[kritisch] ==> [berlin, unfassbar]	0.7067484662576687
+[unfassbar] ==> [berlin, kritisch]	0.8252148997134671
+[niedergeschlag, unfassbar] ==> [berlin]	1.0
+[berlin, unfassbar] ==> [niedergeschlag]	1.0
+[berlin, niedergeschlag] ==> [unfassbar]	0.964824120603015
+[niedergeschlag] ==> [berlin, unfassbar]	0.829971181556196
+[unfassbar] ==> [berlin, niedergeschlag]	0.8252148997134671
+[pegida, unfassbar] ==> [berlin]	1.0
+[berlin, unfassbar] ==> [pegida]	1.0
+[berlin, pegida] ==> [unfassbar]	0.7710843373493976
+[unfassbar] ==> [berlin, pegida]	0.8252148997134671
+[kolleg, weg] ==> [berlin]	1.0
+[berlin, weg] ==> [kolleg]	0.9320388349514563
+[berlin, kolleg] ==> [weg]	0.9982668977469671
+[kolleg] ==> [berlin, weg]	0.7291139240506329
+[kolumn, weg] ==> [berlin]	1.0
+[berlin, weg] ==> [kolumn]	0.9320388349514563
+[berlin, kolumn] ==> [weg]	0.96
+[kolumn] ==> [berlin, weg]	0.8228571428571428
+[kritisch, weg] ==> [berlin]	0.9499217527386542
+[berlin, weg] ==> [kritisch]	0.982200647249191
+[berlin, kritisch] ==> [weg]	0.9650238473767886
+[kritisch] ==> [berlin, weg]	0.7447852760736197
+[niedergeschlag, weg] ==> [berlin]	1.0
+[berlin, weg] ==> [niedergeschlag]	0.9320388349514563
+[berlin, niedergeschlag] ==> [weg]	0.964824120603015
+[niedergeschlag] ==> [berlin, weg]	0.829971181556196
+[pegida, weg] ==> [berlin]	0.8644793152639088
+[berlin, weg] ==> [pegida]	0.9805825242718447
+[berlin, pegida] ==> [weg]	0.8112449799196787
+[unfassbar, weg] ==> [berlin]	0.9982668977469671
+[berlin, weg] ==> [unfassbar]	0.9320388349514563
+[berlin, unfassbar] ==> [weg]	1.0
+[unfassbar] ==> [berlin, weg]	0.8252148997134671
+[gegendemonstrant] ==> [demo]	0.9247104247104247
+[hochgehalt] ==> [demo]	1.0
+[gegendemonstrant, hochgehalt] ==> [demo]	1.0
+[demo, hochgehalt] ==> [gegendemonstrant]	1.0
+[demo, gegendemonstrant] ==> [hochgehalt]	0.9234516353514266
+[gegendemonstrant] ==> [demo, hochgehalt]	0.853925353925354
+[hochgehalt] ==> [demo, gegendemonstrant]	1.0
+[plakat] ==> [demo]	0.97411933860532
+[gegendemonstrant, plakat] ==> [demo]	0.9992481203007518
+[demo, plakat] ==> [gegendemonstrant]	0.9808118081180812
+[demo, gegendemonstrant] ==> [plakat]	0.9248434237995825
+[gegendemonstrant] ==> [demo, plakat]	0.8552123552123552
+[plakat] ==> [demo, gegendemonstrant]	0.9554277498202732
+[hochgehalt, plakat] ==> [demo]	1.0
+[demo, plakat] ==> [hochgehalt]	0.9793357933579335
+[demo, hochgehalt] ==> [plakat]	1.0
+[plakat] ==> [demo, hochgehalt]	0.9539899352983465
+[hochgehalt] ==> [demo, plakat]	1.0
+[hochgehalt] ==> [gegendemonstrant]	1.0
+[gegendemonstrant] ==> [hochgehalt]	0.853925353925354
+[plakat] ==> [gegendemonstrant]	0.9561466570812365
+[gegendemonstrant] ==> [plakat]	0.8558558558558559
+[hochgehalt, plakat] ==> [gegendemonstrant]	1.0
+[gegendemonstrant, plakat] ==> [hochgehalt]	0.9977443609022556
+[gegendemonstrant, hochgehalt] ==> [plakat]	1.0
+[plakat] ==> [gegendemonstrant, hochgehalt]	0.9539899352983465
+[gegendemonstrant] ==> [hochgehalt, plakat]	0.853925353925354
+[hochgehalt] ==> [gegendemonstrant, plakat]	1.0
+[plakat] ==> [hochgehalt]	0.9539899352983465
+[hochgehalt] ==> [plakat]	1.0
+[kolumn] ==> [kolleg]	0.9585714285714285
+[kolleg] ==> [kolumn]	0.8493670886075949
+[kritisch] ==> [kolleg]	0.8233128834355828
+[kolleg] ==> [kritisch]	0.8493670886075949
+[kolumn, kritisch] ==> [kolleg]	0.9696531791907514
+[kolleg, kritisch] ==> [kolumn]	1.0
+[kolleg, kolumn] ==> [kritisch]	1.0
+[kritisch] ==> [kolleg, kolumn]	0.8233128834355828
+[kolleg] ==> [kolumn, kritisch]	0.8493670886075949
+[kolumn] ==> [kolleg, kritisch]	0.9585714285714285
+[niedergeschlag] ==> [kolleg]	0.9668587896253602
+[kolleg] ==> [niedergeschlag]	0.8493670886075949
+[kolumn, niedergeschlag] ==> [kolleg]	0.9696531791907514
+[kolleg, niedergeschlag] ==> [kolumn]	1.0
+[kolleg, kolumn] ==> [niedergeschlag]	1.0
+[niedergeschlag] ==> [kolleg, kolumn]	0.9668587896253602
+[kolumn] ==> [kolleg, niedergeschlag]	0.9585714285714285
+[kolleg] ==> [kolumn, niedergeschlag]	0.8493670886075949
+[kritisch, niedergeschlag] ==> [kolleg]	0.9696531791907514
+[kolleg, niedergeschlag] ==> [kritisch]	1.0
+[kolleg, kritisch] ==> [niedergeschlag]	1.0
+[kolleg] ==> [kritisch, niedergeschlag]	0.8493670886075949
+[kritisch] ==> [kolleg, niedergeschlag]	0.8233128834355828
+[niedergeschlag] ==> [kolleg, kritisch]	0.9668587896253602
+[kolleg] ==> [pegida]	0.8531645569620253
+[kolumn, pegida] ==> [kolleg]	0.9696531791907514
+[kolleg, pegida] ==> [kolumn]	0.9955489614243324
+[kolleg, kolumn] ==> [pegida]	1.0
+[kolleg] ==> [kolumn, pegida]	0.8493670886075949
+[kolumn] ==> [kolleg, pegida]	0.9585714285714285
+[kritisch, pegida] ==> [kolleg]	0.9267955801104972
+[kolleg, pegida] ==> [kritisch]	0.9955489614243324
+[kolleg, kritisch] ==> [pegida]	1.0
+[kolleg] ==> [kritisch, pegida]	0.8493670886075949
+[kritisch] ==> [kolleg, pegida]	0.8233128834355828
+[niedergeschlag, pegida] ==> [kolleg]	0.9696531791907514
+[kolleg, pegida] ==> [niedergeschlag]	0.9955489614243324
+[kolleg, niedergeschlag] ==> [pegida]	1.0
+[kolleg] ==> [niedergeschlag, pegida]	0.8493670886075949
+[niedergeschlag] ==> [kolleg, pegida]	0.9668587896253602
+[unfassbar] ==> [kolleg]	0.826647564469914
+[kolleg] ==> [unfassbar]	0.730379746835443
+[kolumn, unfassbar] ==> [kolleg]	1.0
+[kolleg, unfassbar] ==> [kolumn]	0.9982668977469671
+[kolleg, kolumn] ==> [unfassbar]	0.8584202682563339
+[unfassbar] ==> [kolleg, kolumn]	0.8252148997134671
+[kolumn] ==> [kolleg, unfassbar]	0.8228571428571428
+[kolleg] ==> [kolumn, unfassbar]	0.7291139240506329
+[kritisch, unfassbar] ==> [kolleg]	1.0
+[kolleg, unfassbar] ==> [kritisch]	0.9982668977469671
+[kolleg, kritisch] ==> [unfassbar]	0.8584202682563339
+[kritisch] ==> [kolleg, unfassbar]	0.7067484662576687
+[kolleg] ==> [kritisch, unfassbar]	0.7291139240506329
+[unfassbar] ==> [kolleg, kritisch]	0.8252148997134671
+[niedergeschlag, unfassbar] ==> [kolleg]	1.0
+[kolleg, unfassbar] ==> [niedergeschlag]	0.9982668977469671
+[kolleg, niedergeschlag] ==> [unfassbar]	0.8584202682563339
+[unfassbar] ==> [kolleg, niedergeschlag]	0.8252148997134671
+[niedergeschlag] ==> [kolleg, unfassbar]	0.829971181556196
+[kolleg] ==> [niedergeschlag, unfassbar]	0.7291139240506329
+[pegida, unfassbar] ==> [kolleg]	1.0
+[kolleg, unfassbar] ==> [pegida]	0.9982668977469671
+[kolleg, pegida] ==> [unfassbar]	0.8545994065281899
+[kolleg] ==> [pegida, unfassbar]	0.7291139240506329
+[unfassbar] ==> [kolleg, pegida]	0.8252148997134671
+[kolleg] ==> [weg]	0.7291139240506329
+[kolumn, weg] ==> [kolleg]	1.0
+[kolleg, weg] ==> [kolumn]	1.0
+[kolleg, kolumn] ==> [weg]	0.8584202682563339
+[kolumn] ==> [kolleg, weg]	0.8228571428571428
+[kolleg] ==> [kolumn, weg]	0.7291139240506329
+[kritisch, weg] ==> [kolleg]	0.9014084507042254
+[kolleg, weg] ==> [kritisch]	1.0
+[kolleg, kritisch] ==> [weg]	0.8584202682563339
+[kritisch] ==> [kolleg, weg]	0.7067484662576687
+[kolleg] ==> [kritisch, weg]	0.7291139240506329
+[niedergeschlag, weg] ==> [kolleg]	1.0
+[kolleg, weg] ==> [niedergeschlag]	1.0
+[kolleg, niedergeschlag] ==> [weg]	0.8584202682563339
+[kolleg] ==> [niedergeschlag, weg]	0.7291139240506329
+[niedergeschlag] ==> [kolleg, weg]	0.829971181556196
+[pegida, weg] ==> [kolleg]	0.8216833095577746
+[kolleg, weg] ==> [pegida]	1.0
+[kolleg, pegida] ==> [weg]	0.8545994065281899
+[kolleg] ==> [pegida, weg]	0.7291139240506329
+[unfassbar, weg] ==> [kolleg]	0.9982668977469671
+[kolleg, weg] ==> [unfassbar]	1.0
+[kolleg, unfassbar] ==> [weg]	0.9982668977469671
+[kolleg] ==> [unfassbar, weg]	0.7291139240506329
+[unfassbar] ==> [kolleg, weg]	0.8252148997134671
+[kritisch] ==> [kolumn]	0.849079754601227
+[kolumn] ==> [kritisch]	0.9885714285714285
+[niedergeschlag] ==> [kolumn]	0.9971181556195965
+[kolumn] ==> [niedergeschlag]	0.9885714285714285
+[kritisch, niedergeschlag] ==> [kolumn]	1.0
+[kolumn, niedergeschlag] ==> [kritisch]	1.0
+[kolumn, kritisch] ==> [niedergeschlag]	1.0
+[kolumn] ==> [kritisch, niedergeschlag]	0.9885714285714285
+[kritisch] ==> [kolumn, niedergeschlag]	0.849079754601227
+[niedergeschlag] ==> [kolumn, kritisch]	0.9971181556195965
+[kolumn] ==> [pegida]	0.9885714285714285
+[kritisch, pegida] ==> [kolumn]	0.9558011049723757
+[kolumn, pegida] ==> [kritisch]	1.0
+[kolumn, kritisch] ==> [pegida]	1.0
+[kritisch] ==> [kolumn, pegida]	0.849079754601227
+[kolumn] ==> [kritisch, pegida]	0.9885714285714285
+[niedergeschlag, pegida] ==> [kolumn]	1.0
+[kolumn, pegida] ==> [niedergeschlag]	1.0
+[kolumn, niedergeschlag] ==> [pegida]	1.0
+[niedergeschlag] ==> [kolumn, pegida]	0.9971181556195965
+[kolumn] ==> [niedergeschlag, pegida]	0.9885714285714285
+[unfassbar] ==> [kolumn]	0.8252148997134671
+[kolumn] ==> [unfassbar]	0.8228571428571428
+[kritisch, unfassbar] ==> [kolumn]	1.0
+[kolumn, unfassbar] ==> [kritisch]	1.0
+[kolumn, kritisch] ==> [unfassbar]	0.8323699421965318
+[unfassbar] ==> [kolumn, kritisch]	0.8252148997134671
+[kolumn] ==> [kritisch, unfassbar]	0.8228571428571428
+[kritisch] ==> [kolumn, unfassbar]	0.7067484662576687
+[niedergeschlag, unfassbar] ==> [kolumn]	1.0
+[kolumn, unfassbar] ==> [niedergeschlag]	1.0
+[kolumn, niedergeschlag] ==> [unfassbar]	0.8323699421965318
+[unfassbar] ==> [kolumn, niedergeschlag]	0.8252148997134671
+[kolumn] ==> [niedergeschlag, unfassbar]	0.8228571428571428
+[niedergeschlag] ==> [kolumn, unfassbar]	0.829971181556196
+[pegida, unfassbar] ==> [kolumn]	1.0
+[kolumn, unfassbar] ==> [pegida]	1.0
+[kolumn, pegida] ==> [unfassbar]	0.8323699421965318
+[kolumn] ==> [pegida, unfassbar]	0.8228571428571428
+[unfassbar] ==> [kolumn, pegida]	0.8252148997134671
+[kolumn] ==> [weg]	0.8228571428571428
+[kritisch, weg] ==> [kolumn]	0.9014084507042254
+[kolumn, weg] ==> [kritisch]	1.0
+[kolumn, kritisch] ==> [weg]	0.8323699421965318
+[kritisch] ==> [kolumn, weg]	0.7067484662576687
+[kolumn] ==> [kritisch, weg]	0.8228571428571428
+[niedergeschlag, weg] ==> [kolumn]	1.0
+[kolumn, weg] ==> [niedergeschlag]	1.0
+[kolumn, niedergeschlag] ==> [weg]	0.8323699421965318
+[kolumn] ==> [niedergeschlag, weg]	0.8228571428571428
+[niedergeschlag] ==> [kolumn, weg]	0.829971181556196
+[pegida, weg] ==> [kolumn]	0.8216833095577746
+[kolumn, weg] ==> [pegida]	1.0
+[kolumn, pegida] ==> [weg]	0.8323699421965318
+[kolumn] ==> [pegida, weg]	0.8228571428571428
+[unfassbar, weg] ==> [kolumn]	0.9982668977469671
+[kolumn, weg] ==> [unfassbar]	1.0
+[kolumn, unfassbar] ==> [weg]	1.0
+[kolumn] ==> [unfassbar, weg]	0.8228571428571428
+[unfassbar] ==> [kolumn, weg]	0.8252148997134671
+[niedergeschlag] ==> [kritisch]	0.9971181556195965
+[kritisch] ==> [niedergeschlag]	0.849079754601227
+[kritisch] ==> [pegida]	0.8883435582822086
+[niedergeschlag, pegida] ==> [kritisch]	1.0
+[kritisch, pegida] ==> [niedergeschlag]	0.9558011049723757
+[kritisch, niedergeschlag] ==> [pegida]	1.0
+[niedergeschlag] ==> [kritisch, pegida]	0.9971181556195965
+[kritisch] ==> [niedergeschlag, pegida]	0.849079754601227
+[unfassbar] ==> [kritisch]	0.8252148997134671
+[kritisch] ==> [unfassbar]	0.7067484662576687
+[niedergeschlag, unfassbar] ==> [kritisch]	1.0
+[kritisch, unfassbar] ==> [niedergeschlag]	1.0
+[kritisch, niedergeschlag] ==> [unfassbar]	0.8323699421965318
+[unfassbar] ==> [kritisch, niedergeschlag]	0.8252148997134671
+[niedergeschlag] ==> [kritisch, unfassbar]	0.829971181556196
+[kritisch] ==> [niedergeschlag, unfassbar]	0.7067484662576687
+[pegida, unfassbar] ==> [kritisch]	1.0
+[kritisch, unfassbar] ==> [pegida]	1.0
+[kritisch, pegida] ==> [unfassbar]	0.7955801104972375
+[kritisch] ==> [pegida, unfassbar]	0.7067484662576687
+[unfassbar] ==> [kritisch, pegida]	0.8252148997134671
+[kritisch] ==> [weg]	0.7840490797546013
+[niedergeschlag, weg] ==> [kritisch]	1.0
+[kritisch, weg] ==> [niedergeschlag]	0.9014084507042254
+[kritisch, niedergeschlag] ==> [weg]	0.8323699421965318
+[kritisch] ==> [niedergeschlag, weg]	0.7067484662576687
+[niedergeschlag] ==> [kritisch, weg]	0.829971181556196
+[pegida, weg] ==> [kritisch]	0.8644793152639088
+[kritisch, weg] ==> [pegida]	0.9483568075117371
+[kritisch, pegida] ==> [weg]	0.8370165745856354
+[kritisch] ==> [pegida, weg]	0.743558282208589
+[unfassbar, weg] ==> [kritisch]	0.9982668977469671
+[kritisch, weg] ==> [unfassbar]	0.9014084507042254
+[kritisch, unfassbar] ==> [weg]	1.0
+[kritisch] ==> [unfassbar, weg]	0.7067484662576687
+[unfassbar] ==> [kritisch, weg]	0.8252148997134671
+[niedergeschlag] ==> [pegida]	0.9971181556195965
+[unfassbar] ==> [niedergeschlag]	0.8252148997134671
+[niedergeschlag] ==> [unfassbar]	0.829971181556196
+[pegida, unfassbar] ==> [niedergeschlag]	1.0
+[niedergeschlag, unfassbar] ==> [pegida]	1.0
+[niedergeschlag, pegida] ==> [unfassbar]	0.8323699421965318
+[niedergeschlag] ==> [pegida, unfassbar]	0.829971181556196
+[unfassbar] ==> [niedergeschlag, pegida]	0.8252148997134671
+[niedergeschlag] ==> [weg]	0.829971181556196
+[pegida, weg] ==> [niedergeschlag]	0.8216833095577746
+[niedergeschlag, weg] ==> [pegida]	1.0
+[niedergeschlag, pegida] ==> [weg]	0.8323699421965318
+[niedergeschlag] ==> [pegida, weg]	0.829971181556196
+[unfassbar, weg] ==> [niedergeschlag]	0.9982668977469671
+[niedergeschlag, weg] ==> [unfassbar]	1.0
+[niedergeschlag, unfassbar] ==> [weg]	1.0
+[unfassbar] ==> [niedergeschlag, weg]	0.8252148997134671
+[niedergeschlag] ==> [unfassbar, weg]	0.829971181556196
+[unfassbar] ==> [pegida]	0.8252148997134671
+[unfassbar, weg] ==> [pegida]	0.9982668977469671
+[pegida, weg] ==> [unfassbar]	0.8216833095577746
+[pegida, unfassbar] ==> [weg]	1.0
+[unfassbar] ==> [pegida, weg]	0.8252148997134671
+[unfassbar] ==> [weg]	0.826647564469914

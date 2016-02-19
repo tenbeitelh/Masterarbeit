@@ -1,0 +1,169 @@
+[jungefreiheit] ==> [afd]	0.9527027027027027
+[afd] ==> [npd]	0.9963154016212233
+[afd, dass] ==> [npd]	1.0
+[afd, fluchtling] ==> [npd]	1.0
+[jungefreiheit, npd] ==> [afd]	1.0
+[afd, jungefreiheit] ==> [npd]	1.0
+[jungefreiheit] ==> [afd, npd]	0.9527027027027027
+[afd, mehr] ==> [npd]	1.0
+[pack] ==> [afd]	0.9162011173184358
+[dass, pack] ==> [afd]	0.9934640522875817
+[afd, pack] ==> [dass]	0.926829268292683
+[afd, dass] ==> [pack]	0.8216216216216217
+[pack] ==> [afd, dass]	0.8491620111731844
+[npd, pack] ==> [afd]	0.9761904761904762
+[afd, pack] ==> [npd]	1.0
+[pack] ==> [afd, npd]	0.9162011173184358
+[pegida] ==> [afd]	0.7592794759825328
+[dass, pegida] ==> [afd]	0.9764705882352941
+[afd, dass] ==> [pegida]	0.8972972972972973
+[npd, pegida] ==> [afd]	0.7609649122807017
+[afd, pegida] ==> [npd]	0.9978432782171099
+[pegida] ==> [afd, npd]	0.75764192139738
+[pack, pegida] ==> [afd]	0.9876543209876543
+[afd, pack] ==> [pegida]	0.975609756097561
+[pack] ==> [afd, pegida]	0.8938547486033519
+[politik] ==> [afd]	0.7073578595317725
+[npd, politik] ==> [afd]	0.8197674418604651
+[afd, politik] ==> [npd]	1.0
+[politik] ==> [afd, npd]	0.7073578595317725
+[afd, recht] ==> [npd]	1.0
+[vollpfost] ==> [afd]	0.9866220735785953
+[npd, vollpfost] ==> [afd]	0.9966216216216216
+[afd, vollpfost] ==> [npd]	1.0
+[vollpfost] ==> [afd, npd]	0.9866220735785953
+[pegida, vollpfost] ==> [afd]	1.0
+[afd, vollpfost] ==> [pegida]	0.9966101694915255
+[vollpfost] ==> [afd, pegida]	0.9832775919732442
+[widerlich] ==> [afd]	0.7079646017699115
+[npd, widerlich] ==> [afd]	0.9302325581395349
+[afd, widerlich] ==> [npd]	1.0
+[widerlich] ==> [afd, npd]	0.7079646017699115
+[pegida, widerlich] ==> [afd]	0.986013986013986
+[afd, widerlich] ==> [pegida]	0.88125
+[widerstand] ==> [afd]	0.7442748091603053
+[npd, widerstand] ==> [afd]	0.9090909090909091
+[afd, widerstand] ==> [npd]	1.0
+[widerstand] ==> [afd, npd]	0.7442748091603053
+[pegida, widerstand] ==> [afd]	1.0
+[afd, widerstand] ==> [pegida]	0.9743589743589743
+[widerstand] ==> [afd, pegida]	0.7251908396946565
+[npd, wurd] ==> [afd]	0.6568627450980392
+[afd, wurd] ==> [npd]	1.0
+[amp] ==> [npd]	0.8506944444444444
+[angriff] ==> [npd]	0.9777777777777777
+[anhang] ==> [npd]	0.9668874172185431
+[anti] ==> [npd]	0.9863013698630136
+[antifa] ==> [npd]	0.7943722943722944
+[antifa, weinheim] ==> [npd]	0.9856115107913669
+[asyl] ==> [npd]	0.8674698795180723
+[aufmarsch] ==> [npd]	0.9428571428571428
+[berlin] ==> [npd]	0.8745198463508322
+[berlin, jothal] ==> [npd]	0.9878048780487805
+[blocknpd] ==> [nonpdwhm]	0.8675496688741722
+[blocknpd] ==> [npd]	0.9337748344370861
+[bundesparteitag] ==> [npd]	1.0
+[bundesparteitag, nonpdwhm] ==> [npd]	1.0
+[bundesparteitag] ==> [weinheim]	0.8336673346693386
+[bundesparteitag, nonpdwhm] ==> [weinheim]	0.8516483516483516
+[bundesparteitag, weinheim] ==> [npd]	1.0
+[bundesparteitag, npd] ==> [weinheim]	0.8336673346693386
+[bundesparteitag] ==> [npd, weinheim]	0.8336673346693386
+[cdu] ==> [npd]	0.9790209790209791
+[dass] ==> [npd]	0.7743589743589744
+[pack] ==> [dass]	0.8547486033519553
+[npd, pack] ==> [dass]	0.9107142857142857
+[dass, pack] ==> [npd]	1.0
+[pack] ==> [dass, npd]	0.8547486033519553
+[dass, pegida] ==> [npd]	1.0
+[pack, pegida] ==> [dass]	0.9444444444444444
+[dass, pegida] ==> [pack]	0.9
+[dass, pack] ==> [pegida]	1.0
+[pack] ==> [dass, pegida]	0.8547486033519553
+[demo] ==> [npd]	0.9363636363636364
+[demonstri] ==> [npd]	0.9215686274509803
+[deutschland] ==> [npd]	0.9957446808510638
+[dierecht] ==> [npd]	0.9871794871794872
+[erst] ==> [npd]	0.8863636363636364
+[fcknzs] ==> [npd]	0.9941176470588236
+[lindn] ==> [fdp]	0.9428571428571428
+[svp] ==> [fdp]	0.9467455621301775
+[fluchtling] ==> [npd]	0.8046153846153846
+[gegenprot] ==> [npd]	0.9645390070921985
+[geht] ==> [npd]	0.8526315789473684
+[gibt] ==> [npd]	0.7929292929292929
+[heut] ==> [npd]	0.7545126353790613
+[https] ==> [npd]	0.7854251012145749
+[imm] ==> [npd]	0.8663101604278075
+[jothal] ==> [npd]	0.9847908745247148
+[jungefreiheit] ==> [npd]	0.9527027027027027
+[karow] ==> [npd]	0.9903846153846154
+[kundgebung] ==> [npd]	0.9629629629629629
+[lageso] ==> [npd]	0.8482587064676617
+[leipzig] ==> [npd]	0.9853658536585366
+[massiv] ==> [npd]	0.9341085271317829
+[mehr] ==> [npd]	0.7050691244239631
+[mensch] ==> [npd]	0.9139072847682119
+[morg] ==> [npd]	0.9422222222222222
+[morg] ==> [weinheim]	0.6844444444444444
+[morg, weinheim] ==> [npd]	1.0
+[morg, npd] ==> [weinheim]	0.7264150943396226
+[morg] ==> [npd, weinheim]	0.6844444444444444
+[nazi] ==> [npd]	0.958974358974359
+[nazis] ==> [npd]	0.8953722334004024
+[nonazis] ==> [npd]	0.9339622641509434
+[nonpd] ==> [npd]	0.9674418604651163
+[nonpdwhm] ==> [npd]	0.9226759339704604
+[nonpdwhm, parteitag] ==> [npd]	1.0
+[nonpdwhm, prot] ==> [npd]	1.0
+[nonpdwhm, weinheim] ==> [npd]	0.9828660436137072
+[novemb] ==> [npd]	0.8870967741935484
+[pack] ==> [npd]	0.9385474860335196
+[parteitag] ==> [npd]	0.9550128534704371
+[pegida] ==> [npd]	0.9956331877729258
+[pack, pegida] ==> [npd]	1.0
+[npd, pack] ==> [pegida]	0.9642857142857143
+[pack] ==> [npd, pegida]	0.9050279329608939
+[politik] ==> [npd]	0.862876254180602
+[polizei] ==> [npd]	0.8732782369146006
+[prot] ==> [npd]	0.8787425149700598
+[rassistisch] ==> [npd]	0.7277227722772277
+[recht] ==> [npd]	0.9094707520891365
+[pegida, recht] ==> [npd]	1.0
+[npd, recht] ==> [pegida]	0.6799387442572741
+[refugeeswelcom] ==> [npd]	0.8259109311740891
+[seit] ==> [npd]	0.7640449438202247
+[uhr] ==> [npd]	0.7473684210526316
+[via] ==> [npd]	0.8418803418803419
+[vollpfost] ==> [npd]	0.9899665551839465
+[pegida, vollpfost] ==> [npd]	1.0
+[npd, vollpfost] ==> [pegida]	0.9932432432432432
+[vollpfost] ==> [npd, pegida]	0.9832775919732442
+[weinheim] ==> [npd]	0.9657007687758723
+[parteitag, weinheim] ==> [npd]	0.9952830188679245
+[polizei, weinheim] ==> [npd]	0.8900523560209425
+[prot, weinheim] ==> [npd]	1.0
+[widerlich] ==> [npd]	0.7610619469026548
+[pegida, widerlich] ==> [npd]	1.0
+[npd, widerlich] ==> [pegida]	0.8313953488372093
+[widerstand] ==> [npd]	0.8187022900763359
+[pegida, widerstand] ==> [npd]	1.0
+[npd, widerstand] ==> [pegida]	0.8857808857808858
+[widerstand] ==> [npd, pegida]	0.7251908396946565
+[wurd] ==> [npd]	0.8607594936708861
+[zurst] ==> [npd]	0.9418282548476454
+[pegida, zurst] ==> [npd]	1.0
+[npd, zurst] ==> [pegida]	0.9970588235294118
+[zurst] ==> [npd, pegida]	0.9390581717451524
+[recht, zurst] ==> [npd]	1.0
+[npd, zurst] ==> [recht]	0.9941176470588236
+[zurst] ==> [npd, recht]	0.9362880886426593
+[pack] ==> [pegida]	0.9050279329608939
+[vollpfost] ==> [pegida]	0.9832775919732442
+[widerstand] ==> [pegida]	0.7251908396946565
+[zurst] ==> [pegida]	0.9390581717451524
+[recht, zurst] ==> [pegida]	1.0
+[pegida, zurst] ==> [recht]	0.9970501474926253
+[pegida, recht] ==> [zurst]	0.7612612612612613
+[zurst] ==> [pegida, recht]	0.9362880886426593
+[zurst] ==> [recht]	0.9362880886426593

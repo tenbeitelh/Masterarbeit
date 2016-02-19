@@ -1,0 +1,217 @@
+[europa] ==> [bildung]	0.7241713041374305
+[bildung] ==> [europa]	0.9749185667752444
+[jung] ==> [bildung]	0.9263385948622718
+[bildung] ==> [jung]	0.9749185667752444
+[europa, jung] ==> [bildung]	0.994682618810236
+[bildung, europa] ==> [jung]	1.0
+[bildung, jung] ==> [europa]	1.0
+[kapitel] ==> [bildung]	0.9989986648865153
+[bildung] ==> [kapitel]	0.9749185667752444
+[europa, kapitel] ==> [bildung]	0.9996659986639946
+[bildung, europa] ==> [kapitel]	1.0
+[bildung, kapitel] ==> [europa]	1.0
+[jung, kapitel] ==> [bildung]	0.9996659986639946
+[bildung, jung] ==> [kapitel]	1.0
+[bildung, kapitel] ==> [jung]	1.0
+[bildung] ==> [mensch]	0.9755700325732899
+[europa, mensch] ==> [bildung]	0.968921981223697
+[bildung, europa] ==> [mensch]	1.0
+[bildung, mensch] ==> [europa]	0.9993322203672788
+[jung, mensch] ==> [bildung]	0.985836627140975
+[bildung, jung] ==> [mensch]	1.0
+[bildung, mensch] ==> [jung]	0.9993322203672788
+[kapitel, mensch] ==> [bildung]	0.9996659986639946
+[bildung, kapitel] ==> [mensch]	1.0
+[bildung, mensch] ==> [kapitel]	0.9993322203672788
+[nordamerika] ==> [bildung]	0.9996659986639946
+[bildung] ==> [nordamerika]	0.9749185667752444
+[europa, nordamerika] ==> [bildung]	0.9996659986639946
+[bildung, europa] ==> [nordamerika]	1.0
+[bildung, nordamerika] ==> [europa]	1.0
+[jung, nordamerika] ==> [bildung]	0.9996659986639946
+[bildung, jung] ==> [nordamerika]	1.0
+[bildung, nordamerika] ==> [jung]	1.0
+[kapitel, nordamerika] ==> [bildung]	0.9996659986639946
+[bildung, kapitel] ==> [nordamerika]	1.0
+[bildung, nordamerika] ==> [kapitel]	1.0
+[mensch, nordamerika] ==> [bildung]	0.9996659986639946
+[bildung, mensch] ==> [nordamerika]	0.9993322203672788
+[bildung, nordamerika] ==> [mensch]	1.0
+[politik] ==> [bildung]	0.8908232516966657
+[bildung] ==> [politik]	0.9833876221498371
+[europa, politik] ==> [bildung]	0.9513668150031787
+[bildung, europa] ==> [politik]	1.0
+[bildung, politik] ==> [europa]	0.9913878767803909
+[jung, politik] ==> [bildung]	0.9877887788778877
+[bildung, jung] ==> [politik]	1.0
+[bildung, politik] ==> [jung]	0.9913878767803909
+[kapitel, politik] ==> [bildung]	0.9996659986639946
+[bildung, kapitel] ==> [politik]	1.0
+[bildung, politik] ==> [kapitel]	0.9913878767803909
+[mensch, politik] ==> [bildung]	0.9489698890649763
+[bildung, mensch] ==> [politik]	0.9996661101836394
+[bildung, politik] ==> [mensch]	0.9917191122888374
+[nordamerika, politik] ==> [bildung]	0.9996659986639946
+[bildung, nordamerika] ==> [politik]	1.0
+[bildung, politik] ==> [nordamerika]	0.9913878767803909
+[treff] ==> [bildung]	0.9441640378548896
+[bildung] ==> [treff]	0.9749185667752444
+[europa, treff] ==> [bildung]	0.9996659986639946
+[bildung, europa] ==> [treff]	1.0
+[bildung, treff] ==> [europa]	1.0
+[jung, treff] ==> [bildung]	1.0
+[bildung, jung] ==> [treff]	1.0
+[bildung, treff] ==> [jung]	1.0
+[kapitel, treff] ==> [bildung]	1.0
+[bildung, kapitel] ==> [treff]	1.0
+[bildung, treff] ==> [kapitel]	1.0
+[mensch, treff] ==> [bildung]	0.9986653319986654
+[bildung, mensch] ==> [treff]	0.9993322203672788
+[bildung, treff] ==> [mensch]	1.0
+[nordamerika, treff] ==> [bildung]	1.0
+[bildung, nordamerika] ==> [treff]	1.0
+[bildung, treff] ==> [nordamerika]	1.0
+[politik, treff] ==> [bildung]	0.9874628835367866
+[bildung, politik] ==> [treff]	0.9913878767803909
+[bildung, treff] ==> [politik]	1.0
+[jung] ==> [europa]	0.9312906220984215
+[europa] ==> [jung]	0.7280425840793613
+[kapitel] ==> [europa]	0.9993324432576769
+[europa] ==> [kapitel]	0.7244132591338012
+[jung, kapitel] ==> [europa]	1.0
+[europa, jung] ==> [kapitel]	0.9950149551345963
+[europa, kapitel] ==> [jung]	1.0
+[europa] ==> [mensch]	0.7473989837890153
+[jung, mensch] ==> [europa]	0.9861660079051383
+[europa, jung] ==> [mensch]	0.9950149551345963
+[europa, mensch] ==> [jung]	0.9692457105859501
+[kapitel, mensch] ==> [europa]	1.0
+[europa, kapitel] ==> [mensch]	1.0
+[europa, mensch] ==> [kapitel]	0.9692457105859501
+[nordamerika] ==> [europa]	1.0
+[europa] ==> [nordamerika]	0.7244132591338012
+[jung, nordamerika] ==> [europa]	1.0
+[europa, jung] ==> [nordamerika]	0.9950149551345963
+[europa, nordamerika] ==> [jung]	1.0
+[kapitel, nordamerika] ==> [europa]	1.0
+[europa, kapitel] ==> [nordamerika]	1.0
+[europa, nordamerika] ==> [kapitel]	1.0
+[mensch, nordamerika] ==> [europa]	1.0
+[europa, mensch] ==> [nordamerika]	0.9692457105859501
+[europa, nordamerika] ==> [mensch]	1.0
+[politik] ==> [europa]	0.9282974328710534
+[europa] ==> [politik]	0.7611904185821438
+[jung, politik] ==> [europa]	0.9900990099009901
+[europa, jung] ==> [politik]	0.9970089730807578
+[europa, politik] ==> [jung]	0.9535918626827717
+[kapitel, politik] ==> [europa]	1.0
+[europa, kapitel] ==> [politik]	1.0
+[europa, politik] ==> [kapitel]	0.9516846789574063
+[mensch, politik] ==> [europa]	0.9505546751188589
+[europa, mensch] ==> [politik]	0.9708643573972159
+[europa, politik] ==> [mensch]	0.9532739987285442
+[nordamerika, politik] ==> [europa]	1.0
+[europa, nordamerika] ==> [politik]	1.0
+[europa, politik] ==> [nordamerika]	0.9516846789574063
+[treff] ==> [europa]	0.9444794952681388
+[europa] ==> [treff]	0.7244132591338012
+[jung, treff] ==> [europa]	1.0
+[europa, jung] ==> [treff]	0.994682618810236
+[europa, treff] ==> [jung]	0.9996659986639946
+[kapitel, treff] ==> [europa]	1.0
+[europa, kapitel] ==> [treff]	0.9996659986639946
+[europa, treff] ==> [kapitel]	0.9996659986639946
+[mensch, treff] ==> [europa]	0.9986653319986654
+[europa, mensch] ==> [treff]	0.968921981223697
+[europa, treff] ==> [mensch]	0.9996659986639946
+[nordamerika, treff] ==> [europa]	1.0
+[europa, nordamerika] ==> [treff]	0.9996659986639946
+[europa, treff] ==> [nordamerika]	0.9996659986639946
+[politik, treff] ==> [europa]	0.9874628835367866
+[europa, politik] ==> [treff]	0.9513668150031787
+[europa, treff] ==> [politik]	0.9996659986639946
+[kapitel] ==> [jung]	0.9993324432576769
+[jung] ==> [kapitel]	0.9266480965645311
+[jung] ==> [mensch]	0.9396471680594243
+[kapitel, mensch] ==> [jung]	1.0
+[jung, kapitel] ==> [mensch]	1.0
+[jung, mensch] ==> [kapitel]	0.9861660079051383
+[nordamerika] ==> [jung]	1.0
+[jung] ==> [nordamerika]	0.9266480965645311
+[kapitel, nordamerika] ==> [jung]	1.0
+[jung, kapitel] ==> [nordamerika]	1.0
+[jung, nordamerika] ==> [kapitel]	1.0
+[mensch, nordamerika] ==> [jung]	1.0
+[jung, mensch] ==> [nordamerika]	0.9861660079051383
+[jung, nordamerika] ==> [mensch]	1.0
+[politik] ==> [jung]	0.8940690469164946
+[jung] ==> [politik]	0.9377901578458682
+[kapitel, politik] ==> [jung]	1.0
+[jung, kapitel] ==> [politik]	1.0
+[jung, politik] ==> [kapitel]	0.9881188118811881
+[mensch, politik] ==> [jung]	0.9508716323296355
+[jung, mensch] ==> [politik]	0.9881422924901185
+[jung, politik] ==> [mensch]	0.9900990099009901
+[nordamerika, politik] ==> [jung]	1.0
+[jung, nordamerika] ==> [politik]	1.0
+[jung, politik] ==> [nordamerika]	0.9881188118811881
+[treff] ==> [jung]	0.9441640378548896
+[jung] ==> [treff]	0.9263385948622718
+[kapitel, treff] ==> [jung]	1.0
+[jung, kapitel] ==> [treff]	0.9996659986639946
+[jung, treff] ==> [kapitel]	1.0
+[mensch, treff] ==> [jung]	0.9986653319986654
+[jung, mensch] ==> [treff]	0.985836627140975
+[jung, treff] ==> [mensch]	1.0
+[nordamerika, treff] ==> [jung]	1.0
+[jung, nordamerika] ==> [treff]	0.9996659986639946
+[jung, treff] ==> [nordamerika]	1.0
+[politik, treff] ==> [jung]	0.9874628835367866
+[jung, politik] ==> [treff]	0.9877887788778877
+[jung, treff] ==> [politik]	1.0
+[kapitel] ==> [mensch]	0.9993324432576769
+[nordamerika] ==> [kapitel]	1.0
+[kapitel] ==> [nordamerika]	0.9993324432576769
+[mensch, nordamerika] ==> [kapitel]	1.0
+[kapitel, mensch] ==> [nordamerika]	1.0
+[kapitel, nordamerika] ==> [mensch]	1.0
+[politik] ==> [kapitel]	0.8834464443788729
+[kapitel] ==> [politik]	0.9993324432576769
+[mensch, politik] ==> [kapitel]	0.9489698890649763
+[kapitel, mensch] ==> [politik]	1.0
+[kapitel, politik] ==> [mensch]	1.0
+[nordamerika, politik] ==> [kapitel]	1.0
+[kapitel, nordamerika] ==> [politik]	1.0
+[kapitel, politik] ==> [nordamerika]	1.0
+[treff] ==> [kapitel]	0.9441640378548896
+[kapitel] ==> [treff]	0.9989986648865153
+[mensch, treff] ==> [kapitel]	0.9986653319986654
+[kapitel, mensch] ==> [treff]	0.9996659986639946
+[kapitel, treff] ==> [mensch]	1.0
+[nordamerika, treff] ==> [kapitel]	1.0
+[kapitel, nordamerika] ==> [treff]	0.9996659986639946
+[kapitel, treff] ==> [nordamerika]	1.0
+[politik, treff] ==> [kapitel]	0.9874628835367866
+[kapitel, politik] ==> [treff]	0.9996659986639946
+[kapitel, treff] ==> [politik]	1.0
+[nordamerika] ==> [mensch]	1.0
+[politik] ==> [mensch]	0.9309530835054588
+[nordamerika, politik] ==> [mensch]	1.0
+[mensch, nordamerika] ==> [politik]	1.0
+[mensch, politik] ==> [nordamerika]	0.9489698890649763
+[treff] ==> [mensch]	0.9454258675078865
+[nordamerika, treff] ==> [mensch]	1.0
+[mensch, nordamerika] ==> [treff]	0.9996659986639946
+[mensch, treff] ==> [nordamerika]	0.9986653319986654
+[politik, treff] ==> [mensch]	0.9874628835367866
+[mensch, politik] ==> [treff]	0.9486529318541996
+[mensch, treff] ==> [politik]	0.9986653319986654
+[politik] ==> [nordamerika]	0.8834464443788729
+[nordamerika] ==> [politik]	1.0
+[treff] ==> [nordamerika]	0.9441640378548896
+[nordamerika] ==> [treff]	0.9996659986639946
+[politik, treff] ==> [nordamerika]	0.9874628835367866
+[nordamerika, politik] ==> [treff]	0.9996659986639946
+[nordamerika, treff] ==> [politik]	1.0
+[treff] ==> [politik]	0.9561514195583596
+[politik] ==> [treff]	0.8943641192092062

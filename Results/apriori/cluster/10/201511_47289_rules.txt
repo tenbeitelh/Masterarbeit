@@ -1,0 +1,1049 @@
+[amp] ==> [pegida]	0.9313824419778002
+[anhang] ==> [pegida]	0.9772727272727273
+[gobbel] ==> [bachmann]	0.7200956937799043
+[lutz] ==> [bachmann]	0.7855227882037533
+[maas] ==> [bachmann]	0.6903039073806078
+[bachmann] ==> [pegida]	0.8560706401766004
+[gobbel, pegida] ==> [bachmann]	0.7125668449197861
+[bachmann, gobbel] ==> [pegida]	0.8853820598006644
+[lutz, pegida] ==> [bachmann]	0.8155038759689922
+[bachmann, lutz] ==> [pegida]	0.8976109215017065
+[lutz] ==> [bachmann, pegida]	0.7050938337801609
+[beobacht] ==> [deutsch]	0.8774617067833698
+[lass] ==> [beobacht]	0.7072368421052632
+[beobacht] ==> [lass]	0.9409190371991247
+[deutsch, lass] ==> [beobacht]	0.9755501222493888
+[beobacht, lass] ==> [deutsch]	0.9279069767441861
+[beobacht, deutsch] ==> [lass]	0.9950124688279302
+[lass] ==> [beobacht, deutsch]	0.65625
+[beobacht] ==> [deutsch, lass]	0.8730853391684902
+[beobacht] ==> [pegida]	0.975929978118162
+[beobacht, pegida] ==> [deutsch]	0.899103139013453
+[beobacht, deutsch] ==> [pegida]	1.0
+[beobacht] ==> [deutsch, pegida]	0.8774617067833698
+[lass, pegida] ==> [beobacht]	0.7517482517482518
+[beobacht, pegida] ==> [lass]	0.9641255605381166
+[beobacht, lass] ==> [pegida]	1.0
+[lass] ==> [beobacht, pegida]	0.7072368421052632
+[beobacht] ==> [lass, pegida]	0.9409190371991247
+[verfassungsschutz] ==> [beobacht]	0.65527950310559
+[beobacht] ==> [verfassungsschutz]	0.9234135667396062
+[lass, verfassungsschutz] ==> [beobacht]	0.9928741092636579
+[beobacht, verfassungsschutz] ==> [lass]	0.990521327014218
+[beobacht, lass] ==> [verfassungsschutz]	0.9720930232558139
+[lass] ==> [beobacht, verfassungsschutz]	0.6875
+[beobacht] ==> [lass, verfassungsschutz]	0.9146608315098468
+[pegida, verfassungsschutz] ==> [beobacht]	0.6693163751987281
+[beobacht, verfassungsschutz] ==> [pegida]	0.9976303317535545
+[beobacht, pegida] ==> [verfassungsschutz]	0.9439461883408071
+[verfassungsschutz] ==> [beobacht, pegida]	0.6537267080745341
+[beobacht] ==> [pegida, verfassungsschutz]	0.9212253829321663
+[bug] ==> [besorgt]	1.0
+[islamist] ==> [besorgt]	0.8665730337078652
+[bug, islamist] ==> [besorgt]	1.0
+[besorgt, islamist] ==> [bug]	0.9967585089141004
+[besorgt, bug] ==> [islamist]	0.9983766233766234
+[islamist] ==> [besorgt, bug]	0.8637640449438202
+[bug] ==> [besorgt, islamist]	0.9983766233766234
+[muslim] ==> [besorgt]	0.7719298245614035
+[bug, muslim] ==> [besorgt]	1.0
+[besorgt, muslim] ==> [bug]	0.9983766233766234
+[besorgt, bug] ==> [muslim]	0.9983766233766234
+[bug] ==> [besorgt, muslim]	0.9983766233766234
+[muslim] ==> [besorgt, bug]	0.7706766917293233
+[islamist, muslim] ==> [besorgt]	0.9935483870967742
+[besorgt, muslim] ==> [islamist]	1.0
+[besorgt, islamist] ==> [muslim]	0.9983792544570502
+[islamist] ==> [besorgt, muslim]	0.8651685393258427
+[muslim] ==> [besorgt, islamist]	0.7719298245614035
+[bug, nazi] ==> [besorgt]	1.0
+[besorgt, nazi] ==> [bug]	0.9919354838709677
+[besorgt, bug] ==> [nazi]	0.9983766233766234
+[bug] ==> [besorgt, nazi]	0.9983766233766234
+[islamist, nazi] ==> [besorgt]	0.9951456310679612
+[besorgt, nazi] ==> [islamist]	0.9919354838709677
+[besorgt, islamist] ==> [nazi]	0.9967585089141004
+[islamist] ==> [besorgt, nazi]	0.8637640449438202
+[muslim, nazi] ==> [besorgt]	1.0
+[besorgt, nazi] ==> [muslim]	0.9919354838709677
+[besorgt, muslim] ==> [nazi]	0.9983766233766234
+[muslim] ==> [besorgt, nazi]	0.7706766917293233
+[besorgt] ==> [pegida]	0.8247524752475247
+[bug, pegida] ==> [besorgt]	1.0
+[besorgt, pegida] ==> [bug]	0.7382953181272509
+[besorgt, bug] ==> [pegida]	0.9983766233766234
+[bug] ==> [besorgt, pegida]	0.9983766233766234
+[islamist, pegida] ==> [besorgt]	0.9292168674698795
+[besorgt, pegida] ==> [islamist]	0.7406962785114045
+[besorgt, islamist] ==> [pegida]	1.0
+[islamist] ==> [besorgt, pegida]	0.8665730337078652
+[muslim, pegida] ==> [besorgt]	0.8137384412153237
+[besorgt, pegida] ==> [muslim]	0.7394957983193278
+[besorgt, muslim] ==> [pegida]	1.0
+[muslim] ==> [besorgt, pegida]	0.7719298245614035
+[nazi, pegida] ==> [besorgt]	0.7157772621809745
+[besorgt, pegida] ==> [nazi]	0.7406962785114045
+[besorgt, nazi] ==> [pegida]	0.9951612903225806
+[unt] ==> [besorgt]	0.9446153846153846
+[bug, unt] ==> [besorgt]	1.0
+[besorgt, unt] ==> [bug]	1.0
+[besorgt, bug] ==> [unt]	0.9967532467532467
+[unt] ==> [besorgt, bug]	0.9446153846153846
+[bug] ==> [besorgt, unt]	0.9967532467532467
+[islamist, unt] ==> [besorgt]	1.0
+[besorgt, unt] ==> [islamist]	1.0
+[besorgt, islamist] ==> [unt]	0.9951377633711507
+[unt] ==> [besorgt, islamist]	0.9446153846153846
+[islamist] ==> [besorgt, unt]	0.8623595505617978
+[muslim, unt] ==> [besorgt]	1.0
+[besorgt, unt] ==> [muslim]	1.0
+[besorgt, muslim] ==> [unt]	0.9967532467532467
+[unt] ==> [besorgt, muslim]	0.9446153846153846
+[muslim] ==> [besorgt, unt]	0.7694235588972431
+[nazi, unt] ==> [besorgt]	1.0
+[besorgt, unt] ==> [nazi]	1.0
+[besorgt, nazi] ==> [unt]	0.9903225806451613
+[unt] ==> [besorgt, nazi]	0.9446153846153846
+[pegida, unt] ==> [besorgt]	0.959375
+[besorgt, unt] ==> [pegida]	1.0
+[besorgt, pegida] ==> [unt]	0.737094837935174
+[unt] ==> [besorgt, pegida]	0.9446153846153846
+[unterscheidet] ==> [besorgt]	0.9919354838709677
+[bug, unterscheidet] ==> [besorgt]	1.0
+[besorgt, unterscheidet] ==> [bug]	1.0
+[besorgt, bug] ==> [unterscheidet]	0.9983766233766234
+[bug] ==> [besorgt, unterscheidet]	0.9983766233766234
+[unterscheidet] ==> [besorgt, bug]	0.9919354838709677
+[islamist, unterscheidet] ==> [besorgt]	0.9983766233766234
+[besorgt, unterscheidet] ==> [islamist]	1.0
+[besorgt, islamist] ==> [unterscheidet]	0.9967585089141004
+[islamist] ==> [besorgt, unterscheidet]	0.8637640449438202
+[unterscheidet] ==> [besorgt, islamist]	0.9919354838709677
+[muslim, unterscheidet] ==> [besorgt]	0.9983766233766234
+[besorgt, unterscheidet] ==> [muslim]	1.0
+[besorgt, muslim] ==> [unterscheidet]	0.9983766233766234
+[muslim] ==> [besorgt, unterscheidet]	0.7706766917293233
+[unterscheidet] ==> [besorgt, muslim]	0.9919354838709677
+[nazi, unterscheidet] ==> [besorgt]	1.0
+[besorgt, unterscheidet] ==> [nazi]	1.0
+[besorgt, nazi] ==> [unterscheidet]	0.9919354838709677
+[unterscheidet] ==> [besorgt, nazi]	0.9919354838709677
+[pegida, unterscheidet] ==> [besorgt]	0.9951456310679612
+[besorgt, unterscheidet] ==> [pegida]	1.0
+[besorgt, pegida] ==> [unterscheidet]	0.7382953181272509
+[unterscheidet] ==> [besorgt, pegida]	0.9919354838709677
+[unt, unterscheidet] ==> [besorgt]	1.0
+[besorgt, unterscheidet] ==> [unt]	0.9983739837398374
+[besorgt, unt] ==> [unterscheidet]	1.0
+[unt] ==> [besorgt, unterscheidet]	0.9446153846153846
+[unterscheidet] ==> [besorgt, unt]	0.9903225806451613
+[bug, warum] ==> [besorgt]	1.0
+[besorgt, warum] ==> [bug]	0.9983766233766234
+[besorgt, bug] ==> [warum]	0.9983766233766234
+[bug] ==> [besorgt, warum]	0.9983766233766234
+[islamist, warum] ==> [besorgt]	0.9983766233766234
+[besorgt, warum] ==> [islamist]	0.9983766233766234
+[besorgt, islamist] ==> [warum]	0.9967585089141004
+[islamist] ==> [besorgt, warum]	0.8637640449438202
+[muslim, warum] ==> [besorgt]	0.9919354838709677
+[besorgt, warum] ==> [muslim]	0.9983766233766234
+[besorgt, muslim] ==> [warum]	0.9983766233766234
+[muslim] ==> [besorgt, warum]	0.7706766917293233
+[nazi, warum] ==> [besorgt]	0.9967585089141004
+[besorgt, warum] ==> [nazi]	0.9983766233766234
+[besorgt, nazi] ==> [warum]	0.9919354838709677
+[pegida, warum] ==> [besorgt]	0.66738894907909
+[besorgt, warum] ==> [pegida]	1.0
+[besorgt, pegida] ==> [warum]	0.7394957983193278
+[unt, warum] ==> [besorgt]	1.0
+[besorgt, warum] ==> [unt]	0.9967532467532467
+[besorgt, unt] ==> [warum]	1.0
+[unt] ==> [besorgt, warum]	0.9446153846153846
+[unterscheidet, warum] ==> [besorgt]	0.9983766233766234
+[besorgt, warum] ==> [unterscheidet]	0.9983766233766234
+[besorgt, unterscheidet] ==> [warum]	1.0
+[unterscheidet] ==> [besorgt, warum]	0.9919354838709677
+[islamist] ==> [bug]	0.8637640449438202
+[bug] ==> [islamist]	0.9983766233766234
+[muslim] ==> [bug]	0.7706766917293233
+[bug] ==> [muslim]	0.9983766233766234
+[islamist, muslim] ==> [bug]	0.9919354838709677
+[bug, muslim] ==> [islamist]	1.0
+[bug, islamist] ==> [muslim]	1.0
+[muslim] ==> [bug, islamist]	0.7706766917293233
+[bug] ==> [islamist, muslim]	0.9983766233766234
+[islamist] ==> [bug, muslim]	0.8637640449438202
+[bug] ==> [nazi]	0.9983766233766234
+[islamist, nazi] ==> [bug]	0.9951456310679612
+[bug, nazi] ==> [islamist]	1.0
+[bug, islamist] ==> [nazi]	1.0
+[islamist] ==> [bug, nazi]	0.8637640449438202
+[bug] ==> [islamist, nazi]	0.9983766233766234
+[muslim, nazi] ==> [bug]	1.0
+[bug, nazi] ==> [muslim]	1.0
+[bug, muslim] ==> [nazi]	1.0
+[bug] ==> [muslim, nazi]	0.9983766233766234
+[muslim] ==> [bug, nazi]	0.7706766917293233
+[bug] ==> [pegida]	0.9983766233766234
+[islamist, pegida] ==> [bug]	0.9262048192771084
+[bug, pegida] ==> [islamist]	1.0
+[bug, islamist] ==> [pegida]	1.0
+[bug] ==> [islamist, pegida]	0.9983766233766234
+[islamist] ==> [bug, pegida]	0.8637640449438202
+[muslim, pegida] ==> [bug]	0.8124174372523117
+[bug, pegida] ==> [muslim]	1.0
+[bug, muslim] ==> [pegida]	1.0
+[bug] ==> [muslim, pegida]	0.9983766233766234
+[muslim] ==> [bug, pegida]	0.7706766917293233
+[nazi, pegida] ==> [bug]	0.7134570765661253
+[bug, pegida] ==> [nazi]	1.0
+[bug, nazi] ==> [pegida]	1.0
+[bug] ==> [nazi, pegida]	0.9983766233766234
+[unt] ==> [bug]	0.9446153846153846
+[bug] ==> [unt]	0.9967532467532467
+[islamist, unt] ==> [bug]	1.0
+[bug, unt] ==> [islamist]	1.0
+[bug, islamist] ==> [unt]	0.9983739837398374
+[unt] ==> [bug, islamist]	0.9446153846153846
+[islamist] ==> [bug, unt]	0.8623595505617978
+[bug] ==> [islamist, unt]	0.9967532467532467
+[muslim, unt] ==> [bug]	1.0
+[bug, unt] ==> [muslim]	1.0
+[bug, muslim] ==> [unt]	0.9983739837398374
+[muslim] ==> [bug, unt]	0.7694235588972431
+[bug] ==> [muslim, unt]	0.9967532467532467
+[unt] ==> [bug, muslim]	0.9446153846153846
+[nazi, unt] ==> [bug]	1.0
+[bug, unt] ==> [nazi]	1.0
+[bug, nazi] ==> [unt]	0.9983739837398374
+[bug] ==> [nazi, unt]	0.9967532467532467
+[unt] ==> [bug, nazi]	0.9446153846153846
+[pegida, unt] ==> [bug]	0.959375
+[bug, unt] ==> [pegida]	1.0
+[bug, pegida] ==> [unt]	0.9983739837398374
+[bug] ==> [pegida, unt]	0.9967532467532467
+[unt] ==> [bug, pegida]	0.9446153846153846
+[unterscheidet] ==> [bug]	0.9919354838709677
+[bug] ==> [unterscheidet]	0.9983766233766234
+[islamist, unterscheidet] ==> [bug]	0.9983766233766234
+[bug, unterscheidet] ==> [islamist]	1.0
+[bug, islamist] ==> [unterscheidet]	1.0
+[unterscheidet] ==> [bug, islamist]	0.9919354838709677
+[islamist] ==> [bug, unterscheidet]	0.8637640449438202
+[bug] ==> [islamist, unterscheidet]	0.9983766233766234
+[muslim, unterscheidet] ==> [bug]	0.9983766233766234
+[bug, unterscheidet] ==> [muslim]	1.0
+[bug, muslim] ==> [unterscheidet]	1.0
+[muslim] ==> [bug, unterscheidet]	0.7706766917293233
+[bug] ==> [muslim, unterscheidet]	0.9983766233766234
+[unterscheidet] ==> [bug, muslim]	0.9919354838709677
+[nazi, unterscheidet] ==> [bug]	1.0
+[bug, unterscheidet] ==> [nazi]	1.0
+[bug, nazi] ==> [unterscheidet]	1.0
+[unterscheidet] ==> [bug, nazi]	0.9919354838709677
+[bug] ==> [nazi, unterscheidet]	0.9983766233766234
+[pegida, unterscheidet] ==> [bug]	0.9951456310679612
+[bug, unterscheidet] ==> [pegida]	1.0
+[bug, pegida] ==> [unterscheidet]	1.0
+[bug] ==> [pegida, unterscheidet]	0.9983766233766234
+[unterscheidet] ==> [bug, pegida]	0.9919354838709677
+[unt, unterscheidet] ==> [bug]	1.0
+[bug, unterscheidet] ==> [unt]	0.9983739837398374
+[bug, unt] ==> [unterscheidet]	1.0
+[unterscheidet] ==> [bug, unt]	0.9903225806451613
+[unt] ==> [bug, unterscheidet]	0.9446153846153846
+[bug] ==> [unt, unterscheidet]	0.9967532467532467
+[bug] ==> [warum]	0.9983766233766234
+[islamist, warum] ==> [bug]	0.9983766233766234
+[bug, warum] ==> [islamist]	1.0
+[bug, islamist] ==> [warum]	1.0
+[islamist] ==> [bug, warum]	0.8637640449438202
+[bug] ==> [islamist, warum]	0.9983766233766234
+[muslim, warum] ==> [bug]	0.9919354838709677
+[bug, warum] ==> [muslim]	1.0
+[bug, muslim] ==> [warum]	1.0
+[muslim] ==> [bug, warum]	0.7706766917293233
+[bug] ==> [muslim, warum]	0.9983766233766234
+[nazi, warum] ==> [bug]	0.9967585089141004
+[bug, warum] ==> [nazi]	1.0
+[bug, nazi] ==> [warum]	1.0
+[bug] ==> [nazi, warum]	0.9983766233766234
+[pegida, warum] ==> [bug]	0.6663055254604551
+[bug, warum] ==> [pegida]	1.0
+[bug, pegida] ==> [warum]	1.0
+[bug] ==> [pegida, warum]	0.9983766233766234
+[unt, warum] ==> [bug]	1.0
+[bug, warum] ==> [unt]	0.9983739837398374
+[bug, unt] ==> [warum]	1.0
+[unt] ==> [bug, warum]	0.9446153846153846
+[bug] ==> [unt, warum]	0.9967532467532467
+[unterscheidet, warum] ==> [bug]	0.9983766233766234
+[bug, warum] ==> [unterscheidet]	1.0
+[bug, unterscheidet] ==> [warum]	1.0
+[unterscheidet] ==> [bug, warum]	0.9919354838709677
+[bug] ==> [unterscheidet, warum]	0.9983766233766234
+[burg] ==> [pegida]	0.8211091234347049
+[chef] ==> [pegida]	0.9657534246575342
+[dass] ==> [pegida]	0.818100358422939
+[dd0911] ==> [nopegida]	0.6684131736526946
+[demo] ==> [pegida]	0.766
+[lass] ==> [deutsch]	0.6726973684210527
+[deutsch] ==> [pegida]	0.9246519246519247
+[lass, pegida] ==> [deutsch]	0.715034965034965
+[deutsch, lass] ==> [pegida]	1.0
+[lass] ==> [deutsch, pegida]	0.6726973684210527
+[pegida, verfassungsschutz] ==> [deutsch]	0.6550079491255962
+[deutsch, verfassungsschutz] ==> [pegida]	1.0
+[deutschland] ==> [pegida]	0.9801801801801802
+[dresdn] ==> [pegida]	0.9094736842105263
+[gefuhlt] ==> [edition46]	0.9726315789473684
+[edition46] ==> [gefuhlt]	1.0
+[edition46] ==> [jahr]	1.0
+[gefuhlt, jahr] ==> [edition46]	0.9978401727861771
+[edition46, jahr] ==> [gefuhlt]	1.0
+[edition46, gefuhlt] ==> [jahr]	1.0
+[gefuhlt] ==> [edition46, jahr]	0.9726315789473684
+[edition46] ==> [gefuhlt, jahr]	1.0
+[kalend] ==> [edition46]	0.9892933618843683
+[edition46] ==> [kalend]	1.0
+[gefuhlt, kalend] ==> [edition46]	0.9978401727861771
+[edition46, kalend] ==> [gefuhlt]	1.0
+[edition46, gefuhlt] ==> [kalend]	1.0
+[edition46] ==> [gefuhlt, kalend]	1.0
+[gefuhlt] ==> [edition46, kalend]	0.9726315789473684
+[kalend] ==> [edition46, gefuhlt]	0.9892933618843683
+[jahr, kalend] ==> [edition46]	0.9935483870967742
+[edition46, kalend] ==> [jahr]	1.0
+[edition46, jahr] ==> [kalend]	1.0
+[kalend] ==> [edition46, jahr]	0.9892933618843683
+[edition46] ==> [jahr, kalend]	1.0
+[magazin] ==> [edition46]	0.9871794871794872
+[edition46] ==> [magazin]	1.0
+[gefuhlt, magazin] ==> [edition46]	1.0
+[edition46, magazin] ==> [gefuhlt]	1.0
+[edition46, gefuhlt] ==> [magazin]	1.0
+[gefuhlt] ==> [edition46, magazin]	0.9726315789473684
+[magazin] ==> [edition46, gefuhlt]	0.9871794871794872
+[edition46] ==> [gefuhlt, magazin]	1.0
+[jahr, magazin] ==> [edition46]	1.0
+[edition46, magazin] ==> [jahr]	1.0
+[edition46, jahr] ==> [magazin]	1.0
+[magazin] ==> [edition46, jahr]	0.9871794871794872
+[edition46] ==> [jahr, magazin]	1.0
+[kalend, magazin] ==> [edition46]	0.9978401727861771
+[edition46, magazin] ==> [kalend]	1.0
+[edition46, kalend] ==> [magazin]	1.0
+[magazin] ==> [edition46, kalend]	0.9871794871794872
+[edition46] ==> [kalend, magazin]	1.0
+[kalend] ==> [edition46, magazin]	0.9892933618843683
+[morg] ==> [edition46]	0.6534653465346535
+[edition46] ==> [morg]	1.0
+[gefuhlt, morg] ==> [edition46]	1.0
+[edition46, morg] ==> [gefuhlt]	1.0
+[edition46, gefuhlt] ==> [morg]	1.0
+[edition46] ==> [gefuhlt, morg]	1.0
+[gefuhlt] ==> [edition46, morg]	0.9726315789473684
+[morg] ==> [edition46, gefuhlt]	0.6534653465346535
+[jahr, morg] ==> [edition46]	1.0
+[edition46, morg] ==> [jahr]	1.0
+[edition46, jahr] ==> [morg]	1.0
+[morg] ==> [edition46, jahr]	0.6534653465346535
+[edition46] ==> [jahr, morg]	1.0
+[kalend, morg] ==> [edition46]	1.0
+[edition46, morg] ==> [kalend]	1.0
+[edition46, kalend] ==> [morg]	1.0
+[edition46] ==> [kalend, morg]	1.0
+[morg] ==> [edition46, kalend]	0.6534653465346535
+[kalend] ==> [edition46, morg]	0.9892933618843683
+[magazin, morg] ==> [edition46]	1.0
+[edition46, morg] ==> [magazin]	1.0
+[edition46, magazin] ==> [morg]	1.0
+[edition46] ==> [magazin, morg]	1.0
+[magazin] ==> [edition46, morg]	0.9871794871794872
+[morg] ==> [edition46, magazin]	0.6534653465346535
+[edition46] ==> [pegida]	1.0
+[gefuhlt, pegida] ==> [edition46]	0.9808917197452229
+[edition46, pegida] ==> [gefuhlt]	1.0
+[edition46, gefuhlt] ==> [pegida]	1.0
+[edition46] ==> [gefuhlt, pegida]	1.0
+[gefuhlt] ==> [edition46, pegida]	0.9726315789473684
+[edition46, pegida] ==> [jahr]	1.0
+[edition46, jahr] ==> [pegida]	1.0
+[edition46] ==> [jahr, pegida]	1.0
+[kalend, pegida] ==> [edition46]	0.9914163090128756
+[edition46, pegida] ==> [kalend]	1.0
+[edition46, kalend] ==> [pegida]	1.0
+[edition46] ==> [kalend, pegida]	1.0
+[kalend] ==> [edition46, pegida]	0.9892933618843683
+[magazin, pegida] ==> [edition46]	0.9914163090128756
+[edition46, pegida] ==> [magazin]	1.0
+[edition46, magazin] ==> [pegida]	1.0
+[magazin] ==> [edition46, pegida]	0.9871794871794872
+[edition46] ==> [magazin, pegida]	1.0
+[morg, pegida] ==> [edition46]	0.7439613526570048
+[edition46, pegida] ==> [morg]	1.0
+[edition46, morg] ==> [pegida]	1.0
+[edition46] ==> [morg, pegida]	1.0
+[morg] ==> [edition46, pegida]	0.6534653465346535
+[rest] ==> [edition46]	0.8716981132075472
+[edition46] ==> [rest]	1.0
+[gefuhlt, rest] ==> [edition46]	0.9978401727861771
+[edition46, rest] ==> [gefuhlt]	1.0
+[edition46, gefuhlt] ==> [rest]	1.0
+[gefuhlt] ==> [edition46, rest]	0.9726315789473684
+[edition46] ==> [gefuhlt, rest]	1.0
+[rest] ==> [edition46, gefuhlt]	0.8716981132075472
+[jahr, rest] ==> [edition46]	0.9978401727861771
+[edition46, rest] ==> [jahr]	1.0
+[edition46, jahr] ==> [rest]	1.0
+[rest] ==> [edition46, jahr]	0.8716981132075472
+[edition46] ==> [jahr, rest]	1.0
+[kalend, rest] ==> [edition46]	0.9978401727861771
+[edition46, rest] ==> [kalend]	1.0
+[edition46, kalend] ==> [rest]	1.0
+[rest] ==> [edition46, kalend]	0.8716981132075472
+[kalend] ==> [edition46, rest]	0.9892933618843683
+[edition46] ==> [kalend, rest]	1.0
+[magazin, rest] ==> [edition46]	1.0
+[edition46, rest] ==> [magazin]	1.0
+[edition46, magazin] ==> [rest]	1.0
+[edition46] ==> [magazin, rest]	1.0
+[magazin] ==> [edition46, rest]	0.9871794871794872
+[rest] ==> [edition46, magazin]	0.8716981132075472
+[morg, rest] ==> [edition46]	1.0
+[edition46, rest] ==> [morg]	1.0
+[edition46, morg] ==> [rest]	1.0
+[morg] ==> [edition46, rest]	0.6534653465346535
+[rest] ==> [edition46, morg]	0.8716981132075472
+[edition46] ==> [morg, rest]	1.0
+[pegida, rest] ==> [edition46]	0.9203187250996016
+[edition46, rest] ==> [pegida]	1.0
+[edition46, pegida] ==> [rest]	1.0
+[rest] ==> [edition46, pegida]	0.8716981132075472
+[edition46] ==> [pegida, rest]	1.0
+[wahrheit] ==> [edition46]	0.8006932409012132
+[edition46] ==> [wahrheit]	1.0
+[gefuhlt, wahrheit] ==> [edition46]	0.9956896551724138
+[edition46, wahrheit] ==> [gefuhlt]	1.0
+[edition46, gefuhlt] ==> [wahrheit]	1.0
+[edition46] ==> [gefuhlt, wahrheit]	1.0
+[gefuhlt] ==> [edition46, wahrheit]	0.9726315789473684
+[wahrheit] ==> [edition46, gefuhlt]	0.8006932409012132
+[jahr, wahrheit] ==> [edition46]	0.9978401727861771
+[edition46, wahrheit] ==> [jahr]	1.0
+[edition46, jahr] ==> [wahrheit]	1.0
+[wahrheit] ==> [edition46, jahr]	0.8006932409012132
+[edition46] ==> [jahr, wahrheit]	1.0
+[kalend, wahrheit] ==> [edition46]	1.0
+[edition46, wahrheit] ==> [kalend]	1.0
+[edition46, kalend] ==> [wahrheit]	1.0
+[kalend] ==> [edition46, wahrheit]	0.9892933618843683
+[wahrheit] ==> [edition46, kalend]	0.8006932409012132
+[edition46] ==> [kalend, wahrheit]	1.0
+[magazin, wahrheit] ==> [edition46]	1.0
+[edition46, wahrheit] ==> [magazin]	1.0
+[edition46, magazin] ==> [wahrheit]	1.0
+[edition46] ==> [magazin, wahrheit]	1.0
+[magazin] ==> [edition46, wahrheit]	0.9871794871794872
+[wahrheit] ==> [edition46, magazin]	0.8006932409012132
+[morg, wahrheit] ==> [edition46]	1.0
+[edition46, wahrheit] ==> [morg]	1.0
+[edition46, morg] ==> [wahrheit]	1.0
+[morg] ==> [edition46, wahrheit]	0.6534653465346535
+[wahrheit] ==> [edition46, morg]	0.8006932409012132
+[edition46] ==> [morg, wahrheit]	1.0
+[pegida, wahrheit] ==> [edition46]	0.8539741219963032
+[edition46, wahrheit] ==> [pegida]	1.0
+[edition46, pegida] ==> [wahrheit]	1.0
+[wahrheit] ==> [edition46, pegida]	0.8006932409012132
+[edition46] ==> [pegida, wahrheit]	1.0
+[rest, wahrheit] ==> [edition46]	1.0
+[edition46, wahrheit] ==> [rest]	1.0
+[edition46, rest] ==> [wahrheit]	1.0
+[rest] ==> [edition46, wahrheit]	0.8716981132075472
+[wahrheit] ==> [edition46, rest]	0.8006932409012132
+[edition46] ==> [rest, wahrheit]	1.0
+[erst] ==> [pegida]	0.8534351145038168
+[festerling] ==> [pegida]	0.7868852459016393
+[fluchtling] ==> [pegida]	0.8747135217723453
+[gefuhlt] ==> [jahr]	0.9747368421052631
+[kalend] ==> [gefuhlt]	0.9914346895074947
+[gefuhlt] ==> [kalend]	0.9747368421052631
+[jahr, kalend] ==> [gefuhlt]	0.9956989247311828
+[gefuhlt, kalend] ==> [jahr]	1.0
+[gefuhlt, jahr] ==> [kalend]	1.0
+[kalend] ==> [gefuhlt, jahr]	0.9914346895074947
+[gefuhlt] ==> [jahr, kalend]	0.9747368421052631
+[magazin] ==> [gefuhlt]	0.9871794871794872
+[gefuhlt] ==> [magazin]	0.9726315789473684
+[jahr, magazin] ==> [gefuhlt]	1.0
+[gefuhlt, magazin] ==> [jahr]	1.0
+[gefuhlt, jahr] ==> [magazin]	0.9978401727861771
+[magazin] ==> [gefuhlt, jahr]	0.9871794871794872
+[gefuhlt] ==> [jahr, magazin]	0.9726315789473684
+[kalend, magazin] ==> [gefuhlt]	0.9978401727861771
+[gefuhlt, magazin] ==> [kalend]	1.0
+[gefuhlt, kalend] ==> [magazin]	0.9978401727861771
+[magazin] ==> [gefuhlt, kalend]	0.9871794871794872
+[gefuhlt] ==> [kalend, magazin]	0.9726315789473684
+[kalend] ==> [gefuhlt, magazin]	0.9892933618843683
+[morg] ==> [gefuhlt]	0.6534653465346535
+[gefuhlt] ==> [morg]	0.9726315789473684
+[jahr, morg] ==> [gefuhlt]	1.0
+[gefuhlt, morg] ==> [jahr]	1.0
+[gefuhlt, jahr] ==> [morg]	0.9978401727861771
+[morg] ==> [gefuhlt, jahr]	0.6534653465346535
+[gefuhlt] ==> [jahr, morg]	0.9726315789473684
+[kalend, morg] ==> [gefuhlt]	1.0
+[gefuhlt, morg] ==> [kalend]	1.0
+[gefuhlt, kalend] ==> [morg]	0.9978401727861771
+[kalend] ==> [gefuhlt, morg]	0.9892933618843683
+[gefuhlt] ==> [kalend, morg]	0.9726315789473684
+[morg] ==> [gefuhlt, kalend]	0.6534653465346535
+[magazin, morg] ==> [gefuhlt]	1.0
+[gefuhlt, morg] ==> [magazin]	1.0
+[gefuhlt, magazin] ==> [morg]	1.0
+[magazin] ==> [gefuhlt, morg]	0.9871794871794872
+[gefuhlt] ==> [magazin, morg]	0.9726315789473684
+[morg] ==> [gefuhlt, magazin]	0.6534653465346535
+[gefuhlt] ==> [pegida]	0.991578947368421
+[gefuhlt, pegida] ==> [jahr]	0.9830148619957537
+[gefuhlt, jahr] ==> [pegida]	1.0
+[gefuhlt] ==> [jahr, pegida]	0.9747368421052631
+[kalend, pegida] ==> [gefuhlt]	0.9935622317596566
+[gefuhlt, pegida] ==> [kalend]	0.9830148619957537
+[gefuhlt, kalend] ==> [pegida]	1.0
+[kalend] ==> [gefuhlt, pegida]	0.9914346895074947
+[gefuhlt] ==> [kalend, pegida]	0.9747368421052631
+[magazin, pegida] ==> [gefuhlt]	0.9914163090128756
+[gefuhlt, pegida] ==> [magazin]	0.9808917197452229
+[gefuhlt, magazin] ==> [pegida]	1.0
+[magazin] ==> [gefuhlt, pegida]	0.9871794871794872
+[gefuhlt] ==> [magazin, pegida]	0.9726315789473684
+[morg, pegida] ==> [gefuhlt]	0.7439613526570048
+[gefuhlt, pegida] ==> [morg]	0.9808917197452229
+[gefuhlt, morg] ==> [pegida]	1.0
+[gefuhlt] ==> [morg, pegida]	0.9726315789473684
+[morg] ==> [gefuhlt, pegida]	0.6534653465346535
+[rest] ==> [gefuhlt]	0.8735849056603774
+[gefuhlt] ==> [rest]	0.9747368421052631
+[jahr, rest] ==> [gefuhlt]	1.0
+[gefuhlt, rest] ==> [jahr]	1.0
+[gefuhlt, jahr] ==> [rest]	1.0
+[rest] ==> [gefuhlt, jahr]	0.8735849056603774
+[gefuhlt] ==> [jahr, rest]	0.9747368421052631
+[kalend, rest] ==> [gefuhlt]	1.0
+[gefuhlt, rest] ==> [kalend]	1.0
+[gefuhlt, kalend] ==> [rest]	1.0
+[rest] ==> [gefuhlt, kalend]	0.8735849056603774
+[gefuhlt] ==> [kalend, rest]	0.9747368421052631
+[kalend] ==> [gefuhlt, rest]	0.9914346895074947
+[magazin, rest] ==> [gefuhlt]	1.0
+[gefuhlt, rest] ==> [magazin]	0.9978401727861771
+[gefuhlt, magazin] ==> [rest]	1.0
+[gefuhlt] ==> [magazin, rest]	0.9726315789473684
+[magazin] ==> [gefuhlt, rest]	0.9871794871794872
+[rest] ==> [gefuhlt, magazin]	0.8716981132075472
+[morg, rest] ==> [gefuhlt]	1.0
+[gefuhlt, rest] ==> [morg]	0.9978401727861771
+[gefuhlt, morg] ==> [rest]	1.0
+[rest] ==> [gefuhlt, morg]	0.8716981132075472
+[morg] ==> [gefuhlt, rest]	0.6534653465346535
+[gefuhlt] ==> [morg, rest]	0.9726315789473684
+[pegida, rest] ==> [gefuhlt]	0.9223107569721115
+[gefuhlt, rest] ==> [pegida]	1.0
+[gefuhlt, pegida] ==> [rest]	0.9830148619957537
+[rest] ==> [gefuhlt, pegida]	0.8735849056603774
+[gefuhlt] ==> [pegida, rest]	0.9747368421052631
+[wahrheit] ==> [gefuhlt]	0.804159445407279
+[gefuhlt] ==> [wahrheit]	0.9768421052631578
+[jahr, wahrheit] ==> [gefuhlt]	0.9978401727861771
+[gefuhlt, wahrheit] ==> [jahr]	0.9956896551724138
+[gefuhlt, jahr] ==> [wahrheit]	0.9978401727861771
+[wahrheit] ==> [gefuhlt, jahr]	0.8006932409012132
+[gefuhlt] ==> [jahr, wahrheit]	0.9726315789473684
+[kalend, wahrheit] ==> [gefuhlt]	1.0
+[gefuhlt, wahrheit] ==> [kalend]	0.9956896551724138
+[gefuhlt, kalend] ==> [wahrheit]	0.9978401727861771
+[wahrheit] ==> [gefuhlt, kalend]	0.8006932409012132
+[kalend] ==> [gefuhlt, wahrheit]	0.9892933618843683
+[gefuhlt] ==> [kalend, wahrheit]	0.9726315789473684
+[magazin, wahrheit] ==> [gefuhlt]	1.0
+[gefuhlt, wahrheit] ==> [magazin]	0.9956896551724138
+[gefuhlt, magazin] ==> [wahrheit]	1.0
+[gefuhlt] ==> [magazin, wahrheit]	0.9726315789473684
+[magazin] ==> [gefuhlt, wahrheit]	0.9871794871794872
+[wahrheit] ==> [gefuhlt, magazin]	0.8006932409012132
+[morg, wahrheit] ==> [gefuhlt]	1.0
+[gefuhlt, wahrheit] ==> [morg]	0.9956896551724138
+[gefuhlt, morg] ==> [wahrheit]	1.0
+[wahrheit] ==> [gefuhlt, morg]	0.8006932409012132
+[morg] ==> [gefuhlt, wahrheit]	0.6534653465346535
+[gefuhlt] ==> [morg, wahrheit]	0.9726315789473684
+[pegida, wahrheit] ==> [gefuhlt]	0.8558225508317929
+[gefuhlt, wahrheit] ==> [pegida]	0.9978448275862069
+[gefuhlt, pegida] ==> [wahrheit]	0.9830148619957537
+[wahrheit] ==> [gefuhlt, pegida]	0.8024263431542461
+[gefuhlt] ==> [pegida, wahrheit]	0.9747368421052631
+[rest, wahrheit] ==> [gefuhlt]	1.0
+[gefuhlt, wahrheit] ==> [rest]	0.9956896551724138
+[gefuhlt, rest] ==> [wahrheit]	0.9978401727861771
+[rest] ==> [gefuhlt, wahrheit]	0.8716981132075472
+[gefuhlt] ==> [rest, wahrheit]	0.9726315789473684
+[wahrheit] ==> [gefuhlt, rest]	0.8006932409012132
+[gegendemonstrant] ==> [pegida]	0.812015503875969
+[gepida] ==> [nopegida]	0.8641063515509602
+[gewalt] ==> [pegida]	0.9089147286821705
+[gibt] ==> [pegida]	0.7236614853195165
+[maas] ==> [gobbel]	0.6555716353111433
+[gobbel] ==> [pegida]	0.8947368421052632
+[gut] ==> [pegida]	0.7298507462686568
+[hass] ==> [pegida]	0.8571428571428571
+[herzstatthetz] ==> [nopegida]	0.789179104477612
+[hetz] ==> [pegida]	0.70625
+[htt] ==> [pegida]	0.9344262295081968
+[http] ==> [pegida]	0.9107551487414187
+[https] ==> [pegida]	0.7831513260530422
+[imm] ==> [pegida]	0.8
+[islam] ==> [pegida]	0.9754500818330606
+[muslim] ==> [islamist]	0.7769423558897243
+[islamist] ==> [muslim]	0.8707865168539326
+[islamist] ==> [nazi]	0.8679775280898876
+[muslim, nazi] ==> [islamist]	1.0
+[islamist, nazi] ==> [muslim]	0.9951456310679612
+[islamist, muslim] ==> [nazi]	0.9919354838709677
+[islamist] ==> [muslim, nazi]	0.8637640449438202
+[muslim] ==> [islamist, nazi]	0.7706766917293233
+[islamist] ==> [pegida]	0.9325842696629213
+[muslim, pegida] ==> [islamist]	0.8177014531043593
+[islamist, pegida] ==> [muslim]	0.9322289156626506
+[islamist, muslim] ==> [pegida]	0.9983870967741936
+[muslim] ==> [islamist, pegida]	0.7756892230576441
+[islamist] ==> [muslim, pegida]	0.8693820224719101
+[nazi, pegida] ==> [islamist]	0.7157772621809745
+[islamist, pegida] ==> [nazi]	0.9292168674698795
+[islamist, nazi] ==> [pegida]	0.9983818770226537
+[islamist] ==> [nazi, pegida]	0.8665730337078652
+[unt] ==> [islamist]	0.9446153846153846
+[islamist] ==> [unt]	0.8623595505617978
+[muslim, unt] ==> [islamist]	1.0
+[islamist, unt] ==> [muslim]	1.0
+[islamist, muslim] ==> [unt]	0.9903225806451613
+[islamist] ==> [muslim, unt]	0.8623595505617978
+[unt] ==> [islamist, muslim]	0.9446153846153846
+[muslim] ==> [islamist, unt]	0.7694235588972431
+[nazi, unt] ==> [islamist]	1.0
+[islamist, unt] ==> [nazi]	1.0
+[islamist, nazi] ==> [unt]	0.9935275080906149
+[islamist] ==> [nazi, unt]	0.8623595505617978
+[unt] ==> [islamist, nazi]	0.9446153846153846
+[pegida, unt] ==> [islamist]	0.959375
+[islamist, unt] ==> [pegida]	1.0
+[islamist, pegida] ==> [unt]	0.9246987951807228
+[unt] ==> [islamist, pegida]	0.9446153846153846
+[islamist] ==> [pegida, unt]	0.8623595505617978
+[unterscheidet] ==> [islamist]	0.9935483870967742
+[islamist] ==> [unterscheidet]	0.8651685393258427
+[muslim, unterscheidet] ==> [islamist]	1.0
+[islamist, unterscheidet] ==> [muslim]	1.0
+[islamist, muslim] ==> [unterscheidet]	0.9935483870967742
+[islamist] ==> [muslim, unterscheidet]	0.8651685393258427
+[unterscheidet] ==> [islamist, muslim]	0.9935483870967742
+[muslim] ==> [islamist, unterscheidet]	0.7719298245614035
+[nazi, unterscheidet] ==> [islamist]	1.0
+[islamist, unterscheidet] ==> [nazi]	0.9983766233766234
+[islamist, nazi] ==> [unterscheidet]	0.9951456310679612
+[unterscheidet] ==> [islamist, nazi]	0.9919354838709677
+[islamist] ==> [nazi, unterscheidet]	0.8637640449438202
+[pegida, unterscheidet] ==> [islamist]	0.9967637540453075
+[islamist, unterscheidet] ==> [pegida]	1.0
+[islamist, pegida] ==> [unterscheidet]	0.927710843373494
+[islamist] ==> [pegida, unterscheidet]	0.8651685393258427
+[unterscheidet] ==> [islamist, pegida]	0.9935483870967742
+[unt, unterscheidet] ==> [islamist]	1.0
+[islamist, unterscheidet] ==> [unt]	0.9967532467532467
+[islamist, unt] ==> [unterscheidet]	1.0
+[islamist] ==> [unt, unterscheidet]	0.8623595505617978
+[unt] ==> [islamist, unterscheidet]	0.9446153846153846
+[unterscheidet] ==> [islamist, unt]	0.9903225806451613
+[islamist] ==> [warum]	0.8651685393258427
+[muslim, warum] ==> [islamist]	0.9935483870967742
+[islamist, warum] ==> [muslim]	1.0
+[islamist, muslim] ==> [warum]	0.9935483870967742
+[islamist] ==> [muslim, warum]	0.8651685393258427
+[muslim] ==> [islamist, warum]	0.7719298245614035
+[nazi, warum] ==> [islamist]	0.9967585089141004
+[islamist, warum] ==> [nazi]	0.9983766233766234
+[islamist, nazi] ==> [warum]	0.9951456310679612
+[islamist] ==> [nazi, warum]	0.8637640449438202
+[pegida, warum] ==> [islamist]	0.66738894907909
+[islamist, warum] ==> [pegida]	1.0
+[islamist, pegida] ==> [warum]	0.927710843373494
+[islamist] ==> [pegida, warum]	0.8651685393258427
+[unt, warum] ==> [islamist]	1.0
+[islamist, warum] ==> [unt]	0.9967532467532467
+[islamist, unt] ==> [warum]	1.0
+[islamist] ==> [unt, warum]	0.8623595505617978
+[unt] ==> [islamist, warum]	0.9446153846153846
+[unterscheidet, warum] ==> [islamist]	1.0
+[islamist, warum] ==> [unterscheidet]	1.0
+[islamist, unterscheidet] ==> [warum]	1.0
+[islamist] ==> [unterscheidet, warum]	0.8651685393258427
+[unterscheidet] ==> [islamist, warum]	0.9935483870967742
+[kalend] ==> [jahr]	0.9957173447537473
+[magazin] ==> [jahr]	0.9871794871794872
+[kalend, magazin] ==> [jahr]	0.9978401727861771
+[jahr, magazin] ==> [kalend]	1.0
+[jahr, kalend] ==> [magazin]	0.9935483870967742
+[kalend] ==> [jahr, magazin]	0.9892933618843683
+[magazin] ==> [jahr, kalend]	0.9871794871794872
+[morg] ==> [jahr]	0.6534653465346535
+[kalend, morg] ==> [jahr]	1.0
+[jahr, morg] ==> [kalend]	1.0
+[jahr, kalend] ==> [morg]	0.9935483870967742
+[morg] ==> [jahr, kalend]	0.6534653465346535
+[kalend] ==> [jahr, morg]	0.9892933618843683
+[magazin, morg] ==> [jahr]	1.0
+[jahr, morg] ==> [magazin]	1.0
+[jahr, magazin] ==> [morg]	1.0
+[morg] ==> [jahr, magazin]	0.6534653465346535
+[magazin] ==> [jahr, morg]	0.9871794871794872
+[jahr] ==> [pegida]	0.9361702127659575
+[kalend, pegida] ==> [jahr]	0.9978540772532188
+[jahr, kalend] ==> [pegida]	1.0
+[kalend] ==> [jahr, pegida]	0.9957173447537473
+[magazin, pegida] ==> [jahr]	0.9914163090128756
+[jahr, magazin] ==> [pegida]	1.0
+[magazin] ==> [jahr, pegida]	0.9871794871794872
+[morg, pegida] ==> [jahr]	0.7439613526570048
+[jahr, morg] ==> [pegida]	1.0
+[morg] ==> [jahr, pegida]	0.6534653465346535
+[rest] ==> [jahr]	0.8735849056603774
+[kalend, rest] ==> [jahr]	1.0
+[jahr, rest] ==> [kalend]	1.0
+[jahr, kalend] ==> [rest]	0.9956989247311828
+[rest] ==> [jahr, kalend]	0.8735849056603774
+[kalend] ==> [jahr, rest]	0.9914346895074947
+[magazin, rest] ==> [jahr]	1.0
+[jahr, rest] ==> [magazin]	0.9978401727861771
+[jahr, magazin] ==> [rest]	1.0
+[rest] ==> [jahr, magazin]	0.8716981132075472
+[magazin] ==> [jahr, rest]	0.9871794871794872
+[morg, rest] ==> [jahr]	1.0
+[jahr, rest] ==> [morg]	0.9978401727861771
+[jahr, morg] ==> [rest]	1.0
+[rest] ==> [jahr, morg]	0.8716981132075472
+[morg] ==> [jahr, rest]	0.6534653465346535
+[pegida, rest] ==> [jahr]	0.9223107569721115
+[jahr, rest] ==> [pegida]	1.0
+[rest] ==> [jahr, pegida]	0.8735849056603774
+[wahrheit] ==> [jahr]	0.8024263431542461
+[kalend, wahrheit] ==> [jahr]	1.0
+[jahr, wahrheit] ==> [kalend]	0.9978401727861771
+[jahr, kalend] ==> [wahrheit]	0.9935483870967742
+[wahrheit] ==> [jahr, kalend]	0.8006932409012132
+[kalend] ==> [jahr, wahrheit]	0.9892933618843683
+[magazin, wahrheit] ==> [jahr]	1.0
+[jahr, wahrheit] ==> [magazin]	0.9978401727861771
+[jahr, magazin] ==> [wahrheit]	1.0
+[wahrheit] ==> [jahr, magazin]	0.8006932409012132
+[magazin] ==> [jahr, wahrheit]	0.9871794871794872
+[morg, wahrheit] ==> [jahr]	1.0
+[jahr, wahrheit] ==> [morg]	0.9978401727861771
+[jahr, morg] ==> [wahrheit]	1.0
+[morg] ==> [jahr, wahrheit]	0.6534653465346535
+[wahrheit] ==> [jahr, morg]	0.8006932409012132
+[pegida, wahrheit] ==> [jahr]	0.8558225508317929
+[jahr, wahrheit] ==> [pegida]	1.0
+[wahrheit] ==> [jahr, pegida]	0.8024263431542461
+[rest, wahrheit] ==> [jahr]	1.0
+[jahr, wahrheit] ==> [rest]	0.9978401727861771
+[jahr, rest] ==> [wahrheit]	0.9978401727861771
+[rest] ==> [jahr, wahrheit]	0.8716981132075472
+[wahrheit] ==> [jahr, rest]	0.8006932409012132
+[journalist] ==> [pegida]	0.9388489208633094
+[magazin] ==> [kalend]	0.9893162393162394
+[kalend] ==> [magazin]	0.9914346895074947
+[morg] ==> [kalend]	0.6534653465346535
+[kalend] ==> [morg]	0.9892933618843683
+[magazin, morg] ==> [kalend]	1.0
+[kalend, morg] ==> [magazin]	1.0
+[kalend, magazin] ==> [morg]	0.9978401727861771
+[kalend] ==> [magazin, morg]	0.9892933618843683
+[magazin] ==> [kalend, morg]	0.9871794871794872
+[morg] ==> [kalend, magazin]	0.6534653465346535
+[kalend] ==> [pegida]	0.9978586723768736
+[magazin, pegida] ==> [kalend]	0.9935622317596566
+[kalend, pegida] ==> [magazin]	0.9935622317596566
+[kalend, magazin] ==> [pegida]	1.0
+[magazin] ==> [kalend, pegida]	0.9893162393162394
+[kalend] ==> [magazin, pegida]	0.9914346895074947
+[morg, pegida] ==> [kalend]	0.7439613526570048
+[kalend, pegida] ==> [morg]	0.9914163090128756
+[kalend, morg] ==> [pegida]	1.0
+[kalend] ==> [morg, pegida]	0.9892933618843683
+[morg] ==> [kalend, pegida]	0.6534653465346535
+[rest] ==> [kalend]	0.8735849056603774
+[kalend] ==> [rest]	0.9914346895074947
+[magazin, rest] ==> [kalend]	1.0
+[kalend, rest] ==> [magazin]	0.9978401727861771
+[kalend, magazin] ==> [rest]	0.9978401727861771
+[kalend] ==> [magazin, rest]	0.9892933618843683
+[rest] ==> [kalend, magazin]	0.8716981132075472
+[magazin] ==> [kalend, rest]	0.9871794871794872
+[morg, rest] ==> [kalend]	1.0
+[kalend, rest] ==> [morg]	0.9978401727861771
+[kalend, morg] ==> [rest]	1.0
+[rest] ==> [kalend, morg]	0.8716981132075472
+[morg] ==> [kalend, rest]	0.6534653465346535
+[kalend] ==> [morg, rest]	0.9892933618843683
+[pegida, rest] ==> [kalend]	0.9223107569721115
+[kalend, rest] ==> [pegida]	1.0
+[kalend, pegida] ==> [rest]	0.9935622317596566
+[rest] ==> [kalend, pegida]	0.8735849056603774
+[kalend] ==> [pegida, rest]	0.9914346895074947
+[wahrheit] ==> [kalend]	0.8006932409012132
+[kalend] ==> [wahrheit]	0.9892933618843683
+[magazin, wahrheit] ==> [kalend]	1.0
+[kalend, wahrheit] ==> [magazin]	1.0
+[kalend, magazin] ==> [wahrheit]	0.9978401727861771
+[kalend] ==> [magazin, wahrheit]	0.9892933618843683
+[magazin] ==> [kalend, wahrheit]	0.9871794871794872
+[wahrheit] ==> [kalend, magazin]	0.8006932409012132
+[morg, wahrheit] ==> [kalend]	1.0
+[kalend, wahrheit] ==> [morg]	1.0
+[kalend, morg] ==> [wahrheit]	1.0
+[wahrheit] ==> [kalend, morg]	0.8006932409012132
+[morg] ==> [kalend, wahrheit]	0.6534653465346535
+[kalend] ==> [morg, wahrheit]	0.9892933618843683
+[pegida, wahrheit] ==> [kalend]	0.8539741219963032
+[kalend, wahrheit] ==> [pegida]	1.0
+[kalend, pegida] ==> [wahrheit]	0.9914163090128756
+[wahrheit] ==> [kalend, pegida]	0.8006932409012132
+[kalend] ==> [pegida, wahrheit]	0.9892933618843683
+[rest, wahrheit] ==> [kalend]	1.0
+[kalend, wahrheit] ==> [rest]	1.0
+[kalend, rest] ==> [wahrheit]	0.9978401727861771
+[rest] ==> [kalend, wahrheit]	0.8716981132075472
+[wahrheit] ==> [kalend, rest]	0.8006932409012132
+[kalend] ==> [rest, wahrheit]	0.9892933618843683
+[kaltland] ==> [nopegida]	0.7522935779816514
+[kulturgeschicht] ==> [pegida]	1.0
+[lang] ==> [pegida]	0.9287128712871288
+[lass] ==> [pegida]	0.9407894736842105
+[verfassungsschutz] ==> [lass]	0.6537267080745341
+[lass] ==> [verfassungsschutz]	0.6924342105263158
+[pegida, verfassungsschutz] ==> [lass]	0.6693163751987281
+[lass, verfassungsschutz] ==> [pegida]	1.0
+[lass, pegida] ==> [verfassungsschutz]	0.736013986013986
+[lass] ==> [pegida, verfassungsschutz]	0.6924342105263158
+[verfassungsschutz] ==> [lass, pegida]	0.6537267080745341
+[leut] ==> [pegida]	0.7289433384379785
+[lugenpress] ==> [pegida]	0.7791718946047679
+[lutz] ==> [pegida]	0.8646112600536193
+[maas] ==> [pegida]	0.8321273516642547
+[morg] ==> [magazin]	0.6534653465346535
+[magazin] ==> [morg]	0.9871794871794872
+[magazin] ==> [pegida]	0.9957264957264957
+[morg, pegida] ==> [magazin]	0.7439613526570048
+[magazin, pegida] ==> [morg]	0.9914163090128756
+[magazin, morg] ==> [pegida]	1.0
+[magazin] ==> [morg, pegida]	0.9871794871794872
+[morg] ==> [magazin, pegida]	0.6534653465346535
+[rest] ==> [magazin]	0.8716981132075472
+[magazin] ==> [rest]	0.9871794871794872
+[morg, rest] ==> [magazin]	1.0
+[magazin, rest] ==> [morg]	1.0
+[magazin, morg] ==> [rest]	1.0
+[rest] ==> [magazin, morg]	0.8716981132075472
+[morg] ==> [magazin, rest]	0.6534653465346535
+[magazin] ==> [morg, rest]	0.9871794871794872
+[pegida, rest] ==> [magazin]	0.9203187250996016
+[magazin, rest] ==> [pegida]	1.0
+[magazin, pegida] ==> [rest]	0.9914163090128756
+[magazin] ==> [pegida, rest]	0.9871794871794872
+[rest] ==> [magazin, pegida]	0.8716981132075472
+[wahrheit] ==> [magazin]	0.8006932409012132
+[magazin] ==> [wahrheit]	0.9871794871794872
+[morg, wahrheit] ==> [magazin]	1.0
+[magazin, wahrheit] ==> [morg]	1.0
+[magazin, morg] ==> [wahrheit]	1.0
+[wahrheit] ==> [magazin, morg]	0.8006932409012132
+[morg] ==> [magazin, wahrheit]	0.6534653465346535
+[magazin] ==> [morg, wahrheit]	0.9871794871794872
+[pegida, wahrheit] ==> [magazin]	0.8539741219963032
+[magazin, wahrheit] ==> [pegida]	1.0
+[magazin, pegida] ==> [wahrheit]	0.9914163090128756
+[magazin] ==> [pegida, wahrheit]	0.9871794871794872
+[wahrheit] ==> [magazin, pegida]	0.8006932409012132
+[rest, wahrheit] ==> [magazin]	1.0
+[magazin, wahrheit] ==> [rest]	1.0
+[magazin, rest] ==> [wahrheit]	1.0
+[wahrheit] ==> [magazin, rest]	0.8006932409012132
+[rest] ==> [magazin, wahrheit]	0.8716981132075472
+[magazin] ==> [rest, wahrheit]	0.9871794871794872
+[mal] ==> [pegida]	0.704136690647482
+[mehr] ==> [pegida]	0.74860853432282
+[morg] ==> [pegida]	0.8783592644978784
+[rest] ==> [morg]	0.8716981132075472
+[morg] ==> [rest]	0.6534653465346535
+[pegida, rest] ==> [morg]	0.9203187250996016
+[morg, rest] ==> [pegida]	1.0
+[morg, pegida] ==> [rest]	0.7439613526570048
+[rest] ==> [morg, pegida]	0.8716981132075472
+[morg] ==> [pegida, rest]	0.6534653465346535
+[wahrheit] ==> [morg]	0.8006932409012132
+[morg] ==> [wahrheit]	0.6534653465346535
+[pegida, wahrheit] ==> [morg]	0.8539741219963032
+[morg, wahrheit] ==> [pegida]	1.0
+[morg, pegida] ==> [wahrheit]	0.7439613526570048
+[wahrheit] ==> [morg, pegida]	0.8006932409012132
+[morg] ==> [pegida, wahrheit]	0.6534653465346535
+[rest, wahrheit] ==> [morg]	1.0
+[morg, wahrheit] ==> [rest]	1.0
+[morg, rest] ==> [wahrheit]	1.0
+[morg] ==> [rest, wahrheit]	0.6534653465346535
+[rest] ==> [morg, wahrheit]	0.8716981132075472
+[wahrheit] ==> [morg, rest]	0.8006932409012132
+[muc0911] ==> [nopegida]	0.6611479028697572
+[munch] ==> [pegida]	0.7691956124314442
+[muslim] ==> [nazi]	0.7706766917293233
+[muslim] ==> [pegida]	0.9486215538847118
+[nazi, pegida] ==> [muslim]	0.7134570765661253
+[muslim, pegida] ==> [nazi]	0.8124174372523117
+[muslim, nazi] ==> [pegida]	1.0
+[muslim] ==> [nazi, pegida]	0.7706766917293233
+[unt] ==> [muslim]	0.9446153846153846
+[muslim] ==> [unt]	0.7694235588972431
+[nazi, unt] ==> [muslim]	1.0
+[muslim, unt] ==> [nazi]	1.0
+[muslim, nazi] ==> [unt]	0.9983739837398374
+[muslim] ==> [nazi, unt]	0.7694235588972431
+[unt] ==> [muslim, nazi]	0.9446153846153846
+[pegida, unt] ==> [muslim]	0.959375
+[muslim, unt] ==> [pegida]	1.0
+[muslim, pegida] ==> [unt]	0.8110964332892999
+[muslim] ==> [pegida, unt]	0.7694235588972431
+[unt] ==> [muslim, pegida]	0.9446153846153846
+[unterscheidet] ==> [muslim]	0.9935483870967742
+[muslim] ==> [unterscheidet]	0.7719298245614035
+[nazi, unterscheidet] ==> [muslim]	1.0
+[muslim, unterscheidet] ==> [nazi]	0.9983766233766234
+[muslim, nazi] ==> [unterscheidet]	1.0
+[unterscheidet] ==> [muslim, nazi]	0.9919354838709677
+[muslim] ==> [nazi, unterscheidet]	0.7706766917293233
+[pegida, unterscheidet] ==> [muslim]	0.9967637540453075
+[muslim, unterscheidet] ==> [pegida]	1.0
+[muslim, pegida] ==> [unterscheidet]	0.8137384412153237
+[muslim] ==> [pegida, unterscheidet]	0.7719298245614035
+[unterscheidet] ==> [muslim, pegida]	0.9935483870967742
+[unt, unterscheidet] ==> [muslim]	1.0
+[muslim, unterscheidet] ==> [unt]	0.9967532467532467
+[muslim, unt] ==> [unterscheidet]	1.0
+[muslim] ==> [unt, unterscheidet]	0.7694235588972431
+[unt] ==> [muslim, unterscheidet]	0.9446153846153846
+[unterscheidet] ==> [muslim, unt]	0.9903225806451613
+[muslim] ==> [warum]	0.7769423558897243
+[nazi, warum] ==> [muslim]	0.9967585089141004
+[muslim, warum] ==> [nazi]	0.9919354838709677
+[muslim, nazi] ==> [warum]	1.0
+[muslim] ==> [nazi, warum]	0.7706766917293233
+[pegida, warum] ==> [muslim]	0.6717226435536294
+[muslim, warum] ==> [pegida]	1.0
+[muslim, pegida] ==> [warum]	0.8190224570673712
+[muslim] ==> [pegida, warum]	0.7769423558897243
+[unt, warum] ==> [muslim]	1.0
+[muslim, warum] ==> [unt]	0.9903225806451613
+[muslim, unt] ==> [warum]	1.0
+[muslim] ==> [unt, warum]	0.7694235588972431
+[unt] ==> [muslim, warum]	0.9446153846153846
+[unterscheidet, warum] ==> [muslim]	1.0
+[muslim, warum] ==> [unterscheidet]	0.9935483870967742
+[muslim, unterscheidet] ==> [warum]	1.0
+[muslim] ==> [unterscheidet, warum]	0.7719298245614035
+[unterscheidet] ==> [muslim, warum]	0.9935483870967742
+[nazi] ==> [pegida]	0.818613485280152
+[unt] ==> [nazi]	0.9446153846153846
+[pegida, unt] ==> [nazi]	0.959375
+[nazi, unt] ==> [pegida]	1.0
+[nazi, pegida] ==> [unt]	0.7122969837587007
+[unt] ==> [nazi, pegida]	0.9446153846153846
+[unterscheidet] ==> [nazi]	0.9919354838709677
+[pegida, unterscheidet] ==> [nazi]	0.9951456310679612
+[nazi, unterscheidet] ==> [pegida]	1.0
+[nazi, pegida] ==> [unterscheidet]	0.7134570765661253
+[unterscheidet] ==> [nazi, pegida]	0.9919354838709677
+[unt, unterscheidet] ==> [nazi]	1.0
+[nazi, unterscheidet] ==> [unt]	0.9983739837398374
+[nazi, unt] ==> [unterscheidet]	1.0
+[unterscheidet] ==> [nazi, unt]	0.9903225806451613
+[unt] ==> [nazi, unterscheidet]	0.9446153846153846
+[pegida, warum] ==> [nazi]	0.6684723726977249
+[nazi, warum] ==> [pegida]	1.0
+[nazi, pegida] ==> [warum]	0.7157772621809745
+[unt, warum] ==> [nazi]	1.0
+[nazi, warum] ==> [unt]	0.9951377633711507
+[nazi, unt] ==> [warum]	1.0
+[unt] ==> [nazi, warum]	0.9446153846153846
+[unterscheidet, warum] ==> [nazi]	0.9983766233766234
+[nazi, warum] ==> [unterscheidet]	0.9967585089141004
+[nazi, unterscheidet] ==> [warum]	1.0
+[unterscheidet] ==> [nazi, warum]	0.9919354838709677
+[nazis] ==> [pegida]	0.6587677725118484
+[neu] ==> [pegida]	0.8360957642725598
+[nolegida] ==> [nopegida]	0.8731942215088283
+[nonazis] ==> [nopegida]	0.8360450563204005
+[refugeeswelcom] ==> [nopegida]	0.8045454545454546
+[novemb] ==> [pegida]	0.8411016949152542
+[paris] ==> [pegida]	0.9090909090909091
+[parisattack] ==> [pegida]	0.9001751313485113
+[polizei] ==> [pegida]	0.7228070175438597
+[rest] ==> [pegida]	0.9471698113207547
+[ruf] ==> [pegida]	0.9352226720647774
+[sachs] ==> [pegida]	0.7773549000951475
+[schon] ==> [pegida]	0.702920443101712
+[seit] ==> [pegida]	0.78060413354531
+[steh] ==> [pegida]	0.9553990610328639
+[teilnehm] ==> [pegida]	0.9586305278174037
+[theaterplatz] ==> [pegida]	0.9046653144016227
+[uns] ==> [pegida]	0.8460388639760837
+[unt] ==> [pegida]	0.9846153846153847
+[unterscheidet] ==> [pegida]	0.9967741935483871
+[unt, unterscheidet] ==> [pegida]	1.0
+[pegida, unterscheidet] ==> [unt]	0.9935275080906149
+[pegida, unt] ==> [unterscheidet]	0.959375
+[unt] ==> [pegida, unterscheidet]	0.9446153846153846
+[unterscheidet] ==> [pegida, unt]	0.9903225806451613
+[verfassungsschutz] ==> [pegida]	0.9767080745341615
+[via] ==> [pegida]	0.8837656099903939
+[viel] ==> [pegida]	0.7017543859649122
+[volk] ==> [pegida]	0.8772189349112426
+[wahrheit] ==> [pegida]	0.9376083188908145
+[rest, wahrheit] ==> [pegida]	1.0
+[pegida, wahrheit] ==> [rest]	0.8539741219963032
+[pegida, rest] ==> [wahrheit]	0.9203187250996016
+[rest] ==> [pegida, wahrheit]	0.8716981132075472
+[wahrheit] ==> [pegida, rest]	0.8006932409012132
+[warum] ==> [pegida]	0.9486125385405961
+[unt, warum] ==> [pegida]	1.0
+[pegida, warum] ==> [unt]	0.6652221018418202
+[pegida, unt] ==> [warum]	0.959375
+[unt] ==> [pegida, warum]	0.9446153846153846
+[unterscheidet, warum] ==> [pegida]	1.0
+[pegida, warum] ==> [unterscheidet]	0.66738894907909
+[pegida, unterscheidet] ==> [warum]	0.9967637540453075
+[unterscheidet] ==> [pegida, warum]	0.9935483870967742
+[weg] ==> [pegida]	0.8686868686868687
+[wenig] ==> [pegida]	0.9085923217550275
+[wer] ==> [pegida]	0.8210262828535669
+[wahrheit] ==> [rest]	0.8006932409012132
+[rest] ==> [wahrheit]	0.8716981132075472
+[unterscheidet] ==> [unt]	0.9903225806451613
+[unt] ==> [unterscheidet]	0.9446153846153846
+[unt] ==> [warum]	0.9446153846153846
+[unterscheidet, warum] ==> [unt]	0.9967532467532467
+[unt, warum] ==> [unterscheidet]	1.0
+[unt, unterscheidet] ==> [warum]	1.0
+[unt] ==> [unterscheidet, warum]	0.9446153846153846
+[unterscheidet] ==> [unt, warum]	0.9903225806451613
+[unterscheidet] ==> [warum]	0.9935483870967742

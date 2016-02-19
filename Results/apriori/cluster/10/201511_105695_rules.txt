@@ -1,0 +1,80 @@
+[afd] ==> [refuge]	1.0
+[amp] ==> [refuge]	0.9362139917695473
+[arabisch] ==> [refuge]	0.9712643678160919
+[arschloch] ==> [refuge]	0.9447852760736196
+[asyl] ==> [refuge]	1.0
+[asyl, fluchtling] ==> [refuge]	1.0
+[berlin] ==> [refuge]	0.9857142857142858
+[berlin, fluchtling] ==> [refuge]	1.0
+[dank] ==> [refuge]	0.9786096256684492
+[dass] ==> [refuge]	1.0
+[deutsch] ==> [refuge]	1.0
+[deutschland] ==> [refuge]	1.0
+[erst] ==> [refuge]	0.8509615384615384
+[europa] ==> [refuge]	0.99581589958159
+[fluchtling] ==> [refuge]	0.9692457105859501
+[fluchtling, https] ==> [refuge]	1.0
+[fluchtling, refugeeswelcom] ==> [refuge]	1.0
+[fluchtlingskris] ==> [refuge]	0.8626609442060086
+[frag] ==> [refuge]	1.0
+[frau] ==> [refuge]	0.9267241379310345
+[ganz] ==> [refuge]	1.0
+[geht] ==> [refuge]	0.9911894273127754
+[gibt] ==> [refuge]	1.0
+[grenz] ==> [refuge]	1.0
+[gut] ==> [refuge]	1.0
+[helf] ==> [refuge]	0.9707112970711297
+[hetz] ==> [refuge]	1.0
+[hetz, paris] ==> [refuge]	1.0
+[heut] ==> [refuge]	0.9318181818181818
+[htt] ==> [refuge]	1.0
+[http] ==> [refuge]	1.0
+[https] ==> [refuge]	0.9986737400530504
+[idomeni] ==> [refuge]	1.0
+[imm] ==> [refuge]	1.0
+[islam] ==> [refuge]	1.0
+[kaltland] ==> [refuge]	1.0
+[kind] ==> [refuge]	0.995260663507109
+[komm] ==> [refuge]	0.9939393939393939
+[kommt] ==> [refuge]	1.0
+[konnt] ==> [refuge]	0.9896907216494846
+[kroati] ==> [refuge]	0.6556016597510373
+[land] ==> [refuge]	1.0
+[lesbos] ==> [refuge]	0.7190812720848057
+[macht] ==> [refuge]	1.0
+[mal] ==> [refuge]	1.0
+[mehr] ==> [refuge]	0.9974619289340102
+[mensch] ==> [refuge]	1.0
+[merkel] ==> [refuge]	1.0
+[neu] ==> [refuge]	0.951310861423221
+[nutzt] ==> [paris]	0.9451219512195121
+[nutzt] ==> [refuge]	0.9817073170731707
+[nutzt, refuge] ==> [paris]	0.9627329192546584
+[nutzt, paris] ==> [refuge]	1.0
+[nutzt] ==> [paris, refuge]	0.9451219512195121
+[paris] ==> [refuge]	1.0
+[parisattack] ==> [refuge]	1.0
+[pegida] ==> [refuge]	1.0
+[politik] ==> [refuge]	1.0
+[polizei] ==> [refuge]	1.0
+[recht] ==> [refuge]	1.0
+[refugeecrisis] ==> [refuge]	0.9125
+[refugeeswelcom] ==> [refuge]	1.0
+[schauhin] ==> [refuge]	1.0
+[schon] ==> [refuge]	1.0
+[seehof] ==> [refuge]	1.0
+[sieht] ==> [refuge]	1.0
+[situation] ==> [refuge]	0.9512195121951219
+[soll] ==> [refuge]	0.9947368421052631
+[syri] ==> [refuge]	1.0
+[tag] ==> [refuge]	0.8860103626943006
+[terror] ==> [refuge]	1.0
+[terrorist] ==> [refuge]	0.9831460674157303
+[u.a] ==> [refuge]	0.9693251533742331
+[uns] ==> [refuge]	0.9924242424242424
+[unterkunft] ==> [refuge]	0.9953271028037384
+[unterstutz] ==> [refuge]	0.8648648648648649
+[via] ==> [refuge]	0.9673321234119783
+[viel] ==> [refuge]	0.9866666666666667
+[voll] ==> [refuge]	0.8506787330316742
+[wer] ==> [refuge]	1.0
