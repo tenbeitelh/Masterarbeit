@@ -1,0 +1,454 @@
+IF;THEN;CONFIDENCE
+ort;direkt,  helf;0.6508023590728295
+ort;direkt,  spend;0.6508023590728295
+ort;direkt,  syri;0.6509395144698944
+ort;direkt;0.6510766698669592
+via;syri;0.6536231884057971
+fluchtling;helf,  ort;0.6593092172491314
+fluchtling;ort,  spend;0.6593092172491314
+fluchtling;ort,  syri;0.6595135908440629
+fluchtling;spend,  syri;0.659922338033926
+fluchtling;helf,  spend;0.6604332720212549
+fluchtling;ort;0.662579194768036
+fluchtling;helf,  syri;0.662987941957899
+fluchtling;spend;0.6668710402615982
+fluchtling;helf;0.6777028407929695
+putin;syri;0.6919191919191919
+amp;syri;0.6942094990240729
+usa;syri;0.7038196618659988
+krieg;syri;0.7086568322981367
+mehr;syri;0.7163461538461539
+soldat;syri;0.7241379310344828
+terror;syri;0.7383845604002859
+bomb;syri;0.7400820793433652
+helf;fluchtling,  ort;0.7458097329788463
+helf;fluchtling,  spend;0.7470812622818171
+kampf;syri;0.7492447129909365
+helf;fluchtling,  syri;0.7499711016067506
+heut;syri;0.7555555555555555
+isis;syri;0.7638190954773869
+syrisch;syri;0.7645502645502645
+helf;fluchtling;0.7666165761183679
+deutsch;syri;0.7697628458498024
+erst;syri;0.78125
+lieb;dontbombsyria;0.7903281519861831
+lieb;dontbombsyria,  fluchtling;0.7903281519861831
+lieb;dontbombsyria,  helf;0.7903281519861831
+lieb;dontbombsyria,  ort;0.7903281519861831
+lieb;dontbombsyria,  spend;0.7903281519861831
+lieb;dontbombsyria,  syri;0.7903281519861831
+lieb;fluchtling,  ort;0.7903281519861831
+lieb;fluchtling,  spend;0.7903281519861831
+lieb;helf,  syri;0.7903281519861831
+lieb;ort,  syri;0.7903281519861831
+lieb;spend,  syri;0.7903281519861831
+lieb;fluchtling,  helf;0.7906735751295336
+schon;syri;0.7924242424242425
+lieb;helf,  ort;0.7937823834196891
+lieb;helf,  spend;0.7937823834196891
+lieb;ort,  spend;0.7937823834196891
+lieb;ort;0.7944732297063903
+lieb;spend;0.7951640759930916
+lieb;helf;0.7955094991364421
+lieb;fluchtling,  syri;0.796545768566494
+dash;syri;0.8029850746268656
+russisch;syri;0.8061440677966102
+lieb;fluchtling;0.8079447322970639
+helf;ort,  syri;0.8132007860362964
+helf;ort,  spend;0.8143567217662698
+helf;spend,  syri;0.8144723153392671
+helf;ort;0.8160906253612299
+hilf;direkt,  fluchtling;0.8182778658214475
+hilf;helf,  ort;0.8182778658214475
+hilf;ort,  spend;0.8182778658214475
+hilf;direkt,  helf;0.8188061278394083
+hilf;direkt,  ort;0.8188061278394083
+hilf;direkt,  spend;0.8188061278394083
+hilf;fluchtling,  spend;0.8193343898573693
+hilf;ort,  syri;0.8193343898573693
+hilf;spend,  syri;0.8193343898573693
+hilf;fluchtling,  helf;0.8198626518753301
+hilf;helf,  spend;0.8198626518753301
+hilf;direkt,  syri;0.8203909138932911
+hilf;fluchtling,  ort;0.8203909138932911
+hilf;spend;0.8203909138932911
+hilf;direkt;0.820919175911252
+hilf;helf,  syri;0.8214474379292129
+hilf;ort;0.8225039619651348
+helf;spend;0.8237198011790544
+direkt;fluchtling,  helf;0.825302399365457
+direkt;fluchtling,  ort;0.825302399365457
+direkt;fluchtling,  spend;0.825302399365457
+direkt;fluchtling,  syri;0.8258972833630776
+hilf;fluchtling,  syri;0.8272583201267829
+fluchtling;syri;0.8285305538524422
+direkt;fluchtling;0.8286734086853064
+hilf;helf;0.8298996302165874
+helf;syri;0.8348167841867992
+irak;syri;0.8430989583333334
+sanktion;russland;0.8487282463186078
+kriegseinsatz;syri;0.8488529014844804
+bundeswehr;syri;0.850563544500583
+hilf;fluchtling;0.8526148969889065
+https;syri;0.8557386527898236
+spend;fluchtling,  ort;0.858663827521959
+spend;fluchtling,  syri;0.8594623369709875
+spend;fluchtling,  helf;0.8601277615118446
+lieb;syri;0.8663212435233161
+spend;fluchtling;0.8685121107266436
+ort;fluchtling,  helf;0.8849266218625703
+ort;fluchtling,  spend;0.8849266218625703
+ort;fluchtling,  syri;0.8852009326567001
+einsatz;syri;0.8882870683818551
+hilf;syri;0.8885367142102483
+bundeswehreinsatz;syri;0.889018691588785
+ort;fluchtling;0.8893155945686463
+deutschland;syri;0.920677966101695
+assad;syri;0.9277357192016518
+spend;ort,  syri;0.936252328985893
+spend;helf,  ort;0.9375831780676072
+spend;helf,  syri;0.9377162629757786
+spend;ort;0.9377162629757786
+direkt;helf,  ort;0.9409081895697006
+direkt;ort,  spend;0.9409081895697006
+direkt;spend,  syri;0.9409081895697006
+direkt;helf,  spend;0.9411064842355741
+direkt;helf,  syri;0.9411064842355741
+direkt;ort,  syri;0.9411064842355741
+direkt;ort;0.9413047789014476
+direkt;spend;0.9413047789014476
+spend;syri;0.9423742347617781
+spend;helf;0.9483630556294916
+direkt;helf;0.9484433868728931
+direkt;syri;0.9621257188181638
+ort;helf,  syri;0.9648882183513922
+ort;spend,  syri;0.9648882183513922
+ort;helf,  spend;0.9662597723220409
+ort;spend;0.9663969277191058
+ort;helf;0.968317103278014
+ort;syri;0.9701001234398574
+givingtusday;direkt,  fluchtling;0.9738330975954739
+givingtusday;fluchtling,  ort;0.9752475247524752
+givingtusday;fluchtling;0.9759547383309759
+givingtusday;fluchtling,  helf;0.9759547383309759
+givingtusday;fluchtling,  spend;0.9759547383309759
+givingtusday;fluchtling,  syri;0.9759547383309759
+givingtusday;direkt;0.9809052333804809
+givingtusday;direkt,  helf;0.9809052333804809
+givingtusday;direkt,  ort;0.9809052333804809
+givingtusday;direkt,  spend;0.9809052333804809
+givingtusday;direkt,  syri;0.9809052333804809
+givingtusday;ort;0.9823196605374823
+givingtusday;helf,  ort;0.9823196605374823
+givingtusday;ort,  spend;0.9823196605374823
+givingtusday;ort,  syri;0.9823196605374823
+givingtusday;helf;0.983026874115983
+givingtusday;spend;0.983026874115983
+givingtusday;helf,  spend;0.983026874115983
+givingtusday;helf,  syri;0.983026874115983
+givingtusday;spend,  syri;0.983026874115983
+dontbombsyria;fluchtling;0.9904761904761905
+dontbombsyria;fluchtling,  helf;0.9904761904761905
+dontbombsyria;lieb;0.9904761904761905
+dontbombsyria;fluchtling,  lieb;0.9904761904761905
+dontbombsyria;helf,  lieb;0.9904761904761905
+dontbombsyria;ort;0.9904761904761905
+dontbombsyria;fluchtling,  ort;0.9904761904761905
+dontbombsyria;helf,  ort;0.9904761904761905
+dontbombsyria;lieb,  ort;0.9904761904761905
+dontbombsyria;spend;0.9904761904761905
+dontbombsyria;fluchtling,  spend;0.9904761904761905
+dontbombsyria;helf,  spend;0.9904761904761905
+dontbombsyria;lieb,  spend;0.9904761904761905
+dontbombsyria;ort,  spend;0.9904761904761905
+dontbombsyria;fluchtling,  syri;0.9904761904761905
+dontbombsyria;lieb,  syri;0.9904761904761905
+dontbombsyria;ort,  syri;0.9904761904761905
+dontbombsyria;spend,  syri;0.9904761904761905
+dontbombsyria;helf;0.990909090909091
+dontbombsyria;helf,  syri;0.990909090909091
+dontbombsyria;syri;0.9974025974025974
+refugeeswelcom;direkt,  https;0.9983831851253031
+refugeeswelcom;fluchtling,  https;0.9983831851253031
+refugeeswelcom;helf,  https;0.9983831851253031
+refugeeswelcom;https;0.9983831851253031
+refugeeswelcom;https,  ort;0.9983831851253031
+refugeeswelcom;https,  spend;0.9983831851253031
+refugeeswelcom;https,  syri;0.9983831851253031
+givingtusday;syri;0.9985855728429985
+merkel;syri;0.9988636363636364
+refugeeswelcom;direkt;0.9991915925626516
+refugeeswelcom;direkt,  fluchtling;0.9991915925626516
+refugeeswelcom;direkt,  helf;0.9991915925626516
+refugeeswelcom;direkt,  ort;0.9991915925626516
+refugeeswelcom;direkt,  spend;0.9991915925626516
+refugeeswelcom;direkt,  syri;0.9991915925626516
+refugeeswelcom;fluchtling;0.9991915925626516
+refugeeswelcom;fluchtling,  helf;0.9991915925626516
+refugeeswelcom;fluchtling,  ort;0.9991915925626516
+refugeeswelcom;fluchtling,  spend;0.9991915925626516
+refugeeswelcom;fluchtling,  syri;0.9991915925626516
+refugeeswelcom;helf;0.9991915925626516
+refugeeswelcom;helf,  ort;0.9991915925626516
+refugeeswelcom;helf,  spend;0.9991915925626516
+refugeeswelcom;helf,  syri;0.9991915925626516
+refugeeswelcom;ort;0.9991915925626516
+refugeeswelcom;ort,  spend;0.9991915925626516
+refugeeswelcom;ort,  syri;0.9991915925626516
+refugeeswelcom;spend;0.9991915925626516
+refugeeswelcom;spend,  syri;0.9991915925626516
+refugeeswelcom;syri;1.0
+helf,  syri;direkt;0.657158681805594
+helf,  spend;direkt;0.6660117878192534
+spend,  syri;direkt;0.6701030927835051
+ort,  syri;direkt;0.6710024035062915
+helf,  ort;direkt;0.6720963172804533
+ort,  spend;direkt;0.6734317343173432
+https,  syri;ort;0.6966216216216217
+https,  syri;helf;0.6989864864864865
+https,  syri;spend;0.6996621621621621
+https,  syri;fluchtling;0.7148648648648649
+bundestag,  einsatz;syri;0.7740440324449595
+fluchtling,  syri;ort;0.7960039467192896
+fluchtling,  syri;spend;0.7964972866304884
+fluchtling,  syri;helf;0.8001973359644795
+direkt,  syri;fluchtling;0.8584089035449299
+direkt,  helf;fluchtling;0.8701651683044115
+direkt,  ort;fluchtling;0.876764272171898
+direkt,  spend;fluchtling;0.876764272171898
+helf,  syri;fluchtling;0.8983661035724176
+helf,  spend;fluchtling;0.906960426606792
+spend,  syri;fluchtling;0.9120180765428612
+lieb,  syri;dontbombsyria;0.9122807017543859
+lieb,  syri;helf;0.9122807017543859
+lieb,  syri;ort;0.9122807017543859
+lieb,  syri;spend;0.9122807017543859
+ort,  syri;fluchtling;0.912484094443659
+helf,  ort;fluchtling;0.9138810198300283
+ort,  spend;fluchtling;0.9156968492761851
+lieb,  syri;fluchtling;0.919457735247209
+hilf,  syri;ort;0.9221165279429251
+hilf,  syri;spend;0.9221165279429251
+hilf,  syri;direkt;0.9233055885850179
+hilf,  syri;helf;0.9244946492271106
+bundeswehr,  einsatz;syri;0.9264367816091954
+hilf,  syri;fluchtling;0.9310344827586207
+bundeswehr,  krieg;syri;0.9338842975206612
+fluchtling,  hilf;direkt;0.959727385377943
+fluchtling,  hilf;spend;0.9609665427509294
+fluchtling,  hilf;helf;0.9615861214374225
+fluchtling,  hilf;ort;0.9622057001239157
+fluchtling,  https;helf;0.9635514018691589
+fluchtling,  https;ort;0.9635514018691589
+fluchtling,  https;spend;0.9649532710280374
+fluchtling,  hilf;syri;0.9702602230483272
+fluchtling,  helf;ort;0.9728588661037394
+helf,  syri;ort;0.9741068955967876
+fluchtling,  helf;spend;0.9745174909529554
+helf,  https;fluchtling;0.9749408983451536
+helf,  https;ort;0.9749408983451536
+helf,  syri;spend;0.9756300193852119
+helf,  https;spend;0.9773049645390071
+givingtusday,  syri;fluchtling;0.9773371104815864
+direkt,  syri;spend;0.9779472382522671
+direkt,  syri;helf;0.9781533388293487
+direkt,  syri;ort;0.9781533388293487
+fluchtling,  lieb;dontbombsyria;0.9781958101752886
+fluchtling,  lieb;ort;0.9781958101752886
+fluchtling,  lieb;spend;0.9781958101752886
+helf,  https;syri;0.9782505910165484
+fluchtling,  helf;syri;0.9782870928829915
+fluchtling,  lieb;helf;0.9786233433091065
+https,  lieb;dontbombsyria;0.9798578199052133
+https,  lieb;fluchtling;0.9798578199052133
+https,  lieb;helf;0.9798578199052133
+https,  lieb;ort;0.9798578199052133
+https,  lieb;spend;0.9798578199052133
+givingtusday,  syri;direkt;0.9822946175637394
+givingtusday,  syri;ort;0.9837110481586402
+givingtusday,  syri;helf;0.9844192634560907
+givingtusday,  syri;spend;0.9844192634560907
+https,  spend;ort;0.9847182425978988
+fluchtling,  lieb;syri;0.9858914065840103
+helf,  hilf;ort;0.9859961807765755
+https,  spend;fluchtling;0.9861509073543457
+helf,  hilf;direkt;0.9866327180140039
+https,  spend;helf;0.9871060171919771
+direkt,  https;fluchtling;0.9872102318145484
+direkt,  https;ort;0.9872102318145484
+direkt,  https;refugeeswelcom;0.9872102318145484
+direkt,  https;spend;0.9872102318145484
+helf,  hilf;fluchtling;0.9879057924888606
+helf,  hilf;spend;0.9879057924888606
+helf,  spend;ort;0.9886331742913276
+fluchtling,  spend;ort;0.9886607416487895
+helf,  spend;syri;0.9887735054729161
+fluchtling,  https;syri;0.9887850467289719
+https,  spend;syri;0.9890162368672397
+fluchtling,  spend;syri;0.9895801409745633
+helf,  hilf;syri;0.9898154042011458
+fluchtling,  spend;helf;0.9903463070793748
+direkt,  helf;ort;0.9920551954840059
+direkt,  helf;spend;0.9922642692870584
+direkt,  helf;syri;0.9922642692870584
+direkt,  givingtusday;fluchtling;0.992790194664744
+givingtusday,  ort;fluchtling;0.9928005759539237
+direkt,  https;helf;0.9928057553956835
+givingtusday,  helf;fluchtling;0.9928057553956835
+givingtusday,  spend;fluchtling;0.9928057553956835
+dontbombsyria,  syri;fluchtling;0.9930555555555556
+dontbombsyria,  syri;lieb;0.9930555555555556
+dontbombsyria,  syri;ort;0.9930555555555556
+dontbombsyria,  syri;spend;0.9930555555555556
+helf,  lieb;dontbombsyria;0.9934867564046895
+helf,  lieb;syri;0.9934867564046895
+dontbombsyria,  syri;helf;0.9934895833333334
+spend,  syri;ort;0.9935037424092642
+direkt,  https;syri;0.9936051159072742
+lieb,  spend;dontbombsyria;0.9939183318853171
+lieb,  spend;fluchtling;0.9939183318853171
+lieb,  spend;syri;0.9939183318853171
+helf,  lieb;fluchtling;0.993920972644377
+ort,  syri;helf;0.9946274565248127
+ort,  syri;spend;0.9946274565248127
+lieb,  ort;dontbombsyria;0.9947826086956522
+lieb,  ort;fluchtling;0.9947826086956522
+lieb,  ort;syri;0.9947826086956522
+hilf,  ort;helf;0.9948619139370585
+hilf,  ort;spend;0.9948619139370585
+spend,  syri;helf;0.9950571953113967
+fluchtling,  ort;helf;0.9950647748303516
+fluchtling,  ort;spend;0.9950647748303516
+fluchtling,  ort;syri;0.9953732264034546
+hilf,  ort;direkt;0.9955041746949261
+direkt,  fluchtling;helf;0.9959320411581718
+direkt,  fluchtling;ort;0.9959320411581718
+direkt,  fluchtling;spend;0.9959320411581718
+hilf,  ort;syri;0.9961464354527938
+https,  lieb;syri;0.9964454976303317
+helf,  ort;syri;0.9964589235127479
+direkt,  fluchtling;syri;0.9966499162479062
+direkt,  hilf;fluchtling;0.9967824967824968
+hilf,  spend;ort;0.9974243399871217
+direkt,  hilf;helf;0.9974259974259975
+direkt,  hilf;ort;0.9974259974259975
+direkt,  hilf;spend;0.9974259974259975
+hilf,  ort;fluchtling;0.9974309569685292
+fluchtling,  givingtusday;direkt;0.9978260869565218
+helf,  lieb;ort;0.9978289188015632
+helf,  lieb;spend;0.9978289188015632
+givingtusday,  helf;direkt;0.9978417266187051
+givingtusday,  spend;direkt;0.9978417266187051
+helf,  ort;spend;0.9978753541076487
+hilf,  spend;direkt;0.9980682549903412
+lieb,  spend;helf;0.998262380538662
+lieb,  spend;ort;0.998262380538662
+refugeeswelcom,  syri;https;0.9983831851253031
+ort,  spend;syri;0.9984388305421515
+givingtusday,  ort;direkt;0.9985601151907847
+hilf,  spend;fluchtling;0.9987121699935608
+hilf,  spend;syri;0.9987121699935608
+lieb,  ort;helf;0.9991304347826087
+lieb,  ort;spend;0.9991304347826087
+direkt,  refugeeswelcom;https;0.9991909385113269
+fluchtling,  refugeeswelcom;https;0.9991909385113269
+helf,  refugeeswelcom;https;0.9991909385113269
+ort,  refugeeswelcom;https;0.9991909385113269
+refugeeswelcom,  spend;https;0.9991909385113269
+refugeeswelcom,  syri;direkt;0.9991915925626516
+refugeeswelcom,  syri;fluchtling;0.9991915925626516
+refugeeswelcom,  syri;helf;0.9991915925626516
+refugeeswelcom,  syri;ort;0.9991915925626516
+refugeeswelcom,  syri;spend;0.9991915925626516
+fluchtling,  givingtusday;ort;0.9992753623188406
+givingtusday,  helf;ort;0.9992805755395684
+givingtusday,  spend;ort;0.9992805755395684
+hilf,  spend;helf;0.9993560849967804
+direkt,  hilf;syri;0.9993564993564994
+dontbombsyria,  helf;fluchtling;0.999563128003495
+dontbombsyria,  helf;lieb;0.999563128003495
+dontbombsyria,  helf;ort;0.999563128003495
+dontbombsyria,  helf;spend;0.999563128003495
+direkt,  ort;helf;0.9995786812723826
+direkt,  spend;ort;0.9995786812723826
+direkt,  ort;spend;0.9995786812723826
+direkt,  spend;syri;0.9995786812723826
+direkt,  spend;helf;0.9997893406361913
+direkt,  ort;syri;0.9997893406361913
+ort,  spend;helf;0.999858075503832
+direkt,  givingtusday;helf;1.0
+direkt,  givingtusday;ort;1.0
+fluchtling,  refugeeswelcom;direkt;1.0
+direkt,  refugeeswelcom;fluchtling;1.0
+helf,  refugeeswelcom;direkt;1.0
+direkt,  refugeeswelcom;helf;1.0
+https,  refugeeswelcom;direkt;1.0
+ort,  refugeeswelcom;direkt;1.0
+direkt,  refugeeswelcom;ort;1.0
+direkt,  givingtusday;spend;1.0
+refugeeswelcom,  spend;direkt;1.0
+direkt,  refugeeswelcom;spend;1.0
+direkt,  givingtusday;syri;1.0
+direkt,  refugeeswelcom;syri;1.0
+dontbombsyria,  fluchtling;helf;1.0
+dontbombsyria,  https;fluchtling;1.0
+dontbombsyria,  https;helf;1.0
+dontbombsyria,  lieb;fluchtling;1.0
+dontbombsyria,  fluchtling;lieb;1.0
+dontbombsyria,  lieb;helf;1.0
+dontbombsyria,  https;lieb;1.0
+dontbombsyria,  ort;fluchtling;1.0
+dontbombsyria,  fluchtling;ort;1.0
+dontbombsyria,  ort;helf;1.0
+dontbombsyria,  https;ort;1.0
+dontbombsyria,  ort;lieb;1.0
+dontbombsyria,  lieb;ort;1.0
+dontbombsyria,  spend;fluchtling;1.0
+dontbombsyria,  fluchtling;spend;1.0
+dontbombsyria,  spend;helf;1.0
+dontbombsyria,  https;spend;1.0
+dontbombsyria,  spend;lieb;1.0
+dontbombsyria,  lieb;spend;1.0
+dontbombsyria,  spend;ort;1.0
+dontbombsyria,  ort;spend;1.0
+dontbombsyria,  fluchtling;syri;1.0
+dontbombsyria,  helf;syri;1.0
+dontbombsyria,  https;syri;1.0
+dontbombsyria,  lieb;syri;1.0
+dontbombsyria,  ort;syri;1.0
+dontbombsyria,  spend;syri;1.0
+fluchtling,  givingtusday;helf;1.0
+https,  ort;fluchtling;1.0
+helf,  refugeeswelcom;fluchtling;1.0
+fluchtling,  refugeeswelcom;helf;1.0
+https,  refugeeswelcom;fluchtling;1.0
+ort,  refugeeswelcom;fluchtling;1.0
+fluchtling,  refugeeswelcom;ort;1.0
+fluchtling,  givingtusday;spend;1.0
+refugeeswelcom,  spend;fluchtling;1.0
+fluchtling,  refugeeswelcom;spend;1.0
+fluchtling,  givingtusday;syri;1.0
+fluchtling,  refugeeswelcom;syri;1.0
+givingtusday,  ort;helf;1.0
+givingtusday,  spend;helf;1.0
+givingtusday,  helf;spend;1.0
+givingtusday,  ort;spend;1.0
+givingtusday,  helf;syri;1.0
+givingtusday,  ort;syri;1.0
+givingtusday,  spend;syri;1.0
+https,  ort;helf;1.0
+https,  refugeeswelcom;helf;1.0
+ort,  refugeeswelcom;helf;1.0
+helf,  refugeeswelcom;ort;1.0
+refugeeswelcom,  spend;helf;1.0
+helf,  refugeeswelcom;spend;1.0
+helf,  refugeeswelcom;syri;1.0
+https,  refugeeswelcom;ort;1.0
+https,  ort;spend;1.0
+https,  refugeeswelcom;spend;1.0
+https,  ort;syri;1.0
+https,  refugeeswelcom;syri;1.0
+refugeeswelcom,  spend;ort;1.0
+ort,  refugeeswelcom;spend;1.0
+ort,  refugeeswelcom;syri;1.0
+refugeeswelcom,  spend;syri;1.0

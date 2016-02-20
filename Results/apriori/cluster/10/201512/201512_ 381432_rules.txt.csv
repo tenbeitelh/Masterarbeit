@@ -1,0 +1,831 @@
+IF;THEN;CONFIDENCE
+ticket;deutschland,  sportevent;0.6549878965473309
+ticket;sportevent;0.6549878965473309
+2015;deutschland;0.6705202312138728
+grun;spd;0.6811337466784765
+leid;ang,  belastung;0.6836734693877551
+leid;ang,  chronisch;0.6836734693877551
+leid;ang,  leb;0.6836734693877551
+leid;ang,  mind;0.6836734693877551
+leid;ang,  prag;0.6836734693877551
+leid;ang,  psychisch;0.6836734693877551
+leid;ang,  sozial;0.6836734693877551
+leid;belastung;0.6836734693877551
+leid;belastung,  chronisch;0.6836734693877551
+leid;belastung,  leb;0.6836734693877551
+leid;belastung,  mind;0.6836734693877551
+leid;belastung,  prag;0.6836734693877551
+leid;belastung,  psychisch;0.6836734693877551
+leid;belastung,  sozial;0.6836734693877551
+leid;chronisch;0.6836734693877551
+leid;chronisch,  leb;0.6836734693877551
+leid;chronisch,  mind;0.6836734693877551
+leid;chronisch,  prag;0.6836734693877551
+leid;chronisch,  psychisch;0.6836734693877551
+leid;chronisch,  sozial;0.6836734693877551
+leid;leb,  mind;0.6836734693877551
+leid;leb,  prag;0.6836734693877551
+leid;leb,  psychisch;0.6836734693877551
+leid;leb,  sozial;0.6836734693877551
+leid;mind;0.6836734693877551
+leid;prag;0.6836734693877551
+leid;mind,  prag;0.6836734693877551
+leid;psychisch;0.6836734693877551
+leid;mind,  psychisch;0.6836734693877551
+leid;prag,  psychisch;0.6836734693877551
+leid;mind,  sozial;0.6836734693877551
+leid;prag,  sozial;0.6836734693877551
+leid;psychisch,  sozial;0.6836734693877551
+leid;sozial;0.6850340136054421
+leid;leb;0.6870748299319728
+leid;ang;0.691156462585034
+nachricht;berlin,  deutschland;0.7270375161707633
+nachricht;berlin;0.727554980595084
+baby;angebot,  newborn;0.7383309759547383
+baby;newborn;0.7383309759547383
+baby;deutschland,  newborn;0.7383309759547383
+angebot;newborn;0.7387489385791113
+angebot;baby,  newborn;0.7387489385791113
+angebot;deutschland,  newborn;0.7387489385791113
+berlin;deutschland;0.7463111111111111
+ttip;spd;0.7610192837465565
+sozial;ang,  belastung;0.768348623853211
+sozial;ang,  chronisch;0.768348623853211
+sozial;ang,  leb;0.768348623853211
+sozial;ang,  leid;0.768348623853211
+sozial;ang,  mind;0.768348623853211
+sozial;ang,  prag;0.768348623853211
+sozial;ang,  psychisch;0.768348623853211
+sozial;belastung;0.768348623853211
+sozial;belastung,  chronisch;0.768348623853211
+sozial;belastung,  leb;0.768348623853211
+sozial;belastung,  leid;0.768348623853211
+sozial;belastung,  mind;0.768348623853211
+sozial;belastung,  prag;0.768348623853211
+sozial;belastung,  psychisch;0.768348623853211
+sozial;chronisch;0.768348623853211
+sozial;chronisch,  leb;0.768348623853211
+sozial;chronisch,  leid;0.768348623853211
+sozial;chronisch,  mind;0.768348623853211
+sozial;chronisch,  prag;0.768348623853211
+sozial;chronisch,  psychisch;0.768348623853211
+sozial;leb,  leid;0.768348623853211
+sozial;leb,  mind;0.768348623853211
+sozial;leb,  prag;0.768348623853211
+sozial;leb,  psychisch;0.768348623853211
+sozial;leid,  mind;0.768348623853211
+sozial;leid,  prag;0.768348623853211
+sozial;leid,  psychisch;0.768348623853211
+sozial;mind;0.768348623853211
+sozial;mind,  prag;0.768348623853211
+sozial;mind,  psychisch;0.768348623853211
+sozial;prag;0.768348623853211
+sozial;prag,  psychisch;0.768348623853211
+sozial;psychisch;0.768348623853211
+sozial;leid;0.7698776758409785
+borussia;dortmund,  ticket;0.773524720893142
+sozial;ang;0.7737003058103975
+sozial;leb;0.7737003058103975
+hamburg;deutschland;0.7749003984063745
+borussia;deutschland,  dortmund;0.7751196172248804
+borussia;dortmund;0.7759170653907496
+top;deutschland;0.7864306784660767
+deutsch;deutschland;0.7939453125
+frankfurt;deutschland;0.8063102541630149
+comics;deutschland,  eur;0.8097320940404593
+comics;eur;0.8102788408966648
+comics;eur,  marvel;0.8102788408966648
+marvel;deutschland,  eur;0.8106185002736727
+munch;bay,  ticket;0.8110236220472441
+marvel;comics,  eur;0.8111658456486043
+marvel;eur;0.8111658456486043
+madch;angebot,  newborn;0.8126293995859213
+madch;baby,  newborn;0.8126293995859213
+madch;deutschland,  newborn;0.8126293995859213
+madch;newborn;0.8126293995859213
+bay;ticket;0.8164650339333137
+bay;deutschland,  ticket;0.8164650339333137
+munch;deutschland,  ticket;0.8165817508105604
+munch;ticket;0.8165817508105604
+reis;app;0.8171171171171171
+reis;app,  hotel;0.8171171171171171
+reis;app,  pension;0.8171171171171171
+reis;app,  room;0.8171171171171171
+reis;app,  urlaub;0.8171171171171171
+reis;hotel,  pension;0.8171171171171171
+reis;hotel,  room;0.8171171171171171
+reis;hotel,  urlaub;0.8171171171171171
+reis;pension,  room;0.8171171171171171
+reis;pension,  urlaub;0.8171171171171171
+reis;room;0.8171171171171171
+reis;room,  urlaub;0.8171171171171171
+reis;pension;0.818018018018018
+reis;hotel;0.8198198198198198
+munch;bay,  deutschland;0.8272348309402501
+munch;bay;0.8327929597035665
+reis;urlaub;0.8369369369369369
+dortmund;borussia,  ticket;0.8561341571050309
+dortmund;borussia,  deutschland;0.8578993821712269
+dortmund;borussia;0.8587819947043248
+hotel;app;0.8605313092979127
+hotel;app,  pension;0.8605313092979127
+hotel;app,  reis;0.8605313092979127
+hotel;app,  room;0.8605313092979127
+hotel;app,  urlaub;0.8605313092979127
+hotel;pension,  reis;0.8605313092979127
+hotel;room;0.8605313092979127
+hotel;pension,  room;0.8605313092979127
+hotel;reis,  room;0.8605313092979127
+hotel;pension,  urlaub;0.8605313092979127
+hotel;reis,  urlaub;0.8605313092979127
+hotel;room,  urlaub;0.8605313092979127
+hotel;pension;0.8633776091081594
+hotel;reis;0.8633776091081594
+hotel;urlaub;0.8652751423149905
+urlaub;app;0.873795761078998
+urlaub;app,  hotel;0.873795761078998
+urlaub;app,  pension;0.873795761078998
+urlaub;app,  reis;0.873795761078998
+urlaub;app,  room;0.873795761078998
+urlaub;hotel,  pension;0.873795761078998
+urlaub;hotel,  reis;0.873795761078998
+urlaub;hotel,  room;0.873795761078998
+urlaub;pension;0.873795761078998
+urlaub;pension,  reis;0.873795761078998
+urlaub;pension,  room;0.873795761078998
+urlaub;reis,  room;0.873795761078998
+urlaub;room;0.873795761078998
+urlaub;hotel;0.8786127167630058
+parteitag;spd;0.8798411122144985
+urlaub;reis;0.894990366088632
+eur;comics,  deutschland;0.895946763460375
+eur;deutschland,  marvel;0.895946763460375
+eur;comics;0.896551724137931
+eur;comics,  marvel;0.896551724137931
+eur;marvel;0.896551724137931
+nachricht;deutschland;0.9027166882276844
+madch;angebot;0.9109730848861284
+madch;angebot,  baby;0.9109730848861284
+madch;angebot,  deutschland;0.9109730848861284
+madch;baby;0.9109730848861284
+madch;baby,  deutschland;0.9109730848861284
+bay;deutschland;0.91737975804072
+dortmund;deutschland,  ticket;0.9249779346866726
+dortmund;ticket;0.9258605472197705
+gabriel;spd;0.9327510917030568
+spdbpt;spd;0.933997509339975
+munch;deutschland;0.9351551644279759
+madch;deutschland;0.9461697722567288
+dortmund;deutschland;0.9549867608120035
+germany;deutschland;0.955503512880562
+mind;ang;0.9608030592734226
+mind;ang,  belastung;0.9608030592734226
+mind;ang,  chronisch;0.9608030592734226
+mind;ang,  leb;0.9608030592734226
+mind;ang,  leid;0.9608030592734226
+mind;ang,  prag;0.9608030592734226
+mind;ang,  psychisch;0.9608030592734226
+mind;ang,  sozial;0.9608030592734226
+mind;belastung;0.9608030592734226
+mind;belastung,  chronisch;0.9608030592734226
+mind;belastung,  leb;0.9608030592734226
+mind;belastung,  leid;0.9608030592734226
+mind;belastung,  prag;0.9608030592734226
+mind;belastung,  psychisch;0.9608030592734226
+mind;belastung,  sozial;0.9608030592734226
+mind;chronisch;0.9608030592734226
+mind;chronisch,  leb;0.9608030592734226
+mind;chronisch,  leid;0.9608030592734226
+mind;chronisch,  prag;0.9608030592734226
+mind;chronisch,  psychisch;0.9608030592734226
+mind;chronisch,  sozial;0.9608030592734226
+mind;leb;0.9608030592734226
+mind;leb,  leid;0.9608030592734226
+mind;leb,  prag;0.9608030592734226
+mind;leb,  psychisch;0.9608030592734226
+mind;leb,  sozial;0.9608030592734226
+mind;leid;0.9608030592734226
+mind;leid,  prag;0.9608030592734226
+mind;leid,  psychisch;0.9608030592734226
+mind;leid,  sozial;0.9608030592734226
+mind;prag;0.9608030592734226
+mind;psychisch;0.9608030592734226
+mind;prag,  psychisch;0.9608030592734226
+mind;sozial;0.9608030592734226
+mind;prag,  sozial;0.9608030592734226
+mind;psychisch,  sozial;0.9608030592734226
+app;hotel;0.9659211927582535
+app;pension;0.9659211927582535
+app;hotel,  pension;0.9659211927582535
+app;reis;0.9659211927582535
+app;hotel,  reis;0.9659211927582535
+app;pension,  reis;0.9659211927582535
+app;room;0.9659211927582535
+app;hotel,  room;0.9659211927582535
+app;pension,  room;0.9659211927582535
+app;reis,  room;0.9659211927582535
+app;urlaub;0.9659211927582535
+app;hotel,  urlaub;0.9659211927582535
+app;pension,  urlaub;0.9659211927582535
+app;reis,  urlaub;0.9659211927582535
+app;room,  urlaub;0.9659211927582535
+baby;angebot;0.9666195190947666
+baby;angebot,  deutschland;0.9666195190947666
+angebot;baby;0.9671667138409283
+angebot;baby,  deutschland;0.9671667138409283
+baby;deutschland;0.9691654879773691
+pension;app;0.9805405405405405
+pension;app,  hotel;0.9805405405405405
+pension;app,  reis;0.9805405405405405
+pension;app,  room;0.9805405405405405
+pension;app,  urlaub;0.9805405405405405
+pension;hotel,  reis;0.9805405405405405
+pension;hotel,  room;0.9805405405405405
+pension;hotel,  urlaub;0.9805405405405405
+pension;room;0.9805405405405405
+pension;reis,  room;0.9805405405405405
+pension;urlaub;0.9805405405405405
+pension;reis,  urlaub;0.9805405405405405
+pension;room,  urlaub;0.9805405405405405
+eur;deutschland;0.9812462189957653
+pension;reis;0.9816216216216216
+pension;hotel;0.9837837837837838
+bvb;ticket;0.9861111111111112
+bvb;deutschland,  ticket;0.9861111111111112
+belastung;ang;0.9862610402355251
+belastung;ang,  chronisch;0.9862610402355251
+belastung;ang,  leb;0.9862610402355251
+belastung;ang,  leid;0.9862610402355251
+belastung;ang,  mind;0.9862610402355251
+belastung;ang,  prag;0.9862610402355251
+belastung;ang,  psychisch;0.9862610402355251
+belastung;ang,  sozial;0.9862610402355251
+belastung;chronisch;0.9862610402355251
+belastung;leb;0.9862610402355251
+belastung;chronisch,  leb;0.9862610402355251
+belastung;leid;0.9862610402355251
+belastung;chronisch,  leid;0.9862610402355251
+belastung;leb,  leid;0.9862610402355251
+belastung;mind;0.9862610402355251
+belastung;chronisch,  mind;0.9862610402355251
+belastung;leb,  mind;0.9862610402355251
+belastung;leid,  mind;0.9862610402355251
+belastung;prag;0.9862610402355251
+belastung;chronisch,  prag;0.9862610402355251
+belastung;leb,  prag;0.9862610402355251
+belastung;leid,  prag;0.9862610402355251
+belastung;mind,  prag;0.9862610402355251
+belastung;psychisch;0.9862610402355251
+belastung;chronisch,  psychisch;0.9862610402355251
+belastung;leb,  psychisch;0.9862610402355251
+belastung;leid,  psychisch;0.9862610402355251
+belastung;mind,  psychisch;0.9862610402355251
+belastung;prag,  psychisch;0.9862610402355251
+belastung;sozial;0.9862610402355251
+belastung;chronisch,  sozial;0.9862610402355251
+belastung;leb,  sozial;0.9862610402355251
+belastung;leid,  sozial;0.9862610402355251
+belastung;mind,  sozial;0.9862610402355251
+belastung;prag,  sozial;0.9862610402355251
+belastung;psychisch,  sozial;0.9862610402355251
+bvb;deutschland;0.9914529914529915
+prag;ang;0.9921026653504442
+prag;ang,  belastung;0.9921026653504442
+prag;ang,  chronisch;0.9921026653504442
+prag;ang,  leb;0.9921026653504442
+prag;ang,  leid;0.9921026653504442
+prag;ang,  mind;0.9921026653504442
+psychisch;ang,  belastung;0.9921026653504442
+psychisch;ang,  chronisch;0.9921026653504442
+psychisch;ang,  leb;0.9921026653504442
+psychisch;ang,  leid;0.9921026653504442
+psychisch;ang,  mind;0.9921026653504442
+psychisch;ang,  prag;0.9921026653504442
+prag;ang,  psychisch;0.9921026653504442
+prag;ang,  sozial;0.9921026653504442
+psychisch;ang,  sozial;0.9921026653504442
+prag;belastung;0.9921026653504442
+prag;belastung,  chronisch;0.9921026653504442
+prag;belastung,  leb;0.9921026653504442
+prag;belastung,  leid;0.9921026653504442
+prag;belastung,  mind;0.9921026653504442
+psychisch;belastung;0.9921026653504442
+psychisch;belastung,  chronisch;0.9921026653504442
+psychisch;belastung,  leb;0.9921026653504442
+psychisch;belastung,  leid;0.9921026653504442
+psychisch;belastung,  mind;0.9921026653504442
+psychisch;belastung,  prag;0.9921026653504442
+prag;belastung,  psychisch;0.9921026653504442
+prag;belastung,  sozial;0.9921026653504442
+psychisch;belastung,  sozial;0.9921026653504442
+prag;chronisch;0.9921026653504442
+prag;chronisch,  leb;0.9921026653504442
+prag;chronisch,  leid;0.9921026653504442
+prag;chronisch,  mind;0.9921026653504442
+psychisch;chronisch;0.9921026653504442
+psychisch;chronisch,  leb;0.9921026653504442
+psychisch;chronisch,  leid;0.9921026653504442
+psychisch;chronisch,  mind;0.9921026653504442
+prag;chronisch,  psychisch;0.9921026653504442
+psychisch;chronisch,  prag;0.9921026653504442
+prag;chronisch,  sozial;0.9921026653504442
+psychisch;chronisch,  sozial;0.9921026653504442
+prag;leb;0.9921026653504442
+prag;leb,  leid;0.9921026653504442
+prag;leb,  mind;0.9921026653504442
+psychisch;leb;0.9921026653504442
+psychisch;leb,  leid;0.9921026653504442
+psychisch;leb,  mind;0.9921026653504442
+psychisch;leb,  prag;0.9921026653504442
+prag;leb,  psychisch;0.9921026653504442
+prag;leb,  sozial;0.9921026653504442
+psychisch;leb,  sozial;0.9921026653504442
+prag;leid;0.9921026653504442
+prag;leid,  mind;0.9921026653504442
+psychisch;leid;0.9921026653504442
+psychisch;leid,  mind;0.9921026653504442
+prag;leid,  psychisch;0.9921026653504442
+psychisch;leid,  prag;0.9921026653504442
+prag;leid,  sozial;0.9921026653504442
+psychisch;leid,  sozial;0.9921026653504442
+prag;mind;0.9921026653504442
+psychisch;mind;0.9921026653504442
+psychisch;mind,  prag;0.9921026653504442
+prag;mind,  psychisch;0.9921026653504442
+prag;mind,  sozial;0.9921026653504442
+psychisch;mind,  sozial;0.9921026653504442
+psychisch;prag;0.9921026653504442
+prag;psychisch;0.9921026653504442
+prag;sozial;0.9921026653504442
+prag;psychisch,  sozial;0.9921026653504442
+psychisch;prag,  sozial;0.9921026653504442
+psychisch;sozial;0.9921026653504442
+angebot;deutschland;0.9923577696009057
+psychisch;ang;0.9940769990128332
+borussia;ticket;0.9960127591706539
+borussia;deutschland,  ticket;0.9960127591706539
+comics;deutschland,  marvel;0.9978130125751777
+ticket;deutschland;0.9979615237609887
+chronisch;ang;0.9980139026812314
+chronisch;ang,  belastung;0.9980139026812314
+chronisch;ang,  leb;0.9980139026812314
+chronisch;ang,  leid;0.9980139026812314
+chronisch;ang,  mind;0.9980139026812314
+chronisch;ang,  prag;0.9980139026812314
+chronisch;ang,  psychisch;0.9980139026812314
+chronisch;ang,  sozial;0.9980139026812314
+chronisch;belastung;0.9980139026812314
+chronisch;belastung,  leb;0.9980139026812314
+chronisch;belastung,  leid;0.9980139026812314
+chronisch;belastung,  mind;0.9980139026812314
+chronisch;belastung,  prag;0.9980139026812314
+chronisch;belastung,  psychisch;0.9980139026812314
+chronisch;belastung,  sozial;0.9980139026812314
+chronisch;leb;0.9980139026812314
+chronisch;leid;0.9980139026812314
+chronisch;leb,  leid;0.9980139026812314
+chronisch;mind;0.9980139026812314
+chronisch;leb,  mind;0.9980139026812314
+chronisch;leid,  mind;0.9980139026812314
+chronisch;prag;0.9980139026812314
+chronisch;leb,  prag;0.9980139026812314
+chronisch;leid,  prag;0.9980139026812314
+chronisch;mind,  prag;0.9980139026812314
+chronisch;psychisch;0.9980139026812314
+chronisch;leb,  psychisch;0.9980139026812314
+chronisch;leid,  psychisch;0.9980139026812314
+chronisch;mind,  psychisch;0.9980139026812314
+chronisch;prag,  psychisch;0.9980139026812314
+chronisch;sozial;0.9980139026812314
+chronisch;leb,  sozial;0.9980139026812314
+chronisch;leid,  sozial;0.9980139026812314
+chronisch;mind,  sozial;0.9980139026812314
+chronisch;prag,  sozial;0.9980139026812314
+chronisch;psychisch,  sozial;0.9980139026812314
+comics;deutschland;0.9983597594313832
+fluchtling;deutschland;0.9984484096198604
+room;app;0.998898678414097
+room;app,  hotel;0.998898678414097
+room;app,  pension;0.998898678414097
+room;app,  reis;0.998898678414097
+room;app,  urlaub;0.998898678414097
+room;hotel;0.998898678414097
+room;hotel,  pension;0.998898678414097
+room;hotel,  reis;0.998898678414097
+room;hotel,  urlaub;0.998898678414097
+room;pension;0.998898678414097
+room;pension,  reis;0.998898678414097
+room;pension,  urlaub;0.998898678414097
+room;reis;0.998898678414097
+room;reis,  urlaub;0.998898678414097
+room;urlaub;0.998898678414097
+marvel;comics,  deutschland;0.9989053092501369
+marvel;deutschland;0.9989053092501369
+comics;marvel;0.9989065062875888
+borussia;deutschland;0.9992025518341308
+newborn;angebot;1.0
+newborn;angebot,  baby;1.0
+newborn;angebot,  deutschland;1.0
+newborn;baby;1.0
+newborn;baby,  deutschland;1.0
+marvel;comics;1.0
+newborn;deutschland;1.0
+sportevent;deutschland;1.0
+sportsevent;deutschland;1.0
+sportevent;deutschland,  ticket;1.0
+sportsevent;deutschland,  ticket;1.0
+sportevent;ticket;1.0
+sportsevent;ticket;1.0
+bay,  ticket;sportevent;0.6516082399710879
+deutschland,  ticket;sportevent;0.656325801097919
+berlin,  deutschland;nachricht;0.6693663649356837
+angebot,  deutschland;newborn;0.744438106103822
+deutschland,  top;ticket;0.7494373593398349
+baby,  deutschland;newborn;0.7618213660245184
+angebot,  baby;newborn;0.7638279192273925
+borussia,  deutschland;dortmund;0.7757382282521947
+borussia,  ticket;dortmund;0.77662129703763
+deutschland,  nachricht;berlin;0.8053883634279163
+comics,  deutschland;eur;0.8110624315443593
+comics,  marvel;eur;0.8111658456486043
+deutschland,  marvel;eur;0.8115068493150684
+deutschland,  madch;newborn;0.8588621444201313
+deutschland,  munch;ticket;0.8732045567112432
+deutschland,  munch;bay;0.8845963348192174
+bay,  deutschland;ticket;0.8899967835316822
+angebot,  madch;newborn;0.8920454545454546
+baby,  madch;newborn;0.8920454545454546
+deutschland,  dortmund;borussia;0.8983364140480592
+deutschland,  eur;comics;0.9130702836004932
+deutschland,  eur;marvel;0.9130702836004932
+dortmund,  ticket;borussia;0.9246901811248809
+ang,  leb;belastung;0.9262672811059908
+ang,  leb;chronisch;0.9262672811059908
+ang,  leb;leid;0.9262672811059908
+ang,  leb;mind;0.9262672811059908
+ang,  leb;prag;0.9262672811059908
+ang,  leb;psychisch;0.9262672811059908
+ang,  leb;sozial;0.9262672811059908
+deutschland,  madch;angebot;0.962800875273523
+deutschland,  madch;baby;0.962800875273523
+deutschland,  dortmund;ticket;0.9685767097966729
+bay,  munch;ticket;0.9738598442714127
+angebot,  deutschland;baby;0.9746149458071877
+reis,  urlaub;app;0.976318622174381
+reis,  urlaub;hotel;0.976318622174381
+reis,  urlaub;pension;0.976318622174381
+reis,  urlaub;room;0.976318622174381
+ang,  leid;belastung;0.9891732283464567
+ang,  leid;chronisch;0.9891732283464567
+ang,  leid;leb;0.9891732283464567
+ang,  leid;mind;0.9891732283464567
+ang,  leid;prag;0.9891732283464567
+ang,  leid;psychisch;0.9891732283464567
+ang,  leid;sozial;0.9891732283464567
+ang,  sozial;belastung;0.9930830039525692
+ang,  sozial;chronisch;0.9930830039525692
+leb,  sozial;ang;0.9930830039525692
+ang,  sozial;leb;0.9930830039525692
+ang,  sozial;leid;0.9930830039525692
+ang,  sozial;mind;0.9930830039525692
+ang,  sozial;prag;0.9930830039525692
+ang,  sozial;psychisch;0.9930830039525692
+leb,  sozial;belastung;0.9930830039525692
+leb,  sozial;chronisch;0.9930830039525692
+leb,  sozial;leid;0.9930830039525692
+leb,  sozial;mind;0.9930830039525692
+leb,  sozial;prag;0.9930830039525692
+leb,  sozial;psychisch;0.9930830039525692
+munch,  ticket;bay;0.9931934203062961
+bay,  munch;deutschland;0.9933259176863182
+munch,  sportevent;bay;0.9937106918238994
+hotel,  urlaub;app;0.9945175438596491
+hotel,  urlaub;pension;0.9945175438596491
+hotel,  urlaub;reis;0.9945175438596491
+hotel,  urlaub;room;0.9945175438596491
+bvb,  deutschland;ticket;0.9946120689655172
+leb,  leid;ang;0.995049504950495
+leb,  leid;belastung;0.995049504950495
+leb,  leid;chronisch;0.995049504950495
+leb,  leid;mind;0.995049504950495
+leb,  leid;prag;0.995049504950495
+leb,  leid;psychisch;0.995049504950495
+leb,  leid;sozial;0.995049504950495
+munch,  sportsevent;bay;0.9951456310679612
+hotel,  pension;app;0.9967032967032967
+hotel,  reis;app;0.9967032967032967
+hotel,  reis;pension;0.9967032967032967
+hotel,  pension;reis;0.9967032967032967
+hotel,  pension;room;0.9967032967032967
+hotel,  reis;room;0.9967032967032967
+hotel,  pension;urlaub;0.9967032967032967
+hotel,  reis;urlaub;0.9967032967032967
+borussia,  deutschland;ticket;0.9968076616121309
+borussia,  dortmund;ticket;0.9969167523124358
+baby,  deutschland;angebot;0.9973730297723292
+ang,  psychisch;belastung;0.9980139026812314
+ang,  psychisch;chronisch;0.9980139026812314
+ang,  psychisch;leb;0.9980139026812314
+ang,  psychisch;leid;0.9980139026812314
+ang,  psychisch;mind;0.9980139026812314
+ang,  psychisch;prag;0.9980139026812314
+leid,  sozial;ang;0.9980139026812314
+ang,  psychisch;sozial;0.9980139026812314
+leid,  sozial;belastung;0.9980139026812314
+leid,  sozial;chronisch;0.9980139026812314
+leid,  sozial;leb;0.9980139026812314
+leid,  sozial;mind;0.9980139026812314
+leid,  sozial;prag;0.9980139026812314
+leid,  sozial;psychisch;0.9980139026812314
+pension,  reis;app;0.998898678414097
+pension,  reis;hotel;0.998898678414097
+pension,  reis;room;0.998898678414097
+pension,  reis;urlaub;0.998898678414097
+comics,  marvel;deutschland;0.9989053092501369
+borussia,  dortmund;deutschland;0.998972250770812
+dortmund,  ticket;deutschland;0.9990467111534795
+berlin,  nachricht;deutschland;0.9992887624466572
+comics,  eur;deutschland;0.9993252361673415
+eur,  marvel;deutschland;0.9993252361673415
+comics,  deutschland;marvel;0.9994523548740416
+belastung,  chronisch;ang;1.0
+ang,  chronisch;belastung;1.0
+ang,  belastung;chronisch;1.0
+belastung,  leb;ang;1.0
+ang,  belastung;leb;1.0
+chronisch,  leb;ang;1.0
+ang,  chronisch;leb;1.0
+belastung,  leid;ang;1.0
+ang,  belastung;leid;1.0
+chronisch,  leid;ang;1.0
+ang,  chronisch;leid;1.0
+belastung,  mind;ang;1.0
+ang,  mind;belastung;1.0
+ang,  belastung;mind;1.0
+chronisch,  mind;ang;1.0
+ang,  mind;chronisch;1.0
+ang,  chronisch;mind;1.0
+leb,  mind;ang;1.0
+ang,  mind;leb;1.0
+leid,  mind;ang;1.0
+ang,  mind;leid;1.0
+belastung,  prag;ang;1.0
+ang,  prag;belastung;1.0
+ang,  belastung;prag;1.0
+chronisch,  prag;ang;1.0
+ang,  prag;chronisch;1.0
+ang,  chronisch;prag;1.0
+leb,  prag;ang;1.0
+ang,  prag;leb;1.0
+leid,  prag;ang;1.0
+ang,  prag;leid;1.0
+mind,  prag;ang;1.0
+ang,  prag;mind;1.0
+ang,  mind;prag;1.0
+belastung,  psychisch;ang;1.0
+ang,  belastung;psychisch;1.0
+chronisch,  psychisch;ang;1.0
+ang,  chronisch;psychisch;1.0
+leb,  psychisch;ang;1.0
+leid,  psychisch;ang;1.0
+mind,  psychisch;ang;1.0
+ang,  mind;psychisch;1.0
+prag,  psychisch;ang;1.0
+ang,  prag;psychisch;1.0
+belastung,  sozial;ang;1.0
+ang,  belastung;sozial;1.0
+chronisch,  sozial;ang;1.0
+ang,  chronisch;sozial;1.0
+mind,  sozial;ang;1.0
+ang,  mind;sozial;1.0
+prag,  sozial;ang;1.0
+ang,  prag;sozial;1.0
+psychisch,  sozial;ang;1.0
+angebot,  baby;deutschland;1.0
+baby,  madch;angebot;1.0
+angebot,  madch;baby;1.0
+angebot,  madch;deutschland;1.0
+baby,  newborn;angebot;1.0
+angebot,  newborn;baby;1.0
+deutschland,  newborn;angebot;1.0
+angebot,  newborn;deutschland;1.0
+madch,  newborn;angebot;1.0
+app,  pension;hotel;1.0
+app,  hotel;pension;1.0
+app,  reis;hotel;1.0
+app,  hotel;reis;1.0
+app,  reis;pension;1.0
+app,  pension;reis;1.0
+hotel,  room;app;1.0
+app,  room;hotel;1.0
+app,  hotel;room;1.0
+pension,  room;app;1.0
+app,  room;pension;1.0
+app,  pension;room;1.0
+reis,  room;app;1.0
+app,  room;reis;1.0
+app,  reis;room;1.0
+app,  urlaub;hotel;1.0
+app,  hotel;urlaub;1.0
+pension,  urlaub;app;1.0
+app,  urlaub;pension;1.0
+app,  pension;urlaub;1.0
+app,  urlaub;reis;1.0
+app,  reis;urlaub;1.0
+room,  urlaub;app;1.0
+app,  urlaub;room;1.0
+app,  room;urlaub;1.0
+baby,  madch;deutschland;1.0
+deutschland,  newborn;baby;1.0
+baby,  newborn;deutschland;1.0
+madch,  newborn;baby;1.0
+bay,  sportevent;deutschland;1.0
+bay,  sportsevent;deutschland;1.0
+bay,  ticket;deutschland;1.0
+bay,  sportevent;ticket;1.0
+bay,  sportsevent;ticket;1.0
+chronisch,  leb;belastung;1.0
+belastung,  leb;chronisch;1.0
+belastung,  chronisch;leb;1.0
+chronisch,  leid;belastung;1.0
+belastung,  leid;chronisch;1.0
+belastung,  chronisch;leid;1.0
+belastung,  leid;leb;1.0
+belastung,  leb;leid;1.0
+chronisch,  mind;belastung;1.0
+belastung,  mind;chronisch;1.0
+belastung,  chronisch;mind;1.0
+leb,  mind;belastung;1.0
+belastung,  mind;leb;1.0
+belastung,  leb;mind;1.0
+leid,  mind;belastung;1.0
+belastung,  mind;leid;1.0
+belastung,  leid;mind;1.0
+chronisch,  prag;belastung;1.0
+belastung,  prag;chronisch;1.0
+belastung,  chronisch;prag;1.0
+leb,  prag;belastung;1.0
+belastung,  prag;leb;1.0
+belastung,  leb;prag;1.0
+leid,  prag;belastung;1.0
+belastung,  prag;leid;1.0
+belastung,  leid;prag;1.0
+mind,  prag;belastung;1.0
+belastung,  prag;mind;1.0
+belastung,  mind;prag;1.0
+chronisch,  psychisch;belastung;1.0
+belastung,  psychisch;chronisch;1.0
+belastung,  chronisch;psychisch;1.0
+leb,  psychisch;belastung;1.0
+belastung,  psychisch;leb;1.0
+belastung,  leb;psychisch;1.0
+leid,  psychisch;belastung;1.0
+belastung,  psychisch;leid;1.0
+belastung,  leid;psychisch;1.0
+mind,  psychisch;belastung;1.0
+belastung,  psychisch;mind;1.0
+belastung,  mind;psychisch;1.0
+prag,  psychisch;belastung;1.0
+belastung,  psychisch;prag;1.0
+belastung,  prag;psychisch;1.0
+chronisch,  sozial;belastung;1.0
+belastung,  sozial;chronisch;1.0
+belastung,  chronisch;sozial;1.0
+belastung,  sozial;leb;1.0
+belastung,  leb;sozial;1.0
+belastung,  sozial;leid;1.0
+belastung,  leid;sozial;1.0
+mind,  sozial;belastung;1.0
+belastung,  sozial;mind;1.0
+belastung,  mind;sozial;1.0
+prag,  sozial;belastung;1.0
+belastung,  sozial;prag;1.0
+belastung,  prag;sozial;1.0
+psychisch,  sozial;belastung;1.0
+belastung,  sozial;psychisch;1.0
+belastung,  psychisch;sozial;1.0
+borussia,  sportevent;deutschland;1.0
+borussia,  ticket;deutschland;1.0
+borussia,  sportevent;ticket;1.0
+bvb,  ticket;deutschland;1.0
+chronisch,  leid;leb;1.0
+chronisch,  leb;leid;1.0
+leb,  mind;chronisch;1.0
+chronisch,  mind;leb;1.0
+chronisch,  leb;mind;1.0
+leid,  mind;chronisch;1.0
+chronisch,  mind;leid;1.0
+chronisch,  leid;mind;1.0
+leb,  prag;chronisch;1.0
+chronisch,  prag;leb;1.0
+chronisch,  leb;prag;1.0
+leid,  prag;chronisch;1.0
+chronisch,  prag;leid;1.0
+chronisch,  leid;prag;1.0
+mind,  prag;chronisch;1.0
+chronisch,  prag;mind;1.0
+chronisch,  mind;prag;1.0
+leb,  psychisch;chronisch;1.0
+chronisch,  psychisch;leb;1.0
+chronisch,  leb;psychisch;1.0
+leid,  psychisch;chronisch;1.0
+chronisch,  psychisch;leid;1.0
+chronisch,  leid;psychisch;1.0
+mind,  psychisch;chronisch;1.0
+chronisch,  psychisch;mind;1.0
+chronisch,  mind;psychisch;1.0
+prag,  psychisch;chronisch;1.0
+chronisch,  psychisch;prag;1.0
+chronisch,  prag;psychisch;1.0
+chronisch,  sozial;leb;1.0
+chronisch,  leb;sozial;1.0
+chronisch,  sozial;leid;1.0
+chronisch,  leid;sozial;1.0
+mind,  sozial;chronisch;1.0
+chronisch,  sozial;mind;1.0
+chronisch,  mind;sozial;1.0
+prag,  sozial;chronisch;1.0
+chronisch,  sozial;prag;1.0
+chronisch,  prag;sozial;1.0
+psychisch,  sozial;chronisch;1.0
+chronisch,  sozial;psychisch;1.0
+chronisch,  psychisch;sozial;1.0
+deutschland,  marvel;comics;1.0
+eur,  marvel;comics;1.0
+comics,  eur;marvel;1.0
+madch,  newborn;deutschland;1.0
+munch,  sportevent;deutschland;1.0
+munch,  sportsevent;deutschland;1.0
+sportevent,  sportsevent;deutschland;1.0
+munch,  ticket;deutschland;1.0
+sportevent,  ticket;deutschland;1.0
+deutschland,  sportevent;ticket;1.0
+sportsevent,  ticket;deutschland;1.0
+deutschland,  sportsevent;ticket;1.0
+ticket,  top;deutschland;1.0
+pension,  room;hotel;1.0
+hotel,  room;pension;1.0
+reis,  room;hotel;1.0
+hotel,  room;reis;1.0
+pension,  urlaub;hotel;1.0
+room,  urlaub;hotel;1.0
+hotel,  room;urlaub;1.0
+leid,  mind;leb;1.0
+leb,  mind;leid;1.0
+leid,  prag;leb;1.0
+leb,  prag;leid;1.0
+mind,  prag;leb;1.0
+leb,  prag;mind;1.0
+leb,  mind;prag;1.0
+leid,  psychisch;leb;1.0
+leb,  psychisch;leid;1.0
+mind,  psychisch;leb;1.0
+leb,  psychisch;mind;1.0
+leb,  mind;psychisch;1.0
+prag,  psychisch;leb;1.0
+leb,  psychisch;prag;1.0
+leb,  prag;psychisch;1.0
+mind,  sozial;leb;1.0
+leb,  mind;sozial;1.0
+prag,  sozial;leb;1.0
+leb,  prag;sozial;1.0
+psychisch,  sozial;leb;1.0
+leb,  psychisch;sozial;1.0
+mind,  prag;leid;1.0
+leid,  prag;mind;1.0
+leid,  mind;prag;1.0
+mind,  psychisch;leid;1.0
+leid,  psychisch;mind;1.0
+leid,  mind;psychisch;1.0
+prag,  psychisch;leid;1.0
+leid,  psychisch;prag;1.0
+leid,  prag;psychisch;1.0
+mind,  sozial;leid;1.0
+leid,  mind;sozial;1.0
+prag,  sozial;leid;1.0
+leid,  prag;sozial;1.0
+psychisch,  sozial;leid;1.0
+leid,  psychisch;sozial;1.0
+prag,  psychisch;mind;1.0
+mind,  psychisch;prag;1.0
+mind,  prag;psychisch;1.0
+prag,  sozial;mind;1.0
+mind,  sozial;prag;1.0
+mind,  prag;sozial;1.0
+psychisch,  sozial;mind;1.0
+mind,  sozial;psychisch;1.0
+mind,  psychisch;sozial;1.0
+munch,  sportevent;ticket;1.0
+munch,  sportsevent;ticket;1.0
+reis,  room;pension;1.0
+pension,  room;reis;1.0
+pension,  urlaub;reis;1.0
+room,  urlaub;pension;1.0
+pension,  urlaub;room;1.0
+pension,  room;urlaub;1.0
+psychisch,  sozial;prag;1.0
+prag,  sozial;psychisch;1.0
+prag,  psychisch;sozial;1.0
+room,  urlaub;reis;1.0
+reis,  room;urlaub;1.0
+sportevent,  sportsevent;ticket;1.0

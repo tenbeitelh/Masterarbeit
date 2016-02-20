@@ -1,0 +1,276 @@
+IF;THEN;CONFIDENCE
+sag;durf,  refugeeswelcom;0.6793103448275862
+sag;refugeeswelcom,  wohl;0.6827586206896552
+sag;durf;0.6862068965517242
+sag;durf,  wohl;0.6862068965517242
+sag;wohl;0.6896551724137931
+leb;bericht,  nopegida;0.6925795053003534
+leb;bericht,  refugeeswelcom;0.6925795053003534
+leb;erlebniss,  nopegida;0.6925795053003534
+leb;erlebniss,  refugeeswelcom;0.6925795053003534
+leb;fluchtling,  nopegida;0.6925795053003534
+leb;freital,  nopegida;0.6925795053003534
+leb;freital,  refugeeswelcom;0.6925795053003534
+leb;nopegida;0.6925795053003534
+leb;nopegida,  refugeeswelcom;0.6925795053003534
+leb;bericht;0.6996466431095406
+leb;bericht,  erlebniss;0.6996466431095406
+leb;bericht,  fluchtling;0.6996466431095406
+leb;bericht,  freital;0.6996466431095406
+leb;erlebniss;0.6996466431095406
+leb;erlebniss,  fluchtling;0.6996466431095406
+leb;erlebniss,  freital;0.6996466431095406
+leb;fluchtling,  freital;0.6996466431095406
+leb;freital;0.6996466431095406
+wien;refugeeswelcom;0.7171314741035857
+leb;fluchtling,  refugeeswelcom;0.7243816254416962
+pegida;refugeeswelcom;0.7272727272727273
+leb;fluchtling;0.7314487632508834
+willkomm;refugeeswelcom;0.7321428571428571
+braucht;refugeeswelcom;0.7456896551724138
+freital;bericht,  nopegida;0.7686274509803922
+freital;bericht,  refugeeswelcom;0.7686274509803922
+freital;erlebniss,  nopegida;0.7686274509803922
+freital;erlebniss,  refugeeswelcom;0.7686274509803922
+freital;fluchtling,  nopegida;0.7686274509803922
+freital;fluchtling,  refugeeswelcom;0.7686274509803922
+freital;leb,  nopegida;0.7686274509803922
+freital;leb,  refugeeswelcom;0.7686274509803922
+freital;nopegida,  refugeeswelcom;0.7686274509803922
+freital;nopegida;0.7725490196078432
+dank;refugeeswelcom;0.7730192719486081
+freital;bericht;0.7764705882352941
+freital;bericht,  erlebniss;0.7764705882352941
+freital;bericht,  fluchtling;0.7764705882352941
+freital;bericht,  leb;0.7764705882352941
+wohl;durf,  refugeeswelcom;0.7764705882352941
+freital;erlebniss;0.7764705882352941
+freital;erlebniss,  fluchtling;0.7764705882352941
+freital;erlebniss,  leb;0.7764705882352941
+freital;fluchtling;0.7764705882352941
+freital;fluchtling,  leb;0.7764705882352941
+freital;leb;0.7764705882352941
+wohl;refugeeswelcom,  sag;0.7764705882352941
+wohl;durf,  sag;0.7803921568627451
+wohl;sag;0.7843137254901961
+wohl;durf;0.792156862745098
+deutsch;refugeeswelcom;0.7990196078431373
+nonazis;refugeeswelcom;0.8125
+morg;refugeeswelcom;0.8161434977578476
+hilf;refugeeswelcom;0.8316831683168316
+kaltland;refugeeswelcom;0.8325991189427313
+https;refugeeswelcom;0.8338983050847457
+job;helf;0.8426395939086294
+nopegida;refugeeswelcom;0.8474226804123711
+durf;refugeeswelcom,  sag;0.8528138528138528
+durf;refugeeswelcom,  wohl;0.8571428571428571
+durf;sag;0.8614718614718615
+durf;sag,  wohl;0.8614718614718615
+sag;refugeeswelcom;0.8655172413793103
+berlin;refugeeswelcom;0.8673740053050398
+durf;wohl;0.8744588744588745
+viel;refugeeswelcom;0.8744769874476988
+antifa;refugeeswelcom;0.8809523809523809
+lieb;refugeeswelcom;0.8858695652173914
+uns;refugeeswelcom;0.889344262295082
+grenz;refugeeswelcom;0.8991935483870968
+schon;refugeeswelcom;0.9153605015673981
+leb;refugeeswelcom;0.9187279151943463
+bericht;refugeeswelcom;0.9233226837060703
+neu;refugeeswelcom;0.927710843373494
+mensch;refugeeswelcom;0.9282178217821783
+gefluchtet;refugeeswelcom;0.9293478260869565
+hamburg;refugeeswelcom;0.9308176100628931
+durf;refugeeswelcom;0.935064935064935
+gut;refugeeswelcom;0.9367816091954023
+land;refugeeswelcom;0.9385964912280702
+heut;refugeeswelcom;0.9391534391534392
+carsofhop;refugeeswelcom;0.9444444444444444
+wohl;refugeeswelcom;0.9450980392156862
+polizei;refugeeswelcom;0.946524064171123
+http;refugeeswelcom;0.9469964664310954
+einfach;refugeeswelcom;0.9512195121951219
+uhr;refugeeswelcom;0.9521531100478469
+via;refugeeswelcom;0.9532374100719424
+dresd;refugeeswelcom;0.9540816326530612
+asyl;refugeeswelcom;0.96
+fluchtling;refugeeswelcom;0.9704749679075738
+geht;refugeeswelcom;0.9707602339181286
+htt;refugeeswelcom;0.9794871794871794
+freital;refugeeswelcom;0.9803921568627451
+dass;refugeeswelcom;0.9826589595375722
+openeuborders;refugeeswelcom;0.9857142857142858
+bild;refugeeswelcom;0.9873417721518988
+gewalt;refugeeswelcom;0.9873417721518988
+erlebniss;bericht,  nopegida;0.98989898989899
+erlebniss;bericht,  refugeeswelcom;0.98989898989899
+erlebniss;nopegida;0.98989898989899
+erlebniss;fluchtling,  nopegida;0.98989898989899
+erlebniss;freital,  nopegida;0.98989898989899
+erlebniss;leb,  nopegida;0.98989898989899
+erlebniss;refugeeswelcom;0.98989898989899
+erlebniss;fluchtling,  refugeeswelcom;0.98989898989899
+erlebniss;freital,  refugeeswelcom;0.98989898989899
+erlebniss;leb,  refugeeswelcom;0.98989898989899
+erlebniss;nopegida,  refugeeswelcom;0.98989898989899
+mehr;refugeeswelcom;0.9902597402597403
+hassburg;lieb;0.9907407407407407
+hassburg;lieb,  refugeeswelcom;0.9907407407407407
+schlechtmensch;hassburg;0.9907407407407407
+hassburg;schlechtmensch;0.9907407407407407
+schlechtmensch;hassburg,  lieb;0.9907407407407407
+hassburg;lieb,  schlechtmensch;0.9907407407407407
+schlechtmensch;hassburg,  refugeeswelcom;0.9907407407407407
+hassburg;refugeeswelcom,  schlechtmensch;0.9907407407407407
+schlechtmensch;lieb,  refugeeswelcom;0.9907407407407407
+amp;refugeeswelcom;0.9925373134328358
+grun;refugeeswelcom;0.9928571428571429
+muss;refugeeswelcom;0.9935897435897436
+mal;refugeeswelcom;0.9936708860759493
+schlechtmensch;lieb;0.9953703703703703
+schlechtmensch;refugeeswelcom;0.9953703703703703
+recht;refugeeswelcom;0.9956709956709957
+afd;refugeeswelcom;1.0
+erlebniss;bericht;1.0
+erlebniss;bericht,  fluchtling;1.0
+erlebniss;bericht,  freital;1.0
+erlebniss;bericht,  leb;1.0
+cdu;refugeeswelcom;1.0
+csu;refugeeswelcom;1.0
+demo;refugeeswelcom;1.0
+deutschland;refugeeswelcom;1.0
+erlebniss;fluchtling;1.0
+erlebniss;freital;1.0
+erlebniss;fluchtling,  freital;1.0
+erlebniss;leb;1.0
+erlebniss;fluchtling,  leb;1.0
+erlebniss;freital,  leb;1.0
+europa;refugeeswelcom;1.0
+hassburg;refugeeswelcom;1.0
+merkel;refugeeswelcom;1.0
+osterreich;refugeeswelcom;1.0
+refuge;refugeeswelcom;1.0
+seehof;refugeeswelcom;1.0
+spd;refugeeswelcom;1.0
+wer;refugeeswelcom;1.0
+lieb,  refugeeswelcom;hassburg;0.656441717791411
+lieb,  refugeeswelcom;schlechtmensch;0.656441717791411
+bericht,  refugeeswelcom;erlebniss;0.6782006920415224
+bericht,  refugeeswelcom;freital;0.6782006920415224
+bericht,  refugeeswelcom;leb;0.6782006920415224
+bericht,  refugeeswelcom;nopegida;0.6816608996539792
+bericht,  refugeeswelcom;fluchtling;0.6851211072664359
+leb,  refugeeswelcom;bericht;0.7538461538461538
+leb,  refugeeswelcom;erlebniss;0.7538461538461538
+leb,  refugeeswelcom;freital;0.7538461538461538
+leb,  refugeeswelcom;nopegida;0.7538461538461538
+freital,  refugeeswelcom;bericht;0.784
+freital,  refugeeswelcom;erlebniss;0.784
+freital,  refugeeswelcom;fluchtling;0.784
+freital,  refugeeswelcom;leb;0.784
+freital,  refugeeswelcom;nopegida;0.784
+refugeeswelcom,  sag;durf;0.7848605577689243
+leb,  refugeeswelcom;fluchtling;0.7884615384615384
+refugeeswelcom,  sag;wohl;0.7888446215139442
+refugeeswelcom,  wohl;durf;0.8215767634854771
+refugeeswelcom,  wohl;sag;0.8215767634854771
+fluchtling,  nopegida;bericht;0.8521739130434782
+fluchtling,  nopegida;erlebniss;0.8521739130434782
+fluchtling,  nopegida;freital;0.8521739130434782
+fluchtling,  nopegida;leb;0.8521739130434782
+durf,  refugeeswelcom;sag;0.9120370370370371
+durf,  refugeeswelcom;wohl;0.9166666666666666
+fluchtling,  leb;nopegida;0.9468599033816425
+fluchtling,  leb;bericht;0.9565217391304348
+fluchtling,  leb;erlebniss;0.9565217391304348
+fluchtling,  leb;freital;0.9565217391304348
+bericht,  fluchtling;nopegida;0.9655172413793104
+bericht,  fluchtling;erlebniss;0.9753694581280788
+bericht,  fluchtling;freital;0.9753694581280788
+bericht,  fluchtling;leb;0.9753694581280788
+bericht,  fluchtling;refugeeswelcom;0.9753694581280788
+durf,  wohl;refugeeswelcom;0.9801980198019802
+durf,  wohl;sag;0.9851485148514851
+bericht,  nopegida;erlebniss;0.98989898989899
+bericht,  erlebniss;nopegida;0.98989898989899
+bericht,  nopegida;fluchtling;0.98989898989899
+bericht,  nopegida;freital;0.98989898989899
+bericht,  freital;nopegida;0.98989898989899
+bericht,  nopegida;leb;0.98989898989899
+bericht,  leb;nopegida;0.98989898989899
+bericht,  erlebniss;refugeeswelcom;0.98989898989899
+bericht,  freital;refugeeswelcom;0.98989898989899
+bericht,  leb;refugeeswelcom;0.98989898989899
+erlebniss,  fluchtling;nopegida;0.98989898989899
+erlebniss,  freital;nopegida;0.98989898989899
+erlebniss,  leb;nopegida;0.98989898989899
+erlebniss,  fluchtling;refugeeswelcom;0.98989898989899
+erlebniss,  freital;refugeeswelcom;0.98989898989899
+erlebniss,  leb;refugeeswelcom;0.98989898989899
+fluchtling,  freital;nopegida;0.98989898989899
+fluchtling,  freital;refugeeswelcom;0.98989898989899
+freital,  leb;nopegida;0.98989898989899
+freital,  leb;refugeeswelcom;0.98989898989899
+durf,  sag;refugeeswelcom;0.9899497487437185
+sag,  wohl;refugeeswelcom;0.99
+fluchtling,  leb;refugeeswelcom;0.9903381642512077
+hassburg,  refugeeswelcom;lieb;0.9907407407407407
+hassburg,  refugeeswelcom;schlechtmensch;0.9907407407407407
+freital,  nopegida;bericht;0.9949238578680203
+freital,  nopegida;erlebniss;0.9949238578680203
+freital,  nopegida;fluchtling;0.9949238578680203
+freital,  nopegida;leb;0.9949238578680203
+freital,  nopegida;refugeeswelcom;0.9949238578680203
+bericht,  nopegida;refugeeswelcom;0.9949494949494949
+sag,  wohl;durf;0.995
+lieb,  schlechtmensch;hassburg;0.9953488372093023
+refugeeswelcom,  schlechtmensch;hassburg;0.9953488372093023
+refugeeswelcom,  schlechtmensch;lieb;0.9953488372093023
+lieb,  schlechtmensch;refugeeswelcom;0.9953488372093023
+erlebniss,  fluchtling;bericht;1.0
+bericht,  erlebniss;fluchtling;1.0
+erlebniss,  freital;bericht;1.0
+bericht,  freital;erlebniss;1.0
+bericht,  erlebniss;freital;1.0
+fluchtling,  freital;bericht;1.0
+bericht,  freital;fluchtling;1.0
+erlebniss,  leb;bericht;1.0
+bericht,  leb;erlebniss;1.0
+bericht,  erlebniss;leb;1.0
+bericht,  leb;fluchtling;1.0
+freital,  leb;bericht;1.0
+bericht,  leb;freital;1.0
+bericht,  freital;leb;1.0
+erlebniss,  nopegida;bericht;1.0
+leb,  nopegida;bericht;1.0
+erlebniss,  refugeeswelcom;bericht;1.0
+durf,  sag;wohl;1.0
+fluchtling,  freital;erlebniss;1.0
+erlebniss,  freital;fluchtling;1.0
+erlebniss,  fluchtling;freital;1.0
+erlebniss,  leb;fluchtling;1.0
+erlebniss,  fluchtling;leb;1.0
+freital,  leb;erlebniss;1.0
+erlebniss,  leb;freital;1.0
+erlebniss,  freital;leb;1.0
+erlebniss,  nopegida;fluchtling;1.0
+erlebniss,  nopegida;freital;1.0
+leb,  nopegida;erlebniss;1.0
+erlebniss,  nopegida;leb;1.0
+erlebniss,  refugeeswelcom;fluchtling;1.0
+erlebniss,  refugeeswelcom;freital;1.0
+erlebniss,  refugeeswelcom;leb;1.0
+erlebniss,  refugeeswelcom;nopegida;1.0
+erlebniss,  nopegida;refugeeswelcom;1.0
+freital,  leb;fluchtling;1.0
+fluchtling,  freital;leb;1.0
+leb,  nopegida;fluchtling;1.0
+fluchtling,  merkel;refugeeswelcom;1.0
+fluchtling,  nopegida;refugeeswelcom;1.0
+fluchtling,  refuge;refugeeswelcom;1.0
+leb,  nopegida;freital;1.0
+hassburg,  lieb;refugeeswelcom;1.0
+hassburg,  schlechtmensch;lieb;1.0
+hassburg,  lieb;schlechtmensch;1.0
+hassburg,  schlechtmensch;refugeeswelcom;1.0
+leb,  nopegida;refugeeswelcom;1.0

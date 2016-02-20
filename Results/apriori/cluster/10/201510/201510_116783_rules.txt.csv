@@ -1,0 +1,218 @@
+IF;THEN;CONFIDENCE
+europa;bildung;0.7241713041374305
+europa;kapitel;0.7244132591338012
+europa;nordamerika;0.7244132591338012
+europa;treff;0.7244132591338012
+europa;jung;0.7280425840793613
+europa;mensch;0.7473989837890153
+europa;politik;0.7611904185821438
+politik;kapitel;0.8834464443788729
+politik;nordamerika;0.8834464443788729
+politik;bildung;0.8908232516966657
+politik;jung;0.8940690469164946
+politik;treff;0.8943641192092062
+jung;bildung;0.9263385948622718
+jung;treff;0.9263385948622718
+jung;kapitel;0.9266480965645311
+jung;nordamerika;0.9266480965645311
+politik;europa;0.9282974328710534
+politik;mensch;0.9309530835054588
+jung;europa;0.9312906220984215
+jung;politik;0.9377901578458682
+jung;mensch;0.9396471680594243
+treff;bildung;0.9441640378548896
+treff;jung;0.9441640378548896
+treff;kapitel;0.9441640378548896
+treff;nordamerika;0.9441640378548896
+treff;europa;0.9444794952681388
+treff;mensch;0.9454258675078865
+treff;politik;0.9561514195583596
+bildung;europa;0.9749185667752444
+bildung;jung;0.9749185667752444
+bildung;kapitel;0.9749185667752444
+bildung;nordamerika;0.9749185667752444
+bildung;treff;0.9749185667752444
+bildung;mensch;0.9755700325732899
+bildung;politik;0.9833876221498371
+kapitel;bildung;0.9989986648865153
+kapitel;treff;0.9989986648865153
+kapitel;europa;0.9993324432576769
+kapitel;jung;0.9993324432576769
+kapitel;mensch;0.9993324432576769
+kapitel;nordamerika;0.9993324432576769
+kapitel;politik;0.9993324432576769
+nordamerika;bildung;0.9996659986639946
+nordamerika;treff;0.9996659986639946
+nordamerika;europa;1.0
+nordamerika;jung;1.0
+nordamerika;kapitel;1.0
+nordamerika;mensch;1.0
+nordamerika;politik;1.0
+mensch,  politik;treff;0.9486529318541996
+mensch,  politik;bildung;0.9489698890649763
+mensch,  politik;kapitel;0.9489698890649763
+mensch,  politik;nordamerika;0.9489698890649763
+mensch,  politik;europa;0.9505546751188589
+mensch,  politik;jung;0.9508716323296355
+europa,  politik;bildung;0.9513668150031787
+europa,  politik;treff;0.9513668150031787
+europa,  politik;kapitel;0.9516846789574063
+europa,  politik;nordamerika;0.9516846789574063
+europa,  politik;mensch;0.9532739987285442
+europa,  politik;jung;0.9535918626827717
+europa,  mensch;bildung;0.968921981223697
+europa,  mensch;treff;0.968921981223697
+europa,  mensch;jung;0.9692457105859501
+europa,  mensch;kapitel;0.9692457105859501
+europa,  mensch;nordamerika;0.9692457105859501
+europa,  mensch;politik;0.9708643573972159
+jung,  mensch;bildung;0.985836627140975
+jung,  mensch;treff;0.985836627140975
+jung,  mensch;europa;0.9861660079051383
+jung,  mensch;kapitel;0.9861660079051383
+jung,  mensch;nordamerika;0.9861660079051383
+politik,  treff;bildung;0.9874628835367866
+politik,  treff;europa;0.9874628835367866
+politik,  treff;jung;0.9874628835367866
+politik,  treff;kapitel;0.9874628835367866
+politik,  treff;mensch;0.9874628835367866
+politik,  treff;nordamerika;0.9874628835367866
+jung,  politik;bildung;0.9877887788778877
+jung,  politik;treff;0.9877887788778877
+jung,  politik;kapitel;0.9881188118811881
+jung,  politik;nordamerika;0.9881188118811881
+jung,  mensch;politik;0.9881422924901185
+jung,  politik;europa;0.9900990099009901
+jung,  politik;mensch;0.9900990099009901
+bildung,  politik;europa;0.9913878767803909
+bildung,  politik;jung;0.9913878767803909
+bildung,  politik;kapitel;0.9913878767803909
+bildung,  politik;nordamerika;0.9913878767803909
+bildung,  politik;treff;0.9913878767803909
+bildung,  politik;mensch;0.9917191122888374
+europa,  jung;bildung;0.994682618810236
+europa,  jung;treff;0.994682618810236
+europa,  jung;kapitel;0.9950149551345963
+europa,  jung;mensch;0.9950149551345963
+europa,  jung;nordamerika;0.9950149551345963
+europa,  jung;politik;0.9970089730807578
+mensch,  treff;bildung;0.9986653319986654
+mensch,  treff;europa;0.9986653319986654
+mensch,  treff;jung;0.9986653319986654
+mensch,  treff;kapitel;0.9986653319986654
+mensch,  treff;nordamerika;0.9986653319986654
+mensch,  treff;politik;0.9986653319986654
+bildung,  mensch;europa;0.9993322203672788
+bildung,  mensch;jung;0.9993322203672788
+bildung,  mensch;kapitel;0.9993322203672788
+bildung,  mensch;nordamerika;0.9993322203672788
+bildung,  mensch;treff;0.9993322203672788
+europa,  kapitel;bildung;0.9996659986639946
+jung,  kapitel;bildung;0.9996659986639946
+kapitel,  mensch;bildung;0.9996659986639946
+europa,  nordamerika;bildung;0.9996659986639946
+jung,  nordamerika;bildung;0.9996659986639946
+kapitel,  nordamerika;bildung;0.9996659986639946
+mensch,  nordamerika;bildung;0.9996659986639946
+kapitel,  politik;bildung;0.9996659986639946
+nordamerika,  politik;bildung;0.9996659986639946
+europa,  treff;bildung;0.9996659986639946
+europa,  treff;jung;0.9996659986639946
+europa,  kapitel;treff;0.9996659986639946
+europa,  treff;kapitel;0.9996659986639946
+europa,  treff;mensch;0.9996659986639946
+europa,  nordamerika;treff;0.9996659986639946
+europa,  treff;nordamerika;0.9996659986639946
+europa,  treff;politik;0.9996659986639946
+jung,  kapitel;treff;0.9996659986639946
+jung,  nordamerika;treff;0.9996659986639946
+kapitel,  mensch;treff;0.9996659986639946
+kapitel,  nordamerika;treff;0.9996659986639946
+kapitel,  politik;treff;0.9996659986639946
+mensch,  nordamerika;treff;0.9996659986639946
+nordamerika,  politik;treff;0.9996659986639946
+bildung,  mensch;politik;0.9996661101836394
+bildung,  europa;jung;1.0
+bildung,  jung;europa;1.0
+bildung,  europa;kapitel;1.0
+bildung,  kapitel;europa;1.0
+bildung,  jung;kapitel;1.0
+bildung,  kapitel;jung;1.0
+bildung,  europa;mensch;1.0
+bildung,  jung;mensch;1.0
+bildung,  kapitel;mensch;1.0
+bildung,  europa;nordamerika;1.0
+bildung,  nordamerika;europa;1.0
+bildung,  jung;nordamerika;1.0
+bildung,  nordamerika;jung;1.0
+bildung,  kapitel;nordamerika;1.0
+bildung,  nordamerika;kapitel;1.0
+bildung,  nordamerika;mensch;1.0
+bildung,  europa;politik;1.0
+bildung,  jung;politik;1.0
+bildung,  kapitel;politik;1.0
+bildung,  nordamerika;politik;1.0
+bildung,  europa;treff;1.0
+bildung,  treff;europa;1.0
+jung,  treff;bildung;1.0
+bildung,  jung;treff;1.0
+bildung,  treff;jung;1.0
+kapitel,  treff;bildung;1.0
+bildung,  kapitel;treff;1.0
+bildung,  treff;kapitel;1.0
+bildung,  treff;mensch;1.0
+nordamerika,  treff;bildung;1.0
+bildung,  nordamerika;treff;1.0
+bildung,  treff;nordamerika;1.0
+bildung,  treff;politik;1.0
+jung,  kapitel;europa;1.0
+europa,  kapitel;jung;1.0
+kapitel,  mensch;europa;1.0
+europa,  kapitel;mensch;1.0
+jung,  nordamerika;europa;1.0
+europa,  nordamerika;jung;1.0
+kapitel,  nordamerika;europa;1.0
+europa,  kapitel;nordamerika;1.0
+europa,  nordamerika;kapitel;1.0
+mensch,  nordamerika;europa;1.0
+europa,  nordamerika;mensch;1.0
+kapitel,  politik;europa;1.0
+europa,  kapitel;politik;1.0
+nordamerika,  politik;europa;1.0
+europa,  nordamerika;politik;1.0
+jung,  treff;europa;1.0
+kapitel,  treff;europa;1.0
+nordamerika,  treff;europa;1.0
+kapitel,  mensch;jung;1.0
+jung,  kapitel;mensch;1.0
+kapitel,  nordamerika;jung;1.0
+jung,  kapitel;nordamerika;1.0
+jung,  nordamerika;kapitel;1.0
+mensch,  nordamerika;jung;1.0
+jung,  nordamerika;mensch;1.0
+kapitel,  politik;jung;1.0
+jung,  kapitel;politik;1.0
+nordamerika,  politik;jung;1.0
+jung,  nordamerika;politik;1.0
+kapitel,  treff;jung;1.0
+jung,  treff;kapitel;1.0
+jung,  treff;mensch;1.0
+nordamerika,  treff;jung;1.0
+jung,  treff;nordamerika;1.0
+jung,  treff;politik;1.0
+mensch,  nordamerika;kapitel;1.0
+kapitel,  mensch;nordamerika;1.0
+kapitel,  nordamerika;mensch;1.0
+kapitel,  mensch;politik;1.0
+kapitel,  politik;mensch;1.0
+nordamerika,  politik;kapitel;1.0
+kapitel,  nordamerika;politik;1.0
+kapitel,  politik;nordamerika;1.0
+kapitel,  treff;mensch;1.0
+nordamerika,  treff;kapitel;1.0
+kapitel,  treff;nordamerika;1.0
+kapitel,  treff;politik;1.0
+nordamerika,  politik;mensch;1.0
+mensch,  nordamerika;politik;1.0
+nordamerika,  treff;mensch;1.0
+nordamerika,  treff;politik;1.0
