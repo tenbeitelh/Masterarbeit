@@ -1,0 +1,563 @@
+[afd, grun] ==> [cdu]	0.7634854771784232
+[afd, link] ==> [cdu]	0.8250950570342205
+[afd, link] ==> [grun]	0.7997465145754119
+[afd, grun] ==> [link]	0.6545643153526971
+[afd] ==> [spd]	0.8377192982456141
+[afd, cdu] ==> [spd]	0.7473309608540926
+[afd, grun] ==> [spd]	0.9242738589211619
+[afd, link] ==> [spd]	0.8783269961977186
+[amp] ==> [spd]	0.7803468208092486
+[antifa] ==> [spd]	0.8865248226950354
+[ard] ==> [cdu]	0.6925233644859813
+[ard] ==> [csu]	0.6757009345794392
+[ard, csu] ==> [cdu]	0.8188105117565698
+[ard, cdu] ==> [csu]	0.7989203778677463
+[ard] ==> [spd]	0.8429906542056075
+[ard, bild] ==> [spd]	0.9313543599257885
+[ard, spd] ==> [cdu]	0.779379157427938
+[ard, cdu] ==> [spd]	0.9487179487179487
+[ard] ==> [cdu, spd]	0.6570093457943925
+[ard, spd] ==> [csu]	0.7660753880266076
+[ard, csu] ==> [spd]	0.9557399723374828
+[zdf] ==> [ard]	0.8178010471204189
+[ard] ==> [zdf]	0.7299065420560747
+[cdu, zdf] ==> [ard]	0.9079365079365079
+[ard, zdf] ==> [cdu]	0.7323943661971831
+[ard, cdu] ==> [zdf]	0.7719298245614035
+[csu, zdf] ==> [ard]	0.9183055975794251
+[ard, zdf] ==> [csu]	0.7772087067861716
+[ard, csu] ==> [zdf]	0.8395573997233748
+[spd, zdf] ==> [ard]	0.9169909208819714
+[ard, zdf] ==> [spd]	0.9052496798975672
+[ard, spd] ==> [zdf]	0.7838137472283814
+[zdf] ==> [ard, spd]	0.7403141361256544
+[ard] ==> [spd, zdf]	0.6607476635514019
+[berlin] ==> [spd]	0.7758928571428572
+[bild] ==> [spd]	0.8097125867195243
+[csu, grun] ==> [cdu]	0.8165322580645161
+[fdp, grun] ==> [cdu]	0.8297213622291022
+[cdu, fdp] ==> [grun]	0.6617283950617284
+[csu, link] ==> [cdu]	0.9489981785063752
+[grun, link] ==> [cdu]	0.7068295391449195
+[cdu, link] ==> [grun]	0.6616424116424117
+[merkel] ==> [cdu]	0.7240421987784564
+[csu, merkel] ==> [cdu]	0.9690576652601969
+[csu, spd] ==> [cdu]	0.8955765047135605
+[cdu, csu] ==> [spd]	0.7180232558139535
+[fdp, spd] ==> [cdu]	0.8189158016147635
+[cdu, fdp] ==> [spd]	0.8765432098765432
+[grun, spd] ==> [cdu]	0.6607304557802596
+[cdu, grun] ==> [spd]	0.8514196810579541
+[link, spd] ==> [cdu]	0.6573741007194245
+[cdu, link] ==> [spd]	0.7598752598752598
+[merkel, spd] ==> [cdu]	0.7209039548022599
+[cdu, merkel] ==> [spd]	0.9785276073619632
+[merkel] ==> [cdu, spd]	0.7084952803997779
+[zdf] ==> [cdu]	0.6596858638743456
+[csu, zdf] ==> [cdu]	0.7413010590015129
+[cdu, zdf] ==> [csu]	0.7777777777777778
+[spd, zdf] ==> [cdu]	0.7470817120622568
+[cdu, zdf] ==> [spd]	0.9142857142857143
+[ceta] ==> [spd]	0.8078880407124682
+[ceta] ==> [ttip]	0.9300254452926209
+[ceta, ttip] ==> [spd]	0.8454172366621067
+[ceta, spd] ==> [ttip]	0.9732283464566929
+[ceta] ==> [spd, ttip]	0.7862595419847328
+[csu, grun] ==> [spd]	0.7973790322580645
+[csu, link] ==> [spd]	0.8961748633879781
+[csu, merkel] ==> [spd]	0.9915611814345991
+[zdf] ==> [csu]	0.6921465968586388
+[spd, zdf] ==> [csu]	0.7717250324254216
+[csu, zdf] ==> [spd]	0.9001512859304085
+[deutschland] ==> [spd]	0.8746290801186943
+[einfach] ==> [spd]	0.7316715542521994
+[fdp, grun] ==> [spd]	0.8436532507739938
+[flucht] ==> [fluchtling]	0.6813880126182965
+[http] ==> [flucht]	0.660212367270456
+[flucht] ==> [http]	0.6668769716088329
+[fluchtling, http] ==> [flucht]	0.9696969696969697
+[flucht, http] ==> [fluchtling]	0.9990539262062441
+[flucht, fluchtling] ==> [http]	0.9777777777777777
+[flucht] ==> [fluchtling, http]	0.6662460567823344
+[http] ==> [flucht, fluchtling]	0.6595877576514678
+[irak] ==> [flucht]	0.9516562220232766
+[flucht] ==> [irak]	0.6706624605678233
+[fluchtling, irak] ==> [flucht]	0.9897003745318352
+[flucht, irak] ==> [fluchtling]	0.9943555973659455
+[flucht, fluchtling] ==> [irak]	0.9787037037037037
+[flucht] ==> [fluchtling, irak]	0.6668769716088329
+[irak] ==> [flucht, fluchtling]	0.946284691136974
+[http, irak] ==> [flucht]	1.0
+[flucht, irak] ==> [http]	0.993414863593603
+[flucht, http] ==> [irak]	0.9990539262062441
+[flucht] ==> [http, irak]	0.6662460567823344
+[irak] ==> [flucht, http]	0.945389435989257
+[http] ==> [flucht, irak]	0.6595877576514678
+[mensch] ==> [flucht]	0.6554092730394963
+[flucht] ==> [mensch]	0.722397476340694
+[fluchtling, mensch] ==> [flucht]	0.9787037037037037
+[flucht, mensch] ==> [fluchtling]	0.9231441048034934
+[flucht, fluchtling] ==> [mensch]	0.9787037037037037
+[flucht] ==> [fluchtling, mensch]	0.6668769716088329
+[http, mensch] ==> [flucht]	0.9981114258734656
+[flucht, mensch] ==> [http]	0.9231441048034934
+[flucht, http] ==> [mensch]	1.0
+[flucht] ==> [http, mensch]	0.6668769716088329
+[http] ==> [flucht, mensch]	0.660212367270456
+[irak, mensch] ==> [flucht]	1.0
+[flucht, mensch] ==> [irak]	0.9283842794759826
+[flucht, irak] ==> [mensch]	1.0
+[flucht] ==> [irak, mensch]	0.6706624605678233
+[irak] ==> [flucht, mensch]	0.9516562220232766
+[mio] ==> [flucht]	0.8749003984063745
+[flucht] ==> [mio]	0.6927444794952682
+[fluchtling, mio] ==> [flucht]	0.9860205032618826
+[flucht, mio] ==> [fluchtling]	0.9635701275045537
+[flucht, fluchtling] ==> [mio]	0.9796296296296296
+[flucht] ==> [fluchtling, mio]	0.6675078864353312
+[mio] ==> [flucht, fluchtling]	0.8430278884462151
+[http, mio] ==> [flucht]	1.0
+[flucht, mio] ==> [http]	0.9626593806921676
+[flucht, http] ==> [mio]	1.0
+[http] ==> [flucht, mio]	0.660212367270456
+[mio] ==> [flucht, http]	0.8422310756972111
+[flucht] ==> [http, mio]	0.6668769716088329
+[irak, mio] ==> [flucht]	0.9990601503759399
+[flucht, mio] ==> [irak]	0.9681238615664846
+[flucht, irak] ==> [mio]	1.0
+[irak] ==> [flucht, mio]	0.9516562220232766
+[flucht] ==> [irak, mio]	0.6706624605678233
+[mio] ==> [flucht, irak]	0.847011952191235
+[mensch, mio] ==> [flucht]	0.9954586739327884
+[flucht, mio] ==> [mensch]	0.9981785063752276
+[flucht, mensch] ==> [mio]	0.9572052401746725
+[mio] ==> [flucht, mensch]	0.8733067729083666
+[flucht] ==> [mensch, mio]	0.6914826498422713
+[flucht] ==> [spd]	0.6712933753943218
+[flucht, spd] ==> [fluchtling]	0.9943609022556391
+[flucht, fluchtling] ==> [spd]	0.9796296296296296
+[flucht] ==> [fluchtling, spd]	0.6675078864353312
+[http, spd] ==> [flucht]	0.7981859410430839
+[flucht, spd] ==> [http]	0.9924812030075187
+[flucht, http] ==> [spd]	0.9990539262062441
+[flucht] ==> [http, spd]	0.6662460567823344
+[http] ==> [flucht, spd]	0.6595877576514678
+[irak, spd] ==> [flucht]	0.958295557570263
+[flucht, spd] ==> [irak]	0.993421052631579
+[flucht, irak] ==> [spd]	0.9943555973659455
+[irak] ==> [flucht, spd]	0.946284691136974
+[flucht] ==> [irak, spd]	0.6668769716088329
+[mensch, spd] ==> [flucht]	0.760229720028715
+[flucht, spd] ==> [mensch]	0.9953007518796992
+[flucht, mensch] ==> [spd]	0.9248908296943231
+[flucht] ==> [mensch, spd]	0.6681388012618297
+[mio, spd] ==> [flucht]	0.9346289752650176
+[flucht, spd] ==> [mio]	0.9943609022556391
+[flucht, mio] ==> [spd]	0.9635701275045537
+[flucht] ==> [mio, spd]	0.6675078864353312
+[mio] ==> [flucht, spd]	0.8430278884462151
+[spend] ==> [flucht]	0.9474153297682709
+[flucht] ==> [spend]	0.6706624605678233
+[fluchtling, spend] ==> [flucht]	0.999054820415879
+[flucht, spend] ==> [fluchtling]	0.9943555973659455
+[flucht, fluchtling] ==> [spend]	0.9787037037037037
+[flucht] ==> [fluchtling, spend]	0.6668769716088329
+[spend] ==> [flucht, fluchtling]	0.9420677361853832
+[http, spend] ==> [flucht]	1.0
+[flucht, spend] ==> [http]	0.993414863593603
+[flucht, http] ==> [spend]	0.9990539262062441
+[flucht] ==> [http, spend]	0.6662460567823344
+[http] ==> [flucht, spend]	0.6595877576514678
+[spend] ==> [flucht, http]	0.9411764705882353
+[irak, spend] ==> [flucht]	1.0
+[flucht, spend] ==> [irak]	1.0
+[flucht, irak] ==> [spend]	1.0
+[irak] ==> [flucht, spend]	0.9516562220232766
+[flucht] ==> [irak, spend]	0.6706624605678233
+[spend] ==> [flucht, irak]	0.9474153297682709
+[mensch, spend] ==> [flucht]	1.0
+[flucht, spend] ==> [mensch]	1.0
+[flucht, mensch] ==> [spend]	0.9283842794759826
+[flucht] ==> [mensch, spend]	0.6706624605678233
+[spend] ==> [flucht, mensch]	0.9474153297682709
+[mio, spend] ==> [flucht]	0.9888372093023255
+[flucht, spend] ==> [mio]	1.0
+[flucht, mio] ==> [spend]	0.9681238615664846
+[spend] ==> [flucht, mio]	0.9474153297682709
+[flucht] ==> [mio, spend]	0.6706624605678233
+[mio] ==> [flucht, spend]	0.847011952191235
+[spd, spend] ==> [flucht]	0.958295557570263
+[flucht, spend] ==> [spd]	0.9943555973659455
+[flucht, spd] ==> [spend]	0.993421052631579
+[spend] ==> [flucht, spd]	0.9420677361853832
+[flucht] ==> [spd, spend]	0.6668769716088329
+[terrormiliz] ==> [flucht]	0.9815327793167128
+[flucht] ==> [terrormiliz]	0.6706624605678233
+[fluchtling, terrormiliz] ==> [flucht]	1.0
+[flucht, terrormiliz] ==> [fluchtling]	0.9943555973659455
+[flucht, fluchtling] ==> [terrormiliz]	0.9787037037037037
+[terrormiliz] ==> [flucht, fluchtling]	0.9759926131117267
+[flucht] ==> [fluchtling, terrormiliz]	0.6668769716088329
+[http, terrormiliz] ==> [flucht]	1.0
+[flucht, terrormiliz] ==> [http]	0.993414863593603
+[flucht, http] ==> [terrormiliz]	0.9990539262062441
+[flucht] ==> [http, terrormiliz]	0.6662460567823344
+[terrormiliz] ==> [flucht, http]	0.9750692520775623
+[http] ==> [flucht, terrormiliz]	0.6595877576514678
+[irak, terrormiliz] ==> [flucht]	1.0
+[flucht, terrormiliz] ==> [irak]	1.0
+[flucht, irak] ==> [terrormiliz]	1.0
+[flucht] ==> [irak, terrormiliz]	0.6706624605678233
+[irak] ==> [flucht, terrormiliz]	0.9516562220232766
+[terrormiliz] ==> [flucht, irak]	0.9815327793167128
+[mensch, terrormiliz] ==> [flucht]	1.0
+[flucht, terrormiliz] ==> [mensch]	1.0
+[flucht, mensch] ==> [terrormiliz]	0.9283842794759826
+[flucht] ==> [mensch, terrormiliz]	0.6706624605678233
+[terrormiliz] ==> [flucht, mensch]	0.9815327793167128
+[mio, terrormiliz] ==> [flucht]	1.0
+[flucht, terrormiliz] ==> [mio]	1.0
+[flucht, mio] ==> [terrormiliz]	0.9681238615664846
+[terrormiliz] ==> [flucht, mio]	0.9815327793167128
+[flucht] ==> [mio, terrormiliz]	0.6706624605678233
+[mio] ==> [flucht, terrormiliz]	0.847011952191235
+[spd, terrormiliz] ==> [flucht]	0.9897003745318352
+[flucht, terrormiliz] ==> [spd]	0.9943555973659455
+[flucht, spd] ==> [terrormiliz]	0.993421052631579
+[flucht] ==> [spd, terrormiliz]	0.6668769716088329
+[terrormiliz] ==> [flucht, spd]	0.9759926131117267
+[spend, terrormiliz] ==> [flucht]	1.0
+[flucht, terrormiliz] ==> [spend]	1.0
+[flucht, spend] ==> [terrormiliz]	1.0
+[flucht] ==> [spend, terrormiliz]	0.6706624605678233
+[terrormiliz] ==> [flucht, spend]	0.9815327793167128
+[spend] ==> [flucht, terrormiliz]	0.9474153297682709
+[http] ==> [fluchtling]	0.6801998750780762
+[irak] ==> [fluchtling]	0.9561324977618622
+[http, irak] ==> [fluchtling]	1.0
+[fluchtling, irak] ==> [http]	0.9887640449438202
+[fluchtling, http] ==> [irak]	0.9696969696969697
+[irak] ==> [fluchtling, http]	0.945389435989257
+[http] ==> [fluchtling, irak]	0.6595877576514678
+[http, mensch] ==> [fluchtling]	0.9971671388101983
+[fluchtling, mensch] ==> [http]	0.9777777777777777
+[fluchtling, http] ==> [mensch]	0.9696969696969697
+[http] ==> [fluchtling, mensch]	0.6595877576514678
+[irak, mensch] ==> [fluchtling]	0.9943555973659455
+[fluchtling, mensch] ==> [irak]	0.9787037037037037
+[fluchtling, irak] ==> [mensch]	0.9897003745318352
+[irak] ==> [fluchtling, mensch]	0.946284691136974
+[mio] ==> [fluchtling]	0.8549800796812749
+[http, mio] ==> [fluchtling]	0.9990539262062441
+[fluchtling, mio] ==> [http]	0.9841565703634669
+[fluchtling, http] ==> [mio]	0.9696969696969697
+[mio] ==> [fluchtling, http]	0.8414342629482072
+[http] ==> [fluchtling, mio]	0.6595877576514678
+[irak, mio] ==> [fluchtling]	0.9943609022556391
+[fluchtling, mio] ==> [irak]	0.9860205032618826
+[fluchtling, irak] ==> [mio]	0.9906367041198502
+[irak] ==> [fluchtling, mio]	0.9471799462846912
+[mio] ==> [fluchtling, irak]	0.8430278884462151
+[mensch, mio] ==> [fluchtling]	0.9600363306085377
+[fluchtling, mio] ==> [mensch]	0.9850885368126747
+[fluchtling, mensch] ==> [mio]	0.9787037037037037
+[mio] ==> [fluchtling, mensch]	0.8422310756972111
+[http, spd] ==> [fluchtling]	0.8095238095238095
+[fluchtling, http] ==> [spd]	0.9834710743801653
+[http] ==> [fluchtling, spd]	0.6689569019362899
+[irak, spd] ==> [fluchtling]	0.9682683590208522
+[fluchtling, irak] ==> [spd]	1.0
+[irak] ==> [fluchtling, spd]	0.9561324977618622
+[mensch, spd] ==> [fluchtling]	0.7724335965541995
+[fluchtling, mensch] ==> [spd]	0.9962962962962963
+[mio, spd] ==> [fluchtling]	0.9425795053003534
+[fluchtling, mio] ==> [spd]	0.994408201304753
+[mio] ==> [fluchtling, spd]	0.850199203187251
+[spend] ==> [fluchtling]	0.9429590017825312
+[http, spend] ==> [fluchtling]	1.0
+[fluchtling, spend] ==> [http]	0.998109640831758
+[fluchtling, http] ==> [spend]	0.9696969696969697
+[spend] ==> [fluchtling, http]	0.9411764705882353
+[http] ==> [fluchtling, spend]	0.6595877576514678
+[irak, spend] ==> [fluchtling]	0.9943555973659455
+[fluchtling, spend] ==> [irak]	0.999054820415879
+[fluchtling, irak] ==> [spend]	0.9897003745318352
+[spend] ==> [fluchtling, irak]	0.9420677361853832
+[irak] ==> [fluchtling, spend]	0.946284691136974
+[mensch, spend] ==> [fluchtling]	0.9943555973659455
+[fluchtling, spend] ==> [mensch]	0.999054820415879
+[fluchtling, mensch] ==> [spend]	0.9787037037037037
+[spend] ==> [fluchtling, mensch]	0.9420677361853832
+[mio, spend] ==> [fluchtling]	0.9832558139534884
+[fluchtling, spend] ==> [mio]	0.999054820415879
+[fluchtling, mio] ==> [spend]	0.9850885368126747
+[spend] ==> [fluchtling, mio]	0.9420677361853832
+[mio] ==> [fluchtling, spend]	0.8422310756972111
+[spd, spend] ==> [fluchtling]	0.958295557570263
+[fluchtling, spend] ==> [spd]	0.999054820415879
+[spend] ==> [fluchtling, spd]	0.9420677361853832
+[terrormiliz] ==> [fluchtling]	0.9759926131117267
+[http, terrormiliz] ==> [fluchtling]	1.0
+[fluchtling, terrormiliz] ==> [http]	0.9990539262062441
+[fluchtling, http] ==> [terrormiliz]	0.9696969696969697
+[terrormiliz] ==> [fluchtling, http]	0.9750692520775623
+[http] ==> [fluchtling, terrormiliz]	0.6595877576514678
+[irak, terrormiliz] ==> [fluchtling]	0.9943555973659455
+[fluchtling, terrormiliz] ==> [irak]	1.0
+[fluchtling, irak] ==> [terrormiliz]	0.9897003745318352
+[terrormiliz] ==> [fluchtling, irak]	0.9759926131117267
+[irak] ==> [fluchtling, terrormiliz]	0.946284691136974
+[mensch, terrormiliz] ==> [fluchtling]	0.9943555973659455
+[fluchtling, terrormiliz] ==> [mensch]	1.0
+[fluchtling, mensch] ==> [terrormiliz]	0.9787037037037037
+[terrormiliz] ==> [fluchtling, mensch]	0.9759926131117267
+[mio, terrormiliz] ==> [fluchtling]	0.9943555973659455
+[fluchtling, terrormiliz] ==> [mio]	1.0
+[fluchtling, mio] ==> [terrormiliz]	0.9850885368126747
+[terrormiliz] ==> [fluchtling, mio]	0.9759926131117267
+[mio] ==> [fluchtling, terrormiliz]	0.8422310756972111
+[spd, terrormiliz] ==> [fluchtling]	0.9897003745318352
+[fluchtling, terrormiliz] ==> [spd]	1.0
+[terrormiliz] ==> [fluchtling, spd]	0.9759926131117267
+[spend, terrormiliz] ==> [fluchtling]	0.9943555973659455
+[fluchtling, terrormiliz] ==> [spend]	1.0
+[fluchtling, spend] ==> [terrormiliz]	0.999054820415879
+[terrormiliz] ==> [fluchtling, spend]	0.9759926131117267
+[spend] ==> [fluchtling, terrormiliz]	0.9420677361853832
+[sigmar] ==> [gabriel]	0.957345971563981
+[gabriel] ==> [spd]	0.8835194894005015
+[sigmar, spd] ==> [gabriel]	0.9546218487394958
+[gabriel, sigmar] ==> [spd]	0.9372937293729373
+[sigmar] ==> [gabriel, spd]	0.8973143759873617
+[gabriel, spdbpt] ==> [spd]	0.8687350835322196
+[geht] ==> [spd]	0.7591499409681228
+[groko] ==> [spd]	0.8447712418300654
+[grun] ==> [spd]	0.6897772225692276
+[link, spd] ==> [grun]	0.6825539568345323
+[grun, link] ==> [spd]	0.8428650749583565
+[irak] ==> [http]	0.945389435989257
+[http] ==> [irak]	0.6595877576514678
+[http] ==> [mensch]	0.6614615865084322
+[irak, mensch] ==> [http]	0.993414863593603
+[http, mensch] ==> [irak]	0.9971671388101983
+[http, irak] ==> [mensch]	1.0
+[http] ==> [irak, mensch]	0.6595877576514678
+[irak] ==> [http, mensch]	0.945389435989257
+[mio] ==> [http]	0.8422310756972111
+[http] ==> [mio]	0.660212367270456
+[irak, mio] ==> [http]	0.9924812030075187
+[http, mio] ==> [irak]	0.9990539262062441
+[http, irak] ==> [mio]	1.0
+[mio] ==> [http, irak]	0.8414342629482072
+[http] ==> [irak, mio]	0.6595877576514678
+[irak] ==> [http, mio]	0.945389435989257
+[mensch, mio] ==> [http]	0.9600363306085377
+[http, mio] ==> [mensch]	1.0
+[http, mensch] ==> [mio]	0.9981114258734656
+[mio] ==> [http, mensch]	0.8422310756972111
+[http] ==> [mensch, mio]	0.660212367270456
+[http] ==> [spd]	0.8263585259212992
+[irak, spd] ==> [http]	0.957388939256573
+[http, spd] ==> [irak]	0.7981859410430839
+[http, irak] ==> [spd]	1.0
+[irak] ==> [http, spd]	0.945389435989257
+[http] ==> [irak, spd]	0.6595877576514678
+[mensch, spd] ==> [http]	0.7587939698492462
+[http, spd] ==> [mensch]	0.798941798941799
+[http, mensch] ==> [spd]	0.9981114258734656
+[http] ==> [mensch, spd]	0.660212367270456
+[mio, spd] ==> [http]	0.9328621908127208
+[http, spd] ==> [mio]	0.7981859410430839
+[http, mio] ==> [spd]	0.9990539262062441
+[mio] ==> [http, spd]	0.8414342629482072
+[http] ==> [mio, spd]	0.6595877576514678
+[spend] ==> [http]	0.9411764705882353
+[http] ==> [spend]	0.6595877576514678
+[irak, spend] ==> [http]	0.993414863593603
+[http, spend] ==> [irak]	1.0
+[http, irak] ==> [spend]	1.0
+[spend] ==> [http, irak]	0.9411764705882353
+[irak] ==> [http, spend]	0.945389435989257
+[http] ==> [irak, spend]	0.6595877576514678
+[mensch, spend] ==> [http]	0.993414863593603
+[http, spend] ==> [mensch]	1.0
+[http, mensch] ==> [spend]	0.9971671388101983
+[spend] ==> [http, mensch]	0.9411764705882353
+[http] ==> [mensch, spend]	0.6595877576514678
+[mio, spend] ==> [http]	0.9823255813953489
+[http, spend] ==> [mio]	1.0
+[http, mio] ==> [spend]	0.9990539262062441
+[http] ==> [mio, spend]	0.6595877576514678
+[mio] ==> [http, spend]	0.8414342629482072
+[spend] ==> [http, mio]	0.9411764705882353
+[spd, spend] ==> [http]	0.957388939256573
+[http, spend] ==> [spd]	1.0
+[http, spd] ==> [spend]	0.7981859410430839
+[spend] ==> [http, spd]	0.9411764705882353
+[http] ==> [spd, spend]	0.6595877576514678
+[terrormiliz] ==> [http]	0.9750692520775623
+[http] ==> [terrormiliz]	0.6595877576514678
+[irak, terrormiliz] ==> [http]	0.993414863593603
+[http, terrormiliz] ==> [irak]	1.0
+[http, irak] ==> [terrormiliz]	1.0
+[terrormiliz] ==> [http, irak]	0.9750692520775623
+[irak] ==> [http, terrormiliz]	0.945389435989257
+[http] ==> [irak, terrormiliz]	0.6595877576514678
+[mensch, terrormiliz] ==> [http]	0.993414863593603
+[http, terrormiliz] ==> [mensch]	1.0
+[http, mensch] ==> [terrormiliz]	0.9971671388101983
+[terrormiliz] ==> [http, mensch]	0.9750692520775623
+[http] ==> [mensch, terrormiliz]	0.6595877576514678
+[mio, terrormiliz] ==> [http]	0.993414863593603
+[http, terrormiliz] ==> [mio]	1.0
+[http, mio] ==> [terrormiliz]	0.9990539262062441
+[http] ==> [mio, terrormiliz]	0.6595877576514678
+[mio] ==> [http, terrormiliz]	0.8414342629482072
+[terrormiliz] ==> [http, mio]	0.9750692520775623
+[spd, terrormiliz] ==> [http]	0.9887640449438202
+[http, terrormiliz] ==> [spd]	1.0
+[http, spd] ==> [terrormiliz]	0.7981859410430839
+[terrormiliz] ==> [http, spd]	0.9750692520775623
+[http] ==> [spd, terrormiliz]	0.6595877576514678
+[spend, terrormiliz] ==> [http]	0.993414863593603
+[http, terrormiliz] ==> [spend]	1.0
+[http, spend] ==> [terrormiliz]	1.0
+[spend] ==> [http, terrormiliz]	0.9411764705882353
+[terrormiliz] ==> [http, spend]	0.9750692520775623
+[http] ==> [spend, terrormiliz]	0.6595877576514678
+[https] ==> [spd]	0.6994328922495274
+[irak] ==> [mensch]	0.9516562220232766
+[mio] ==> [irak]	0.847808764940239
+[irak] ==> [mio]	0.9525514771709938
+[mensch, mio] ==> [irak]	0.9654859218891917
+[irak, mio] ==> [mensch]	0.9990601503759399
+[irak, mensch] ==> [mio]	1.0
+[mio] ==> [irak, mensch]	0.847011952191235
+[irak] ==> [mensch, mio]	0.9516562220232766
+[irak] ==> [spd]	0.9874664279319606
+[mensch, spd] ==> [irak]	0.7587939698492462
+[irak, spd] ==> [mensch]	0.958295557570263
+[irak, mensch] ==> [spd]	0.9943555973659455
+[irak] ==> [mensch, spd]	0.946284691136974
+[mio, spd] ==> [irak]	0.9346289752650176
+[irak, spd] ==> [mio]	0.9592021758839528
+[irak, mio] ==> [spd]	0.9943609022556391
+[irak] ==> [mio, spd]	0.9471799462846912
+[mio] ==> [irak, spd]	0.8430278884462151
+[spend] ==> [irak]	0.9474153297682709
+[irak] ==> [spend]	0.9516562220232766
+[mensch, spend] ==> [irak]	1.0
+[irak, spend] ==> [mensch]	1.0
+[irak, mensch] ==> [spend]	1.0
+[spend] ==> [irak, mensch]	0.9474153297682709
+[irak] ==> [mensch, spend]	0.9516562220232766
+[mio, spend] ==> [irak]	0.9888372093023255
+[irak, spend] ==> [mio]	1.0
+[irak, mio] ==> [spend]	0.9990601503759399
+[spend] ==> [irak, mio]	0.9474153297682709
+[irak] ==> [mio, spend]	0.9516562220232766
+[mio] ==> [irak, spend]	0.847011952191235
+[spd, spend] ==> [irak]	0.958295557570263
+[irak, spend] ==> [spd]	0.9943555973659455
+[irak, spd] ==> [spend]	0.958295557570263
+[irak] ==> [spd, spend]	0.946284691136974
+[spend] ==> [irak, spd]	0.9420677361853832
+[terrormiliz] ==> [irak]	0.9815327793167128
+[irak] ==> [terrormiliz]	0.9516562220232766
+[mensch, terrormiliz] ==> [irak]	1.0
+[irak, terrormiliz] ==> [mensch]	1.0
+[irak, mensch] ==> [terrormiliz]	1.0
+[terrormiliz] ==> [irak, mensch]	0.9815327793167128
+[irak] ==> [mensch, terrormiliz]	0.9516562220232766
+[mio, terrormiliz] ==> [irak]	1.0
+[irak, terrormiliz] ==> [mio]	1.0
+[irak, mio] ==> [terrormiliz]	0.9990601503759399
+[irak] ==> [mio, terrormiliz]	0.9516562220232766
+[mio] ==> [irak, terrormiliz]	0.847011952191235
+[terrormiliz] ==> [irak, mio]	0.9815327793167128
+[spd, terrormiliz] ==> [irak]	0.9897003745318352
+[irak, terrormiliz] ==> [spd]	0.9943555973659455
+[irak, spd] ==> [terrormiliz]	0.958295557570263
+[irak] ==> [spd, terrormiliz]	0.946284691136974
+[terrormiliz] ==> [irak, spd]	0.9759926131117267
+[spend, terrormiliz] ==> [irak]	1.0
+[irak, terrormiliz] ==> [spend]	1.0
+[irak, spend] ==> [terrormiliz]	1.0
+[spend] ==> [irak, terrormiliz]	0.9474153297682709
+[irak] ==> [spend, terrormiliz]	0.9516562220232766
+[terrormiliz] ==> [irak, spend]	0.9815327793167128
+[lieb] ==> [spd]	0.6941935483870968
+[macht] ==> [spd]	0.7256857855361596
+[mehr] ==> [spd]	0.6700698549167114
+[mio] ==> [mensch]	0.8772908366533865
+[mensch] ==> [spd]	0.797366914710933
+[mio, spd] ==> [mensch]	0.9346289752650176
+[mensch, spd] ==> [mio]	0.7595118449389806
+[mensch, mio] ==> [spd]	0.96094459582198
+[mio] ==> [mensch, spd]	0.8430278884462151
+[spend] ==> [mensch]	0.9474153297682709
+[mio, spend] ==> [mensch]	0.9888372093023255
+[mensch, spend] ==> [mio]	1.0
+[mensch, mio] ==> [spend]	0.9654859218891917
+[mio] ==> [mensch, spend]	0.847011952191235
+[spend] ==> [mensch, mio]	0.9474153297682709
+[spd, spend] ==> [mensch]	0.958295557570263
+[mensch, spend] ==> [spd]	0.9943555973659455
+[mensch, spd] ==> [spend]	0.7587939698492462
+[spend] ==> [mensch, spd]	0.9420677361853832
+[terrormiliz] ==> [mensch]	0.9815327793167128
+[mio, terrormiliz] ==> [mensch]	1.0
+[mensch, terrormiliz] ==> [mio]	1.0
+[mensch, mio] ==> [terrormiliz]	0.9654859218891917
+[mio] ==> [mensch, terrormiliz]	0.847011952191235
+[terrormiliz] ==> [mensch, mio]	0.9815327793167128
+[spd, terrormiliz] ==> [mensch]	0.9897003745318352
+[mensch, terrormiliz] ==> [spd]	0.9943555973659455
+[mensch, spd] ==> [terrormiliz]	0.7587939698492462
+[terrormiliz] ==> [mensch, spd]	0.9759926131117267
+[spend, terrormiliz] ==> [mensch]	1.0
+[mensch, terrormiliz] ==> [spend]	1.0
+[mensch, spend] ==> [terrormiliz]	1.0
+[spend] ==> [mensch, terrormiliz]	0.9474153297682709
+[terrormiliz] ==> [mensch, spend]	0.9815327793167128
+[merkel] ==> [spd]	0.9827873403664631
+[mio] ==> [spd]	0.90199203187251
+[spend] ==> [mio]	0.9581105169340464
+[mio] ==> [spend]	0.8565737051792829
+[spd, spend] ==> [mio]	0.9691749773345422
+[mio, spend] ==> [spd]	0.9944186046511628
+[mio, spd] ==> [spend]	0.9443462897526502
+[spend] ==> [mio, spd]	0.9527629233511586
+[mio] ==> [spd, spend]	0.851792828685259
+[terrormiliz] ==> [mio]	0.9815327793167128
+[mio] ==> [terrormiliz]	0.847011952191235
+[spd, terrormiliz] ==> [mio]	0.9897003745318352
+[mio, terrormiliz] ==> [spd]	0.9943555973659455
+[mio, spd] ==> [terrormiliz]	0.9337455830388692
+[mio] ==> [spd, terrormiliz]	0.8422310756972111
+[terrormiliz] ==> [mio, spd]	0.9759926131117267
+[spend, terrormiliz] ==> [mio]	1.0
+[mio, terrormiliz] ==> [spend]	1.0
+[mio, spend] ==> [terrormiliz]	0.9888372093023255
+[spend] ==> [mio, terrormiliz]	0.9474153297682709
+[terrormiliz] ==> [mio, spend]	0.9815327793167128
+[mio] ==> [spend, terrormiliz]	0.847011952191235
+[neu] ==> [spd]	0.6511375947995667
+[parteitag] ==> [spd]	0.7306538692261547
+[sigmar] ==> [spd]	0.9399684044233807
+[spdbpt] ==> [spd]	0.8804780876494024
+[spend] ==> [spd]	0.9830659536541889
+[syri] ==> [spd]	0.9981343283582089
+[terrormiliz] ==> [spd]	0.9861495844875346
+[spend, terrormiliz] ==> [spd]	0.9943555973659455
+[spd, terrormiliz] ==> [spend]	0.9897003745318352
+[spd, spend] ==> [terrormiliz]	0.958295557570263
+[spend] ==> [spd, terrormiliz]	0.9420677361853832
+[terrormiliz] ==> [spd, spend]	0.9759926131117267
+[ttip] ==> [spd]	0.7187928669410151
+[wahl] ==> [spd]	0.6636363636363637
+[wer] ==> [spd]	0.6543846720707442
+[zdf] ==> [spd]	0.8073298429319372
+[zeit] ==> [spd]	0.7266099635479951
+[terrormiliz] ==> [spend]	0.9815327793167128
+[spend] ==> [terrormiliz]	0.9474153297682709

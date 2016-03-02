@@ -1,0 +1,232 @@
+[bild] ==> [1000]	0.6504297994269341
+[1000] ==> [bild]	0.8470149253731343
+[1000] ==> [mal]	0.845771144278607
+[bild, mal] ==> [1000]	0.9883551673944687
+[1000, mal] ==> [bild]	0.9985294117647059
+[1000, bild] ==> [mal]	0.9970631424375918
+[1000] ==> [bild, mal]	0.8445273631840796
+[1000] ==> [mehr]	0.8706467661691543
+[bild, mehr] ==> [1000]	0.9537166900420757
+[1000, mehr] ==> [bild]	0.9714285714285714
+[1000, bild] ==> [mehr]	0.9985315712187959
+[1000] ==> [bild, mehr]	0.845771144278607
+[mal, mehr] ==> [1000]	0.9897959183673469
+[1000, mehr] ==> [mal]	0.97
+[1000, mal] ==> [mehr]	0.9985294117647059
+[1000] ==> [mal, mehr]	0.8445273631840796
+[1000] ==> [parisattack]	0.845771144278607
+[bild, parisattack] ==> [1000]	0.9941434846266471
+[1000, parisattack] ==> [bild]	0.9985294117647059
+[1000, bild] ==> [parisattack]	0.9970631424375918
+[1000] ==> [bild, parisattack]	0.8445273631840796
+[mal, parisattack] ==> [1000]	0.9741750358680057
+[1000, parisattack] ==> [mal]	0.9985294117647059
+[1000, mal] ==> [parisattack]	0.9985294117647059
+[1000] ==> [mal, parisattack]	0.8445273631840796
+[mehr, parisattack] ==> [1000]	0.8934210526315789
+[1000, parisattack] ==> [mehr]	0.9985294117647059
+[1000, mehr] ==> [parisattack]	0.97
+[1000] ==> [mehr, parisattack]	0.8445273631840796
+[1000] ==> [refugeeswelcom]	0.9054726368159204
+[bild, refugeeswelcom] ==> [1000]	0.7655016910935738
+[1000, refugeeswelcom] ==> [bild]	0.9326923076923077
+[1000, bild] ==> [refugeeswelcom]	0.9970631424375918
+[1000] ==> [bild, refugeeswelcom]	0.8445273631840796
+[1000, refugeeswelcom] ==> [mal]	0.9326923076923077
+[1000, mal] ==> [refugeeswelcom]	0.9985294117647059
+[1000] ==> [mal, refugeeswelcom]	0.8445273631840796
+[1000, refugeeswelcom] ==> [mehr]	0.9532967032967034
+[1000, mehr] ==> [refugeeswelcom]	0.9914285714285714
+[1000] ==> [mehr, refugeeswelcom]	0.8631840796019901
+[1000, refugeeswelcom] ==> [parisattack]	0.9340659340659341
+[1000, parisattack] ==> [refugeeswelcom]	1.0
+[1000] ==> [parisattack, refugeeswelcom]	0.845771144278607
+[1000] ==> [sagt]	0.845771144278607
+[bild, sagt] ==> [1000]	0.9577464788732394
+[1000, sagt] ==> [bild]	1.0
+[1000, bild] ==> [sagt]	0.9985315712187959
+[1000] ==> [bild, sagt]	0.845771144278607
+[mal, sagt] ==> [1000]	0.9549929676511955
+[1000, sagt] ==> [mal]	0.9985294117647059
+[1000, mal] ==> [sagt]	0.9985294117647059
+[1000] ==> [mal, sagt]	0.8445273631840796
+[mehr, sagt] ==> [1000]	0.845771144278607
+[1000, sagt] ==> [mehr]	1.0
+[1000, mehr] ==> [sagt]	0.9714285714285714
+[1000] ==> [mehr, sagt]	0.845771144278607
+[parisattack, sagt] ==> [1000]	0.9912408759124087
+[1000, sagt] ==> [parisattack]	0.9985294117647059
+[1000, parisattack] ==> [sagt]	0.9985294117647059
+[1000] ==> [parisattack, sagt]	0.8445273631840796
+[refugeeswelcom, sagt] ==> [1000]	0.7646396396396397
+[1000, sagt] ==> [refugeeswelcom]	0.9985294117647059
+[1000, refugeeswelcom] ==> [sagt]	0.9326923076923077
+[1000] ==> [refugeeswelcom, sagt]	0.8445273631840796
+[1000] ==> [wort]	0.8482587064676617
+[bild, wort] ==> [1000]	0.9591549295774648
+[1000, wort] ==> [bild]	0.998533724340176
+[1000, bild] ==> [wort]	1.0
+[1000] ==> [bild, wort]	0.8470149253731343
+[bild] ==> [1000, wort]	0.6504297994269341
+[mal, wort] ==> [1000]	0.9644886363636364
+[1000, wort] ==> [mal]	0.9956011730205279
+[1000, mal] ==> [wort]	0.9985294117647059
+[1000] ==> [mal, wort]	0.8445273631840796
+[mehr, wort] ==> [1000]	0.8854166666666666
+[1000, wort] ==> [mehr]	0.9970674486803519
+[1000, mehr] ==> [wort]	0.9714285714285714
+[1000] ==> [mehr, wort]	0.845771144278607
+[parisattack, wort] ==> [1000]	0.9617563739376771
+[1000, wort] ==> [parisattack]	0.9956011730205279
+[1000, parisattack] ==> [wort]	0.9985294117647059
+[1000] ==> [parisattack, wort]	0.8445273631840796
+[refugeeswelcom, wort] ==> [1000]	0.7293233082706767
+[1000, wort] ==> [refugeeswelcom]	0.9956011730205279
+[1000, refugeeswelcom] ==> [wort]	0.9326923076923077
+[1000] ==> [refugeeswelcom, wort]	0.8445273631840796
+[sagt, wort] ==> [1000]	0.9714285714285714
+[1000, wort] ==> [sagt]	0.9970674486803519
+[1000, sagt] ==> [wort]	1.0
+[1000] ==> [sagt, wort]	0.845771144278607
+[afd] ==> [refugeeswelcom]	0.9708171206225681
+[amp] ==> [refugeeswelcom]	0.8433079434167573
+[nachricht] ==> [berlin]	0.6525179856115108
+[deutschland, nachricht] ==> [berlin]	0.9878721058434399
+[berlin, nachricht] ==> [deutschland]	0.9878721058434399
+[berlin, deutschland] ==> [nachricht]	0.7957371225577264
+[npd] ==> [berlin]	0.6923076923076923
+[politik] ==> [berlin]	0.6876790830945558
+[bild] ==> [mal]	0.6561604584527221
+[bild] ==> [mehr]	0.6809933142311366
+[mal, mehr] ==> [bild]	0.9897959183673469
+[bild, mehr] ==> [mal]	0.9523141654978962
+[bild, mal] ==> [mehr]	0.9883551673944687
+[bild] ==> [parisattack]	0.6523400191021967
+[mal, parisattack] ==> [bild]	0.9741750358680057
+[bild, parisattack] ==> [mal]	0.9941434846266471
+[bild, mal] ==> [parisattack]	0.9883551673944687
+[mehr, parisattack] ==> [bild]	0.8934210526315789
+[bild, parisattack] ==> [mehr]	0.9941434846266471
+[bild, mehr] ==> [parisattack]	0.9523141654978962
+[bild] ==> [refugeeswelcom]	0.8471824259789876
+[bild, refugeeswelcom] ==> [mal]	0.7711386696730552
+[bild, mal] ==> [refugeeswelcom]	0.9956331877729258
+[bild] ==> [mal, refugeeswelcom]	0.6532951289398281
+[bild, refugeeswelcom] ==> [mehr]	0.7835400225479143
+[bild, mehr] ==> [refugeeswelcom]	0.9747545582047685
+[bild] ==> [mehr, refugeeswelcom]	0.6638013371537727
+[bild, refugeeswelcom] ==> [parisattack]	0.7666290868094702
+[bild, parisattack] ==> [refugeeswelcom]	0.9956076134699854
+[bild] ==> [sagt]	0.6781279847182426
+[mal, sagt] ==> [bild]	0.9549929676511955
+[bild, sagt] ==> [mal]	0.956338028169014
+[bild, mal] ==> [sagt]	0.9883551673944687
+[mehr, sagt] ==> [bild]	0.8768656716417911
+[bild, sagt] ==> [mehr]	0.9929577464788732
+[bild, mehr] ==> [sagt]	0.9887798036465638
+[bild] ==> [mehr, sagt]	0.673352435530086
+[parisattack, sagt] ==> [bild]	0.9912408759124087
+[bild, sagt] ==> [parisattack]	0.956338028169014
+[bild, parisattack] ==> [sagt]	0.9941434846266471
+[refugeeswelcom, sagt] ==> [bild]	0.7804054054054054
+[bild, sagt] ==> [refugeeswelcom]	0.976056338028169
+[bild, refugeeswelcom] ==> [sagt]	0.7812852311161218
+[bild] ==> [refugeeswelcom, sagt]	0.66189111747851
+[bild] ==> [wort]	0.6781279847182426
+[mal, wort] ==> [bild]	0.9644886363636364
+[bild, wort] ==> [mal]	0.956338028169014
+[bild, mal] ==> [wort]	0.9883551673944687
+[mehr, wort] ==> [bild]	0.9088541666666666
+[bild, wort] ==> [mehr]	0.9830985915492958
+[bild, mehr] ==> [wort]	0.9789621318373072
+[bild] ==> [mehr, wort]	0.6666666666666666
+[parisattack, wort] ==> [bild]	0.9617563739376771
+[bild, wort] ==> [parisattack]	0.956338028169014
+[bild, parisattack] ==> [wort]	0.9941434846266471
+[refugeeswelcom, wort] ==> [bild]	0.7422126745435016
+[bild, wort] ==> [refugeeswelcom]	0.9732394366197183
+[bild, refugeeswelcom] ==> [wort]	0.7790304396843292
+[bild] ==> [refugeeswelcom, wort]	0.6599808978032474
+[sagt, wort] ==> [bild]	0.9885714285714285
+[bild, wort] ==> [sagt]	0.9746478873239437
+[bild, sagt] ==> [wort]	0.9746478873239437
+[bild] ==> [sagt, wort]	0.6609360076408787
+[bitt] ==> [refugeeswelcom]	0.6742081447963801
+[demo] ==> [refugeeswelcom]	0.9089403973509934
+[deutsch] ==> [refugeeswelcom]	0.7607260726072608
+[nachricht] ==> [deutschland]	0.6525179856115108
+[fluchtling] ==> [refugeeswelcom]	0.8460686600221484
+[fluchtling, paris] ==> [refugeeswelcom]	0.9926650366748166
+[geht] ==> [refugeeswelcom]	0.75
+[job] ==> [helf]	0.7249544626593807
+[hetz] ==> [refugeeswelcom]	0.8209606986899564
+[heut] ==> [refugeeswelcom]	0.751004016064257
+[http] ==> [refugeeswelcom]	0.893455098934551
+[https] ==> [refugeeswelcom]	0.8803056027164686
+[kaltland] ==> [refugeeswelcom]	0.828996282527881
+[lieb] ==> [refugeeswelcom]	0.8343558282208589
+[mehr, parisattack] ==> [mal]	0.8934210526315789
+[mal, parisattack] ==> [mehr]	0.9741750358680057
+[mal, mehr] ==> [parisattack]	0.9897959183673469
+[mal] ==> [refugeeswelcom]	0.8480355819125278
+[mal, mehr] ==> [refugeeswelcom]	0.9956268221574344
+[mal, parisattack] ==> [refugeeswelcom]	0.9870875179340028
+[mehr, sagt] ==> [mal]	0.845771144278607
+[mal, sagt] ==> [mehr]	0.9563994374120957
+[mal, mehr] ==> [sagt]	0.9912536443148688
+[parisattack, sagt] ==> [mal]	0.9912408759124087
+[mal, sagt] ==> [parisattack]	0.9549929676511955
+[mal, parisattack] ==> [sagt]	0.9741750358680057
+[refugeeswelcom, sagt] ==> [mal]	0.7905405405405406
+[mal, sagt] ==> [refugeeswelcom]	0.9873417721518988
+[mehr, wort] ==> [mal]	0.8841145833333334
+[mal, wort] ==> [mehr]	0.9644886363636364
+[mal, mehr] ==> [wort]	0.9897959183673469
+[parisattack, wort] ==> [mal]	0.9617563739376771
+[mal, wort] ==> [parisattack]	0.9644886363636364
+[mal, parisattack] ==> [wort]	0.9741750358680057
+[refugeeswelcom, wort] ==> [mal]	0.7400644468313641
+[mal, wort] ==> [refugeeswelcom]	0.9786931818181818
+[sagt, wort] ==> [mal]	0.97
+[mal, wort] ==> [sagt]	0.9644886363636364
+[mal, sagt] ==> [wort]	0.9549929676511955
+[mehr] ==> [refugeeswelcom]	0.781578947368421
+[mehr, parisattack] ==> [refugeeswelcom]	0.9986842105263158
+[sagt] ==> [mehr]	0.6901287553648069
+[parisattack, sagt] ==> [mehr]	0.9912408759124087
+[mehr, sagt] ==> [parisattack]	0.8445273631840796
+[mehr, parisattack] ==> [sagt]	0.8934210526315789
+[refugeeswelcom, sagt] ==> [mehr]	0.7792792792792793
+[mehr, sagt] ==> [refugeeswelcom]	0.8606965174129353
+[parisattack, wort] ==> [mehr]	0.9617563739376771
+[mehr, wort] ==> [parisattack]	0.8841145833333334
+[mehr, parisattack] ==> [wort]	0.8934210526315789
+[refugeeswelcom, wort] ==> [mehr]	0.7357679914070892
+[mehr, wort] ==> [refugeeswelcom]	0.8919270833333334
+[sagt, wort] ==> [mehr]	0.9914285714285714
+[mehr, wort] ==> [sagt]	0.9036458333333334
+[mehr, sagt] ==> [wort]	0.8631840796019901
+[mensch] ==> [refugeeswelcom]	0.7603143418467584
+[merkel] ==> [refugeeswelcom]	1.0
+[nazis] ==> [refugeeswelcom]	0.7564432989690721
+[nopegida] ==> [refugeeswelcom]	0.9468085106382979
+[paris] ==> [refugeeswelcom]	0.8130671506352087
+[parisattack] ==> [refugeeswelcom]	0.9055982436882547
+[refugeeswelcom, sagt] ==> [parisattack]	0.7713963963963963
+[parisattack, sagt] ==> [refugeeswelcom]	1.0
+[refugeeswelcom, wort] ==> [parisattack]	0.7454350161117078
+[parisattack, wort] ==> [refugeeswelcom]	0.9830028328611898
+[sagt, wort] ==> [parisattack]	0.97
+[parisattack, wort] ==> [sagt]	0.9617563739376771
+[parisattack, sagt] ==> [wort]	0.9912408759124087
+[pegida] ==> [refugeeswelcom]	1.0
+[recht] ==> [refugeeswelcom]	0.8349609375
+[refuge] ==> [refugeeswelcom]	0.8277004638833665
+[sagt] ==> [refugeeswelcom]	0.7622317596566524
+[seit] ==> [refugeeswelcom]	0.8481012658227848
+[uhr] ==> [refugeeswelcom]	0.7243243243243244
+[uns] ==> [refugeeswelcom]	0.8700564971751412
+[via] ==> [refugeeswelcom]	0.782608695652174
+[sagt, wort] ==> [refugeeswelcom]	0.9714285714285714
+[refugeeswelcom, wort] ==> [sagt]	0.7303974221267454
+[refugeeswelcom, sagt] ==> [wort]	0.7657657657657657

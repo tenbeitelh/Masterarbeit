@@ -1,0 +1,1971 @@
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": "SMSchubert",
+  "truncated": false,
+  "lang": "de",
+  "in_reply_to_status_id_str": "659472733353418752",
+  "id": 659474554478338049,
+  "in_reply_to_user_id_str": "97636112",
+  "timestamp_ms": "1446065960889",
+  "in_reply_to_status_id": 659472733353418752,
+  "created_at": "Wed Oct 28 20:59:20 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "@SMSchubert Darauf wartet #Merkel, weil dann hat man das Totschlagargument um #Flüchtlinge zu uns in die Wohnungen zu stecken.",
+  "contributors": null,
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [],
+    "hashtags": [
+      {
+        "text": "Merkel",
+        "indices": [
+          26,
+          33
+        ]
+      },
+      {
+        "text": "Flüchtlinge",
+        "indices": [
+          78,
+          90
+        ]
+      }
+    ],
+    "user_mentions": [
+      {
+        "id": 97636112,
+        "name": "Sascha M. Schubert",
+        "indices": [
+          0,
+          11
+        ],
+        "screen_name": "SMSchubert",
+        "id_str": "97636112"
+      }
+    ]
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "favorited": false,
+  "in_reply_to_user_id": 97636112,
+  "retweet_count": 0,
+  "id_str": "659474554478338049",
+  "user": {
+    "location": "here",
+    "default_profile": false,
+    "profile_background_tile": false,
+    "statuses_count": 3886,
+    "lang": "en",
+    "profile_link_color": "0084B4",
+    "id": 48191908,
+    "following": null,
+    "protected": false,
+    "favourites_count": 1824,
+    "profile_text_color": "333333",
+    "verified": false,
+    "description": "Thoughts on current politics and society in .DE and rest of the world.",
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "DCDCDC",
+    "name": "Organic FUD",
+    "profile_background_color": "FFFFFF",
+    "created_at": "Thu Jun 18 01:15:18 +0000 2009",
+    "default_profile_image": false,
+    "followers_count": 212,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/270090894/11971259451272591264SRD_radish.svg.hi_normal.png",
+    "geo_enabled": false,
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "follow_request_sent": null,
+    "url": null,
+    "utc_offset": 3600,
+    "time_zone": "Berlin",
+    "notifications": null,
+    "profile_use_background_image": false,
+    "friends_count": 247,
+    "profile_sidebar_fill_color": "FFFFFF",
+    "screen_name": "OrganicFUD",
+    "id_str": "48191908",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/270090894/11971259451272591264SRD_radish.svg.hi_normal.png",
+    "listed_count": 10,
+    "is_translator": false
+  }
+}
+
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": null,
+  "possibly_sensitive": false,
+  "truncated": false,
+  "lang": "en",
+  "in_reply_to_status_id_str": null,
+  "id": 659474540368666624,
+  "extended_entities": {
+    "media": [
+      {
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "resize": "crop",
+            "h": 150
+          },
+          "small": {
+            "w": 340,
+            "resize": "fit",
+            "h": 255
+          },
+          "large": {
+            "w": 1024,
+            "resize": "fit",
+            "h": 768
+          },
+          "medium": {
+            "w": 600,
+            "resize": "fit",
+            "h": 450
+          }
+        },
+        "id": 659474532567150592,
+        "media_url_https": "https://pbs.twimg.com/media/CSbsl-QU8AA4I7W.jpg",
+        "media_url": "http://pbs.twimg.com/media/CSbsl-QU8AA4I7W.jpg",
+        "expanded_url": "http://twitter.com/GaurivanGulik/status/659474540368666624/photo/1",
+        "indices": [
+          117,
+          140
+        ],
+        "id_str": "659474532567150592",
+        "type": "photo",
+        "display_url": "pic.twitter.com/DXcveS1hOd",
+        "url": "https://t.co/DXcveS1hOd"
+      }
+    ]
+  },
+  "in_reply_to_user_id_str": null,
+  "timestamp_ms": "1446065957525",
+  "in_reply_to_status_id": null,
+  "created_at": "Wed Oct 28 20:59:17 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "Refugees would likely not have used boats #lesbos, kids not drowned, if landborder wasn't fenced off. #refugeecrisis https://t.co/DXcveS1hOd",
+  "contributors": null,
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [],
+    "hashtags": [
+      {
+        "text": "lesbos",
+        "indices": [
+          42,
+          49
+        ]
+      },
+      {
+        "text": "refugeecrisis",
+        "indices": [
+          102,
+          116
+        ]
+      }
+    ],
+    "media": [
+      {
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "resize": "crop",
+            "h": 150
+          },
+          "small": {
+            "w": 340,
+            "resize": "fit",
+            "h": 255
+          },
+          "large": {
+            "w": 1024,
+            "resize": "fit",
+            "h": 768
+          },
+          "medium": {
+            "w": 600,
+            "resize": "fit",
+            "h": 450
+          }
+        },
+        "id": 659474532567150592,
+        "media_url_https": "https://pbs.twimg.com/media/CSbsl-QU8AA4I7W.jpg",
+        "media_url": "http://pbs.twimg.com/media/CSbsl-QU8AA4I7W.jpg",
+        "expanded_url": "http://twitter.com/GaurivanGulik/status/659474540368666624/photo/1",
+        "indices": [
+          117,
+          140
+        ],
+        "id_str": "659474532567150592",
+        "type": "photo",
+        "display_url": "pic.twitter.com/DXcveS1hOd",
+        "url": "https://t.co/DXcveS1hOd"
+      }
+    ],
+    "user_mentions": []
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "favorited": false,
+  "in_reply_to_user_id": null,
+  "retweet_count": 0,
+  "id_str": "659474540368666624",
+  "user": {
+    "location": "World",
+    "default_profile": false,
+    "profile_background_tile": false,
+    "statuses_count": 2099,
+    "lang": "en",
+    "profile_link_color": "4A913C",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/586625152/1441472685",
+    "id": 586625152,
+    "following": null,
+    "protected": false,
+    "favourites_count": 238,
+    "profile_text_color": "E4D498",
+    "verified": false,
+    "description": "Deputy Europe Director at Amnesty International @amnestyonline, European Union and Balkans. #refugees #migrants #roma #womensrights. Dutch, lost in London.",
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "E9DBA6",
+    "name": "Gauri van Gulik",
+    "profile_background_color": "000000",
+    "created_at": "Mon May 21 15:16:33 +0000 2012",
+    "default_profile_image": false,
+    "followers_count": 4448,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2238081209/260300_10150287755265786_691550785_9919795_4204268_n_normal.jpg",
+    "geo_enabled": false,
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/653252409/x073582bb7c34bfcd9438fec8ecaad39.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/653252409/x073582bb7c34bfcd9438fec8ecaad39.jpg",
+    "follow_request_sent": null,
+    "url": "http://www.amnesty.org",
+    "utc_offset": 3600,
+    "time_zone": "Ljubljana",
+    "notifications": null,
+    "profile_use_background_image": true,
+    "friends_count": 1238,
+    "profile_sidebar_fill_color": "000000",
+    "screen_name": "GaurivanGulik",
+    "id_str": "586625152",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/2238081209/260300_10150287755265786_691550785_9919795_4204268_n_normal.jpg",
+    "listed_count": 198,
+    "is_translator": false
+  }
+}
+
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": null,
+  "truncated": false,
+  "lang": "de",
+  "in_reply_to_status_id_str": null,
+  "id": 659474553157062656,
+  "in_reply_to_user_id_str": null,
+  "timestamp_ms": "1446065960574",
+  "in_reply_to_status_id": null,
+  "created_at": "Wed Oct 28 20:59:20 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "Juncker: \"Zäune haben keinen Platz in Europa\"\nKlar, sonst würde ja der Weg nach Deutschland versperrt werden\n#Fluechtlinge #refugeeswelcome",
+  "contributors": null,
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [],
+    "hashtags": [
+      {
+        "text": "Fluechtlinge",
+        "indices": [
+          109,
+          122
+        ]
+      },
+      {
+        "text": "refugeeswelcome",
+        "indices": [
+          123,
+          139
+        ]
+      }
+    ],
+    "user_mentions": []
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "favorited": false,
+  "in_reply_to_user_id": null,
+  "retweet_count": 0,
+  "id_str": "659474553157062656",
+  "user": {
+    "location": "Im Herzen von Deutschland",
+    "default_profile": true,
+    "profile_background_tile": false,
+    "statuses_count": 394,
+    "lang": "de",
+    "profile_link_color": "0084B4",
+    "id": 2236074376,
+    "following": null,
+    "protected": false,
+    "favourites_count": 170,
+    "profile_text_color": "333333",
+    "verified": false,
+    "description": "Wer seine Augen nicht braucht um zu sehen,\nder wird sie brauchen um zu weinen.",
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "C0DEED",
+    "name": "68er",
+    "profile_background_color": "C0DEED",
+    "created_at": "Sat Dec 21 09:16:14 +0000 2013",
+    "default_profile_image": false,
+    "followers_count": 68,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/618770964143337472/8x7sXS5d_normal.jpg",
+    "geo_enabled": false,
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "follow_request_sent": null,
+    "url": null,
+    "utc_offset": 3600,
+    "time_zone": "Berlin",
+    "notifications": null,
+    "profile_use_background_image": true,
+    "friends_count": 153,
+    "profile_sidebar_fill_color": "DDEEF6",
+    "screen_name": "1984bigbr",
+    "id_str": "2236074376",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/618770964143337472/8x7sXS5d_normal.jpg",
+    "listed_count": 1,
+    "is_translator": false
+  }
+}
+
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": null,
+  "truncated": false,
+  "lang": "de",
+  "in_reply_to_status_id_str": null,
+  "id": 659474584404631553,
+  "in_reply_to_user_id_str": null,
+  "timestamp_ms": "1446065968024",
+  "in_reply_to_status_id": null,
+  "created_at": "Wed Oct 28 20:59:28 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "Nie mehr bekommt ihr meine Stimme ! Helft endlich den #Fluechtlingen auf der #balkanroute #Wegscheid",
+  "contributors": null,
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [],
+    "hashtags": [
+      {
+        "text": "Fluechtlingen",
+        "indices": [
+          54,
+          68
+        ]
+      },
+      {
+        "text": "balkanroute",
+        "indices": [
+          77,
+          89
+        ]
+      },
+      {
+        "text": "Wegscheid",
+        "indices": [
+          90,
+          100
+        ]
+      }
+    ],
+    "user_mentions": []
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "favorited": false,
+  "in_reply_to_user_id": null,
+  "retweet_count": 0,
+  "id_str": "659474584404631553",
+  "user": {
+    "location": "blauer planet ",
+    "default_profile": false,
+    "profile_background_tile": false,
+    "statuses_count": 15214,
+    "lang": "de",
+    "profile_link_color": "3B94D9",
+    "id": 2172547065,
+    "following": null,
+    "protected": false,
+    "favourites_count": 12340,
+    "profile_text_color": "000000",
+    "verified": false,
+    "description": "ich sag mal so: ich wundere mich selber ueber mich. Südtirolerin; extrem gegen Extremismus",
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "000000",
+    "name": "martha im thale",
+    "profile_background_color": "000000",
+    "created_at": "Thu Nov 07 20:00:02 +0000 2013",
+    "default_profile_image": false,
+    "followers_count": 483,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/653660912583315456/GVTZ7vwv_normal.jpg",
+    "geo_enabled": false,
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "follow_request_sent": null,
+    "url": null,
+    "utc_offset": 3600,
+    "time_zone": "Rome",
+    "notifications": null,
+    "profile_use_background_image": false,
+    "friends_count": 943,
+    "profile_sidebar_fill_color": "000000",
+    "screen_name": "marthaimthale",
+    "id_str": "2172547065",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/653660912583315456/GVTZ7vwv_normal.jpg",
+    "listed_count": 44,
+    "is_translator": false
+  }
+}
+
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": null,
+  "truncated": false,
+  "lang": "de",
+  "in_reply_to_status_id_str": null,
+  "id": 659474587902722048,
+  "in_reply_to_user_id_str": null,
+  "timestamp_ms": "1446065968858",
+  "in_reply_to_status_id": null,
+  "created_at": "Wed Oct 28 20:59:28 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "RT @hddoger: @IrreRepublik So ist es. Das Chaos auf dem #Balkan bis Passau wird einzig durch #Merkel verschuldet. WIE LANGE NOCH? @cducsubt…",
+  "contributors": null,
+  "retweeted_status": {
+    "filter_level": "low",
+    "contributors": null,
+    "text": "@IrreRepublik So ist es. Das Chaos auf dem #Balkan bis Passau wird einzig durch #Merkel verschuldet. WIE LANGE NOCH? @cducsubt @aotto1968_2",
+    "geo": null,
+    "retweeted": false,
+    "in_reply_to_screen_name": "IrreRepublik",
+    "truncated": false,
+    "lang": "de",
+    "entities": {
+      "symbols": [],
+      "urls": [],
+      "hashtags": [
+        {
+          "text": "Balkan",
+          "indices": [
+            43,
+            50
+          ]
+        },
+        {
+          "text": "Merkel",
+          "indices": [
+            80,
+            87
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "id": 3824175135,
+          "name": "IrreRepublik",
+          "indices": [
+            0,
+            13
+          ],
+          "screen_name": "IrreRepublik",
+          "id_str": "3824175135"
+        },
+        {
+          "id": 46085533,
+          "name": "CDU/CSU",
+          "indices": [
+            117,
+            126
+          ],
+          "screen_name": "cducsubt",
+          "id_str": "46085533"
+        },
+        {
+          "id": 262222386,
+          "name": "Andreas Otto",
+          "indices": [
+            127,
+            139
+          ],
+          "screen_name": "aotto1968_2",
+          "id_str": "262222386"
+        }
+      ]
+    },
+    "in_reply_to_status_id_str": "659471826804981760",
+    "is_quote_status": false,
+    "id": 659473322581884928,
+    "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+    "in_reply_to_user_id_str": "3824175135",
+    "favorited": false,
+    "in_reply_to_status_id": 659471826804981760,
+    "retweet_count": 2,
+    "created_at": "Wed Oct 28 20:54:27 +0000 2015",
+    "in_reply_to_user_id": 3824175135,
+    "favorite_count": 0,
+    "id_str": "659473322581884928",
+    "place": null,
+    "user": {
+      "location": null,
+      "default_profile": true,
+      "profile_background_tile": false,
+      "statuses_count": 97067,
+      "lang": "de",
+      "profile_link_color": "0084B4",
+      "id": 456741823,
+      "following": null,
+      "protected": false,
+      "favourites_count": 1442,
+      "profile_text_color": "333333",
+      "verified": false,
+      "description": "German-born European. pro-EC, used-to-be pro-Maastricht-€. Commerc. edu. Love music, travelling, SciFi, astronomy,",
+      "contributors_enabled": false,
+      "profile_sidebar_border_color": "C0DEED",
+      "name": "Hans Daecher",
+      "profile_background_color": "C0DEED",
+      "created_at": "Fri Jan 06 16:13:17 +0000 2012",
+      "default_profile_image": false,
+      "followers_count": 515,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3296258792/7852b77f95bc153cf32db2ba07fb879c_normal.jpeg",
+      "geo_enabled": false,
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "follow_request_sent": null,
+      "url": null,
+      "utc_offset": 3600,
+      "time_zone": "West Central Africa",
+      "notifications": null,
+      "profile_use_background_image": true,
+      "friends_count": 454,
+      "profile_sidebar_fill_color": "DDEEF6",
+      "screen_name": "hddoger",
+      "id_str": "456741823",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3296258792/7852b77f95bc153cf32db2ba07fb879c_normal.jpeg",
+      "listed_count": 94,
+      "is_translator": false
+    },
+    "coordinates": null
+  },
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [],
+    "hashtags": [
+      {
+        "text": "Balkan",
+        "indices": [
+          56,
+          63
+        ]
+      },
+      {
+        "text": "Merkel",
+        "indices": [
+          93,
+          100
+        ]
+      }
+    ],
+    "user_mentions": [
+      {
+        "id": 456741823,
+        "name": "Hans Daecher",
+        "indices": [
+          3,
+          11
+        ],
+        "screen_name": "hddoger",
+        "id_str": "456741823"
+      },
+      {
+        "id": 3824175135,
+        "name": "IrreRepublik",
+        "indices": [
+          13,
+          26
+        ],
+        "screen_name": "IrreRepublik",
+        "id_str": "3824175135"
+      },
+      {
+        "id": 46085533,
+        "name": "CDU/CSU",
+        "indices": [
+          130,
+          139
+        ],
+        "screen_name": "cducsubt",
+        "id_str": "46085533"
+      },
+      {
+        "id": 262222386,
+        "name": "Andreas Otto",
+        "indices": [
+          139,
+          140
+        ],
+        "screen_name": "aotto1968_2",
+        "id_str": "262222386"
+      }
+    ]
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "favorited": false,
+  "in_reply_to_user_id": null,
+  "retweet_count": 0,
+  "id_str": "659474587902722048",
+  "user": {
+    "location": null,
+    "default_profile": false,
+    "profile_background_tile": false,
+    "statuses_count": 1464,
+    "lang": "de",
+    "profile_link_color": "1F98C7",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1142529727/1444388981",
+    "id": 1142529727,
+    "following": null,
+    "protected": false,
+    "favourites_count": 374,
+    "profile_text_color": "333333",
+    "verified": false,
+    "description": null,
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "FFFFFF",
+    "name": "Robin Hutt",
+    "profile_background_color": "C6E2EE",
+    "created_at": "Sat Feb 02 14:02:34 +0000 2013",
+    "default_profile_image": false,
+    "followers_count": 63,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/648573163840897024/TMkzh3rO_normal.jpg",
+    "geo_enabled": false,
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/780164078/d363e8ae846531fc9a0c9c852882035c.jpeg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/780164078/d363e8ae846531fc9a0c9c852882035c.jpeg",
+    "follow_request_sent": null,
+    "url": null,
+    "utc_offset": 3600,
+    "time_zone": "Amsterdam",
+    "notifications": null,
+    "profile_use_background_image": false,
+    "friends_count": 88,
+    "profile_sidebar_fill_color": "DDEEF6",
+    "screen_name": "Robin_Hutt",
+    "id_str": "1142529727",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/648573163840897024/TMkzh3rO_normal.jpg",
+    "listed_count": 6,
+    "is_translator": false
+  }
+}
+
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": null,
+  "possibly_sensitive": false,
+  "truncated": false,
+  "lang": "en",
+  "in_reply_to_status_id_str": null,
+  "id": 659474596224086016,
+  "extended_entities": {
+    "media": [
+      {
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "resize": "crop",
+            "h": 150
+          },
+          "small": {
+            "w": 340,
+            "resize": "fit",
+            "h": 226
+          },
+          "large": {
+            "w": 720,
+            "resize": "fit",
+            "h": 479
+          },
+          "medium": {
+            "w": 600,
+            "resize": "fit",
+            "h": 399
+          }
+        },
+        "source_user_id": 2852015160,
+        "media_url": "http://pbs.twimg.com/media/CSZbeugVEAAQEZJ.jpg",
+        "display_url": "pic.twitter.com/FpKinEZQwG",
+        "type": "photo",
+        "url": "https://t.co/FpKinEZQwG",
+        "id": 659314978894188544,
+        "media_url_https": "https://pbs.twimg.com/media/CSZbeugVEAAQEZJ.jpg",
+        "expanded_url": "http://twitter.com/MattaABVP/status/659314981851103232/photo/1",
+        "source_user_id_str": "2852015160",
+        "indices": [
+          139,
+          140
+        ],
+        "source_status_id_str": "659314981851103232",
+        "source_status_id": 659314981851103232,
+        "id_str": "659314978894188544"
+      }
+    ]
+  },
+  "in_reply_to_user_id_str": null,
+  "timestamp_ms": "1446065970842",
+  "in_reply_to_status_id": null,
+  "created_at": "Wed Oct 28 20:59:30 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "RT @MattaABVP: @Khalsa_Aid providg blankets and food tothe Syrian Refugees in Syria #SyrianRefugees\n@tajinderbagga @impreetsbakshi https://…",
+  "contributors": null,
+  "retweeted_status": {
+    "filter_level": "low",
+    "retweeted": false,
+    "in_reply_to_screen_name": "Khalsa_Aid",
+    "possibly_sensitive": false,
+    "truncated": false,
+    "lang": "en",
+    "in_reply_to_status_id_str": null,
+    "id": 659314981851103232,
+    "extended_entities": {
+      "media": [
+        {
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "resize": "crop",
+              "h": 150
+            },
+            "small": {
+              "w": 340,
+              "resize": "fit",
+              "h": 226
+            },
+            "large": {
+              "w": 720,
+              "resize": "fit",
+              "h": 479
+            },
+            "medium": {
+              "w": 600,
+              "resize": "fit",
+              "h": 399
+            }
+          },
+          "id": 659314978894188544,
+          "media_url_https": "https://pbs.twimg.com/media/CSZbeugVEAAQEZJ.jpg",
+          "media_url": "http://pbs.twimg.com/media/CSZbeugVEAAQEZJ.jpg",
+          "expanded_url": "http://twitter.com/MattaABVP/status/659314981851103232/photo/1",
+          "indices": [
+            116,
+            139
+          ],
+          "id_str": "659314978894188544",
+          "type": "photo",
+          "display_url": "pic.twitter.com/FpKinEZQwG",
+          "url": "https://t.co/FpKinEZQwG"
+        }
+      ]
+    },
+    "in_reply_to_user_id_str": "102391534",
+    "in_reply_to_status_id": null,
+    "created_at": "Wed Oct 28 10:25:15 +0000 2015",
+    "favorite_count": 15,
+    "place": null,
+    "coordinates": null,
+    "text": "@Khalsa_Aid providg blankets and food tothe Syrian Refugees in Syria #SyrianRefugees\n@tajinderbagga @impreetsbakshi https://t.co/FpKinEZQwG",
+    "contributors": null,
+    "geo": null,
+    "entities": {
+      "symbols": [],
+      "urls": [],
+      "hashtags": [
+        {
+          "text": "SyrianRefugees",
+          "indices": [
+            69,
+            84
+          ]
+        }
+      ],
+      "media": [
+        {
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "resize": "crop",
+              "h": 150
+            },
+            "small": {
+              "w": 340,
+              "resize": "fit",
+              "h": 226
+            },
+            "large": {
+              "w": 720,
+              "resize": "fit",
+              "h": 479
+            },
+            "medium": {
+              "w": 600,
+              "resize": "fit",
+              "h": 399
+            }
+          },
+          "id": 659314978894188544,
+          "media_url_https": "https://pbs.twimg.com/media/CSZbeugVEAAQEZJ.jpg",
+          "media_url": "http://pbs.twimg.com/media/CSZbeugVEAAQEZJ.jpg",
+          "expanded_url": "http://twitter.com/MattaABVP/status/659314981851103232/photo/1",
+          "indices": [
+            116,
+            139
+          ],
+          "id_str": "659314978894188544",
+          "type": "photo",
+          "display_url": "pic.twitter.com/FpKinEZQwG",
+          "url": "https://t.co/FpKinEZQwG"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id": 102391534,
+          "name": "Khalsa Aid",
+          "indices": [
+            0,
+            11
+          ],
+          "screen_name": "Khalsa_Aid",
+          "id_str": "102391534"
+        },
+        {
+          "id": 85462891,
+          "name": "Tajinder Pal S Bagga",
+          "indices": [
+            85,
+            99
+          ],
+          "screen_name": "tajinderbagga",
+          "id_str": "85462891"
+        },
+        {
+          "id": 288709863,
+          "name": "impreet singh bakshi",
+          "indices": [
+            100,
+            115
+          ],
+          "screen_name": "impreetsbakshi",
+          "id_str": "288709863"
+        }
+      ]
+    },
+    "is_quote_status": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "favorited": false,
+    "in_reply_to_user_id": 102391534,
+    "retweet_count": 14,
+    "id_str": "659314981851103232",
+    "user": {
+      "location": "New Delhi, Delhi",
+      "default_profile": true,
+      "profile_background_tile": false,
+      "statuses_count": 313,
+      "lang": "en",
+      "profile_link_color": "0084B4",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2852015160/1436421117",
+      "id": 2852015160,
+      "following": null,
+      "protected": false,
+      "favourites_count": 626,
+      "profile_text_color": "333333",
+      "verified": false,
+      "description": "Special Invitee,ABVP Delhi State,\nex Joint-secretary ABVP Delhi state,  EX DUSU Executive Councillor, Ex- central councillor Sgtb KHALSA college students' union",
+      "contributors_enabled": false,
+      "profile_sidebar_border_color": "C0DEED",
+      "name": "Jaspreet Matta",
+      "profile_background_color": "C0DEED",
+      "created_at": "Sat Oct 11 14:14:04 +0000 2014",
+      "default_profile_image": false,
+      "followers_count": 136,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/646344218026184704/SopKcSg3_normal.jpg",
+      "geo_enabled": true,
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "follow_request_sent": null,
+      "url": null,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "notifications": null,
+      "profile_use_background_image": true,
+      "friends_count": 58,
+      "profile_sidebar_fill_color": "DDEEF6",
+      "screen_name": "MattaABVP",
+      "id_str": "2852015160",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/646344218026184704/SopKcSg3_normal.jpg",
+      "listed_count": 3,
+      "is_translator": false
+    }
+  },
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [],
+    "hashtags": [
+      {
+        "text": "SyrianRefugees",
+        "indices": [
+          84,
+          99
+        ]
+      }
+    ],
+    "media": [
+      {
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "resize": "crop",
+            "h": 150
+          },
+          "small": {
+            "w": 340,
+            "resize": "fit",
+            "h": 226
+          },
+          "large": {
+            "w": 720,
+            "resize": "fit",
+            "h": 479
+          },
+          "medium": {
+            "w": 600,
+            "resize": "fit",
+            "h": 399
+          }
+        },
+        "source_user_id": 2852015160,
+        "media_url": "http://pbs.twimg.com/media/CSZbeugVEAAQEZJ.jpg",
+        "display_url": "pic.twitter.com/FpKinEZQwG",
+        "type": "photo",
+        "url": "https://t.co/FpKinEZQwG",
+        "id": 659314978894188544,
+        "media_url_https": "https://pbs.twimg.com/media/CSZbeugVEAAQEZJ.jpg",
+        "expanded_url": "http://twitter.com/MattaABVP/status/659314981851103232/photo/1",
+        "source_user_id_str": "2852015160",
+        "indices": [
+          139,
+          140
+        ],
+        "source_status_id_str": "659314981851103232",
+        "source_status_id": 659314981851103232,
+        "id_str": "659314978894188544"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id": 2852015160,
+        "name": "Jaspreet Matta",
+        "indices": [
+          3,
+          13
+        ],
+        "screen_name": "MattaABVP",
+        "id_str": "2852015160"
+      },
+      {
+        "id": 102391534,
+        "name": "Khalsa Aid",
+        "indices": [
+          15,
+          26
+        ],
+        "screen_name": "Khalsa_Aid",
+        "id_str": "102391534"
+      },
+      {
+        "id": 85462891,
+        "name": "Tajinder Pal S Bagga",
+        "indices": [
+          100,
+          114
+        ],
+        "screen_name": "tajinderbagga",
+        "id_str": "85462891"
+      },
+      {
+        "id": 288709863,
+        "name": "impreet singh bakshi",
+        "indices": [
+          115,
+          130
+        ],
+        "screen_name": "impreetsbakshi",
+        "id_str": "288709863"
+      }
+    ]
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+  "favorited": false,
+  "in_reply_to_user_id": null,
+  "retweet_count": 0,
+  "id_str": "659474596224086016",
+  "user": {
+    "location": null,
+    "default_profile": true,
+    "profile_background_tile": false,
+    "statuses_count": 2294,
+    "lang": "en",
+    "profile_link_color": "0084B4",
+    "id": 2883012114,
+    "following": null,
+    "protected": false,
+    "favourites_count": 1818,
+    "profile_text_color": "333333",
+    "verified": false,
+    "description": null,
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "C0DEED",
+    "name": "Aaryann",
+    "profile_background_color": "C0DEED",
+    "created_at": "Thu Oct 30 07:47:55 +0000 2014",
+    "default_profile_image": false,
+    "followers_count": 47,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/597335521711394816/MTDxSNh7_normal.jpg",
+    "geo_enabled": false,
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "follow_request_sent": null,
+    "url": null,
+    "utc_offset": null,
+    "time_zone": null,
+    "notifications": null,
+    "profile_use_background_image": true,
+    "friends_count": 173,
+    "profile_sidebar_fill_color": "DDEEF6",
+    "screen_name": "Aarav2006Ami",
+    "id_str": "2883012114",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/597335521711394816/MTDxSNh7_normal.jpg",
+    "listed_count": 4,
+    "is_translator": false
+  }
+}
+
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": null,
+  "truncated": false,
+  "lang": "de",
+  "in_reply_to_status_id_str": null,
+  "id": 659474596798857220,
+  "in_reply_to_user_id_str": null,
+  "timestamp_ms": "1446065970979",
+  "in_reply_to_status_id": null,
+  "created_at": "Wed Oct 28 20:59:30 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "RT @pmaurus: Selten eine so gute Stimmung erlebt. Willkommenskultur in Meschede läuft. #refugeeswelcome",
+  "contributors": null,
+  "retweeted_status": {
+    "filter_level": "low",
+    "contributors": null,
+    "text": "Selten eine so gute Stimmung erlebt. Willkommenskultur in Meschede läuft. #refugeeswelcome",
+    "geo": null,
+    "retweeted": false,
+    "in_reply_to_screen_name": null,
+    "truncated": false,
+    "lang": "de",
+    "entities": {
+      "symbols": [],
+      "urls": [],
+      "hashtags": [
+        {
+          "text": "refugeeswelcome",
+          "indices": [
+            74,
+            90
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "in_reply_to_status_id_str": null,
+    "is_quote_status": false,
+    "id": 659458972458557441,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_user_id_str": null,
+    "favorited": false,
+    "in_reply_to_status_id": null,
+    "retweet_count": 3,
+    "created_at": "Wed Oct 28 19:57:25 +0000 2015",
+    "in_reply_to_user_id": null,
+    "favorite_count": 11,
+    "id_str": "659458972458557441",
+    "place": {
+      "id": "4c80f3824798be14",
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.096014,
+              51.250688
+            ],
+            [
+              8.096014,
+              51.410769
+            ],
+            [
+              8.374137,
+              51.410769
+            ],
+            [
+              8.374137,
+              51.250688
+            ]
+          ]
+        ]
+      },
+      "place_type": "city",
+      "name": "Meschede",
+      "attributes": {},
+      "country_code": "DE",
+      "url": "https://api.twitter.com/1.1/geo/id/4c80f3824798be14.json",
+      "country": "Deutschland",
+      "full_name": "Meschede, Nordrhein-Westfalen"
+    },
+    "user": {
+      "location": "Überall da, wo es Netz gibt",
+      "default_profile": false,
+      "profile_background_tile": false,
+      "statuses_count": 33823,
+      "lang": "de",
+      "profile_link_color": "DD2E44",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2479372952/1442823082",
+      "id": 2479372952,
+      "following": null,
+      "protected": false,
+      "favourites_count": 17042,
+      "profile_text_color": "333333",
+      "verified": false,
+      "description": "Hinter diesem Account sitzt ein Mensch.  Nie mehr Zweite Liga. Erfolgsfan des 1. FC Köln. Experte in #Effzeh #Neuland #Tatort #Kirche #Bahnfahren",
+      "contributors_enabled": false,
+      "profile_sidebar_border_color": "FFFFFF",
+      "name": "Maurus Runge",
+      "profile_background_color": "DD2E44",
+      "created_at": "Tue May 06 06:36:10 +0000 2014",
+      "default_profile_image": false,
+      "followers_count": 1149,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/635886277477269504/Q0qzIiuy_normal.png",
+      "geo_enabled": true,
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "follow_request_sent": null,
+      "url": null,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "notifications": null,
+      "profile_use_background_image": true,
+      "friends_count": 1164,
+      "profile_sidebar_fill_color": "DDEEF6",
+      "screen_name": "pmaurus",
+      "id_str": "2479372952",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/635886277477269504/Q0qzIiuy_normal.png",
+      "listed_count": 85,
+      "is_translator": false
+    },
+    "coordinates": null
+  },
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [],
+    "hashtags": [
+      {
+        "text": "refugeeswelcome",
+        "indices": [
+          87,
+          103
+        ]
+      }
+    ],
+    "user_mentions": [
+      {
+        "id": 2479372952,
+        "name": "Maurus Runge",
+        "indices": [
+          3,
+          11
+        ],
+        "screen_name": "pmaurus",
+        "id_str": "2479372952"
+      }
+    ]
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "favorited": false,
+  "in_reply_to_user_id": null,
+  "retweet_count": 0,
+  "id_str": "659474596798857220",
+  "user": {
+    "location": "Winterberg",
+    "default_profile": false,
+    "profile_background_tile": false,
+    "statuses_count": 1389,
+    "lang": "nl",
+    "profile_link_color": "2FC2EF",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/951833365/1446059838",
+    "id": 951833365,
+    "following": null,
+    "protected": false,
+    "favourites_count": 397,
+    "profile_text_color": "666666",
+    "verified": false,
+    "description": "Love People, food, books, nature, social Responsibility and Sauerlandi. Hate polluters, fake, criminal people",
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "181A1E",
+    "name": "Simone Bosman-Zomer",
+    "profile_background_color": "1A1B1F",
+    "created_at": "Fri Nov 16 14:54:05 +0000 2012",
+    "default_profile_image": false,
+    "followers_count": 79,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2856614914/a09322e065c2dd4ba87a66aedbe63910_normal.jpeg",
+    "geo_enabled": true,
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "follow_request_sent": null,
+    "url": null,
+    "utc_offset": 3600,
+    "time_zone": "Amsterdam",
+    "notifications": null,
+    "profile_use_background_image": true,
+    "friends_count": 108,
+    "profile_sidebar_fill_color": "252429",
+    "screen_name": "SimoneBosmanZom",
+    "id_str": "951833365",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/2856614914/a09322e065c2dd4ba87a66aedbe63910_normal.jpeg",
+    "listed_count": 5,
+    "is_translator": false
+  }
+}
+
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": null,
+  "truncated": false,
+  "lang": "de",
+  "in_reply_to_status_id_str": null,
+  "id": 659474608907755520,
+  "in_reply_to_user_id_str": null,
+  "timestamp_ms": "1446065973866",
+  "in_reply_to_status_id": null,
+  "created_at": "Wed Oct 28 20:59:33 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "#CDU + #SPD kommen mit #Abschiebungen der vielen illegalen #Asyl-Forderer nicht in die Puschen. @CSU @Junge_Freiheit @faznet @AfD_Bund @CDU",
+  "contributors": null,
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [],
+    "hashtags": [
+      {
+        "text": "CDU",
+        "indices": [
+          0,
+          4
+        ]
+      },
+      {
+        "text": "SPD",
+        "indices": [
+          7,
+          11
+        ]
+      },
+      {
+        "text": "Abschiebungen",
+        "indices": [
+          23,
+          37
+        ]
+      },
+      {
+        "text": "Asyl",
+        "indices": [
+          59,
+          64
+        ]
+      }
+    ],
+    "user_mentions": [
+      {
+        "id": 21107582,
+        "name": "CSU",
+        "indices": [
+          96,
+          100
+        ],
+        "screen_name": "CSU",
+        "id_str": "21107582"
+      },
+      {
+        "id": 32850100,
+        "name": "Junge Freiheit",
+        "indices": [
+          101,
+          116
+        ],
+        "screen_name": "Junge_Freiheit",
+        "id_str": "32850100"
+      },
+      {
+        "id": 18047862,
+        "name": "FAZ.NET",
+        "indices": [
+          117,
+          124
+        ],
+        "screen_name": "faznet",
+        "id_str": "18047862"
+      },
+      {
+        "id": 844081278,
+        "name": "Alternative für DE",
+        "indices": [
+          125,
+          134
+        ],
+        "screen_name": "AfD_Bund",
+        "id_str": "844081278"
+      },
+      {
+        "id": 20429858,
+        "name": "CDU Deutschlands",
+        "indices": [
+          135,
+          139
+        ],
+        "screen_name": "CDU",
+        "id_str": "20429858"
+      }
+    ]
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "favorited": false,
+  "in_reply_to_user_id": null,
+  "retweet_count": 0,
+  "id_str": "659474608907755520",
+  "user": {
+    "location": null,
+    "default_profile": true,
+    "profile_background_tile": false,
+    "statuses_count": 750,
+    "lang": "de",
+    "profile_link_color": "0084B4",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/913009520/1419962473",
+    "id": 913009520,
+    "following": null,
+    "protected": false,
+    "favourites_count": 43,
+    "profile_text_color": "333333",
+    "verified": false,
+    "description": "Omma und Oppa haben schon so manche Wirren der Weltgeschichte miterlebt. Die beiden Urgesteine nehmen mit ihren Kommentaren regen Anteil am Zeitgeschehen.",
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "C0DEED",
+    "name": "ommaundoppa",
+    "profile_background_color": "C0DEED",
+    "created_at": "Mon Oct 29 18:46:18 +0000 2012",
+    "default_profile_image": false,
+    "followers_count": 35,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2783774674/bb63aec11a71b7ebf2953af5d41ac781_normal.jpeg",
+    "geo_enabled": false,
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "follow_request_sent": null,
+    "url": null,
+    "utc_offset": 3600,
+    "time_zone": "Amsterdam",
+    "notifications": null,
+    "profile_use_background_image": true,
+    "friends_count": 26,
+    "profile_sidebar_fill_color": "DDEEF6",
+    "screen_name": "ommaundoppa",
+    "id_str": "913009520",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/2783774674/bb63aec11a71b7ebf2953af5d41ac781_normal.jpeg",
+    "listed_count": 5,
+    "is_translator": false
+  }
+}
+
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": null,
+  "possibly_sensitive": false,
+  "truncated": false,
+  "lang": "de",
+  "in_reply_to_status_id_str": null,
+  "id": 659474667263143936,
+  "in_reply_to_user_id_str": null,
+  "timestamp_ms": "1446065987779",
+  "in_reply_to_status_id": null,
+  "created_at": "Wed Oct 28 20:59:47 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "RT @hdBerretz: Offensichtlicher Rechtsmissbrauch, der auch geahndet werden sollte! Absurde Hochverratsanzeigen gegen #Merkel. https://t.co/…",
+  "contributors": null,
+  "retweeted_status": {
+    "filter_level": "low",
+    "retweeted": false,
+    "in_reply_to_screen_name": null,
+    "possibly_sensitive": false,
+    "truncated": false,
+    "lang": "de",
+    "in_reply_to_status_id_str": null,
+    "id": 659470930834542592,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_status_id": null,
+    "created_at": "Wed Oct 28 20:44:56 +0000 2015",
+    "favorite_count": 3,
+    "place": null,
+    "coordinates": null,
+    "text": "Offensichtlicher Rechtsmissbrauch, der auch geahndet werden sollte! Absurde Hochverratsanzeigen gegen #Merkel. https://t.co/yPAdyiuQN8",
+    "contributors": null,
+    "geo": null,
+    "entities": {
+      "symbols": [],
+      "urls": [
+        {
+          "expanded_url": "http://www.taz.de/Rechte-Kampagne/!5245492/",
+          "indices": [
+            111,
+            134
+          ],
+          "display_url": "taz.de/Rechte-Kampagn…",
+          "url": "https://t.co/yPAdyiuQN8"
+        }
+      ],
+      "hashtags": [
+        {
+          "text": "Merkel",
+          "indices": [
+            102,
+            109
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "is_quote_status": false,
+    "source": "<a href=\"http://www.apple.com/\" rel=\"nofollow\">OS X</a>",
+    "favorited": false,
+    "in_reply_to_user_id": null,
+    "retweet_count": 5,
+    "id_str": "659470930834542592",
+    "user": {
+      "location": "Köln",
+      "default_profile": false,
+      "profile_background_tile": true,
+      "statuses_count": 105465,
+      "lang": "de",
+      "profile_link_color": "000A0A",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/59663522/1419991146",
+      "id": 59663522,
+      "following": null,
+      "protected": false,
+      "favourites_count": 186,
+      "profile_text_color": "333333",
+      "verified": false,
+      "description": "Wer nichts versucht, dem kann nichts gelingen. \nSatire nicht ausgeschlossen!",
+      "contributors_enabled": false,
+      "profile_sidebar_border_color": "FFFFFF",
+      "name": "hdb",
+      "profile_background_color": "131516",
+      "created_at": "Fri Jul 24 02:22:14 +0000 2009",
+      "default_profile_image": false,
+      "followers_count": 2958,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/548874200102879234/jOo5AkMZ_normal.png",
+      "geo_enabled": true,
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/771607050/371fc32051fa40b2bbe7e9b8b746ac15.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/771607050/371fc32051fa40b2bbe7e9b8b746ac15.jpeg",
+      "follow_request_sent": null,
+      "url": "http://berretz.de",
+      "utc_offset": 3600,
+      "time_zone": "Bern",
+      "notifications": null,
+      "profile_use_background_image": true,
+      "friends_count": 1279,
+      "profile_sidebar_fill_color": "EFEFEF",
+      "screen_name": "hdBerretz",
+      "id_str": "59663522",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/548874200102879234/jOo5AkMZ_normal.png",
+      "listed_count": 163,
+      "is_translator": false
+    }
+  },
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [
+      {
+        "expanded_url": "http://www.taz.de/Rechte-Kampagne/!5245492/",
+        "indices": [
+          126,
+          140
+        ],
+        "display_url": "taz.de/Rechte-Kampagn…",
+        "url": "https://t.co/yPAdyiuQN8"
+      }
+    ],
+    "hashtags": [
+      {
+        "text": "Merkel",
+        "indices": [
+          117,
+          124
+        ]
+      }
+    ],
+    "user_mentions": [
+      {
+        "id": 59663522,
+        "name": "hdb",
+        "indices": [
+          3,
+          13
+        ],
+        "screen_name": "hdBerretz",
+        "id_str": "59663522"
+      }
+    ]
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+  "favorited": false,
+  "in_reply_to_user_id": null,
+  "retweet_count": 0,
+  "id_str": "659474667263143936",
+  "user": {
+    "location": "Berlin",
+    "default_profile": false,
+    "profile_background_tile": false,
+    "statuses_count": 171141,
+    "lang": "de",
+    "profile_link_color": "2FC2EF",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/262222386/1356043875",
+    "id": 262222386,
+    "following": null,
+    "protected": false,
+    "favourites_count": 451,
+    "profile_text_color": "666666",
+    "verified": false,
+    "description": "Kanzler.Berater, Hobby.Stalker, Anthropologe und ledig @ Andreas'Otto'Institute'For'Strategic'Love'And'Happiness @ Stichwort: Neger und Autobahn",
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "181A1E",
+    "name": "Andreas Otto",
+    "profile_background_color": "1A1B1F",
+    "created_at": "Mon Mar 07 16:32:20 +0000 2011",
+    "default_profile_image": false,
+    "followers_count": 7550,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/657657091981770752/aqzNxEHH_normal.jpg",
+    "geo_enabled": false,
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "follow_request_sent": null,
+    "url": "http://www.bundesregierung.de/Webs/Breg/DE/Bundesregierung/Bundeskanzleramt/_node.html",
+    "utc_offset": 3600,
+    "time_zone": "Berlin",
+    "notifications": null,
+    "profile_use_background_image": true,
+    "friends_count": 4935,
+    "profile_sidebar_fill_color": "252429",
+    "screen_name": "aotto1968_2",
+    "id_str": "262222386",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/657657091981770752/aqzNxEHH_normal.jpg",
+    "listed_count": 189,
+    "is_translator": false
+  }
+}
+
+{
+  "filter_level": "low",
+  "retweeted": false,
+  "in_reply_to_screen_name": null,
+  "possibly_sensitive": false,
+  "truncated": false,
+  "lang": "de",
+  "in_reply_to_status_id_str": null,
+  "id": 659474747265327104,
+  "extended_entities": {
+    "media": [
+      {
+        "sizes": {
+          "small": {
+            "w": 340,
+            "resize": "fit",
+            "h": 192
+          },
+          "thumb": {
+            "w": 150,
+            "resize": "crop",
+            "h": 150
+          },
+          "medium": {
+            "w": 600,
+            "resize": "fit",
+            "h": 339
+          },
+          "large": {
+            "w": 1008,
+            "resize": "fit",
+            "h": 570
+          }
+        },
+        "source_user_id": 2784404997,
+        "media_url": "http://pbs.twimg.com/media/CSbl0UxWEAAV5SC.jpg",
+        "display_url": "pic.twitter.com/e31CE7woh2",
+        "type": "photo",
+        "url": "https://t.co/e31CE7woh2",
+        "id": 659467082547990528,
+        "media_url_https": "https://pbs.twimg.com/media/CSbl0UxWEAAV5SC.jpg",
+        "expanded_url": "http://twitter.com/Hoecke_Bjoern/status/659467560342192128/photo/1",
+        "source_user_id_str": "2784404997",
+        "indices": [
+          139,
+          140
+        ],
+        "source_status_id_str": "659467560342192128",
+        "source_status_id": 659467560342192128,
+        "id_str": "659467082547990528"
+      }
+    ]
+  },
+  "in_reply_to_user_id_str": null,
+  "timestamp_ms": "1446066006853",
+  "in_reply_to_status_id": null,
+  "created_at": "Wed Oct 28 21:00:06 +0000 2015",
+  "favorite_count": 0,
+  "place": null,
+  "coordinates": null,
+  "text": "RT @Hoecke_Bjoern: Denken Sie an dieses Bild aus #Erfurt, wenn Medien die Teilnehmerzahlen der #AfD-Demo heute mal wieder kleinreden! https…",
+  "contributors": null,
+  "retweeted_status": {
+    "filter_level": "low",
+    "retweeted": false,
+    "in_reply_to_screen_name": null,
+    "possibly_sensitive": false,
+    "truncated": false,
+    "lang": "de",
+    "in_reply_to_status_id_str": null,
+    "id": 659467560342192128,
+    "extended_entities": {
+      "media": [
+        {
+          "sizes": {
+            "small": {
+              "w": 340,
+              "resize": "fit",
+              "h": 192
+            },
+            "thumb": {
+              "w": 150,
+              "resize": "crop",
+              "h": 150
+            },
+            "medium": {
+              "w": 600,
+              "resize": "fit",
+              "h": 339
+            },
+            "large": {
+              "w": 1008,
+              "resize": "fit",
+              "h": 570
+            }
+          },
+          "id": 659467082547990528,
+          "media_url_https": "https://pbs.twimg.com/media/CSbl0UxWEAAV5SC.jpg",
+          "media_url": "http://pbs.twimg.com/media/CSbl0UxWEAAV5SC.jpg",
+          "expanded_url": "http://twitter.com/Hoecke_Bjoern/status/659467560342192128/photo/1",
+          "indices": [
+            115,
+            138
+          ],
+          "id_str": "659467082547990528",
+          "type": "photo",
+          "display_url": "pic.twitter.com/e31CE7woh2",
+          "url": "https://t.co/e31CE7woh2"
+        }
+      ]
+    },
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_status_id": null,
+    "created_at": "Wed Oct 28 20:31:33 +0000 2015",
+    "favorite_count": 8,
+    "place": null,
+    "coordinates": null,
+    "text": "Denken Sie an dieses Bild aus #Erfurt, wenn Medien die Teilnehmerzahlen der #AfD-Demo heute mal wieder kleinreden! https://t.co/e31CE7woh2",
+    "contributors": null,
+    "geo": null,
+    "entities": {
+      "symbols": [],
+      "urls": [],
+      "hashtags": [
+        {
+          "text": "Erfurt",
+          "indices": [
+            30,
+            37
+          ]
+        },
+        {
+          "text": "AfD",
+          "indices": [
+            76,
+            80
+          ]
+        }
+      ],
+      "media": [
+        {
+          "sizes": {
+            "small": {
+              "w": 340,
+              "resize": "fit",
+              "h": 192
+            },
+            "thumb": {
+              "w": 150,
+              "resize": "crop",
+              "h": 150
+            },
+            "medium": {
+              "w": 600,
+              "resize": "fit",
+              "h": 339
+            },
+            "large": {
+              "w": 1008,
+              "resize": "fit",
+              "h": 570
+            }
+          },
+          "id": 659467082547990528,
+          "media_url_https": "https://pbs.twimg.com/media/CSbl0UxWEAAV5SC.jpg",
+          "media_url": "http://pbs.twimg.com/media/CSbl0UxWEAAV5SC.jpg",
+          "expanded_url": "http://twitter.com/Hoecke_Bjoern/status/659467560342192128/photo/1",
+          "indices": [
+            115,
+            138
+          ],
+          "id_str": "659467082547990528",
+          "type": "photo",
+          "display_url": "pic.twitter.com/e31CE7woh2",
+          "url": "https://t.co/e31CE7woh2"
+        }
+      ],
+      "user_mentions": []
+    },
+    "is_quote_status": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "favorited": false,
+    "in_reply_to_user_id": null,
+    "retweet_count": 13,
+    "id_str": "659467560342192128",
+    "user": {
+      "location": "Deutschland ",
+      "default_profile": true,
+      "profile_background_tile": false,
+      "statuses_count": 651,
+      "lang": "de",
+      "profile_link_color": "0084B4",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2784404997/1444839870",
+      "id": 2784404997,
+      "following": null,
+      "protected": false,
+      "favourites_count": 286,
+      "profile_text_color": "333333",
+      "verified": false,
+      "description": "Unterstützungsaccount für Björn Höcke, MdL Thüringen (NICHT persönlich)",
+      "contributors_enabled": false,
+      "profile_sidebar_border_color": "C0DEED",
+      "name": "Herbstoffensive2015",
+      "profile_background_color": "C0DEED",
+      "created_at": "Thu Sep 25 21:31:53 +0000 2014",
+      "default_profile_image": false,
+      "followers_count": 340,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/654376509189304320/LysXLgJi_normal.jpg",
+      "geo_enabled": false,
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "follow_request_sent": null,
+      "url": "https://m.facebook.com/events/499345550233932?refid=17&__tn__=C#",
+      "utc_offset": null,
+      "time_zone": null,
+      "notifications": null,
+      "profile_use_background_image": true,
+      "friends_count": 339,
+      "profile_sidebar_fill_color": "DDEEF6",
+      "screen_name": "Hoecke_Bjoern",
+      "id_str": "2784404997",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/654376509189304320/LysXLgJi_normal.jpg",
+      "listed_count": 9,
+      "is_translator": false
+    }
+  },
+  "geo": null,
+  "entities": {
+    "symbols": [],
+    "urls": [],
+    "hashtags": [
+      {
+        "text": "Erfurt",
+        "indices": [
+          49,
+          56
+        ]
+      },
+      {
+        "text": "AfD",
+        "indices": [
+          95,
+          99
+        ]
+      }
+    ],
+    "media": [
+      {
+        "sizes": {
+          "small": {
+            "w": 340,
+            "resize": "fit",
+            "h": 192
+          },
+          "thumb": {
+            "w": 150,
+            "resize": "crop",
+            "h": 150
+          },
+          "medium": {
+            "w": 600,
+            "resize": "fit",
+            "h": 339
+          },
+          "large": {
+            "w": 1008,
+            "resize": "fit",
+            "h": 570
+          }
+        },
+        "source_user_id": 2784404997,
+        "media_url": "http://pbs.twimg.com/media/CSbl0UxWEAAV5SC.jpg",
+        "display_url": "pic.twitter.com/e31CE7woh2",
+        "type": "photo",
+        "url": "https://t.co/e31CE7woh2",
+        "id": 659467082547990528,
+        "media_url_https": "https://pbs.twimg.com/media/CSbl0UxWEAAV5SC.jpg",
+        "expanded_url": "http://twitter.com/Hoecke_Bjoern/status/659467560342192128/photo/1",
+        "source_user_id_str": "2784404997",
+        "indices": [
+          139,
+          140
+        ],
+        "source_status_id_str": "659467560342192128",
+        "source_status_id": 659467560342192128,
+        "id_str": "659467082547990528"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id": 2784404997,
+        "name": "Herbstoffensive2015",
+        "indices": [
+          3,
+          17
+        ],
+        "screen_name": "Hoecke_Bjoern",
+        "id_str": "2784404997"
+      }
+    ]
+  },
+  "is_quote_status": false,
+  "source": "<a href=\"http://twicca.r246.jp/\" rel=\"nofollow\">twicca</a>",
+  "favorited": false,
+  "in_reply_to_user_id": null,
+  "retweet_count": 0,
+  "id_str": "659474747265327104",
+  "user": {
+    "location": null,
+    "default_profile": false,
+    "profile_background_tile": false,
+    "statuses_count": 30322,
+    "lang": "de",
+    "profile_link_color": "618238",
+    "id": 382248824,
+    "following": null,
+    "protected": false,
+    "favourites_count": 3483,
+    "profile_text_color": "485C3A",
+    "verified": false,
+    "description": "Blökt nicht mit den Mainstream-Schafen.",
+    "contributors_enabled": false,
+    "profile_sidebar_border_color": "204207",
+    "name": "Max Musil",
+    "profile_background_color": "000000",
+    "created_at": "Thu Sep 29 18:55:54 +0000 2011",
+    "default_profile_image": false,
+    "followers_count": 4239,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1597025454/JaderElefant_normal.jpg",
+    "geo_enabled": false,
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/444771232/x65a889a25d08abf0906bcbf597ef2c0.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/444771232/x65a889a25d08abf0906bcbf597ef2c0.jpg",
+    "follow_request_sent": null,
+    "url": null,
+    "utc_offset": 3600,
+    "time_zone": "Bern",
+    "notifications": null,
+    "profile_use_background_image": true,
+    "friends_count": 3944,
+    "profile_sidebar_fill_color": "060A00",
+    "screen_name": "MaxMusil",
+    "id_str": "382248824",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1597025454/JaderElefant_normal.jpg",
+    "listed_count": 69,
+    "is_translator": false
+  }
+}

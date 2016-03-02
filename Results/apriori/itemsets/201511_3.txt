@@ -1,0 +1,6 @@
+Key: [bay, ticket, deutschland]: Value: 3263
+Key: [cdu, spd, csu]: Value: 2561
+Key: [deutschland, sportsevent, sportevent]: Value: 2523
+Key: [deutschland, ticket, sportevent]: Value: 5031
+Key: [deutschland, ticket, sportsevent]: Value: 5094
+Key: [sportevent, ticket, sportsevent]: Value: 2523

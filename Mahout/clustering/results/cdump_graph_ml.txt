@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/><key attr.name="size" attr.type="int" for="node" id="size"/><key attr.name="weight" attr.type="float" for="edge" id="weight"/><key attr.name="x" attr.type="float" for="node" id="x"/><key attr.name="y" attr.type="float" for="node" id="y"/><graph edgedefault="undirected"><node id="6117_eu_cookie_law_richtlinie_wp_umsetzung_wordpress_hilfe_gt_spenden"><data key="r">20</data><data key="g">0</data><data key="b">0</data><data key="x">1000.0</data><data key="y">0.0</data></node>
+<node id="8194_liste_bundestag_lobbyisten_hausausweis_angaben_a_watch_fehlerhaft_korrigieren_tagesspiegel_rt"><data key="r">40</data><data key="g">0</data><data key="b">0</data><data key="x">0.0</data><data key="y">1000.0</data></node>
+<node id="5048_asyl_flüchtlinge_rt_gehört_übernormal_csu_fluechtlinge_merkel_liebe_traumatisierten"><data key="r">60</data><data key="g">0</data><data key="b">0</data><data key="x">1000.0</data><data key="y">1000.0</data></node>
+<node id="2322_dass_lassen_bürger_spalten_kommt_rt_zdfheute_2016_sagt_darauf"><data key="r">80</data><data key="g">0</data><data key="b">0</data><data key="x">0.0</data><data key="y">2000.0</data></node>
+<node id="10499_europa_deutsche_herzen_tut_lügenpresse_kalten_merkel_rt_ausgerechnet_schwafelt"><data key="r">100</data><data key="g">0</data><data key="b">0</data><data key="x">1000.0</data><data key="y">2000.0</data></node>
+<node id="10699_nopegida_bachmann_terrorwarnung_münchen_silvester_punkt_flecks_endgültig_überschritten_rt"><data key="r">120</data><data key="g">0</data><data key="b">0</data><data key="x">0.0</data><data key="y">3000.0</data></node>
+<node id="9240_politik_achtung_sah_besorgten_folgt_sare_____bildung_sagen_bürger_nopegida"><data key="r">140</data><data key="g">0</data><data key="b">0</data><data key="x">1000.0</data><data key="y">3000.0</data></node>
+<node id="2108_berlin_nachrichten_deutschland_jobs_helfer_stellenangebote_germany_travel_deutschlernen_brandenburg"><data key="r">160</data><data key="g">0</data><data key="b">0</data><data key="x">0.0</data><data key="y">4000.0</data></node>
+<node id="3709_pegida_amazon_spendet_hymne_rt_hilft_einnahmen_erlöse_flüchtlinge_downloads"><data key="r">180</data><data key="g">0</data><data key="b">0</data><data key="x">1000.0</data><data key="y">4000.0</data></node>
+<node id="4435_afd_rt_elite_tat_höcke_pegida_ss_andreaskemper_drei_entwickeln"><data key="r">200</data><data key="g">0</data><data key="b">0</data><data key="x">0.0</data><data key="y">5000.0</data></node>
+<node id="6043_refugeeswelcome_2015_netz_hetze_rt_wichtig_vs_trainofhope_moabithilft_jahr"><data key="r">220</data><data key="g">0</data><data key="b">0</data><data key="x">1000.0</data><data key="y">5000.0</data></node>
+<node id="6640_ja_integration_rt_darksideoftheeg_untertiteln_arabischen_ansprache_versehen_merkel_mil"><data key="r">240</data><data key="g">0</data><data key="b">0</data><data key="x">0.0</data><data key="y">6000.0</data></node>
+<node id="6321_ab_seehofer_horst_https_rt_flüchtlinge_einzelfallprüfung_asylbewerber_lieber_demokratische"><data key="r">240</data><data key="g">20</data><data key="b">0</data><data key="x">1000.0</data><data key="y">6000.0</data></node>
+<node id="2966_mehr_bitte_refugees_alerta3112_rt_heute_merkel_unterkünfte_drücken_atombomben"><data key="r">240</data><data key="g">40</data><data key="b">0</data><data key="x">0.0</data><data key="y">7000.0</data></node>
+<node id="4825_merkelmussweg_frau_rt_merkel_earlybird2010_neujahrsansprache_gedankencoach_silvester2015_größter_wächst"><data key="r">240</data><data key="g">60</data><data key="b">0</data><data key="x">1000.0</data><data key="y">7000.0</data></node>
+<node id="10259_syrien_rt_spaltung_warnt_tagesschau_menschen_gesellschaft_is_merkel_neujahrsansprache"><data key="r">240</data><data key="g">80</data><data key="b">0</data><data key="x">0.0</data><data key="y">8000.0</data></node>
+<node id="1580_deutschland_baby_ticket_2_angebote_sportevents_tickets_newborn_sportsevents_marvel"><data key="r">240</data><data key="g">100</data><data key="b">0</data><data key="x">1000.0</data><data key="y">8000.0</data></node>
+<node id="211_cdu_spd_csu_rt_jahr_fdp_angelamerkel_linke_merkel_guten"><data key="r">240</data><data key="g">120</data><data key="b">0</data><data key="x">0.0</data><data key="y">9000.0</data></node>
+<node id="8578_merkel_neujahrsansprache_rt_kanzlerin_zusammenhalt_kommt_2016_schaffen_unseren_regsprecher"><data key="r">240</data><data key="g">140</data><data key="b">0</data><data key="x">1000.0</data><data key="y">9000.0</data></node>
+<node id="2361_immer_volk_merkel_rt_weiß_wären_bedarf_führung_klugen_dabei"><data key="r">240</data><data key="g">160</data><data key="b">0</data><data key="x">0.0</data><data key="y">10000.0</data></node>
+</graph></graphml>

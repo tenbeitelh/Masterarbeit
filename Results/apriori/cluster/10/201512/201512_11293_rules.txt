@@ -1,0 +1,53 @@
+[amp] ==> [syri]	0.9941002949852508
+[assad] ==> [syri]	0.9318346627991299
+[berlin] ==> [syri]	0.7796296296296297
+[beschliesst] ==> [syri]	0.6595441595441596
+[bomb] ==> [syri]	0.7109905020352781
+[bundestag, bundeswehreinsatz] ==> [syri]	0.7899305555555556
+[bundestag, einsatz] ==> [syri]	0.777262180974478
+[nein, syrieneinsatz] ==> [bundestag]	0.8571428571428571
+[bundeswehr] ==> [syri]	0.8515471993732864
+[bundeswehr, einsatz] ==> [syri]	0.9251040221914009
+[bundeswehr, krieg] ==> [syri]	0.9165687426556992
+[bundeswehreinsatz] ==> [syri]	0.8835576360444705
+[dash] ==> [syri]	0.8037383177570093
+[dass] ==> [syri]	0.6748091603053435
+[deutsch] ==> [syri]	0.8119072708113804
+[deutschland] ==> [syri]	0.9438377535101404
+[deutschland, krieg] ==> [syri]	0.9346534653465347
+[einsatz] ==> [syri]	0.8979639055992596
+[erst] ==> [syri]	0.7623906705539358
+[falsch] ==> [syri]	0.8156862745098039
+[fluchtling] ==> [syri]	0.9893004115226337
+[gabriel] ==> [syri]	0.9521739130434783
+[gibt] ==> [syri]	0.7306501547987616
+[heut] ==> [syri]	0.7234848484848485
+[https] ==> [syri]	0.662190812720848
+[irak] ==> [syri]	0.837874659400545
+[isis] ==> [syri]	0.7430962343096235
+[kampf] ==> [syri]	0.7554630593132154
+[krieg] ==> [syri]	0.7072498029944838
+[krieg, merkel] ==> [syri]	0.9527410207939508
+[krieg, terror] ==> [syri]	0.7011128775834659
+[kriegseinsatz] ==> [syri]	0.8061224489795918
+[luftangriff] ==> [syri]	0.9486607142857143
+[merkel] ==> [syri]	0.969061876247505
+[neu] ==> [syri]	0.6967670011148273
+[putin] ==> [syri]	0.7004405286343612
+[russisch] ==> [syri]	0.7977777777777778
+[sanktion] ==> [russland]	0.8083623693379791
+[russland] ==> [syri]	0.651106500691563
+[russland, turkei] ==> [syri]	0.6789250353606789
+[schick] ==> [syri]	0.8803418803418803
+[schon] ==> [syri]	0.714078374455733
+[soldat] ==> [syri]	0.7279279279279279
+[spd] ==> [syri]	0.755223880597015
+[syrisch] ==> [syri]	0.8298245614035088
+[tornado] ==> [syri]	0.9540229885057471
+[tornados] ==> [syri]	0.9420849420849421
+[usa] ==> [syri]	0.6737588652482269
+[volkerrecht] ==> [syri]	0.8865784499054821
+[volkerrechtswidrig] ==> [syri]	0.8526315789473684
+[wer] ==> [syri]	0.6903304773561811
+[wurd] ==> [syri]	0.7628083491461101
+[zivilist] ==> [syri]	0.7513611615245009

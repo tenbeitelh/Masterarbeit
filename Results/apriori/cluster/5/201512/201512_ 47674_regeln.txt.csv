@@ -1,0 +1,60 @@
+IF;THEN;CONFIDENCE
+ticket;deutschland,  sportevent;0.6550713557594292
+ticket;sportevent;0.6550713557594292
+dresd;pegida;0.6577568838146407
+nachricht;berlin,  deutschland;0.6609925677295613
+dd2112;nopegida;0.661544601875873
+nachricht;berlin;0.6624310716854471
+angebot;newborn;0.7335018253299634
+angebot;baby,  newborn;0.7335018253299634
+angebot;deutschland,  newborn;0.7335018253299634
+baby;angebot,  newborn;0.734533183352081
+baby;newborn;0.734533183352081
+baby;deutschland,  newborn;0.734533183352081
+bay;ticket;0.7494582881906826
+bay;deutschland,  ticket;0.7494582881906826
+nachricht;deutschland;0.830016782546152
+bay;deutschland;0.8439869989165764
+hock;afd;0.9270289724671585
+petry;afd;0.935267175572519
+angebot;baby;0.9609660207806796
+angebot;baby,  deutschland;0.9609660207806796
+baby;angebot;0.9623172103487064
+baby;angebot,  deutschland;0.9623172103487064
+baby;deutschland;0.9651293588301463
+angebot;deutschland;0.9862398202752036
+ticket;deutschland;0.9979612640163099
+newborn;angebot;0.9996172981247609
+newborn;angebot,  baby;0.9996172981247609
+newborn;angebot,  deutschland;0.9996172981247609
+newborn;baby;0.9996172981247609
+newborn;baby,  deutschland;0.9996172981247609
+newborn;deutschland;0.9996172981247609
+sportevent;deutschland;1.0
+sportsevent;deutschland;1.0
+sportevent;deutschland,  ticket;1.0
+sportsevent;deutschland,  ticket;1.0
+sportevent;ticket;1.0
+sportsevent;ticket;1.0
+deutschland,  ticket;sportevent;0.6564096016343207
+berlin,  deutschland;nachricht;0.6703136396790663
+angebot,  deutschland;newborn;0.7437357630979499
+baby,  deutschland;newborn;0.7610722610722611
+angebot,  baby;newborn;0.7632963179427236
+deutschland,  nachricht;berlin;0.7963604852686309
+bay,  deutschland;ticket;0.887997432605905
+angebot,  deutschland;baby;0.974373576309795
+baby,  deutschland;angebot;0.997086247086247
+berlin,  nachricht;deutschland;0.997828447339848
+angebot,  baby;deutschland;1.0
+baby,  newborn;angebot;1.0
+angebot,  newborn;baby;1.0
+deutschland,  newborn;angebot;1.0
+angebot,  newborn;deutschland;1.0
+deutschland,  newborn;baby;1.0
+baby,  newborn;deutschland;1.0
+bay,  ticket;deutschland;1.0
+sportevent,  ticket;deutschland;1.0
+deutschland,  sportevent;ticket;1.0
+sportsevent,  ticket;deutschland;1.0
+deutschland,  sportsevent;ticket;1.0

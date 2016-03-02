@@ -1,0 +1,16 @@
+[assad] ==> [syri]	0.8795768917819365
+[routerzwang] ==> [bundestag]	0.9992942836979535
+[schafft] ==> [bundestag]	0.8896683673469388
+[routerzwang, schafft] ==> [bundestag]	1.0
+[bundestag, schafft] ==> [routerzwang]	0.9971326164874552
+[bundestag, routerzwang] ==> [schafft]	0.9823446327683616
+[schafft] ==> [bundestag, routerzwang]	0.8871173469387755
+[routerzwang] ==> [bundestag, schafft]	0.981651376146789
+[irak] ==> [syri]	0.9005439005439005
+[isis] ==> [syri]	0.7612826603325415
+[ots] ==> [politik]	0.9760425909494232
+[sozial] ==> [politik]	0.706060606060606
+[schafft] ==> [routerzwang]	0.8871173469387755
+[routerzwang] ==> [schafft]	0.981651376146789
+[russisch] ==> [syri]	0.8186550976138829
+[russland] ==> [syri]	0.6625226625226626

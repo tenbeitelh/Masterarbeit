@@ -1,0 +1,2 @@
+[fluchtling] ==> [seehof]	0.9761208576998051
+[merkel] ==> [seehof]	0.9323414806942969

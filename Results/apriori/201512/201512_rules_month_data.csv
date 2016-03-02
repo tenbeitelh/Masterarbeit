@@ -1,0 +1,117 @@
+IF;THEN;CONFIDENCE
+ticket;deutschland,  sportevent;0.6540712468193384
+ticket;sportevent;0.6540712468193384
+helf;fluchtling,  ort;0.6753192380154909
+spend;ort,  syri;0.6755329364317265
+spend;helf,  ort;0.6764931822546572
+spend;helf,  syri;0.6765892068369502
+spend;ort;0.6770693297484156
+helf;fluchtling,  spend;0.6772032656478961
+helf;fluchtling,  syri;0.6790872932803015
+spend;syri;0.6799500672172076
+spend;helf;0.686191665066257
+helf;fluchtling;0.7063010257483776
+spend;fluchtling;0.7339158824659112
+helf;ort,  syri;0.7363407996650617
+helf;ort,  spend;0.7373874816830647
+helf;spend,  syri;0.737492149884865
+helf;ort;0.7390621729118694
+gabriel;spd;0.739229889439573
+helf;spend;0.7479589700648943
+helf;syri;0.7560184216035168
+direkt;fluchtling,  helf;0.7681801402731635
+direkt;fluchtling,  ort;0.7681801402731635
+direkt;fluchtling,  spend;0.7681801402731635
+direkt;fluchtling,  syri;0.7687338501291989
+direkt;fluchtling;0.7812846068660022
+bundeswehr;syri;0.7815990072682149
+einsatz;syri;0.8250155311658729
+ort;fluchtling,  helf;0.8390117035110534
+ort;fluchtling,  spend;0.8390117035110534
+ort;fluchtling,  syri;0.8392717815344604
+ort;fluchtling;0.8460338101430429
+direkt;helf,  ort;0.8757844222960502
+direkt;ort,  spend;0.8757844222960502
+direkt;spend,  syri;0.8757844222960502
+direkt;helf,  spend;0.875968992248062
+direkt;helf,  syri;0.875968992248062
+direkt;ort,  syri;0.875968992248062
+direkt;ort;0.8765227021040974
+direkt;spend;0.8803986710963455
+direkt;helf;0.8827980804724991
+direkt;syri;0.8957179771133259
+ort;helf,  syri;0.9148244473342002
+ort;spend,  syri;0.9148244473342002
+ort;helf,  spend;0.9161248374512354
+ort;spend;0.9169050715214564
+ort;helf;0.9182054616384916
+hock;afd;0.9189788139349349
+ort;syri;0.9197659297789337
+ticket;deutschland;0.9965648854961832
+sportevent;deutschland;1.0
+sportsevent;deutschland;1.0
+sportevent;deutschland,  ticket;1.0
+sportsevent;deutschland,  ticket;1.0
+sportevent;ticket;1.0
+sportsevent;ticket;1.0
+deutschland,  ticket;sportevent;0.656325801097919
+helf,  syri;direkt;0.6570677004014952
+helf,  spend;direkt;0.6641477749790092
+spend,  syri;direkt;0.6701030927835051
+ort,  syri;direkt;0.6710024035062915
+helf,  ort;direkt;0.6720011329839966
+ort,  spend;direkt;0.6729541908949085
+fluchtling,  syri;ort;0.7837279902853673
+fluchtling,  syri;spend;0.7842137219186399
+fluchtling,  syri;helf;0.7878567091681846
+fluchtling,  spend;ort;0.8441711369880937
+fluchtling,  spend;syri;0.8449561690435693
+fluchtling,  spend;helf;0.8465262331545205
+direkt,  syri;fluchtling;0.8582320214300433
+direkt,  helf;fluchtling;0.8701651683044115
+direkt,  spend;fluchtling;0.8725366876310272
+direkt,  ort;fluchtling;0.8763950305327437
+helf,  syri;fluchtling;0.8982417278139277
+helf,  spend;fluchtling;0.9054016232857542
+spend,  syri;fluchtling;0.9120180765428612
+ort,  syri;fluchtling;0.912484094443659
+helf,  ort;fluchtling;0.9137515932587452
+ort,  spend;fluchtling;0.9150475109913487
+fluchtling,  helf;ort;0.9561351511558981
+fluchtling,  helf;spend;0.9588026081802016
+fluchtling,  helf;syri;0.9614700652045051
+helf,  syri;ort;0.9739720337809774
+helf,  syri;spend;0.9754949466980479
+direkt,  syri;spend;0.977745724294251
+direkt,  syri;helf;0.9779517824026376
+direkt,  syri;ort;0.9779517824026376
+direkt,  fluchtling;helf;0.983227025750059
+direkt,  fluchtling;ort;0.983227025750059
+direkt,  fluchtling;spend;0.983227025750059
+direkt,  fluchtling;syri;0.9839357429718876
+helf,  spend;ort;0.9858662188637
+helf,  spend;syri;0.9860061572907921
+fluchtling,  ort;helf;0.9916999692591454
+fluchtling,  ort;spend;0.9916999692591454
+fluchtling,  ort;syri;0.992007377805103
+direkt,  helf;ort;0.9920551954840059
+direkt,  helf;spend;0.9922642692870584
+direkt,  helf;syri;0.9922642692870584
+spend,  syri;ort;0.9935037424092642
+ort,  syri;helf;0.9946274565248127
+ort,  syri;spend;0.9946274565248127
+direkt,  spend;ort;0.9947589098532494
+direkt,  spend;syri;0.9947589098532494
+direkt,  spend;helf;0.9949685534591195
+spend,  syri;helf;0.9950571953113967
+helf,  ort;syri;0.9963178020110466
+ort,  spend;syri;0.9977308183236421
+helf,  ort;spend;0.9977340320067979
+ort,  spend;helf;0.9991490568713658
+direkt,  ort;helf;0.9991577174141925
+direkt,  ort;spend;0.9991577174141925
+direkt,  ort;syri;0.9993682880606444
+sportevent,  ticket;deutschland;1.0
+deutschland,  sportevent;ticket;1.0
+sportsevent,  ticket;deutschland;1.0
+deutschland,  sportsevent;ticket;1.0

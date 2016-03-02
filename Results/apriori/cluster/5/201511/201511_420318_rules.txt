@@ -1,0 +1,757 @@
+[fluchtlingshelf] ==> [afd]	0.8527131782945736
+[gauland] ==> [afd]	0.9375
+[fluchtlingshelf, gauland] ==> [afd]	0.9865470852017937
+[afd, gauland] ==> [fluchtlingshelf]	0.9166666666666666
+[afd, fluchtlingshelf] ==> [gauland]	1.0
+[gauland] ==> [afd, fluchtlingshelf]	0.859375
+[fluchtlingshelf] ==> [afd, gauland]	0.8527131782945736
+[idiot] ==> [afd]	0.7060702875399361
+[fluchtlingshelf, idiot] ==> [afd]	0.9565217391304348
+[afd, idiot] ==> [fluchtlingshelf]	0.995475113122172
+[afd, fluchtlingshelf] ==> [idiot]	1.0
+[idiot] ==> [afd, fluchtlingshelf]	0.7028753993610224
+[fluchtlingshelf] ==> [afd, idiot]	0.8527131782945736
+[gauland, idiot] ==> [afd]	0.9482758620689655
+[afd, idiot] ==> [gauland]	0.995475113122172
+[afd, gauland] ==> [idiot]	0.9166666666666666
+[idiot] ==> [afd, gauland]	0.7028753993610224
+[gauland] ==> [afd, idiot]	0.859375
+[nennt] ==> [afd]	0.68
+[fluchtlingshelf, nennt] ==> [afd]	1.0
+[afd, nennt] ==> [fluchtlingshelf]	0.9909502262443439
+[afd, fluchtlingshelf] ==> [nennt]	0.9954545454545455
+[nennt] ==> [afd, fluchtlingshelf]	0.6738461538461539
+[fluchtlingshelf] ==> [afd, nennt]	0.8488372093023255
+[gauland, nennt] ==> [afd]	0.9954545454545455
+[afd, nennt] ==> [gauland]	0.9909502262443439
+[afd, gauland] ==> [nennt]	0.9125
+[nennt] ==> [afd, gauland]	0.6738461538461539
+[gauland] ==> [afd, nennt]	0.85546875
+[idiot, nennt] ==> [afd]	0.9954545454545455
+[afd, nennt] ==> [idiot]	0.9909502262443439
+[afd, idiot] ==> [nennt]	0.9909502262443439
+[idiot] ==> [afd, nennt]	0.6996805111821086
+[nennt] ==> [afd, idiot]	0.6738461538461539
+[nutzlich] ==> [afd]	0.9016393442622951
+[fluchtlingshelf, nutzlich] ==> [afd]	0.995475113122172
+[afd, nutzlich] ==> [fluchtlingshelf]	1.0
+[afd, fluchtlingshelf] ==> [nutzlich]	1.0
+[nutzlich] ==> [afd, fluchtlingshelf]	0.9016393442622951
+[fluchtlingshelf] ==> [afd, nutzlich]	0.8527131782945736
+[gauland, nutzlich] ==> [afd]	0.9482758620689655
+[afd, nutzlich] ==> [gauland]	1.0
+[afd, gauland] ==> [nutzlich]	0.9166666666666666
+[nutzlich] ==> [afd, gauland]	0.9016393442622951
+[gauland] ==> [afd, nutzlich]	0.859375
+[idiot, nutzlich] ==> [afd]	0.944206008583691
+[afd, nutzlich] ==> [idiot]	1.0
+[afd, idiot] ==> [nutzlich]	0.995475113122172
+[nutzlich] ==> [afd, idiot]	0.9016393442622951
+[idiot] ==> [afd, nutzlich]	0.7028753993610224
+[nennt, nutzlich] ==> [afd]	0.9954545454545455
+[afd, nutzlich] ==> [nennt]	0.9954545454545455
+[afd, nennt] ==> [nutzlich]	0.9909502262443439
+[nutzlich] ==> [afd, nennt]	0.8975409836065574
+[nennt] ==> [afd, nutzlich]	0.6738461538461539
+[afd] ==> [schon]	0.8397155361050328
+[afd, pegida] ==> [schon]	0.9969604863221885
+[allahu] ==> [akbar]	0.994269340974212
+[akbar] ==> [allahu]	0.9278074866310161
+[akbar] ==> [islam]	0.8342245989304813
+[allahu, islam] ==> [akbar]	1.0
+[akbar, islam] ==> [allahu]	1.0
+[akbar, allahu] ==> [islam]	0.899135446685879
+[akbar] ==> [allahu, islam]	0.8342245989304813
+[allahu] ==> [akbar, islam]	0.8939828080229226
+[akbar] ==> [lang]	0.8128342245989305
+[allahu, lang] ==> [akbar]	1.0
+[akbar, lang] ==> [allahu]	1.0
+[akbar, allahu] ==> [lang]	0.8760806916426513
+[allahu] ==> [akbar, lang]	0.8710601719197708
+[akbar] ==> [allahu, lang]	0.8128342245989305
+[islam, lang] ==> [akbar]	0.9588607594936709
+[akbar, lang] ==> [islam]	0.9967105263157895
+[akbar, islam] ==> [lang]	0.9711538461538461
+[akbar] ==> [islam, lang]	0.8101604278074866
+[akbar] ==> [pegida]	0.8155080213903744
+[allahu, pegida] ==> [akbar]	1.0
+[akbar, pegida] ==> [allahu]	1.0
+[akbar, allahu] ==> [pegida]	0.8789625360230547
+[akbar] ==> [allahu, pegida]	0.8155080213903744
+[allahu] ==> [akbar, pegida]	0.8739255014326648
+[islam, pegida] ==> [akbar]	0.8310626702997275
+[akbar, pegida] ==> [islam]	1.0
+[akbar, islam] ==> [pegida]	0.9775641025641025
+[akbar] ==> [islam, pegida]	0.8155080213903744
+[lang, pegida] ==> [akbar]	0.6703539823008849
+[akbar, pegida] ==> [lang]	0.9934426229508196
+[akbar, lang] ==> [pegida]	0.9967105263157895
+[akbar] ==> [lang, pegida]	0.8101604278074866
+[ruf] ==> [akbar]	0.813953488372093
+[akbar] ==> [ruf]	0.8422459893048129
+[allahu, ruf] ==> [akbar]	0.9968354430379747
+[akbar, ruf] ==> [allahu]	1.0
+[akbar, allahu] ==> [ruf]	0.9077809798270894
+[allahu] ==> [akbar, ruf]	0.9025787965616046
+[akbar] ==> [allahu, ruf]	0.8422459893048129
+[ruf] ==> [akbar, allahu]	0.813953488372093
+[islam, ruf] ==> [akbar]	0.9808306709265175
+[akbar, ruf] ==> [islam]	0.9746031746031746
+[akbar, islam] ==> [ruf]	0.9839743589743589
+[ruf] ==> [akbar, islam]	0.7932816537467701
+[akbar] ==> [islam, ruf]	0.820855614973262
+[lang, ruf] ==> [akbar]	0.9934426229508196
+[akbar, ruf] ==> [lang]	0.9619047619047619
+[akbar, lang] ==> [ruf]	0.9967105263157895
+[akbar] ==> [lang, ruf]	0.8101604278074866
+[ruf] ==> [akbar, lang]	0.7829457364341085
+[pegida, ruf] ==> [akbar]	0.9902597402597403
+[akbar, ruf] ==> [pegida]	0.9682539682539683
+[akbar, pegida] ==> [ruf]	1.0
+[ruf] ==> [akbar, pegida]	0.7881136950904393
+[akbar] ==> [pegida, ruf]	0.8155080213903744
+[ruft] ==> [akbar]	0.7189695550351288
+[akbar] ==> [ruft]	0.820855614973262
+[allahu, ruft] ==> [akbar]	1.0
+[akbar, ruft] ==> [allahu]	1.0
+[akbar, allahu] ==> [ruft]	0.8847262247838616
+[allahu] ==> [akbar, ruft]	0.8796561604584527
+[akbar] ==> [allahu, ruft]	0.820855614973262
+[ruft] ==> [akbar, allahu]	0.7189695550351288
+[islam, ruft] ==> [akbar]	0.9742765273311897
+[akbar, ruft] ==> [islam]	0.9869706840390879
+[akbar, islam] ==> [ruft]	0.9711538461538461
+[ruft] ==> [akbar, islam]	0.7096018735362998
+[akbar] ==> [islam, ruft]	0.8101604278074866
+[lang, ruft] ==> [akbar]	0.9967105263157895
+[akbar, ruft] ==> [lang]	0.9869706840390879
+[akbar, lang] ==> [ruft]	0.9967105263157895
+[akbar] ==> [lang, ruft]	0.8101604278074866
+[ruft] ==> [akbar, lang]	0.7096018735362998
+[pegida, ruft] ==> [akbar]	0.9967105263157895
+[akbar, ruft] ==> [pegida]	0.9869706840390879
+[akbar, pegida] ==> [ruft]	0.9934426229508196
+[ruft] ==> [akbar, pegida]	0.7096018735362998
+[akbar] ==> [pegida, ruft]	0.8101604278074866
+[ruf, ruft] ==> [akbar]	1.0
+[akbar, ruft] ==> [ruf]	0.9869706840390879
+[akbar, ruf] ==> [ruft]	0.9619047619047619
+[ruft] ==> [akbar, ruf]	0.7096018735362998
+[ruf] ==> [akbar, ruft]	0.7829457364341085
+[akbar] ==> [ruf, ruft]	0.8101604278074866
+[akbar] ==> [steh]	0.8048128342245989
+[allahu, steh] ==> [akbar]	1.0
+[akbar, steh] ==> [allahu]	1.0
+[akbar, allahu] ==> [steh]	0.8674351585014409
+[allahu] ==> [akbar, steh]	0.8624641833810889
+[akbar] ==> [allahu, steh]	0.8048128342245989
+[islam, steh] ==> [akbar]	0.9148936170212766
+[akbar, steh] ==> [islam]	1.0
+[akbar, islam] ==> [steh]	0.9647435897435898
+[akbar] ==> [islam, steh]	0.8048128342245989
+[lang, steh] ==> [akbar]	0.9435736677115988
+[akbar, steh] ==> [lang]	1.0
+[akbar, lang] ==> [steh]	0.9901315789473685
+[akbar] ==> [lang, steh]	0.8048128342245989
+[pegida, steh] ==> [akbar]	0.9804560260586319
+[akbar, steh] ==> [pegida]	1.0
+[akbar, pegida] ==> [steh]	0.9868852459016394
+[akbar] ==> [pegida, steh]	0.8048128342245989
+[ruf, steh] ==> [akbar]	0.9836601307189542
+[akbar, steh] ==> [ruf]	1.0
+[akbar, ruf] ==> [steh]	0.9555555555555556
+[ruf] ==> [akbar, steh]	0.7777777777777778
+[akbar] ==> [ruf, steh]	0.8048128342245989
+[ruft, steh] ==> [akbar]	1.0
+[akbar, steh] ==> [ruft]	1.0
+[akbar, ruft] ==> [steh]	0.9804560260586319
+[ruft] ==> [akbar, steh]	0.7049180327868853
+[akbar] ==> [ruft, steh]	0.8048128342245989
+[tat] ==> [akbar]	0.6703296703296703
+[akbar] ==> [tat]	0.8155080213903744
+[allahu, tat] ==> [akbar]	1.0
+[akbar, tat] ==> [allahu]	1.0
+[akbar, allahu] ==> [tat]	0.8789625360230547
+[allahu] ==> [akbar, tat]	0.8739255014326648
+[akbar] ==> [allahu, tat]	0.8155080213903744
+[tat] ==> [akbar, allahu]	0.6703296703296703
+[islam, tat] ==> [akbar]	0.9270516717325228
+[akbar, tat] ==> [islam]	1.0
+[akbar, islam] ==> [tat]	0.9775641025641025
+[akbar] ==> [islam, tat]	0.8155080213903744
+[tat] ==> [akbar, islam]	0.6703296703296703
+[lang, tat] ==> [akbar]	1.0
+[akbar, tat] ==> [lang]	0.9868852459016394
+[akbar, lang] ==> [tat]	0.9901315789473685
+[akbar] ==> [lang, tat]	0.8048128342245989
+[tat] ==> [akbar, lang]	0.6615384615384615
+[pegida, tat] ==> [akbar]	0.9836601307189542
+[akbar, tat] ==> [pegida]	0.9868852459016394
+[akbar, pegida] ==> [tat]	0.9868852459016394
+[tat] ==> [akbar, pegida]	0.6615384615384615
+[akbar] ==> [pegida, tat]	0.8048128342245989
+[ruf, tat] ==> [akbar]	1.0
+[akbar, tat] ==> [ruf]	0.9868852459016394
+[akbar, ruf] ==> [tat]	0.9555555555555556
+[tat] ==> [akbar, ruf]	0.6615384615384615
+[akbar] ==> [ruf, tat]	0.8048128342245989
+[ruf] ==> [akbar, tat]	0.7777777777777778
+[ruft, tat] ==> [akbar]	1.0
+[akbar, tat] ==> [ruft]	0.9868852459016394
+[akbar, ruft] ==> [tat]	0.9804560260586319
+[tat] ==> [akbar, ruft]	0.6615384615384615
+[ruft] ==> [akbar, tat]	0.7049180327868853
+[akbar] ==> [ruft, tat]	0.8048128342245989
+[steh, tat] ==> [akbar]	0.9966887417218543
+[akbar, tat] ==> [steh]	0.9868852459016394
+[akbar, steh] ==> [tat]	1.0
+[tat] ==> [akbar, steh]	0.6615384615384615
+[akbar] ==> [steh, tat]	0.8048128342245989
+[akbar] ==> [volk]	0.8155080213903744
+[allahu, volk] ==> [akbar]	1.0
+[akbar, volk] ==> [allahu]	0.9934426229508196
+[akbar, allahu] ==> [volk]	0.8731988472622478
+[allahu] ==> [akbar, volk]	0.8681948424068768
+[akbar] ==> [allahu, volk]	0.8101604278074866
+[islam, volk] ==> [akbar]	0.9351851851851852
+[akbar, volk] ==> [islam]	0.9934426229508196
+[akbar, islam] ==> [volk]	0.9711538461538461
+[akbar] ==> [islam, volk]	0.8101604278074866
+[lang, volk] ==> [akbar]	0.9181818181818182
+[akbar, volk] ==> [lang]	0.9934426229508196
+[akbar, lang] ==> [volk]	0.9967105263157895
+[akbar] ==> [lang, volk]	0.8101604278074866
+[pegida, volk] ==> [akbar]	0.7444717444717445
+[akbar, volk] ==> [pegida]	0.9934426229508196
+[akbar, pegida] ==> [volk]	0.9934426229508196
+[akbar] ==> [pegida, volk]	0.8101604278074866
+[ruf, volk] ==> [akbar]	0.9409937888198758
+[akbar, volk] ==> [ruf]	0.9934426229508196
+[akbar, ruf] ==> [volk]	0.9619047619047619
+[akbar] ==> [ruf, volk]	0.8101604278074866
+[ruf] ==> [akbar, volk]	0.7829457364341085
+[ruft, volk] ==> [akbar]	0.9901960784313726
+[akbar, volk] ==> [ruft]	0.9934426229508196
+[akbar, ruft] ==> [volk]	0.9869706840390879
+[akbar] ==> [ruft, volk]	0.8101604278074866
+[ruft] ==> [akbar, volk]	0.7096018735362998
+[steh, volk] ==> [akbar]	0.9741100323624595
+[akbar, volk] ==> [steh]	0.9868852459016394
+[akbar, steh] ==> [volk]	1.0
+[akbar] ==> [steh, volk]	0.8048128342245989
+[tat, volk] ==> [akbar]	0.9901315789473685
+[akbar, volk] ==> [tat]	0.9868852459016394
+[akbar, tat] ==> [volk]	0.9868852459016394
+[tat] ==> [akbar, volk]	0.6615384615384615
+[akbar] ==> [tat, volk]	0.8048128342245989
+[allahu] ==> [islam]	0.8939828080229226
+[allahu] ==> [lang]	0.8710601719197708
+[islam, lang] ==> [allahu]	0.9588607594936709
+[allahu, lang] ==> [islam]	0.9967105263157895
+[allahu, islam] ==> [lang]	0.9711538461538461
+[allahu] ==> [islam, lang]	0.8681948424068768
+[allahu] ==> [pegida]	0.8739255014326648
+[islam, pegida] ==> [allahu]	0.8310626702997275
+[allahu, pegida] ==> [islam]	1.0
+[allahu, islam] ==> [pegida]	0.9775641025641025
+[allahu] ==> [islam, pegida]	0.8739255014326648
+[lang, pegida] ==> [allahu]	0.6703539823008849
+[allahu, pegida] ==> [lang]	0.9934426229508196
+[allahu, lang] ==> [pegida]	0.9967105263157895
+[allahu] ==> [lang, pegida]	0.8681948424068768
+[ruf] ==> [allahu]	0.8165374677002584
+[allahu] ==> [ruf]	0.9054441260744985
+[islam, ruf] ==> [allahu]	0.9808306709265175
+[allahu, ruf] ==> [islam]	0.9715189873417721
+[allahu, islam] ==> [ruf]	0.9839743589743589
+[ruf] ==> [allahu, islam]	0.7932816537467701
+[allahu] ==> [islam, ruf]	0.8796561604584527
+[lang, ruf] ==> [allahu]	0.9934426229508196
+[allahu, ruf] ==> [lang]	0.9588607594936709
+[allahu, lang] ==> [ruf]	0.9967105263157895
+[allahu] ==> [lang, ruf]	0.8681948424068768
+[ruf] ==> [allahu, lang]	0.7829457364341085
+[pegida, ruf] ==> [allahu]	0.9902597402597403
+[allahu, ruf] ==> [pegida]	0.9651898734177216
+[allahu, pegida] ==> [ruf]	1.0
+[ruf] ==> [allahu, pegida]	0.7881136950904393
+[allahu] ==> [pegida, ruf]	0.8739255014326648
+[ruft] ==> [allahu]	0.7189695550351288
+[allahu] ==> [ruft]	0.8796561604584527
+[islam, ruft] ==> [allahu]	0.9742765273311897
+[allahu, ruft] ==> [islam]	0.9869706840390879
+[allahu, islam] ==> [ruft]	0.9711538461538461
+[ruft] ==> [allahu, islam]	0.7096018735362998
+[allahu] ==> [islam, ruft]	0.8681948424068768
+[lang, ruft] ==> [allahu]	0.9967105263157895
+[allahu, ruft] ==> [lang]	0.9869706840390879
+[allahu, lang] ==> [ruft]	0.9967105263157895
+[allahu] ==> [lang, ruft]	0.8681948424068768
+[ruft] ==> [allahu, lang]	0.7096018735362998
+[pegida, ruft] ==> [allahu]	0.9967105263157895
+[allahu, ruft] ==> [pegida]	0.9869706840390879
+[allahu, pegida] ==> [ruft]	0.9934426229508196
+[ruft] ==> [allahu, pegida]	0.7096018735362998
+[allahu] ==> [pegida, ruft]	0.8681948424068768
+[ruf, ruft] ==> [allahu]	1.0
+[allahu, ruft] ==> [ruf]	0.9869706840390879
+[allahu, ruf] ==> [ruft]	0.9588607594936709
+[ruft] ==> [allahu, ruf]	0.7096018735362998
+[allahu] ==> [ruf, ruft]	0.8681948424068768
+[ruf] ==> [allahu, ruft]	0.7829457364341085
+[allahu] ==> [steh]	0.8624641833810889
+[islam, steh] ==> [allahu]	0.9148936170212766
+[allahu, steh] ==> [islam]	1.0
+[allahu, islam] ==> [steh]	0.9647435897435898
+[allahu] ==> [islam, steh]	0.8624641833810889
+[lang, steh] ==> [allahu]	0.9435736677115988
+[allahu, steh] ==> [lang]	1.0
+[allahu, lang] ==> [steh]	0.9901315789473685
+[allahu] ==> [lang, steh]	0.8624641833810889
+[pegida, steh] ==> [allahu]	0.9804560260586319
+[allahu, steh] ==> [pegida]	1.0
+[allahu, pegida] ==> [steh]	0.9868852459016394
+[allahu] ==> [pegida, steh]	0.8624641833810889
+[ruf, steh] ==> [allahu]	0.9836601307189542
+[allahu, steh] ==> [ruf]	1.0
+[allahu, ruf] ==> [steh]	0.9525316455696202
+[ruf] ==> [allahu, steh]	0.7777777777777778
+[allahu] ==> [ruf, steh]	0.8624641833810889
+[ruft, steh] ==> [allahu]	1.0
+[allahu, steh] ==> [ruft]	1.0
+[allahu, ruft] ==> [steh]	0.9804560260586319
+[allahu] ==> [ruft, steh]	0.8624641833810889
+[ruft] ==> [allahu, steh]	0.7049180327868853
+[tat] ==> [allahu]	0.6703296703296703
+[allahu] ==> [tat]	0.8739255014326648
+[islam, tat] ==> [allahu]	0.9270516717325228
+[allahu, tat] ==> [islam]	1.0
+[allahu, islam] ==> [tat]	0.9775641025641025
+[tat] ==> [allahu, islam]	0.6703296703296703
+[allahu] ==> [islam, tat]	0.8739255014326648
+[lang, tat] ==> [allahu]	1.0
+[allahu, tat] ==> [lang]	0.9868852459016394
+[allahu, lang] ==> [tat]	0.9901315789473685
+[allahu] ==> [lang, tat]	0.8624641833810889
+[tat] ==> [allahu, lang]	0.6615384615384615
+[pegida, tat] ==> [allahu]	0.9836601307189542
+[allahu, tat] ==> [pegida]	0.9868852459016394
+[allahu, pegida] ==> [tat]	0.9868852459016394
+[tat] ==> [allahu, pegida]	0.6615384615384615
+[allahu] ==> [pegida, tat]	0.8624641833810889
+[ruf, tat] ==> [allahu]	1.0
+[allahu, tat] ==> [ruf]	0.9868852459016394
+[allahu, ruf] ==> [tat]	0.9525316455696202
+[allahu] ==> [ruf, tat]	0.8624641833810889
+[tat] ==> [allahu, ruf]	0.6615384615384615
+[ruf] ==> [allahu, tat]	0.7777777777777778
+[ruft, tat] ==> [allahu]	1.0
+[allahu, tat] ==> [ruft]	0.9868852459016394
+[allahu, ruft] ==> [tat]	0.9804560260586319
+[allahu] ==> [ruft, tat]	0.8624641833810889
+[ruft] ==> [allahu, tat]	0.7049180327868853
+[tat] ==> [allahu, ruft]	0.6615384615384615
+[steh, tat] ==> [allahu]	0.9966887417218543
+[allahu, tat] ==> [steh]	0.9868852459016394
+[allahu, steh] ==> [tat]	1.0
+[allahu] ==> [steh, tat]	0.8624641833810889
+[tat] ==> [allahu, steh]	0.6615384615384615
+[allahu] ==> [volk]	0.8681948424068768
+[islam, volk] ==> [allahu]	0.9351851851851852
+[allahu, volk] ==> [islam]	1.0
+[allahu, islam] ==> [volk]	0.9711538461538461
+[allahu] ==> [islam, volk]	0.8681948424068768
+[lang, volk] ==> [allahu]	0.9181818181818182
+[allahu, volk] ==> [lang]	1.0
+[allahu, lang] ==> [volk]	0.9967105263157895
+[allahu] ==> [lang, volk]	0.8681948424068768
+[pegida, volk] ==> [allahu]	0.7444717444717445
+[allahu, volk] ==> [pegida]	1.0
+[allahu, pegida] ==> [volk]	0.9934426229508196
+[allahu] ==> [pegida, volk]	0.8681948424068768
+[ruf, volk] ==> [allahu]	0.9409937888198758
+[allahu, volk] ==> [ruf]	1.0
+[allahu, ruf] ==> [volk]	0.9588607594936709
+[allahu] ==> [ruf, volk]	0.8681948424068768
+[ruf] ==> [allahu, volk]	0.7829457364341085
+[ruft, volk] ==> [allahu]	0.9901960784313726
+[allahu, volk] ==> [ruft]	1.0
+[allahu, ruft] ==> [volk]	0.9869706840390879
+[allahu] ==> [ruft, volk]	0.8681948424068768
+[ruft] ==> [allahu, volk]	0.7096018735362998
+[steh, volk] ==> [allahu]	0.9741100323624595
+[allahu, volk] ==> [steh]	0.9933993399339934
+[allahu, steh] ==> [volk]	1.0
+[allahu] ==> [steh, volk]	0.8624641833810889
+[tat, volk] ==> [allahu]	0.9901315789473685
+[allahu, volk] ==> [tat]	0.9933993399339934
+[allahu, tat] ==> [volk]	0.9868852459016394
+[allahu] ==> [tat, volk]	0.8624641833810889
+[tat] ==> [allahu, volk]	0.6615384615384615
+[girl] ==> [aufschrei]	0.9966216216216216
+[sexkontakt] ==> [aufschrei]	0.9932659932659933
+[girl, sexkontakt] ==> [aufschrei]	1.0
+[aufschrei, sexkontakt] ==> [girl]	0.9966101694915255
+[aufschrei, girl] ==> [sexkontakt]	0.9966101694915255
+[sexkontakt] ==> [aufschrei, girl]	0.98989898989899
+[girl] ==> [aufschrei, sexkontakt]	0.9932432432432432
+[cdu] ==> [schon]	1.0
+[csu] ==> [schon]	1.0
+[dass] ==> [schon]	0.6646778042959427
+[deutschland] ==> [schon]	0.8160211267605634
+[fast] ==> [schon]	0.9149797570850202
+[fluchtling] ==> [schon]	0.7906976744186046
+[gauland] ==> [fluchtlingshelf]	0.87109375
+[fluchtlingshelf] ==> [gauland]	0.8643410852713178
+[idiot] ==> [fluchtlingshelf]	0.7348242811501597
+[fluchtlingshelf] ==> [idiot]	0.8914728682170543
+[gauland, idiot] ==> [fluchtlingshelf]	0.9525862068965517
+[fluchtlingshelf, idiot] ==> [gauland]	0.9608695652173913
+[fluchtlingshelf, gauland] ==> [idiot]	0.9910313901345291
+[idiot] ==> [fluchtlingshelf, gauland]	0.7060702875399361
+[fluchtlingshelf] ==> [gauland, idiot]	0.8565891472868217
+[gauland] ==> [fluchtlingshelf, idiot]	0.86328125
+[nennt] ==> [fluchtlingshelf]	0.6738461538461539
+[fluchtlingshelf] ==> [nennt]	0.8488372093023255
+[gauland, nennt] ==> [fluchtlingshelf]	0.9954545454545455
+[fluchtlingshelf, nennt] ==> [gauland]	1.0
+[fluchtlingshelf, gauland] ==> [nennt]	0.9820627802690582
+[nennt] ==> [fluchtlingshelf, gauland]	0.6738461538461539
+[fluchtlingshelf] ==> [gauland, nennt]	0.8488372093023255
+[gauland] ==> [fluchtlingshelf, nennt]	0.85546875
+[idiot, nennt] ==> [fluchtlingshelf]	0.9954545454545455
+[fluchtlingshelf, nennt] ==> [idiot]	1.0
+[fluchtlingshelf, idiot] ==> [nennt]	0.9521739130434783
+[fluchtlingshelf] ==> [idiot, nennt]	0.8488372093023255
+[idiot] ==> [fluchtlingshelf, nennt]	0.6996805111821086
+[nennt] ==> [fluchtlingshelf, idiot]	0.6738461538461539
+[nutzlich] ==> [fluchtlingshelf]	0.9057377049180327
+[fluchtlingshelf] ==> [nutzlich]	0.8565891472868217
+[gauland, nutzlich] ==> [fluchtlingshelf]	0.9525862068965517
+[fluchtlingshelf, nutzlich] ==> [gauland]	1.0
+[fluchtlingshelf, gauland] ==> [nutzlich]	0.9910313901345291
+[fluchtlingshelf] ==> [gauland, nutzlich]	0.8565891472868217
+[nutzlich] ==> [fluchtlingshelf, gauland]	0.9057377049180327
+[gauland] ==> [fluchtlingshelf, nutzlich]	0.86328125
+[idiot, nutzlich] ==> [fluchtlingshelf]	0.9484978540772532
+[fluchtlingshelf, nutzlich] ==> [idiot]	1.0
+[fluchtlingshelf, idiot] ==> [nutzlich]	0.9608695652173913
+[nutzlich] ==> [fluchtlingshelf, idiot]	0.9057377049180327
+[idiot] ==> [fluchtlingshelf, nutzlich]	0.7060702875399361
+[fluchtlingshelf] ==> [idiot, nutzlich]	0.8565891472868217
+[nennt, nutzlich] ==> [fluchtlingshelf]	0.9954545454545455
+[fluchtlingshelf, nutzlich] ==> [nennt]	0.9909502262443439
+[fluchtlingshelf, nennt] ==> [nutzlich]	1.0
+[fluchtlingshelf] ==> [nennt, nutzlich]	0.8488372093023255
+[nutzlich] ==> [fluchtlingshelf, nennt]	0.8975409836065574
+[nennt] ==> [fluchtlingshelf, nutzlich]	0.6738461538461539
+[ganz] ==> [schon]	0.722972972972973
+[idiot] ==> [gauland]	0.7412140575079872
+[gauland] ==> [idiot]	0.90625
+[nennt] ==> [gauland]	0.676923076923077
+[gauland] ==> [nennt]	0.859375
+[idiot, nennt] ==> [gauland]	1.0
+[gauland, nennt] ==> [idiot]	1.0
+[gauland, idiot] ==> [nennt]	0.9482758620689655
+[gauland] ==> [idiot, nennt]	0.859375
+[idiot] ==> [gauland, nennt]	0.7028753993610224
+[nennt] ==> [gauland, idiot]	0.676923076923077
+[nutzlich] ==> [gauland]	0.9508196721311475
+[gauland] ==> [nutzlich]	0.90625
+[idiot, nutzlich] ==> [gauland]	0.9914163090128756
+[gauland, nutzlich] ==> [idiot]	0.9956896551724138
+[gauland, idiot] ==> [nutzlich]	0.9956896551724138
+[idiot] ==> [gauland, nutzlich]	0.7380191693290735
+[nutzlich] ==> [gauland, idiot]	0.9467213114754098
+[gauland] ==> [idiot, nutzlich]	0.90234375
+[nennt, nutzlich] ==> [gauland]	1.0
+[gauland, nutzlich] ==> [nennt]	0.9482758620689655
+[gauland, nennt] ==> [nutzlich]	1.0
+[nennt] ==> [gauland, nutzlich]	0.676923076923077
+[gauland] ==> [nennt, nutzlich]	0.859375
+[nutzlich] ==> [gauland, nennt]	0.9016393442622951
+[gibt] ==> [schon]	0.7123287671232876
+[sexkontakt] ==> [girl]	0.98989898989899
+[girl] ==> [sexkontakt]	0.9932432432432432
+[gut] ==> [schon]	0.8321917808219178
+[hast] ==> [schon]	0.8021978021978022
+[heut] ==> [schon]	0.7279843444227005
+[nennt] ==> [idiot]	0.676923076923077
+[idiot] ==> [nennt]	0.7028753993610224
+[nutzlich] ==> [idiot]	0.9549180327868853
+[idiot] ==> [nutzlich]	0.744408945686901
+[nennt, nutzlich] ==> [idiot]	1.0
+[idiot, nutzlich] ==> [nennt]	0.944206008583691
+[idiot, nennt] ==> [nutzlich]	1.0
+[nutzlich] ==> [idiot, nennt]	0.9016393442622951
+[idiot] ==> [nennt, nutzlich]	0.7028753993610224
+[nennt] ==> [idiot, nutzlich]	0.676923076923077
+[lang, pegida] ==> [islam]	0.6792035398230089
+[islam, pegida] ==> [lang]	0.8365122615803815
+[islam, lang] ==> [pegida]	0.9715189873417721
+[ruf] ==> [islam]	0.8087855297157622
+[lang, ruf] ==> [islam]	0.9934426229508196
+[islam, ruf] ==> [lang]	0.9680511182108626
+[islam, lang] ==> [ruf]	0.9588607594936709
+[ruf] ==> [islam, lang]	0.7829457364341085
+[pegida, ruf] ==> [islam]	0.9902597402597403
+[islam, ruf] ==> [pegida]	0.9744408945686901
+[islam, pegida] ==> [ruf]	0.8310626702997275
+[ruf] ==> [islam, pegida]	0.7881136950904393
+[ruft] ==> [islam]	0.7283372365339579
+[lang, ruft] ==> [islam]	0.9967105263157895
+[islam, ruft] ==> [lang]	0.9742765273311897
+[islam, lang] ==> [ruft]	0.9588607594936709
+[ruft] ==> [islam, lang]	0.7096018735362998
+[pegida, ruft] ==> [islam]	0.9967105263157895
+[islam, ruft] ==> [pegida]	0.9742765273311897
+[islam, pegida] ==> [ruft]	0.8256130790190735
+[ruft] ==> [islam, pegida]	0.7096018735362998
+[ruf, ruft] ==> [islam]	1.0
+[islam, ruft] ==> [ruf]	0.9742765273311897
+[islam, ruf] ==> [ruft]	0.9680511182108626
+[ruf] ==> [islam, ruft]	0.7829457364341085
+[ruft] ==> [islam, ruf]	0.7096018735362998
+[steh] ==> [islam]	0.6686991869918699
+[lang, steh] ==> [islam]	0.9435736677115988
+[islam, steh] ==> [lang]	0.9148936170212766
+[islam, lang] ==> [steh]	0.9525316455696202
+[pegida, steh] ==> [islam]	0.9869706840390879
+[islam, steh] ==> [pegida]	0.9209726443768997
+[islam, pegida] ==> [steh]	0.8256130790190735
+[ruf, steh] ==> [islam]	0.9836601307189542
+[islam, steh] ==> [ruf]	0.9148936170212766
+[islam, ruf] ==> [steh]	0.9616613418530351
+[ruf] ==> [islam, steh]	0.7777777777777778
+[ruft, steh] ==> [islam]	1.0
+[islam, steh] ==> [ruft]	0.9148936170212766
+[islam, ruft] ==> [steh]	0.9678456591639871
+[ruft] ==> [islam, steh]	0.7049180327868853
+[tat] ==> [islam]	0.7230769230769231
+[lang, tat] ==> [islam]	1.0
+[islam, tat] ==> [lang]	0.9148936170212766
+[islam, lang] ==> [tat]	0.9525316455696202
+[tat] ==> [islam, lang]	0.6615384615384615
+[pegida, tat] ==> [islam]	0.9869281045751634
+[islam, tat] ==> [pegida]	0.9179331306990881
+[islam, pegida] ==> [tat]	0.8228882833787466
+[tat] ==> [islam, pegida]	0.6637362637362637
+[ruf, tat] ==> [islam]	1.0
+[islam, tat] ==> [ruf]	0.9148936170212766
+[islam, ruf] ==> [tat]	0.9616613418530351
+[ruf] ==> [islam, tat]	0.7777777777777778
+[tat] ==> [islam, ruf]	0.6615384615384615
+[ruft, tat] ==> [islam]	1.0
+[islam, tat] ==> [ruft]	0.9148936170212766
+[islam, ruft] ==> [tat]	0.9678456591639871
+[ruft] ==> [islam, tat]	0.7049180327868853
+[tat] ==> [islam, ruft]	0.6615384615384615
+[steh, tat] ==> [islam]	0.9966887417218543
+[islam, tat] ==> [steh]	0.9148936170212766
+[islam, steh] ==> [tat]	0.9148936170212766
+[tat] ==> [islam, steh]	0.6615384615384615
+[lang, volk] ==> [islam]	0.9181818181818182
+[islam, volk] ==> [lang]	0.9351851851851852
+[islam, lang] ==> [volk]	0.9588607594936709
+[pegida, volk] ==> [islam]	0.7616707616707616
+[islam, volk] ==> [pegida]	0.9567901234567902
+[islam, pegida] ==> [volk]	0.8446866485013624
+[ruf, volk] ==> [islam]	0.9409937888198758
+[islam, volk] ==> [ruf]	0.9351851851851852
+[islam, ruf] ==> [volk]	0.9680511182108626
+[ruf] ==> [islam, volk]	0.7829457364341085
+[ruft, volk] ==> [islam]	0.9901960784313726
+[islam, volk] ==> [ruft]	0.9351851851851852
+[islam, ruft] ==> [volk]	0.9742765273311897
+[ruft] ==> [islam, volk]	0.7096018735362998
+[steh, volk] ==> [islam]	0.9805825242718447
+[islam, volk] ==> [steh]	0.9351851851851852
+[islam, steh] ==> [volk]	0.9209726443768997
+[tat, volk] ==> [islam]	0.9901315789473685
+[islam, volk] ==> [tat]	0.9290123456790124
+[islam, tat] ==> [volk]	0.9148936170212766
+[tat] ==> [islam, volk]	0.6615384615384615
+[jahr] ==> [schon]	0.6510067114093959
+[ruf] ==> [lang]	0.7881136950904393
+[pegida, ruf] ==> [lang]	0.9837662337662337
+[lang, ruf] ==> [pegida]	0.9934426229508196
+[lang, pegida] ==> [ruf]	0.6703539823008849
+[ruf] ==> [lang, pegida]	0.7829457364341085
+[ruft] ==> [lang]	0.711943793911007
+[pegida, ruft] ==> [lang]	0.9967105263157895
+[lang, ruft] ==> [pegida]	0.9967105263157895
+[lang, pegida] ==> [ruft]	0.6703539823008849
+[ruft] ==> [lang, pegida]	0.7096018735362998
+[ruf, ruft] ==> [lang]	1.0
+[lang, ruft] ==> [ruf]	0.9967105263157895
+[lang, ruf] ==> [ruft]	0.9934426229508196
+[ruft] ==> [lang, ruf]	0.7096018735362998
+[ruf] ==> [lang, ruft]	0.7829457364341085
+[pegida, steh] ==> [lang]	0.9804560260586319
+[lang, steh] ==> [pegida]	0.9435736677115988
+[lang, pegida] ==> [steh]	0.665929203539823
+[ruf, steh] ==> [lang]	0.9836601307189542
+[lang, steh] ==> [ruf]	0.9435736677115988
+[lang, ruf] ==> [steh]	0.9868852459016394
+[ruf] ==> [lang, steh]	0.7777777777777778
+[ruft, steh] ==> [lang]	1.0
+[lang, steh] ==> [ruft]	0.9435736677115988
+[lang, ruft] ==> [steh]	0.9901315789473685
+[ruft] ==> [lang, steh]	0.7049180327868853
+[tat] ==> [lang]	0.6615384615384615
+[pegida, tat] ==> [lang]	0.9836601307189542
+[lang, tat] ==> [pegida]	1.0
+[lang, pegida] ==> [tat]	0.665929203539823
+[tat] ==> [lang, pegida]	0.6615384615384615
+[ruf, tat] ==> [lang]	1.0
+[lang, tat] ==> [ruf]	1.0
+[lang, ruf] ==> [tat]	0.9868852459016394
+[ruf] ==> [lang, tat]	0.7777777777777778
+[tat] ==> [lang, ruf]	0.6615384615384615
+[ruft, tat] ==> [lang]	1.0
+[lang, tat] ==> [ruft]	1.0
+[lang, ruft] ==> [tat]	0.9901315789473685
+[ruft] ==> [lang, tat]	0.7049180327868853
+[tat] ==> [lang, ruft]	0.6615384615384615
+[steh, tat] ==> [lang]	0.9966887417218543
+[lang, tat] ==> [steh]	1.0
+[lang, steh] ==> [tat]	0.9435736677115988
+[tat] ==> [lang, steh]	0.6615384615384615
+[pegida, volk] ==> [lang]	0.7518427518427518
+[lang, volk] ==> [pegida]	0.9272727272727272
+[lang, pegida] ==> [volk]	0.6769911504424779
+[ruf, volk] ==> [lang]	0.9409937888198758
+[lang, volk] ==> [ruf]	0.9181818181818182
+[lang, ruf] ==> [volk]	0.9934426229508196
+[ruf] ==> [lang, volk]	0.7829457364341085
+[ruft, volk] ==> [lang]	0.9901960784313726
+[lang, volk] ==> [ruft]	0.9181818181818182
+[lang, ruft] ==> [volk]	0.9967105263157895
+[ruft] ==> [lang, volk]	0.7096018735362998
+[steh, volk] ==> [lang]	0.9741100323624595
+[lang, volk] ==> [steh]	0.9121212121212121
+[lang, steh] ==> [volk]	0.9435736677115988
+[tat, volk] ==> [lang]	0.9901315789473685
+[lang, volk] ==> [tat]	0.9121212121212121
+[lang, tat] ==> [volk]	1.0
+[tat] ==> [lang, volk]	0.6615384615384615
+[mehr] ==> [schon]	0.6864686468646864
+[mensch] ==> [schon]	0.8209876543209876
+[merkel] ==> [schon]	0.9989017023613399
+[morg] ==> [schon]	0.9012345679012346
+[nutzlich] ==> [nennt]	0.9016393442622951
+[nennt] ==> [nutzlich]	0.676923076923077
+[neu] ==> [schon]	0.7865168539325843
+[nopegida] ==> [schon]	0.8134796238244514
+[ruf] ==> [pegida]	0.7958656330749354
+[ruft] ==> [pegida]	0.711943793911007
+[ruf, ruft] ==> [pegida]	1.0
+[pegida, ruft] ==> [ruf]	0.9967105263157895
+[pegida, ruf] ==> [ruft]	0.9837662337662337
+[ruf] ==> [pegida, ruft]	0.7829457364341085
+[ruft] ==> [pegida, ruf]	0.7096018735362998
+[pegida] ==> [schon]	0.6762417713943746
+[ruf, steh] ==> [pegida]	0.9836601307189542
+[pegida, steh] ==> [ruf]	0.9804560260586319
+[pegida, ruf] ==> [steh]	0.9772727272727273
+[ruf] ==> [pegida, steh]	0.7777777777777778
+[ruft, steh] ==> [pegida]	1.0
+[pegida, steh] ==> [ruft]	0.9804560260586319
+[pegida, ruft] ==> [steh]	0.9901315789473685
+[ruft] ==> [pegida, steh]	0.7049180327868853
+[tat] ==> [pegida]	0.6725274725274726
+[ruf, tat] ==> [pegida]	1.0
+[pegida, tat] ==> [ruf]	0.9836601307189542
+[pegida, ruf] ==> [tat]	0.9772727272727273
+[tat] ==> [pegida, ruf]	0.6615384615384615
+[ruf] ==> [pegida, tat]	0.7777777777777778
+[ruft, tat] ==> [pegida]	1.0
+[pegida, tat] ==> [ruft]	0.9836601307189542
+[pegida, ruft] ==> [tat]	0.9901315789473685
+[tat] ==> [pegida, ruft]	0.6615384615384615
+[ruft] ==> [pegida, tat]	0.7049180327868853
+[steh, tat] ==> [pegida]	0.9966887417218543
+[pegida, tat] ==> [steh]	0.9836601307189542
+[pegida, steh] ==> [tat]	0.9804560260586319
+[tat] ==> [pegida, steh]	0.6615384615384615
+[ruf, volk] ==> [pegida]	0.9472049689440993
+[pegida, volk] ==> [ruf]	0.7493857493857494
+[pegida, ruf] ==> [volk]	0.9902597402597403
+[ruf] ==> [pegida, volk]	0.7881136950904393
+[ruft, volk] ==> [pegida]	0.9901960784313726
+[pegida, volk] ==> [ruft]	0.7444717444717445
+[pegida, ruft] ==> [volk]	0.9967105263157895
+[ruft] ==> [pegida, volk]	0.7096018735362998
+[steh, volk] ==> [pegida]	0.9805825242718447
+[pegida, volk] ==> [steh]	0.7444717444717445
+[pegida, steh] ==> [volk]	0.9869706840390879
+[tat, volk] ==> [pegida]	0.9901315789473685
+[pegida, volk] ==> [tat]	0.7395577395577395
+[pegida, tat] ==> [volk]	0.9836601307189542
+[tat] ==> [pegida, volk]	0.6615384615384615
+[refuge] ==> [schon]	0.8339350180505415
+[refugeeswelcom] ==> [schon]	1.0
+[ruft] ==> [ruf]	0.7096018735362998
+[ruf] ==> [ruft]	0.7829457364341085
+[ruf] ==> [steh]	0.7906976744186046
+[ruft, steh] ==> [ruf]	1.0
+[ruf, steh] ==> [ruft]	0.9836601307189542
+[ruf, ruft] ==> [steh]	0.9933993399339934
+[ruf] ==> [ruft, steh]	0.7777777777777778
+[ruft] ==> [ruf, steh]	0.7049180327868853
+[tat] ==> [ruf]	0.6615384615384615
+[ruf] ==> [tat]	0.7777777777777778
+[ruft, tat] ==> [ruf]	1.0
+[ruf, tat] ==> [ruft]	1.0
+[ruf, ruft] ==> [tat]	0.9933993399339934
+[ruft] ==> [ruf, tat]	0.7049180327868853
+[ruf] ==> [ruft, tat]	0.7777777777777778
+[tat] ==> [ruf, ruft]	0.6615384615384615
+[steh, tat] ==> [ruf]	0.9966887417218543
+[ruf, tat] ==> [steh]	1.0
+[ruf, steh] ==> [tat]	0.9836601307189542
+[ruf] ==> [steh, tat]	0.7777777777777778
+[tat] ==> [ruf, steh]	0.6615384615384615
+[ruf] ==> [volk]	0.8320413436692506
+[ruft, volk] ==> [ruf]	0.9901960784313726
+[ruf, volk] ==> [ruft]	0.9409937888198758
+[ruf, ruft] ==> [volk]	1.0
+[ruft] ==> [ruf, volk]	0.7096018735362998
+[ruf] ==> [ruft, volk]	0.7829457364341085
+[steh, volk] ==> [ruf]	0.9870550161812298
+[ruf, volk] ==> [steh]	0.9472049689440993
+[ruf, steh] ==> [volk]	0.9967320261437909
+[ruf] ==> [steh, volk]	0.7881136950904393
+[tat, volk] ==> [ruf]	0.9901315789473685
+[ruf, volk] ==> [tat]	0.9347826086956522
+[ruf, tat] ==> [volk]	1.0
+[tat] ==> [ruf, volk]	0.6615384615384615
+[ruf] ==> [tat, volk]	0.7777777777777778
+[ruft] ==> [steh]	0.7049180327868853
+[tat] ==> [ruft]	0.6615384615384615
+[ruft] ==> [tat]	0.7049180327868853
+[steh, tat] ==> [ruft]	0.9966887417218543
+[ruft, tat] ==> [steh]	1.0
+[ruft, steh] ==> [tat]	1.0
+[ruft] ==> [steh, tat]	0.7049180327868853
+[tat] ==> [ruft, steh]	0.6615384615384615
+[ruft] ==> [volk]	0.7166276346604216
+[steh, volk] ==> [ruft]	0.9741100323624595
+[ruft, volk] ==> [steh]	0.9836601307189542
+[ruft, steh] ==> [volk]	1.0
+[ruft] ==> [steh, volk]	0.7049180327868853
+[tat, volk] ==> [ruft]	0.9901315789473685
+[ruft, volk] ==> [tat]	0.9836601307189542
+[ruft, tat] ==> [volk]	1.0
+[tat] ==> [ruft, volk]	0.6615384615384615
+[ruft] ==> [tat, volk]	0.7049180327868853
+[seehof] ==> [schon]	0.9308855291576674
+[spd] ==> [schon]	1.0
+[syri] ==> [schon]	0.6795454545454546
+[war] ==> [schon]	0.7568807339449541
+[tat] ==> [steh]	0.6637362637362637
+[tat, volk] ==> [steh]	0.9901315789473685
+[steh, volk] ==> [tat]	0.9741100323624595
+[steh, tat] ==> [volk]	0.9966887417218543
+[tat] ==> [steh, volk]	0.6615384615384615
+[tat] ==> [volk]	0.6681318681318681

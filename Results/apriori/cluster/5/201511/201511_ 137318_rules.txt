@@ -1,0 +1,29 @@
+[afd, grun] ==> [spd]	0.8904899135446686
+[bay] ==> [csu]	0.845631067961165
+[rundfunk] ==> [best]	0.9919028340080972
+[deutsch, rundfunk] ==> [best]	1.0
+[best, rundfunk] ==> [deutsch]	1.0
+[best, deutsch] ==> [rundfunk]	0.998641304347826
+[rundfunk] ==> [best, deutsch]	0.9919028340080972
+[csu, grun] ==> [cdu]	0.8165038002171553
+[cdu, link] ==> [grun]	0.6766666666666666
+[merkel] ==> [cdu]	0.8597449908925319
+[csu, merkel] ==> [cdu]	0.9189473684210526
+[cdu, merkel] ==> [csu]	0.7398305084745763
+[merkelmussweg] ==> [cdu]	0.707808564231738
+[csu, spd] ==> [cdu]	0.8655604470030478
+[fdp, spd] ==> [cdu]	0.8944658944658944
+[cdu, fdp] ==> [spd]	0.78177727784027
+[cdu, grun] ==> [spd]	0.8639575971731449
+[cdu, link] ==> [spd]	0.7608333333333334
+[merkel, spd] ==> [cdu]	0.7778528021607022
+[csupt15] ==> [csu]	0.9495798319327731
+[merkel] ==> [csu]	0.692167577413479
+[parteitag] ==> [csu]	0.7820927723840345
+[seehof] ==> [csu]	0.8539415766306523
+[sod] ==> [csu]	0.9025487256371814
+[csu, grun] ==> [spd]	0.7698154180238871
+[rundfunk] ==> [deutsch]	0.9919028340080972
+[gabriel] ==> [spd]	0.8787085514834206
+[link, spd] ==> [grun]	0.7781479013990673
+[grun, link] ==> [spd]	0.8795180722891566

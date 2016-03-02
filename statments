@@ -1,0 +1,45 @@
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/105695/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/105695/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/107961/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/107961/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/251984/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/251984/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/274363/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/274363/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/283052/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/283052/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/33090/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/33090/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/381692/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/381692/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/44432/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/44432/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/47289/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/47289/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/66360/ hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/66360/ 0.01 0.65 
+
+
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/11293/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/11293/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/138824/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/138824/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/148442/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/148442/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/189567/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/189567/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/205378/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/205378/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/232026/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/232026/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/291731/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/291731/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/341869/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/341869/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/381432/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/381432/ 0.01 0.65 
+hadoop jar AprioriMapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/98190/ hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/98190/ 0.01 0.65 
+
+mahout seqdumper -i -c
+
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/105695/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/107961/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/251984/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/274363/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/283052/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/33090/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/381692/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/44432/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/47289/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/cluster/doc/66360/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/11293/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/138824/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/148442/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/189567/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/205378/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/232026/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/291731/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/341869/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/381432/ -c
+mahout seqdumper -i hdfs://master.hs.osnabrueck.de:8020/project/201512/apriori/cluster/doc/98190/ -c

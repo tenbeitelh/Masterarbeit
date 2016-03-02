@@ -1,0 +1,58 @@
+[2015] ==> [merkel]	0.661522633744856
+[afd] ==> [merkel]	1.0
+[angela] ==> [merkel]	0.9814159292035398
+[beim] ==> [merkel]	0.7558974358974359
+[csu] ==> [cdu]	0.6904176904176904
+[cdu] ==> [merkel]	0.8858653397605349
+[cdu, cdupt15] ==> [merkel]	0.9398186314921682
+[csu, merkel] ==> [cdu]	0.7870722433460076
+[cdu, csu] ==> [merkel]	0.9822064056939501
+[csu] ==> [cdu, merkel]	0.6781326781326781
+[cdu, parteitag] ==> [merkel]	0.8942731277533039
+[cdu, spd] ==> [merkel]	0.8788426763110307
+[cdupt15] ==> [merkel]	0.8773121048934676
+[csu] ==> [merkel]	0.8615888615888616
+[dank] ==> [merkel]	0.7607296137339056
+[dass] ==> [merkel]	0.67558799675588
+[deutsch] ==> [merkel]	0.848502994011976
+[deutschland] ==> [merkel]	0.9953791791247621
+[eigentlich] ==> [merkel]	0.7216326530612245
+[endlich] ==> [merkel]	0.6915584415584416
+[fluchtling] ==> [merkel]	0.9717852684144819
+[fluchtlingspolitik] ==> [merkel]	0.7620519159456118
+[frau] ==> [merkel]	0.7126770795495823
+[gabriel] ==> [merkel]	0.8688760806916427
+[geht] ==> [merkel]	0.6935817805383023
+[gut] ==> [merkel]	0.7137014314928425
+[heut] ==> [merkel]	0.754614549402823
+[https] ==> [merkel]	0.8002125398512221
+[islam] ==> [merkel]	0.7457831325301205
+[merkel, person] ==> [jahr]	0.6807817589576547
+[jahr, person] ==> [merkel]	0.9344262295081968
+[kanzlerin] ==> [merkel]	0.8716791979949875
+[kommt] ==> [merkel]	0.8596491228070176
+[krieg] ==> [merkel]	0.846820809248555
+[land] ==> [merkel]	0.756885593220339
+[link] ==> [merkel]	0.8338493292053664
+[mal] ==> [merkel]	0.7616525423728814
+[mensch] ==> [merkel]	0.7397397397397397
+[neujahrsansprach] ==> [merkel]	0.9645704162976085
+[parteitag] ==> [merkel]	0.8862107623318386
+[person] ==> [merkel]	0.8631677600749765
+[red] ==> [merkel]	0.6978484565014031
+[regierung] ==> [merkel]	0.8132147395171537
+[sag] ==> [merkel]	0.7008959338387319
+[sagt] ==> [merkel]	0.7133079847908745
+[schaff] ==> [merkel]	0.851207729468599
+[schon] ==> [merkel]	0.6685044796691937
+[seehof] ==> [merkel]	0.8021828103683493
+[seit] ==> [merkel]	0.7172211350293543
+[spd] ==> [merkel]	0.7737889273356401
+[tim] ==> [merkel]	0.8808139534883721
+[turkei] ==> [merkel]	0.85
+[viel] ==> [merkel]	0.6669990029910269
+[volk] ==> [merkel]	0.8175487465181058
+[wer] ==> [merkel]	0.7283702213279678
+[wurd] ==> [merkel]	0.7711962833914053
+[ots] ==> [politik]	0.9899175068744271
+[sozial] ==> [politik]	0.8970873786407767

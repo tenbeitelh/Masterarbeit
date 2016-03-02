@@ -1,0 +1,12 @@
+Running on hadoop, using /usr/bin/hadoop and HADOOP_CONF_DIR=
+MAHOUT-JOB: /usr/hdp/current/mahout-client/mahout-examples-0.10.2-job.jar
+Input Path: hdfs://master.hs.osnabrueck.de:8020/project/201511/apriori/graph/user_txn/itemsets/1/part-r-00000
+Key class: class org.apache.mahout.common.StringTuple Value Class: class org.apache.hadoop.io.IntWritable
+Key: [1483386830]: Value: 1730
+Key: [1703057576]: Value: 246
+Key: [201236628]: Value: 919
+Key: [2976344045]: Value: 760
+Key: [4089349325]: Value: 588
+Key: [4147554497]: Value: 272
+Key: [949924902]: Value: 303
+Count: 7

@@ -1,0 +1,25 @@
+[angela] ==> [merkel]	0.9723112795103468
+[bay, ticket] ==> [deutschland]	1.0
+[bay, deutschland] ==> [ticket]	0.8859625305457507
+[csu, spd] ==> [cdu]	0.8643266959163011
+[sportevent] ==> [deutschland]	1.0
+[sportsevent] ==> [deutschland]	1.0
+[sportevent, sportsevent] ==> [deutschland]	1.0
+[ticket] ==> [deutschland]	0.9934725848563969
+[sportevent, ticket] ==> [deutschland]	1.0
+[deutschland, ticket] ==> [sportevent]	0.6611038107752957
+[deutschland, sportevent] ==> [ticket]	0.9998012718600954
+[sportevent] ==> [deutschland, ticket]	0.9998012718600954
+[ticket] ==> [deutschland, sportevent]	0.6567885117493473
+[sportsevent, ticket] ==> [deutschland]	1.0
+[deutschland, ticket] ==> [sportsevent]	0.6693823915900131
+[deutschland, sportsevent] ==> [ticket]	1.0
+[sportsevent] ==> [deutschland, ticket]	1.0
+[ticket] ==> [deutschland, sportsevent]	0.6650130548302872
+[dresd] ==> [pegida]	0.6742558862727677
+[kanzlerin] ==> [merkel]	0.8436382894214219
+[ticket] ==> [sportevent]	0.6567885117493473
+[sportevent] ==> [ticket]	0.9998012718600954
+[sportevent, sportsevent] ==> [ticket]	1.0
+[ticket] ==> [sportsevent]	0.6650130548302872
+[sportsevent] ==> [ticket]	1.0

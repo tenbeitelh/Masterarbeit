@@ -1,0 +1,17 @@
+IF;THEN;CONFIDENCE
+russland;syri;0.6625226625226626
+sozial;politik;0.706060606060606
+isis;syri;0.7612826603325415
+russisch;syri;0.8186550976138829
+assad;syri;0.8795768917819365
+schafft;bundestag,  routerzwang;0.8871173469387755
+schafft;routerzwang;0.8871173469387755
+schafft;bundestag;0.8896683673469388
+irak;syri;0.9005439005439005
+ots;politik;0.9760425909494232
+routerzwang;bundestag,  schafft;0.981651376146789
+routerzwang;schafft;0.981651376146789
+routerzwang;bundestag;0.9992942836979535
+bundestag,  routerzwang;schafft;0.9823446327683616
+bundestag,  schafft;routerzwang;0.9971326164874552
+routerzwang,  schafft;bundestag;1.0

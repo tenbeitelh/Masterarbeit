@@ -1,0 +1,313 @@
+IF;THEN;CONFIDENCE
+frankfurt;deutschland,  eintracht;0.6593103448275862
+frankfurt;eintracht;0.6593103448275862
+frankfurt;eintracht,  ticket;0.6593103448275862
+ticket;deutschland,  sportevent;0.6595437860513896
+ticket;sportevent;0.6595437860513896
+bvb;sportsevent;0.6615811373092927
+bvb;deutschland,  sportsevent;0.6615811373092927
+bvb;sportsevent,  ticket;0.6615811373092927
+borussia;sportsevent;0.6648351648351648
+borussia;deutschland,  sportsevent;0.6648351648351648
+borussia;sportsevent,  ticket;0.6648351648351648
+ticket;deutschland,  sportsevent;0.6678028316727844
+ticket;sportsevent;0.6678028316727844
+dortmund;borussia,  ticket;0.6827354260089686
+angebot;newborn;0.6845555100368701
+angebot;baby,  newborn;0.6845555100368701
+angebot;deutschland,  newborn;0.6845555100368701
+frankfurt;deutschland,  ticket;0.6882758620689655
+frankfurt;ticket;0.6882758620689655
+dortmund;borussia,  deutschland;0.6883408071748879
+dortmund;borussia;0.6905829596412556
+baby;angebot,  newborn;0.7215025906735751
+baby;newborn;0.7215025906735751
+baby;deutschland,  newborn;0.7215025906735751
+eintracht;deutschland,  frankfurt;0.7623604465709729
+eintracht;frankfurt;0.7623604465709729
+eintracht;frankfurt,  ticket;0.7623604465709729
+comics;eur;0.7928883343730505
+comics;deutschland,  eur;0.7928883343730505
+comics;eur,  marvel;0.7928883343730505
+marvel;comics,  eur;0.7968652037617555
+marvel;deutschland,  eur;0.7968652037617555
+marvel;eur;0.7968652037617555
+2015;deutschland;0.8012820512820513
+stuttgart;deutschland,  ticket;0.8222222222222222
+stuttgart;ticket;0.8222222222222222
+munch;bay,  ticket;0.8263374485596707
+munch;bay,  deutschland;0.8378600823045268
+munch;bay;0.8436213991769548
+munch;deutschland,  ticket;0.8588477366255144
+munch;ticket;0.8592592592592593
+nachricht;deutschland;0.863275781614559
+bay;ticket;0.8717606198236708
+bay;deutschland,  ticket;0.8717606198236708
+top;deutschland,  ticket;0.8732919254658386
+top;ticket;0.8732919254658386
+eur;comics;0.8832522585128562
+eur;comics,  deutschland;0.8832522585128562
+eur;comics,  marvel;0.8832522585128562
+eur;deutschland,  marvel;0.8832522585128562
+eur;marvel;0.8832522585128562
+frankfurt;deutschland;0.896551724137931
+darmstadt;ticket;0.9247491638795987
+darmstadt;deutschland,  ticket;0.9247491638795987
+dortmund;deutschland,  ticket;0.9327354260089686
+dortmund;ticket;0.9327354260089686
+angebot;baby;0.9422367882015568
+angebot;baby,  deutschland;0.9422367882015568
+kart;deutschland,  ticket;0.9455676516329704
+kart;ticket;0.9455676516329704
+dortmund;deutschland;0.9573991031390134
+naidoo;deutschland;0.9591836734693877
+news;deutschland;0.9616204690831557
+germany;deutschland;0.9633204633204633
+bay;deutschland;0.9668714934544483
+swr;deutschland;0.9672413793103448
+gebot;comics;0.9696969696969697
+gebot;comics,  deutschland;0.9696969696969697
+gebot;comics,  eur;0.9696969696969697
+gebot;comics,  marvel;0.9696969696969697
+gebot;deutschland,  marvel;0.9696969696969697
+gebot;eur,  marvel;0.9696969696969697
+gebot;marvel;0.9696969696969697
+vfb;deutschland,  ticket;0.9705882352941176
+vfb;ticket;0.9705882352941176
+bvb;ticket;0.9750346740638003
+bvb;deutschland,  ticket;0.9750346740638003
+werd;deutschland,  ticket;0.9774127310061602
+werd;ticket;0.9774127310061602
+gebot;deutschland,  eur;0.9777777777777777
+gebot;eur;0.9777777777777777
+parisattack;deutschland;0.9781879194630873
+heut;deutschland;0.978448275862069
+jahr;deutschland;0.9805996472663139
+brem;deutschland;0.9809322033898306
+schalk;deutschland,  ticket;0.9824
+schalk;ticket;0.9824
+neu;deutschland;0.9830827067669173
+eur;deutschland;0.9833217512161223
+eintracht;deutschland,  ticket;0.9840510366826156
+eintracht;ticket;0.9840510366826156
+hamburg;deutschland;0.9847198641765704
+top;deutschland;0.9850931677018634
+tag;deutschland;0.9862068965517241
+bvb;deutschland;0.9875173370319001
+hsv;deutschland,  ticket;0.9879275653923542
+hsv;ticket;0.9879275653923542
+munch;deutschland;0.9880658436213992
+stuttgart;deutschland;0.9888888888888889
+angebot;deutschland;0.9889389594428513
+niederland;deutschland;0.9891540130151844
+berlin;deutschland;0.9894202285230639
+ganz;deutschland;0.9900662251655629
+warum;deutschland;0.9912126537785588
+mehr;deutschland;0.9912451361867705
+darmstadt;deutschland;0.9916387959866221
+kart;deutschland;0.9922239502332815
+gross;deutschland;0.9924242424242424
+borussia;ticket;0.9926739926739927
+borussia;deutschland,  ticket;0.9926739926739927
+baby;angebot;0.9930915371329879
+baby;angebot,  deutschland;0.9930915371329879
+fluchtlingskris;deutschland;0.9933333333333333
+comics;marvel;0.9943855271366189
+comics;deutschland,  marvel;0.9943855271366189
+hannov;deutschland;0.994475138121547
+gibt;deutschland;0.9950186799501868
+schalk;deutschland;0.9952
+baby;deutschland;0.9952504317789291
+comics;deutschland;0.9956331877729258
+gut;deutschland;0.9956427015250545
+via;deutschland;0.9956597222222222
+europa;deutschland;0.99568345323741
+tech;deutschland;0.9957446808510638
+gebot;deutschland;0.9959595959595959
+hsv;deutschland;0.9959758551307847
+beim;deutschland;0.996031746031746
+ticket;deutschland;0.9976402726796014
+terrorist;deutschland;0.9977324263038548
+amp;deutschland;0.9979057591623036
+borussia;deutschland;0.9981684981684982
+vfb;deutschland;0.9983660130718954
+sitzplatz;deutschland,  ticket;0.9985855728429985
+sitzplatz;ticket;0.9985855728429985
+terror;deutschland;0.9987908101571947
+marvel;comics;0.9993730407523511
+marvel;comics,  deutschland;0.9993730407523511
+sportevent;deutschland,  ticket;0.9998012718600954
+sportevent;ticket;0.9998012718600954
+newborn;angebot;1.0
+newborn;angebot,  baby;1.0
+newborn;angebot,  deutschland;1.0
+anschlag;deutschland;1.0
+asyl;deutschland;1.0
+newborn;baby;1.0
+newborn;baby,  deutschland;1.0
+dass;deutschland;1.0
+deutsch;deutschland;1.0
+eintracht;deutschland;1.0
+fluchtling;deutschland;1.0
+frankreich;deutschland;1.0
+https;deutschland;1.0
+islam;deutschland;1.0
+krieg;deutschland;1.0
+land;deutschland;1.0
+marvel;deutschland;1.0
+million;deutschland;1.0
+newborn;deutschland;1.0
+paris;deutschland;1.0
+petition;deutschland;1.0
+politik;deutschland;1.0
+schon;deutschland;1.0
+sitzplatz;deutschland;1.0
+sportevent;deutschland;1.0
+sportsevent;deutschland;1.0
+syri;deutschland;1.0
+sportsevent;deutschland,  ticket;1.0
+wer;deutschland;1.0
+werd;deutschland;1.0
+sportsevent;ticket;1.0
+bvb,  ticket;borussia;0.65149359886202
+bvb,  ticket;sportevent;0.65149359886202
+bay,  top;sportevent;0.655425219941349
+ticket,  top;sportevent;0.6557610241820768
+bay,  ticket;sportsevent;0.6561446521605884
+dortmund,  ticket;sportsevent;0.6574519230769231
+bay,  ticket;sportevent;0.6582899172540607
+ticket,  top;sportsevent;0.6586059743954481
+deutschland,  ticket;sportevent;0.6611038107752957
+borussia,  deutschland;sportsevent;0.6660550458715596
+deutschland,  ticket;sportsevent;0.6693823915900131
+borussia,  ticket;sportsevent;0.6697416974169742
+bvb,  deutschland;sportsevent;0.6699438202247191
+deutschland,  nachricht;berlin;0.6713513513513514
+bvb,  ticket;sportsevent;0.6785206258890469
+angebot,  deutschland;newborn;0.6922120961060481
+deutschland,  dortmund;borussia;0.7189695550351288
+baby,  deutschland;newborn;0.7249457700650759
+angebot,  baby;newborn;0.7265217391304348
+dortmund,  ticket;borussia;0.7319711538461539
+deutschland,  frankfurt;eintracht;0.7353846153846154
+deutschland,  eintracht;frankfurt;0.7623604465709729
+deutschland,  frankfurt;ticket;0.7676923076923077
+eintracht,  ticket;frankfurt;0.7747163695299838
+bay,  top;munch;0.7903225806451613
+comics,  deutschland;eur;0.7963659147869674
+deutschland,  marvel;eur;0.7968652037617555
+comics,  marvel;eur;0.7973651191969887
+deutschland,  stuttgart;ticket;0.8314606741573034
+deutschland,  munch;bay;0.8479800083298625
+deutschland,  munch;ticket;0.8692211578508955
+deutschland,  top;ticket;0.8865069356872636
+deutschland,  eur;comics;0.8982332155477032
+deutschland,  eur;marvel;0.8982332155477032
+bay,  deutschland;ticket;0.901630284609008
+darmstadt,  deutschland;ticket;0.9325463743676222
+angebot,  deutschland;baby;0.9527754763877382
+deutschland,  kart;ticket;0.9529780564263323
+frankfurt,  ticket;eintracht;0.9579158316633266
+munch,  sportevent;bay;0.9611069558713538
+munch,  ticket;bay;0.9616858237547893
+munch,  sportsevent;bay;0.9688212927756654
+deutschland,  vfb;ticket;0.972176759410802
+deutschland,  gebot;comics;0.973630831643002
+deutschland,  gebot;marvel;0.973630831643002
+deutschland,  dortmund;ticket;0.9742388758782201
+deutschland,  werd;ticket;0.9774127310061602
+bay,  munch;ticket;0.9795121951219512
+deutschland,  gebot;eur;0.9817444219066938
+deutschland,  eintracht;ticket;0.9840510366826156
+deutschland,  schalk;ticket;0.9871382636655949
+bvb,  deutschland;ticket;0.9873595505617978
+borussia,  dortmund;ticket;0.9886363636363636
+munch,  top;bay;0.9908088235294118
+bvb,  dortmund;ticket;0.9910313901345291
+borussia,  bvb;ticket;0.9913419913419913
+eur,  gebot;comics;0.9917355371900827
+eur,  gebot;marvel;0.9917355371900827
+deutschland,  hsv;ticket;0.9919191919191919
+bay,  munch;deutschland;0.9931707317073171
+borussia,  deutschland;ticket;0.9944954128440368
+borussia,  dortmund;deutschland;0.9967532467532467
+bay,  top;ticket;0.9970674486803519
+bvb,  dortmund;deutschland;0.9977578475336323
+baby,  deutschland;angebot;0.9978308026030369
+borussia,  bvb;deutschland;0.9978354978354979
+berlin,  nachricht;deutschland;0.9983922829581994
+deutschland,  sitzplatz;ticket;0.9985855728429985
+comics,  deutschland;marvel;0.9987468671679198
+deutschland,  marvel;comics;0.9993730407523511
+munch,  ticket;deutschland;0.9995210727969349
+deutschland,  sportevent;ticket;0.9998012718600954
+angebot,  baby;deutschland;1.0
+baby,  newborn;angebot;1.0
+angebot,  newborn;baby;1.0
+deutschland,  newborn;angebot;1.0
+angebot,  newborn;deutschland;1.0
+deutschland,  newborn;baby;1.0
+baby,  newborn;deutschland;1.0
+bay,  sportevent;deutschland;1.0
+bay,  sportsevent;deutschland;1.0
+bay,  ticket;deutschland;1.0
+bay,  sportevent;ticket;1.0
+bay,  sportsevent;ticket;1.0
+bay,  top;deutschland;1.0
+borussia,  sportevent;deutschland;1.0
+borussia,  sportsevent;deutschland;1.0
+borussia,  ticket;deutschland;1.0
+borussia,  sportevent;ticket;1.0
+borussia,  sportsevent;ticket;1.0
+bvb,  sportevent;deutschland;1.0
+bvb,  sportsevent;deutschland;1.0
+bvb,  ticket;deutschland;1.0
+bvb,  sportevent;ticket;1.0
+bvb,  sportsevent;ticket;1.0
+comics,  eur;deutschland;1.0
+comics,  gebot;deutschland;1.0
+comics,  gebot;eur;1.0
+comics,  marvel;deutschland;1.0
+eur,  marvel;comics;1.0
+comics,  eur;marvel;1.0
+gebot,  marvel;comics;1.0
+comics,  gebot;marvel;1.0
+darmstadt,  ticket;deutschland;1.0
+eintracht,  frankfurt;deutschland;1.0
+eur,  gebot;deutschland;1.0
+eur,  marvel;deutschland;1.0
+gebot,  marvel;deutschland;1.0
+dortmund,  sportevent;deutschland;1.0
+munch,  sportevent;deutschland;1.0
+sitzplatz,  sportevent;deutschland;1.0
+dortmund,  sportsevent;deutschland;1.0
+munch,  sportsevent;deutschland;1.0
+sportevent,  sportsevent;deutschland;1.0
+dortmund,  ticket;deutschland;1.0
+eintracht,  ticket;deutschland;1.0
+frankfurt,  ticket;deutschland;1.0
+hsv,  ticket;deutschland;1.0
+kart,  ticket;deutschland;1.0
+schalk,  ticket;deutschland;1.0
+sitzplatz,  ticket;deutschland;1.0
+sportevent,  ticket;deutschland;1.0
+sportsevent,  ticket;deutschland;1.0
+deutschland,  sportsevent;ticket;1.0
+stuttgart,  ticket;deutschland;1.0
+munch,  top;deutschland;1.0
+sportevent,  top;deutschland;1.0
+sportsevent,  top;deutschland;1.0
+ticket,  top;deutschland;1.0
+ticket,  vfb;deutschland;1.0
+ticket,  werd;deutschland;1.0
+dortmund,  sportevent;ticket;1.0
+dortmund,  sportsevent;ticket;1.0
+eintracht,  frankfurt;ticket;1.0
+gebot,  marvel;eur;1.0
+munch,  sportevent;ticket;1.0
+munch,  sportsevent;ticket;1.0
+munch,  top;ticket;1.0
+sitzplatz,  sportevent;ticket;1.0
+sportevent,  sportsevent;ticket;1.0
+sportevent,  top;ticket;1.0
+sportsevent,  top;ticket;1.0

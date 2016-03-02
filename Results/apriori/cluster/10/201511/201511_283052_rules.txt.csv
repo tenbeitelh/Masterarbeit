@@ -1,0 +1,170 @@
+IF;THEN;CONFIDENCE
+morg;weinheim;0.6844444444444444
+morg;npd,  weinheim;0.6844444444444444
+mehr;npd;0.7050691244239631
+politik;afd;0.7073578595317725
+politik;afd,  npd;0.7073578595317725
+widerlich;afd;0.7079646017699115
+widerlich;afd,  npd;0.7079646017699115
+widerstand;afd,  pegida;0.7251908396946565
+widerstand;npd,  pegida;0.7251908396946565
+widerstand;pegida;0.7251908396946565
+rassistisch;npd;0.7277227722772277
+widerstand;afd;0.7442748091603053
+widerstand;afd,  npd;0.7442748091603053
+uhr;npd;0.7473684210526316
+heut;npd;0.7545126353790613
+pegida;afd,  npd;0.75764192139738
+pegida;afd;0.7592794759825328
+widerlich;npd;0.7610619469026548
+seit;npd;0.7640449438202247
+dass;npd;0.7743589743589744
+https;npd;0.7854251012145749
+gibt;npd;0.7929292929292929
+antifa;npd;0.7943722943722944
+fluchtling;npd;0.8046153846153846
+widerstand;npd;0.8187022900763359
+refugeeswelcom;npd;0.8259109311740891
+bundesparteitag;weinheim;0.8336673346693386
+bundesparteitag;npd,  weinheim;0.8336673346693386
+via;npd;0.8418803418803419
+lageso;npd;0.8482587064676617
+pack;afd,  dass;0.8491620111731844
+amp;npd;0.8506944444444444
+geht;npd;0.8526315789473684
+pack;dass;0.8547486033519553
+pack;dass,  npd;0.8547486033519553
+pack;dass,  pegida;0.8547486033519553
+wurd;npd;0.8607594936708861
+politik;npd;0.862876254180602
+imm;npd;0.8663101604278075
+asyl;npd;0.8674698795180723
+blocknpd;nonpdwhm;0.8675496688741722
+polizei;npd;0.8732782369146006
+berlin;npd;0.8745198463508322
+prot;npd;0.8787425149700598
+erst;npd;0.8863636363636364
+novemb;npd;0.8870967741935484
+pack;afd,  pegida;0.8938547486033519
+nazis;npd;0.8953722334004024
+pack;npd,  pegida;0.9050279329608939
+pack;pegida;0.9050279329608939
+recht;npd;0.9094707520891365
+mensch;npd;0.9139072847682119
+pack;afd;0.9162011173184358
+pack;afd,  npd;0.9162011173184358
+demonstri;npd;0.9215686274509803
+nonpdwhm;npd;0.9226759339704604
+blocknpd;npd;0.9337748344370861
+nonazis;npd;0.9339622641509434
+massiv;npd;0.9341085271317829
+zurst;npd,  recht;0.9362880886426593
+zurst;pegida,  recht;0.9362880886426593
+zurst;recht;0.9362880886426593
+demo;npd;0.9363636363636364
+pack;npd;0.9385474860335196
+zurst;npd,  pegida;0.9390581717451524
+zurst;pegida;0.9390581717451524
+zurst;npd;0.9418282548476454
+morg;npd;0.9422222222222222
+aufmarsch;npd;0.9428571428571428
+lindn;fdp;0.9428571428571428
+svp;fdp;0.9467455621301775
+jungefreiheit;afd;0.9527027027027027
+jungefreiheit;afd,  npd;0.9527027027027027
+jungefreiheit;npd;0.9527027027027027
+parteitag;npd;0.9550128534704371
+nazi;npd;0.958974358974359
+kundgebung;npd;0.9629629629629629
+gegenprot;npd;0.9645390070921985
+weinheim;npd;0.9657007687758723
+anhang;npd;0.9668874172185431
+nonpd;npd;0.9674418604651163
+angriff;npd;0.9777777777777777
+cdu;npd;0.9790209790209791
+vollpfost;afd,  pegida;0.9832775919732442
+vollpfost;npd,  pegida;0.9832775919732442
+vollpfost;pegida;0.9832775919732442
+jothal;npd;0.9847908745247148
+leipzig;npd;0.9853658536585366
+anti;npd;0.9863013698630136
+vollpfost;afd;0.9866220735785953
+vollpfost;afd,  npd;0.9866220735785953
+dierecht;npd;0.9871794871794872
+vollpfost;npd;0.9899665551839465
+karow;npd;0.9903846153846154
+fcknzs;npd;0.9941176470588236
+pegida;npd;0.9956331877729258
+deutschland;npd;0.9957446808510638
+afd;npd;0.9963154016212233
+bundesparteitag;npd;1.0
+npd,  wurd;afd;0.6568627450980392
+npd,  recht;pegida;0.6799387442572741
+morg,  npd;weinheim;0.7264150943396226
+npd,  pegida;afd;0.7609649122807017
+pegida,  recht;zurst;0.7612612612612613
+npd,  politik;afd;0.8197674418604651
+afd,  dass;pack;0.8216216216216217
+npd,  widerlich;pegida;0.8313953488372093
+bundesparteitag,  npd;weinheim;0.8336673346693386
+bundesparteitag,  nonpdwhm;weinheim;0.8516483516483516
+afd,  widerlich;pegida;0.88125
+npd,  widerstand;pegida;0.8857808857808858
+polizei,  weinheim;npd;0.8900523560209425
+afd,  dass;pegida;0.8972972972972973
+dass,  pegida;pack;0.9
+npd,  widerstand;afd;0.9090909090909091
+npd,  pack;dass;0.9107142857142857
+afd,  pack;dass;0.926829268292683
+npd,  widerlich;afd;0.9302325581395349
+pack,  pegida;dass;0.9444444444444444
+npd,  pack;pegida;0.9642857142857143
+afd,  widerstand;pegida;0.9743589743589743
+afd,  pack;pegida;0.975609756097561
+npd,  pack;afd;0.9761904761904762
+dass,  pegida;afd;0.9764705882352941
+nonpdwhm,  weinheim;npd;0.9828660436137072
+antifa,  weinheim;npd;0.9856115107913669
+pegida,  widerlich;afd;0.986013986013986
+pack,  pegida;afd;0.9876543209876543
+berlin,  jothal;npd;0.9878048780487805
+npd,  vollpfost;pegida;0.9932432432432432
+dass,  pack;afd;0.9934640522875817
+npd,  zurst;recht;0.9941176470588236
+parteitag,  weinheim;npd;0.9952830188679245
+afd,  vollpfost;pegida;0.9966101694915255
+npd,  vollpfost;afd;0.9966216216216216
+pegida,  zurst;recht;0.9970501474926253
+npd,  zurst;pegida;0.9970588235294118
+afd,  pegida;npd;0.9978432782171099
+afd,  dass;npd;1.0
+afd,  fluchtling;npd;1.0
+jungefreiheit,  npd;afd;1.0
+afd,  jungefreiheit;npd;1.0
+afd,  mehr;npd;1.0
+afd,  pack;npd;1.0
+afd,  politik;npd;1.0
+afd,  recht;npd;1.0
+afd,  vollpfost;npd;1.0
+pegida,  vollpfost;afd;1.0
+afd,  widerlich;npd;1.0
+afd,  widerstand;npd;1.0
+pegida,  widerstand;afd;1.0
+afd,  wurd;npd;1.0
+bundesparteitag,  nonpdwhm;npd;1.0
+bundesparteitag,  weinheim;npd;1.0
+dass,  pack;npd;1.0
+dass,  pegida;npd;1.0
+dass,  pack;pegida;1.0
+morg,  weinheim;npd;1.0
+nonpdwhm,  parteitag;npd;1.0
+nonpdwhm,  prot;npd;1.0
+pack,  pegida;npd;1.0
+pegida,  recht;npd;1.0
+pegida,  vollpfost;npd;1.0
+prot,  weinheim;npd;1.0
+pegida,  widerlich;npd;1.0
+pegida,  widerstand;npd;1.0
+pegida,  zurst;npd;1.0
+recht,  zurst;npd;1.0
+recht,  zurst;pegida;1.0
